@@ -1,0 +1,12 @@
+{
+  "id": "hardware__cooling_b1_t15",
+  "suite": "hardware",
+  "kind": "cooling",
+  "seed": 42,
+  "grid": 8,
+  "timeout": 18,
+  "banks": 1,
+  "threshold": 15,
+  "source_trace": "runs/phase_03/pilot_03/raw/sources/synthetic_heating",
+  "variant": "cooling_b1_t15"
+}

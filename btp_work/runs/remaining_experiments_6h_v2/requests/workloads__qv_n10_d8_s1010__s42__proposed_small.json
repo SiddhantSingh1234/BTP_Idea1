@@ -1,0 +1,12 @@
+{
+  "id": "workloads__qv_n10_d8_s1010__s42__proposed_small",
+  "suite": "workloads",
+  "kind": "compile",
+  "case_id": "qv_n10_d8_s1010",
+  "case_path": "runs\\remaining_experiments_6h_v2\\inputs\\qv_n10_d8_s1010\\case.json",
+  "seed": 42,
+  "variant": "proposed_small",
+  "grid": 11,
+  "timeout": 90,
+  "repair": "small"
+}

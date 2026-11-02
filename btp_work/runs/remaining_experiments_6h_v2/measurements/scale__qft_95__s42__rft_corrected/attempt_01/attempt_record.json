@@ -1,0 +1,47 @@
+{
+  "target_id": "scale__qft_95__s42__rft_corrected",
+  "command": [
+    "C:\\Users\\hp\\Documents\\BTP\\btp_work\\.venv\\Scripts\\python.exe",
+    "-B",
+    "-X",
+    "utf8",
+    "C:\\Users\\hp\\Documents\\BTP\\btp_work\\runs\\remaining_experiments_6h_v2\\frozen\\tools\\bounded_experiment_worker.py",
+    "--input",
+    "C:\\Users\\hp\\Documents\\BTP\\btp_work\\runs\\remaining_experiments_6h_v2\\requests\\scale__qft_95__s42__rft_corrected.json",
+    "--grid",
+    "11",
+    "--seed",
+    "42",
+    "--out",
+    "C:\\Users\\hp\\Documents\\BTP\\btp_work\\runs\\remaining_experiments_6h_v2\\measurements\\scale__qft_95__s42__rft_corrected\\attempt_01\\worker"
+  ],
+  "worker_sha256": "eef102d4fa88d37f2f4df0fd6efbdb8010a3f179331b74ba4599660525cdde88",
+  "router_sha256": "6b26c4db8213ac36ee43a860f4b46ad566cc7126c105a875631584f766e7e458",
+  "input_sha256": "fa08b22e4abd34e60258f8eca040c5b9c348a49c5346f3a66106bc5be7f703bf",
+  "timeout_seconds": 75,
+  "memory_limit_bytes": 4294967296,
+  "attempt": 1,
+  "launcher_protocol": "windows-suspended-job-v1",
+  "launcher_sha256": "8eaf0a44bfb38fc240316c2103ab55c0658133ad46f7c90f55106a1830a61723",
+  "status": "timeout",
+  "process_exit_code": 1,
+  "process_wall_seconds": 75.37145340000279,
+  "peak_working_set_bytes": 1300934656,
+  "memory_definition": "observed sum of family peak working sets; not allocation-proof hard cap",
+  "monitored_process_ids": [
+    15212,
+    25956
+  ],
+  "result": null,
+  "worker_artifact_sha256": {
+    "worker/resolved_request.json": "98fe758ae41b2d3d8b1d31d4e5182495e32aa632091ecfbef43d7560c8fcf5e7",
+    "worker/stage.json": "ec273eb12804ed1cd77c426a98d35bfc1eca2c88e9db249d5f75360c25282451",
+    "worker/final/compilation.json": "3055c3bcebaab978ad983c49feea013e39068387fa87330d91a878f54c09ed8b",
+    "worker/final/instructions.txt": "b8d81799047df9a48c2304ef88bb8a099b6834598cfd695e2f5b769039fccb26",
+    "worker/final/schedule.json": "85416a1369b01a3dfd62072419d35d3efdba3952d7f32714a1ba53b34c7f78c3",
+    "worker/final/trace/events.jsonl": "5587a52d2643c16a5d71b7090bcf309f05c28f20a488fe97f4b8553e778d3e63",
+    "worker/final/trace/metadata.json": "99c1b5468b72826f32d70b875a03823264e21bcf0d0b54f9a47af84e1b455160"
+  },
+  "monitor_error": null,
+  "record_path": "runs\\remaining_experiments_6h_v2\\measurements\\scale__qft_95__s42__rft_corrected\\attempt_01\\attempt_record.json"
+}

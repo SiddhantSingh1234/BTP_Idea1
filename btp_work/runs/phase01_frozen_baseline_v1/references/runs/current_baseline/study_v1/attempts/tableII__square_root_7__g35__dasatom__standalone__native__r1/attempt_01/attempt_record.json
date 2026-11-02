@@ -1,0 +1,60 @@
+{
+  "job": {
+    "id": "tableII__square_root_7__g35__dasatom__standalone__native__r1",
+    "priority": 0,
+    "algorithm": "dasatom",
+    "variant": "standalone",
+    "family": "tableII",
+    "case": "square_root_7",
+    "grid": 35,
+    "register_policy": "native",
+    "repetition": 1,
+    "seed": 42,
+    "routing_seed": null,
+    "raw_path": "benchmarks/current_baseline_v1/raw/tableII/square_root_7.qasm",
+    "raw_sha256": "fc4b56718cc89792a0f9e0e2704cf4addc267b1fa73afc50a43eb5abff4d8641",
+    "expected_normalized_sha256": "9735e9011edce2a75c89c9ca5945735ec03f6e2365911b3b4d78021d1369c77c"
+  },
+  "attempt": 1,
+  "command": [
+    "C:\\Users\\hp\\Documents\\BTP\\btp_work\\.venv\\Scripts\\python.exe",
+    "-X",
+    "utf8",
+    "C:\\Users\\hp\\Documents\\BTP\\btp_work\\tools\\phase00_smoke.py",
+    "--algorithm",
+    "dasatom",
+    "--case",
+    "file",
+    "--input",
+    "C:\\Users\\hp\\Documents\\BTP\\btp_work\\benchmarks\\current_baseline_v1\\raw\\tableII\\square_root_7.qasm",
+    "--grid",
+    "35",
+    "--register-policy",
+    "native",
+    "--seed",
+    "42",
+    "--out",
+    "runs/current_baseline/study_v1/attempts/tableII__square_root_7__g35__dasatom__standalone__native__r1/attempt_01/worker"
+  ],
+  "started_utc": "2026-10-27T23:32:31.247032+00:00",
+  "timeout_seconds": 300,
+  "memory_limit_bytes": 4294967296,
+  "worker_sha256": "5e745542ebbbb7ffcf1d8a60632c684d40533f20015defd941cccd107cf05742",
+  "ended_utc": "2026-10-27T23:37:31.427993+00:00",
+  "status": "timeout",
+  "diagnostic_status": null,
+  "process_exit_code": 1,
+  "process_wall_seconds": 300.1800774000003,
+  "peak_working_set_bytes": 196771840,
+  "monitored_process_ids": [
+    18356,
+    26252
+  ],
+  "memory_measurement": "maximum observed sum of individual process-family peak working sets; includes venv redirector and real interpreter",
+  "result_path": null,
+  "stage_at_end": {
+    "stage": "dasatom_partition",
+    "wall_time": 1793143955.404162
+  },
+  "worker_result": {}
+}

@@ -1,0 +1,14 @@
+{
+  "state": "interrupted",
+  "updated_utc": "2026-10-28T22:35:38.431772+00:00",
+  "paper_configurations": 132,
+  "reused_rft": 66,
+  "new_corrected_dasatom_successes": 64,
+  "held_failures": 1,
+  "remaining_corrected_measurements": 2,
+  "measurement_matrix_complete": false,
+  "phase_01_complete": false,
+  "remaining_acceptance": "Final discrepancy analysis, regenerated figure/table, independent dataset gate and handoff review; no exact manuscript provenance claim.",
+  "paper_revision_evidence": "unresolved",
+  "full_physical_validity_claimed": false
+}

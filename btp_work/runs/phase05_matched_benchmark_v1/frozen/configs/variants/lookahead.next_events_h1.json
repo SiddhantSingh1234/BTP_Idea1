@@ -1,0 +1,11 @@
+{
+  "schema_version": "lookahead_options.phase04.v1",
+  "variant_id": "next_events_h1",
+  "lookahead_policy": "next_events",
+  "h": 1,
+  "gamma": 0.9,
+  "weight_mode": "uniform",
+  "current_distance_weight": 0,
+  "anchor_policy": "committed_active_else_current",
+  "assignment_future_bias": false
+}

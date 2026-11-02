@@ -1,0 +1,7 @@
+{
+  "instructions_exact": true,
+  "rng_after_exact": true,
+  "measured_start_rng_sha256": "ee3febdad891b327d7960a8ed67e08e227bb0d599fc5e9b32daaa18fb601dd62",
+  "frozen_native_trace_sha256": "591d446147c517275a4e2c78f3d3807a5bbfe22c5f4694e828c47553dd8e4ea6",
+  "fresh_trace_sha256": "6ea3e52cd1245a947da0de1e409b09dfb9724448a9ebb202eba03303bb8593b4"
+}

@@ -1,0 +1,4 @@
+Traceback (most recent call last):
+  File "C:\Users\hp\Documents\BTP\btp_work\source_review\upstream_excerpt\NAQC_Compiler\src\benchmark_runner.py", line 6, in <module>
+    import pandas as pd
+ModuleNotFoundError: No module named 'pandas'

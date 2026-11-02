@@ -1,0 +1,18 @@
+[
+  {
+    "repository": "ipash185/NAQC_Compiler",
+    "source_url": "https://github.com/ipash185/NAQC_Compiler",
+    "checked_utc": "2026-10-27T21:02:38.064774+00:00",
+    "query_url": "https://api.github.com/repos/ipash185/NAQC_Compiler/commits?per_page=1",
+    "status": "error",
+    "error": "<urlopen error [WinError 10013] An attempt was made to access a socket in a way forbidden by its access permissions>"
+  },
+  {
+    "repository": "Huangyunqi/DasAtom",
+    "source_url": "https://github.com/Huangyunqi/DasAtom",
+    "checked_utc": "2026-10-27T21:02:38.128811+00:00",
+    "query_url": "https://api.github.com/repos/Huangyunqi/DasAtom/commits?per_page=1",
+    "status": "error",
+    "error": "<urlopen error [WinError 10013] An attempt was made to access a socket in a way forbidden by its access permissions>"
+  }
+]

@@ -1,0 +1,436 @@
+{
+  "status": "invalid",
+  "structural_valid": false,
+  "violations": [
+    {
+      "code": "duplicate_occupancy",
+      "event_id": "e000038",
+      "detail": [
+        "a0",
+        "a9"
+      ]
+    },
+    {
+      "code": "duplicate_occupancy",
+      "event_id": "e000039",
+      "detail": [
+        "a0",
+        "a9"
+      ]
+    },
+    {
+      "code": "duplicate_occupancy",
+      "event_id": "e000040",
+      "detail": [
+        "a0",
+        "a9"
+      ]
+    },
+    {
+      "code": "duplicate_occupancy",
+      "event_id": "e000041",
+      "detail": [
+        "a0",
+        "a9"
+      ]
+    },
+    {
+      "code": "duplicate_occupancy",
+      "event_id": "e000041",
+      "detail": [
+        "a2",
+        "a4"
+      ]
+    },
+    {
+      "code": "duplicate_occupancy",
+      "event_id": "e000042",
+      "detail": [
+        "a0",
+        "a9"
+      ]
+    },
+    {
+      "code": "duplicate_occupancy",
+      "event_id": "e000042",
+      "detail": [
+        "a2",
+        "a4"
+      ]
+    },
+    {
+      "code": "duplicate_occupancy",
+      "event_id": "e000043",
+      "detail": [
+        "a0",
+        "a9"
+      ]
+    },
+    {
+      "code": "duplicate_occupancy",
+      "event_id": "e000043",
+      "detail": [
+        "a2",
+        "a4"
+      ]
+    },
+    {
+      "code": "duplicate_occupancy",
+      "event_id": "e000044",
+      "detail": [
+        "a0",
+        "a9"
+      ]
+    },
+    {
+      "code": "duplicate_occupancy",
+      "event_id": "e000044",
+      "detail": [
+        "a2",
+        "a4"
+      ]
+    },
+    {
+      "code": "duplicate_occupancy",
+      "event_id": "e000045",
+      "detail": [
+        "a0",
+        "a9"
+      ]
+    },
+    {
+      "code": "duplicate_occupancy",
+      "event_id": "e000045",
+      "detail": [
+        "a2",
+        "a4"
+      ]
+    },
+    {
+      "code": "duplicate_occupancy",
+      "event_id": "e000046",
+      "detail": [
+        "a0",
+        "a9"
+      ]
+    },
+    {
+      "code": "duplicate_occupancy",
+      "event_id": "e000046",
+      "detail": [
+        "a2",
+        "a4"
+      ]
+    },
+    {
+      "code": "duplicate_occupancy",
+      "event_id": "e000047",
+      "detail": [
+        "a0",
+        "a9"
+      ]
+    },
+    {
+      "code": "duplicate_occupancy",
+      "event_id": "e000047",
+      "detail": [
+        "a2",
+        "a4"
+      ]
+    },
+    {
+      "code": "duplicate_occupancy",
+      "event_id": "e000050",
+      "detail": [
+        "a0",
+        "a5"
+      ]
+    },
+    {
+      "code": "duplicate_occupancy",
+      "event_id": "e000096",
+      "detail": [
+        "a4",
+        "a7"
+      ]
+    },
+    {
+      "code": "duplicate_occupancy",
+      "event_id": "e000097",
+      "detail": [
+        "a4",
+        "a7"
+      ]
+    },
+    {
+      "code": "duplicate_occupancy",
+      "event_id": "e000098",
+      "detail": [
+        "a4",
+        "a7"
+      ]
+    },
+    {
+      "code": "duplicate_occupancy",
+      "event_id": "e000099",
+      "detail": [
+        "a4",
+        "a7"
+      ]
+    },
+    {
+      "code": "duplicate_occupancy",
+      "event_id": "e000099",
+      "detail": [
+        "a5",
+        "a8"
+      ]
+    },
+    {
+      "code": "duplicate_occupancy",
+      "event_id": "e000100",
+      "detail": [
+        "a4",
+        "a7"
+      ]
+    },
+    {
+      "code": "duplicate_occupancy",
+      "event_id": "e000100",
+      "detail": [
+        "a5",
+        "a8"
+      ]
+    },
+    {
+      "code": "duplicate_occupancy",
+      "event_id": "e000101",
+      "detail": [
+        "a4",
+        "a7"
+      ]
+    },
+    {
+      "code": "duplicate_occupancy",
+      "event_id": "e000101",
+      "detail": [
+        "a5",
+        "a8"
+      ]
+    },
+    {
+      "code": "duplicate_occupancy",
+      "event_id": "e000102",
+      "detail": [
+        "a4",
+        "a7"
+      ]
+    },
+    {
+      "code": "duplicate_occupancy",
+      "event_id": "e000102",
+      "detail": [
+        "a5",
+        "a8"
+      ]
+    },
+    {
+      "code": "duplicate_occupancy",
+      "event_id": "e000103",
+      "detail": [
+        "a4",
+        "a7"
+      ]
+    },
+    {
+      "code": "duplicate_occupancy",
+      "event_id": "e000104",
+      "detail": [
+        "a4",
+        "a7"
+      ]
+    },
+    {
+      "code": "duplicate_occupancy",
+      "event_id": "e000105",
+      "detail": [
+        "a4",
+        "a7"
+      ]
+    },
+    {
+      "code": "duplicate_occupancy",
+      "event_id": "e000108",
+      "detail": [
+        "a2",
+        "a4"
+      ]
+    },
+    {
+      "code": "duplicate_occupancy",
+      "event_id": "e000109",
+      "detail": [
+        "a2",
+        "a4"
+      ]
+    },
+    {
+      "code": "duplicate_occupancy",
+      "event_id": "e000110",
+      "detail": [
+        "a2",
+        "a4"
+      ]
+    },
+    {
+      "code": "duplicate_occupancy",
+      "event_id": "e000111",
+      "detail": [
+        "a2",
+        "a4"
+      ]
+    },
+    {
+      "code": "duplicate_occupancy",
+      "event_id": "e000112",
+      "detail": [
+        "a2",
+        "a4"
+      ]
+    },
+    {
+      "code": "duplicate_occupancy",
+      "event_id": "e000113",
+      "detail": [
+        "a2",
+        "a4"
+      ]
+    },
+    {
+      "code": "duplicate_occupancy",
+      "event_id": "e000114",
+      "detail": [
+        "a2",
+        "a4"
+      ]
+    },
+    {
+      "code": "duplicate_occupancy",
+      "event_id": "e000115",
+      "detail": [
+        "a2",
+        "a4"
+      ]
+    },
+    {
+      "code": "duplicate_occupancy",
+      "event_id": "e000116",
+      "detail": [
+        "a2",
+        "a4"
+      ]
+    },
+    {
+      "code": "duplicate_occupancy",
+      "event_id": "e000117",
+      "detail": [
+        "a2",
+        "a4"
+      ]
+    }
+  ],
+  "coverage": {
+    "checked": [
+      "CZ_gate_identity_and_dependencies",
+      "aod_order_equality_and_retained_carriers",
+      "endpoint_grid_bounds",
+      "final_mapping",
+      "gate_geometry",
+      "logical_carrier_mapping"
+    ],
+    "unsupported": [
+      "coincident_sites_with_unobserved_traps",
+      "physical_minimum_separation"
+    ],
+    "not_applicable": [
+      "unintended_global_pulses"
+    ]
+  },
+  "fully_validated_within_model": false,
+  "source_physical_evidence_complete": false,
+  "model_assumptions": [
+    "SLM-to-AOD-to-SLM for nonzero movers; one concurrent load and unload stage per batch",
+    "Shared normalized linear progress; times derived from declared profile, not observed"
+  ],
+  "semantics": {
+    "level": "structural_CZ_only",
+    "full_original_circuit_checked": false,
+    "physical_output_slot_to_logical_qubit": [
+      3,
+      2,
+      1,
+      7,
+      8,
+      5,
+      0,
+      4,
+      9,
+      6
+    ]
+  },
+  "final_positions": {
+    "a0": [
+      1,
+      1
+    ],
+    "a1": [
+      0,
+      2
+    ],
+    "a2": [
+      0,
+      1
+    ],
+    "a3": [
+      0,
+      0
+    ],
+    "a4": [
+      1,
+      2
+    ],
+    "a5": [
+      1,
+      0
+    ],
+    "a6": [
+      2,
+      0
+    ],
+    "a7": [
+      0,
+      3
+    ],
+    "a8": [
+      0,
+      4
+    ],
+    "a9": [
+      1,
+      3
+    ]
+  },
+  "final_logical_mapping": {
+    "a0": 0,
+    "a1": 1,
+    "a2": 2,
+    "a3": 3,
+    "a4": 4,
+    "a5": 5,
+    "a6": 6,
+    "a7": 7,
+    "a8": 8,
+    "a9": 9
+  },
+  "observed_gate_count": 105
+}

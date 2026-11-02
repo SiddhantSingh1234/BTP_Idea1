@@ -1,0 +1,562 @@
+[
+  {
+    "case": "qft_5",
+    "family": "qft",
+    "seed": 41,
+    "repeat": 0,
+    "status": "ok",
+    "attempt_record": "runs\\idea1_extension_v1\\campaign\\raw\\qft_5__s41__r0\\attempt_01\\attempt_record.json",
+    "process_wall_seconds": 7.747756399970967,
+    "peak_working_set_bytes": 134299648
+  },
+  {
+    "case": "qft_5",
+    "family": "qft",
+    "seed": 42,
+    "repeat": 0,
+    "status": "ok",
+    "attempt_record": "runs\\idea1_extension_v1\\cost_pilot\\raw\\qft_5__s42__r0\\attempt_01\\attempt_record.json",
+    "process_wall_seconds": 8.270635999972,
+    "peak_working_set_bytes": 134348800
+  },
+  {
+    "case": "qft_5",
+    "family": "qft",
+    "seed": 42,
+    "repeat": 1,
+    "status": "ok",
+    "attempt_record": "runs\\idea1_extension_v1\\campaign\\raw\\qft_5__s42__r1\\attempt_01\\attempt_record.json",
+    "process_wall_seconds": 7.85360450000735,
+    "peak_working_set_bytes": 134946816
+  },
+  {
+    "case": "qft_5",
+    "family": "qft",
+    "seed": 42,
+    "repeat": 2,
+    "status": "ok",
+    "attempt_record": "runs\\idea1_extension_v1\\campaign\\raw\\qft_5__s42__r2\\attempt_01\\attempt_record.json",
+    "process_wall_seconds": 7.844838400022127,
+    "peak_working_set_bytes": 141910016
+  },
+  {
+    "case": "qft_5",
+    "family": "qft",
+    "seed": 43,
+    "repeat": 0,
+    "status": "ok",
+    "attempt_record": "runs\\idea1_extension_v1\\campaign\\raw\\qft_5__s43__r0\\attempt_01\\attempt_record.json",
+    "process_wall_seconds": 8.969907199963927,
+    "peak_working_set_bytes": 134533120
+  },
+  {
+    "case": "qft_5",
+    "family": "qft",
+    "seed": 44,
+    "repeat": 0,
+    "status": "ok",
+    "attempt_record": "runs\\idea1_extension_v1\\campaign\\raw\\qft_5__s44__r0\\attempt_01\\attempt_record.json",
+    "process_wall_seconds": 5.663360200007446,
+    "peak_working_set_bytes": 134844416
+  },
+  {
+    "case": "qft_5",
+    "family": "qft",
+    "seed": 45,
+    "repeat": 0,
+    "status": "ok",
+    "attempt_record": "runs\\idea1_extension_v1\\campaign\\raw\\qft_5__s45__r0\\attempt_01\\attempt_record.json",
+    "process_wall_seconds": 5.113790100032929,
+    "peak_working_set_bytes": 135057408
+  },
+  {
+    "case": "qft_10",
+    "family": "qft",
+    "seed": 41,
+    "repeat": 0,
+    "status": "ok",
+    "attempt_record": "runs\\idea1_extension_v1\\campaign\\raw\\qft_10__s41__r0\\attempt_01\\attempt_record.json",
+    "process_wall_seconds": 8.02792749996297,
+    "peak_working_set_bytes": 148242432
+  },
+  {
+    "case": "qft_10",
+    "family": "qft",
+    "seed": 42,
+    "repeat": 0,
+    "status": "ok",
+    "attempt_record": "runs\\idea1_extension_v1\\campaign\\raw\\qft_10__s42__r0\\attempt_01\\attempt_record.json",
+    "process_wall_seconds": 19.196513100003358,
+    "peak_working_set_bytes": 147509248
+  },
+  {
+    "case": "qft_10",
+    "family": "qft",
+    "seed": 42,
+    "repeat": 1,
+    "status": "ok",
+    "attempt_record": "runs\\idea1_extension_v1\\campaign\\raw\\qft_10__s42__r1\\attempt_01\\attempt_record.json",
+    "process_wall_seconds": 12.856257000006735,
+    "peak_working_set_bytes": 147333120
+  },
+  {
+    "case": "qft_10",
+    "family": "qft",
+    "seed": 42,
+    "repeat": 2,
+    "status": "ok",
+    "attempt_record": "runs\\idea1_extension_v1\\campaign\\raw\\qft_10__s42__r2\\attempt_01\\attempt_record.json",
+    "process_wall_seconds": 8.45822730002692,
+    "peak_working_set_bytes": 147705856
+  },
+  {
+    "case": "qft_10",
+    "family": "qft",
+    "seed": 43,
+    "repeat": 0,
+    "status": "ok",
+    "attempt_record": "runs\\idea1_extension_v1\\campaign\\raw\\qft_10__s43__r0\\attempt_01\\attempt_record.json",
+    "process_wall_seconds": 8.25297099997988,
+    "peak_working_set_bytes": 148127744
+  },
+  {
+    "case": "qft_10",
+    "family": "qft",
+    "seed": 44,
+    "repeat": 0,
+    "status": "ok",
+    "attempt_record": "runs\\idea1_extension_v1\\campaign\\raw\\qft_10__s44__r0\\attempt_01\\attempt_record.json",
+    "process_wall_seconds": 8.967023800010793,
+    "peak_working_set_bytes": 156033024
+  },
+  {
+    "case": "qft_10",
+    "family": "qft",
+    "seed": 45,
+    "repeat": 0,
+    "status": "ok",
+    "attempt_record": "runs\\idea1_extension_v1\\campaign\\raw\\qft_10__s45__r0\\attempt_01\\attempt_record.json",
+    "process_wall_seconds": 9.056464600027539,
+    "peak_working_set_bytes": 147992576
+  },
+  {
+    "case": "4mod5-v1_22",
+    "family": "qtetris",
+    "seed": 41,
+    "repeat": 0,
+    "status": "ok",
+    "attempt_record": "runs\\idea1_extension_v1\\campaign\\raw\\4mod5-v1_22__s41__r0\\attempt_01\\attempt_record.json",
+    "process_wall_seconds": 6.640141099982429,
+    "peak_working_set_bytes": 133386240
+  },
+  {
+    "case": "4mod5-v1_22",
+    "family": "qtetris",
+    "seed": 42,
+    "repeat": 0,
+    "status": "ok",
+    "attempt_record": "runs\\idea1_extension_v1\\campaign\\raw\\4mod5-v1_22__s42__r0\\attempt_01\\attempt_record.json",
+    "process_wall_seconds": 5.163331499963533,
+    "peak_working_set_bytes": 133341184
+  },
+  {
+    "case": "4mod5-v1_22",
+    "family": "qtetris",
+    "seed": 42,
+    "repeat": 1,
+    "status": "ok",
+    "attempt_record": "runs\\idea1_extension_v1\\campaign\\raw\\4mod5-v1_22__s42__r1\\attempt_01\\attempt_record.json",
+    "process_wall_seconds": 4.036980499979109,
+    "peak_working_set_bytes": 133496832
+  },
+  {
+    "case": "4mod5-v1_22",
+    "family": "qtetris",
+    "seed": 42,
+    "repeat": 2,
+    "status": "ok",
+    "attempt_record": "runs\\idea1_extension_v1\\campaign\\raw\\4mod5-v1_22__s42__r2\\attempt_01\\attempt_record.json",
+    "process_wall_seconds": 4.9417684999643825,
+    "peak_working_set_bytes": 133607424
+  },
+  {
+    "case": "4mod5-v1_22",
+    "family": "qtetris",
+    "seed": 43,
+    "repeat": 0,
+    "status": "ok",
+    "attempt_record": "runs\\idea1_extension_v1\\campaign\\raw\\4mod5-v1_22__s43__r0\\attempt_01\\attempt_record.json",
+    "process_wall_seconds": 4.733130499953404,
+    "peak_working_set_bytes": 133509120
+  },
+  {
+    "case": "4mod5-v1_22",
+    "family": "qtetris",
+    "seed": 44,
+    "repeat": 0,
+    "status": "ok",
+    "attempt_record": "runs\\idea1_extension_v1\\campaign\\raw\\4mod5-v1_22__s44__r0\\attempt_01\\attempt_record.json",
+    "process_wall_seconds": 5.150897399988025,
+    "peak_working_set_bytes": 133615616
+  },
+  {
+    "case": "4mod5-v1_22",
+    "family": "qtetris",
+    "seed": 45,
+    "repeat": 0,
+    "status": "ok",
+    "attempt_record": "runs\\idea1_extension_v1\\campaign\\raw\\4mod5-v1_22__s45__r0\\attempt_01\\attempt_record.json",
+    "process_wall_seconds": 5.183800600003451,
+    "peak_working_set_bytes": 133095424
+  },
+  {
+    "case": "cm152a_212",
+    "family": "qtetris",
+    "seed": 41,
+    "repeat": 0,
+    "status": "ok",
+    "attempt_record": "runs\\idea1_extension_v1\\campaign\\raw\\cm152a_212__s41__r0\\attempt_01\\attempt_record.json",
+    "process_wall_seconds": 46.88981559994863,
+    "peak_working_set_bytes": 269881344
+  },
+  {
+    "case": "cm152a_212",
+    "family": "qtetris",
+    "seed": 42,
+    "repeat": 0,
+    "status": "ok",
+    "attempt_record": "runs\\idea1_extension_v1\\campaign\\raw\\cm152a_212__s42__r0\\attempt_01\\attempt_record.json",
+    "process_wall_seconds": 43.63389910000842,
+    "peak_working_set_bytes": 261513216
+  },
+  {
+    "case": "cm152a_212",
+    "family": "qtetris",
+    "seed": 42,
+    "repeat": 1,
+    "status": "ok",
+    "attempt_record": "runs\\idea1_extension_v1\\campaign\\raw\\cm152a_212__s42__r1\\attempt_01\\attempt_record.json",
+    "process_wall_seconds": 74.40459869999904,
+    "peak_working_set_bytes": 262250496
+  },
+  {
+    "case": "cm152a_212",
+    "family": "qtetris",
+    "seed": 42,
+    "repeat": 2,
+    "status": "ok",
+    "attempt_record": "runs\\idea1_extension_v1\\campaign\\raw\\cm152a_212__s42__r2\\attempt_01\\attempt_record.json",
+    "process_wall_seconds": 71.00472260004608,
+    "peak_working_set_bytes": 261693440
+  },
+  {
+    "case": "cm152a_212",
+    "family": "qtetris",
+    "seed": 43,
+    "repeat": 0,
+    "status": "ok",
+    "attempt_record": "runs\\idea1_extension_v1\\campaign\\raw\\cm152a_212__s43__r0\\attempt_01\\attempt_record.json",
+    "process_wall_seconds": 52.608445000019856,
+    "peak_working_set_bytes": 260853760
+  },
+  {
+    "case": "cm152a_212",
+    "family": "qtetris",
+    "seed": 44,
+    "repeat": 0,
+    "status": "ok",
+    "attempt_record": "runs\\idea1_extension_v1\\campaign\\raw\\cm152a_212__s44__r0\\attempt_01\\attempt_record.json",
+    "process_wall_seconds": 48.00853330001701,
+    "peak_working_set_bytes": 261980160
+  },
+  {
+    "case": "cm152a_212",
+    "family": "qtetris",
+    "seed": 45,
+    "repeat": 0,
+    "status": "ok",
+    "attempt_record": "runs\\idea1_extension_v1\\campaign\\raw\\cm152a_212__s45__r0\\attempt_01\\attempt_record.json",
+    "process_wall_seconds": 80.74515710002743,
+    "peak_working_set_bytes": 261263360
+  },
+  {
+    "case": "qaoa_n6_p2_g701",
+    "family": "qaoa",
+    "seed": 41,
+    "repeat": 0,
+    "status": "ok",
+    "attempt_record": "runs\\idea1_extension_v1\\campaign\\raw\\qaoa_n6_p2_g701__s41__r0\\attempt_01\\attempt_record.json",
+    "process_wall_seconds": 5.736178899998777,
+    "peak_working_set_bytes": 137232384
+  },
+  {
+    "case": "qaoa_n6_p2_g701",
+    "family": "qaoa",
+    "seed": 42,
+    "repeat": 0,
+    "status": "ok",
+    "attempt_record": "runs\\idea1_extension_v1\\cost_pilot\\raw\\qaoa_n6_p2_g701__s42__r0\\attempt_01\\attempt_record.json",
+    "process_wall_seconds": 9.475602000020444,
+    "peak_working_set_bytes": 146006016
+  },
+  {
+    "case": "qaoa_n6_p2_g701",
+    "family": "qaoa",
+    "seed": 42,
+    "repeat": 1,
+    "status": "ok",
+    "attempt_record": "runs\\idea1_extension_v1\\campaign\\raw\\qaoa_n6_p2_g701__s42__r1\\attempt_01\\attempt_record.json",
+    "process_wall_seconds": 5.526364099991042,
+    "peak_working_set_bytes": 137535488
+  },
+  {
+    "case": "qaoa_n6_p2_g701",
+    "family": "qaoa",
+    "seed": 42,
+    "repeat": 2,
+    "status": "ok",
+    "attempt_record": "runs\\idea1_extension_v1\\campaign\\raw\\qaoa_n6_p2_g701__s42__r2\\attempt_01\\attempt_record.json",
+    "process_wall_seconds": 5.508092999982182,
+    "peak_working_set_bytes": 137453568
+  },
+  {
+    "case": "qaoa_n6_p2_g701",
+    "family": "qaoa",
+    "seed": 43,
+    "repeat": 0,
+    "status": "ok",
+    "attempt_record": "runs\\idea1_extension_v1\\campaign\\raw\\qaoa_n6_p2_g701__s43__r0\\attempt_01\\attempt_record.json",
+    "process_wall_seconds": 5.515849600022193,
+    "peak_working_set_bytes": 137531392
+  },
+  {
+    "case": "qaoa_n6_p2_g701",
+    "family": "qaoa",
+    "seed": 44,
+    "repeat": 0,
+    "status": "ok",
+    "attempt_record": "runs\\idea1_extension_v1\\campaign\\raw\\qaoa_n6_p2_g701__s44__r0\\attempt_01\\attempt_record.json",
+    "process_wall_seconds": 5.959557700029109,
+    "peak_working_set_bytes": 138137600
+  },
+  {
+    "case": "qaoa_n6_p2_g701",
+    "family": "qaoa",
+    "seed": 45,
+    "repeat": 0,
+    "status": "ok",
+    "attempt_record": "runs\\idea1_extension_v1\\campaign\\raw\\qaoa_n6_p2_g701__s45__r0\\attempt_01\\attempt_record.json",
+    "process_wall_seconds": 5.503309099993203,
+    "peak_working_set_bytes": 138280960
+  },
+  {
+    "case": "qv_n6_d4_s701",
+    "family": "quantum_volume",
+    "seed": 41,
+    "repeat": 0,
+    "status": "ok",
+    "attempt_record": "runs\\idea1_extension_v1\\campaign\\raw\\qv_n6_d4_s701__s41__r0\\attempt_01\\attempt_record.json",
+    "process_wall_seconds": 4.663365599990357,
+    "peak_working_set_bytes": 130715648
+  },
+  {
+    "case": "qv_n6_d4_s701",
+    "family": "quantum_volume",
+    "seed": 42,
+    "repeat": 0,
+    "status": "ok",
+    "attempt_record": "runs\\idea1_extension_v1\\campaign\\raw\\qv_n6_d4_s701__s42__r0\\attempt_01\\attempt_record.json",
+    "process_wall_seconds": 4.902673399948981,
+    "peak_working_set_bytes": 130605056
+  },
+  {
+    "case": "qv_n6_d4_s701",
+    "family": "quantum_volume",
+    "seed": 42,
+    "repeat": 1,
+    "status": "ok",
+    "attempt_record": "runs\\idea1_extension_v1\\campaign\\raw\\qv_n6_d4_s701__s42__r1\\attempt_01\\attempt_record.json",
+    "process_wall_seconds": 5.329873600043356,
+    "peak_working_set_bytes": 130785280
+  },
+  {
+    "case": "qv_n6_d4_s701",
+    "family": "quantum_volume",
+    "seed": 42,
+    "repeat": 2,
+    "status": "ok",
+    "attempt_record": "runs\\idea1_extension_v1\\campaign\\raw\\qv_n6_d4_s701__s42__r2\\attempt_01\\attempt_record.json",
+    "process_wall_seconds": 5.330583699978888,
+    "peak_working_set_bytes": 131629056
+  },
+  {
+    "case": "qv_n6_d4_s701",
+    "family": "quantum_volume",
+    "seed": 43,
+    "repeat": 0,
+    "status": "ok",
+    "attempt_record": "runs\\idea1_extension_v1\\campaign\\raw\\qv_n6_d4_s701__s43__r0\\attempt_01\\attempt_record.json",
+    "process_wall_seconds": 4.895404100010637,
+    "peak_working_set_bytes": 130584576
+  },
+  {
+    "case": "qv_n6_d4_s701",
+    "family": "quantum_volume",
+    "seed": 44,
+    "repeat": 0,
+    "status": "ok",
+    "attempt_record": "runs\\idea1_extension_v1\\campaign\\raw\\qv_n6_d4_s701__s44__r0\\attempt_01\\attempt_record.json",
+    "process_wall_seconds": 5.108909600006882,
+    "peak_working_set_bytes": 137658368
+  },
+  {
+    "case": "qv_n6_d4_s701",
+    "family": "quantum_volume",
+    "seed": 45,
+    "repeat": 0,
+    "status": "ok",
+    "attempt_record": "runs\\idea1_extension_v1\\campaign\\raw\\qv_n6_d4_s701__s45__r0\\attempt_01\\attempt_record.json",
+    "process_wall_seconds": 4.676926799991634,
+    "peak_working_set_bytes": 130428928
+  },
+  {
+    "case": "qaoa_n8_p2_g702",
+    "family": "qaoa",
+    "seed": 41,
+    "repeat": 0,
+    "status": "ok",
+    "attempt_record": "runs\\idea1_extension_v1\\campaign\\raw\\qaoa_n8_p2_g702__s41__r0\\attempt_01\\attempt_record.json",
+    "process_wall_seconds": 6.138738000008743,
+    "peak_working_set_bytes": 139030528
+  },
+  {
+    "case": "qaoa_n8_p2_g702",
+    "family": "qaoa",
+    "seed": 42,
+    "repeat": 0,
+    "status": "ok",
+    "attempt_record": "runs\\idea1_extension_v1\\campaign\\raw\\qaoa_n8_p2_g702__s42__r0\\attempt_01\\attempt_record.json",
+    "process_wall_seconds": 5.923362699977588,
+    "peak_working_set_bytes": 137871360
+  },
+  {
+    "case": "qaoa_n8_p2_g702",
+    "family": "qaoa",
+    "seed": 42,
+    "repeat": 1,
+    "status": "ok",
+    "attempt_record": "runs\\idea1_extension_v1\\campaign\\raw\\qaoa_n8_p2_g702__s42__r1\\attempt_01\\attempt_record.json",
+    "process_wall_seconds": 5.927464899956249,
+    "peak_working_set_bytes": 138956800
+  },
+  {
+    "case": "qaoa_n8_p2_g702",
+    "family": "qaoa",
+    "seed": 42,
+    "repeat": 2,
+    "status": "ok",
+    "attempt_record": "runs\\idea1_extension_v1\\campaign\\raw\\qaoa_n8_p2_g702__s42__r2\\attempt_01\\attempt_record.json",
+    "process_wall_seconds": 6.378541600017343,
+    "peak_working_set_bytes": 138874880
+  },
+  {
+    "case": "qaoa_n8_p2_g702",
+    "family": "qaoa",
+    "seed": 43,
+    "repeat": 0,
+    "status": "ok",
+    "attempt_record": "runs\\idea1_extension_v1\\campaign\\raw\\qaoa_n8_p2_g702__s43__r0\\attempt_01\\attempt_record.json",
+    "process_wall_seconds": 6.350003800005652,
+    "peak_working_set_bytes": 138113024
+  },
+  {
+    "case": "qaoa_n8_p2_g702",
+    "family": "qaoa",
+    "seed": 44,
+    "repeat": 0,
+    "status": "ok",
+    "attempt_record": "runs\\idea1_extension_v1\\campaign\\raw\\qaoa_n8_p2_g702__s44__r0\\attempt_01\\attempt_record.json",
+    "process_wall_seconds": 6.1420830999850295,
+    "peak_working_set_bytes": 137859072
+  },
+  {
+    "case": "qaoa_n8_p2_g702",
+    "family": "qaoa",
+    "seed": 45,
+    "repeat": 0,
+    "status": "ok",
+    "attempt_record": "runs\\idea1_extension_v1\\campaign\\raw\\qaoa_n8_p2_g702__s45__r0\\attempt_01\\attempt_record.json",
+    "process_wall_seconds": 6.340204399952199,
+    "peak_working_set_bytes": 138444800
+  },
+  {
+    "case": "qv_n8_d4_s702",
+    "family": "quantum_volume",
+    "seed": 41,
+    "repeat": 0,
+    "status": "ok",
+    "attempt_record": "runs\\idea1_extension_v1\\campaign\\raw\\qv_n8_d4_s702__s41__r0\\attempt_01\\attempt_record.json",
+    "process_wall_seconds": 5.493172599992249,
+    "peak_working_set_bytes": 132333568
+  },
+  {
+    "case": "qv_n8_d4_s702",
+    "family": "quantum_volume",
+    "seed": 42,
+    "repeat": 0,
+    "status": "ok",
+    "attempt_record": "runs\\idea1_extension_v1\\campaign\\raw\\qv_n8_d4_s702__s42__r0\\attempt_01\\attempt_record.json",
+    "process_wall_seconds": 5.757543200044893,
+    "peak_working_set_bytes": 131772416
+  },
+  {
+    "case": "qv_n8_d4_s702",
+    "family": "quantum_volume",
+    "seed": 42,
+    "repeat": 1,
+    "status": "ok",
+    "attempt_record": "runs\\idea1_extension_v1\\campaign\\raw\\qv_n8_d4_s702__s42__r1\\attempt_01\\attempt_record.json",
+    "process_wall_seconds": 5.5094430000172,
+    "peak_working_set_bytes": 133246976
+  },
+  {
+    "case": "qv_n8_d4_s702",
+    "family": "quantum_volume",
+    "seed": 42,
+    "repeat": 2,
+    "status": "ok",
+    "attempt_record": "runs\\idea1_extension_v1\\campaign\\raw\\qv_n8_d4_s702__s42__r2\\attempt_01\\attempt_record.json",
+    "process_wall_seconds": 5.519309199997224,
+    "peak_working_set_bytes": 132419584
+  },
+  {
+    "case": "qv_n8_d4_s702",
+    "family": "quantum_volume",
+    "seed": 43,
+    "repeat": 0,
+    "status": "ok",
+    "attempt_record": "runs\\idea1_extension_v1\\campaign\\raw\\qv_n8_d4_s702__s43__r0\\attempt_01\\attempt_record.json",
+    "process_wall_seconds": 5.9255373000050895,
+    "peak_working_set_bytes": 132845568
+  },
+  {
+    "case": "qv_n8_d4_s702",
+    "family": "quantum_volume",
+    "seed": 44,
+    "repeat": 0,
+    "status": "ok",
+    "attempt_record": "runs\\idea1_extension_v1\\campaign\\raw\\qv_n8_d4_s702__s44__r0\\attempt_01\\attempt_record.json",
+    "process_wall_seconds": 5.944874900043942,
+    "peak_working_set_bytes": 133328896
+  },
+  {
+    "case": "qv_n8_d4_s702",
+    "family": "quantum_volume",
+    "seed": 45,
+    "repeat": 0,
+    "status": "ok",
+    "attempt_record": "runs\\idea1_extension_v1\\campaign\\raw\\qv_n8_d4_s702__s45__r0\\attempt_01\\attempt_record.json",
+    "process_wall_seconds": 5.704967700003181,
+    "peak_working_set_bytes": 140652544
+  }
+]

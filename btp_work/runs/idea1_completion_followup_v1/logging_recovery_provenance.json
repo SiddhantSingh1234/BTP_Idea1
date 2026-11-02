@@ -1,0 +1,28 @@
+{
+  "schema": "logging_only_recovery.v1",
+  "wrapper_sha256": "5eb21ed8910be7ba5a84ab60261b065fbd6166cdfd70954f50f66f80894baedf",
+  "affected_records": {
+    "runs\\idea1_completion_followup_v1\\measurements\\scale__qft_100__s42__rft_corrected\\attempt_01\\attempt_record.json": "720d48a1ba0d4f2c626bbed7142a50be126c799b2a9e771bc86ae81fce1e4716"
+  },
+  "pre_recovery_csv_sha256": "94cfad114ed8f32f9ceca0b1ced8b80b1c1e3341aac121f1ce02687fd5862c3b",
+  "scientific_worker_changed": false,
+  "caps_changed": false,
+  "budget_extended": false,
+  "recovery_eligibility": "only monitor PermissionError at atomic budget-log replace, null worker result; at most two attempts per cell",
+  "atomic_write_retry_seconds": 3.0,
+  "atomic_write_retry_count": 0,
+  "atomic_write_retry_paths": [],
+  "post_recovery_csv_sha256": "7882861fae93e0269efb424bae362d18a44c56d7e248ba243e0b312bbe4ee09f",
+  "post_recovery_summary": {
+    "updated_utc": "2026-10-31T18:20:38.489713+00:00",
+    "planned_cells": 30,
+    "status_counts": {
+      "ok": 23,
+      "timeout": 7
+    },
+    "all_cells_terminal": true,
+    "new_accepted_schedules": 23,
+    "research_analysis_performed": false,
+    "reports_or_slides_built": false
+  }
+}

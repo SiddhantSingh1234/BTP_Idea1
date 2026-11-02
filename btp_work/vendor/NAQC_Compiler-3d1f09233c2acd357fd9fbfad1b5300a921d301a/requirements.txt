@@ -1,0 +1,8 @@
+qiskit
+numpy
+pandas
+scipy
+matplotlib
+plotly
+networkx
+openpyxl

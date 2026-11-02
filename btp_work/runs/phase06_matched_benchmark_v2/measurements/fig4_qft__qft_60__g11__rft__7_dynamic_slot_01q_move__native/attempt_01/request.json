@@ -1,0 +1,26 @@
+{
+  "target_id": "fig4_qft__qft_60__g11__rft__7_dynamic_slot_01q_move__native",
+  "command": [
+    "C:\\Users\\hp\\Documents\\BTP\\btp_work\\.venv\\Scripts\\python.exe",
+    "-B",
+    "-X",
+    "utf8",
+    "C:\\Users\\hp\\Documents\\BTP\\btp_work\\runs\\phase06_matched_benchmark_v2\\execution_optimization_v1\\tools\\model_comparison_worker.py",
+    "--input",
+    "C:\\Users\\hp\\Documents\\BTP\\btp_work\\runs\\phase06_matched_benchmark_v2\\frozen\\benchmarks\\current_baseline_v1\\normalized\\fig4_qft\\qft_60_native.qasm",
+    "--grid",
+    "11",
+    "--seed",
+    "42",
+    "--out",
+    "C:\\Users\\hp\\Documents\\BTP\\btp_work\\reports\\phase_06\\memory_stress_tests_02\\raw\\fig4_qft__qft_60__g11__rft__7_dynamic_slot_01q_move__native\\attempt_01\\worker"
+  ],
+  "worker_sha256": "09ad867633504ee9cf8535c5e8352207892bb3f3befa7d87a10e779d82130da6",
+  "router_sha256": "3df6b6483b04ca752cdc4394345bd280afcca7e76e4489f2b1c5e0d251054ed4",
+  "input_sha256": "779418ca7ecc0dc0d6892960f35450d423a11945961eac69002334539fc4434b",
+  "timeout_seconds": 7200,
+  "memory_limit_bytes": 4294967296,
+  "attempt": 1,
+  "launcher_protocol": "windows-suspended-job-v1",
+  "launcher_sha256": "8eaf0a44bfb38fc240316c2103ab55c0658133ad46f7c90f55106a1830a61723"
+}

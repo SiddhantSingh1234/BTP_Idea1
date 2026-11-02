@@ -1,0 +1,279 @@
+{
+  "status": "unsupported",
+  "structural_valid": true,
+  "violations": [],
+  "coverage": {
+    "checked": [
+      "CZ_gate_identity_and_dependencies",
+      "aod_order_equality_and_retained_carriers",
+      "endpoint_grid_bounds",
+      "final_mapping",
+      "gate_geometry",
+      "logical_carrier_mapping"
+    ],
+    "unsupported": [
+      "physical_minimum_separation"
+    ],
+    "not_applicable": [
+      "unintended_global_pulses"
+    ]
+  },
+  "fully_validated_within_model": false,
+  "source_physical_evidence_complete": false,
+  "unresolved_coincident_sites": [],
+  "model_assumptions": [
+    "SLM-to-AOD-to-SLM for nonzero movers; one concurrent load and unload stage per batch",
+    "Shared normalized linear progress; times derived from declared profile, not observed"
+  ],
+  "semantics": {
+    "level": "structural_CZ_only",
+    "full_original_circuit_checked": false,
+    "physical_output_slot_to_logical_qubit": [
+      2,
+      1,
+      0,
+      3,
+      36,
+      5,
+      34,
+      4,
+      35,
+      13,
+      14,
+      37,
+      38,
+      39,
+      6,
+      10,
+      9,
+      11,
+      12,
+      15,
+      23,
+      24,
+      7,
+      33,
+      8,
+      19,
+      20,
+      26,
+      22,
+      25,
+      27,
+      30,
+      32,
+      21,
+      31,
+      28,
+      16,
+      29,
+      18,
+      17
+    ]
+  },
+  "final_positions": {
+    "a0": [
+      0,
+      2
+    ],
+    "a1": [
+      0,
+      1
+    ],
+    "a2": [
+      0,
+      0
+    ],
+    "a3": [
+      0,
+      3
+    ],
+    "a4": [
+      0,
+      7
+    ],
+    "a5": [
+      0,
+      5
+    ],
+    "a6": [
+      1,
+      3
+    ],
+    "a7": [
+      2,
+      0
+    ],
+    "a8": [
+      2,
+      2
+    ],
+    "a9": [
+      1,
+      5
+    ],
+    "a10": [
+      1,
+      4
+    ],
+    "a11": [
+      1,
+      6
+    ],
+    "a12": [
+      1,
+      7
+    ],
+    "a13": [
+      0,
+      9
+    ],
+    "a14": [
+      0,
+      10
+    ],
+    "a15": [
+      1,
+      8
+    ],
+    "a16": [
+      3,
+      5
+    ],
+    "a17": [
+      4,
+      5
+    ],
+    "a18": [
+      4,
+      2
+    ],
+    "a19": [
+      2,
+      3
+    ],
+    "a20": [
+      2,
+      4
+    ],
+    "a21": [
+      3,
+      1
+    ],
+    "a22": [
+      2,
+      6
+    ],
+    "a23": [
+      1,
+      9
+    ],
+    "a24": [
+      1,
+      10
+    ],
+    "a25": [
+      2,
+      7
+    ],
+    "a26": [
+      2,
+      5
+    ],
+    "a27": [
+      2,
+      8
+    ],
+    "a28": [
+      3,
+      4
+    ],
+    "a29": [
+      3,
+      6
+    ],
+    "a30": [
+      2,
+      9
+    ],
+    "a31": [
+      3,
+      3
+    ],
+    "a32": [
+      3,
+      0
+    ],
+    "a33": [
+      2,
+      1
+    ],
+    "a34": [
+      0,
+      6
+    ],
+    "a35": [
+      0,
+      8
+    ],
+    "a36": [
+      0,
+      4
+    ],
+    "a37": [
+      1,
+      0
+    ],
+    "a38": [
+      1,
+      1
+    ],
+    "a39": [
+      1,
+      2
+    ]
+  },
+  "final_logical_mapping": {
+    "a0": 0,
+    "a1": 1,
+    "a2": 2,
+    "a3": 3,
+    "a4": 4,
+    "a5": 5,
+    "a6": 6,
+    "a7": 7,
+    "a8": 8,
+    "a9": 9,
+    "a10": 10,
+    "a11": 11,
+    "a12": 12,
+    "a13": 13,
+    "a14": 14,
+    "a15": 15,
+    "a16": 16,
+    "a17": 17,
+    "a18": 18,
+    "a19": 19,
+    "a20": 20,
+    "a21": 21,
+    "a22": 22,
+    "a23": 23,
+    "a24": 24,
+    "a25": 25,
+    "a26": 26,
+    "a27": 27,
+    "a28": 28,
+    "a29": 29,
+    "a30": 30,
+    "a31": 31,
+    "a32": 32,
+    "a33": 33,
+    "a34": 34,
+    "a35": 35,
+    "a36": 36,
+    "a37": 37,
+    "a38": 38,
+    "a39": 39
+  },
+  "observed_gate_count": 1620
+}

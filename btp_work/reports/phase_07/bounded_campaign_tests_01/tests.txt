@@ -1,0 +1,12 @@
+test_critical_depths_against_explicit_branched_dag (__main__.Acceptance.test_critical_depths_against_explicit_branched_dag) ... ok
+test_equal_depth_weights_recover_original_discounted_potential (__main__.Acceptance.test_equal_depth_weights_recover_original_discounted_potential) ... ok
+test_prior_completed_result_files_are_unchanged (__main__.Acceptance.test_prior_completed_result_files_are_unchanged) ... ok
+test_profile_sweeps_preserve_untargeted_parameters (__main__.Acceptance.test_profile_sweeps_preserve_untargeted_parameters) ... ok
+test_scoped_adapter_does_not_leak_or_change_uniform_mode (__main__.Acceptance.test_scoped_adapter_does_not_leak_or_change_uniform_mode) ... ok
+test_weighted_choice_matches_hand_sum_and_changes_tie (__main__.Acceptance.test_weighted_choice_matches_hand_sum_and_changes_tie) ... ok
+test_weighted_full_circuit_is_valid_and_preserves_original_semantics (__main__.Acceptance.test_weighted_full_circuit_is_valid_and_preserves_original_semantics) ... ok
+
+----------------------------------------------------------------------
+Ran 7 tests in 3.751s
+
+OK

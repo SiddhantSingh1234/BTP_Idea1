@@ -1,0 +1,43 @@
+{
+  "target_id": "scale__qft_85__s42__rft_snapshot",
+  "command": [
+    "C:\\Users\\hp\\Documents\\BTP\\btp_work\\.venv\\Scripts\\python.exe",
+    "-B",
+    "-X",
+    "utf8",
+    "C:\\Users\\hp\\Documents\\BTP\\btp_work\\runs\\remaining_experiments_6h_v2\\frozen\\tools\\bounded_experiment_worker.py",
+    "--input",
+    "C:\\Users\\hp\\Documents\\BTP\\btp_work\\runs\\remaining_experiments_6h_v2\\requests\\scale__qft_85__s42__rft_snapshot.json",
+    "--grid",
+    "11",
+    "--seed",
+    "42",
+    "--out",
+    "C:\\Users\\hp\\Documents\\BTP\\btp_work\\runs\\remaining_experiments_6h_v2\\measurements\\scale__qft_85__s42__rft_snapshot\\attempt_01\\worker"
+  ],
+  "worker_sha256": "eef102d4fa88d37f2f4df0fd6efbdb8010a3f179331b74ba4599660525cdde88",
+  "router_sha256": "6b26c4db8213ac36ee43a860f4b46ad566cc7126c105a875631584f766e7e458",
+  "input_sha256": "ab02197aca3949e2685c25961eb1dd945ec0974aa9ea6fd18250ed69b4d7c6d2",
+  "timeout_seconds": 45,
+  "memory_limit_bytes": 4294967296,
+  "attempt": 1,
+  "launcher_protocol": "windows-suspended-job-v1",
+  "launcher_sha256": "8eaf0a44bfb38fc240316c2103ab55c0658133ad46f7c90f55106a1830a61723",
+  "status": "timeout",
+  "process_exit_code": 1,
+  "process_wall_seconds": 45.19649840000784,
+  "peak_working_set_bytes": 420335616,
+  "memory_definition": "observed sum of family peak working sets; not allocation-proof hard cap",
+  "monitored_process_ids": [
+    3488,
+    30668
+  ],
+  "result": null,
+  "worker_artifact_sha256": {
+    "worker/resolved_request.json": "1c7dd892679d28f76bfbfdbd271cbd7d4b487de17f4e79b93f40eecd1c04ce00",
+    "worker/stage.json": "ec273eb12804ed1cd77c426a98d35bfc1eca2c88e9db249d5f75360c25282451",
+    "worker/final/instructions.txt": "efe1f0fba6bab00f747b9fe1d1cb5b6df6e919039da48bd515ec102e68fcf86d"
+  },
+  "monitor_error": null,
+  "record_path": "runs\\remaining_experiments_6h_v2\\measurements\\scale__qft_85__s42__rft_snapshot\\attempt_01\\attempt_record.json"
+}

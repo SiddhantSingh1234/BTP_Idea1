@@ -1,0 +1,634 @@
+{
+  "track": "phase4",
+  "job": {
+    "target_id": "tableII__bv_n16__g11__rft__7_dynamic_slot_01q_move__native",
+    "algorithm": "rft",
+    "variant": "7_dynamic_slot_01q_move",
+    "family": "tableII",
+    "case": "bv_n16",
+    "grid": 11,
+    "register_policy": "native",
+    "seed": 42,
+    "routing_seed": null,
+    "raw_path": "benchmarks/current_baseline_v1/raw/tableII/bv_n16.qasm",
+    "raw_sha256": "2e5136c045b5128e9b6a547db9bdb7dd97f3e72a08a5a0edf65ae3e743c793f5",
+    "expected_normalized_sha256": "780258a8ad9b774cf006604a79ae5c802918de7c6a0b5458c5e4ad9cda3569f5",
+    "paper_reference": "RFT manuscript p6 TableII",
+    "paper_metrics": [
+      "compile_seconds",
+      "movement_batches",
+      "legacy_fidelity"
+    ],
+    "action": "reuse_valid_native",
+    "selected_reference": {
+      "record": "runs\\current_baseline\\study_v1\\attempts\\tableII__bv_n16__g11__rft__7_dynamic_slot_01q_move__native__r1\\attempt_01\\attempt_record.json",
+      "sha256": "1ed2f794319e2fbe6378e18d19d7befa5cb2d97365a30bf84416e6182a489253",
+      "worker": "runs\\current_baseline\\study_v1\\attempts\\tableII__bv_n16__g11__rft__7_dynamic_slot_01q_move__native__r1\\attempt_01\\worker"
+    },
+    "all_existing_attempts": [
+      {
+        "record": "runs\\current_baseline\\study_v1\\attempts\\tableII__bv_n16__g11__rft__7_dynamic_slot_01q_move__native__r1\\attempt_01\\attempt_record.json",
+        "sha256": "1ed2f794319e2fbe6378e18d19d7befa5cb2d97365a30bf84416e6182a489253",
+        "status": "ok",
+        "repetition": 1
+      },
+      {
+        "record": "runs\\current_baseline\\study_v1\\attempts\\tableII__bv_n16__g11__rft__7_dynamic_slot_01q_move__native__r2\\attempt_01\\attempt_record.json",
+        "sha256": "ce5dbf73cf055392ac10d781cffac2027d07ed863f206e30d4fd53a8c10a5db5",
+        "status": "ok",
+        "repetition": 2
+      },
+      {
+        "record": "runs\\current_baseline\\study_v1\\attempts\\tableII__bv_n16__g11__rft__7_dynamic_slot_01q_move__native__r3\\attempt_01\\attempt_record.json",
+        "sha256": "ab931b1f9fdb11e7d0172df0f5bd5bd46453f16e3438400b4ed04fb1ed53923e",
+        "status": "ok",
+        "repetition": 3
+      }
+    ],
+    "retry_timeout_seconds": null,
+    "fresh_corrected_compile_timing_required_if_route_changes": false,
+    "frozen_input": "frozen/benchmarks/current_baseline_v1/normalized/tableII/bv_n16_native.qasm",
+    "frozen_native_records": [
+      "references/runs/current_baseline/study_v1/attempts/tableII__bv_n16__g11__rft__7_dynamic_slot_01q_move__native__r1/attempt_01/attempt_record.json",
+      "references/runs/current_baseline/study_v1/attempts/tableII__bv_n16__g11__rft__7_dynamic_slot_01q_move__native__r2/attempt_01/attempt_record.json",
+      "references/runs/current_baseline/study_v1/attempts/tableII__bv_n16__g11__rft__7_dynamic_slot_01q_move__native__r3/attempt_01/attempt_record.json"
+    ],
+    "native": {
+      "algorithm": "rft",
+      "case": "file",
+      "status": "ok",
+      "paper_reproduction": false,
+      "rft_revision": "3d1f09233c2acd357fd9fbfad1b5300a921d301a",
+      "dasatom_revision": "73a6bdf0fd200b2733745211eaf2e0c1e17f496a",
+      "python": "3.13.2 (main, Mar 17 2025, 21:04:07) [MSC v.1943 64 bit (AMD64)]",
+      "seed": 42,
+      "routing_seed": null,
+      "hash_seed": "0",
+      "threads": 1,
+      "geometry": {
+        "rows": 11,
+        "columns": 11,
+        "r_int": 2,
+        "r_blk": 4
+      },
+      "normalization_policy": "native",
+      "command": [
+        "C:\\Users\\hp\\Documents\\BTP\\btp_work\\.venv\\Scripts\\python.exe",
+        "C:\\Users\\hp\\Documents\\BTP\\btp_work\\tools\\phase00_smoke.py",
+        "--algorithm",
+        "rft",
+        "--case",
+        "file",
+        "--input",
+        "C:\\Users\\hp\\Documents\\BTP\\btp_work\\benchmarks\\current_baseline_v1\\raw\\tableII\\bv_n16.qasm",
+        "--grid",
+        "11",
+        "--register-policy",
+        "native",
+        "--seed",
+        "42",
+        "--out",
+        "runs/current_baseline/study_v1/attempts/tableII__bv_n16__g11__rft__7_dynamic_slot_01q_move__native__r1/attempt_01/worker",
+        "--variant",
+        "7_dynamic_slot_01q_move"
+      ],
+      "output_directory": "runs\\current_baseline\\study_v1\\attempts\\tableII__bv_n16__g11__rft__7_dynamic_slot_01q_move__native__r1\\attempt_01\\worker",
+      "input_path": "benchmarks/current_baseline_v1/raw/tableII/bv_n16.qasm",
+      "input_sha256": "2e5136c045b5128e9b6a547db9bdb7dd97f3e72a08a5a0edf65ae3e743c793f5",
+      "normalized_sha256": "780258a8ad9b774cf006604a79ae5c802918de7c6a0b5458c5e4ad9cda3569f5",
+      "preprocessing_seconds": 0.06008060000021942,
+      "input_declared_qubits": 16,
+      "active_prefix_qubits": 16,
+      "num_qubits": 16,
+      "num_cz": 15,
+      "logical_layers": 15,
+      "global_random_state_before": "a52169fac48aa2d80acadd41f776ce38656ab70adc3b32c80c1fb1f0ee56b71f",
+      "offline_layout_seconds": 0.09973119999631308,
+      "layout": [
+        [
+          [
+            6,
+            5
+          ],
+          [
+            5,
+            6
+          ]
+        ],
+        [
+          [
+            9,
+            0
+          ],
+          [
+            9,
+            2
+          ]
+        ],
+        [
+          [
+            9,
+            9
+          ],
+          [
+            8,
+            9
+          ]
+        ],
+        [
+          [
+            0,
+            4
+          ],
+          [
+            0,
+            5
+          ]
+        ],
+        [
+          [
+            4,
+            10
+          ],
+          [
+            2,
+            10
+          ]
+        ],
+        [
+          [
+            4,
+            1
+          ],
+          [
+            5,
+            0
+          ]
+        ]
+      ],
+      "options": {
+        "variant_name": "7_dynamic_slot_01q_move",
+        "enable_keep_adjacent": true,
+        "enable_one_qubit_move": true,
+        "candidate_slots_mode": "com_subset",
+        "pad_cost_matrix_to_square": false,
+        "assignment_mode": "hungarian",
+        "idle_parking_mode": "rft_greedy",
+        "evicted_park_closest_to_partner": false,
+        "enable_rft_hungarian_bias": false,
+        "rft_hungarian_bias_weight": 0.3,
+        "rft_hungarian_bias_max_time_dist": 3,
+        "random_seed": 42
+      },
+      "native_metrics": {
+        "QASM File": "bv_n16.qasm",
+        "Num Qubit": 16,
+        "Num CZ Gates": 15,
+        "Circuit Depth": 15,
+        "Fidelity (DasAtom Model)": 0.9227557543570369,
+        "Fidelity (Realistic)": 0.9044749153781451,
+        "Movement Fidelity": 0.9996767663985591,
+        "Num Movement Ops": 5,
+        "Num Transferred Qubits": 20,
+        "Num Moves": 5,
+        "Total Move Distance": 46.71082846213628,
+        "Num Gate Cycles": 15,
+        "Total_T (us)": 487.92877902206595,
+        "Idle Time (us)": 7803.860464353055,
+        "Elapsed Time (s)": 0.005348682403564453,
+        "Variant": "7_dynamic_slot_01q_move"
+      },
+      "timing_scope": "untouched RFT run_benchmark timed region; warmup/offline layout/preprocessing/scoring excluded",
+      "global_random_state_after": "00a6092a1407f7840b079113a8f3821f93ed8015ec6607e0336d3d88a3b8e17f",
+      "trace_sha256": "e116802ba6b5d634944cf876ca9ce14d533b90042f7b248431033fdeec4e3fcc",
+      "boundary_replay": {
+        "valid_within_coverage": true,
+        "errors": [],
+        "CZ_count": 15,
+        "gate_cycles": 15,
+        "movement_batches": 5,
+        "final_positions": {
+          "1": [
+            5,
+            5
+          ],
+          "2": [
+            6,
+            6
+          ],
+          "3": [
+            4,
+            6
+          ],
+          "4": [
+            5,
+            4
+          ],
+          "5": [
+            3,
+            6
+          ],
+          "6": [
+            5,
+            8
+          ],
+          "7": [
+            5,
+            7
+          ],
+          "8": [
+            4,
+            5
+          ],
+          "9": [
+            6,
+            7
+          ],
+          "10": [
+            7,
+            6
+          ],
+          "11": [
+            7,
+            4
+          ],
+          "12": [
+            7,
+            5
+          ],
+          "13": [
+            5,
+            3
+          ],
+          "14": [
+            4,
+            4
+          ],
+          "0": [
+            6,
+            5
+          ],
+          "15": [
+            6,
+            4
+          ]
+        },
+        "coverage": [
+          "gate multiset",
+          "per-qubit dependency order",
+          "initial/batch-end occupancy",
+          "gate geometry"
+        ],
+        "unsupported": [
+          "continuous collision clearance",
+          "trap ownership/transfers",
+          "timed resources",
+          "full original unitary"
+        ]
+      },
+      "legacy_counts": {
+        "Num Gate Cycles": 15,
+        "Num Movement Ops": 5,
+        "Num Moves": 5,
+        "Total Move Distance": 46.71082846213628,
+        "Num CZ Gates (from log)": 15
+      },
+      "shared_legacy_score": {
+        "Fidelity (DasAtom Model)": 0.9227557543570369,
+        "Fidelity (Realistic)": 0.9044749153781451,
+        "Movement Fidelity": 0.9996767663985591,
+        "Num Movement Ops": 5,
+        "Num Transferred Qubits": 20,
+        "Num Moves": 5,
+        "Total Move Distance": 46.71082846213628,
+        "Num Gate Cycles": 15,
+        "Total_T (us)": 487.92877902206595,
+        "Idle Time (us)": 7803.860464353055
+      },
+      "module_providers": {
+        "compiler_core": "vendor\\NAQC_Compiler-3d1f09233c2acd357fd9fbfad1b5300a921d301a\\src\\compiler_core.py",
+        "benchmark_runner": "vendor\\NAQC_Compiler-3d1f09233c2acd357fd9fbfad1b5300a921d301a\\src\\benchmark_runner.py",
+        "dasatom_instruction_converter": "vendor\\NAQC_Compiler-3d1f09233c2acd357fd9fbfad1b5300a921d301a\\src\\dasatom_instruction_converter.py",
+        "DasAtom_fun": "vendor\\NAQC_Compiler-3d1f09233c2acd357fd9fbfad1b5300a921d301a\\dasatom\\DasAtom-main\\DasAtom_fun.py",
+        "Enola.route": "vendor\\NAQC_Compiler-3d1f09233c2acd357fd9fbfad1b5300a921d301a\\dasatom\\DasAtom-main\\Enola\\route.py"
+      },
+      "packages": {
+        "qiskit": "1.3.1",
+        "numpy": "2.2.2",
+        "scipy": "1.15.1",
+        "networkx": "3.4.2",
+        "rustworkx": "0.15.1",
+        "pandas": "3.1.0"
+      },
+      "planner_input_sha256": "780258a8ad9b774cf006604a79ae5c802918de7c6a0b5458c5e4ad9cda3569f5",
+      "legacy_error_terms": {
+        "E_native_CZ": 0.0751881273531643,
+        "E_legacy_idle": 0.0052025736429020366,
+        "E_ideal_transfer": 0.0,
+        "underflow": false
+      }
+    },
+    "original_compile_seconds": 0.0032019615173339844,
+    "original_compile_samples": [
+      0.005348682403564453,
+      0.00199127197265625,
+      0.0032019615173339844
+    ],
+    "source_worker": "references/runs/current_baseline/study_v1/attempts/tableII__bv_n16__g11__rft__7_dynamic_slot_01q_move__native__r1/attempt_01/worker"
+  },
+  "source": {
+    "kind": "rft_instructions",
+    "instructions": "C:\\Users\\hp\\Documents\\BTP\\btp_work\\runs\\phase04_matched_benchmark_v2\\references\\runs\\current_baseline\\study_v1\\attempts\\tableII__bv_n16__g11__rft__7_dynamic_slot_01q_move__native__r1\\attempt_01\\worker\\instructions.txt"
+  },
+  "original_compile_seconds": 0.0032019615173339844,
+  "original_timing_scope": "untouched RFT run_benchmark timed region; warmup/offline layout/preprocessing/scoring excluded",
+  "geometry": {
+    "rows": 11,
+    "columns": 11,
+    "r_int": 2,
+    "r_blk": 4,
+    "spacing_um": 3.0
+  },
+  "variants": [
+    "next_events_h1",
+    "next_events_h2",
+    "next_events_h4",
+    "next_events_h8"
+  ],
+  "native": {
+    "algorithm": "rft",
+    "case": "file",
+    "status": "ok",
+    "paper_reproduction": false,
+    "rft_revision": "3d1f09233c2acd357fd9fbfad1b5300a921d301a",
+    "dasatom_revision": "73a6bdf0fd200b2733745211eaf2e0c1e17f496a",
+    "python": "3.13.2 (main, Mar 17 2025, 21:04:07) [MSC v.1943 64 bit (AMD64)]",
+    "seed": 42,
+    "routing_seed": null,
+    "hash_seed": "0",
+    "threads": 1,
+    "geometry": {
+      "rows": 11,
+      "columns": 11,
+      "r_int": 2,
+      "r_blk": 4
+    },
+    "normalization_policy": "native",
+    "command": [
+      "C:\\Users\\hp\\Documents\\BTP\\btp_work\\.venv\\Scripts\\python.exe",
+      "C:\\Users\\hp\\Documents\\BTP\\btp_work\\tools\\phase00_smoke.py",
+      "--algorithm",
+      "rft",
+      "--case",
+      "file",
+      "--input",
+      "C:\\Users\\hp\\Documents\\BTP\\btp_work\\benchmarks\\current_baseline_v1\\raw\\tableII\\bv_n16.qasm",
+      "--grid",
+      "11",
+      "--register-policy",
+      "native",
+      "--seed",
+      "42",
+      "--out",
+      "runs/current_baseline/study_v1/attempts/tableII__bv_n16__g11__rft__7_dynamic_slot_01q_move__native__r1/attempt_01/worker",
+      "--variant",
+      "7_dynamic_slot_01q_move"
+    ],
+    "output_directory": "runs\\current_baseline\\study_v1\\attempts\\tableII__bv_n16__g11__rft__7_dynamic_slot_01q_move__native__r1\\attempt_01\\worker",
+    "input_path": "benchmarks/current_baseline_v1/raw/tableII/bv_n16.qasm",
+    "input_sha256": "2e5136c045b5128e9b6a547db9bdb7dd97f3e72a08a5a0edf65ae3e743c793f5",
+    "normalized_sha256": "780258a8ad9b774cf006604a79ae5c802918de7c6a0b5458c5e4ad9cda3569f5",
+    "preprocessing_seconds": 0.06008060000021942,
+    "input_declared_qubits": 16,
+    "active_prefix_qubits": 16,
+    "num_qubits": 16,
+    "num_cz": 15,
+    "logical_layers": 15,
+    "global_random_state_before": "a52169fac48aa2d80acadd41f776ce38656ab70adc3b32c80c1fb1f0ee56b71f",
+    "offline_layout_seconds": 0.09973119999631308,
+    "layout": [
+      [
+        [
+          6,
+          5
+        ],
+        [
+          5,
+          6
+        ]
+      ],
+      [
+        [
+          9,
+          0
+        ],
+        [
+          9,
+          2
+        ]
+      ],
+      [
+        [
+          9,
+          9
+        ],
+        [
+          8,
+          9
+        ]
+      ],
+      [
+        [
+          0,
+          4
+        ],
+        [
+          0,
+          5
+        ]
+      ],
+      [
+        [
+          4,
+          10
+        ],
+        [
+          2,
+          10
+        ]
+      ],
+      [
+        [
+          4,
+          1
+        ],
+        [
+          5,
+          0
+        ]
+      ]
+    ],
+    "options": {
+      "variant_name": "7_dynamic_slot_01q_move",
+      "enable_keep_adjacent": true,
+      "enable_one_qubit_move": true,
+      "candidate_slots_mode": "com_subset",
+      "pad_cost_matrix_to_square": false,
+      "assignment_mode": "hungarian",
+      "idle_parking_mode": "rft_greedy",
+      "evicted_park_closest_to_partner": false,
+      "enable_rft_hungarian_bias": false,
+      "rft_hungarian_bias_weight": 0.3,
+      "rft_hungarian_bias_max_time_dist": 3,
+      "random_seed": 42
+    },
+    "native_metrics": {
+      "QASM File": "bv_n16.qasm",
+      "Num Qubit": 16,
+      "Num CZ Gates": 15,
+      "Circuit Depth": 15,
+      "Fidelity (DasAtom Model)": 0.9227557543570369,
+      "Fidelity (Realistic)": 0.9044749153781451,
+      "Movement Fidelity": 0.9996767663985591,
+      "Num Movement Ops": 5,
+      "Num Transferred Qubits": 20,
+      "Num Moves": 5,
+      "Total Move Distance": 46.71082846213628,
+      "Num Gate Cycles": 15,
+      "Total_T (us)": 487.92877902206595,
+      "Idle Time (us)": 7803.860464353055,
+      "Elapsed Time (s)": 0.005348682403564453,
+      "Variant": "7_dynamic_slot_01q_move"
+    },
+    "timing_scope": "untouched RFT run_benchmark timed region; warmup/offline layout/preprocessing/scoring excluded",
+    "global_random_state_after": "00a6092a1407f7840b079113a8f3821f93ed8015ec6607e0336d3d88a3b8e17f",
+    "trace_sha256": "e116802ba6b5d634944cf876ca9ce14d533b90042f7b248431033fdeec4e3fcc",
+    "boundary_replay": {
+      "valid_within_coverage": true,
+      "errors": [],
+      "CZ_count": 15,
+      "gate_cycles": 15,
+      "movement_batches": 5,
+      "final_positions": {
+        "1": [
+          5,
+          5
+        ],
+        "2": [
+          6,
+          6
+        ],
+        "3": [
+          4,
+          6
+        ],
+        "4": [
+          5,
+          4
+        ],
+        "5": [
+          3,
+          6
+        ],
+        "6": [
+          5,
+          8
+        ],
+        "7": [
+          5,
+          7
+        ],
+        "8": [
+          4,
+          5
+        ],
+        "9": [
+          6,
+          7
+        ],
+        "10": [
+          7,
+          6
+        ],
+        "11": [
+          7,
+          4
+        ],
+        "12": [
+          7,
+          5
+        ],
+        "13": [
+          5,
+          3
+        ],
+        "14": [
+          4,
+          4
+        ],
+        "0": [
+          6,
+          5
+        ],
+        "15": [
+          6,
+          4
+        ]
+      },
+      "coverage": [
+        "gate multiset",
+        "per-qubit dependency order",
+        "initial/batch-end occupancy",
+        "gate geometry"
+      ],
+      "unsupported": [
+        "continuous collision clearance",
+        "trap ownership/transfers",
+        "timed resources",
+        "full original unitary"
+      ]
+    },
+    "legacy_counts": {
+      "Num Gate Cycles": 15,
+      "Num Movement Ops": 5,
+      "Num Moves": 5,
+      "Total Move Distance": 46.71082846213628,
+      "Num CZ Gates (from log)": 15
+    },
+    "shared_legacy_score": {
+      "Fidelity (DasAtom Model)": 0.9227557543570369,
+      "Fidelity (Realistic)": 0.9044749153781451,
+      "Movement Fidelity": 0.9996767663985591,
+      "Num Movement Ops": 5,
+      "Num Transferred Qubits": 20,
+      "Num Moves": 5,
+      "Total Move Distance": 46.71082846213628,
+      "Num Gate Cycles": 15,
+      "Total_T (us)": 487.92877902206595,
+      "Idle Time (us)": 7803.860464353055
+    },
+    "module_providers": {
+      "compiler_core": "vendor\\NAQC_Compiler-3d1f09233c2acd357fd9fbfad1b5300a921d301a\\src\\compiler_core.py",
+      "benchmark_runner": "vendor\\NAQC_Compiler-3d1f09233c2acd357fd9fbfad1b5300a921d301a\\src\\benchmark_runner.py",
+      "dasatom_instruction_converter": "vendor\\NAQC_Compiler-3d1f09233c2acd357fd9fbfad1b5300a921d301a\\src\\dasatom_instruction_converter.py",
+      "DasAtom_fun": "vendor\\NAQC_Compiler-3d1f09233c2acd357fd9fbfad1b5300a921d301a\\dasatom\\DasAtom-main\\DasAtom_fun.py",
+      "Enola.route": "vendor\\NAQC_Compiler-3d1f09233c2acd357fd9fbfad1b5300a921d301a\\dasatom\\DasAtom-main\\Enola\\route.py"
+    },
+    "packages": {
+      "qiskit": "1.3.1",
+      "numpy": "2.2.2",
+      "scipy": "1.15.1",
+      "networkx": "3.4.2",
+      "rustworkx": "0.15.1",
+      "pandas": "3.1.0"
+    },
+    "planner_input_sha256": "780258a8ad9b774cf006604a79ae5c802918de7c6a0b5458c5e4ad9cda3569f5",
+    "legacy_error_terms": {
+      "E_native_CZ": 0.0751881273531643,
+      "E_legacy_idle": 0.0052025736429020366,
+      "E_ideal_transfer": 0.0,
+      "underflow": false
+    }
+  },
+  "raw_input": "C:\\Users\\hp\\Documents\\BTP\\btp_work\\runs\\phase04_matched_benchmark_v2\\frozen\\benchmarks\\current_baseline_v1\\raw\\tableII\\bv_n16.qasm"
+}

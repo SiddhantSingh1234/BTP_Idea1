@@ -1,0 +1,6 @@
+{
+  "status": "invalid",
+  "required_violation_codes": [
+    "unknown_log_format"
+  ]
+}

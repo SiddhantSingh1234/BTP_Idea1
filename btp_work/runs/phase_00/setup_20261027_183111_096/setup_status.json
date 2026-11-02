@@ -1,0 +1,14 @@
+﻿{
+    "status":  "installed_import_checked_compiler_smokes_pending",
+    "uv_version":  "0.9.5",
+    "requested_python":  "3.13.2",
+    "venv":  "C:\\Users\\hp\\Documents\\BTP\\btp_work\\.venv",
+    "compiler_smoke_passed":  false,
+    "lock_status":  "not_validated_by_compiler_smokes",
+    "error":  null,
+    "uv_archive_sha256":  "515dc53d7553f1357d0abc1f70acd921fbb9e30230b1d9a08737236daa6ee920",
+    "uv_exe_sha256":  "456ee3b3b9a30cf647a2b36ad3e2ffe6261485414e9978daec0ce3a049afc0af",
+    "source_agents_files":  [
+
+                            ]
+}

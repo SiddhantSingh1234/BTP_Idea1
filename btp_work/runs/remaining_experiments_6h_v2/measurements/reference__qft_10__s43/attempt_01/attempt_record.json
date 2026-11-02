@@ -1,0 +1,17 @@
+{
+  "status": "reused_quality",
+  "result": {
+    "status": "reused_quality",
+    "accepted_schedule": true,
+    "extended_E": 0.7619293546452895,
+    "makespan_us": 17991.248765978846,
+    "normalized_sha256": "a3bf6420cbe5a54759c53e94463ad3e8b5032120a6a6635c6e84c8783a40f1ba",
+    "schedule_sha256": "6fb16ab4a9129c6223986e4354bb2517208aadc93c6fec230004869fe4adfa20",
+    "final_bundle": "runs\\idea1_extension_v1\\campaign\\raw\\qft_10__s43__r0\\attempt_01\\worker\\L1A1\\baseline",
+    "compile_validate_repair_seconds": null,
+    "timing_scope": "immutable validated old quality only; old timer not relabelled a fresh sample"
+  },
+  "source_csv": "runs/idea1_extension_v1/campaign/results.csv",
+  "source_raw_result": "runs\\idea1_extension_v1\\campaign\\raw\\qft_10__s43__r0\\attempt_01\\worker\\L1A1R0\\result.json",
+  "record_path": "runs\\remaining_experiments_6h_v2\\measurements\\reference__qft_10__s43\\attempt_01\\attempt_record.json"
+}

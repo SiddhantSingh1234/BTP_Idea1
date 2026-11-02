@@ -1,0 +1,136 @@
+{
+  "groups": [
+    {
+      "family": "qaoa",
+      "planned": 10,
+      "paired": 10,
+      "circuits": 2,
+      "better": 0,
+      "tie": 0,
+      "worse": 10,
+      "mean_relative_E_percent": 34.85175134701976
+    },
+    {
+      "family": "quantum_volume",
+      "planned": 10,
+      "paired": 10,
+      "circuits": 2,
+      "better": 0,
+      "tie": 0,
+      "worse": 10,
+      "mean_relative_E_percent": 13.658002972468767
+    }
+  ],
+  "semantic_proofs": [
+    {
+      "case": "qaoa_n6_p2_g701",
+      "algorithm": "dasatom_corrected",
+      "equivalent_up_to_global_phase": true,
+      "maximum_absolute_error": 2.1757609710866278e-15,
+      "tolerance": 1e-09,
+      "global_phase_relative": -2.4286128663675487e-17,
+      "format": "original_circuit_check.v1",
+      "num_qubits": 6,
+      "basis_states": 64,
+      "full_original_circuit_checked": true,
+      "semantic_scope": "original_QASM_with_explicit_one_qubit_restoration",
+      "native_one_qubit_output_present": false,
+      "restoration_is_schedule_transformation": true,
+      "physical_validity_implied": false,
+      "original_sha256": "37668677fe4a4265112fd482bdf2a6c1ac142c3eaa3200c50c88fe9f5ebeeca4",
+      "original_operation_count": 36,
+      "restored_operation_count": 144,
+      "reference_engine": "Qiskit Operator(original QASM)",
+      "compiled_engine": "independent NumPy physical-slot basis simulation"
+    },
+    {
+      "case": "qv_n6_d4_s701",
+      "algorithm": "dasatom_corrected",
+      "equivalent_up_to_global_phase": true,
+      "maximum_absolute_error": 4.557326905135504e-15,
+      "tolerance": 1e-09,
+      "global_phase_relative": 4.090477956353272e-15,
+      "format": "original_circuit_check.v1",
+      "num_qubits": 6,
+      "basis_states": 64,
+      "full_original_circuit_checked": true,
+      "semantic_scope": "original_QASM_with_explicit_one_qubit_restoration",
+      "native_one_qubit_output_present": false,
+      "restoration_is_schedule_transformation": true,
+      "physical_validity_implied": false,
+      "original_sha256": "eb493f423a782fc043201a171f9eaa1c056e74139e1ea432c235114385666515",
+      "original_operation_count": 12,
+      "restored_operation_count": 563,
+      "reference_engine": "Qiskit Operator(original QASM)",
+      "compiled_engine": "independent NumPy physical-slot basis simulation"
+    }
+  ],
+  "qv_parking_mechanism": [
+    {
+      "case": "qv_n6_d4_s701",
+      "seed": 41,
+      "parking_calls": 0,
+      "eviction_calls": 0
+    },
+    {
+      "case": "qv_n6_d4_s701",
+      "seed": 42,
+      "parking_calls": 0,
+      "eviction_calls": 0
+    },
+    {
+      "case": "qv_n6_d4_s701",
+      "seed": 43,
+      "parking_calls": 0,
+      "eviction_calls": 0
+    },
+    {
+      "case": "qv_n6_d4_s701",
+      "seed": 44,
+      "parking_calls": 0,
+      "eviction_calls": 0
+    },
+    {
+      "case": "qv_n6_d4_s701",
+      "seed": 45,
+      "parking_calls": 0,
+      "eviction_calls": 0
+    },
+    {
+      "case": "qv_n8_d4_s702",
+      "seed": 41,
+      "parking_calls": 0,
+      "eviction_calls": 0
+    },
+    {
+      "case": "qv_n8_d4_s702",
+      "seed": 42,
+      "parking_calls": 0,
+      "eviction_calls": 0
+    },
+    {
+      "case": "qv_n8_d4_s702",
+      "seed": 43,
+      "parking_calls": 0,
+      "eviction_calls": 0
+    },
+    {
+      "case": "qv_n8_d4_s702",
+      "seed": 44,
+      "parking_calls": 0,
+      "eviction_calls": 0
+    },
+    {
+      "case": "qv_n8_d4_s702",
+      "seed": 45,
+      "parking_calls": 0,
+      "eviction_calls": 0
+    }
+  ],
+  "all_new_primary_outputs_independently_replayed": true,
+  "source_sha256": {
+    "primary_results": "4bd0ff13ca7597629aea4d7e12cfb154d0dcf8351bfda44fc1bfa48000d8024f",
+    "factorial_results": "375b3ca06200f280463b562b9ba9a97762bdde99f54c51712a9767f92e088828"
+  },
+  "script_sha256": "02f909d0ceb16e11f78c895c50a4c6f50662343669dbb87ace43eac3e8e1d33a"
+}

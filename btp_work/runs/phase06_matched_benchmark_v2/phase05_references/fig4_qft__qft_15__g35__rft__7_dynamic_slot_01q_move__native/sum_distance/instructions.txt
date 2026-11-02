@@ -1,0 +1,680 @@
+--- Processing Time 1 (Batch 1) ---
+[INITIAL PLACEMENT]
+  PLACE idle qubit 0 at position (17, 18)
+  PLACE idle qubit 1 at position (17, 20)
+  PLACE idle qubit 2 at position (18, 18)
+  PLACE idle qubit 3 at position (18, 20)
+  PLACE idle qubit 4 at position (16, 19)
+  PLACE idle qubit 5 at position (19, 19)
+  PLACE idle qubit 6 at position (16, 18)
+  PLACE idle qubit 7 at position (16, 20)
+  PLACE idle qubit 8 at position (19, 18)
+  PLACE idle qubit 9 at position (19, 20)
+  PLACE idle qubit 10 at position (17, 17)
+  PLACE idle qubit 11 at position (17, 21)
+  PLACE idle qubit 12 at position (18, 17)
+  PLACE active qubit 13 at position (18, 19)
+  PLACE active qubit 14 at position (17, 19)
+[EXECUTE Time 1 Batch 1]
+  CZ q[13], q[14] (at locations (18, 19), (17, 19))
+--- Processing Time 2 (Batch 1) ---
+  No shuttling required.
+[EXECUTE Time 2 Batch 1]
+  CZ q[13], q[14] (at locations (18, 19), (17, 19))
+--- Processing Time 3 (Batch 1) ---
+[SHUTTLING] Batch 1
+  SHUTTLE qubit 12 from (18, 17) to (15, 19)
+[EXECUTE Time 3 Batch 1]
+  CZ q[12], q[14] (at locations (15, 19), (17, 19))
+--- Processing Time 4 (Batch 1) ---
+  No shuttling required.
+[EXECUTE Time 4 Batch 1]
+  CZ q[12], q[14] (at locations (15, 19), (17, 19))
+--- Processing Time 5 (Batch 1) ---
+[SHUTTLING] Batch 1
+  SHUTTLE qubit 12 from (15, 19) to (18, 14)
+--- Batch Separator ---
+[SHUTTLING] Batch 2
+  SHUTTLE qubit 13 from (18, 19) to (18, 15)
+[EXECUTE Time 5 Batch 1]
+  CZ q[11], q[14] (at locations (17, 21), (17, 19))
+  CZ q[12], q[13] (at locations (18, 14), (18, 15))
+--- Processing Time 6 (Batch 1) ---
+  No shuttling required.
+[EXECUTE Time 6 Batch 1]
+  CZ q[11], q[14] (at locations (17, 21), (17, 19))
+  CZ q[12], q[13] (at locations (18, 14), (18, 15))
+--- Processing Time 7 (Batch 1) ---
+[SHUTTLING] Batch 1
+  SHUTTLE qubit 13 from (18, 15) to (18, 23)
+--- Batch Separator ---
+[SHUTTLING] Batch 2
+  SHUTTLE qubit 11 from (17, 21) to (16, 23)
+[EXECUTE Time 7 Batch 1]
+  CZ q[10], q[14] (at locations (17, 17), (17, 19))
+  CZ q[11], q[13] (at locations (16, 23), (18, 23))
+--- Processing Time 8 (Batch 1) ---
+  No shuttling required.
+[EXECUTE Time 8 Batch 1]
+  CZ q[10], q[14] (at locations (17, 17), (17, 19))
+  CZ q[11], q[13] (at locations (16, 23), (18, 23))
+--- Processing Time 9 (Batch 1) ---
+[SHUTTLING] Batch 1
+  SHUTTLE qubit 11 from (16, 23) to (18, 15)
+--- Batch Separator ---
+[SHUTTLING] Batch 2
+  SHUTTLE qubit 10 from (17, 17) to (16, 23)
+--- Batch Separator ---
+[SHUTTLING] Batch 3
+  SHUTTLE qubit 9 from (19, 20) to (18, 19)
+[EXECUTE Time 9 Batch 1]
+  CZ q[9], q[14] (at locations (18, 19), (17, 19))
+  CZ q[10], q[13] (at locations (16, 23), (18, 23))
+  CZ q[11], q[12] (at locations (18, 15), (18, 14))
+--- Processing Time 10 (Batch 1) ---
+  No shuttling required.
+[EXECUTE Time 10 Batch 1]
+  CZ q[9], q[14] (at locations (18, 19), (17, 19))
+  CZ q[10], q[13] (at locations (16, 23), (18, 23))
+  CZ q[11], q[12] (at locations (18, 15), (18, 14))
+--- Processing Time 11 (Batch 1) ---
+[SHUTTLING] Batch 1
+  SHUTTLE qubit 10 from (16, 23) to (23, 20)
+--- Batch Separator ---
+[SHUTTLING] Batch 2
+  SHUTTLE qubit 12 from (18, 14) to (22, 19)
+--- Batch Separator ---
+[SHUTTLING] Batch 3
+  SHUTTLE qubit 8 from (19, 18) to (17, 17)
+  SHUTTLE qubit 9 from (18, 19) to (16, 23)
+[EXECUTE Time 11 Batch 1]
+  CZ q[8], q[14] (at locations (17, 17), (17, 19))
+  CZ q[9], q[13] (at locations (16, 23), (18, 23))
+  CZ q[10], q[12] (at locations (23, 20), (22, 19))
+--- Processing Time 12 (Batch 1) ---
+  No shuttling required.
+[EXECUTE Time 12 Batch 1]
+  CZ q[8], q[14] (at locations (17, 17), (17, 19))
+  CZ q[9], q[13] (at locations (16, 23), (18, 23))
+  CZ q[10], q[12] (at locations (23, 20), (22, 19))
+--- Processing Time 13 (Batch 1) ---
+[SHUTTLING] Batch 1
+  SHUTTLE qubit 8 from (17, 17) to (18, 14)
+  SHUTTLE qubit 12 from (22, 19) to (23, 24)
+--- Batch Separator ---
+[SHUTTLING] Batch 2
+  SHUTTLE qubit 9 from (16, 23) to (22, 24)
+--- Batch Separator ---
+[SHUTTLING] Batch 3
+  SHUTTLE qubit 11 from (18, 15) to (22, 19)
+--- Batch Separator ---
+[SHUTTLING] Batch 4
+  SHUTTLE qubit 13 from (18, 23) to (18, 15)
+[EXECUTE Time 13 Batch 1]
+  CZ q[7], q[14] (at locations (16, 20), (17, 19))
+  CZ q[8], q[13] (at locations (18, 14), (18, 15))
+  CZ q[9], q[12] (at locations (22, 24), (23, 24))
+  CZ q[10], q[11] (at locations (23, 20), (22, 19))
+--- Processing Time 14 (Batch 1) ---
+  No shuttling required.
+[EXECUTE Time 14 Batch 1]
+  CZ q[7], q[14] (at locations (16, 20), (17, 19))
+  CZ q[8], q[13] (at locations (18, 14), (18, 15))
+  CZ q[9], q[12] (at locations (22, 24), (23, 24))
+  CZ q[10], q[11] (at locations (23, 20), (22, 19))
+--- Processing Time 15 (Batch 1) ---
+[SHUTTLING] Batch 1
+  SHUTTLE qubit 7 from (16, 20) to (16, 23)
+  SHUTTLE qubit 8 from (18, 14) to (23, 22)
+--- Batch Separator ---
+[SHUTTLING] Batch 2
+  SHUTTLE qubit 13 from (18, 15) to (18, 23)
+--- Batch Separator ---
+[SHUTTLING] Batch 3
+  SHUTTLE qubit 9 from (22, 24) to (25, 14)
+--- Batch Separator ---
+[SHUTTLING] Batch 4
+  SHUTTLE qubit 11 from (22, 19) to (24, 14)
+[EXECUTE Time 15 Batch 1]
+  CZ q[6], q[14] (at locations (16, 18), (17, 19))
+  CZ q[8], q[12] (at locations (23, 22), (23, 24))
+  CZ q[7], q[13] (at locations (16, 23), (18, 23))
+  CZ q[9], q[11] (at locations (25, 14), (24, 14))
+--- Processing Time 16 (Batch 1) ---
+  No shuttling required.
+[EXECUTE Time 16 Batch 1]
+  CZ q[6], q[14] (at locations (16, 18), (17, 19))
+  CZ q[7], q[13] (at locations (16, 23), (18, 23))
+  CZ q[8], q[12] (at locations (23, 22), (23, 24))
+  CZ q[9], q[11] (at locations (25, 14), (24, 14))
+--- Processing Time 17 (Batch 1) ---
+[SHUTTLING] Batch 1
+  SHUTTLE qubit 8 from (23, 22) to (24, 16)
+  SHUTTLE qubit 7 from (16, 23) to (21, 24)
+--- Batch Separator ---
+[SHUTTLING] Batch 2
+  SHUTTLE qubit 13 from (18, 23) to (18, 15)
+--- Batch Separator ---
+[SHUTTLING] Batch 3
+  SHUTTLE qubit 10 from (23, 20) to (27, 21)
+  SHUTTLE qubit 6 from (16, 18) to (18, 14)
+--- Batch Separator ---
+[SHUTTLING] Batch 4
+  SHUTTLE qubit 9 from (25, 14) to (27, 20)
+[EXECUTE Time 17 Batch 1]
+  CZ q[5], q[14] (at locations (19, 19), (17, 19))
+  CZ q[7], q[12] (at locations (21, 24), (23, 24))
+  CZ q[8], q[11] (at locations (24, 16), (24, 14))
+  CZ q[6], q[13] (at locations (18, 14), (18, 15))
+  CZ q[9], q[10] (at locations (27, 20), (27, 21))
+--- Processing Time 18 (Batch 1) ---
+  No shuttling required.
+[EXECUTE Time 18 Batch 1]
+  CZ q[5], q[14] (at locations (19, 19), (17, 19))
+  CZ q[6], q[13] (at locations (18, 14), (18, 15))
+  CZ q[7], q[12] (at locations (21, 24), (23, 24))
+  CZ q[8], q[11] (at locations (24, 16), (24, 14))
+  CZ q[9], q[10] (at locations (27, 20), (27, 21))
+--- Processing Time 19 (Batch 1) ---
+[SHUTTLING] Batch 1
+  SHUTTLE qubit 8 from (24, 16) to (27, 19)
+--- Batch Separator ---
+[SHUTTLING] Batch 2
+  SHUTTLE qubit 7 from (21, 24) to (23, 15)
+--- Batch Separator ---
+[SHUTTLING] Batch 3
+  SHUTTLE qubit 6 from (18, 14) to (23, 22)
+--- Batch Separator ---
+[SHUTTLING] Batch 4
+  SHUTTLE qubit 5 from (19, 19) to (18, 14)
+[EXECUTE Time 19 Batch 1]
+  CZ q[4], q[14] (at locations (16, 19), (17, 19))
+  CZ q[6], q[12] (at locations (23, 22), (23, 24))
+  CZ q[7], q[11] (at locations (23, 15), (24, 14))
+  CZ q[8], q[10] (at locations (27, 19), (27, 21))
+  CZ q[5], q[13] (at locations (18, 14), (18, 15))
+--- Processing Time 20 (Batch 1) ---
+  No shuttling required.
+[EXECUTE Time 20 Batch 1]
+  CZ q[4], q[14] (at locations (16, 19), (17, 19))
+  CZ q[5], q[13] (at locations (18, 14), (18, 15))
+  CZ q[6], q[12] (at locations (23, 22), (23, 24))
+  CZ q[7], q[11] (at locations (23, 15), (24, 14))
+  CZ q[8], q[10] (at locations (27, 19), (27, 21))
+--- Processing Time 21 (Batch 1) ---
+[SHUTTLING] Batch 1
+  SHUTTLE qubit 7 from (23, 15) to (21, 10)
+--- Batch Separator ---
+[SHUTTLING] Batch 2
+  SHUTTLE qubit 6 from (23, 22) to (24, 16)
+--- Batch Separator ---
+[SHUTTLING] Batch 3
+  SHUTTLE qubit 5 from (18, 14) to (22, 23)
+--- Batch Separator ---
+[SHUTTLING] Batch 4
+  SHUTTLE qubit 4 from (16, 19) to (18, 14)
+--- Batch Separator ---
+[SHUTTLING] Batch 5
+  SHUTTLE qubit 10 from (27, 21) to (21, 8)
+[EXECUTE Time 21 Batch 1]
+  CZ q[3], q[14] (at locations (18, 20), (17, 19))
+  CZ q[5], q[12] (at locations (22, 23), (23, 24))
+  CZ q[6], q[11] (at locations (24, 16), (24, 14))
+  CZ q[8], q[9] (at locations (27, 19), (27, 20))
+  CZ q[4], q[13] (at locations (18, 14), (18, 15))
+  CZ q[7], q[10] (at locations (21, 10), (21, 8))
+--- Processing Time 22 (Batch 1) ---
+  No shuttling required.
+[EXECUTE Time 22 Batch 1]
+  CZ q[3], q[14] (at locations (18, 20), (17, 19))
+  CZ q[4], q[13] (at locations (18, 14), (18, 15))
+  CZ q[5], q[12] (at locations (22, 23), (23, 24))
+  CZ q[6], q[11] (at locations (24, 16), (24, 14))
+  CZ q[7], q[10] (at locations (21, 10), (21, 8))
+  CZ q[8], q[9] (at locations (27, 19), (27, 20))
+--- Processing Time 23 (Batch 1) ---
+[SHUTTLING] Batch 1
+  SHUTTLE qubit 3 from (18, 20) to (18, 23)
+  SHUTTLE qubit 6 from (24, 16) to (22, 9)
+--- Batch Separator ---
+[SHUTTLING] Batch 2
+  SHUTTLE qubit 4 from (18, 14) to (23, 22)
+  SHUTTLE qubit 7 from (21, 10) to (27, 18)
+--- Batch Separator ---
+[SHUTTLING] Batch 3
+  SHUTTLE qubit 5 from (22, 23) to (23, 15)
+--- Batch Separator ---
+[SHUTTLING] Batch 4
+  SHUTTLE qubit 13 from (18, 15) to (16, 23)
+[EXECUTE Time 23 Batch 1]
+  CZ q[2], q[14] (at locations (18, 18), (17, 19))
+  CZ q[4], q[12] (at locations (23, 22), (23, 24))
+  CZ q[5], q[11] (at locations (23, 15), (24, 14))
+  CZ q[6], q[10] (at locations (22, 9), (21, 8))
+  CZ q[7], q[9] (at locations (27, 18), (27, 20))
+  CZ q[3], q[13] (at locations (18, 23), (16, 23))
+--- Processing Time 24 (Batch 1) ---
+  No shuttling required.
+[EXECUTE Time 24 Batch 1]
+  CZ q[2], q[14] (at locations (18, 18), (17, 19))
+  CZ q[3], q[13] (at locations (18, 23), (16, 23))
+  CZ q[4], q[12] (at locations (23, 22), (23, 24))
+  CZ q[5], q[11] (at locations (23, 15), (24, 14))
+  CZ q[6], q[10] (at locations (22, 9), (21, 8))
+  CZ q[7], q[9] (at locations (27, 18), (27, 20))
+--- Processing Time 25 (Batch 1) ---
+[SHUTTLING] Batch 1
+  SHUTTLE qubit 5 from (23, 15) to (21, 10)
+  SHUTTLE qubit 2 from (18, 18) to (18, 15)
+--- Batch Separator ---
+[SHUTTLING] Batch 2
+  SHUTTLE qubit 11 from (24, 14) to (22, 19)
+  SHUTTLE qubit 3 from (18, 23) to (21, 24)
+--- Batch Separator ---
+[SHUTTLING] Batch 3
+  SHUTTLE qubit 13 from (16, 23) to (18, 14)
+--- Batch Separator ---
+[SHUTTLING] Batch 4
+  SHUTTLE qubit 4 from (23, 22) to (23, 20)
+  SHUTTLE qubit 9 from (27, 20) to (25, 14)
+--- Batch Separator ---
+[SHUTTLING] Batch 5
+  SHUTTLE qubit 6 from (22, 9) to (24, 14)
+[EXECUTE Time 25 Batch 1]
+  CZ q[1], q[14] (at locations (17, 20), (17, 19))
+  CZ q[3], q[12] (at locations (21, 24), (23, 24))
+  CZ q[5], q[10] (at locations (21, 10), (21, 8))
+  CZ q[7], q[8] (at locations (27, 18), (27, 19))
+  CZ q[2], q[13] (at locations (18, 15), (18, 14))
+  CZ q[4], q[11] (at locations (23, 20), (22, 19))
+  CZ q[6], q[9] (at locations (24, 14), (25, 14))
+--- Processing Time 26 (Batch 1) ---
+  No shuttling required.
+[EXECUTE Time 26 Batch 1]
+  CZ q[1], q[14] (at locations (17, 20), (17, 19))
+  CZ q[2], q[13] (at locations (18, 15), (18, 14))
+  CZ q[3], q[12] (at locations (21, 24), (23, 24))
+  CZ q[4], q[11] (at locations (23, 20), (22, 19))
+  CZ q[5], q[10] (at locations (21, 10), (21, 8))
+  CZ q[6], q[9] (at locations (24, 14), (25, 14))
+  CZ q[7], q[8] (at locations (27, 18), (27, 19))
+--- Processing Time 27 (Batch 1) ---
+[SHUTTLING] Batch 1
+  SHUTTLE qubit 11 from (22, 19) to (27, 20)
+  SHUTTLE qubit 5 from (21, 10) to (24, 13)
+  SHUTTLE qubit 1 from (17, 20) to (16, 23)
+  SHUTTLE qubit 6 from (24, 14) to (29, 14)
+--- Batch Separator ---
+[SHUTTLING] Batch 2
+  SHUTTLE qubit 13 from (18, 14) to (18, 23)
+--- Batch Separator ---
+[SHUTTLING] Batch 3
+  SHUTTLE qubit 2 from (18, 15) to (23, 22)
+--- Batch Separator ---
+[SHUTTLING] Batch 4
+  SHUTTLE qubit 3 from (21, 24) to (27, 21)
+  SHUTTLE qubit 8 from (27, 19) to (29, 15)
+--- Batch Separator ---
+[SHUTTLING] Batch 5
+  SHUTTLE qubit 4 from (23, 20) to (22, 9)
+[EXECUTE Time 27 Batch 1]
+  CZ q[0], q[14] (at locations (17, 18), (17, 19))
+  CZ q[2], q[12] (at locations (23, 22), (23, 24))
+  CZ q[4], q[10] (at locations (22, 9), (21, 8))
+  CZ q[5], q[9] (at locations (24, 13), (25, 14))
+  CZ q[1], q[13] (at locations (16, 23), (18, 23))
+  CZ q[3], q[11] (at locations (27, 21), (27, 20))
+  CZ q[6], q[8] (at locations (29, 14), (29, 15))
+--- Processing Time 28 (Batch 1) ---
+  No shuttling required.
+[EXECUTE Time 28 Batch 1]
+  CZ q[0], q[14] (at locations (17, 18), (17, 19))
+  CZ q[1], q[13] (at locations (16, 23), (18, 23))
+  CZ q[2], q[12] (at locations (23, 22), (23, 24))
+  CZ q[3], q[11] (at locations (27, 21), (27, 20))
+  CZ q[4], q[10] (at locations (22, 9), (21, 8))
+  CZ q[5], q[9] (at locations (24, 13), (25, 14))
+  CZ q[6], q[8] (at locations (29, 14), (29, 15))
+--- Processing Time 29 (Batch 1) ---
+[SHUTTLING] Batch 1
+  SHUTTLE qubit 3 from (27, 21) to (21, 10)
+--- Batch Separator ---
+[SHUTTLING] Batch 2
+  SHUTTLE qubit 1 from (16, 23) to (22, 24)
+  SHUTTLE qubit 2 from (23, 22) to (25, 20)
+--- Batch Separator ---
+[SHUTTLING] Batch 3
+  SHUTTLE qubit 7 from (27, 18) to (31, 21)
+  SHUTTLE qubit 4 from (22, 9) to (25, 12)
+  SHUTTLE qubit 0 from (17, 18) to (18, 21)
+--- Batch Separator ---
+[SHUTTLING] Batch 4
+  SHUTTLE qubit 6 from (29, 14) to (31, 20)
+--- Batch Separator ---
+[SHUTTLING] Batch 5
+  SHUTTLE qubit 5 from (24, 13) to (29, 14)
+[EXECUTE Time 29 Batch 1]
+  CZ q[0], q[13] (at locations (18, 21), (18, 23))
+  CZ q[2], q[11] (at locations (25, 20), (27, 20))
+  CZ q[3], q[10] (at locations (21, 10), (21, 8))
+  CZ q[4], q[9] (at locations (25, 12), (25, 14))
+  CZ q[1], q[12] (at locations (22, 24), (23, 24))
+  CZ q[5], q[8] (at locations (29, 14), (29, 15))
+  CZ q[6], q[7] (at locations (31, 20), (31, 21))
+--- Processing Time 30 (Batch 1) ---
+  No shuttling required.
+[EXECUTE Time 30 Batch 1]
+  CZ q[0], q[13] (at locations (18, 21), (18, 23))
+  CZ q[1], q[12] (at locations (22, 24), (23, 24))
+  CZ q[2], q[11] (at locations (25, 20), (27, 20))
+  CZ q[3], q[10] (at locations (21, 10), (21, 8))
+  CZ q[4], q[9] (at locations (25, 12), (25, 14))
+  CZ q[5], q[8] (at locations (29, 14), (29, 15))
+  CZ q[6], q[7] (at locations (31, 20), (31, 21))
+--- Processing Time 31 (Batch 1) ---
+[SHUTTLING] Batch 1
+  SHUTTLE qubit 1 from (22, 24) to (26, 21)
+  SHUTTLE qubit 5 from (29, 14) to (31, 19)
+  SHUTTLE qubit 3 from (21, 10) to (24, 13)
+--- Batch Separator ---
+[SHUTTLING] Batch 2
+  SHUTTLE qubit 4 from (25, 12) to (29, 14)
+  SHUTTLE qubit 0 from (18, 21) to (21, 24)
+--- Batch Separator ---
+[SHUTTLING] Batch 3
+  SHUTTLE qubit 2 from (25, 20) to (22, 9)
+[EXECUTE Time 31 Batch 1]
+  CZ q[0], q[12] (at locations (21, 24), (23, 24))
+  CZ q[1], q[11] (at locations (26, 21), (27, 20))
+  CZ q[2], q[10] (at locations (22, 9), (21, 8))
+  CZ q[3], q[9] (at locations (24, 13), (25, 14))
+  CZ q[5], q[7] (at locations (31, 19), (31, 21))
+  CZ q[4], q[8] (at locations (29, 14), (29, 15))
+--- Processing Time 32 (Batch 1) ---
+  No shuttling required.
+[EXECUTE Time 32 Batch 1]
+  CZ q[0], q[12] (at locations (21, 24), (23, 24))
+  CZ q[1], q[11] (at locations (26, 21), (27, 20))
+  CZ q[2], q[10] (at locations (22, 9), (21, 8))
+  CZ q[3], q[9] (at locations (24, 13), (25, 14))
+  CZ q[4], q[8] (at locations (29, 14), (29, 15))
+  CZ q[5], q[7] (at locations (31, 19), (31, 21))
+--- Processing Time 33 (Batch 1) ---
+[SHUTTLING] Batch 1
+  SHUTTLE qubit 7 from (31, 21) to (33, 15)
+  SHUTTLE qubit 2 from (22, 9) to (25, 12)
+--- Batch Separator ---
+[SHUTTLING] Batch 2
+  SHUTTLE qubit 4 from (29, 14) to (34, 14)
+  SHUTTLE qubit 0 from (21, 24) to (25, 20)
+--- Batch Separator ---
+[SHUTTLING] Batch 3
+  SHUTTLE qubit 3 from (24, 13) to (29, 14)
+--- Batch Separator ---
+[SHUTTLING] Batch 4
+  SHUTTLE qubit 1 from (26, 21) to (21, 10)
+[EXECUTE Time 33 Batch 1]
+  CZ q[0], q[11] (at locations (25, 20), (27, 20))
+  CZ q[1], q[10] (at locations (21, 10), (21, 8))
+  CZ q[2], q[9] (at locations (25, 12), (25, 14))
+  CZ q[5], q[6] (at locations (31, 19), (31, 20))
+  CZ q[3], q[8] (at locations (29, 14), (29, 15))
+  CZ q[4], q[7] (at locations (34, 14), (33, 15))
+--- Processing Time 34 (Batch 1) ---
+  No shuttling required.
+[EXECUTE Time 34 Batch 1]
+  CZ q[0], q[11] (at locations (25, 20), (27, 20))
+  CZ q[1], q[10] (at locations (21, 10), (21, 8))
+  CZ q[2], q[9] (at locations (25, 12), (25, 14))
+  CZ q[3], q[8] (at locations (29, 14), (29, 15))
+  CZ q[4], q[7] (at locations (34, 14), (33, 15))
+  CZ q[5], q[6] (at locations (31, 19), (31, 20))
+--- Processing Time 35 (Batch 1) ---
+[SHUTTLING] Batch 1
+  SHUTTLE qubit 11 from (27, 20) to (30, 15)
+  SHUTTLE qubit 1 from (21, 10) to (24, 13)
+--- Batch Separator ---
+[SHUTTLING] Batch 2
+  SHUTTLE qubit 2 from (25, 12) to (27, 20)
+  SHUTTLE qubit 4 from (34, 14) to (31, 21)
+--- Batch Separator ---
+[SHUTTLING] Batch 3
+  SHUTTLE qubit 3 from (29, 14) to (31, 15)
+--- Batch Separator ---
+[SHUTTLING] Batch 4
+  SHUTTLE qubit 0 from (25, 20) to (22, 9)
+--- Batch Separator ---
+[SHUTTLING] Batch 5
+  SHUTTLE qubit 8 from (29, 15) to (27, 21)
+[EXECUTE Time 35 Batch 1]
+  CZ q[0], q[10] (at locations (22, 9), (21, 8))
+  CZ q[1], q[9] (at locations (24, 13), (25, 14))
+  CZ q[3], q[7] (at locations (31, 15), (33, 15))
+  CZ q[2], q[8] (at locations (27, 20), (27, 21))
+  CZ q[4], q[6] (at locations (31, 21), (31, 20))
+--- Processing Time 36 (Batch 1) ---
+  No shuttling required.
+[EXECUTE Time 36 Batch 1]
+  CZ q[0], q[10] (at locations (22, 9), (21, 8))
+  CZ q[1], q[9] (at locations (24, 13), (25, 14))
+  CZ q[2], q[8] (at locations (27, 20), (27, 21))
+  CZ q[3], q[7] (at locations (31, 15), (33, 15))
+  CZ q[4], q[6] (at locations (31, 21), (31, 20))
+--- Processing Time 37 (Batch 1) ---
+[SHUTTLING] Batch 1
+  SHUTTLE qubit 1 from (24, 13) to (27, 19)
+  SHUTTLE qubit 0 from (22, 9) to (25, 12)
+--- Batch Separator ---
+[SHUTTLING] Batch 2
+  SHUTTLE qubit 6 from (31, 20) to (29, 15)
+  SHUTTLE qubit 3 from (31, 15) to (29, 14)
+--- Batch Separator ---
+[SHUTTLING] Batch 3
+  SHUTTLE qubit 2 from (27, 20) to (34, 14)
+[EXECUTE Time 37 Batch 1]
+  CZ q[0], q[9] (at locations (25, 12), (25, 14))
+  CZ q[1], q[8] (at locations (27, 19), (27, 21))
+  CZ q[4], q[5] (at locations (31, 21), (31, 19))
+  CZ q[2], q[7] (at locations (34, 14), (33, 15))
+  CZ q[3], q[6] (at locations (29, 14), (29, 15))
+--- Processing Time 38 (Batch 1) ---
+  No shuttling required.
+[EXECUTE Time 38 Batch 1]
+  CZ q[0], q[9] (at locations (25, 12), (25, 14))
+  CZ q[1], q[8] (at locations (27, 19), (27, 21))
+  CZ q[2], q[7] (at locations (34, 14), (33, 15))
+  CZ q[3], q[6] (at locations (29, 14), (29, 15))
+  CZ q[4], q[5] (at locations (31, 21), (31, 19))
+--- Processing Time 39 (Batch 1) ---
+[SHUTTLING] Batch 1
+  SHUTTLE qubit 9 from (25, 14) to (30, 20)
+--- Batch Separator ---
+[SHUTTLING] Batch 2
+  SHUTTLE qubit 6 from (29, 15) to (24, 14)
+  SHUTTLE qubit 4 from (31, 21) to (30, 19)
+--- Batch Separator ---
+[SHUTTLING] Batch 3
+  SHUTTLE qubit 5 from (31, 19) to (31, 20)
+--- Batch Separator ---
+[SHUTTLING] Batch 4
+  SHUTTLE qubit 2 from (34, 14) to (25, 14)
+--- Batch Separator ---
+[SHUTTLING] Batch 5
+  SHUTTLE qubit 1 from (27, 19) to (31, 15)
+--- Batch Separator ---
+[SHUTTLING] Batch 6
+  SHUTTLE qubit 3 from (29, 14) to (31, 21)
+  SHUTTLE qubit 0 from (25, 12) to (26, 20)
+[EXECUTE Time 39 Batch 1]
+  CZ q[0], q[8] (at locations (26, 20), (27, 21))
+  CZ q[1], q[7] (at locations (31, 15), (33, 15))
+  CZ q[2], q[6] (at locations (25, 14), (24, 14))
+  CZ q[3], q[5] (at locations (31, 21), (31, 20))
+--- Processing Time 40 (Batch 1) ---
+  No shuttling required.
+[EXECUTE Time 40 Batch 1]
+  CZ q[0], q[8] (at locations (26, 20), (27, 21))
+  CZ q[1], q[7] (at locations (31, 15), (33, 15))
+  CZ q[2], q[6] (at locations (25, 14), (24, 14))
+  CZ q[3], q[5] (at locations (31, 21), (31, 20))
+--- Processing Time 41 (Batch 1) ---
+[SHUTTLING] Batch 1
+  SHUTTLE qubit 3 from (31, 21) to (34, 27)
+  SHUTTLE qubit 0 from (26, 20) to (32, 16)
+--- Batch Separator ---
+[SHUTTLING] Batch 2
+  SHUTTLE qubit 1 from (31, 15) to (26, 14)
+--- Batch Separator ---
+[SHUTTLING] Batch 3
+  SHUTTLE qubit 4 from (30, 19) to (34, 26)
+  SHUTTLE qubit 2 from (25, 14) to (29, 20)
+[EXECUTE Time 41 Batch 1]
+  CZ q[0], q[7] (at locations (32, 16), (33, 15))
+  CZ q[1], q[6] (at locations (26, 14), (24, 14))
+  CZ q[2], q[5] (at locations (29, 20), (31, 20))
+  CZ q[3], q[4] (at locations (34, 27), (34, 26))
+--- Processing Time 42 (Batch 1) ---
+  No shuttling required.
+[EXECUTE Time 42 Batch 1]
+  CZ q[0], q[7] (at locations (32, 16), (33, 15))
+  CZ q[1], q[6] (at locations (26, 14), (24, 14))
+  CZ q[2], q[5] (at locations (29, 20), (31, 20))
+  CZ q[3], q[4] (at locations (34, 27), (34, 26))
+--- Processing Time 43 (Batch 1) ---
+[SHUTTLING] Batch 1
+  SHUTTLE qubit 0 from (32, 16) to (25, 15)
+--- Batch Separator ---
+[SHUTTLING] Batch 2
+  SHUTTLE qubit 1 from (26, 14) to (30, 19)
+  SHUTTLE qubit 2 from (29, 20) to (33, 25)
+[EXECUTE Time 43 Batch 1]
+  CZ q[0], q[6] (at locations (25, 15), (24, 14))
+  CZ q[1], q[5] (at locations (30, 19), (31, 20))
+  CZ q[2], q[4] (at locations (33, 25), (34, 26))
+--- Processing Time 44 (Batch 1) ---
+  No shuttling required.
+[EXECUTE Time 44 Batch 1]
+  CZ q[0], q[6] (at locations (25, 15), (24, 14))
+  CZ q[1], q[5] (at locations (30, 19), (31, 20))
+  CZ q[2], q[4] (at locations (33, 25), (34, 26))
+--- Processing Time 45 (Batch 1) ---
+[SHUTTLING] Batch 1
+  SHUTTLE qubit 3 from (34, 27) to (27, 29)
+--- Batch Separator ---
+[SHUTTLING] Batch 2
+  SHUTTLE qubit 0 from (25, 15) to (29, 20)
+  SHUTTLE qubit 1 from (30, 19) to (34, 24)
+--- Batch Separator ---
+[SHUTTLING] Batch 3
+  SHUTTLE qubit 6 from (24, 14) to (29, 14)
+--- Batch Separator ---
+[SHUTTLING] Batch 4
+  SHUTTLE qubit 2 from (33, 25) to (27, 28)
+--- Batch Separator ---
+[SHUTTLING] Batch 5
+  SHUTTLE qubit 8 from (27, 21) to (29, 15)
+[EXECUTE Time 45 Batch 1]
+  CZ q[0], q[5] (at locations (29, 20), (31, 20))
+  CZ q[1], q[4] (at locations (34, 24), (34, 26))
+  CZ q[2], q[3] (at locations (27, 28), (27, 29))
+  CZ q[6], q[8] (at locations (29, 14), (29, 15))
+--- Processing Time 46 (Batch 1) ---
+  No shuttling required.
+[EXECUTE Time 46 Batch 1]
+  CZ q[0], q[5] (at locations (29, 20), (31, 20))
+  CZ q[1], q[4] (at locations (34, 24), (34, 26))
+  CZ q[2], q[3] (at locations (27, 28), (27, 29))
+  CZ q[6], q[8] (at locations (29, 14), (29, 15))
+--- Processing Time 47 (Batch 1) ---
+[SHUTTLING] Batch 1
+  SHUTTLE qubit 0 from (29, 20) to (33, 25)
+--- Batch Separator ---
+[SHUTTLING] Batch 2
+  SHUTTLE qubit 1 from (34, 24) to (29, 29)
+[EXECUTE Time 47 Batch 1]
+  CZ q[0], q[4] (at locations (33, 25), (34, 26))
+  CZ q[1], q[3] (at locations (29, 29), (27, 29))
+  CZ q[5], q[9] (at locations (31, 20), (30, 20))
+  CZ q[6], q[8] (at locations (29, 14), (29, 15))
+--- Processing Time 48 (Batch 1) ---
+  No shuttling required.
+[EXECUTE Time 48 Batch 1]
+  CZ q[0], q[4] (at locations (33, 25), (34, 26))
+  CZ q[1], q[3] (at locations (29, 29), (27, 29))
+  CZ q[5], q[9] (at locations (31, 20), (30, 20))
+--- Processing Time 49 (Batch 1) ---
+[SHUTTLING] Batch 1
+  SHUTTLE qubit 4 from (34, 26) to (21, 10)
+--- Batch Separator ---
+[SHUTTLING] Batch 2
+  SHUTTLE qubit 0 from (33, 25) to (28, 28)
+--- Batch Separator ---
+[SHUTTLING] Batch 3
+  SHUTTLE qubit 2 from (27, 28) to (28, 33)
+--- Batch Separator ---
+[SHUTTLING] Batch 4
+  SHUTTLE qubit 1 from (29, 29) to (28, 34)
+[EXECUTE Time 49 Batch 1]
+  CZ q[0], q[3] (at locations (28, 28), (27, 29))
+  CZ q[4], q[10] (at locations (21, 10), (21, 8))
+  CZ q[5], q[9] (at locations (31, 20), (30, 20))
+  CZ q[1], q[2] (at locations (28, 34), (28, 33))
+--- Processing Time 50 (Batch 1) ---
+  No shuttling required.
+[EXECUTE Time 50 Batch 1]
+  CZ q[0], q[3] (at locations (28, 28), (27, 29))
+  CZ q[1], q[2] (at locations (28, 34), (28, 33))
+  CZ q[4], q[10] (at locations (21, 10), (21, 8))
+--- Processing Time 51 (Batch 1) ---
+[SHUTTLING] Batch 1
+  SHUTTLE qubit 0 from (28, 28) to (28, 31)
+--- Batch Separator ---
+[SHUTTLING] Batch 2
+  SHUTTLE qubit 3 from (27, 29) to (30, 17)
+[EXECUTE Time 51 Batch 1]
+  CZ q[0], q[2] (at locations (28, 31), (28, 33))
+  CZ q[3], q[11] (at locations (30, 17), (30, 15))
+  CZ q[4], q[10] (at locations (21, 10), (21, 8))
+--- Processing Time 52 (Batch 1) ---
+  No shuttling required.
+[EXECUTE Time 52 Batch 1]
+  CZ q[0], q[2] (at locations (28, 31), (28, 33))
+  CZ q[3], q[11] (at locations (30, 17), (30, 15))
+--- Processing Time 53 (Batch 1) ---
+[SHUTTLING] Batch 1
+  SHUTTLE qubit 2 from (28, 33) to (23, 26)
+--- Batch Separator ---
+[SHUTTLING] Batch 2
+  SHUTTLE qubit 0 from (28, 31) to (28, 32)
+[EXECUTE Time 53 Batch 1]
+  CZ q[0], q[1] (at locations (28, 32), (28, 34))
+  CZ q[2], q[12] (at locations (23, 26), (23, 24))
+  CZ q[3], q[11] (at locations (30, 17), (30, 15))
+--- Processing Time 54 (Batch 1) ---
+  No shuttling required.
+[EXECUTE Time 54 Batch 1]
+  CZ q[0], q[1] (at locations (28, 32), (28, 34))
+  CZ q[2], q[12] (at locations (23, 26), (23, 24))
+--- Processing Time 55 (Batch 1) ---
+[SHUTTLING] Batch 1
+  SHUTTLE qubit 13 from (18, 23) to (27, 28)
+--- Batch Separator ---
+[SHUTTLING] Batch 2
+  SHUTTLE qubit 0 from (28, 32) to (17, 21)
+--- Batch Separator ---
+[SHUTTLING] Batch 3
+  SHUTTLE qubit 1 from (28, 34) to (27, 29)
+[EXECUTE Time 55 Batch 1]
+  CZ q[0], q[14] (at locations (17, 21), (17, 19))
+  CZ q[2], q[12] (at locations (23, 26), (23, 24))
+  CZ q[1], q[13] (at locations (27, 29), (27, 28))
+--- Processing Time 56 (Batch 1) ---
+  No shuttling required.
+[EXECUTE Time 56 Batch 1]
+  CZ q[0], q[14] (at locations (17, 21), (17, 19))
+  CZ q[1], q[13] (at locations (27, 29), (27, 28))
+--- Processing Time 57 (Batch 1) ---
+  No shuttling required.
+[EXECUTE Time 57 Batch 1]
+  CZ q[0], q[14] (at locations (17, 21), (17, 19))
+  CZ q[1], q[13] (at locations (27, 29), (27, 28))

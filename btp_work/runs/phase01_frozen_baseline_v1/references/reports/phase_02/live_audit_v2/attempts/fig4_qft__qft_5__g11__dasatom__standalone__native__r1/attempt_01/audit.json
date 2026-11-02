@@ -1,0 +1,30 @@
+{
+  "job_id": "fig4_qft__qft_5__g11__dasatom__standalone__native__r1",
+  "attempt": 1,
+  "algorithm": "dasatom",
+  "repetition": 1,
+  "source_status": "ok",
+  "source_diagnostic_status": "ok",
+  "record_path": "runs\\current_baseline\\study_v1\\attempts\\fig4_qft__qft_5__g11__dasatom__standalone__native__r1\\attempt_01\\attempt_record.json",
+  "record_sha256": "00802a55f782e38e25ad7eea976fd93c6a79a95a43f77f72e71a2c9d8e4d2446",
+  "audited_utc": "2026-10-28T06:06:52.835164+00:00",
+  "adapter_error": false,
+  "legacy_all_match": true,
+  "saved_final_mapping_matches": true,
+  "evidence_status": "unsupported",
+  "paper_batch_policy_status": "unsupported",
+  "missing_artifacts": [],
+  "frozen_contract_matches": true,
+  "coverage": "trace_audited",
+  "paper_batch_violation_codes": [],
+  "source_boundary_errors": [],
+  "evidence_violation_codes": [],
+  "unsupported": [
+    "gate_trap_prerequisites",
+    "physical_minimum_separation",
+    "timing_and_resources",
+    "trap_ownership"
+  ],
+  "original_register_complete": true,
+  "eligible_as_physically_validated_baseline": false
+}

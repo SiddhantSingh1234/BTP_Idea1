@@ -1,0 +1,3 @@
+{
+  "state": "interrupted_by_unmonitored_gap"
+}

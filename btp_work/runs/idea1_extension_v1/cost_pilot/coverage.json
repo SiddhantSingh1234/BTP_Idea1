@@ -1,0 +1,22 @@
+[
+  {
+    "case": "qft_5",
+    "family": "qft",
+    "seed": 42,
+    "repeat": 0,
+    "status": "ok",
+    "attempt_record": "runs\\idea1_extension_v1\\cost_pilot\\raw\\qft_5__s42__r0\\attempt_01\\attempt_record.json",
+    "process_wall_seconds": 8.270635999972,
+    "peak_working_set_bytes": 134348800
+  },
+  {
+    "case": "qaoa_n6_p2_g701",
+    "family": "qaoa",
+    "seed": 42,
+    "repeat": 0,
+    "status": "ok",
+    "attempt_record": "runs\\idea1_extension_v1\\cost_pilot\\raw\\qaoa_n6_p2_g701__s42__r0\\attempt_01\\attempt_record.json",
+    "process_wall_seconds": 9.475602000020444,
+    "peak_working_set_bytes": 146006016
+  }
+]

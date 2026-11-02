@@ -1,0 +1,8130 @@
+{
+  "format": "audited_trace_manifest.v1",
+  "metadata": {
+    "schema_version": "neutral_atom_trace.v1",
+    "circuit": {
+      "format": "cz_circuit.v1",
+      "num_qubits": 25,
+      "gates": [
+        {
+          "gate_id": "g000000",
+          "gate_type": "cz",
+          "qubits": [
+            24,
+            23
+          ],
+          "dependencies": [],
+          "logical_layer": 1
+        },
+        {
+          "gate_id": "g000001",
+          "gate_type": "cz",
+          "qubits": [
+            24,
+            23
+          ],
+          "dependencies": [
+            "g000000"
+          ],
+          "logical_layer": 2
+        },
+        {
+          "gate_id": "g000002",
+          "gate_type": "cz",
+          "qubits": [
+            24,
+            22
+          ],
+          "dependencies": [
+            "g000001"
+          ],
+          "logical_layer": 3
+        },
+        {
+          "gate_id": "g000003",
+          "gate_type": "cz",
+          "qubits": [
+            24,
+            22
+          ],
+          "dependencies": [
+            "g000002"
+          ],
+          "logical_layer": 4
+        },
+        {
+          "gate_id": "g000004",
+          "gate_type": "cz",
+          "qubits": [
+            23,
+            22
+          ],
+          "dependencies": [
+            "g000001",
+            "g000003"
+          ],
+          "logical_layer": 5
+        },
+        {
+          "gate_id": "g000005",
+          "gate_type": "cz",
+          "qubits": [
+            23,
+            22
+          ],
+          "dependencies": [
+            "g000004"
+          ],
+          "logical_layer": 6
+        },
+        {
+          "gate_id": "g000006",
+          "gate_type": "cz",
+          "qubits": [
+            24,
+            21
+          ],
+          "dependencies": [
+            "g000003"
+          ],
+          "logical_layer": 5
+        },
+        {
+          "gate_id": "g000007",
+          "gate_type": "cz",
+          "qubits": [
+            24,
+            21
+          ],
+          "dependencies": [
+            "g000006"
+          ],
+          "logical_layer": 6
+        },
+        {
+          "gate_id": "g000008",
+          "gate_type": "cz",
+          "qubits": [
+            23,
+            21
+          ],
+          "dependencies": [
+            "g000005",
+            "g000007"
+          ],
+          "logical_layer": 7
+        },
+        {
+          "gate_id": "g000009",
+          "gate_type": "cz",
+          "qubits": [
+            23,
+            21
+          ],
+          "dependencies": [
+            "g000008"
+          ],
+          "logical_layer": 8
+        },
+        {
+          "gate_id": "g000010",
+          "gate_type": "cz",
+          "qubits": [
+            22,
+            21
+          ],
+          "dependencies": [
+            "g000005",
+            "g000009"
+          ],
+          "logical_layer": 9
+        },
+        {
+          "gate_id": "g000011",
+          "gate_type": "cz",
+          "qubits": [
+            22,
+            21
+          ],
+          "dependencies": [
+            "g000010"
+          ],
+          "logical_layer": 10
+        },
+        {
+          "gate_id": "g000012",
+          "gate_type": "cz",
+          "qubits": [
+            24,
+            20
+          ],
+          "dependencies": [
+            "g000007"
+          ],
+          "logical_layer": 7
+        },
+        {
+          "gate_id": "g000013",
+          "gate_type": "cz",
+          "qubits": [
+            24,
+            20
+          ],
+          "dependencies": [
+            "g000012"
+          ],
+          "logical_layer": 8
+        },
+        {
+          "gate_id": "g000014",
+          "gate_type": "cz",
+          "qubits": [
+            23,
+            20
+          ],
+          "dependencies": [
+            "g000009",
+            "g000013"
+          ],
+          "logical_layer": 9
+        },
+        {
+          "gate_id": "g000015",
+          "gate_type": "cz",
+          "qubits": [
+            23,
+            20
+          ],
+          "dependencies": [
+            "g000014"
+          ],
+          "logical_layer": 10
+        },
+        {
+          "gate_id": "g000016",
+          "gate_type": "cz",
+          "qubits": [
+            22,
+            20
+          ],
+          "dependencies": [
+            "g000011",
+            "g000015"
+          ],
+          "logical_layer": 11
+        },
+        {
+          "gate_id": "g000017",
+          "gate_type": "cz",
+          "qubits": [
+            22,
+            20
+          ],
+          "dependencies": [
+            "g000016"
+          ],
+          "logical_layer": 12
+        },
+        {
+          "gate_id": "g000018",
+          "gate_type": "cz",
+          "qubits": [
+            21,
+            20
+          ],
+          "dependencies": [
+            "g000011",
+            "g000017"
+          ],
+          "logical_layer": 13
+        },
+        {
+          "gate_id": "g000019",
+          "gate_type": "cz",
+          "qubits": [
+            21,
+            20
+          ],
+          "dependencies": [
+            "g000018"
+          ],
+          "logical_layer": 14
+        },
+        {
+          "gate_id": "g000020",
+          "gate_type": "cz",
+          "qubits": [
+            24,
+            19
+          ],
+          "dependencies": [
+            "g000013"
+          ],
+          "logical_layer": 9
+        },
+        {
+          "gate_id": "g000021",
+          "gate_type": "cz",
+          "qubits": [
+            24,
+            19
+          ],
+          "dependencies": [
+            "g000020"
+          ],
+          "logical_layer": 10
+        },
+        {
+          "gate_id": "g000022",
+          "gate_type": "cz",
+          "qubits": [
+            23,
+            19
+          ],
+          "dependencies": [
+            "g000015",
+            "g000021"
+          ],
+          "logical_layer": 11
+        },
+        {
+          "gate_id": "g000023",
+          "gate_type": "cz",
+          "qubits": [
+            23,
+            19
+          ],
+          "dependencies": [
+            "g000022"
+          ],
+          "logical_layer": 12
+        },
+        {
+          "gate_id": "g000024",
+          "gate_type": "cz",
+          "qubits": [
+            22,
+            19
+          ],
+          "dependencies": [
+            "g000017",
+            "g000023"
+          ],
+          "logical_layer": 13
+        },
+        {
+          "gate_id": "g000025",
+          "gate_type": "cz",
+          "qubits": [
+            22,
+            19
+          ],
+          "dependencies": [
+            "g000024"
+          ],
+          "logical_layer": 14
+        },
+        {
+          "gate_id": "g000026",
+          "gate_type": "cz",
+          "qubits": [
+            21,
+            19
+          ],
+          "dependencies": [
+            "g000019",
+            "g000025"
+          ],
+          "logical_layer": 15
+        },
+        {
+          "gate_id": "g000027",
+          "gate_type": "cz",
+          "qubits": [
+            21,
+            19
+          ],
+          "dependencies": [
+            "g000026"
+          ],
+          "logical_layer": 16
+        },
+        {
+          "gate_id": "g000028",
+          "gate_type": "cz",
+          "qubits": [
+            20,
+            19
+          ],
+          "dependencies": [
+            "g000019",
+            "g000027"
+          ],
+          "logical_layer": 17
+        },
+        {
+          "gate_id": "g000029",
+          "gate_type": "cz",
+          "qubits": [
+            20,
+            19
+          ],
+          "dependencies": [
+            "g000028"
+          ],
+          "logical_layer": 18
+        },
+        {
+          "gate_id": "g000030",
+          "gate_type": "cz",
+          "qubits": [
+            24,
+            18
+          ],
+          "dependencies": [
+            "g000021"
+          ],
+          "logical_layer": 11
+        },
+        {
+          "gate_id": "g000031",
+          "gate_type": "cz",
+          "qubits": [
+            24,
+            18
+          ],
+          "dependencies": [
+            "g000030"
+          ],
+          "logical_layer": 12
+        },
+        {
+          "gate_id": "g000032",
+          "gate_type": "cz",
+          "qubits": [
+            23,
+            18
+          ],
+          "dependencies": [
+            "g000023",
+            "g000031"
+          ],
+          "logical_layer": 13
+        },
+        {
+          "gate_id": "g000033",
+          "gate_type": "cz",
+          "qubits": [
+            23,
+            18
+          ],
+          "dependencies": [
+            "g000032"
+          ],
+          "logical_layer": 14
+        },
+        {
+          "gate_id": "g000034",
+          "gate_type": "cz",
+          "qubits": [
+            22,
+            18
+          ],
+          "dependencies": [
+            "g000025",
+            "g000033"
+          ],
+          "logical_layer": 15
+        },
+        {
+          "gate_id": "g000035",
+          "gate_type": "cz",
+          "qubits": [
+            22,
+            18
+          ],
+          "dependencies": [
+            "g000034"
+          ],
+          "logical_layer": 16
+        },
+        {
+          "gate_id": "g000036",
+          "gate_type": "cz",
+          "qubits": [
+            21,
+            18
+          ],
+          "dependencies": [
+            "g000027",
+            "g000035"
+          ],
+          "logical_layer": 17
+        },
+        {
+          "gate_id": "g000037",
+          "gate_type": "cz",
+          "qubits": [
+            21,
+            18
+          ],
+          "dependencies": [
+            "g000036"
+          ],
+          "logical_layer": 18
+        },
+        {
+          "gate_id": "g000038",
+          "gate_type": "cz",
+          "qubits": [
+            20,
+            18
+          ],
+          "dependencies": [
+            "g000029",
+            "g000037"
+          ],
+          "logical_layer": 19
+        },
+        {
+          "gate_id": "g000039",
+          "gate_type": "cz",
+          "qubits": [
+            20,
+            18
+          ],
+          "dependencies": [
+            "g000038"
+          ],
+          "logical_layer": 20
+        },
+        {
+          "gate_id": "g000040",
+          "gate_type": "cz",
+          "qubits": [
+            19,
+            18
+          ],
+          "dependencies": [
+            "g000029",
+            "g000039"
+          ],
+          "logical_layer": 21
+        },
+        {
+          "gate_id": "g000041",
+          "gate_type": "cz",
+          "qubits": [
+            19,
+            18
+          ],
+          "dependencies": [
+            "g000040"
+          ],
+          "logical_layer": 22
+        },
+        {
+          "gate_id": "g000042",
+          "gate_type": "cz",
+          "qubits": [
+            24,
+            17
+          ],
+          "dependencies": [
+            "g000031"
+          ],
+          "logical_layer": 13
+        },
+        {
+          "gate_id": "g000043",
+          "gate_type": "cz",
+          "qubits": [
+            24,
+            17
+          ],
+          "dependencies": [
+            "g000042"
+          ],
+          "logical_layer": 14
+        },
+        {
+          "gate_id": "g000044",
+          "gate_type": "cz",
+          "qubits": [
+            23,
+            17
+          ],
+          "dependencies": [
+            "g000033",
+            "g000043"
+          ],
+          "logical_layer": 15
+        },
+        {
+          "gate_id": "g000045",
+          "gate_type": "cz",
+          "qubits": [
+            23,
+            17
+          ],
+          "dependencies": [
+            "g000044"
+          ],
+          "logical_layer": 16
+        },
+        {
+          "gate_id": "g000046",
+          "gate_type": "cz",
+          "qubits": [
+            22,
+            17
+          ],
+          "dependencies": [
+            "g000035",
+            "g000045"
+          ],
+          "logical_layer": 17
+        },
+        {
+          "gate_id": "g000047",
+          "gate_type": "cz",
+          "qubits": [
+            22,
+            17
+          ],
+          "dependencies": [
+            "g000046"
+          ],
+          "logical_layer": 18
+        },
+        {
+          "gate_id": "g000048",
+          "gate_type": "cz",
+          "qubits": [
+            21,
+            17
+          ],
+          "dependencies": [
+            "g000037",
+            "g000047"
+          ],
+          "logical_layer": 19
+        },
+        {
+          "gate_id": "g000049",
+          "gate_type": "cz",
+          "qubits": [
+            21,
+            17
+          ],
+          "dependencies": [
+            "g000048"
+          ],
+          "logical_layer": 20
+        },
+        {
+          "gate_id": "g000050",
+          "gate_type": "cz",
+          "qubits": [
+            20,
+            17
+          ],
+          "dependencies": [
+            "g000039",
+            "g000049"
+          ],
+          "logical_layer": 21
+        },
+        {
+          "gate_id": "g000051",
+          "gate_type": "cz",
+          "qubits": [
+            20,
+            17
+          ],
+          "dependencies": [
+            "g000050"
+          ],
+          "logical_layer": 22
+        },
+        {
+          "gate_id": "g000052",
+          "gate_type": "cz",
+          "qubits": [
+            19,
+            17
+          ],
+          "dependencies": [
+            "g000041",
+            "g000051"
+          ],
+          "logical_layer": 23
+        },
+        {
+          "gate_id": "g000053",
+          "gate_type": "cz",
+          "qubits": [
+            19,
+            17
+          ],
+          "dependencies": [
+            "g000052"
+          ],
+          "logical_layer": 24
+        },
+        {
+          "gate_id": "g000054",
+          "gate_type": "cz",
+          "qubits": [
+            18,
+            17
+          ],
+          "dependencies": [
+            "g000041",
+            "g000053"
+          ],
+          "logical_layer": 25
+        },
+        {
+          "gate_id": "g000055",
+          "gate_type": "cz",
+          "qubits": [
+            18,
+            17
+          ],
+          "dependencies": [
+            "g000054"
+          ],
+          "logical_layer": 26
+        },
+        {
+          "gate_id": "g000056",
+          "gate_type": "cz",
+          "qubits": [
+            24,
+            16
+          ],
+          "dependencies": [
+            "g000043"
+          ],
+          "logical_layer": 15
+        },
+        {
+          "gate_id": "g000057",
+          "gate_type": "cz",
+          "qubits": [
+            24,
+            16
+          ],
+          "dependencies": [
+            "g000056"
+          ],
+          "logical_layer": 16
+        },
+        {
+          "gate_id": "g000058",
+          "gate_type": "cz",
+          "qubits": [
+            23,
+            16
+          ],
+          "dependencies": [
+            "g000045",
+            "g000057"
+          ],
+          "logical_layer": 17
+        },
+        {
+          "gate_id": "g000059",
+          "gate_type": "cz",
+          "qubits": [
+            23,
+            16
+          ],
+          "dependencies": [
+            "g000058"
+          ],
+          "logical_layer": 18
+        },
+        {
+          "gate_id": "g000060",
+          "gate_type": "cz",
+          "qubits": [
+            22,
+            16
+          ],
+          "dependencies": [
+            "g000047",
+            "g000059"
+          ],
+          "logical_layer": 19
+        },
+        {
+          "gate_id": "g000061",
+          "gate_type": "cz",
+          "qubits": [
+            22,
+            16
+          ],
+          "dependencies": [
+            "g000060"
+          ],
+          "logical_layer": 20
+        },
+        {
+          "gate_id": "g000062",
+          "gate_type": "cz",
+          "qubits": [
+            21,
+            16
+          ],
+          "dependencies": [
+            "g000049",
+            "g000061"
+          ],
+          "logical_layer": 21
+        },
+        {
+          "gate_id": "g000063",
+          "gate_type": "cz",
+          "qubits": [
+            21,
+            16
+          ],
+          "dependencies": [
+            "g000062"
+          ],
+          "logical_layer": 22
+        },
+        {
+          "gate_id": "g000064",
+          "gate_type": "cz",
+          "qubits": [
+            20,
+            16
+          ],
+          "dependencies": [
+            "g000051",
+            "g000063"
+          ],
+          "logical_layer": 23
+        },
+        {
+          "gate_id": "g000065",
+          "gate_type": "cz",
+          "qubits": [
+            20,
+            16
+          ],
+          "dependencies": [
+            "g000064"
+          ],
+          "logical_layer": 24
+        },
+        {
+          "gate_id": "g000066",
+          "gate_type": "cz",
+          "qubits": [
+            19,
+            16
+          ],
+          "dependencies": [
+            "g000053",
+            "g000065"
+          ],
+          "logical_layer": 25
+        },
+        {
+          "gate_id": "g000067",
+          "gate_type": "cz",
+          "qubits": [
+            19,
+            16
+          ],
+          "dependencies": [
+            "g000066"
+          ],
+          "logical_layer": 26
+        },
+        {
+          "gate_id": "g000068",
+          "gate_type": "cz",
+          "qubits": [
+            18,
+            16
+          ],
+          "dependencies": [
+            "g000055",
+            "g000067"
+          ],
+          "logical_layer": 27
+        },
+        {
+          "gate_id": "g000069",
+          "gate_type": "cz",
+          "qubits": [
+            18,
+            16
+          ],
+          "dependencies": [
+            "g000068"
+          ],
+          "logical_layer": 28
+        },
+        {
+          "gate_id": "g000070",
+          "gate_type": "cz",
+          "qubits": [
+            17,
+            16
+          ],
+          "dependencies": [
+            "g000055",
+            "g000069"
+          ],
+          "logical_layer": 29
+        },
+        {
+          "gate_id": "g000071",
+          "gate_type": "cz",
+          "qubits": [
+            17,
+            16
+          ],
+          "dependencies": [
+            "g000070"
+          ],
+          "logical_layer": 30
+        },
+        {
+          "gate_id": "g000072",
+          "gate_type": "cz",
+          "qubits": [
+            24,
+            15
+          ],
+          "dependencies": [
+            "g000057"
+          ],
+          "logical_layer": 17
+        },
+        {
+          "gate_id": "g000073",
+          "gate_type": "cz",
+          "qubits": [
+            24,
+            15
+          ],
+          "dependencies": [
+            "g000072"
+          ],
+          "logical_layer": 18
+        },
+        {
+          "gate_id": "g000074",
+          "gate_type": "cz",
+          "qubits": [
+            23,
+            15
+          ],
+          "dependencies": [
+            "g000059",
+            "g000073"
+          ],
+          "logical_layer": 19
+        },
+        {
+          "gate_id": "g000075",
+          "gate_type": "cz",
+          "qubits": [
+            23,
+            15
+          ],
+          "dependencies": [
+            "g000074"
+          ],
+          "logical_layer": 20
+        },
+        {
+          "gate_id": "g000076",
+          "gate_type": "cz",
+          "qubits": [
+            22,
+            15
+          ],
+          "dependencies": [
+            "g000061",
+            "g000075"
+          ],
+          "logical_layer": 21
+        },
+        {
+          "gate_id": "g000077",
+          "gate_type": "cz",
+          "qubits": [
+            22,
+            15
+          ],
+          "dependencies": [
+            "g000076"
+          ],
+          "logical_layer": 22
+        },
+        {
+          "gate_id": "g000078",
+          "gate_type": "cz",
+          "qubits": [
+            21,
+            15
+          ],
+          "dependencies": [
+            "g000063",
+            "g000077"
+          ],
+          "logical_layer": 23
+        },
+        {
+          "gate_id": "g000079",
+          "gate_type": "cz",
+          "qubits": [
+            21,
+            15
+          ],
+          "dependencies": [
+            "g000078"
+          ],
+          "logical_layer": 24
+        },
+        {
+          "gate_id": "g000080",
+          "gate_type": "cz",
+          "qubits": [
+            20,
+            15
+          ],
+          "dependencies": [
+            "g000065",
+            "g000079"
+          ],
+          "logical_layer": 25
+        },
+        {
+          "gate_id": "g000081",
+          "gate_type": "cz",
+          "qubits": [
+            20,
+            15
+          ],
+          "dependencies": [
+            "g000080"
+          ],
+          "logical_layer": 26
+        },
+        {
+          "gate_id": "g000082",
+          "gate_type": "cz",
+          "qubits": [
+            19,
+            15
+          ],
+          "dependencies": [
+            "g000067",
+            "g000081"
+          ],
+          "logical_layer": 27
+        },
+        {
+          "gate_id": "g000083",
+          "gate_type": "cz",
+          "qubits": [
+            19,
+            15
+          ],
+          "dependencies": [
+            "g000082"
+          ],
+          "logical_layer": 28
+        },
+        {
+          "gate_id": "g000084",
+          "gate_type": "cz",
+          "qubits": [
+            18,
+            15
+          ],
+          "dependencies": [
+            "g000069",
+            "g000083"
+          ],
+          "logical_layer": 29
+        },
+        {
+          "gate_id": "g000085",
+          "gate_type": "cz",
+          "qubits": [
+            18,
+            15
+          ],
+          "dependencies": [
+            "g000084"
+          ],
+          "logical_layer": 30
+        },
+        {
+          "gate_id": "g000086",
+          "gate_type": "cz",
+          "qubits": [
+            17,
+            15
+          ],
+          "dependencies": [
+            "g000071",
+            "g000085"
+          ],
+          "logical_layer": 31
+        },
+        {
+          "gate_id": "g000087",
+          "gate_type": "cz",
+          "qubits": [
+            17,
+            15
+          ],
+          "dependencies": [
+            "g000086"
+          ],
+          "logical_layer": 32
+        },
+        {
+          "gate_id": "g000088",
+          "gate_type": "cz",
+          "qubits": [
+            16,
+            15
+          ],
+          "dependencies": [
+            "g000071",
+            "g000087"
+          ],
+          "logical_layer": 33
+        },
+        {
+          "gate_id": "g000089",
+          "gate_type": "cz",
+          "qubits": [
+            16,
+            15
+          ],
+          "dependencies": [
+            "g000088"
+          ],
+          "logical_layer": 34
+        },
+        {
+          "gate_id": "g000090",
+          "gate_type": "cz",
+          "qubits": [
+            24,
+            14
+          ],
+          "dependencies": [
+            "g000073"
+          ],
+          "logical_layer": 19
+        },
+        {
+          "gate_id": "g000091",
+          "gate_type": "cz",
+          "qubits": [
+            24,
+            14
+          ],
+          "dependencies": [
+            "g000090"
+          ],
+          "logical_layer": 20
+        },
+        {
+          "gate_id": "g000092",
+          "gate_type": "cz",
+          "qubits": [
+            23,
+            14
+          ],
+          "dependencies": [
+            "g000075",
+            "g000091"
+          ],
+          "logical_layer": 21
+        },
+        {
+          "gate_id": "g000093",
+          "gate_type": "cz",
+          "qubits": [
+            23,
+            14
+          ],
+          "dependencies": [
+            "g000092"
+          ],
+          "logical_layer": 22
+        },
+        {
+          "gate_id": "g000094",
+          "gate_type": "cz",
+          "qubits": [
+            22,
+            14
+          ],
+          "dependencies": [
+            "g000077",
+            "g000093"
+          ],
+          "logical_layer": 23
+        },
+        {
+          "gate_id": "g000095",
+          "gate_type": "cz",
+          "qubits": [
+            22,
+            14
+          ],
+          "dependencies": [
+            "g000094"
+          ],
+          "logical_layer": 24
+        },
+        {
+          "gate_id": "g000096",
+          "gate_type": "cz",
+          "qubits": [
+            21,
+            14
+          ],
+          "dependencies": [
+            "g000079",
+            "g000095"
+          ],
+          "logical_layer": 25
+        },
+        {
+          "gate_id": "g000097",
+          "gate_type": "cz",
+          "qubits": [
+            21,
+            14
+          ],
+          "dependencies": [
+            "g000096"
+          ],
+          "logical_layer": 26
+        },
+        {
+          "gate_id": "g000098",
+          "gate_type": "cz",
+          "qubits": [
+            20,
+            14
+          ],
+          "dependencies": [
+            "g000081",
+            "g000097"
+          ],
+          "logical_layer": 27
+        },
+        {
+          "gate_id": "g000099",
+          "gate_type": "cz",
+          "qubits": [
+            20,
+            14
+          ],
+          "dependencies": [
+            "g000098"
+          ],
+          "logical_layer": 28
+        },
+        {
+          "gate_id": "g000100",
+          "gate_type": "cz",
+          "qubits": [
+            19,
+            14
+          ],
+          "dependencies": [
+            "g000083",
+            "g000099"
+          ],
+          "logical_layer": 29
+        },
+        {
+          "gate_id": "g000101",
+          "gate_type": "cz",
+          "qubits": [
+            19,
+            14
+          ],
+          "dependencies": [
+            "g000100"
+          ],
+          "logical_layer": 30
+        },
+        {
+          "gate_id": "g000102",
+          "gate_type": "cz",
+          "qubits": [
+            18,
+            14
+          ],
+          "dependencies": [
+            "g000085",
+            "g000101"
+          ],
+          "logical_layer": 31
+        },
+        {
+          "gate_id": "g000103",
+          "gate_type": "cz",
+          "qubits": [
+            18,
+            14
+          ],
+          "dependencies": [
+            "g000102"
+          ],
+          "logical_layer": 32
+        },
+        {
+          "gate_id": "g000104",
+          "gate_type": "cz",
+          "qubits": [
+            17,
+            14
+          ],
+          "dependencies": [
+            "g000087",
+            "g000103"
+          ],
+          "logical_layer": 33
+        },
+        {
+          "gate_id": "g000105",
+          "gate_type": "cz",
+          "qubits": [
+            17,
+            14
+          ],
+          "dependencies": [
+            "g000104"
+          ],
+          "logical_layer": 34
+        },
+        {
+          "gate_id": "g000106",
+          "gate_type": "cz",
+          "qubits": [
+            16,
+            14
+          ],
+          "dependencies": [
+            "g000089",
+            "g000105"
+          ],
+          "logical_layer": 35
+        },
+        {
+          "gate_id": "g000107",
+          "gate_type": "cz",
+          "qubits": [
+            16,
+            14
+          ],
+          "dependencies": [
+            "g000106"
+          ],
+          "logical_layer": 36
+        },
+        {
+          "gate_id": "g000108",
+          "gate_type": "cz",
+          "qubits": [
+            15,
+            14
+          ],
+          "dependencies": [
+            "g000089",
+            "g000107"
+          ],
+          "logical_layer": 37
+        },
+        {
+          "gate_id": "g000109",
+          "gate_type": "cz",
+          "qubits": [
+            15,
+            14
+          ],
+          "dependencies": [
+            "g000108"
+          ],
+          "logical_layer": 38
+        },
+        {
+          "gate_id": "g000110",
+          "gate_type": "cz",
+          "qubits": [
+            24,
+            13
+          ],
+          "dependencies": [
+            "g000091"
+          ],
+          "logical_layer": 21
+        },
+        {
+          "gate_id": "g000111",
+          "gate_type": "cz",
+          "qubits": [
+            24,
+            13
+          ],
+          "dependencies": [
+            "g000110"
+          ],
+          "logical_layer": 22
+        },
+        {
+          "gate_id": "g000112",
+          "gate_type": "cz",
+          "qubits": [
+            23,
+            13
+          ],
+          "dependencies": [
+            "g000093",
+            "g000111"
+          ],
+          "logical_layer": 23
+        },
+        {
+          "gate_id": "g000113",
+          "gate_type": "cz",
+          "qubits": [
+            23,
+            13
+          ],
+          "dependencies": [
+            "g000112"
+          ],
+          "logical_layer": 24
+        },
+        {
+          "gate_id": "g000114",
+          "gate_type": "cz",
+          "qubits": [
+            22,
+            13
+          ],
+          "dependencies": [
+            "g000095",
+            "g000113"
+          ],
+          "logical_layer": 25
+        },
+        {
+          "gate_id": "g000115",
+          "gate_type": "cz",
+          "qubits": [
+            22,
+            13
+          ],
+          "dependencies": [
+            "g000114"
+          ],
+          "logical_layer": 26
+        },
+        {
+          "gate_id": "g000116",
+          "gate_type": "cz",
+          "qubits": [
+            21,
+            13
+          ],
+          "dependencies": [
+            "g000097",
+            "g000115"
+          ],
+          "logical_layer": 27
+        },
+        {
+          "gate_id": "g000117",
+          "gate_type": "cz",
+          "qubits": [
+            21,
+            13
+          ],
+          "dependencies": [
+            "g000116"
+          ],
+          "logical_layer": 28
+        },
+        {
+          "gate_id": "g000118",
+          "gate_type": "cz",
+          "qubits": [
+            20,
+            13
+          ],
+          "dependencies": [
+            "g000099",
+            "g000117"
+          ],
+          "logical_layer": 29
+        },
+        {
+          "gate_id": "g000119",
+          "gate_type": "cz",
+          "qubits": [
+            20,
+            13
+          ],
+          "dependencies": [
+            "g000118"
+          ],
+          "logical_layer": 30
+        },
+        {
+          "gate_id": "g000120",
+          "gate_type": "cz",
+          "qubits": [
+            19,
+            13
+          ],
+          "dependencies": [
+            "g000101",
+            "g000119"
+          ],
+          "logical_layer": 31
+        },
+        {
+          "gate_id": "g000121",
+          "gate_type": "cz",
+          "qubits": [
+            19,
+            13
+          ],
+          "dependencies": [
+            "g000120"
+          ],
+          "logical_layer": 32
+        },
+        {
+          "gate_id": "g000122",
+          "gate_type": "cz",
+          "qubits": [
+            18,
+            13
+          ],
+          "dependencies": [
+            "g000103",
+            "g000121"
+          ],
+          "logical_layer": 33
+        },
+        {
+          "gate_id": "g000123",
+          "gate_type": "cz",
+          "qubits": [
+            18,
+            13
+          ],
+          "dependencies": [
+            "g000122"
+          ],
+          "logical_layer": 34
+        },
+        {
+          "gate_id": "g000124",
+          "gate_type": "cz",
+          "qubits": [
+            17,
+            13
+          ],
+          "dependencies": [
+            "g000105",
+            "g000123"
+          ],
+          "logical_layer": 35
+        },
+        {
+          "gate_id": "g000125",
+          "gate_type": "cz",
+          "qubits": [
+            17,
+            13
+          ],
+          "dependencies": [
+            "g000124"
+          ],
+          "logical_layer": 36
+        },
+        {
+          "gate_id": "g000126",
+          "gate_type": "cz",
+          "qubits": [
+            16,
+            13
+          ],
+          "dependencies": [
+            "g000107",
+            "g000125"
+          ],
+          "logical_layer": 37
+        },
+        {
+          "gate_id": "g000127",
+          "gate_type": "cz",
+          "qubits": [
+            16,
+            13
+          ],
+          "dependencies": [
+            "g000126"
+          ],
+          "logical_layer": 38
+        },
+        {
+          "gate_id": "g000128",
+          "gate_type": "cz",
+          "qubits": [
+            15,
+            13
+          ],
+          "dependencies": [
+            "g000109",
+            "g000127"
+          ],
+          "logical_layer": 39
+        },
+        {
+          "gate_id": "g000129",
+          "gate_type": "cz",
+          "qubits": [
+            15,
+            13
+          ],
+          "dependencies": [
+            "g000128"
+          ],
+          "logical_layer": 40
+        },
+        {
+          "gate_id": "g000130",
+          "gate_type": "cz",
+          "qubits": [
+            14,
+            13
+          ],
+          "dependencies": [
+            "g000109",
+            "g000129"
+          ],
+          "logical_layer": 41
+        },
+        {
+          "gate_id": "g000131",
+          "gate_type": "cz",
+          "qubits": [
+            14,
+            13
+          ],
+          "dependencies": [
+            "g000130"
+          ],
+          "logical_layer": 42
+        },
+        {
+          "gate_id": "g000132",
+          "gate_type": "cz",
+          "qubits": [
+            24,
+            12
+          ],
+          "dependencies": [
+            "g000111"
+          ],
+          "logical_layer": 23
+        },
+        {
+          "gate_id": "g000133",
+          "gate_type": "cz",
+          "qubits": [
+            24,
+            12
+          ],
+          "dependencies": [
+            "g000132"
+          ],
+          "logical_layer": 24
+        },
+        {
+          "gate_id": "g000134",
+          "gate_type": "cz",
+          "qubits": [
+            23,
+            12
+          ],
+          "dependencies": [
+            "g000113",
+            "g000133"
+          ],
+          "logical_layer": 25
+        },
+        {
+          "gate_id": "g000135",
+          "gate_type": "cz",
+          "qubits": [
+            23,
+            12
+          ],
+          "dependencies": [
+            "g000134"
+          ],
+          "logical_layer": 26
+        },
+        {
+          "gate_id": "g000136",
+          "gate_type": "cz",
+          "qubits": [
+            22,
+            12
+          ],
+          "dependencies": [
+            "g000115",
+            "g000135"
+          ],
+          "logical_layer": 27
+        },
+        {
+          "gate_id": "g000137",
+          "gate_type": "cz",
+          "qubits": [
+            22,
+            12
+          ],
+          "dependencies": [
+            "g000136"
+          ],
+          "logical_layer": 28
+        },
+        {
+          "gate_id": "g000138",
+          "gate_type": "cz",
+          "qubits": [
+            21,
+            12
+          ],
+          "dependencies": [
+            "g000117",
+            "g000137"
+          ],
+          "logical_layer": 29
+        },
+        {
+          "gate_id": "g000139",
+          "gate_type": "cz",
+          "qubits": [
+            21,
+            12
+          ],
+          "dependencies": [
+            "g000138"
+          ],
+          "logical_layer": 30
+        },
+        {
+          "gate_id": "g000140",
+          "gate_type": "cz",
+          "qubits": [
+            20,
+            12
+          ],
+          "dependencies": [
+            "g000119",
+            "g000139"
+          ],
+          "logical_layer": 31
+        },
+        {
+          "gate_id": "g000141",
+          "gate_type": "cz",
+          "qubits": [
+            20,
+            12
+          ],
+          "dependencies": [
+            "g000140"
+          ],
+          "logical_layer": 32
+        },
+        {
+          "gate_id": "g000142",
+          "gate_type": "cz",
+          "qubits": [
+            19,
+            12
+          ],
+          "dependencies": [
+            "g000121",
+            "g000141"
+          ],
+          "logical_layer": 33
+        },
+        {
+          "gate_id": "g000143",
+          "gate_type": "cz",
+          "qubits": [
+            19,
+            12
+          ],
+          "dependencies": [
+            "g000142"
+          ],
+          "logical_layer": 34
+        },
+        {
+          "gate_id": "g000144",
+          "gate_type": "cz",
+          "qubits": [
+            18,
+            12
+          ],
+          "dependencies": [
+            "g000123",
+            "g000143"
+          ],
+          "logical_layer": 35
+        },
+        {
+          "gate_id": "g000145",
+          "gate_type": "cz",
+          "qubits": [
+            18,
+            12
+          ],
+          "dependencies": [
+            "g000144"
+          ],
+          "logical_layer": 36
+        },
+        {
+          "gate_id": "g000146",
+          "gate_type": "cz",
+          "qubits": [
+            17,
+            12
+          ],
+          "dependencies": [
+            "g000125",
+            "g000145"
+          ],
+          "logical_layer": 37
+        },
+        {
+          "gate_id": "g000147",
+          "gate_type": "cz",
+          "qubits": [
+            17,
+            12
+          ],
+          "dependencies": [
+            "g000146"
+          ],
+          "logical_layer": 38
+        },
+        {
+          "gate_id": "g000148",
+          "gate_type": "cz",
+          "qubits": [
+            16,
+            12
+          ],
+          "dependencies": [
+            "g000127",
+            "g000147"
+          ],
+          "logical_layer": 39
+        },
+        {
+          "gate_id": "g000149",
+          "gate_type": "cz",
+          "qubits": [
+            16,
+            12
+          ],
+          "dependencies": [
+            "g000148"
+          ],
+          "logical_layer": 40
+        },
+        {
+          "gate_id": "g000150",
+          "gate_type": "cz",
+          "qubits": [
+            15,
+            12
+          ],
+          "dependencies": [
+            "g000129",
+            "g000149"
+          ],
+          "logical_layer": 41
+        },
+        {
+          "gate_id": "g000151",
+          "gate_type": "cz",
+          "qubits": [
+            15,
+            12
+          ],
+          "dependencies": [
+            "g000150"
+          ],
+          "logical_layer": 42
+        },
+        {
+          "gate_id": "g000152",
+          "gate_type": "cz",
+          "qubits": [
+            14,
+            12
+          ],
+          "dependencies": [
+            "g000131",
+            "g000151"
+          ],
+          "logical_layer": 43
+        },
+        {
+          "gate_id": "g000153",
+          "gate_type": "cz",
+          "qubits": [
+            14,
+            12
+          ],
+          "dependencies": [
+            "g000152"
+          ],
+          "logical_layer": 44
+        },
+        {
+          "gate_id": "g000154",
+          "gate_type": "cz",
+          "qubits": [
+            13,
+            12
+          ],
+          "dependencies": [
+            "g000131",
+            "g000153"
+          ],
+          "logical_layer": 45
+        },
+        {
+          "gate_id": "g000155",
+          "gate_type": "cz",
+          "qubits": [
+            13,
+            12
+          ],
+          "dependencies": [
+            "g000154"
+          ],
+          "logical_layer": 46
+        },
+        {
+          "gate_id": "g000156",
+          "gate_type": "cz",
+          "qubits": [
+            24,
+            11
+          ],
+          "dependencies": [
+            "g000133"
+          ],
+          "logical_layer": 25
+        },
+        {
+          "gate_id": "g000157",
+          "gate_type": "cz",
+          "qubits": [
+            24,
+            11
+          ],
+          "dependencies": [
+            "g000156"
+          ],
+          "logical_layer": 26
+        },
+        {
+          "gate_id": "g000158",
+          "gate_type": "cz",
+          "qubits": [
+            23,
+            11
+          ],
+          "dependencies": [
+            "g000135",
+            "g000157"
+          ],
+          "logical_layer": 27
+        },
+        {
+          "gate_id": "g000159",
+          "gate_type": "cz",
+          "qubits": [
+            23,
+            11
+          ],
+          "dependencies": [
+            "g000158"
+          ],
+          "logical_layer": 28
+        },
+        {
+          "gate_id": "g000160",
+          "gate_type": "cz",
+          "qubits": [
+            22,
+            11
+          ],
+          "dependencies": [
+            "g000137",
+            "g000159"
+          ],
+          "logical_layer": 29
+        },
+        {
+          "gate_id": "g000161",
+          "gate_type": "cz",
+          "qubits": [
+            22,
+            11
+          ],
+          "dependencies": [
+            "g000160"
+          ],
+          "logical_layer": 30
+        },
+        {
+          "gate_id": "g000162",
+          "gate_type": "cz",
+          "qubits": [
+            21,
+            11
+          ],
+          "dependencies": [
+            "g000139",
+            "g000161"
+          ],
+          "logical_layer": 31
+        },
+        {
+          "gate_id": "g000163",
+          "gate_type": "cz",
+          "qubits": [
+            21,
+            11
+          ],
+          "dependencies": [
+            "g000162"
+          ],
+          "logical_layer": 32
+        },
+        {
+          "gate_id": "g000164",
+          "gate_type": "cz",
+          "qubits": [
+            20,
+            11
+          ],
+          "dependencies": [
+            "g000141",
+            "g000163"
+          ],
+          "logical_layer": 33
+        },
+        {
+          "gate_id": "g000165",
+          "gate_type": "cz",
+          "qubits": [
+            20,
+            11
+          ],
+          "dependencies": [
+            "g000164"
+          ],
+          "logical_layer": 34
+        },
+        {
+          "gate_id": "g000166",
+          "gate_type": "cz",
+          "qubits": [
+            19,
+            11
+          ],
+          "dependencies": [
+            "g000143",
+            "g000165"
+          ],
+          "logical_layer": 35
+        },
+        {
+          "gate_id": "g000167",
+          "gate_type": "cz",
+          "qubits": [
+            19,
+            11
+          ],
+          "dependencies": [
+            "g000166"
+          ],
+          "logical_layer": 36
+        },
+        {
+          "gate_id": "g000168",
+          "gate_type": "cz",
+          "qubits": [
+            18,
+            11
+          ],
+          "dependencies": [
+            "g000145",
+            "g000167"
+          ],
+          "logical_layer": 37
+        },
+        {
+          "gate_id": "g000169",
+          "gate_type": "cz",
+          "qubits": [
+            18,
+            11
+          ],
+          "dependencies": [
+            "g000168"
+          ],
+          "logical_layer": 38
+        },
+        {
+          "gate_id": "g000170",
+          "gate_type": "cz",
+          "qubits": [
+            17,
+            11
+          ],
+          "dependencies": [
+            "g000147",
+            "g000169"
+          ],
+          "logical_layer": 39
+        },
+        {
+          "gate_id": "g000171",
+          "gate_type": "cz",
+          "qubits": [
+            17,
+            11
+          ],
+          "dependencies": [
+            "g000170"
+          ],
+          "logical_layer": 40
+        },
+        {
+          "gate_id": "g000172",
+          "gate_type": "cz",
+          "qubits": [
+            16,
+            11
+          ],
+          "dependencies": [
+            "g000149",
+            "g000171"
+          ],
+          "logical_layer": 41
+        },
+        {
+          "gate_id": "g000173",
+          "gate_type": "cz",
+          "qubits": [
+            16,
+            11
+          ],
+          "dependencies": [
+            "g000172"
+          ],
+          "logical_layer": 42
+        },
+        {
+          "gate_id": "g000174",
+          "gate_type": "cz",
+          "qubits": [
+            15,
+            11
+          ],
+          "dependencies": [
+            "g000151",
+            "g000173"
+          ],
+          "logical_layer": 43
+        },
+        {
+          "gate_id": "g000175",
+          "gate_type": "cz",
+          "qubits": [
+            15,
+            11
+          ],
+          "dependencies": [
+            "g000174"
+          ],
+          "logical_layer": 44
+        },
+        {
+          "gate_id": "g000176",
+          "gate_type": "cz",
+          "qubits": [
+            14,
+            11
+          ],
+          "dependencies": [
+            "g000153",
+            "g000175"
+          ],
+          "logical_layer": 45
+        },
+        {
+          "gate_id": "g000177",
+          "gate_type": "cz",
+          "qubits": [
+            14,
+            11
+          ],
+          "dependencies": [
+            "g000176"
+          ],
+          "logical_layer": 46
+        },
+        {
+          "gate_id": "g000178",
+          "gate_type": "cz",
+          "qubits": [
+            13,
+            11
+          ],
+          "dependencies": [
+            "g000155",
+            "g000177"
+          ],
+          "logical_layer": 47
+        },
+        {
+          "gate_id": "g000179",
+          "gate_type": "cz",
+          "qubits": [
+            13,
+            11
+          ],
+          "dependencies": [
+            "g000178"
+          ],
+          "logical_layer": 48
+        },
+        {
+          "gate_id": "g000180",
+          "gate_type": "cz",
+          "qubits": [
+            12,
+            11
+          ],
+          "dependencies": [
+            "g000155",
+            "g000179"
+          ],
+          "logical_layer": 49
+        },
+        {
+          "gate_id": "g000181",
+          "gate_type": "cz",
+          "qubits": [
+            12,
+            11
+          ],
+          "dependencies": [
+            "g000180"
+          ],
+          "logical_layer": 50
+        },
+        {
+          "gate_id": "g000182",
+          "gate_type": "cz",
+          "qubits": [
+            24,
+            10
+          ],
+          "dependencies": [
+            "g000157"
+          ],
+          "logical_layer": 27
+        },
+        {
+          "gate_id": "g000183",
+          "gate_type": "cz",
+          "qubits": [
+            24,
+            10
+          ],
+          "dependencies": [
+            "g000182"
+          ],
+          "logical_layer": 28
+        },
+        {
+          "gate_id": "g000184",
+          "gate_type": "cz",
+          "qubits": [
+            23,
+            10
+          ],
+          "dependencies": [
+            "g000159",
+            "g000183"
+          ],
+          "logical_layer": 29
+        },
+        {
+          "gate_id": "g000185",
+          "gate_type": "cz",
+          "qubits": [
+            23,
+            10
+          ],
+          "dependencies": [
+            "g000184"
+          ],
+          "logical_layer": 30
+        },
+        {
+          "gate_id": "g000186",
+          "gate_type": "cz",
+          "qubits": [
+            22,
+            10
+          ],
+          "dependencies": [
+            "g000161",
+            "g000185"
+          ],
+          "logical_layer": 31
+        },
+        {
+          "gate_id": "g000187",
+          "gate_type": "cz",
+          "qubits": [
+            22,
+            10
+          ],
+          "dependencies": [
+            "g000186"
+          ],
+          "logical_layer": 32
+        },
+        {
+          "gate_id": "g000188",
+          "gate_type": "cz",
+          "qubits": [
+            21,
+            10
+          ],
+          "dependencies": [
+            "g000163",
+            "g000187"
+          ],
+          "logical_layer": 33
+        },
+        {
+          "gate_id": "g000189",
+          "gate_type": "cz",
+          "qubits": [
+            21,
+            10
+          ],
+          "dependencies": [
+            "g000188"
+          ],
+          "logical_layer": 34
+        },
+        {
+          "gate_id": "g000190",
+          "gate_type": "cz",
+          "qubits": [
+            20,
+            10
+          ],
+          "dependencies": [
+            "g000165",
+            "g000189"
+          ],
+          "logical_layer": 35
+        },
+        {
+          "gate_id": "g000191",
+          "gate_type": "cz",
+          "qubits": [
+            20,
+            10
+          ],
+          "dependencies": [
+            "g000190"
+          ],
+          "logical_layer": 36
+        },
+        {
+          "gate_id": "g000192",
+          "gate_type": "cz",
+          "qubits": [
+            19,
+            10
+          ],
+          "dependencies": [
+            "g000167",
+            "g000191"
+          ],
+          "logical_layer": 37
+        },
+        {
+          "gate_id": "g000193",
+          "gate_type": "cz",
+          "qubits": [
+            19,
+            10
+          ],
+          "dependencies": [
+            "g000192"
+          ],
+          "logical_layer": 38
+        },
+        {
+          "gate_id": "g000194",
+          "gate_type": "cz",
+          "qubits": [
+            18,
+            10
+          ],
+          "dependencies": [
+            "g000169",
+            "g000193"
+          ],
+          "logical_layer": 39
+        },
+        {
+          "gate_id": "g000195",
+          "gate_type": "cz",
+          "qubits": [
+            18,
+            10
+          ],
+          "dependencies": [
+            "g000194"
+          ],
+          "logical_layer": 40
+        },
+        {
+          "gate_id": "g000196",
+          "gate_type": "cz",
+          "qubits": [
+            17,
+            10
+          ],
+          "dependencies": [
+            "g000171",
+            "g000195"
+          ],
+          "logical_layer": 41
+        },
+        {
+          "gate_id": "g000197",
+          "gate_type": "cz",
+          "qubits": [
+            17,
+            10
+          ],
+          "dependencies": [
+            "g000196"
+          ],
+          "logical_layer": 42
+        },
+        {
+          "gate_id": "g000198",
+          "gate_type": "cz",
+          "qubits": [
+            16,
+            10
+          ],
+          "dependencies": [
+            "g000173",
+            "g000197"
+          ],
+          "logical_layer": 43
+        },
+        {
+          "gate_id": "g000199",
+          "gate_type": "cz",
+          "qubits": [
+            16,
+            10
+          ],
+          "dependencies": [
+            "g000198"
+          ],
+          "logical_layer": 44
+        },
+        {
+          "gate_id": "g000200",
+          "gate_type": "cz",
+          "qubits": [
+            15,
+            10
+          ],
+          "dependencies": [
+            "g000175",
+            "g000199"
+          ],
+          "logical_layer": 45
+        },
+        {
+          "gate_id": "g000201",
+          "gate_type": "cz",
+          "qubits": [
+            15,
+            10
+          ],
+          "dependencies": [
+            "g000200"
+          ],
+          "logical_layer": 46
+        },
+        {
+          "gate_id": "g000202",
+          "gate_type": "cz",
+          "qubits": [
+            14,
+            10
+          ],
+          "dependencies": [
+            "g000177",
+            "g000201"
+          ],
+          "logical_layer": 47
+        },
+        {
+          "gate_id": "g000203",
+          "gate_type": "cz",
+          "qubits": [
+            14,
+            10
+          ],
+          "dependencies": [
+            "g000202"
+          ],
+          "logical_layer": 48
+        },
+        {
+          "gate_id": "g000204",
+          "gate_type": "cz",
+          "qubits": [
+            13,
+            10
+          ],
+          "dependencies": [
+            "g000179",
+            "g000203"
+          ],
+          "logical_layer": 49
+        },
+        {
+          "gate_id": "g000205",
+          "gate_type": "cz",
+          "qubits": [
+            13,
+            10
+          ],
+          "dependencies": [
+            "g000204"
+          ],
+          "logical_layer": 50
+        },
+        {
+          "gate_id": "g000206",
+          "gate_type": "cz",
+          "qubits": [
+            12,
+            10
+          ],
+          "dependencies": [
+            "g000181",
+            "g000205"
+          ],
+          "logical_layer": 51
+        },
+        {
+          "gate_id": "g000207",
+          "gate_type": "cz",
+          "qubits": [
+            12,
+            10
+          ],
+          "dependencies": [
+            "g000206"
+          ],
+          "logical_layer": 52
+        },
+        {
+          "gate_id": "g000208",
+          "gate_type": "cz",
+          "qubits": [
+            11,
+            10
+          ],
+          "dependencies": [
+            "g000181",
+            "g000207"
+          ],
+          "logical_layer": 53
+        },
+        {
+          "gate_id": "g000209",
+          "gate_type": "cz",
+          "qubits": [
+            11,
+            10
+          ],
+          "dependencies": [
+            "g000208"
+          ],
+          "logical_layer": 54
+        },
+        {
+          "gate_id": "g000210",
+          "gate_type": "cz",
+          "qubits": [
+            24,
+            9
+          ],
+          "dependencies": [
+            "g000183"
+          ],
+          "logical_layer": 29
+        },
+        {
+          "gate_id": "g000211",
+          "gate_type": "cz",
+          "qubits": [
+            24,
+            9
+          ],
+          "dependencies": [
+            "g000210"
+          ],
+          "logical_layer": 30
+        },
+        {
+          "gate_id": "g000212",
+          "gate_type": "cz",
+          "qubits": [
+            23,
+            9
+          ],
+          "dependencies": [
+            "g000185",
+            "g000211"
+          ],
+          "logical_layer": 31
+        },
+        {
+          "gate_id": "g000213",
+          "gate_type": "cz",
+          "qubits": [
+            23,
+            9
+          ],
+          "dependencies": [
+            "g000212"
+          ],
+          "logical_layer": 32
+        },
+        {
+          "gate_id": "g000214",
+          "gate_type": "cz",
+          "qubits": [
+            22,
+            9
+          ],
+          "dependencies": [
+            "g000187",
+            "g000213"
+          ],
+          "logical_layer": 33
+        },
+        {
+          "gate_id": "g000215",
+          "gate_type": "cz",
+          "qubits": [
+            22,
+            9
+          ],
+          "dependencies": [
+            "g000214"
+          ],
+          "logical_layer": 34
+        },
+        {
+          "gate_id": "g000216",
+          "gate_type": "cz",
+          "qubits": [
+            21,
+            9
+          ],
+          "dependencies": [
+            "g000189",
+            "g000215"
+          ],
+          "logical_layer": 35
+        },
+        {
+          "gate_id": "g000217",
+          "gate_type": "cz",
+          "qubits": [
+            21,
+            9
+          ],
+          "dependencies": [
+            "g000216"
+          ],
+          "logical_layer": 36
+        },
+        {
+          "gate_id": "g000218",
+          "gate_type": "cz",
+          "qubits": [
+            20,
+            9
+          ],
+          "dependencies": [
+            "g000191",
+            "g000217"
+          ],
+          "logical_layer": 37
+        },
+        {
+          "gate_id": "g000219",
+          "gate_type": "cz",
+          "qubits": [
+            20,
+            9
+          ],
+          "dependencies": [
+            "g000218"
+          ],
+          "logical_layer": 38
+        },
+        {
+          "gate_id": "g000220",
+          "gate_type": "cz",
+          "qubits": [
+            19,
+            9
+          ],
+          "dependencies": [
+            "g000193",
+            "g000219"
+          ],
+          "logical_layer": 39
+        },
+        {
+          "gate_id": "g000221",
+          "gate_type": "cz",
+          "qubits": [
+            19,
+            9
+          ],
+          "dependencies": [
+            "g000220"
+          ],
+          "logical_layer": 40
+        },
+        {
+          "gate_id": "g000222",
+          "gate_type": "cz",
+          "qubits": [
+            18,
+            9
+          ],
+          "dependencies": [
+            "g000195",
+            "g000221"
+          ],
+          "logical_layer": 41
+        },
+        {
+          "gate_id": "g000223",
+          "gate_type": "cz",
+          "qubits": [
+            18,
+            9
+          ],
+          "dependencies": [
+            "g000222"
+          ],
+          "logical_layer": 42
+        },
+        {
+          "gate_id": "g000224",
+          "gate_type": "cz",
+          "qubits": [
+            17,
+            9
+          ],
+          "dependencies": [
+            "g000197",
+            "g000223"
+          ],
+          "logical_layer": 43
+        },
+        {
+          "gate_id": "g000225",
+          "gate_type": "cz",
+          "qubits": [
+            17,
+            9
+          ],
+          "dependencies": [
+            "g000224"
+          ],
+          "logical_layer": 44
+        },
+        {
+          "gate_id": "g000226",
+          "gate_type": "cz",
+          "qubits": [
+            16,
+            9
+          ],
+          "dependencies": [
+            "g000199",
+            "g000225"
+          ],
+          "logical_layer": 45
+        },
+        {
+          "gate_id": "g000227",
+          "gate_type": "cz",
+          "qubits": [
+            16,
+            9
+          ],
+          "dependencies": [
+            "g000226"
+          ],
+          "logical_layer": 46
+        },
+        {
+          "gate_id": "g000228",
+          "gate_type": "cz",
+          "qubits": [
+            15,
+            9
+          ],
+          "dependencies": [
+            "g000201",
+            "g000227"
+          ],
+          "logical_layer": 47
+        },
+        {
+          "gate_id": "g000229",
+          "gate_type": "cz",
+          "qubits": [
+            15,
+            9
+          ],
+          "dependencies": [
+            "g000228"
+          ],
+          "logical_layer": 48
+        },
+        {
+          "gate_id": "g000230",
+          "gate_type": "cz",
+          "qubits": [
+            14,
+            9
+          ],
+          "dependencies": [
+            "g000203",
+            "g000229"
+          ],
+          "logical_layer": 49
+        },
+        {
+          "gate_id": "g000231",
+          "gate_type": "cz",
+          "qubits": [
+            14,
+            9
+          ],
+          "dependencies": [
+            "g000230"
+          ],
+          "logical_layer": 50
+        },
+        {
+          "gate_id": "g000232",
+          "gate_type": "cz",
+          "qubits": [
+            13,
+            9
+          ],
+          "dependencies": [
+            "g000205",
+            "g000231"
+          ],
+          "logical_layer": 51
+        },
+        {
+          "gate_id": "g000233",
+          "gate_type": "cz",
+          "qubits": [
+            13,
+            9
+          ],
+          "dependencies": [
+            "g000232"
+          ],
+          "logical_layer": 52
+        },
+        {
+          "gate_id": "g000234",
+          "gate_type": "cz",
+          "qubits": [
+            12,
+            9
+          ],
+          "dependencies": [
+            "g000207",
+            "g000233"
+          ],
+          "logical_layer": 53
+        },
+        {
+          "gate_id": "g000235",
+          "gate_type": "cz",
+          "qubits": [
+            12,
+            9
+          ],
+          "dependencies": [
+            "g000234"
+          ],
+          "logical_layer": 54
+        },
+        {
+          "gate_id": "g000236",
+          "gate_type": "cz",
+          "qubits": [
+            11,
+            9
+          ],
+          "dependencies": [
+            "g000209",
+            "g000235"
+          ],
+          "logical_layer": 55
+        },
+        {
+          "gate_id": "g000237",
+          "gate_type": "cz",
+          "qubits": [
+            11,
+            9
+          ],
+          "dependencies": [
+            "g000236"
+          ],
+          "logical_layer": 56
+        },
+        {
+          "gate_id": "g000238",
+          "gate_type": "cz",
+          "qubits": [
+            10,
+            9
+          ],
+          "dependencies": [
+            "g000209",
+            "g000237"
+          ],
+          "logical_layer": 57
+        },
+        {
+          "gate_id": "g000239",
+          "gate_type": "cz",
+          "qubits": [
+            10,
+            9
+          ],
+          "dependencies": [
+            "g000238"
+          ],
+          "logical_layer": 58
+        },
+        {
+          "gate_id": "g000240",
+          "gate_type": "cz",
+          "qubits": [
+            24,
+            8
+          ],
+          "dependencies": [
+            "g000211"
+          ],
+          "logical_layer": 31
+        },
+        {
+          "gate_id": "g000241",
+          "gate_type": "cz",
+          "qubits": [
+            24,
+            8
+          ],
+          "dependencies": [
+            "g000240"
+          ],
+          "logical_layer": 32
+        },
+        {
+          "gate_id": "g000242",
+          "gate_type": "cz",
+          "qubits": [
+            23,
+            8
+          ],
+          "dependencies": [
+            "g000213",
+            "g000241"
+          ],
+          "logical_layer": 33
+        },
+        {
+          "gate_id": "g000243",
+          "gate_type": "cz",
+          "qubits": [
+            23,
+            8
+          ],
+          "dependencies": [
+            "g000242"
+          ],
+          "logical_layer": 34
+        },
+        {
+          "gate_id": "g000244",
+          "gate_type": "cz",
+          "qubits": [
+            22,
+            8
+          ],
+          "dependencies": [
+            "g000215",
+            "g000243"
+          ],
+          "logical_layer": 35
+        },
+        {
+          "gate_id": "g000245",
+          "gate_type": "cz",
+          "qubits": [
+            22,
+            8
+          ],
+          "dependencies": [
+            "g000244"
+          ],
+          "logical_layer": 36
+        },
+        {
+          "gate_id": "g000246",
+          "gate_type": "cz",
+          "qubits": [
+            21,
+            8
+          ],
+          "dependencies": [
+            "g000217",
+            "g000245"
+          ],
+          "logical_layer": 37
+        },
+        {
+          "gate_id": "g000247",
+          "gate_type": "cz",
+          "qubits": [
+            21,
+            8
+          ],
+          "dependencies": [
+            "g000246"
+          ],
+          "logical_layer": 38
+        },
+        {
+          "gate_id": "g000248",
+          "gate_type": "cz",
+          "qubits": [
+            20,
+            8
+          ],
+          "dependencies": [
+            "g000219",
+            "g000247"
+          ],
+          "logical_layer": 39
+        },
+        {
+          "gate_id": "g000249",
+          "gate_type": "cz",
+          "qubits": [
+            20,
+            8
+          ],
+          "dependencies": [
+            "g000248"
+          ],
+          "logical_layer": 40
+        },
+        {
+          "gate_id": "g000250",
+          "gate_type": "cz",
+          "qubits": [
+            19,
+            8
+          ],
+          "dependencies": [
+            "g000221",
+            "g000249"
+          ],
+          "logical_layer": 41
+        },
+        {
+          "gate_id": "g000251",
+          "gate_type": "cz",
+          "qubits": [
+            19,
+            8
+          ],
+          "dependencies": [
+            "g000250"
+          ],
+          "logical_layer": 42
+        },
+        {
+          "gate_id": "g000252",
+          "gate_type": "cz",
+          "qubits": [
+            18,
+            8
+          ],
+          "dependencies": [
+            "g000223",
+            "g000251"
+          ],
+          "logical_layer": 43
+        },
+        {
+          "gate_id": "g000253",
+          "gate_type": "cz",
+          "qubits": [
+            18,
+            8
+          ],
+          "dependencies": [
+            "g000252"
+          ],
+          "logical_layer": 44
+        },
+        {
+          "gate_id": "g000254",
+          "gate_type": "cz",
+          "qubits": [
+            17,
+            8
+          ],
+          "dependencies": [
+            "g000225",
+            "g000253"
+          ],
+          "logical_layer": 45
+        },
+        {
+          "gate_id": "g000255",
+          "gate_type": "cz",
+          "qubits": [
+            17,
+            8
+          ],
+          "dependencies": [
+            "g000254"
+          ],
+          "logical_layer": 46
+        },
+        {
+          "gate_id": "g000256",
+          "gate_type": "cz",
+          "qubits": [
+            16,
+            8
+          ],
+          "dependencies": [
+            "g000227",
+            "g000255"
+          ],
+          "logical_layer": 47
+        },
+        {
+          "gate_id": "g000257",
+          "gate_type": "cz",
+          "qubits": [
+            16,
+            8
+          ],
+          "dependencies": [
+            "g000256"
+          ],
+          "logical_layer": 48
+        },
+        {
+          "gate_id": "g000258",
+          "gate_type": "cz",
+          "qubits": [
+            15,
+            8
+          ],
+          "dependencies": [
+            "g000229",
+            "g000257"
+          ],
+          "logical_layer": 49
+        },
+        {
+          "gate_id": "g000259",
+          "gate_type": "cz",
+          "qubits": [
+            15,
+            8
+          ],
+          "dependencies": [
+            "g000258"
+          ],
+          "logical_layer": 50
+        },
+        {
+          "gate_id": "g000260",
+          "gate_type": "cz",
+          "qubits": [
+            14,
+            8
+          ],
+          "dependencies": [
+            "g000231",
+            "g000259"
+          ],
+          "logical_layer": 51
+        },
+        {
+          "gate_id": "g000261",
+          "gate_type": "cz",
+          "qubits": [
+            14,
+            8
+          ],
+          "dependencies": [
+            "g000260"
+          ],
+          "logical_layer": 52
+        },
+        {
+          "gate_id": "g000262",
+          "gate_type": "cz",
+          "qubits": [
+            13,
+            8
+          ],
+          "dependencies": [
+            "g000233",
+            "g000261"
+          ],
+          "logical_layer": 53
+        },
+        {
+          "gate_id": "g000263",
+          "gate_type": "cz",
+          "qubits": [
+            13,
+            8
+          ],
+          "dependencies": [
+            "g000262"
+          ],
+          "logical_layer": 54
+        },
+        {
+          "gate_id": "g000264",
+          "gate_type": "cz",
+          "qubits": [
+            12,
+            8
+          ],
+          "dependencies": [
+            "g000235",
+            "g000263"
+          ],
+          "logical_layer": 55
+        },
+        {
+          "gate_id": "g000265",
+          "gate_type": "cz",
+          "qubits": [
+            12,
+            8
+          ],
+          "dependencies": [
+            "g000264"
+          ],
+          "logical_layer": 56
+        },
+        {
+          "gate_id": "g000266",
+          "gate_type": "cz",
+          "qubits": [
+            11,
+            8
+          ],
+          "dependencies": [
+            "g000237",
+            "g000265"
+          ],
+          "logical_layer": 57
+        },
+        {
+          "gate_id": "g000267",
+          "gate_type": "cz",
+          "qubits": [
+            11,
+            8
+          ],
+          "dependencies": [
+            "g000266"
+          ],
+          "logical_layer": 58
+        },
+        {
+          "gate_id": "g000268",
+          "gate_type": "cz",
+          "qubits": [
+            10,
+            8
+          ],
+          "dependencies": [
+            "g000239",
+            "g000267"
+          ],
+          "logical_layer": 59
+        },
+        {
+          "gate_id": "g000269",
+          "gate_type": "cz",
+          "qubits": [
+            10,
+            8
+          ],
+          "dependencies": [
+            "g000268"
+          ],
+          "logical_layer": 60
+        },
+        {
+          "gate_id": "g000270",
+          "gate_type": "cz",
+          "qubits": [
+            9,
+            8
+          ],
+          "dependencies": [
+            "g000239",
+            "g000269"
+          ],
+          "logical_layer": 61
+        },
+        {
+          "gate_id": "g000271",
+          "gate_type": "cz",
+          "qubits": [
+            9,
+            8
+          ],
+          "dependencies": [
+            "g000270"
+          ],
+          "logical_layer": 62
+        },
+        {
+          "gate_id": "g000272",
+          "gate_type": "cz",
+          "qubits": [
+            24,
+            7
+          ],
+          "dependencies": [
+            "g000241"
+          ],
+          "logical_layer": 33
+        },
+        {
+          "gate_id": "g000273",
+          "gate_type": "cz",
+          "qubits": [
+            24,
+            7
+          ],
+          "dependencies": [
+            "g000272"
+          ],
+          "logical_layer": 34
+        },
+        {
+          "gate_id": "g000274",
+          "gate_type": "cz",
+          "qubits": [
+            23,
+            7
+          ],
+          "dependencies": [
+            "g000243",
+            "g000273"
+          ],
+          "logical_layer": 35
+        },
+        {
+          "gate_id": "g000275",
+          "gate_type": "cz",
+          "qubits": [
+            23,
+            7
+          ],
+          "dependencies": [
+            "g000274"
+          ],
+          "logical_layer": 36
+        },
+        {
+          "gate_id": "g000276",
+          "gate_type": "cz",
+          "qubits": [
+            22,
+            7
+          ],
+          "dependencies": [
+            "g000245",
+            "g000275"
+          ],
+          "logical_layer": 37
+        },
+        {
+          "gate_id": "g000277",
+          "gate_type": "cz",
+          "qubits": [
+            22,
+            7
+          ],
+          "dependencies": [
+            "g000276"
+          ],
+          "logical_layer": 38
+        },
+        {
+          "gate_id": "g000278",
+          "gate_type": "cz",
+          "qubits": [
+            21,
+            7
+          ],
+          "dependencies": [
+            "g000247",
+            "g000277"
+          ],
+          "logical_layer": 39
+        },
+        {
+          "gate_id": "g000279",
+          "gate_type": "cz",
+          "qubits": [
+            21,
+            7
+          ],
+          "dependencies": [
+            "g000278"
+          ],
+          "logical_layer": 40
+        },
+        {
+          "gate_id": "g000280",
+          "gate_type": "cz",
+          "qubits": [
+            20,
+            7
+          ],
+          "dependencies": [
+            "g000249",
+            "g000279"
+          ],
+          "logical_layer": 41
+        },
+        {
+          "gate_id": "g000281",
+          "gate_type": "cz",
+          "qubits": [
+            20,
+            7
+          ],
+          "dependencies": [
+            "g000280"
+          ],
+          "logical_layer": 42
+        },
+        {
+          "gate_id": "g000282",
+          "gate_type": "cz",
+          "qubits": [
+            19,
+            7
+          ],
+          "dependencies": [
+            "g000251",
+            "g000281"
+          ],
+          "logical_layer": 43
+        },
+        {
+          "gate_id": "g000283",
+          "gate_type": "cz",
+          "qubits": [
+            19,
+            7
+          ],
+          "dependencies": [
+            "g000282"
+          ],
+          "logical_layer": 44
+        },
+        {
+          "gate_id": "g000284",
+          "gate_type": "cz",
+          "qubits": [
+            18,
+            7
+          ],
+          "dependencies": [
+            "g000253",
+            "g000283"
+          ],
+          "logical_layer": 45
+        },
+        {
+          "gate_id": "g000285",
+          "gate_type": "cz",
+          "qubits": [
+            18,
+            7
+          ],
+          "dependencies": [
+            "g000284"
+          ],
+          "logical_layer": 46
+        },
+        {
+          "gate_id": "g000286",
+          "gate_type": "cz",
+          "qubits": [
+            17,
+            7
+          ],
+          "dependencies": [
+            "g000255",
+            "g000285"
+          ],
+          "logical_layer": 47
+        },
+        {
+          "gate_id": "g000287",
+          "gate_type": "cz",
+          "qubits": [
+            17,
+            7
+          ],
+          "dependencies": [
+            "g000286"
+          ],
+          "logical_layer": 48
+        },
+        {
+          "gate_id": "g000288",
+          "gate_type": "cz",
+          "qubits": [
+            16,
+            7
+          ],
+          "dependencies": [
+            "g000257",
+            "g000287"
+          ],
+          "logical_layer": 49
+        },
+        {
+          "gate_id": "g000289",
+          "gate_type": "cz",
+          "qubits": [
+            16,
+            7
+          ],
+          "dependencies": [
+            "g000288"
+          ],
+          "logical_layer": 50
+        },
+        {
+          "gate_id": "g000290",
+          "gate_type": "cz",
+          "qubits": [
+            15,
+            7
+          ],
+          "dependencies": [
+            "g000259",
+            "g000289"
+          ],
+          "logical_layer": 51
+        },
+        {
+          "gate_id": "g000291",
+          "gate_type": "cz",
+          "qubits": [
+            15,
+            7
+          ],
+          "dependencies": [
+            "g000290"
+          ],
+          "logical_layer": 52
+        },
+        {
+          "gate_id": "g000292",
+          "gate_type": "cz",
+          "qubits": [
+            14,
+            7
+          ],
+          "dependencies": [
+            "g000261",
+            "g000291"
+          ],
+          "logical_layer": 53
+        },
+        {
+          "gate_id": "g000293",
+          "gate_type": "cz",
+          "qubits": [
+            14,
+            7
+          ],
+          "dependencies": [
+            "g000292"
+          ],
+          "logical_layer": 54
+        },
+        {
+          "gate_id": "g000294",
+          "gate_type": "cz",
+          "qubits": [
+            13,
+            7
+          ],
+          "dependencies": [
+            "g000263",
+            "g000293"
+          ],
+          "logical_layer": 55
+        },
+        {
+          "gate_id": "g000295",
+          "gate_type": "cz",
+          "qubits": [
+            13,
+            7
+          ],
+          "dependencies": [
+            "g000294"
+          ],
+          "logical_layer": 56
+        },
+        {
+          "gate_id": "g000296",
+          "gate_type": "cz",
+          "qubits": [
+            12,
+            7
+          ],
+          "dependencies": [
+            "g000265",
+            "g000295"
+          ],
+          "logical_layer": 57
+        },
+        {
+          "gate_id": "g000297",
+          "gate_type": "cz",
+          "qubits": [
+            12,
+            7
+          ],
+          "dependencies": [
+            "g000296"
+          ],
+          "logical_layer": 58
+        },
+        {
+          "gate_id": "g000298",
+          "gate_type": "cz",
+          "qubits": [
+            11,
+            7
+          ],
+          "dependencies": [
+            "g000267",
+            "g000297"
+          ],
+          "logical_layer": 59
+        },
+        {
+          "gate_id": "g000299",
+          "gate_type": "cz",
+          "qubits": [
+            11,
+            7
+          ],
+          "dependencies": [
+            "g000298"
+          ],
+          "logical_layer": 60
+        },
+        {
+          "gate_id": "g000300",
+          "gate_type": "cz",
+          "qubits": [
+            10,
+            7
+          ],
+          "dependencies": [
+            "g000269",
+            "g000299"
+          ],
+          "logical_layer": 61
+        },
+        {
+          "gate_id": "g000301",
+          "gate_type": "cz",
+          "qubits": [
+            10,
+            7
+          ],
+          "dependencies": [
+            "g000300"
+          ],
+          "logical_layer": 62
+        },
+        {
+          "gate_id": "g000302",
+          "gate_type": "cz",
+          "qubits": [
+            9,
+            7
+          ],
+          "dependencies": [
+            "g000271",
+            "g000301"
+          ],
+          "logical_layer": 63
+        },
+        {
+          "gate_id": "g000303",
+          "gate_type": "cz",
+          "qubits": [
+            9,
+            7
+          ],
+          "dependencies": [
+            "g000302"
+          ],
+          "logical_layer": 64
+        },
+        {
+          "gate_id": "g000304",
+          "gate_type": "cz",
+          "qubits": [
+            8,
+            7
+          ],
+          "dependencies": [
+            "g000271",
+            "g000303"
+          ],
+          "logical_layer": 65
+        },
+        {
+          "gate_id": "g000305",
+          "gate_type": "cz",
+          "qubits": [
+            8,
+            7
+          ],
+          "dependencies": [
+            "g000304"
+          ],
+          "logical_layer": 66
+        },
+        {
+          "gate_id": "g000306",
+          "gate_type": "cz",
+          "qubits": [
+            24,
+            6
+          ],
+          "dependencies": [
+            "g000273"
+          ],
+          "logical_layer": 35
+        },
+        {
+          "gate_id": "g000307",
+          "gate_type": "cz",
+          "qubits": [
+            24,
+            6
+          ],
+          "dependencies": [
+            "g000306"
+          ],
+          "logical_layer": 36
+        },
+        {
+          "gate_id": "g000308",
+          "gate_type": "cz",
+          "qubits": [
+            23,
+            6
+          ],
+          "dependencies": [
+            "g000275",
+            "g000307"
+          ],
+          "logical_layer": 37
+        },
+        {
+          "gate_id": "g000309",
+          "gate_type": "cz",
+          "qubits": [
+            23,
+            6
+          ],
+          "dependencies": [
+            "g000308"
+          ],
+          "logical_layer": 38
+        },
+        {
+          "gate_id": "g000310",
+          "gate_type": "cz",
+          "qubits": [
+            22,
+            6
+          ],
+          "dependencies": [
+            "g000277",
+            "g000309"
+          ],
+          "logical_layer": 39
+        },
+        {
+          "gate_id": "g000311",
+          "gate_type": "cz",
+          "qubits": [
+            22,
+            6
+          ],
+          "dependencies": [
+            "g000310"
+          ],
+          "logical_layer": 40
+        },
+        {
+          "gate_id": "g000312",
+          "gate_type": "cz",
+          "qubits": [
+            21,
+            6
+          ],
+          "dependencies": [
+            "g000279",
+            "g000311"
+          ],
+          "logical_layer": 41
+        },
+        {
+          "gate_id": "g000313",
+          "gate_type": "cz",
+          "qubits": [
+            21,
+            6
+          ],
+          "dependencies": [
+            "g000312"
+          ],
+          "logical_layer": 42
+        },
+        {
+          "gate_id": "g000314",
+          "gate_type": "cz",
+          "qubits": [
+            20,
+            6
+          ],
+          "dependencies": [
+            "g000281",
+            "g000313"
+          ],
+          "logical_layer": 43
+        },
+        {
+          "gate_id": "g000315",
+          "gate_type": "cz",
+          "qubits": [
+            20,
+            6
+          ],
+          "dependencies": [
+            "g000314"
+          ],
+          "logical_layer": 44
+        },
+        {
+          "gate_id": "g000316",
+          "gate_type": "cz",
+          "qubits": [
+            19,
+            6
+          ],
+          "dependencies": [
+            "g000283",
+            "g000315"
+          ],
+          "logical_layer": 45
+        },
+        {
+          "gate_id": "g000317",
+          "gate_type": "cz",
+          "qubits": [
+            19,
+            6
+          ],
+          "dependencies": [
+            "g000316"
+          ],
+          "logical_layer": 46
+        },
+        {
+          "gate_id": "g000318",
+          "gate_type": "cz",
+          "qubits": [
+            18,
+            6
+          ],
+          "dependencies": [
+            "g000285",
+            "g000317"
+          ],
+          "logical_layer": 47
+        },
+        {
+          "gate_id": "g000319",
+          "gate_type": "cz",
+          "qubits": [
+            18,
+            6
+          ],
+          "dependencies": [
+            "g000318"
+          ],
+          "logical_layer": 48
+        },
+        {
+          "gate_id": "g000320",
+          "gate_type": "cz",
+          "qubits": [
+            17,
+            6
+          ],
+          "dependencies": [
+            "g000287",
+            "g000319"
+          ],
+          "logical_layer": 49
+        },
+        {
+          "gate_id": "g000321",
+          "gate_type": "cz",
+          "qubits": [
+            17,
+            6
+          ],
+          "dependencies": [
+            "g000320"
+          ],
+          "logical_layer": 50
+        },
+        {
+          "gate_id": "g000322",
+          "gate_type": "cz",
+          "qubits": [
+            16,
+            6
+          ],
+          "dependencies": [
+            "g000289",
+            "g000321"
+          ],
+          "logical_layer": 51
+        },
+        {
+          "gate_id": "g000323",
+          "gate_type": "cz",
+          "qubits": [
+            16,
+            6
+          ],
+          "dependencies": [
+            "g000322"
+          ],
+          "logical_layer": 52
+        },
+        {
+          "gate_id": "g000324",
+          "gate_type": "cz",
+          "qubits": [
+            15,
+            6
+          ],
+          "dependencies": [
+            "g000291",
+            "g000323"
+          ],
+          "logical_layer": 53
+        },
+        {
+          "gate_id": "g000325",
+          "gate_type": "cz",
+          "qubits": [
+            15,
+            6
+          ],
+          "dependencies": [
+            "g000324"
+          ],
+          "logical_layer": 54
+        },
+        {
+          "gate_id": "g000326",
+          "gate_type": "cz",
+          "qubits": [
+            14,
+            6
+          ],
+          "dependencies": [
+            "g000293",
+            "g000325"
+          ],
+          "logical_layer": 55
+        },
+        {
+          "gate_id": "g000327",
+          "gate_type": "cz",
+          "qubits": [
+            14,
+            6
+          ],
+          "dependencies": [
+            "g000326"
+          ],
+          "logical_layer": 56
+        },
+        {
+          "gate_id": "g000328",
+          "gate_type": "cz",
+          "qubits": [
+            13,
+            6
+          ],
+          "dependencies": [
+            "g000295",
+            "g000327"
+          ],
+          "logical_layer": 57
+        },
+        {
+          "gate_id": "g000329",
+          "gate_type": "cz",
+          "qubits": [
+            13,
+            6
+          ],
+          "dependencies": [
+            "g000328"
+          ],
+          "logical_layer": 58
+        },
+        {
+          "gate_id": "g000330",
+          "gate_type": "cz",
+          "qubits": [
+            12,
+            6
+          ],
+          "dependencies": [
+            "g000297",
+            "g000329"
+          ],
+          "logical_layer": 59
+        },
+        {
+          "gate_id": "g000331",
+          "gate_type": "cz",
+          "qubits": [
+            12,
+            6
+          ],
+          "dependencies": [
+            "g000330"
+          ],
+          "logical_layer": 60
+        },
+        {
+          "gate_id": "g000332",
+          "gate_type": "cz",
+          "qubits": [
+            11,
+            6
+          ],
+          "dependencies": [
+            "g000299",
+            "g000331"
+          ],
+          "logical_layer": 61
+        },
+        {
+          "gate_id": "g000333",
+          "gate_type": "cz",
+          "qubits": [
+            11,
+            6
+          ],
+          "dependencies": [
+            "g000332"
+          ],
+          "logical_layer": 62
+        },
+        {
+          "gate_id": "g000334",
+          "gate_type": "cz",
+          "qubits": [
+            10,
+            6
+          ],
+          "dependencies": [
+            "g000301",
+            "g000333"
+          ],
+          "logical_layer": 63
+        },
+        {
+          "gate_id": "g000335",
+          "gate_type": "cz",
+          "qubits": [
+            10,
+            6
+          ],
+          "dependencies": [
+            "g000334"
+          ],
+          "logical_layer": 64
+        },
+        {
+          "gate_id": "g000336",
+          "gate_type": "cz",
+          "qubits": [
+            9,
+            6
+          ],
+          "dependencies": [
+            "g000303",
+            "g000335"
+          ],
+          "logical_layer": 65
+        },
+        {
+          "gate_id": "g000337",
+          "gate_type": "cz",
+          "qubits": [
+            9,
+            6
+          ],
+          "dependencies": [
+            "g000336"
+          ],
+          "logical_layer": 66
+        },
+        {
+          "gate_id": "g000338",
+          "gate_type": "cz",
+          "qubits": [
+            8,
+            6
+          ],
+          "dependencies": [
+            "g000305",
+            "g000337"
+          ],
+          "logical_layer": 67
+        },
+        {
+          "gate_id": "g000339",
+          "gate_type": "cz",
+          "qubits": [
+            8,
+            6
+          ],
+          "dependencies": [
+            "g000338"
+          ],
+          "logical_layer": 68
+        },
+        {
+          "gate_id": "g000340",
+          "gate_type": "cz",
+          "qubits": [
+            7,
+            6
+          ],
+          "dependencies": [
+            "g000305",
+            "g000339"
+          ],
+          "logical_layer": 69
+        },
+        {
+          "gate_id": "g000341",
+          "gate_type": "cz",
+          "qubits": [
+            7,
+            6
+          ],
+          "dependencies": [
+            "g000340"
+          ],
+          "logical_layer": 70
+        },
+        {
+          "gate_id": "g000342",
+          "gate_type": "cz",
+          "qubits": [
+            24,
+            5
+          ],
+          "dependencies": [
+            "g000307"
+          ],
+          "logical_layer": 37
+        },
+        {
+          "gate_id": "g000343",
+          "gate_type": "cz",
+          "qubits": [
+            24,
+            5
+          ],
+          "dependencies": [
+            "g000342"
+          ],
+          "logical_layer": 38
+        },
+        {
+          "gate_id": "g000344",
+          "gate_type": "cz",
+          "qubits": [
+            23,
+            5
+          ],
+          "dependencies": [
+            "g000309",
+            "g000343"
+          ],
+          "logical_layer": 39
+        },
+        {
+          "gate_id": "g000345",
+          "gate_type": "cz",
+          "qubits": [
+            23,
+            5
+          ],
+          "dependencies": [
+            "g000344"
+          ],
+          "logical_layer": 40
+        },
+        {
+          "gate_id": "g000346",
+          "gate_type": "cz",
+          "qubits": [
+            22,
+            5
+          ],
+          "dependencies": [
+            "g000311",
+            "g000345"
+          ],
+          "logical_layer": 41
+        },
+        {
+          "gate_id": "g000347",
+          "gate_type": "cz",
+          "qubits": [
+            22,
+            5
+          ],
+          "dependencies": [
+            "g000346"
+          ],
+          "logical_layer": 42
+        },
+        {
+          "gate_id": "g000348",
+          "gate_type": "cz",
+          "qubits": [
+            21,
+            5
+          ],
+          "dependencies": [
+            "g000313",
+            "g000347"
+          ],
+          "logical_layer": 43
+        },
+        {
+          "gate_id": "g000349",
+          "gate_type": "cz",
+          "qubits": [
+            21,
+            5
+          ],
+          "dependencies": [
+            "g000348"
+          ],
+          "logical_layer": 44
+        },
+        {
+          "gate_id": "g000350",
+          "gate_type": "cz",
+          "qubits": [
+            20,
+            5
+          ],
+          "dependencies": [
+            "g000315",
+            "g000349"
+          ],
+          "logical_layer": 45
+        },
+        {
+          "gate_id": "g000351",
+          "gate_type": "cz",
+          "qubits": [
+            20,
+            5
+          ],
+          "dependencies": [
+            "g000350"
+          ],
+          "logical_layer": 46
+        },
+        {
+          "gate_id": "g000352",
+          "gate_type": "cz",
+          "qubits": [
+            19,
+            5
+          ],
+          "dependencies": [
+            "g000317",
+            "g000351"
+          ],
+          "logical_layer": 47
+        },
+        {
+          "gate_id": "g000353",
+          "gate_type": "cz",
+          "qubits": [
+            19,
+            5
+          ],
+          "dependencies": [
+            "g000352"
+          ],
+          "logical_layer": 48
+        },
+        {
+          "gate_id": "g000354",
+          "gate_type": "cz",
+          "qubits": [
+            18,
+            5
+          ],
+          "dependencies": [
+            "g000319",
+            "g000353"
+          ],
+          "logical_layer": 49
+        },
+        {
+          "gate_id": "g000355",
+          "gate_type": "cz",
+          "qubits": [
+            18,
+            5
+          ],
+          "dependencies": [
+            "g000354"
+          ],
+          "logical_layer": 50
+        },
+        {
+          "gate_id": "g000356",
+          "gate_type": "cz",
+          "qubits": [
+            17,
+            5
+          ],
+          "dependencies": [
+            "g000321",
+            "g000355"
+          ],
+          "logical_layer": 51
+        },
+        {
+          "gate_id": "g000357",
+          "gate_type": "cz",
+          "qubits": [
+            17,
+            5
+          ],
+          "dependencies": [
+            "g000356"
+          ],
+          "logical_layer": 52
+        },
+        {
+          "gate_id": "g000358",
+          "gate_type": "cz",
+          "qubits": [
+            16,
+            5
+          ],
+          "dependencies": [
+            "g000323",
+            "g000357"
+          ],
+          "logical_layer": 53
+        },
+        {
+          "gate_id": "g000359",
+          "gate_type": "cz",
+          "qubits": [
+            16,
+            5
+          ],
+          "dependencies": [
+            "g000358"
+          ],
+          "logical_layer": 54
+        },
+        {
+          "gate_id": "g000360",
+          "gate_type": "cz",
+          "qubits": [
+            15,
+            5
+          ],
+          "dependencies": [
+            "g000325",
+            "g000359"
+          ],
+          "logical_layer": 55
+        },
+        {
+          "gate_id": "g000361",
+          "gate_type": "cz",
+          "qubits": [
+            15,
+            5
+          ],
+          "dependencies": [
+            "g000360"
+          ],
+          "logical_layer": 56
+        },
+        {
+          "gate_id": "g000362",
+          "gate_type": "cz",
+          "qubits": [
+            14,
+            5
+          ],
+          "dependencies": [
+            "g000327",
+            "g000361"
+          ],
+          "logical_layer": 57
+        },
+        {
+          "gate_id": "g000363",
+          "gate_type": "cz",
+          "qubits": [
+            14,
+            5
+          ],
+          "dependencies": [
+            "g000362"
+          ],
+          "logical_layer": 58
+        },
+        {
+          "gate_id": "g000364",
+          "gate_type": "cz",
+          "qubits": [
+            13,
+            5
+          ],
+          "dependencies": [
+            "g000329",
+            "g000363"
+          ],
+          "logical_layer": 59
+        },
+        {
+          "gate_id": "g000365",
+          "gate_type": "cz",
+          "qubits": [
+            13,
+            5
+          ],
+          "dependencies": [
+            "g000364"
+          ],
+          "logical_layer": 60
+        },
+        {
+          "gate_id": "g000366",
+          "gate_type": "cz",
+          "qubits": [
+            12,
+            5
+          ],
+          "dependencies": [
+            "g000331",
+            "g000365"
+          ],
+          "logical_layer": 61
+        },
+        {
+          "gate_id": "g000367",
+          "gate_type": "cz",
+          "qubits": [
+            12,
+            5
+          ],
+          "dependencies": [
+            "g000366"
+          ],
+          "logical_layer": 62
+        },
+        {
+          "gate_id": "g000368",
+          "gate_type": "cz",
+          "qubits": [
+            11,
+            5
+          ],
+          "dependencies": [
+            "g000333",
+            "g000367"
+          ],
+          "logical_layer": 63
+        },
+        {
+          "gate_id": "g000369",
+          "gate_type": "cz",
+          "qubits": [
+            11,
+            5
+          ],
+          "dependencies": [
+            "g000368"
+          ],
+          "logical_layer": 64
+        },
+        {
+          "gate_id": "g000370",
+          "gate_type": "cz",
+          "qubits": [
+            10,
+            5
+          ],
+          "dependencies": [
+            "g000335",
+            "g000369"
+          ],
+          "logical_layer": 65
+        },
+        {
+          "gate_id": "g000371",
+          "gate_type": "cz",
+          "qubits": [
+            10,
+            5
+          ],
+          "dependencies": [
+            "g000370"
+          ],
+          "logical_layer": 66
+        },
+        {
+          "gate_id": "g000372",
+          "gate_type": "cz",
+          "qubits": [
+            9,
+            5
+          ],
+          "dependencies": [
+            "g000337",
+            "g000371"
+          ],
+          "logical_layer": 67
+        },
+        {
+          "gate_id": "g000373",
+          "gate_type": "cz",
+          "qubits": [
+            9,
+            5
+          ],
+          "dependencies": [
+            "g000372"
+          ],
+          "logical_layer": 68
+        },
+        {
+          "gate_id": "g000374",
+          "gate_type": "cz",
+          "qubits": [
+            8,
+            5
+          ],
+          "dependencies": [
+            "g000339",
+            "g000373"
+          ],
+          "logical_layer": 69
+        },
+        {
+          "gate_id": "g000375",
+          "gate_type": "cz",
+          "qubits": [
+            8,
+            5
+          ],
+          "dependencies": [
+            "g000374"
+          ],
+          "logical_layer": 70
+        },
+        {
+          "gate_id": "g000376",
+          "gate_type": "cz",
+          "qubits": [
+            7,
+            5
+          ],
+          "dependencies": [
+            "g000341",
+            "g000375"
+          ],
+          "logical_layer": 71
+        },
+        {
+          "gate_id": "g000377",
+          "gate_type": "cz",
+          "qubits": [
+            7,
+            5
+          ],
+          "dependencies": [
+            "g000376"
+          ],
+          "logical_layer": 72
+        },
+        {
+          "gate_id": "g000378",
+          "gate_type": "cz",
+          "qubits": [
+            6,
+            5
+          ],
+          "dependencies": [
+            "g000341",
+            "g000377"
+          ],
+          "logical_layer": 73
+        },
+        {
+          "gate_id": "g000379",
+          "gate_type": "cz",
+          "qubits": [
+            6,
+            5
+          ],
+          "dependencies": [
+            "g000378"
+          ],
+          "logical_layer": 74
+        },
+        {
+          "gate_id": "g000380",
+          "gate_type": "cz",
+          "qubits": [
+            24,
+            4
+          ],
+          "dependencies": [
+            "g000343"
+          ],
+          "logical_layer": 39
+        },
+        {
+          "gate_id": "g000381",
+          "gate_type": "cz",
+          "qubits": [
+            24,
+            4
+          ],
+          "dependencies": [
+            "g000380"
+          ],
+          "logical_layer": 40
+        },
+        {
+          "gate_id": "g000382",
+          "gate_type": "cz",
+          "qubits": [
+            23,
+            4
+          ],
+          "dependencies": [
+            "g000345",
+            "g000381"
+          ],
+          "logical_layer": 41
+        },
+        {
+          "gate_id": "g000383",
+          "gate_type": "cz",
+          "qubits": [
+            23,
+            4
+          ],
+          "dependencies": [
+            "g000382"
+          ],
+          "logical_layer": 42
+        },
+        {
+          "gate_id": "g000384",
+          "gate_type": "cz",
+          "qubits": [
+            22,
+            4
+          ],
+          "dependencies": [
+            "g000347",
+            "g000383"
+          ],
+          "logical_layer": 43
+        },
+        {
+          "gate_id": "g000385",
+          "gate_type": "cz",
+          "qubits": [
+            22,
+            4
+          ],
+          "dependencies": [
+            "g000384"
+          ],
+          "logical_layer": 44
+        },
+        {
+          "gate_id": "g000386",
+          "gate_type": "cz",
+          "qubits": [
+            21,
+            4
+          ],
+          "dependencies": [
+            "g000349",
+            "g000385"
+          ],
+          "logical_layer": 45
+        },
+        {
+          "gate_id": "g000387",
+          "gate_type": "cz",
+          "qubits": [
+            21,
+            4
+          ],
+          "dependencies": [
+            "g000386"
+          ],
+          "logical_layer": 46
+        },
+        {
+          "gate_id": "g000388",
+          "gate_type": "cz",
+          "qubits": [
+            20,
+            4
+          ],
+          "dependencies": [
+            "g000351",
+            "g000387"
+          ],
+          "logical_layer": 47
+        },
+        {
+          "gate_id": "g000389",
+          "gate_type": "cz",
+          "qubits": [
+            20,
+            4
+          ],
+          "dependencies": [
+            "g000388"
+          ],
+          "logical_layer": 48
+        },
+        {
+          "gate_id": "g000390",
+          "gate_type": "cz",
+          "qubits": [
+            19,
+            4
+          ],
+          "dependencies": [
+            "g000353",
+            "g000389"
+          ],
+          "logical_layer": 49
+        },
+        {
+          "gate_id": "g000391",
+          "gate_type": "cz",
+          "qubits": [
+            19,
+            4
+          ],
+          "dependencies": [
+            "g000390"
+          ],
+          "logical_layer": 50
+        },
+        {
+          "gate_id": "g000392",
+          "gate_type": "cz",
+          "qubits": [
+            18,
+            4
+          ],
+          "dependencies": [
+            "g000355",
+            "g000391"
+          ],
+          "logical_layer": 51
+        },
+        {
+          "gate_id": "g000393",
+          "gate_type": "cz",
+          "qubits": [
+            18,
+            4
+          ],
+          "dependencies": [
+            "g000392"
+          ],
+          "logical_layer": 52
+        },
+        {
+          "gate_id": "g000394",
+          "gate_type": "cz",
+          "qubits": [
+            17,
+            4
+          ],
+          "dependencies": [
+            "g000357",
+            "g000393"
+          ],
+          "logical_layer": 53
+        },
+        {
+          "gate_id": "g000395",
+          "gate_type": "cz",
+          "qubits": [
+            17,
+            4
+          ],
+          "dependencies": [
+            "g000394"
+          ],
+          "logical_layer": 54
+        },
+        {
+          "gate_id": "g000396",
+          "gate_type": "cz",
+          "qubits": [
+            16,
+            4
+          ],
+          "dependencies": [
+            "g000359",
+            "g000395"
+          ],
+          "logical_layer": 55
+        },
+        {
+          "gate_id": "g000397",
+          "gate_type": "cz",
+          "qubits": [
+            16,
+            4
+          ],
+          "dependencies": [
+            "g000396"
+          ],
+          "logical_layer": 56
+        },
+        {
+          "gate_id": "g000398",
+          "gate_type": "cz",
+          "qubits": [
+            15,
+            4
+          ],
+          "dependencies": [
+            "g000361",
+            "g000397"
+          ],
+          "logical_layer": 57
+        },
+        {
+          "gate_id": "g000399",
+          "gate_type": "cz",
+          "qubits": [
+            15,
+            4
+          ],
+          "dependencies": [
+            "g000398"
+          ],
+          "logical_layer": 58
+        },
+        {
+          "gate_id": "g000400",
+          "gate_type": "cz",
+          "qubits": [
+            14,
+            4
+          ],
+          "dependencies": [
+            "g000363",
+            "g000399"
+          ],
+          "logical_layer": 59
+        },
+        {
+          "gate_id": "g000401",
+          "gate_type": "cz",
+          "qubits": [
+            14,
+            4
+          ],
+          "dependencies": [
+            "g000400"
+          ],
+          "logical_layer": 60
+        },
+        {
+          "gate_id": "g000402",
+          "gate_type": "cz",
+          "qubits": [
+            13,
+            4
+          ],
+          "dependencies": [
+            "g000365",
+            "g000401"
+          ],
+          "logical_layer": 61
+        },
+        {
+          "gate_id": "g000403",
+          "gate_type": "cz",
+          "qubits": [
+            13,
+            4
+          ],
+          "dependencies": [
+            "g000402"
+          ],
+          "logical_layer": 62
+        },
+        {
+          "gate_id": "g000404",
+          "gate_type": "cz",
+          "qubits": [
+            12,
+            4
+          ],
+          "dependencies": [
+            "g000367",
+            "g000403"
+          ],
+          "logical_layer": 63
+        },
+        {
+          "gate_id": "g000405",
+          "gate_type": "cz",
+          "qubits": [
+            12,
+            4
+          ],
+          "dependencies": [
+            "g000404"
+          ],
+          "logical_layer": 64
+        },
+        {
+          "gate_id": "g000406",
+          "gate_type": "cz",
+          "qubits": [
+            11,
+            4
+          ],
+          "dependencies": [
+            "g000369",
+            "g000405"
+          ],
+          "logical_layer": 65
+        },
+        {
+          "gate_id": "g000407",
+          "gate_type": "cz",
+          "qubits": [
+            11,
+            4
+          ],
+          "dependencies": [
+            "g000406"
+          ],
+          "logical_layer": 66
+        },
+        {
+          "gate_id": "g000408",
+          "gate_type": "cz",
+          "qubits": [
+            10,
+            4
+          ],
+          "dependencies": [
+            "g000371",
+            "g000407"
+          ],
+          "logical_layer": 67
+        },
+        {
+          "gate_id": "g000409",
+          "gate_type": "cz",
+          "qubits": [
+            10,
+            4
+          ],
+          "dependencies": [
+            "g000408"
+          ],
+          "logical_layer": 68
+        },
+        {
+          "gate_id": "g000410",
+          "gate_type": "cz",
+          "qubits": [
+            9,
+            4
+          ],
+          "dependencies": [
+            "g000373",
+            "g000409"
+          ],
+          "logical_layer": 69
+        },
+        {
+          "gate_id": "g000411",
+          "gate_type": "cz",
+          "qubits": [
+            9,
+            4
+          ],
+          "dependencies": [
+            "g000410"
+          ],
+          "logical_layer": 70
+        },
+        {
+          "gate_id": "g000412",
+          "gate_type": "cz",
+          "qubits": [
+            8,
+            4
+          ],
+          "dependencies": [
+            "g000375",
+            "g000411"
+          ],
+          "logical_layer": 71
+        },
+        {
+          "gate_id": "g000413",
+          "gate_type": "cz",
+          "qubits": [
+            8,
+            4
+          ],
+          "dependencies": [
+            "g000412"
+          ],
+          "logical_layer": 72
+        },
+        {
+          "gate_id": "g000414",
+          "gate_type": "cz",
+          "qubits": [
+            7,
+            4
+          ],
+          "dependencies": [
+            "g000377",
+            "g000413"
+          ],
+          "logical_layer": 73
+        },
+        {
+          "gate_id": "g000415",
+          "gate_type": "cz",
+          "qubits": [
+            7,
+            4
+          ],
+          "dependencies": [
+            "g000414"
+          ],
+          "logical_layer": 74
+        },
+        {
+          "gate_id": "g000416",
+          "gate_type": "cz",
+          "qubits": [
+            6,
+            4
+          ],
+          "dependencies": [
+            "g000379",
+            "g000415"
+          ],
+          "logical_layer": 75
+        },
+        {
+          "gate_id": "g000417",
+          "gate_type": "cz",
+          "qubits": [
+            6,
+            4
+          ],
+          "dependencies": [
+            "g000416"
+          ],
+          "logical_layer": 76
+        },
+        {
+          "gate_id": "g000418",
+          "gate_type": "cz",
+          "qubits": [
+            5,
+            4
+          ],
+          "dependencies": [
+            "g000379",
+            "g000417"
+          ],
+          "logical_layer": 77
+        },
+        {
+          "gate_id": "g000419",
+          "gate_type": "cz",
+          "qubits": [
+            5,
+            4
+          ],
+          "dependencies": [
+            "g000418"
+          ],
+          "logical_layer": 78
+        },
+        {
+          "gate_id": "g000420",
+          "gate_type": "cz",
+          "qubits": [
+            24,
+            3
+          ],
+          "dependencies": [
+            "g000381"
+          ],
+          "logical_layer": 41
+        },
+        {
+          "gate_id": "g000421",
+          "gate_type": "cz",
+          "qubits": [
+            24,
+            3
+          ],
+          "dependencies": [
+            "g000420"
+          ],
+          "logical_layer": 42
+        },
+        {
+          "gate_id": "g000422",
+          "gate_type": "cz",
+          "qubits": [
+            23,
+            3
+          ],
+          "dependencies": [
+            "g000383",
+            "g000421"
+          ],
+          "logical_layer": 43
+        },
+        {
+          "gate_id": "g000423",
+          "gate_type": "cz",
+          "qubits": [
+            23,
+            3
+          ],
+          "dependencies": [
+            "g000422"
+          ],
+          "logical_layer": 44
+        },
+        {
+          "gate_id": "g000424",
+          "gate_type": "cz",
+          "qubits": [
+            22,
+            3
+          ],
+          "dependencies": [
+            "g000385",
+            "g000423"
+          ],
+          "logical_layer": 45
+        },
+        {
+          "gate_id": "g000425",
+          "gate_type": "cz",
+          "qubits": [
+            22,
+            3
+          ],
+          "dependencies": [
+            "g000424"
+          ],
+          "logical_layer": 46
+        },
+        {
+          "gate_id": "g000426",
+          "gate_type": "cz",
+          "qubits": [
+            21,
+            3
+          ],
+          "dependencies": [
+            "g000387",
+            "g000425"
+          ],
+          "logical_layer": 47
+        },
+        {
+          "gate_id": "g000427",
+          "gate_type": "cz",
+          "qubits": [
+            21,
+            3
+          ],
+          "dependencies": [
+            "g000426"
+          ],
+          "logical_layer": 48
+        },
+        {
+          "gate_id": "g000428",
+          "gate_type": "cz",
+          "qubits": [
+            20,
+            3
+          ],
+          "dependencies": [
+            "g000389",
+            "g000427"
+          ],
+          "logical_layer": 49
+        },
+        {
+          "gate_id": "g000429",
+          "gate_type": "cz",
+          "qubits": [
+            20,
+            3
+          ],
+          "dependencies": [
+            "g000428"
+          ],
+          "logical_layer": 50
+        },
+        {
+          "gate_id": "g000430",
+          "gate_type": "cz",
+          "qubits": [
+            19,
+            3
+          ],
+          "dependencies": [
+            "g000391",
+            "g000429"
+          ],
+          "logical_layer": 51
+        },
+        {
+          "gate_id": "g000431",
+          "gate_type": "cz",
+          "qubits": [
+            19,
+            3
+          ],
+          "dependencies": [
+            "g000430"
+          ],
+          "logical_layer": 52
+        },
+        {
+          "gate_id": "g000432",
+          "gate_type": "cz",
+          "qubits": [
+            18,
+            3
+          ],
+          "dependencies": [
+            "g000393",
+            "g000431"
+          ],
+          "logical_layer": 53
+        },
+        {
+          "gate_id": "g000433",
+          "gate_type": "cz",
+          "qubits": [
+            18,
+            3
+          ],
+          "dependencies": [
+            "g000432"
+          ],
+          "logical_layer": 54
+        },
+        {
+          "gate_id": "g000434",
+          "gate_type": "cz",
+          "qubits": [
+            17,
+            3
+          ],
+          "dependencies": [
+            "g000395",
+            "g000433"
+          ],
+          "logical_layer": 55
+        },
+        {
+          "gate_id": "g000435",
+          "gate_type": "cz",
+          "qubits": [
+            17,
+            3
+          ],
+          "dependencies": [
+            "g000434"
+          ],
+          "logical_layer": 56
+        },
+        {
+          "gate_id": "g000436",
+          "gate_type": "cz",
+          "qubits": [
+            16,
+            3
+          ],
+          "dependencies": [
+            "g000397",
+            "g000435"
+          ],
+          "logical_layer": 57
+        },
+        {
+          "gate_id": "g000437",
+          "gate_type": "cz",
+          "qubits": [
+            16,
+            3
+          ],
+          "dependencies": [
+            "g000436"
+          ],
+          "logical_layer": 58
+        },
+        {
+          "gate_id": "g000438",
+          "gate_type": "cz",
+          "qubits": [
+            15,
+            3
+          ],
+          "dependencies": [
+            "g000399",
+            "g000437"
+          ],
+          "logical_layer": 59
+        },
+        {
+          "gate_id": "g000439",
+          "gate_type": "cz",
+          "qubits": [
+            15,
+            3
+          ],
+          "dependencies": [
+            "g000438"
+          ],
+          "logical_layer": 60
+        },
+        {
+          "gate_id": "g000440",
+          "gate_type": "cz",
+          "qubits": [
+            14,
+            3
+          ],
+          "dependencies": [
+            "g000401",
+            "g000439"
+          ],
+          "logical_layer": 61
+        },
+        {
+          "gate_id": "g000441",
+          "gate_type": "cz",
+          "qubits": [
+            14,
+            3
+          ],
+          "dependencies": [
+            "g000440"
+          ],
+          "logical_layer": 62
+        },
+        {
+          "gate_id": "g000442",
+          "gate_type": "cz",
+          "qubits": [
+            13,
+            3
+          ],
+          "dependencies": [
+            "g000403",
+            "g000441"
+          ],
+          "logical_layer": 63
+        },
+        {
+          "gate_id": "g000443",
+          "gate_type": "cz",
+          "qubits": [
+            13,
+            3
+          ],
+          "dependencies": [
+            "g000442"
+          ],
+          "logical_layer": 64
+        },
+        {
+          "gate_id": "g000444",
+          "gate_type": "cz",
+          "qubits": [
+            12,
+            3
+          ],
+          "dependencies": [
+            "g000405",
+            "g000443"
+          ],
+          "logical_layer": 65
+        },
+        {
+          "gate_id": "g000445",
+          "gate_type": "cz",
+          "qubits": [
+            12,
+            3
+          ],
+          "dependencies": [
+            "g000444"
+          ],
+          "logical_layer": 66
+        },
+        {
+          "gate_id": "g000446",
+          "gate_type": "cz",
+          "qubits": [
+            11,
+            3
+          ],
+          "dependencies": [
+            "g000407",
+            "g000445"
+          ],
+          "logical_layer": 67
+        },
+        {
+          "gate_id": "g000447",
+          "gate_type": "cz",
+          "qubits": [
+            11,
+            3
+          ],
+          "dependencies": [
+            "g000446"
+          ],
+          "logical_layer": 68
+        },
+        {
+          "gate_id": "g000448",
+          "gate_type": "cz",
+          "qubits": [
+            10,
+            3
+          ],
+          "dependencies": [
+            "g000409",
+            "g000447"
+          ],
+          "logical_layer": 69
+        },
+        {
+          "gate_id": "g000449",
+          "gate_type": "cz",
+          "qubits": [
+            10,
+            3
+          ],
+          "dependencies": [
+            "g000448"
+          ],
+          "logical_layer": 70
+        },
+        {
+          "gate_id": "g000450",
+          "gate_type": "cz",
+          "qubits": [
+            9,
+            3
+          ],
+          "dependencies": [
+            "g000411",
+            "g000449"
+          ],
+          "logical_layer": 71
+        },
+        {
+          "gate_id": "g000451",
+          "gate_type": "cz",
+          "qubits": [
+            9,
+            3
+          ],
+          "dependencies": [
+            "g000450"
+          ],
+          "logical_layer": 72
+        },
+        {
+          "gate_id": "g000452",
+          "gate_type": "cz",
+          "qubits": [
+            8,
+            3
+          ],
+          "dependencies": [
+            "g000413",
+            "g000451"
+          ],
+          "logical_layer": 73
+        },
+        {
+          "gate_id": "g000453",
+          "gate_type": "cz",
+          "qubits": [
+            8,
+            3
+          ],
+          "dependencies": [
+            "g000452"
+          ],
+          "logical_layer": 74
+        },
+        {
+          "gate_id": "g000454",
+          "gate_type": "cz",
+          "qubits": [
+            7,
+            3
+          ],
+          "dependencies": [
+            "g000415",
+            "g000453"
+          ],
+          "logical_layer": 75
+        },
+        {
+          "gate_id": "g000455",
+          "gate_type": "cz",
+          "qubits": [
+            7,
+            3
+          ],
+          "dependencies": [
+            "g000454"
+          ],
+          "logical_layer": 76
+        },
+        {
+          "gate_id": "g000456",
+          "gate_type": "cz",
+          "qubits": [
+            6,
+            3
+          ],
+          "dependencies": [
+            "g000417",
+            "g000455"
+          ],
+          "logical_layer": 77
+        },
+        {
+          "gate_id": "g000457",
+          "gate_type": "cz",
+          "qubits": [
+            6,
+            3
+          ],
+          "dependencies": [
+            "g000456"
+          ],
+          "logical_layer": 78
+        },
+        {
+          "gate_id": "g000458",
+          "gate_type": "cz",
+          "qubits": [
+            5,
+            3
+          ],
+          "dependencies": [
+            "g000419",
+            "g000457"
+          ],
+          "logical_layer": 79
+        },
+        {
+          "gate_id": "g000459",
+          "gate_type": "cz",
+          "qubits": [
+            5,
+            3
+          ],
+          "dependencies": [
+            "g000458"
+          ],
+          "logical_layer": 80
+        },
+        {
+          "gate_id": "g000460",
+          "gate_type": "cz",
+          "qubits": [
+            4,
+            3
+          ],
+          "dependencies": [
+            "g000419",
+            "g000459"
+          ],
+          "logical_layer": 81
+        },
+        {
+          "gate_id": "g000461",
+          "gate_type": "cz",
+          "qubits": [
+            4,
+            3
+          ],
+          "dependencies": [
+            "g000460"
+          ],
+          "logical_layer": 82
+        },
+        {
+          "gate_id": "g000462",
+          "gate_type": "cz",
+          "qubits": [
+            24,
+            2
+          ],
+          "dependencies": [
+            "g000421"
+          ],
+          "logical_layer": 43
+        },
+        {
+          "gate_id": "g000463",
+          "gate_type": "cz",
+          "qubits": [
+            24,
+            2
+          ],
+          "dependencies": [
+            "g000462"
+          ],
+          "logical_layer": 44
+        },
+        {
+          "gate_id": "g000464",
+          "gate_type": "cz",
+          "qubits": [
+            23,
+            2
+          ],
+          "dependencies": [
+            "g000423",
+            "g000463"
+          ],
+          "logical_layer": 45
+        },
+        {
+          "gate_id": "g000465",
+          "gate_type": "cz",
+          "qubits": [
+            23,
+            2
+          ],
+          "dependencies": [
+            "g000464"
+          ],
+          "logical_layer": 46
+        },
+        {
+          "gate_id": "g000466",
+          "gate_type": "cz",
+          "qubits": [
+            22,
+            2
+          ],
+          "dependencies": [
+            "g000425",
+            "g000465"
+          ],
+          "logical_layer": 47
+        },
+        {
+          "gate_id": "g000467",
+          "gate_type": "cz",
+          "qubits": [
+            22,
+            2
+          ],
+          "dependencies": [
+            "g000466"
+          ],
+          "logical_layer": 48
+        },
+        {
+          "gate_id": "g000468",
+          "gate_type": "cz",
+          "qubits": [
+            21,
+            2
+          ],
+          "dependencies": [
+            "g000427",
+            "g000467"
+          ],
+          "logical_layer": 49
+        },
+        {
+          "gate_id": "g000469",
+          "gate_type": "cz",
+          "qubits": [
+            21,
+            2
+          ],
+          "dependencies": [
+            "g000468"
+          ],
+          "logical_layer": 50
+        },
+        {
+          "gate_id": "g000470",
+          "gate_type": "cz",
+          "qubits": [
+            20,
+            2
+          ],
+          "dependencies": [
+            "g000429",
+            "g000469"
+          ],
+          "logical_layer": 51
+        },
+        {
+          "gate_id": "g000471",
+          "gate_type": "cz",
+          "qubits": [
+            20,
+            2
+          ],
+          "dependencies": [
+            "g000470"
+          ],
+          "logical_layer": 52
+        },
+        {
+          "gate_id": "g000472",
+          "gate_type": "cz",
+          "qubits": [
+            19,
+            2
+          ],
+          "dependencies": [
+            "g000431",
+            "g000471"
+          ],
+          "logical_layer": 53
+        },
+        {
+          "gate_id": "g000473",
+          "gate_type": "cz",
+          "qubits": [
+            19,
+            2
+          ],
+          "dependencies": [
+            "g000472"
+          ],
+          "logical_layer": 54
+        },
+        {
+          "gate_id": "g000474",
+          "gate_type": "cz",
+          "qubits": [
+            18,
+            2
+          ],
+          "dependencies": [
+            "g000433",
+            "g000473"
+          ],
+          "logical_layer": 55
+        },
+        {
+          "gate_id": "g000475",
+          "gate_type": "cz",
+          "qubits": [
+            18,
+            2
+          ],
+          "dependencies": [
+            "g000474"
+          ],
+          "logical_layer": 56
+        },
+        {
+          "gate_id": "g000476",
+          "gate_type": "cz",
+          "qubits": [
+            17,
+            2
+          ],
+          "dependencies": [
+            "g000435",
+            "g000475"
+          ],
+          "logical_layer": 57
+        },
+        {
+          "gate_id": "g000477",
+          "gate_type": "cz",
+          "qubits": [
+            17,
+            2
+          ],
+          "dependencies": [
+            "g000476"
+          ],
+          "logical_layer": 58
+        },
+        {
+          "gate_id": "g000478",
+          "gate_type": "cz",
+          "qubits": [
+            16,
+            2
+          ],
+          "dependencies": [
+            "g000437",
+            "g000477"
+          ],
+          "logical_layer": 59
+        },
+        {
+          "gate_id": "g000479",
+          "gate_type": "cz",
+          "qubits": [
+            16,
+            2
+          ],
+          "dependencies": [
+            "g000478"
+          ],
+          "logical_layer": 60
+        },
+        {
+          "gate_id": "g000480",
+          "gate_type": "cz",
+          "qubits": [
+            15,
+            2
+          ],
+          "dependencies": [
+            "g000439",
+            "g000479"
+          ],
+          "logical_layer": 61
+        },
+        {
+          "gate_id": "g000481",
+          "gate_type": "cz",
+          "qubits": [
+            15,
+            2
+          ],
+          "dependencies": [
+            "g000480"
+          ],
+          "logical_layer": 62
+        },
+        {
+          "gate_id": "g000482",
+          "gate_type": "cz",
+          "qubits": [
+            14,
+            2
+          ],
+          "dependencies": [
+            "g000441",
+            "g000481"
+          ],
+          "logical_layer": 63
+        },
+        {
+          "gate_id": "g000483",
+          "gate_type": "cz",
+          "qubits": [
+            14,
+            2
+          ],
+          "dependencies": [
+            "g000482"
+          ],
+          "logical_layer": 64
+        },
+        {
+          "gate_id": "g000484",
+          "gate_type": "cz",
+          "qubits": [
+            13,
+            2
+          ],
+          "dependencies": [
+            "g000443",
+            "g000483"
+          ],
+          "logical_layer": 65
+        },
+        {
+          "gate_id": "g000485",
+          "gate_type": "cz",
+          "qubits": [
+            13,
+            2
+          ],
+          "dependencies": [
+            "g000484"
+          ],
+          "logical_layer": 66
+        },
+        {
+          "gate_id": "g000486",
+          "gate_type": "cz",
+          "qubits": [
+            12,
+            2
+          ],
+          "dependencies": [
+            "g000445",
+            "g000485"
+          ],
+          "logical_layer": 67
+        },
+        {
+          "gate_id": "g000487",
+          "gate_type": "cz",
+          "qubits": [
+            12,
+            2
+          ],
+          "dependencies": [
+            "g000486"
+          ],
+          "logical_layer": 68
+        },
+        {
+          "gate_id": "g000488",
+          "gate_type": "cz",
+          "qubits": [
+            11,
+            2
+          ],
+          "dependencies": [
+            "g000447",
+            "g000487"
+          ],
+          "logical_layer": 69
+        },
+        {
+          "gate_id": "g000489",
+          "gate_type": "cz",
+          "qubits": [
+            11,
+            2
+          ],
+          "dependencies": [
+            "g000488"
+          ],
+          "logical_layer": 70
+        },
+        {
+          "gate_id": "g000490",
+          "gate_type": "cz",
+          "qubits": [
+            10,
+            2
+          ],
+          "dependencies": [
+            "g000449",
+            "g000489"
+          ],
+          "logical_layer": 71
+        },
+        {
+          "gate_id": "g000491",
+          "gate_type": "cz",
+          "qubits": [
+            10,
+            2
+          ],
+          "dependencies": [
+            "g000490"
+          ],
+          "logical_layer": 72
+        },
+        {
+          "gate_id": "g000492",
+          "gate_type": "cz",
+          "qubits": [
+            9,
+            2
+          ],
+          "dependencies": [
+            "g000451",
+            "g000491"
+          ],
+          "logical_layer": 73
+        },
+        {
+          "gate_id": "g000493",
+          "gate_type": "cz",
+          "qubits": [
+            9,
+            2
+          ],
+          "dependencies": [
+            "g000492"
+          ],
+          "logical_layer": 74
+        },
+        {
+          "gate_id": "g000494",
+          "gate_type": "cz",
+          "qubits": [
+            8,
+            2
+          ],
+          "dependencies": [
+            "g000453",
+            "g000493"
+          ],
+          "logical_layer": 75
+        },
+        {
+          "gate_id": "g000495",
+          "gate_type": "cz",
+          "qubits": [
+            8,
+            2
+          ],
+          "dependencies": [
+            "g000494"
+          ],
+          "logical_layer": 76
+        },
+        {
+          "gate_id": "g000496",
+          "gate_type": "cz",
+          "qubits": [
+            7,
+            2
+          ],
+          "dependencies": [
+            "g000455",
+            "g000495"
+          ],
+          "logical_layer": 77
+        },
+        {
+          "gate_id": "g000497",
+          "gate_type": "cz",
+          "qubits": [
+            7,
+            2
+          ],
+          "dependencies": [
+            "g000496"
+          ],
+          "logical_layer": 78
+        },
+        {
+          "gate_id": "g000498",
+          "gate_type": "cz",
+          "qubits": [
+            6,
+            2
+          ],
+          "dependencies": [
+            "g000457",
+            "g000497"
+          ],
+          "logical_layer": 79
+        },
+        {
+          "gate_id": "g000499",
+          "gate_type": "cz",
+          "qubits": [
+            6,
+            2
+          ],
+          "dependencies": [
+            "g000498"
+          ],
+          "logical_layer": 80
+        },
+        {
+          "gate_id": "g000500",
+          "gate_type": "cz",
+          "qubits": [
+            5,
+            2
+          ],
+          "dependencies": [
+            "g000459",
+            "g000499"
+          ],
+          "logical_layer": 81
+        },
+        {
+          "gate_id": "g000501",
+          "gate_type": "cz",
+          "qubits": [
+            5,
+            2
+          ],
+          "dependencies": [
+            "g000500"
+          ],
+          "logical_layer": 82
+        },
+        {
+          "gate_id": "g000502",
+          "gate_type": "cz",
+          "qubits": [
+            4,
+            2
+          ],
+          "dependencies": [
+            "g000461",
+            "g000501"
+          ],
+          "logical_layer": 83
+        },
+        {
+          "gate_id": "g000503",
+          "gate_type": "cz",
+          "qubits": [
+            4,
+            2
+          ],
+          "dependencies": [
+            "g000502"
+          ],
+          "logical_layer": 84
+        },
+        {
+          "gate_id": "g000504",
+          "gate_type": "cz",
+          "qubits": [
+            3,
+            2
+          ],
+          "dependencies": [
+            "g000461",
+            "g000503"
+          ],
+          "logical_layer": 85
+        },
+        {
+          "gate_id": "g000505",
+          "gate_type": "cz",
+          "qubits": [
+            3,
+            2
+          ],
+          "dependencies": [
+            "g000504"
+          ],
+          "logical_layer": 86
+        },
+        {
+          "gate_id": "g000506",
+          "gate_type": "cz",
+          "qubits": [
+            24,
+            1
+          ],
+          "dependencies": [
+            "g000463"
+          ],
+          "logical_layer": 45
+        },
+        {
+          "gate_id": "g000507",
+          "gate_type": "cz",
+          "qubits": [
+            24,
+            1
+          ],
+          "dependencies": [
+            "g000506"
+          ],
+          "logical_layer": 46
+        },
+        {
+          "gate_id": "g000508",
+          "gate_type": "cz",
+          "qubits": [
+            23,
+            1
+          ],
+          "dependencies": [
+            "g000465",
+            "g000507"
+          ],
+          "logical_layer": 47
+        },
+        {
+          "gate_id": "g000509",
+          "gate_type": "cz",
+          "qubits": [
+            23,
+            1
+          ],
+          "dependencies": [
+            "g000508"
+          ],
+          "logical_layer": 48
+        },
+        {
+          "gate_id": "g000510",
+          "gate_type": "cz",
+          "qubits": [
+            22,
+            1
+          ],
+          "dependencies": [
+            "g000467",
+            "g000509"
+          ],
+          "logical_layer": 49
+        },
+        {
+          "gate_id": "g000511",
+          "gate_type": "cz",
+          "qubits": [
+            22,
+            1
+          ],
+          "dependencies": [
+            "g000510"
+          ],
+          "logical_layer": 50
+        },
+        {
+          "gate_id": "g000512",
+          "gate_type": "cz",
+          "qubits": [
+            21,
+            1
+          ],
+          "dependencies": [
+            "g000469",
+            "g000511"
+          ],
+          "logical_layer": 51
+        },
+        {
+          "gate_id": "g000513",
+          "gate_type": "cz",
+          "qubits": [
+            21,
+            1
+          ],
+          "dependencies": [
+            "g000512"
+          ],
+          "logical_layer": 52
+        },
+        {
+          "gate_id": "g000514",
+          "gate_type": "cz",
+          "qubits": [
+            20,
+            1
+          ],
+          "dependencies": [
+            "g000471",
+            "g000513"
+          ],
+          "logical_layer": 53
+        },
+        {
+          "gate_id": "g000515",
+          "gate_type": "cz",
+          "qubits": [
+            20,
+            1
+          ],
+          "dependencies": [
+            "g000514"
+          ],
+          "logical_layer": 54
+        },
+        {
+          "gate_id": "g000516",
+          "gate_type": "cz",
+          "qubits": [
+            19,
+            1
+          ],
+          "dependencies": [
+            "g000473",
+            "g000515"
+          ],
+          "logical_layer": 55
+        },
+        {
+          "gate_id": "g000517",
+          "gate_type": "cz",
+          "qubits": [
+            19,
+            1
+          ],
+          "dependencies": [
+            "g000516"
+          ],
+          "logical_layer": 56
+        },
+        {
+          "gate_id": "g000518",
+          "gate_type": "cz",
+          "qubits": [
+            18,
+            1
+          ],
+          "dependencies": [
+            "g000475",
+            "g000517"
+          ],
+          "logical_layer": 57
+        },
+        {
+          "gate_id": "g000519",
+          "gate_type": "cz",
+          "qubits": [
+            18,
+            1
+          ],
+          "dependencies": [
+            "g000518"
+          ],
+          "logical_layer": 58
+        },
+        {
+          "gate_id": "g000520",
+          "gate_type": "cz",
+          "qubits": [
+            17,
+            1
+          ],
+          "dependencies": [
+            "g000477",
+            "g000519"
+          ],
+          "logical_layer": 59
+        },
+        {
+          "gate_id": "g000521",
+          "gate_type": "cz",
+          "qubits": [
+            17,
+            1
+          ],
+          "dependencies": [
+            "g000520"
+          ],
+          "logical_layer": 60
+        },
+        {
+          "gate_id": "g000522",
+          "gate_type": "cz",
+          "qubits": [
+            16,
+            1
+          ],
+          "dependencies": [
+            "g000479",
+            "g000521"
+          ],
+          "logical_layer": 61
+        },
+        {
+          "gate_id": "g000523",
+          "gate_type": "cz",
+          "qubits": [
+            16,
+            1
+          ],
+          "dependencies": [
+            "g000522"
+          ],
+          "logical_layer": 62
+        },
+        {
+          "gate_id": "g000524",
+          "gate_type": "cz",
+          "qubits": [
+            15,
+            1
+          ],
+          "dependencies": [
+            "g000481",
+            "g000523"
+          ],
+          "logical_layer": 63
+        },
+        {
+          "gate_id": "g000525",
+          "gate_type": "cz",
+          "qubits": [
+            15,
+            1
+          ],
+          "dependencies": [
+            "g000524"
+          ],
+          "logical_layer": 64
+        },
+        {
+          "gate_id": "g000526",
+          "gate_type": "cz",
+          "qubits": [
+            14,
+            1
+          ],
+          "dependencies": [
+            "g000483",
+            "g000525"
+          ],
+          "logical_layer": 65
+        },
+        {
+          "gate_id": "g000527",
+          "gate_type": "cz",
+          "qubits": [
+            14,
+            1
+          ],
+          "dependencies": [
+            "g000526"
+          ],
+          "logical_layer": 66
+        },
+        {
+          "gate_id": "g000528",
+          "gate_type": "cz",
+          "qubits": [
+            13,
+            1
+          ],
+          "dependencies": [
+            "g000485",
+            "g000527"
+          ],
+          "logical_layer": 67
+        },
+        {
+          "gate_id": "g000529",
+          "gate_type": "cz",
+          "qubits": [
+            13,
+            1
+          ],
+          "dependencies": [
+            "g000528"
+          ],
+          "logical_layer": 68
+        },
+        {
+          "gate_id": "g000530",
+          "gate_type": "cz",
+          "qubits": [
+            12,
+            1
+          ],
+          "dependencies": [
+            "g000487",
+            "g000529"
+          ],
+          "logical_layer": 69
+        },
+        {
+          "gate_id": "g000531",
+          "gate_type": "cz",
+          "qubits": [
+            12,
+            1
+          ],
+          "dependencies": [
+            "g000530"
+          ],
+          "logical_layer": 70
+        },
+        {
+          "gate_id": "g000532",
+          "gate_type": "cz",
+          "qubits": [
+            11,
+            1
+          ],
+          "dependencies": [
+            "g000489",
+            "g000531"
+          ],
+          "logical_layer": 71
+        },
+        {
+          "gate_id": "g000533",
+          "gate_type": "cz",
+          "qubits": [
+            11,
+            1
+          ],
+          "dependencies": [
+            "g000532"
+          ],
+          "logical_layer": 72
+        },
+        {
+          "gate_id": "g000534",
+          "gate_type": "cz",
+          "qubits": [
+            10,
+            1
+          ],
+          "dependencies": [
+            "g000491",
+            "g000533"
+          ],
+          "logical_layer": 73
+        },
+        {
+          "gate_id": "g000535",
+          "gate_type": "cz",
+          "qubits": [
+            10,
+            1
+          ],
+          "dependencies": [
+            "g000534"
+          ],
+          "logical_layer": 74
+        },
+        {
+          "gate_id": "g000536",
+          "gate_type": "cz",
+          "qubits": [
+            9,
+            1
+          ],
+          "dependencies": [
+            "g000493",
+            "g000535"
+          ],
+          "logical_layer": 75
+        },
+        {
+          "gate_id": "g000537",
+          "gate_type": "cz",
+          "qubits": [
+            9,
+            1
+          ],
+          "dependencies": [
+            "g000536"
+          ],
+          "logical_layer": 76
+        },
+        {
+          "gate_id": "g000538",
+          "gate_type": "cz",
+          "qubits": [
+            8,
+            1
+          ],
+          "dependencies": [
+            "g000495",
+            "g000537"
+          ],
+          "logical_layer": 77
+        },
+        {
+          "gate_id": "g000539",
+          "gate_type": "cz",
+          "qubits": [
+            8,
+            1
+          ],
+          "dependencies": [
+            "g000538"
+          ],
+          "logical_layer": 78
+        },
+        {
+          "gate_id": "g000540",
+          "gate_type": "cz",
+          "qubits": [
+            7,
+            1
+          ],
+          "dependencies": [
+            "g000497",
+            "g000539"
+          ],
+          "logical_layer": 79
+        },
+        {
+          "gate_id": "g000541",
+          "gate_type": "cz",
+          "qubits": [
+            7,
+            1
+          ],
+          "dependencies": [
+            "g000540"
+          ],
+          "logical_layer": 80
+        },
+        {
+          "gate_id": "g000542",
+          "gate_type": "cz",
+          "qubits": [
+            6,
+            1
+          ],
+          "dependencies": [
+            "g000499",
+            "g000541"
+          ],
+          "logical_layer": 81
+        },
+        {
+          "gate_id": "g000543",
+          "gate_type": "cz",
+          "qubits": [
+            6,
+            1
+          ],
+          "dependencies": [
+            "g000542"
+          ],
+          "logical_layer": 82
+        },
+        {
+          "gate_id": "g000544",
+          "gate_type": "cz",
+          "qubits": [
+            5,
+            1
+          ],
+          "dependencies": [
+            "g000501",
+            "g000543"
+          ],
+          "logical_layer": 83
+        },
+        {
+          "gate_id": "g000545",
+          "gate_type": "cz",
+          "qubits": [
+            5,
+            1
+          ],
+          "dependencies": [
+            "g000544"
+          ],
+          "logical_layer": 84
+        },
+        {
+          "gate_id": "g000546",
+          "gate_type": "cz",
+          "qubits": [
+            4,
+            1
+          ],
+          "dependencies": [
+            "g000503",
+            "g000545"
+          ],
+          "logical_layer": 85
+        },
+        {
+          "gate_id": "g000547",
+          "gate_type": "cz",
+          "qubits": [
+            4,
+            1
+          ],
+          "dependencies": [
+            "g000546"
+          ],
+          "logical_layer": 86
+        },
+        {
+          "gate_id": "g000548",
+          "gate_type": "cz",
+          "qubits": [
+            3,
+            1
+          ],
+          "dependencies": [
+            "g000505",
+            "g000547"
+          ],
+          "logical_layer": 87
+        },
+        {
+          "gate_id": "g000549",
+          "gate_type": "cz",
+          "qubits": [
+            3,
+            1
+          ],
+          "dependencies": [
+            "g000548"
+          ],
+          "logical_layer": 88
+        },
+        {
+          "gate_id": "g000550",
+          "gate_type": "cz",
+          "qubits": [
+            2,
+            1
+          ],
+          "dependencies": [
+            "g000505",
+            "g000549"
+          ],
+          "logical_layer": 89
+        },
+        {
+          "gate_id": "g000551",
+          "gate_type": "cz",
+          "qubits": [
+            2,
+            1
+          ],
+          "dependencies": [
+            "g000550"
+          ],
+          "logical_layer": 90
+        },
+        {
+          "gate_id": "g000552",
+          "gate_type": "cz",
+          "qubits": [
+            24,
+            0
+          ],
+          "dependencies": [
+            "g000507"
+          ],
+          "logical_layer": 47
+        },
+        {
+          "gate_id": "g000553",
+          "gate_type": "cz",
+          "qubits": [
+            24,
+            0
+          ],
+          "dependencies": [
+            "g000552"
+          ],
+          "logical_layer": 48
+        },
+        {
+          "gate_id": "g000554",
+          "gate_type": "cz",
+          "qubits": [
+            23,
+            0
+          ],
+          "dependencies": [
+            "g000509",
+            "g000553"
+          ],
+          "logical_layer": 49
+        },
+        {
+          "gate_id": "g000555",
+          "gate_type": "cz",
+          "qubits": [
+            23,
+            0
+          ],
+          "dependencies": [
+            "g000554"
+          ],
+          "logical_layer": 50
+        },
+        {
+          "gate_id": "g000556",
+          "gate_type": "cz",
+          "qubits": [
+            22,
+            0
+          ],
+          "dependencies": [
+            "g000511",
+            "g000555"
+          ],
+          "logical_layer": 51
+        },
+        {
+          "gate_id": "g000557",
+          "gate_type": "cz",
+          "qubits": [
+            22,
+            0
+          ],
+          "dependencies": [
+            "g000556"
+          ],
+          "logical_layer": 52
+        },
+        {
+          "gate_id": "g000558",
+          "gate_type": "cz",
+          "qubits": [
+            21,
+            0
+          ],
+          "dependencies": [
+            "g000513",
+            "g000557"
+          ],
+          "logical_layer": 53
+        },
+        {
+          "gate_id": "g000559",
+          "gate_type": "cz",
+          "qubits": [
+            21,
+            0
+          ],
+          "dependencies": [
+            "g000558"
+          ],
+          "logical_layer": 54
+        },
+        {
+          "gate_id": "g000560",
+          "gate_type": "cz",
+          "qubits": [
+            20,
+            0
+          ],
+          "dependencies": [
+            "g000515",
+            "g000559"
+          ],
+          "logical_layer": 55
+        },
+        {
+          "gate_id": "g000561",
+          "gate_type": "cz",
+          "qubits": [
+            20,
+            0
+          ],
+          "dependencies": [
+            "g000560"
+          ],
+          "logical_layer": 56
+        },
+        {
+          "gate_id": "g000562",
+          "gate_type": "cz",
+          "qubits": [
+            19,
+            0
+          ],
+          "dependencies": [
+            "g000517",
+            "g000561"
+          ],
+          "logical_layer": 57
+        },
+        {
+          "gate_id": "g000563",
+          "gate_type": "cz",
+          "qubits": [
+            19,
+            0
+          ],
+          "dependencies": [
+            "g000562"
+          ],
+          "logical_layer": 58
+        },
+        {
+          "gate_id": "g000564",
+          "gate_type": "cz",
+          "qubits": [
+            18,
+            0
+          ],
+          "dependencies": [
+            "g000519",
+            "g000563"
+          ],
+          "logical_layer": 59
+        },
+        {
+          "gate_id": "g000565",
+          "gate_type": "cz",
+          "qubits": [
+            18,
+            0
+          ],
+          "dependencies": [
+            "g000564"
+          ],
+          "logical_layer": 60
+        },
+        {
+          "gate_id": "g000566",
+          "gate_type": "cz",
+          "qubits": [
+            17,
+            0
+          ],
+          "dependencies": [
+            "g000521",
+            "g000565"
+          ],
+          "logical_layer": 61
+        },
+        {
+          "gate_id": "g000567",
+          "gate_type": "cz",
+          "qubits": [
+            17,
+            0
+          ],
+          "dependencies": [
+            "g000566"
+          ],
+          "logical_layer": 62
+        },
+        {
+          "gate_id": "g000568",
+          "gate_type": "cz",
+          "qubits": [
+            16,
+            0
+          ],
+          "dependencies": [
+            "g000523",
+            "g000567"
+          ],
+          "logical_layer": 63
+        },
+        {
+          "gate_id": "g000569",
+          "gate_type": "cz",
+          "qubits": [
+            16,
+            0
+          ],
+          "dependencies": [
+            "g000568"
+          ],
+          "logical_layer": 64
+        },
+        {
+          "gate_id": "g000570",
+          "gate_type": "cz",
+          "qubits": [
+            15,
+            0
+          ],
+          "dependencies": [
+            "g000525",
+            "g000569"
+          ],
+          "logical_layer": 65
+        },
+        {
+          "gate_id": "g000571",
+          "gate_type": "cz",
+          "qubits": [
+            15,
+            0
+          ],
+          "dependencies": [
+            "g000570"
+          ],
+          "logical_layer": 66
+        },
+        {
+          "gate_id": "g000572",
+          "gate_type": "cz",
+          "qubits": [
+            14,
+            0
+          ],
+          "dependencies": [
+            "g000527",
+            "g000571"
+          ],
+          "logical_layer": 67
+        },
+        {
+          "gate_id": "g000573",
+          "gate_type": "cz",
+          "qubits": [
+            14,
+            0
+          ],
+          "dependencies": [
+            "g000572"
+          ],
+          "logical_layer": 68
+        },
+        {
+          "gate_id": "g000574",
+          "gate_type": "cz",
+          "qubits": [
+            13,
+            0
+          ],
+          "dependencies": [
+            "g000529",
+            "g000573"
+          ],
+          "logical_layer": 69
+        },
+        {
+          "gate_id": "g000575",
+          "gate_type": "cz",
+          "qubits": [
+            13,
+            0
+          ],
+          "dependencies": [
+            "g000574"
+          ],
+          "logical_layer": 70
+        },
+        {
+          "gate_id": "g000576",
+          "gate_type": "cz",
+          "qubits": [
+            12,
+            0
+          ],
+          "dependencies": [
+            "g000531",
+            "g000575"
+          ],
+          "logical_layer": 71
+        },
+        {
+          "gate_id": "g000577",
+          "gate_type": "cz",
+          "qubits": [
+            12,
+            0
+          ],
+          "dependencies": [
+            "g000576"
+          ],
+          "logical_layer": 72
+        },
+        {
+          "gate_id": "g000578",
+          "gate_type": "cz",
+          "qubits": [
+            11,
+            0
+          ],
+          "dependencies": [
+            "g000533",
+            "g000577"
+          ],
+          "logical_layer": 73
+        },
+        {
+          "gate_id": "g000579",
+          "gate_type": "cz",
+          "qubits": [
+            11,
+            0
+          ],
+          "dependencies": [
+            "g000578"
+          ],
+          "logical_layer": 74
+        },
+        {
+          "gate_id": "g000580",
+          "gate_type": "cz",
+          "qubits": [
+            10,
+            0
+          ],
+          "dependencies": [
+            "g000535",
+            "g000579"
+          ],
+          "logical_layer": 75
+        },
+        {
+          "gate_id": "g000581",
+          "gate_type": "cz",
+          "qubits": [
+            10,
+            0
+          ],
+          "dependencies": [
+            "g000580"
+          ],
+          "logical_layer": 76
+        },
+        {
+          "gate_id": "g000582",
+          "gate_type": "cz",
+          "qubits": [
+            9,
+            0
+          ],
+          "dependencies": [
+            "g000537",
+            "g000581"
+          ],
+          "logical_layer": 77
+        },
+        {
+          "gate_id": "g000583",
+          "gate_type": "cz",
+          "qubits": [
+            9,
+            0
+          ],
+          "dependencies": [
+            "g000582"
+          ],
+          "logical_layer": 78
+        },
+        {
+          "gate_id": "g000584",
+          "gate_type": "cz",
+          "qubits": [
+            8,
+            0
+          ],
+          "dependencies": [
+            "g000539",
+            "g000583"
+          ],
+          "logical_layer": 79
+        },
+        {
+          "gate_id": "g000585",
+          "gate_type": "cz",
+          "qubits": [
+            8,
+            0
+          ],
+          "dependencies": [
+            "g000584"
+          ],
+          "logical_layer": 80
+        },
+        {
+          "gate_id": "g000586",
+          "gate_type": "cz",
+          "qubits": [
+            7,
+            0
+          ],
+          "dependencies": [
+            "g000541",
+            "g000585"
+          ],
+          "logical_layer": 81
+        },
+        {
+          "gate_id": "g000587",
+          "gate_type": "cz",
+          "qubits": [
+            7,
+            0
+          ],
+          "dependencies": [
+            "g000586"
+          ],
+          "logical_layer": 82
+        },
+        {
+          "gate_id": "g000588",
+          "gate_type": "cz",
+          "qubits": [
+            6,
+            0
+          ],
+          "dependencies": [
+            "g000543",
+            "g000587"
+          ],
+          "logical_layer": 83
+        },
+        {
+          "gate_id": "g000589",
+          "gate_type": "cz",
+          "qubits": [
+            6,
+            0
+          ],
+          "dependencies": [
+            "g000588"
+          ],
+          "logical_layer": 84
+        },
+        {
+          "gate_id": "g000590",
+          "gate_type": "cz",
+          "qubits": [
+            5,
+            0
+          ],
+          "dependencies": [
+            "g000545",
+            "g000589"
+          ],
+          "logical_layer": 85
+        },
+        {
+          "gate_id": "g000591",
+          "gate_type": "cz",
+          "qubits": [
+            5,
+            0
+          ],
+          "dependencies": [
+            "g000590"
+          ],
+          "logical_layer": 86
+        },
+        {
+          "gate_id": "g000592",
+          "gate_type": "cz",
+          "qubits": [
+            4,
+            0
+          ],
+          "dependencies": [
+            "g000547",
+            "g000591"
+          ],
+          "logical_layer": 87
+        },
+        {
+          "gate_id": "g000593",
+          "gate_type": "cz",
+          "qubits": [
+            4,
+            0
+          ],
+          "dependencies": [
+            "g000592"
+          ],
+          "logical_layer": 88
+        },
+        {
+          "gate_id": "g000594",
+          "gate_type": "cz",
+          "qubits": [
+            3,
+            0
+          ],
+          "dependencies": [
+            "g000549",
+            "g000593"
+          ],
+          "logical_layer": 89
+        },
+        {
+          "gate_id": "g000595",
+          "gate_type": "cz",
+          "qubits": [
+            3,
+            0
+          ],
+          "dependencies": [
+            "g000594"
+          ],
+          "logical_layer": 90
+        },
+        {
+          "gate_id": "g000596",
+          "gate_type": "cz",
+          "qubits": [
+            2,
+            0
+          ],
+          "dependencies": [
+            "g000551",
+            "g000595"
+          ],
+          "logical_layer": 91
+        },
+        {
+          "gate_id": "g000597",
+          "gate_type": "cz",
+          "qubits": [
+            2,
+            0
+          ],
+          "dependencies": [
+            "g000596"
+          ],
+          "logical_layer": 92
+        },
+        {
+          "gate_id": "g000598",
+          "gate_type": "cz",
+          "qubits": [
+            1,
+            0
+          ],
+          "dependencies": [
+            "g000551",
+            "g000597"
+          ],
+          "logical_layer": 93
+        },
+        {
+          "gate_id": "g000599",
+          "gate_type": "cz",
+          "qubits": [
+            1,
+            0
+          ],
+          "dependencies": [
+            "g000598"
+          ],
+          "logical_layer": 94
+        },
+        {
+          "gate_id": "g000600",
+          "gate_type": "cz",
+          "qubits": [
+            11,
+            13
+          ],
+          "dependencies": [
+            "g000575",
+            "g000579"
+          ],
+          "logical_layer": 75
+        },
+        {
+          "gate_id": "g000601",
+          "gate_type": "cz",
+          "qubits": [
+            13,
+            11
+          ],
+          "dependencies": [
+            "g000600"
+          ],
+          "logical_layer": 76
+        },
+        {
+          "gate_id": "g000602",
+          "gate_type": "cz",
+          "qubits": [
+            11,
+            13
+          ],
+          "dependencies": [
+            "g000601"
+          ],
+          "logical_layer": 77
+        },
+        {
+          "gate_id": "g000603",
+          "gate_type": "cz",
+          "qubits": [
+            10,
+            14
+          ],
+          "dependencies": [
+            "g000573",
+            "g000581"
+          ],
+          "logical_layer": 77
+        },
+        {
+          "gate_id": "g000604",
+          "gate_type": "cz",
+          "qubits": [
+            14,
+            10
+          ],
+          "dependencies": [
+            "g000603"
+          ],
+          "logical_layer": 78
+        },
+        {
+          "gate_id": "g000605",
+          "gate_type": "cz",
+          "qubits": [
+            10,
+            14
+          ],
+          "dependencies": [
+            "g000604"
+          ],
+          "logical_layer": 79
+        },
+        {
+          "gate_id": "g000606",
+          "gate_type": "cz",
+          "qubits": [
+            9,
+            15
+          ],
+          "dependencies": [
+            "g000571",
+            "g000583"
+          ],
+          "logical_layer": 79
+        },
+        {
+          "gate_id": "g000607",
+          "gate_type": "cz",
+          "qubits": [
+            15,
+            9
+          ],
+          "dependencies": [
+            "g000606"
+          ],
+          "logical_layer": 80
+        },
+        {
+          "gate_id": "g000608",
+          "gate_type": "cz",
+          "qubits": [
+            9,
+            15
+          ],
+          "dependencies": [
+            "g000607"
+          ],
+          "logical_layer": 81
+        },
+        {
+          "gate_id": "g000609",
+          "gate_type": "cz",
+          "qubits": [
+            8,
+            16
+          ],
+          "dependencies": [
+            "g000569",
+            "g000585"
+          ],
+          "logical_layer": 81
+        },
+        {
+          "gate_id": "g000610",
+          "gate_type": "cz",
+          "qubits": [
+            16,
+            8
+          ],
+          "dependencies": [
+            "g000609"
+          ],
+          "logical_layer": 82
+        },
+        {
+          "gate_id": "g000611",
+          "gate_type": "cz",
+          "qubits": [
+            8,
+            16
+          ],
+          "dependencies": [
+            "g000610"
+          ],
+          "logical_layer": 83
+        },
+        {
+          "gate_id": "g000612",
+          "gate_type": "cz",
+          "qubits": [
+            7,
+            17
+          ],
+          "dependencies": [
+            "g000567",
+            "g000587"
+          ],
+          "logical_layer": 83
+        },
+        {
+          "gate_id": "g000613",
+          "gate_type": "cz",
+          "qubits": [
+            17,
+            7
+          ],
+          "dependencies": [
+            "g000612"
+          ],
+          "logical_layer": 84
+        },
+        {
+          "gate_id": "g000614",
+          "gate_type": "cz",
+          "qubits": [
+            7,
+            17
+          ],
+          "dependencies": [
+            "g000613"
+          ],
+          "logical_layer": 85
+        },
+        {
+          "gate_id": "g000615",
+          "gate_type": "cz",
+          "qubits": [
+            6,
+            18
+          ],
+          "dependencies": [
+            "g000565",
+            "g000589"
+          ],
+          "logical_layer": 85
+        },
+        {
+          "gate_id": "g000616",
+          "gate_type": "cz",
+          "qubits": [
+            18,
+            6
+          ],
+          "dependencies": [
+            "g000615"
+          ],
+          "logical_layer": 86
+        },
+        {
+          "gate_id": "g000617",
+          "gate_type": "cz",
+          "qubits": [
+            6,
+            18
+          ],
+          "dependencies": [
+            "g000616"
+          ],
+          "logical_layer": 87
+        },
+        {
+          "gate_id": "g000618",
+          "gate_type": "cz",
+          "qubits": [
+            5,
+            19
+          ],
+          "dependencies": [
+            "g000563",
+            "g000591"
+          ],
+          "logical_layer": 87
+        },
+        {
+          "gate_id": "g000619",
+          "gate_type": "cz",
+          "qubits": [
+            19,
+            5
+          ],
+          "dependencies": [
+            "g000618"
+          ],
+          "logical_layer": 88
+        },
+        {
+          "gate_id": "g000620",
+          "gate_type": "cz",
+          "qubits": [
+            5,
+            19
+          ],
+          "dependencies": [
+            "g000619"
+          ],
+          "logical_layer": 89
+        },
+        {
+          "gate_id": "g000621",
+          "gate_type": "cz",
+          "qubits": [
+            4,
+            20
+          ],
+          "dependencies": [
+            "g000561",
+            "g000593"
+          ],
+          "logical_layer": 89
+        },
+        {
+          "gate_id": "g000622",
+          "gate_type": "cz",
+          "qubits": [
+            20,
+            4
+          ],
+          "dependencies": [
+            "g000621"
+          ],
+          "logical_layer": 90
+        },
+        {
+          "gate_id": "g000623",
+          "gate_type": "cz",
+          "qubits": [
+            4,
+            20
+          ],
+          "dependencies": [
+            "g000622"
+          ],
+          "logical_layer": 91
+        },
+        {
+          "gate_id": "g000624",
+          "gate_type": "cz",
+          "qubits": [
+            3,
+            21
+          ],
+          "dependencies": [
+            "g000559",
+            "g000595"
+          ],
+          "logical_layer": 91
+        },
+        {
+          "gate_id": "g000625",
+          "gate_type": "cz",
+          "qubits": [
+            21,
+            3
+          ],
+          "dependencies": [
+            "g000624"
+          ],
+          "logical_layer": 92
+        },
+        {
+          "gate_id": "g000626",
+          "gate_type": "cz",
+          "qubits": [
+            3,
+            21
+          ],
+          "dependencies": [
+            "g000625"
+          ],
+          "logical_layer": 93
+        },
+        {
+          "gate_id": "g000627",
+          "gate_type": "cz",
+          "qubits": [
+            2,
+            22
+          ],
+          "dependencies": [
+            "g000557",
+            "g000597"
+          ],
+          "logical_layer": 93
+        },
+        {
+          "gate_id": "g000628",
+          "gate_type": "cz",
+          "qubits": [
+            22,
+            2
+          ],
+          "dependencies": [
+            "g000627"
+          ],
+          "logical_layer": 94
+        },
+        {
+          "gate_id": "g000629",
+          "gate_type": "cz",
+          "qubits": [
+            2,
+            22
+          ],
+          "dependencies": [
+            "g000628"
+          ],
+          "logical_layer": 95
+        },
+        {
+          "gate_id": "g000630",
+          "gate_type": "cz",
+          "qubits": [
+            1,
+            23
+          ],
+          "dependencies": [
+            "g000555",
+            "g000599"
+          ],
+          "logical_layer": 95
+        },
+        {
+          "gate_id": "g000631",
+          "gate_type": "cz",
+          "qubits": [
+            23,
+            1
+          ],
+          "dependencies": [
+            "g000630"
+          ],
+          "logical_layer": 96
+        },
+        {
+          "gate_id": "g000632",
+          "gate_type": "cz",
+          "qubits": [
+            1,
+            23
+          ],
+          "dependencies": [
+            "g000631"
+          ],
+          "logical_layer": 97
+        },
+        {
+          "gate_id": "g000633",
+          "gate_type": "cz",
+          "qubits": [
+            0,
+            24
+          ],
+          "dependencies": [
+            "g000553",
+            "g000599"
+          ],
+          "logical_layer": 95
+        },
+        {
+          "gate_id": "g000634",
+          "gate_type": "cz",
+          "qubits": [
+            24,
+            0
+          ],
+          "dependencies": [
+            "g000633"
+          ],
+          "logical_layer": 96
+        },
+        {
+          "gate_id": "g000635",
+          "gate_type": "cz",
+          "qubits": [
+            0,
+            24
+          ],
+          "dependencies": [
+            "g000634"
+          ],
+          "logical_layer": 97
+        }
+      ]
+    },
+    "circuit_sha256": "e67dc0501fe5672e5580c5b29601c38fcd45cc0ca9007cb3108ce65bd30c5975",
+    "hardware": {
+      "profile_id": "legacy_geometry_evidence.v1",
+      "rows": 11,
+      "columns": 11,
+      "coordinate_unit": "grid_index",
+      "spacing_um": 3.0,
+      "interaction_radius_um": 6.0,
+      "restriction_radius_um": 12.0,
+      "min_atom_separation_um": null,
+      "slm_aod_shared_plane": null,
+      "addressing": "individual",
+      "aod_count": 1,
+      "cooling_supported": false,
+      "cz_duration_us": 0.2,
+      "transfer_stage_duration_us": 20.0,
+      "move_speed_um_per_us": 0.55,
+      "gates_require_trap": "SLM",
+      "allow_move_gate_overlap": false,
+      "coordinate_tolerance": 1e-09,
+      "legacy_T2_us": 1500000.0,
+      "legacy_f_cz": 0.995,
+      "legacy_f_transfer": 1.0,
+      "assumptions": [
+        "Physical minimum separation and cross-plane geometry not established by native logs"
+      ],
+      "source": "Pinned RFT/DasAtom legacy constants; no new heating/cooling/acceleration model"
+    },
+    "hardware_sha256": "958e8b8f998ebe08235bbdda51a285491af31dc74d8af4cc1950931621c7e163",
+    "origin": {
+      "kind": "dasatom",
+      "upstream_status": "invalid",
+      "adapter_sha256": "52176634b99af2403661c549b99db6cc21bad4df9e697d3d11529fa6692c17a1",
+      "compiler_config": {
+        "options": null,
+        "seed": 42,
+        "hash_seed": "0",
+        "threads": 1,
+        "geometry": {
+          "rows": 11,
+          "columns": 11,
+          "r_int": 2,
+          "r_blk": 4
+        },
+        "register_policy": {
+          "input_declared_N": 25,
+          "native_N": 25,
+          "behavior": "upstream infers max(two-qubit operand)+1, dropping trailing inactive qubits",
+          "matched_full_register_supported": true
+        },
+        "routing_seed": null
+      },
+      "source_files": [
+        {
+          "path": "C:\\Users\\hp\\Documents\\BTP\\btp_work\\runs\\current_baseline\\study_v1\\attempts\\fig4_qft__qft_25__g11__dasatom__standalone__native__r1\\attempt_01\\worker\\result.json",
+          "sha256": "37bedf5d870fc87fa2de31a9aa066fe2df10675e6b4b649eb85862fd7a8347e7"
+        },
+        {
+          "path": "C:\\Users\\hp\\Documents\\BTP\\btp_work\\runs\\current_baseline\\study_v1\\attempts\\fig4_qft__qft_25__g11__dasatom__standalone__native__r1\\attempt_01\\worker\\normalized.qasm",
+          "sha256": "9b84a936b1f4585907ed8cee3ba617cb8163fbb5fd6fad6dd562bd4fbbb269a0"
+        },
+        {
+          "path": "C:\\Users\\hp\\Documents\\BTP\\btp_work\\runs\\current_baseline\\study_v1\\attempts\\fig4_qft__qft_25__g11__dasatom__standalone__native__r1\\attempt_01\\worker\\native_dasatom.json",
+          "sha256": "27b5c369aa4b5d93ba3c3c97ccc2484ed3600bfadecde80e088ee4fd584114c4"
+        }
+      ],
+      "rft_revision": "3d1f09233c2acd357fd9fbfad1b5300a921d301a",
+      "dasatom_revision": "73a6bdf0fd200b2733745211eaf2e0c1e17f496a",
+      "input_declared_qubits": 25,
+      "normalized_declared_qubits": 25,
+      "effective_qubits": 25,
+      "original_register_complete": true,
+      "register_scope": "source_native_CZ_only",
+      "module_providers": {
+        "compiler_core": "vendor\\NAQC_Compiler-3d1f09233c2acd357fd9fbfad1b5300a921d301a\\src\\compiler_core.py",
+        "benchmark_runner": "vendor\\NAQC_Compiler-3d1f09233c2acd357fd9fbfad1b5300a921d301a\\src\\benchmark_runner.py",
+        "dasatom_instruction_converter": "vendor\\NAQC_Compiler-3d1f09233c2acd357fd9fbfad1b5300a921d301a\\src\\dasatom_instruction_converter.py",
+        "DasAtom_fun": "vendor\\DasAtom-73a6bdf0fd200b2733745211eaf2e0c1e17f496a\\DasAtom_fun.py",
+        "Enola.route": "vendor\\DasAtom-73a6bdf0fd200b2733745211eaf2e0c1e17f496a\\Enola\\route.py"
+      }
+    },
+    "timing_policy": "evidence",
+    "diagnostics": [],
+    "atom_identity_policy": "One stable atom carrier per source logical qubit; no SWAP/cooling state transfer in native CZ-only scope",
+    "physical_evidence_complete": false,
+    "assumptions": [
+      "Native logs do not expose trap transfers, physical timing or trajectories"
+    ],
+    "source_counts": {
+      "gate_stages": 490,
+      "nonempty_movement_blocks": 83
+    },
+    "expected_final_positions": {
+      "a0": [
+        1,
+        1
+      ],
+      "a1": [
+        0,
+        2
+      ],
+      "a2": [
+        0,
+        1
+      ],
+      "a3": [
+        0,
+        0
+      ],
+      "a4": [
+        1,
+        2
+      ],
+      "a5": [
+        1,
+        0
+      ],
+      "a6": [
+        0,
+        7
+      ],
+      "a7": [
+        0,
+        5
+      ],
+      "a8": [
+        3,
+        0
+      ],
+      "a9": [
+        3,
+        1
+      ],
+      "a10": [
+        2,
+        3
+      ],
+      "a11": [
+        1,
+        4
+      ],
+      "a12": [
+        1,
+        5
+      ],
+      "a13": [
+        1,
+        6
+      ],
+      "a14": [
+        2,
+        4
+      ],
+      "a15": [
+        4,
+        0
+      ],
+      "a16": [
+        3,
+        2
+      ],
+      "a17": [
+        0,
+        6
+      ],
+      "a18": [
+        0,
+        8
+      ],
+      "a19": [
+        2,
+        1
+      ],
+      "a20": [
+        1,
+        3
+      ],
+      "a21": [
+        2,
+        0
+      ],
+      "a22": [
+        0,
+        3
+      ],
+      "a23": [
+        0,
+        4
+      ],
+      "a24": [
+        2,
+        2
+      ]
+    },
+    "legacy_scored_qubits": 25,
+    "legacy_scored_CZ": 636
+  },
+  "canonical_events_sha256": "3148a98abbe7c3a526575b3cfc0007a70a23a17b2518c5c16d0a9187f7c56820",
+  "event_count": 720,
+  "regeneration": "adapt_run(worker, algorithm, timing=evidence)",
+  "physical_trace_stored": false
+}

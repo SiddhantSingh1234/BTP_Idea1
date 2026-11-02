@@ -1,0 +1,58 @@
+--- Processing Time 1 (Batch 1) ---
+[INITIAL PLACEMENT]
+  PLACE idle qubit 4 at position (18, 16)
+  PLACE idle qubit 5 at position (17, 17)
+  PLACE idle qubit 6 at position (17, 18)
+  PLACE idle qubit 7 at position (18, 17)
+  PLACE idle qubit 8 at position (18, 18)
+  PLACE idle qubit 9 at position (16, 17)
+  PLACE idle qubit 10 at position (16, 18)
+  PLACE idle qubit 11 at position (17, 16)
+  PLACE idle qubit 12 at position (19, 17)
+  PLACE idle qubit 13 at position (19, 18)
+  PLACE idle qubit 14 at position (16, 16)
+  PLACE idle qubit 15 at position (16, 19)
+  PLACE active qubit 0 at position (18, 19)
+  PLACE active qubit 2 at position (17, 19)
+  PLACE active qubit 1 at position (18, 14)
+  PLACE active qubit 3 at position (18, 15)
+[EXECUTE Time 1 Batch 1]
+  CZ q[0], q[2] (at locations (18, 19), (17, 19))
+  CZ q[1], q[3] (at locations (18, 14), (18, 15))
+--- Processing Time 2 (Batch 1) ---
+[SHUTTLING] Batch 1
+  SHUTTLE qubit 2 from (17, 19) to (19, 16)
+[EXECUTE Time 2 Batch 1]
+  CZ q[2], q[3] (at locations (19, 16), (18, 15))
+--- Processing Time 3 (Batch 1) ---
+  No shuttling required.
+[EXECUTE Time 3 Batch 1]
+  CZ q[3], q[4] (at locations (18, 15), (18, 16))
+--- Processing Time 4 (Batch 1) ---
+  No shuttling required.
+[EXECUTE Time 4 Batch 1]
+  CZ q[2], q[4] (at locations (19, 16), (18, 16))
+--- Processing Time 5 (Batch 1) ---
+  No shuttling required.
+[EXECUTE Time 5 Batch 1]
+  CZ q[2], q[3] (at locations (19, 16), (18, 15))
+--- Processing Time 6 (Batch 1) ---
+  No shuttling required.
+[EXECUTE Time 6 Batch 1]
+  CZ q[3], q[4] (at locations (18, 15), (18, 16))
+--- Processing Time 7 (Batch 1) ---
+  No shuttling required.
+[EXECUTE Time 7 Batch 1]
+  CZ q[2], q[4] (at locations (19, 16), (18, 16))
+--- Processing Time 8 (Batch 1) ---
+  No shuttling required.
+[EXECUTE Time 8 Batch 1]
+  CZ q[2], q[3] (at locations (19, 16), (18, 15))
+--- Processing Time 9 (Batch 1) ---
+  No shuttling required.
+[EXECUTE Time 9 Batch 1]
+  CZ q[2], q[3] (at locations (19, 16), (18, 15))
+--- Processing Time 10 (Batch 1) ---
+  No shuttling required.
+[EXECUTE Time 10 Batch 1]
+  CZ q[3], q[4] (at locations (18, 15), (18, 16))

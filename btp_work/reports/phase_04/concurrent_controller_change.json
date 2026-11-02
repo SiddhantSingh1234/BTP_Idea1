@@ -1,0 +1,28 @@
+{
+  "phase": "04",
+  "observed_utc": "2026-10-28T15:13:08.153688+00:00",
+  "path": "tools/baseline_campaign.py",
+  "starting_sha256": "64eb32b9f925fd1f3cf02c5997e0d2ffcc548919842b5d0bce35105162b33e57",
+  "current_sha256": "4800454f6c620cc9460983a217dc2efd77db6a5105d561f490e698c2df13ecc8",
+  "archived_pre_guard_source": "reports\\phase_01\\paper_focus_v2\\baseline_campaign_before_guard.py.txt",
+  "cause_evidence": "reports/decisions/D005_STOP_REDUCE_REUSE_REPAIR.md; independently applied user-directed controller stop guard",
+  "phase04_modified_this_file": false,
+  "compiler_worker_and_source_plan_unchanged": true,
+  "action": "Preserve user-directed guard; exclude only this recorded operational change from scientific-source immutability assertion",
+  "diff": [
+    "--- before_guard",
+    "+++ current",
+    "@@ -302,6 +302,11 @@",
+    " ",
+    " def run(study, args):",
+    "     import msvcrt",
+    "+    progress_path = study / \"progress.json\"",
+    "+    if progress_path.exists():",
+    "+        progress = read(progress_path)",
+    "+        if progress.get(\"state\") == \"stopped_by_user\" and progress.get(\"replacement_plan\"):",
+    "+            raise SystemExit(\"This historical campaign was stopped by the user. Use tools/run_paper_focus.py with configs/studies/paper_focus_v2.json; do not resume the 726-job plan.\")",
+    "     lock = (study / \"controller.lock\").open(\"a+b\")",
+    "     lock.seek(0)",
+    "     if lock.read(1) == b\"\":"
+  ]
+}

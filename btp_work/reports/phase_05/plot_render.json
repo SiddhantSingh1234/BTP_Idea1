@@ -1,0 +1,9 @@
+{
+  "source_results_sha256": "d0665e354ef9e8ff760bb1d3c0c32e855e14b117b4988cf48ebce1a2c93fbd3a",
+  "plotting_tool_sha256": "d3d39f30d62bf072a323a37fb862806b564b99770275943090ee0f0aa0e8a959",
+  "figure_sha256": {
+    "pilot_results.png": "5912cec9de90c4ac897f646e96e1088ec3fc687ed85c17413855e3fc4cd2097c",
+    "pilot_results.svg": "9736d5a271a46baffee299abb06e7c32934e8a2ccd53d29bed04add32eac82b5"
+  },
+  "change": "Wrapped x-axis labels for readability; measured results unchanged"
+}

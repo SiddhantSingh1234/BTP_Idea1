@@ -1,0 +1,54 @@
+{
+  "schema": "assignment_pilot_protocol.phase05.v1",
+  "frozen_utc": "2026-10-28T18:53:24.700621+00:00",
+  "development_cases": {
+    "random_matching_n8_seed100": "34cc539ee21a4cf337bbfaadc999ebecc78314b4746044f1e9d0866960114105",
+    "random_matching_n8_seed101": "ec2e3fed3d7d52a5b05a3aed3b63a651bad96064d71a5606576396c651f8f18f",
+    "random_matching_n8_seed102": "8cec8597473d35e3cfd7afd27ad15c1b5d4fd865697bbe1cee7e32236483bb8a",
+    "random_matching_n8_seed103": "89095e4f0322fc18396e9fb52acba2d61d6c840414151b6cec9d7cf75fa4b140"
+  },
+  "evaluation_cases": {
+    "qft5_ladder7": "450331b41ebb102223e72c421e3c53f29c38a6d8c8d6026da1531eddd22f1caa",
+    "tableII_ladder7": "d619ff652814a502c566965e2283495409c5f0953112009a642fcbc8c8e130f9",
+    "forced_eviction_ladder6": "a0d24a2a911ddbcf78495b3e7f4c08078e77ebd444de6c1fb65cca76b52fffa6",
+    "serialized_ladder7": "1b3a59b9baeee2ec878600a646257a830437f19a5cea43c8e3460a880e1b4a86",
+    "qft10_ladder7": "c0c3d7a08ea48e954e322e6b6225ac57d64a4f6b379c94fb57d0de58f5326f5c",
+    "qft15_ladder7": "689ff851109c067074ea07dbe8ab7289d04e72c9248b42d88006e4d0e338a70b",
+    "random_matching_n8_seed200": "f7810f598dc42070eee3680641de3e8479f20968c048397ab2acba7d4c433743",
+    "random_matching_n8_seed201": "fe4b8ba72c7479d4417e2ab601267a7bc846d382799b8ce0fe6dec6f704fe743",
+    "random_matching_n8_seed202": "a0f56b6d9169a535da0e4bd9d51e1a8cf8b59057753891441842eae2f4d02846",
+    "random_matching_n8_seed203": "0dc0b89fd2725ae953939721c906b627cbe9bbe8fd4aa9d738b491b73f46d1e5",
+    "static_random_matching_n8_seed204": "d22c413a29dcff0f0d6e2a35e31d963f7372e011d5dc33ce62c1c819b7220c36"
+  },
+  "configuration_sha256": {
+    "configs\\variants\\assignment.bottleneck_distance.json": "b35532cdadfb1ee1d2f326943cfbffab0beaeadcca705e6ef2496121ff5f2102",
+    "configs\\variants\\assignment.bottleneck_time.json": "58bee6c35a76029359e95c5cc82192022490b42f2796f2a9b4b5a164e237ba2e",
+    "configs\\variants\\assignment.composite_bottleneck.json": "816f867e6cf9d0d311d81172dab5709918878822c85ca22a6aba96d06bfa3e71",
+    "configs\\variants\\assignment.composite_bottleneck_all.json": "b1b94b278ce32f2185272b5c9881874a7fef7e0d9b5cb902c16a8bda5e346484",
+    "configs\\variants\\assignment.composite_bottleneck_expanded.json": "180d386508962981ad75f169abdac6e1984975c99bd0cdf0bb7c9c459386df6a",
+    "configs\\variants\\assignment.composite_no_conflict.json": "c3fb6aac4c8ec0ff168a18defd46a7dc83f38e2a2c9d42cea84ab9a54a804762",
+    "configs\\variants\\assignment.composite_no_future.json": "6c6c2c14c02dfa271128a6c1cf06d907ab8a35f596d8a207dbdb869f65b1a38a",
+    "configs\\variants\\assignment.composite_sum.json": "1a93d17dc543cc96e39e6bd301a4bc2fe680b667e2f9352ffa934a933901fe2c",
+    "configs\\variants\\assignment.composite_with_displacements.json": "da1fdb88b604d09db419001f58c49204a31787425539e10384a62e19f1761faa",
+    "configs\\variants\\assignment.phase04_reference.json": "17bba63c9090371dc6dc720977eec6b7dbb9f8e2b1cc80a63a95aa7a42629281",
+    "configs\\variants\\assignment.sum_distance.json": "43896eb54578a79ed3fb5b086ebdea64da8571fdbdef8baf21a17b761e408a3e",
+    "configs\\variants\\assignment.sum_distance_all.json": "2287dad2429d698308c5814e9ed20bf309f49eb3db637b35430dd0b2ad37c1e2",
+    "configs\\variants\\assignment.sum_distance_expanded.json": "67e74a2b0f57fd0018ab7a378f778d6446a98b70e057d2b3abee414fe95781cc"
+  },
+  "development_quality_seeds": [
+    42
+  ],
+  "evaluation_quality_seeds": [
+    42,
+    43
+  ],
+  "weights_tuned": false,
+  "best_variant_or_horizon_selected": false,
+  "protocol": "Every named case/variant retained. Compare novel objectives to orientation-corrected sum-distance on identical candidates. Separate expansion and displacement controls.",
+  "limits": {
+    "worker_wall_seconds": 180,
+    "observed_family_memory_bytes": 4294967296,
+    "serial_workers": true
+  },
+  "baseline_results_overwritten": false
+}

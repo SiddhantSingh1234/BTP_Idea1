@@ -1,0 +1,13 @@
+{
+  "passed": true,
+  "production_state": "prepared_not_started",
+  "targets": 66,
+  "expected_rows": 528,
+  "production_manifest_sha256": "bbbfeb78ebc7db72ae95ab90c72708da3c457c5569c707ccb9d623d3cef3e2e0",
+  "integration_tests": "reports/phase_06/full_benchmark_tests_04/result.json",
+  "real_smoke_rows": 24,
+  "smoke_candidate_evaluations": 74,
+  "smoke_accepted_repairs_independently_checked": 11,
+  "completed_phase05_analysis": "reports/phase_05/full_analysis_02/report.md",
+  "phase05_artifact_hashes_verified": true
+}

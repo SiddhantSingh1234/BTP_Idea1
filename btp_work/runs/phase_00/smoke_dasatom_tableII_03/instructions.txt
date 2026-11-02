@@ -1,0 +1,28 @@
+[INITIAL PLACEMENT]
+  PLACE qubit 0 at position (0, 0)
+  PLACE qubit 1 at position (0, 3)
+  PLACE qubit 2 at position (0, 1)
+  PLACE qubit 3 at position (0, 2)
+  PLACE qubit 4 at position (1, 1)
+[EXECUTE partition 0 group 0]
+  CZ q[0], q[2] (at locations (0, 0), (0, 1))
+[EXECUTE partition 0 group 1]
+  CZ q[1], q[3] (at locations (0, 3), (0, 2))
+[EXECUTE partition 0 group 2]
+  CZ q[3], q[2] (at locations (0, 2), (0, 1))
+[EXECUTE partition 0 group 3]
+  CZ q[4], q[3] (at locations (1, 1), (0, 2))
+[EXECUTE partition 0 group 4]
+  CZ q[2], q[4] (at locations (0, 1), (1, 1))
+[EXECUTE partition 0 group 5]
+  CZ q[2], q[3] (at locations (0, 1), (0, 2))
+[EXECUTE partition 0 group 6]
+  CZ q[4], q[3] (at locations (1, 1), (0, 2))
+[EXECUTE partition 0 group 7]
+  CZ q[2], q[4] (at locations (0, 1), (1, 1))
+[EXECUTE partition 0 group 8]
+  CZ q[3], q[2] (at locations (0, 2), (0, 1))
+[EXECUTE partition 0 group 9]
+  CZ q[2], q[3] (at locations (0, 1), (0, 2))
+[EXECUTE partition 0 group 10]
+  CZ q[3], q[4] (at locations (0, 2), (1, 1))

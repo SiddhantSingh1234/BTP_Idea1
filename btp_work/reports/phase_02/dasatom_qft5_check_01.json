@@ -1,0 +1,71 @@
+{
+  "status": "unsupported",
+  "structural_valid": true,
+  "violations": [],
+  "coverage": {
+    "checked": [
+      "CZ_gate_identity_and_dependencies",
+      "endpoint_grid_bounds",
+      "final_mapping",
+      "gate_geometry",
+      "logical_carrier_mapping"
+    ],
+    "unsupported": [
+      "gate_trap_prerequisites",
+      "physical_minimum_separation",
+      "timing_and_resources",
+      "trap_ownership"
+    ],
+    "not_applicable": [
+      "unintended_global_pulses"
+    ]
+  },
+  "fully_validated_within_model": false,
+  "source_physical_evidence_complete": false,
+  "model_assumptions": [
+    "Native logs do not expose trap transfers, physical timing or trajectories"
+  ],
+  "semantics": {
+    "level": "exhaustive_CZ_basis_phases_with_final_permutation",
+    "full_original_circuit_checked": false,
+    "physical_output_slot_to_logical_qubit": [
+      4,
+      3,
+      2,
+      1,
+      0
+    ],
+    "basis_states": 32,
+    "equivalent": true
+  },
+  "final_positions": {
+    "a0": [
+      2,
+      1
+    ],
+    "a1": [
+      1,
+      2
+    ],
+    "a2": [
+      1,
+      1
+    ],
+    "a3": [
+      1,
+      0
+    ],
+    "a4": [
+      0,
+      1
+    ]
+  },
+  "final_logical_mapping": {
+    "a0": 0,
+    "a1": 1,
+    "a2": 2,
+    "a3": 3,
+    "a4": 4
+  },
+  "observed_gate_count": 26
+}

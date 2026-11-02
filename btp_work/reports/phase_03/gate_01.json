@@ -1,0 +1,54 @@
+{
+  "phase": "03",
+  "status": "complete",
+  "complete_within_declared_analytical_scope": true,
+  "checks": {
+    "sixteen_model_groups_pass": true,
+    "tested_phase03_code_profiles_unchanged": true,
+    "fourteen_original_groups_pass": true,
+    "original_tested_artifacts_unchanged": true,
+    "pilot_frozen_code_profiles_match": true,
+    "pilot_cases_and_failures_retained": true,
+    "live_native_worker_unchanged": true,
+    "seven_validated_profiles": true,
+    "no_missing_raw_records": true,
+    "source_decisions_preserved": true,
+    "frozen_rescores_unchanged": true,
+    "per_term_budgets_sum": true,
+    "cli_all_four_paths_pass": true,
+    "cooling_resource_and_population_proof": true,
+    "cooling_replay_identical": true,
+    "prediction_boundary_demonstrated": true,
+    "original_papers_unchanged": true,
+    "additional_primary_pdf_integrity": true,
+    "author_artifact_integrity": true,
+    "report_exports_match_raw": true,
+    "deliverables_present": true,
+    "project_document_links": true,
+    "phase01_not_marked_complete": true,
+    "phase02_user_acceptance_explicit": true
+  },
+  "document_link_issues": [],
+  "documents_checked": 34,
+  "local_links_checked": 212,
+  "phase01_complete_claimed": false,
+  "phase02_engineering_user_accepted": true,
+  "native_physical_performance_gain_claimed": false,
+  "cooling_is_hypothetical_primitive_contract": true,
+  "pilot_status_counts": {
+    "unsupported": 41,
+    "invalid": 3,
+    "ok": 12
+  },
+  "evidence": {
+    "tests": "reports/phase_03/tests_04/result.json",
+    "regression": "reports/phase_03/phase02_regression_01/result.json",
+    "pilot": "runs/phase_03/pilot_03/error_budget_pilot.json"
+  },
+  "command": [
+    "btp_work/tools/check_phase03.py",
+    "--out",
+    "btp_work/reports/phase_03/gate_01.json",
+    "--finalize"
+  ]
+}

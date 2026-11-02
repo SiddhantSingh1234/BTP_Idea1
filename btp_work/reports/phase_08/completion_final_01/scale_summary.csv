@@ -1,0 +1,9 @@
+scope,variant,planned,ok,timeout,out_of_memory,completed_median_wall_seconds,completed_max_observed_peak_GiB,all_attempts_max_observed_peak_GiB,min_cap_seconds,max_cap_seconds,qualification
+initial_caps,dasatom_corrected,16,14,2,0,39.29412715000217,0.3267707824707031,0.3267707824707031,90.0,90.0,completed-only timing; different method caps; no equal-cap solved-rate or uncensored runtime claim
+initial_caps,proposed_small,16,0,16,0,,,1.4702491760253906,150.0,150.0,completed-only timing; different method caps; no equal-cap solved-rate or uncensored runtime claim
+initial_caps,rft_corrected,16,12,4,0,34.73408819999895,0.8640213012695312,1.2134132385253906,75.0,75.0,completed-only timing; different method caps; no equal-cap solved-rate or uncensored runtime claim
+initial_caps,rft_snapshot,16,8,8,0,25.675779999990482,0.5540504455566406,0.5540504455566406,45.0,45.0,completed-only timing; different method caps; no equal-cap solved-rate or uncensored runtime claim
+after_cap_only_followup,dasatom_corrected,16,16,0,0,42.01832395000383,0.3552360534667969,0.3552360534667969,90.0,180.0,completed-only timing; different method caps; no equal-cap solved-rate or uncensored runtime claim
+after_cap_only_followup,proposed_small,16,10,6,0,328.71561924999696,3.1646156311035156,3.1929550170898438,360.0,720.0,completed-only timing; different method caps; no equal-cap solved-rate or uncensored runtime claim
+after_cap_only_followup,rft_corrected,16,15,1,0,43.37871900002938,1.3288955688476562,1.3288955688476562,75.0,180.0,completed-only timing; different method caps; no equal-cap solved-rate or uncensored runtime claim
+after_cap_only_followup,rft_snapshot,16,16,0,0,44.08783505001338,1.0613441467285156,1.0613441467285156,45.0,180.0,completed-only timing; different method caps; no equal-cap solved-rate or uncensored runtime claim

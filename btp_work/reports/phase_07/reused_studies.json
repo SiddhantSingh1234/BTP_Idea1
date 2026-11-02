@@ -1,0 +1,38 @@
+{
+  "runs/phase01_frozen_baseline_v1/results.csv": {
+    "sha256": "35b027650d07761a4df9593fdd5feb7ce94df5da0abbae0048b04b1010d893a8",
+    "rows": 132,
+    "statuses": {
+      "measured_corrected": 66,
+      "reused_native": 66
+    }
+  },
+  "runs/phase03_matched_benchmark_v1/results.csv": {
+    "sha256": "e39a512cab5508fed07c0654d2b870d01070138c58b7f532f2c7006c885f276f",
+    "rows": 132,
+    "statuses": {
+      "ok": 132
+    }
+  },
+  "runs/phase04_matched_benchmark_v2/results.csv": {
+    "sha256": "2a01e0514a9b5d4f695e2f8e8dbbdbb6460028da9beab0483257b3f2acd35964",
+    "rows": 396,
+    "statuses": {
+      "ok": 396
+    }
+  },
+  "runs/phase05_matched_benchmark_v1/results.csv": {
+    "sha256": "62413190d37380fb12eb137a4178b707d9e8d250e7e4580a83785c5ea11853b4",
+    "rows": 792,
+    "statuses": {
+      "ok": 792
+    }
+  },
+  "runs/phase06_matched_benchmark_v2/results.csv": {
+    "sha256": "59b59746c78b513a93ecf5e72d06208e35f84836a71f7d09c50084696a2c3f66",
+    "rows": 528,
+    "statuses": {
+      "ok": 528
+    }
+  }
+}

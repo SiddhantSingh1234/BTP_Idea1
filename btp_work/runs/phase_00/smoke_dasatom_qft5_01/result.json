@@ -1,0 +1,134 @@
+{
+  "algorithm": "dasatom",
+  "case": "qft5",
+  "status": "ok",
+  "paper_reproduction": false,
+  "rft_revision": "3d1f09233c2acd357fd9fbfad1b5300a921d301a",
+  "dasatom_revision": "73a6bdf0fd200b2733745211eaf2e0c1e17f496a",
+  "python": "3.13.2 (main, Mar 17 2025, 21:04:07) [MSC v.1943 64 bit (AMD64)]",
+  "seed": 42,
+  "hash_seed": "0",
+  "threads": 1,
+  "command": [
+    "C:\\Users\\hp\\Documents\\BTP\\btp_work\\.venv\\Scripts\\python.exe",
+    "btp_work/tools/phase00_smoke.py",
+    "--algorithm",
+    "dasatom",
+    "--case",
+    "qft5",
+    "--out",
+    "runs/phase_00/smoke_dasatom_qft5_01"
+  ],
+  "output_directory": "runs\\phase_00\\smoke_dasatom_qft5_01",
+  "input_path": "vendor/DasAtom-73a6bdf0fd200b2733745211eaf2e0c1e17f496a/Data/qiskit-bench/qft/qft_5.qasm",
+  "input_sha256": "7a043e1e19685ab1d2668fe0121b3eb0d0bae0287ae6363839611da03a27acb9",
+  "normalized_sha256": "0a4dac8d92c9a22a09ab2c0ea6165d4ae98e51b3f309993f43a3ceeb5f60d926",
+  "preprocessing_seconds": 0.01881420000017897,
+  "num_qubits": 5,
+  "num_cz": 26,
+  "logical_layers": 17,
+  "global_random_state_before": "a52169fac48aa2d80acadd41f776ce38656ab70adc3b32c80c1fb1f0ee56b71f",
+  "native_metrics": {
+    "adapter_pipeline_seconds": 0.010000600000239501,
+    "timing_scope": "standalone loading normalized CZ input, DAG, grid, partition, embedding, routing, grouping; excludes imports/normalization/scoring/logging",
+    "native_score_tuple_fields": [
+      "idle_us",
+      "legacy_fidelity",
+      "movement_fidelity",
+      "runtime_us",
+      "transfer_alias",
+      "atom_moves",
+      "batch_max_distance_um"
+    ],
+    "native_score": [
+      20.8,
+      0.877796969531686,
+      1.0,
+      5.2,
+      0,
+      0,
+      0
+    ],
+    "partitions": 1,
+    "actual_grid": 11,
+    "helper_file": "vendor\\DasAtom-73a6bdf0fd200b2733745211eaf2e0c1e17f496a\\DasAtom_fun.py",
+    "router_file": "vendor\\DasAtom-73a6bdf0fd200b2733745211eaf2e0c1e17f496a\\Enola\\route.py"
+  },
+  "global_random_state_after": "a52169fac48aa2d80acadd41f776ce38656ab70adc3b32c80c1fb1f0ee56b71f",
+  "trace_sha256": "830ebcd641e460e2fead064993413ffb59a07d078a2219331aca709db3733916",
+  "boundary_replay": {
+    "valid_within_coverage": true,
+    "errors": [],
+    "CZ_count": 26,
+    "gate_cycles": 26,
+    "movement_batches": 0,
+    "final_positions": {
+      "0": [
+        2,
+        1
+      ],
+      "1": [
+        1,
+        2
+      ],
+      "2": [
+        1,
+        1
+      ],
+      "3": [
+        1,
+        0
+      ],
+      "4": [
+        0,
+        1
+      ]
+    },
+    "coverage": [
+      "gate multiset",
+      "per-qubit dependency order",
+      "initial/batch-end occupancy",
+      "gate geometry"
+    ],
+    "unsupported": [
+      "continuous collision clearance",
+      "trap ownership/transfers",
+      "timed resources",
+      "full original unitary"
+    ]
+  },
+  "legacy_counts": {
+    "Num Gate Cycles": 26,
+    "Num Movement Ops": 0,
+    "Num Moves": 0,
+    "Total Move Distance": 0.0,
+    "Num CZ Gates (from log)": 26
+  },
+  "shared_legacy_score": {
+    "Fidelity (DasAtom Model)": 0.877796969531686,
+    "Fidelity (Realistic)": 0.877796969531686,
+    "Movement Fidelity": 1.0,
+    "Num Movement Ops": 0,
+    "Num Transferred Qubits": 0,
+    "Num Moves": 0,
+    "Total Move Distance": 0.0,
+    "Num Gate Cycles": 26,
+    "Total_T (us)": 5.2,
+    "Idle Time (us)": 20.8
+  },
+  "module_providers": {
+    "compiler_core": "vendor\\NAQC_Compiler-3d1f09233c2acd357fd9fbfad1b5300a921d301a\\src\\compiler_core.py",
+    "benchmark_runner": "vendor\\NAQC_Compiler-3d1f09233c2acd357fd9fbfad1b5300a921d301a\\src\\benchmark_runner.py",
+    "dasatom_instruction_converter": "vendor\\NAQC_Compiler-3d1f09233c2acd357fd9fbfad1b5300a921d301a\\src\\dasatom_instruction_converter.py",
+    "DasAtom_fun": "vendor\\DasAtom-73a6bdf0fd200b2733745211eaf2e0c1e17f496a\\DasAtom_fun.py",
+    "Enola.route": "vendor\\DasAtom-73a6bdf0fd200b2733745211eaf2e0c1e17f496a\\Enola\\route.py"
+  },
+  "packages": {
+    "qiskit": "1.3.1",
+    "numpy": "2.2.2",
+    "scipy": "1.15.1",
+    "networkx": "3.4.2",
+    "rustworkx": "0.15.1",
+    "pandas": "3.1.0"
+  }
+}

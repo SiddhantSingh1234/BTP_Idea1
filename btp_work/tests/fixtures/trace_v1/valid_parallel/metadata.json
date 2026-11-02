@@ -1,0 +1,64 @@
+{
+  "schema_version": "neutral_atom_trace.v1",
+  "circuit": {
+    "format": "cz_circuit.v1",
+    "num_qubits": 2,
+    "gates": [
+      {
+        "gate_id": "g000000",
+        "gate_type": "cz",
+        "qubits": [
+          0,
+          1
+        ],
+        "dependencies": [],
+        "logical_layer": 1
+      }
+    ]
+  },
+  "circuit_sha256": "cd2d9eb2dd0a49b6ea94afec8c22c84ed477833f51f3e58d80202d82a7bae424",
+  "hardware": {
+    "profile_id": "synthetic_single_plane.v1",
+    "rows": 5,
+    "columns": 5,
+    "coordinate_unit": "grid_index",
+    "spacing_um": 1.0,
+    "interaction_radius_um": 2.0,
+    "restriction_radius_um": 4.0,
+    "min_atom_separation_um": 1.0,
+    "slm_aod_shared_plane": true,
+    "addressing": "individual",
+    "aod_count": 1,
+    "cooling_supported": false,
+    "cz_duration_us": 0.2,
+    "transfer_stage_duration_us": 1.0,
+    "move_speed_um_per_us": 1.0,
+    "gates_require_trap": "SLM",
+    "allow_move_gate_overlap": false,
+    "coordinate_tolerance": 1e-09,
+    "legacy_T2_us": 1500000.0,
+    "legacy_f_cz": 0.995,
+    "legacy_f_transfer": 1.0,
+    "assumptions": [
+      "All traps share a plane; common linear movement progress"
+    ],
+    "source": "Analytic testing model, not a measured device"
+  },
+  "hardware_sha256": "2aaef35f927a82c575d61b23da313e202604683267372e73d2453393b5abdd5f",
+  "origin": {
+    "kind": "synthetic_fixture"
+  },
+  "timing_policy": "two_transfer_stages",
+  "diagnostics": [],
+  "atom_identity_policy": "One stable atom carrier per source logical qubit; no SWAP/cooling state transfer in native CZ-only scope",
+  "physical_evidence_complete": false,
+  "assumptions": [
+    "SLM-to-AOD-to-SLM for nonzero movers; one concurrent load and unload stage per batch",
+    "Shared normalized linear progress; times derived from declared profile, not observed"
+  ],
+  "source_counts": {
+    "gate_stages": 1,
+    "nonempty_movement_blocks": 1
+  },
+  "events_sha256": "412f7ac19609c9a7c415bcdb294273b7c325fb92566dddf727685995eca511e5"
+}

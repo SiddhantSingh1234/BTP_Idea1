@@ -1,0 +1,14 @@
+{
+  "id": "scale__qft_65__s42__proposed_small",
+  "suite": "scale",
+  "kind": "compile",
+  "case_id": "qft_65",
+  "case_path": "runs\\remaining_experiments_6h_v2\\inputs\\qft_65\\case.json",
+  "seed": 42,
+  "variant": "proposed_small",
+  "grid": 11,
+  "timeout": 360,
+  "repair": "small",
+  "initial_cap_seconds": 150,
+  "initial_record_path": "runs\\remaining_experiments_6h_v2\\measurements\\scale__qft_65__s42__proposed_small\\attempt_01\\attempt_record.json"
+}

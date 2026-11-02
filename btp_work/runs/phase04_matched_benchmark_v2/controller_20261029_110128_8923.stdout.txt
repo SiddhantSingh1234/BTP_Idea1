@@ -1,0 +1,16 @@
+{
+  "state": "measurements_complete",
+  "updated_utc": "2026-10-29T05:47:16.763186+00:00",
+  "track": "phase4",
+  "targets": 66,
+  "target_status_counts": {
+    "ok": 66
+  },
+  "rows": 396,
+  "accepted_rows": 396,
+  "matrix_complete": true,
+  "baseline_modified": false,
+  "native_physical_validity_claimed": false,
+  "best_k_selected": false,
+  "model_profile": "extended_no_cooling.v1"
+}

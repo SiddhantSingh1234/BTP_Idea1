@@ -1,0 +1,10 @@
+{
+  "source_record": "reports\\phase_06\\memory_stress_tests_02\\raw\\tableII__square_root_7__g11__rft__7_dynamic_slot_01q_move__native\\attempt_01\\attempt_record.json",
+  "source_record_sha256": "8aa87333906949a92b15102e2d6bc73a42f6cf525e52e7ad03cac5d24b1dc095",
+  "measurement_record": "runs\\phase06_matched_benchmark_v2\\measurements\\tableII__square_root_7__g11__rft__7_dynamic_slot_01q_move__native\\attempt_01\\attempt_record.json",
+  "verification_sha256": "75f9334f84ca0d2a5b5b6e383b6e95110b9dc54c52d38afebb0de8f8dc5703fd",
+  "execution_manifest_sha256": "a9236f6f260dbc595f63cf6e085e883d211569c5ffefcff7f8a99150ece67991",
+  "protocol": "Fresh post-fix run of identical study inputs, frozen worker, seed/profile/budgets, 7200 s/4 GiB/60 s monitor bounds and serial execution lock; no v1 observations imported",
+  "raw_bytes_preserved": true,
+  "paths": "Original command/output paths remain as executed; evidence source and canonical hardlink/copy are both retained"
+}

@@ -1,0 +1,13 @@
+{
+  "schema": "phase00.accepted-scope.v1",
+  "status": "adopted",
+  "scope": "latest_public_snapshot",
+  "user_instruction": "Use latest available commit and rerun all paper measurements as a new saved benchmark for comparisons after changes.",
+  "decision": "reports/decisions/D001_CURRENT_SOURCE_BASELINE.md",
+  "head_evidence": "runs/phase_00/latest_heads_20261028_02/latest_sources.json",
+  "rft_commit": "3d1f09233c2acd357fd9fbfad1b5300a921d301a",
+  "dasatom_commit": "73a6bdf0fd200b2733745211eaf2e0c1e17f496a",
+  "historical_paper_revision": null,
+  "historical_paper_evidence_status": "unresolved_limitation_not_current_source_gate",
+  "measurements": "new_current_source_baseline_not_exact_paper_reproduction"
+}

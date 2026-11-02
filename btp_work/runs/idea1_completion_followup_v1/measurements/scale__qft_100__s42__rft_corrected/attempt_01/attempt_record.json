@@ -1,0 +1,46 @@
+{
+  "target_id": "scale__qft_100__s42__rft_corrected",
+  "command": [
+    "C:\\Users\\hp\\Documents\\BTP\\btp_work\\.venv\\Scripts\\python.exe",
+    "-B",
+    "-X",
+    "utf8",
+    "C:\\Users\\hp\\Documents\\BTP\\btp_work\\runs\\idea1_completion_followup_v1\\frozen\\tools\\bounded_experiment_worker.py",
+    "--input",
+    "C:\\Users\\hp\\Documents\\BTP\\btp_work\\runs\\idea1_completion_followup_v1\\requests\\scale__qft_100__s42__rft_corrected.json",
+    "--grid",
+    "11",
+    "--seed",
+    "42",
+    "--out",
+    "C:\\Users\\hp\\Documents\\BTP\\btp_work\\runs\\idea1_completion_followup_v1\\measurements\\scale__qft_100__s42__rft_corrected\\attempt_01\\worker"
+  ],
+  "worker_sha256": "eef102d4fa88d37f2f4df0fd6efbdb8010a3f179331b74ba4599660525cdde88",
+  "router_sha256": "6b26c4db8213ac36ee43a860f4b46ad566cc7126c105a875631584f766e7e458",
+  "input_sha256": "824e8b527cc790726523a757510bf7cb44b1baaa1dd5d0cd21f88fcd9b180f71",
+  "timeout_seconds": 180,
+  "memory_limit_bytes": 4294967296,
+  "attempt": 1,
+  "launcher_protocol": "windows-suspended-job-v1",
+  "launcher_sha256": "8eaf0a44bfb38fc240316c2103ab55c0658133ad46f7c90f55106a1830a61723",
+  "status": "error",
+  "process_exit_code": 1,
+  "process_wall_seconds": 125.06929979997221,
+  "peak_working_set_bytes": 499511296,
+  "memory_definition": "observed sum of family peak working sets; not allocation-proof hard cap",
+  "monitored_process_ids": [
+    21932,
+    35336
+  ],
+  "result": null,
+  "worker_artifact_sha256": {
+    "worker/resolved_request.json": "6c973f1a04b7e81e879ab1630ae9ef564f81aa09a39730eaddbe5abedfedb181",
+    "worker/stage.json": "6994164fff7a83e1502563c7f05150ee997fac71533939406fdc8a50c9fd5311"
+  },
+  "monitor_error": {
+    "type": "PermissionError",
+    "message": "[WinError 5] Access is denied: 'C:\\\\Users\\\\hp\\\\Documents\\\\BTP\\\\btp_work\\\\runs\\\\idea1_completion_followup_v1\\\\budget.json.tmp' -> 'C:\\\\Users\\\\hp\\\\Documents\\\\BTP\\\\btp_work\\\\runs\\\\idea1_completion_followup_v1\\\\budget.json'",
+    "traceback": "Traceback (most recent call last):\n  File \"C:\\Users\\hp\\Documents\\BTP\\btp_work\\runs\\idea1_completion_followup_v1\\frozen\\tools\\run_paper_focus.py\", line 221, in bounded_job\n    progress_callback({'worker_pid':process.pid,'wall_seconds':time.monotonic()-started,'peak_working_set_bytes':peak})\n    ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\hp\\Documents\\BTP\\btp_work\\runs\\idea1_completion_followup_v1\\frozen\\tools\\remaining_experiments.py\", line 397, in <lambda>\n    progress_callback=lambda details: pulse({'state': 'running', 'current_cell': job['id'], **details}),\n                                      ~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\hp\\Documents\\BTP\\btp_work\\runs\\idea1_completion_followup_v1\\frozen\\tools\\remaining_experiments.py\", line 348, in pulse\n    write(study / 'budget.json', {'spent_seconds': state['spent_seconds'], 'max_seconds': budget, 'updated_utc': now()})\n    ~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\hp\\Documents\\BTP\\btp_work\\runs\\idea1_completion_followup_v1\\frozen\\tools\\remaining_experiments.py\", line 34, in write\n    tmp.replace(path)\n    ~~~~~~~~~~~^^^^^^\n  File \"C:\\Users\\hp\\Documents\\BTP\\btp_work\\.compiler-tools\\python\\cpython-3.13.2-windows-x86_64-none\\Lib\\pathlib\\_local.py\", line 780, in replace\n    os.replace(self, target)\n    ~~~~~~~~~~^^^^^^^^^^^^^^\nPermissionError: [WinError 5] Access is denied: 'C:\\\\Users\\\\hp\\\\Documents\\\\BTP\\\\btp_work\\\\runs\\\\idea1_completion_followup_v1\\\\budget.json.tmp' -> 'C:\\\\Users\\\\hp\\\\Documents\\\\BTP\\\\btp_work\\\\runs\\\\idea1_completion_followup_v1\\\\budget.json'\n"
+  },
+  "record_path": "runs\\idea1_completion_followup_v1\\measurements\\scale__qft_100__s42__rft_corrected\\attempt_01\\attempt_record.json"
+}

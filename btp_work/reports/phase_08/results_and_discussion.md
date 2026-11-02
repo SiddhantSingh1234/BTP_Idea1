@@ -1,0 +1,3 @@
+# Final Idea1 results and discussion
+
+The authoritative [final Markdown analysis](../../final/idea1_research_release_v1/RESEARCH_ANALYSIS.md) answers all five research questions, including the completed bounded portfolio and cap-only QFT follow-up. [Full numeric tables](completion_final_01/analysis.md), [complexity and cost](../../final/idea1_research_release_v1/COMPLEXITY_AND_COST.md), [claims ledger](claims_evidence.csv), [limitations](limitations.md), and [accepted completion gate](../../final/idea1_research_release_v1/completion_gate.json). Earlier incremental notes and drafts are preserved; formal report/presentation formatting remains deferred by the user.

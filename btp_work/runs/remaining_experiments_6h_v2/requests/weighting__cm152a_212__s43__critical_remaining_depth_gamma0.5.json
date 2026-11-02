@@ -1,0 +1,14 @@
+{
+  "id": "weighting__cm152a_212__s43__critical_remaining_depth_gamma0.5",
+  "suite": "weighting",
+  "kind": "compile",
+  "case_id": "cm152a_212",
+  "case_path": "runs\\remaining_experiments_6h_v2\\inputs\\cm152a_212\\case.json",
+  "seed": 43,
+  "variant": "critical_remaining_depth_gamma0.5",
+  "timeout": 18,
+  "grid": 11,
+  "reference_id": "reference__cm152a_212__s43",
+  "weight_mode": "critical_remaining_depth",
+  "gamma": 0.5
+}

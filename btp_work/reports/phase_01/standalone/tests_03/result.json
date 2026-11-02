@@ -1,0 +1,13 @@
+{
+  "tests": 8,
+  "successful": true,
+  "failures": 0,
+  "errors": 0,
+  "command": [
+    "btp_work/tests/standalone_baseline_acceptance.py",
+    "--study",
+    "btp_work/runs/phase01_frozen_baseline_v1",
+    "--out",
+    "btp_work/reports/phase_01/standalone/tests_03"
+  ]
+}

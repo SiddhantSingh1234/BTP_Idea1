@@ -1,0 +1,35 @@
+test_132_targets_and_198_native_RFT_samples_preserved (__main__.Acceptance.test_132_targets_and_198_native_RFT_samples_preserved) ... ok
+test_bounded_timeout_and_stop_are_terminal_not_success (__main__.Acceptance.test_bounded_timeout_and_stop_are_terminal_not_success) ... ok
+test_controller_crash_closes_worker_job (__main__.Acceptance.test_controller_crash_closes_worker_job) ... ok
+test_detached_launcher_completed_real_validated_compile (__main__.Acceptance.test_detached_launcher_completed_real_validated_compile) ... ok
+test_duplicate_success_is_reused_without_new_attempt (__main__.Acceptance.test_duplicate_success_is_reused_without_new_attempt) ... ok
+test_environment_and_frozen_code_tampering_are_detected (__main__.Acceptance.test_environment_and_frozen_code_tampering_are_detected) ... ok
+test_monitor_gap_does_not_accept_timing (__main__.Acceptance.test_monitor_gap_does_not_accept_timing) ... ok
+test_os_lock_rejects_second_controller (__main__.Acceptance.test_os_lock_rejects_second_controller) ... FAIL
+
+======================================================================
+FAIL: test_os_lock_rejects_second_controller (__main__.Acceptance.test_os_lock_rejects_second_controller)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\hp\Documents\BTP\btp_work\tests\standalone_baseline_acceptance.py", line 63, in test_os_lock_rejects_second_controller
+    self.assertEqual(result.returncode, 0, result.stderr)
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: 1 != 0 : Traceback (most recent call last):
+  File "C:\Users\hp\Documents\BTP\btp_work\runs\standalone_acceptance_v2\frozen\tools\standalone_baseline.py", line 330, in <module>
+    if __name__ == '__main__': main()
+                               ~~~~^^
+  File "C:\Users\hp\Documents\BTP\btp_work\runs\standalone_acceptance_v2\frozen\tools\standalone_baseline.py", line 323, in main
+    elif args.mode == 'run': result = run(study, work, args.limit)
+                                      ~~~^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hp\Documents\BTP\btp_work\runs\standalone_acceptance_v2\frozen\tools\standalone_baseline.py", line 243, in run
+    handle = lock(study)
+  File "C:\Users\hp\Documents\BTP\btp_work\runs\standalone_acceptance_v2\frozen\tools\standalone_baseline.py", line 55, in lock
+    if handle.read(1) == b'':
+       ~~~~~~~~~~~^^^
+PermissionError: [Errno 13] Permission denied
+
+
+----------------------------------------------------------------------
+Ran 8 tests in 1.916s
+
+FAILED (failures=1)

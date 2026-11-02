@@ -1,0 +1,53 @@
+{
+  "metric_version": "trace_metrics.v1",
+  "trace_validity_not_implied": true,
+  "required_CZ": 26,
+  "observed_CZ": 26,
+  "routing_batches": 7,
+  "gate_stages": 17,
+  "move_records": 9,
+  "moved_atom_events": 9,
+  "zero_displacement_records": 0,
+  "sum_atom_distance_um": 112.59843449480502,
+  "max_atom_event_distance_um": 16.15549442140351,
+  "distance_by_atom_um": {
+    "a2": 19.242640687119284,
+    "a3": 27.29705854077835,
+    "a1": 25.64232740190865,
+    "a0": 40.41640786499874
+  },
+  "sum_batch_max_distance_um": 85.59843449480502,
+  "observed_transfer_atom_events": 0,
+  "observed_transfer_stages": 0,
+  "inferred_transfer_atom_events": 18,
+  "inferred_transfer_stages": 14,
+  "transfer_evidence_complete": false,
+  "explicit_parking_atom_events": 0,
+  "move_records_with_unknown_cause": 9,
+  "makespan_us": 439.03351726328174,
+  "makespan_provenance": "derived_under_declared_policy",
+  "emitted_batch_line_conflict_graph": {
+    "vertices_sum": 9,
+    "edges_sum": 0,
+    "possible_edges_sum": 2,
+    "density": 0.0,
+    "scope": "within_emitted_batches_only"
+  },
+  "planner_candidate_conflict_graph": null,
+  "legacy": {
+    "gate_stages": 17,
+    "movement_blocks": 7,
+    "scored_qubits": 5,
+    "scored_CZ": 26,
+    "sum_batch_max_distance_um": 85.59843449480502,
+    "four_per_block_transfer_alias": 28,
+    "runtime_proxy_us": 719.0335172632819,
+    "idle_proxy_us": 3589.9675863164093,
+    "negative_log_fidelity": 0.13271939913636238,
+    "negative_log_fidelity_infinite": false,
+    "fidelity_proxy": 0.8757107828386048,
+    "fidelity_underflow": false,
+    "accounting_only": true,
+    "not_actual_atom_transfer_count": true
+  }
+}

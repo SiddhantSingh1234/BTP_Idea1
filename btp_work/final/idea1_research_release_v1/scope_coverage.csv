@@ -1,0 +1,14 @@
+requirement,status,evidence,qualification
+QFT through100 with matched primary baselines,complete_bounded_measurement,coverage_initial.csv; coverage_followup.csv,"all 64 initial cells plus all30 time-limit follow-ups; censors remain failures to finish, not successful proposed quality"
+Larger/deeper genuine QAOA and QV,complete,../../reports/phase_08/completion_final_01/new_workload_summary.csv,"N10/12,p2/4 or depth8/16; eight cases but four generator clusters; three paired router seeds"
+Critical-path/equal weighting and discount controls,complete,../../reports/phase_08/completion_final_01/weighting_summary.csv,"120 new cells,24 shared quality controls; fixed gamma .5/.9/1; no tuned winner"
+Expanded-candidate assignment term removal,complete,../../reports/phase_08/completion_final_01/assignment_term_summary.csv,96 cells; null output mechanisms checked using saved matrices
+Profile-driven replanning and finite cooling resources,complete,../../reports/phase_08/completion_final_01/hardware_summary.csv,"120 profile-matched counterfactuals;9 cooling transforms,5 legitimate resource failures"
+"Horizon, objectives, candidates, repair budgets, factorial interactions",complete_reused,../../reports/phase_08/integrated_analysis_02/summary.json,immutable prior matrices and448-row extension; timings/repeats/circuit units remain separate
+Runtime/memory scaling and failure mechanisms,complete_bounded_analysis,COMPLEXITY_AND_COST.md,measured stages andP×Q diagnostic representation; no universal empirical asymptotic claim
+Extra compiler baseline capability assessment,complete_feasibility_assessment,../../reports/phase_07/baseline_capabilities.md,Enola/Atomique architectures lack an established matched adapter; no incomparable ranking
+"Reproducibility, evidence, claims and research release",complete,completion_gate.json; REPRODUCE.md,fresh29-package tiny reproduction plus clean new numerical rebuild
+Formal report and presentation formatting,deferred_by_user,COMPLETION_REVIEW.md,explicit user instruction to save analysis inMarkdown and wait for the required document format
+Native calibrated hardware validity and one-qubit physical timing,accepted_scope_limitation,RESEARCH_ANALYSIS.md,declared analytical CZ-skeleton scope; never claimed measured device fidelity
+Exact historical paper revision/options,accepted_provenance_limitation,../../reports/final_benchmark_analysis_01/report.md,D001/D005/D006 pinned-source scope; paper discrepancies retained
+Idea2 transition brief,complete_brief_only,../../idea2/START_HERE.md,no Idea2 implementation/campaign was requested or started

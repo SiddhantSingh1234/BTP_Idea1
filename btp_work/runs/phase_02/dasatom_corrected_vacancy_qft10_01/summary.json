@@ -1,0 +1,12 @@
+{
+  "control": "dasatom_corrected_vacancy_v1",
+  "source_worker": "btp_work\\runs\\current_baseline\\study_v1\\attempts\\fig4_qft__qft_10__g11__dasatom__standalone__native__r1\\attempt_01\\worker",
+  "transform_seconds": 0.01577779999934137,
+  "status": "ok",
+  "fully_validated_within_model": true,
+  "source_physical_evidence_complete": false,
+  "original_native_output_unchanged": true,
+  "not_native_compile_runtime": true,
+  "decision": "D003",
+  "implementation_sha256": "aba6a9125d43d9f5b65458e175475ceaf9692596e835a321cf3b3c9911abc5ea"
+}

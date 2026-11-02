@@ -1,0 +1,11 @@
+{
+  "python": "3.13.2 (main, Mar 17 2025, 21:04:07) [MSC v.1943 64 bit (AMD64)]",
+  "executable": "C:\\Users\\hp\\Documents\\BTP\\btp_work\\.venv\\Scripts\\python.exe",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "hardware_source": "../phase_05/runtime_environment.json",
+  "threads_per_worker": 1,
+  "routing_hash_seed_policy": "PYTHONHASHSEED=0 in isolated worker",
+  "worker_wall_seconds": 240,
+  "process_family_memory_limit_bytes": 4294967296,
+  "peak_memory_definition": "observed sum of process-family peak working sets, not an allocation-proof hard cap"
+}

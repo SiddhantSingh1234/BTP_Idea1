@@ -1,0 +1,17 @@
+{
+  "updated_utc": "2026-10-29T05:19:34.732520+00:00",
+  "paper_configurations": 132,
+  "reused_rft": 66,
+  "new_corrected_dasatom_successes": 66,
+  "held_failures": 0,
+  "remaining_corrected_measurements": 0,
+  "measurement_matrix_complete": true,
+  "phase_01_complete": true,
+  "remaining_acceptance": null,
+  "paper_revision_evidence": "unresolved",
+  "full_physical_validity_claimed": false,
+  "final_dataset_audit_passed": true,
+  "acceptance_scope": "pinned_source_baseline_D001_D005_D006",
+  "paper_reproduction_claimed": false,
+  "accepted_utc": "2026-10-29T06:14:07.904125+00:00"
+}

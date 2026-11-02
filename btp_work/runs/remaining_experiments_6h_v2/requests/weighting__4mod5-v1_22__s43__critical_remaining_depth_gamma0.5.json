@@ -1,0 +1,14 @@
+{
+  "id": "weighting__4mod5-v1_22__s43__critical_remaining_depth_gamma0.5",
+  "suite": "weighting",
+  "kind": "compile",
+  "case_id": "4mod5-v1_22",
+  "case_path": "runs\\remaining_experiments_6h_v2\\inputs\\4mod5-v1_22\\case.json",
+  "seed": 43,
+  "variant": "critical_remaining_depth_gamma0.5",
+  "timeout": 18,
+  "grid": 11,
+  "reference_id": "reference__4mod5-v1_22__s43",
+  "weight_mode": "critical_remaining_depth",
+  "gamma": 0.5
+}

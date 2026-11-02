@@ -1,0 +1,9 @@
+# D009: Bounded repair accepts only complete replay improvements
+
+Date: 29 October 2026. Owner: Codex /root. Status: implemented within the Phase06 implementation/pilot scope. This resolves O11 under the existing proposal Step4 authorization; no scientific scope change is introduced.
+
+Use private complete replanning with exact prefix checks and the common Phase03 error evaluator. Choose deterministic evaluation/round/neighborhood caps, retain the best feasible incumbent, restore caller randomness, and commit only strict full-error improvements with tolerance 1e-12. Keep the orientation-corrected Phase05 assignment and h=4 parking settings fixed, with separate sum-distance and expanded-composite controls. Disabled remains the safe default.
+
+The preferred suffix semantics are implemented by recompiling the complete circuit and verifying the unchanged prefix. This costs more than snapshot resume but exposes downstream placement/heating/time effects directly. Local one-batch predictions rank trials only. Enabled cooling profiles remain explicitly unsupported because the accepted Phase05 pipeline has no cooling-resource planner. The phase does not claim global optimality, calibrated native-device validity, a general speedup or completed final benchmark evaluation.
+
+The [specification](../phase_06/repair_spec.md), [primary-source review](../phase_06/source_research.md), [fixed pilot protocol](../../configs/studies/phase06_pilot_v1.json), [acceptance tests](../phase_06/tests_03/result.json) and [handoff](../../handoffs/phase_06.md) carry the implementation and verification. Three comparison-launcher files had changed before Phase06; the [prerequisite review](../phase_06/prerequisite_review.json) preserves those differences. All scientific sources and frozen studies are checked against the Phase06 starting manifest. Historical gates and benchmark records are preserved.

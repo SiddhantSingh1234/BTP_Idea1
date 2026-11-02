@@ -1,0 +1,13 @@
+{
+  "id": "hardware__qaoa_n8_p2_g702__s41__coherence_short",
+  "suite": "hardware",
+  "kind": "compile",
+  "case_id": "qaoa_n8_p2_g702",
+  "case_path": "runs\\remaining_experiments_6h_v2\\inputs\\qaoa_n8_p2_g702\\case.json",
+  "seed": 41,
+  "variant": "coherence_short",
+  "timeout": 18,
+  "grid": 11,
+  "reference_id": "reference__qaoa_n8_p2_g702__s41",
+  "profile": "coherence_short"
+}

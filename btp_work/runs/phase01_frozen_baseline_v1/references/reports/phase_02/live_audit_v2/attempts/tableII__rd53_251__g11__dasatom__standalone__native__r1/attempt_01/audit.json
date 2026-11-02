@@ -1,0 +1,47 @@
+{
+  "job_id": "tableII__rd53_251__g11__dasatom__standalone__native__r1",
+  "attempt": 1,
+  "algorithm": "dasatom",
+  "repetition": 1,
+  "source_status": "invalid",
+  "source_diagnostic_status": "invalid",
+  "record_path": "runs\\current_baseline\\study_v1\\attempts\\tableII__rd53_251__g11__dasatom__standalone__native__r1\\attempt_01\\attempt_record.json",
+  "record_sha256": "7073fd11bff504f56b65376ffe7e7c815bea8375d11fa80b87e194f932361e02",
+  "audited_utc": "2026-10-28T06:07:34.478753+00:00",
+  "adapter_error": false,
+  "legacy_all_match": true,
+  "saved_final_mapping_matches": true,
+  "evidence_status": "unsupported",
+  "paper_batch_policy_status": "invalid",
+  "missing_artifacts": [],
+  "frozen_contract_matches": true,
+  "coverage": "trace_audited",
+  "paper_batch_violation_codes": [
+    "duplicate_occupancy"
+  ],
+  "source_boundary_errors": [
+    "Duplicate occupancy at movement batch endpoint",
+    "Duplicate occupancy at movement batch endpoint",
+    "Duplicate occupancy at movement batch endpoint",
+    "Duplicate occupancy at movement batch endpoint",
+    "Duplicate occupancy at movement batch endpoint",
+    "Duplicate occupancy at movement batch endpoint",
+    "Duplicate occupancy at movement batch endpoint",
+    "Duplicate occupancy at movement batch endpoint",
+    "Duplicate occupancy at movement batch endpoint",
+    "Not all declared qubits are represented"
+  ],
+  "evidence_violation_codes": [],
+  "unsupported": [
+    "coincident_sites_with_unobserved_traps",
+    "continuous_trajectory",
+    "gate_trap_prerequisites",
+    "original_declared_register",
+    "physical_minimum_separation",
+    "timing_and_resources",
+    "transfer_prerequisites",
+    "trap_ownership"
+  ],
+  "original_register_complete": false,
+  "eligible_as_physically_validated_baseline": false
+}

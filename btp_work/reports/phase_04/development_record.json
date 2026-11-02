@@ -1,0 +1,24 @@
+{
+  "initial_smoke": {
+    "observed_error": "TypeError: unhashable type list when replaying JSON pair arrays into source create_initial_mapping",
+    "resolution": "Normalize input pair lists to tuples in both direct and hooked adapters; no planner rule changed"
+  },
+  "tests_01": {
+    "model_groups_passed": 15,
+    "integrity_group_failed": "Independently authorized Phase01 controller stop guard detected; recorded rather than reverted"
+  },
+  "accepted_tests": "tests_06/result.json",
+  "pilot": "runs/phase_04/pilot_03",
+  "failed_outputs_preserved": true,
+  "counterexample_refinement": {
+    "reason": "Replace optional staying with two genuinely vacant relocation targets",
+    "production_lookahead_changed": false,
+    "earlier_fixture_retained_in": "runs/phase_04/pilot_01",
+    "new_canonical_run": "runs/phase_04/pilot_02",
+    "final_canonical_run": "runs/phase_04/pilot_03",
+    "tests05_failure": "stale hardcoded gate site; independent checker rejected it",
+    "resolution": "derive gate sites from corrected anchors; both candidates initially vacant"
+  },
+  "source_compilation_pilot": "runs/phase_04/pilot_01",
+  "final_fresh_compile_attempts": 0
+}

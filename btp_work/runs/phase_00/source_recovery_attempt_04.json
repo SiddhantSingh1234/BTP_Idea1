@@ -1,0 +1,23 @@
+{
+  "fetch_requested": true,
+  "results": [
+    {
+      "repository": "ipash185/NAQC_Compiler",
+      "revision": "3d1f09233c2acd357fd9fbfad1b5300a921d301a",
+      "url": "https://codeload.github.com/ipash185/NAQC_Compiler/tar.gz/3d1f09233c2acd357fd9fbfad1b5300a921d301a",
+      "target": "vendor/NAQC_Compiler-3d1f09233c2acd357fd9fbfad1b5300a921d301a",
+      "status": "error",
+      "error_type": "URLError",
+      "error": "<urlopen error [WinError 10013] An attempt was made to access a socket in a way forbidden by its access permissions>"
+    },
+    {
+      "repository": "Huangyunqi/DasAtom",
+      "revision": "73a6bdf0fd200b2733745211eaf2e0c1e17f496a",
+      "url": "https://codeload.github.com/Huangyunqi/DasAtom/tar.gz/73a6bdf0fd200b2733745211eaf2e0c1e17f496a",
+      "target": "vendor/DasAtom-73a6bdf0fd200b2733745211eaf2e0c1e17f496a",
+      "status": "error",
+      "error_type": "URLError",
+      "error": "<urlopen error [WinError 10013] An attempt was made to access a socket in a way forbidden by its access permissions>"
+    }
+  ]
+}

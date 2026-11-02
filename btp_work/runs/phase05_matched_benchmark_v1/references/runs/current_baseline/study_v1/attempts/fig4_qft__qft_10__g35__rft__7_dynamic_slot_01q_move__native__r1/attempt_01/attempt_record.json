@@ -1,0 +1,712 @@
+{
+  "job": {
+    "id": "fig4_qft__qft_10__g35__rft__7_dynamic_slot_01q_move__native__r1",
+    "priority": 0,
+    "algorithm": "rft",
+    "variant": "7_dynamic_slot_01q_move",
+    "family": "fig4_qft",
+    "case": "qft_10",
+    "grid": 35,
+    "register_policy": "native",
+    "repetition": 1,
+    "seed": 42,
+    "routing_seed": null,
+    "raw_path": "benchmarks/current_baseline_v1/raw/fig4_qft/qft_10.qasm",
+    "raw_sha256": "528f792d62cc4a71b8f8836d98f2f63af174fa16c2d11bdcfc6534b3a1bebd88",
+    "expected_normalized_sha256": "4543cfb2c7fe742b5c5028a3c1353e419d51c156e0eb8f5a6ce341c140b2c424"
+  },
+  "attempt": 1,
+  "command": [
+    "C:\\Users\\hp\\Documents\\BTP\\btp_work\\.venv\\Scripts\\python.exe",
+    "-X",
+    "utf8",
+    "C:\\Users\\hp\\Documents\\BTP\\btp_work\\tools\\phase00_smoke.py",
+    "--algorithm",
+    "rft",
+    "--case",
+    "file",
+    "--input",
+    "C:\\Users\\hp\\Documents\\BTP\\btp_work\\benchmarks\\current_baseline_v1\\raw\\fig4_qft\\qft_10.qasm",
+    "--grid",
+    "35",
+    "--register-policy",
+    "native",
+    "--seed",
+    "42",
+    "--out",
+    "runs/current_baseline/study_v1/attempts/fig4_qft__qft_10__g35__rft__7_dynamic_slot_01q_move__native__r1/attempt_01/worker",
+    "--variant",
+    "7_dynamic_slot_01q_move"
+  ],
+  "started_utc": "2026-10-27T22:07:28.742823+00:00",
+  "timeout_seconds": 300,
+  "memory_limit_bytes": 4294967296,
+  "worker_sha256": "5e745542ebbbb7ffcf1d8a60632c684d40533f20015defd941cccd107cf05742",
+  "ended_utc": "2026-10-27T22:07:32.739918+00:00",
+  "status": "ok",
+  "diagnostic_status": "ok",
+  "process_exit_code": 0,
+  "process_wall_seconds": 3.9960315999996965,
+  "peak_working_set_bytes": 156442624,
+  "monitored_process_ids": [
+    9920,
+    23952
+  ],
+  "memory_measurement": "maximum observed sum of individual process-family peak working sets; includes venv redirector and real interpreter",
+  "result_path": "runs/current_baseline/study_v1/attempts/fig4_qft__qft_10__g35__rft__7_dynamic_slot_01q_move__native__r1/attempt_01/worker/result.json",
+  "stage_at_end": {
+    "stage": "boundary_replay",
+    "wall_time": 1793138852.4087882
+  },
+  "worker_result": {
+    "algorithm": "rft",
+    "case": "file",
+    "status": "ok",
+    "paper_reproduction": false,
+    "rft_revision": "3d1f09233c2acd357fd9fbfad1b5300a921d301a",
+    "dasatom_revision": "73a6bdf0fd200b2733745211eaf2e0c1e17f496a",
+    "python": "3.13.2 (main, Mar 17 2025, 21:04:07) [MSC v.1943 64 bit (AMD64)]",
+    "seed": 42,
+    "routing_seed": null,
+    "hash_seed": "0",
+    "threads": 1,
+    "geometry": {
+      "rows": 35,
+      "columns": 35,
+      "r_int": 2,
+      "r_blk": 4
+    },
+    "normalization_policy": "native",
+    "command": [
+      "C:\\Users\\hp\\Documents\\BTP\\btp_work\\.venv\\Scripts\\python.exe",
+      "C:\\Users\\hp\\Documents\\BTP\\btp_work\\tools\\phase00_smoke.py",
+      "--algorithm",
+      "rft",
+      "--case",
+      "file",
+      "--input",
+      "C:\\Users\\hp\\Documents\\BTP\\btp_work\\benchmarks\\current_baseline_v1\\raw\\fig4_qft\\qft_10.qasm",
+      "--grid",
+      "35",
+      "--register-policy",
+      "native",
+      "--seed",
+      "42",
+      "--out",
+      "runs/current_baseline/study_v1/attempts/fig4_qft__qft_10__g35__rft__7_dynamic_slot_01q_move__native__r1/attempt_01/worker",
+      "--variant",
+      "7_dynamic_slot_01q_move"
+    ],
+    "output_directory": "runs\\current_baseline\\study_v1\\attempts\\fig4_qft__qft_10__g35__rft__7_dynamic_slot_01q_move__native__r1\\attempt_01\\worker",
+    "input_path": "benchmarks/current_baseline_v1/raw/fig4_qft/qft_10.qasm",
+    "input_sha256": "528f792d62cc4a71b8f8836d98f2f63af174fa16c2d11bdcfc6534b3a1bebd88",
+    "normalized_sha256": "4543cfb2c7fe742b5c5028a3c1353e419d51c156e0eb8f5a6ce341c140b2c424",
+    "preprocessing_seconds": 0.02525479999894742,
+    "input_declared_qubits": 10,
+    "active_prefix_qubits": 10,
+    "num_qubits": 10,
+    "num_cz": 105,
+    "logical_layers": 37,
+    "global_random_state_before": "a52169fac48aa2d80acadd41f776ce38656ab70adc3b32c80c1fb1f0ee56b71f",
+    "offline_layout_seconds": 0.3038044000059017,
+    "layout": [
+      [
+        [
+          15,
+          27
+        ],
+        [
+          16,
+          28
+        ]
+      ],
+      [
+        [
+          34,
+          0
+        ],
+        [
+          34,
+          2
+        ]
+      ],
+      [
+        [
+          7,
+          27
+        ],
+        [
+          7,
+          28
+        ]
+      ],
+      [
+        [
+          10,
+          6
+        ],
+        [
+          10,
+          5
+        ]
+      ],
+      [
+        [
+          31,
+          20
+        ],
+        [
+          31,
+          21
+        ]
+      ],
+      [
+        [
+          23,
+          20
+        ],
+        [
+          22,
+          19
+        ]
+      ],
+      [
+        [
+          21,
+          10
+        ],
+        [
+          21,
+          8
+        ]
+      ],
+      [
+        [
+          2,
+          18
+        ],
+        [
+          1,
+          18
+        ]
+      ],
+      [
+        [
+          16,
+          7
+        ],
+        [
+          16,
+          6
+        ]
+      ],
+      [
+        [
+          32,
+          31
+        ],
+        [
+          33,
+          32
+        ]
+      ],
+      [
+        [
+          5,
+          12
+        ],
+        [
+          5,
+          14
+        ]
+      ],
+      [
+        [
+          1,
+          9
+        ],
+        [
+          2,
+          9
+        ]
+      ],
+      [
+        [
+          18,
+          23
+        ],
+        [
+          16,
+          23
+        ]
+      ],
+      [
+        [
+          1,
+          2
+        ],
+        [
+          3,
+          2
+        ]
+      ],
+      [
+        [
+          25,
+          1
+        ],
+        [
+          26,
+          2
+        ]
+      ],
+      [
+        [
+          29,
+          15
+        ],
+        [
+          29,
+          14
+        ]
+      ],
+      [
+        [
+          15,
+          2
+        ],
+        [
+          14,
+          2
+        ]
+      ],
+      [
+        [
+          29,
+          6
+        ],
+        [
+          30,
+          6
+        ]
+      ],
+      [
+        [
+          24,
+          34
+        ],
+        [
+          23,
+          33
+        ]
+      ],
+      [
+        [
+          20,
+          3
+        ],
+        [
+          21,
+          2
+        ]
+      ],
+      [
+        [
+          6,
+          7
+        ],
+        [
+          6,
+          5
+        ]
+      ],
+      [
+        [
+          25,
+          8
+        ],
+        [
+          26,
+          9
+        ]
+      ],
+      [
+        [
+          14,
+          33
+        ],
+        [
+          15,
+          33
+        ]
+      ],
+      [
+        [
+          18,
+          14
+        ],
+        [
+          18,
+          15
+        ]
+      ],
+      [
+        [
+          34,
+          14
+        ],
+        [
+          33,
+          15
+        ]
+      ],
+      [
+        [
+          27,
+          29
+        ],
+        [
+          27,
+          28
+        ]
+      ],
+      [
+        [
+          20,
+          28
+        ],
+        [
+          22,
+          28
+        ]
+      ],
+      [
+        [
+          1,
+          34
+        ],
+        [
+          3,
+          34
+        ]
+      ],
+      [
+        [
+          8,
+          0
+        ],
+        [
+          7,
+          0
+        ]
+      ],
+      [
+        [
+          10,
+          10
+        ],
+        [
+          10,
+          12
+        ]
+      ],
+      [
+        [
+          0,
+          22
+        ],
+        [
+          0,
+          24
+        ]
+      ],
+      [
+        [
+          3,
+          27
+        ],
+        [
+          2,
+          28
+        ]
+      ],
+      [
+        [
+          7,
+          19
+        ],
+        [
+          8,
+          18
+        ]
+      ],
+      [
+        [
+          5,
+          23
+        ],
+        [
+          4,
+          23
+        ]
+      ],
+      [
+        [
+          12,
+          21
+        ],
+        [
+          12,
+          23
+        ]
+      ],
+      [
+        [
+          10,
+          31
+        ],
+        [
+          10,
+          32
+        ]
+      ],
+      [
+        [
+          33,
+          9
+        ],
+        [
+          34,
+          9
+        ]
+      ],
+      [
+        [
+          34,
+          27
+        ],
+        [
+          34,
+          26
+        ]
+      ],
+      [
+        [
+          25,
+          14
+        ],
+        [
+          24,
+          14
+        ]
+      ],
+      [
+        [
+          0,
+          14
+        ],
+        [
+          1,
+          14
+        ]
+      ],
+      [
+        [
+          12,
+          16
+        ],
+        [
+          13,
+          16
+        ]
+      ],
+      [
+        [
+          14,
+          11
+        ],
+        [
+          15,
+          11
+        ]
+      ],
+      [
+        [
+          18,
+          19
+        ],
+        [
+          17,
+          19
+        ]
+      ],
+      [
+        [
+          27,
+          21
+        ],
+        [
+          27,
+          20
+        ]
+      ],
+      [
+        [
+          22,
+          24
+        ],
+        [
+          23,
+          24
+        ]
+      ],
+      [
+        [
+          28,
+          34
+        ],
+        [
+          28,
+          33
+        ]
+      ]
+    ],
+    "options": {
+      "variant_name": "7_dynamic_slot_01q_move",
+      "enable_keep_adjacent": true,
+      "enable_one_qubit_move": true,
+      "candidate_slots_mode": "com_subset",
+      "pad_cost_matrix_to_square": false,
+      "assignment_mode": "hungarian",
+      "idle_parking_mode": "rft_greedy",
+      "evicted_park_closest_to_partner": false,
+      "enable_rft_hungarian_bias": false,
+      "rft_hungarian_bias_weight": 0.3,
+      "rft_hungarian_bias_max_time_dist": 3,
+      "random_seed": 42
+    },
+    "native_metrics": {
+      "QASM File": "qft_10.qasm",
+      "Num Qubit": 10,
+      "Num CZ Gates": 105,
+      "Circuit Depth": 37,
+      "Fidelity (DasAtom Model)": 0.5708809746707029,
+      "Fidelity (Realistic)": 0.4729958783230351,
+      "Movement Fidelity": 0.996583617469201,
+      "Num Movement Ops": 47,
+      "Num Transferred Qubits": 188,
+      "Num Moves": 58,
+      "Total Move Distance": 755.3411453861058,
+      "Num Gate Cycles": 37,
+      "Total_T (us)": 5140.747537065647,
+      "Idle Time (us)": 51386.475370656466,
+      "Elapsed Time (s)": 0.011675596237182617,
+      "Variant": "7_dynamic_slot_01q_move"
+    },
+    "timing_scope": "untouched RFT run_benchmark timed region; warmup/offline layout/preprocessing/scoring excluded",
+    "global_random_state_after": "dd9b4027e032b69c935b4c93b20c211842673f890d42c6055ee196197da6f11c",
+    "trace_sha256": "cab7f148733f2db03e5e5b705b4e2701a7a301ad70caee55cf32f5319a433dd2",
+    "boundary_replay": {
+      "valid_within_coverage": true,
+      "errors": [],
+      "CZ_count": 105,
+      "gate_cycles": 37,
+      "movement_batches": 47,
+      "final_positions": {
+        "0": [
+          14,
+          21
+        ],
+        "1": [
+          18,
+          15
+        ],
+        "2": [
+          25,
+          21
+        ],
+        "3": [
+          20,
+          26
+        ],
+        "4": [
+          15,
+          25
+        ],
+        "5": [
+          15,
+          27
+        ],
+        "6": [
+          20,
+          28
+        ],
+        "7": [
+          27,
+          21
+        ],
+        "8": [
+          18,
+          14
+        ],
+        "9": [
+          14,
+          23
+        ]
+      },
+      "coverage": [
+        "gate multiset",
+        "per-qubit dependency order",
+        "initial/batch-end occupancy",
+        "gate geometry"
+      ],
+      "unsupported": [
+        "continuous collision clearance",
+        "trap ownership/transfers",
+        "timed resources",
+        "full original unitary"
+      ]
+    },
+    "legacy_counts": {
+      "Num Gate Cycles": 37,
+      "Num Movement Ops": 47,
+      "Num Moves": 58,
+      "Total Move Distance": 755.3411453861058,
+      "Num CZ Gates (from log)": 105
+    },
+    "shared_legacy_score": {
+      "Fidelity (DasAtom Model)": 0.5708809746707029,
+      "Fidelity (Realistic)": 0.4729958783230351,
+      "Movement Fidelity": 0.996583617469201,
+      "Num Movement Ops": 47,
+      "Num Transferred Qubits": 188,
+      "Num Moves": 58,
+      "Total Move Distance": 755.3411453861058,
+      "Num Gate Cycles": 37,
+      "Total_T (us)": 5140.747537065647,
+      "Idle Time (us)": 51386.475370656466
+    },
+    "module_providers": {
+      "compiler_core": "vendor\\NAQC_Compiler-3d1f09233c2acd357fd9fbfad1b5300a921d301a\\src\\compiler_core.py",
+      "benchmark_runner": "vendor\\NAQC_Compiler-3d1f09233c2acd357fd9fbfad1b5300a921d301a\\src\\benchmark_runner.py",
+      "dasatom_instruction_converter": "vendor\\NAQC_Compiler-3d1f09233c2acd357fd9fbfad1b5300a921d301a\\src\\dasatom_instruction_converter.py",
+      "DasAtom_fun": "vendor\\NAQC_Compiler-3d1f09233c2acd357fd9fbfad1b5300a921d301a\\dasatom\\DasAtom-main\\DasAtom_fun.py",
+      "Enola.route": "vendor\\NAQC_Compiler-3d1f09233c2acd357fd9fbfad1b5300a921d301a\\dasatom\\DasAtom-main\\Enola\\route.py"
+    },
+    "packages": {
+      "qiskit": "1.3.1",
+      "numpy": "2.2.2",
+      "scipy": "1.15.1",
+      "networkx": "3.4.2",
+      "rustworkx": "0.15.1",
+      "pandas": "3.1.0"
+    },
+    "planner_input_sha256": "4543cfb2c7fe742b5c5028a3c1353e419d51c156e0eb8f5a6ce341c140b2c424",
+    "legacy_error_terms": {
+      "E_native_CZ": 0.5263168914721501,
+      "E_legacy_idle": 0.03425765024710431,
+      "E_ideal_transfer": 0.0,
+      "underflow": false
+    }
+  }
+}

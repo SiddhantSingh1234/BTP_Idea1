@@ -1,0 +1,13 @@
+{
+  "ready": true,
+  "frozen_files_verified": 1783,
+  "frozen_code_matches_tested_live_code": true,
+  "test_groups_passed": 38,
+  "long_run_active": false,
+  "user_to_launch_full_run": true,
+  "rft_targets_reused": 66,
+  "corrected_measurements_saved": 1,
+  "remaining_corrected_measurements": 65,
+  "paper_revision_evidence": "unresolved",
+  "phase_01_complete": false
+}

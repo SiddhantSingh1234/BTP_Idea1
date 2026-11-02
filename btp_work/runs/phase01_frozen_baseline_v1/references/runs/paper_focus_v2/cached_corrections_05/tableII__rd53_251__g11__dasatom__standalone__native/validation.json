@@ -1,0 +1,135 @@
+{
+  "status": "unsupported",
+  "structural_valid": true,
+  "violations": [],
+  "coverage": {
+    "checked": [
+      "CZ_gate_identity_and_dependencies",
+      "aod_order_equality_and_retained_carriers",
+      "endpoint_grid_bounds",
+      "final_mapping",
+      "gate_geometry",
+      "logical_carrier_mapping"
+    ],
+    "unsupported": [
+      "physical_minimum_separation"
+    ],
+    "not_applicable": [
+      "unintended_global_pulses"
+    ]
+  },
+  "fully_validated_within_model": false,
+  "source_physical_evidence_complete": false,
+  "unresolved_coincident_sites": [],
+  "model_assumptions": [
+    "SLM-to-AOD-to-SLM for nonzero movers; one concurrent load and unload stage per batch",
+    "Shared normalized linear progress; times derived from declared profile, not observed"
+  ],
+  "semantics": {
+    "level": "structural_CZ_only",
+    "full_original_circuit_checked": false,
+    "physical_output_slot_to_logical_qubit": [
+      3,
+      7,
+      6,
+      4,
+      5,
+      2,
+      0,
+      1,
+      15,
+      14,
+      13,
+      12,
+      11,
+      10,
+      9,
+      8
+    ]
+  },
+  "final_positions": {
+    "a0": [
+      1,
+      1
+    ],
+    "a1": [
+      2,
+      0
+    ],
+    "a2": [
+      1,
+      0
+    ],
+    "a3": [
+      0,
+      0
+    ],
+    "a4": [
+      0,
+      3
+    ],
+    "a5": [
+      0,
+      4
+    ],
+    "a6": [
+      0,
+      2
+    ],
+    "a7": [
+      0,
+      1
+    ],
+    "a8": [
+      10,
+      10
+    ],
+    "a9": [
+      10,
+      9
+    ],
+    "a10": [
+      10,
+      8
+    ],
+    "a11": [
+      10,
+      7
+    ],
+    "a12": [
+      10,
+      6
+    ],
+    "a13": [
+      10,
+      5
+    ],
+    "a14": [
+      10,
+      4
+    ],
+    "a15": [
+      10,
+      3
+    ]
+  },
+  "final_logical_mapping": {
+    "a0": 0,
+    "a1": 1,
+    "a2": 2,
+    "a3": 3,
+    "a4": 4,
+    "a5": 5,
+    "a6": 6,
+    "a7": 7,
+    "a8": 8,
+    "a9": 9,
+    "a10": 10,
+    "a11": 11,
+    "a12": 12,
+    "a13": 13,
+    "a14": 14,
+    "a15": 15
+  },
+  "observed_gate_count": 564
+}

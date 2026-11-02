@@ -1,0 +1,7 @@
+{
+  "status": "invalid",
+  "required_violation_codes": [
+    "move_gate_overlap",
+    "overlapping_atom_intervals"
+  ]
+}

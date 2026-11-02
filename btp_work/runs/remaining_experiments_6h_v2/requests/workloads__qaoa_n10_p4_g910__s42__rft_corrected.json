@@ -1,0 +1,13 @@
+{
+  "id": "workloads__qaoa_n10_p4_g910__s42__rft_corrected",
+  "suite": "workloads",
+  "kind": "compile",
+  "case_id": "qaoa_n10_p4_g910",
+  "case_path": "runs\\remaining_experiments_6h_v2\\inputs\\qaoa_n10_p4_g910\\case.json",
+  "seed": 42,
+  "variant": "rft_corrected",
+  "grid": 11,
+  "timeout": 60,
+  "lookahead": "legacy_exact",
+  "assignment": "sum_distance_expanded"
+}

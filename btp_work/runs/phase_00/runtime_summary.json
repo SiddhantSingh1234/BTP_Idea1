@@ -1,0 +1,420 @@
+{
+  "date": "2026-10-28",
+  "source_trees_verified": true,
+  "source_blobs": [
+    512,
+    499
+  ],
+  "research_python": "3.13.2",
+  "dependency_lock": "configs/environment/requirements-py313-win64.lock",
+  "smoke_cases": {
+    "rft_qft5": {
+      "records": [
+        "runs/phase_00/smoke_rft_qft5_01/result.json",
+        "runs/phase_00/smoke_rft_qft5_02/result.json"
+      ],
+      "status": "ok",
+      "repeat_trace_and_metrics_identical": true,
+      "trace_sha256": "e088e97d160e5760749684f1a687866e20df9b3351b2767975eceaeda88bd673",
+      "input_sha256": "7a043e1e19685ab1d2668fe0121b3eb0d0bae0287ae6363839611da03a27acb9",
+      "normalized_sha256": "0a4dac8d92c9a22a09ab2c0ea6165d4ae98e51b3f309993f43a3ceeb5f60d926",
+      "num_qubits": 5,
+      "num_cz": 26,
+      "counts": {
+        "Num Gate Cycles": 17,
+        "Num Movement Ops": 10,
+        "Num Moves": 10,
+        "Total Move Distance": 121.00613528064193,
+        "Num CZ Gates (from log)": 26
+      },
+      "score": {
+        "Fidelity (DasAtom Model)": 0.8748227441484157,
+        "Fidelity (Realistic)": 0.8405036322519545,
+        "Movement Fidelity": 0.9993202237159551,
+        "Num Movement Ops": 10,
+        "Num Transferred Qubits": 40,
+        "Num Moves": 10,
+        "Total Move Distance": 121.00613528064193,
+        "Num Gate Cycles": 17,
+        "Total_T (us)": 1023.4111550557126,
+        "Idle Time (us)": 5111.855775278563
+      },
+      "boundary_replay": {
+        "valid_within_coverage": true,
+        "errors": [],
+        "CZ_count": 26,
+        "gate_cycles": 17,
+        "movement_batches": 10,
+        "final_positions": {
+          "0": [
+            4,
+            7
+          ],
+          "1": [
+            0,
+            6
+          ],
+          "2": [
+            4,
+            9
+          ],
+          "3": [
+            0,
+            4
+          ],
+          "4": [
+            5,
+            6
+          ]
+        },
+        "coverage": [
+          "gate multiset",
+          "per-qubit dependency order",
+          "initial/batch-end occupancy",
+          "gate geometry"
+        ],
+        "unsupported": [
+          "continuous collision clearance",
+          "trap ownership/transfers",
+          "timed resources",
+          "full original unitary"
+        ]
+      },
+      "native_register_policy": null,
+      "native_score": null
+    },
+    "rft_tableII": {
+      "records": [
+        "runs/phase_00/smoke_rft_tableII_01/result.json",
+        "runs/phase_00/smoke_rft_tableII_02/result.json"
+      ],
+      "status": "ok",
+      "repeat_trace_and_metrics_identical": true,
+      "trace_sha256": "5bab6df047d675d5b9ed1678586253c86d830eeb029f7b826a21ce1aadc1afc0",
+      "input_sha256": "284c7f1fc792c93120047301157b5e951a302e5afd6443ef43038feed60ca3fd",
+      "normalized_sha256": "bd3abcd3a3ed867d172f8e774541c8a0f233d272dda4be8a127c259cf47070c5",
+      "num_qubits": 16,
+      "num_cz": 11,
+      "counts": {
+        "Num Gate Cycles": 10,
+        "Num Movement Ops": 1,
+        "Num Moves": 1,
+        "Total Move Distance": 10.816653826391967,
+        "Num CZ Gates (from log)": 11
+      },
+      "score": {
+        "Fidelity (DasAtom Model)": 0.9453302538303964,
+        "Fidelity (Realistic)": 0.9415546010162221,
+        "Movement Fidelity": 0.9999335577785017,
+        "Num Movement Ops": 1,
+        "Num Transferred Qubits": 4,
+        "Num Moves": 1,
+        "Total Move Distance": 10.816653826391967,
+        "Num Gate Cycles": 10,
+        "Total_T (us)": 101.66664332071267,
+        "Idle Time (us)": 1624.4662931314026
+      },
+      "boundary_replay": {
+        "valid_within_coverage": true,
+        "errors": [],
+        "CZ_count": 11,
+        "gate_cycles": 10,
+        "movement_batches": 1,
+        "final_positions": {
+          "4": [
+            8,
+            8
+          ],
+          "5": [
+            5,
+            5
+          ],
+          "6": [
+            6,
+            6
+          ],
+          "7": [
+            5,
+            4
+          ],
+          "8": [
+            4,
+            6
+          ],
+          "9": [
+            6,
+            4
+          ],
+          "10": [
+            7,
+            5
+          ],
+          "11": [
+            5,
+            7
+          ],
+          "12": [
+            4,
+            5
+          ],
+          "13": [
+            6,
+            7
+          ],
+          "14": [
+            7,
+            6
+          ],
+          "15": [
+            7,
+            4
+          ],
+          "0": [
+            6,
+            5
+          ],
+          "2": [
+            7,
+            9
+          ],
+          "1": [
+            8,
+            9
+          ],
+          "3": [
+            9,
+            9
+          ]
+        },
+        "coverage": [
+          "gate multiset",
+          "per-qubit dependency order",
+          "initial/batch-end occupancy",
+          "gate geometry"
+        ],
+        "unsupported": [
+          "continuous collision clearance",
+          "trap ownership/transfers",
+          "timed resources",
+          "full original unitary"
+        ]
+      },
+      "native_register_policy": null,
+      "native_score": null
+    },
+    "dasatom_qft5": {
+      "records": [
+        "runs/phase_00/smoke_dasatom_qft5_01/result.json",
+        "runs/phase_00/smoke_dasatom_qft5_02/result.json"
+      ],
+      "status": "ok",
+      "repeat_trace_and_metrics_identical": true,
+      "trace_sha256": "830ebcd641e460e2fead064993413ffb59a07d078a2219331aca709db3733916",
+      "input_sha256": "7a043e1e19685ab1d2668fe0121b3eb0d0bae0287ae6363839611da03a27acb9",
+      "normalized_sha256": "0a4dac8d92c9a22a09ab2c0ea6165d4ae98e51b3f309993f43a3ceeb5f60d926",
+      "num_qubits": 5,
+      "num_cz": 26,
+      "counts": {
+        "Num Gate Cycles": 26,
+        "Num Movement Ops": 0,
+        "Num Moves": 0,
+        "Total Move Distance": 0.0,
+        "Num CZ Gates (from log)": 26
+      },
+      "score": {
+        "Fidelity (DasAtom Model)": 0.877796969531686,
+        "Fidelity (Realistic)": 0.877796969531686,
+        "Movement Fidelity": 1.0,
+        "Num Movement Ops": 0,
+        "Num Transferred Qubits": 0,
+        "Num Moves": 0,
+        "Total Move Distance": 0.0,
+        "Num Gate Cycles": 26,
+        "Total_T (us)": 5.2,
+        "Idle Time (us)": 20.8
+      },
+      "boundary_replay": {
+        "valid_within_coverage": true,
+        "errors": [],
+        "CZ_count": 26,
+        "gate_cycles": 26,
+        "movement_batches": 0,
+        "final_positions": {
+          "0": [
+            2,
+            1
+          ],
+          "1": [
+            1,
+            2
+          ],
+          "2": [
+            1,
+            1
+          ],
+          "3": [
+            1,
+            0
+          ],
+          "4": [
+            0,
+            1
+          ]
+        },
+        "coverage": [
+          "gate multiset",
+          "per-qubit dependency order",
+          "initial/batch-end occupancy",
+          "gate geometry"
+        ],
+        "unsupported": [
+          "continuous collision clearance",
+          "trap ownership/transfers",
+          "timed resources",
+          "full original unitary"
+        ]
+      },
+      "native_register_policy": null,
+      "native_score": [
+        20.8,
+        0.877796969531686,
+        1.0,
+        5.2,
+        0,
+        0,
+        0
+      ]
+    },
+    "dasatom_tableII": {
+      "records": [
+        "runs/phase_00/smoke_dasatom_tableII_03/result.json",
+        "runs/phase_00/smoke_dasatom_tableII_04/result.json"
+      ],
+      "status": "unsupported_declared_register",
+      "repeat_trace_and_metrics_identical": true,
+      "trace_sha256": "e742d145f6dd247490409b72ff1a3dcc386f1c07cc17efd2d67ee1d6a633c2c3",
+      "input_sha256": "284c7f1fc792c93120047301157b5e951a302e5afd6443ef43038feed60ca3fd",
+      "normalized_sha256": "bd3abcd3a3ed867d172f8e774541c8a0f233d272dda4be8a127c259cf47070c5",
+      "num_qubits": 16,
+      "num_cz": 11,
+      "counts": {
+        "Num Gate Cycles": 11,
+        "Num Movement Ops": 0,
+        "Num Moves": 0,
+        "Total Move Distance": 0.0,
+        "Num CZ Gates (from log)": 11
+      },
+      "score": {
+        "Fidelity (DasAtom Model)": 0.9463337602417032,
+        "Fidelity (Realistic)": 0.9463337602417032,
+        "Movement Fidelity": 1.0,
+        "Num Movement Ops": 0,
+        "Num Transferred Qubits": 0,
+        "Num Moves": 0,
+        "Total Move Distance": 0.0,
+        "Num Gate Cycles": 11,
+        "Total_T (us)": 2.2,
+        "Idle Time (us)": 33.0
+      },
+      "boundary_replay": {
+        "valid_within_coverage": false,
+        "errors": [
+          "Not all declared qubits are represented"
+        ],
+        "CZ_count": 11,
+        "gate_cycles": 11,
+        "movement_batches": 0,
+        "final_positions": {
+          "0": [
+            0,
+            0
+          ],
+          "1": [
+            0,
+            3
+          ],
+          "2": [
+            0,
+            1
+          ],
+          "3": [
+            0,
+            2
+          ],
+          "4": [
+            1,
+            1
+          ]
+        },
+        "coverage": [
+          "gate multiset",
+          "per-qubit dependency order",
+          "initial/batch-end occupancy",
+          "gate geometry"
+        ],
+        "unsupported": [
+          "continuous collision clearance",
+          "trap ownership/transfers",
+          "timed resources",
+          "full original unitary"
+        ]
+      },
+      "native_register_policy": {
+        "input_declared_N": 16,
+        "native_N": 5,
+        "behavior": "upstream infers max(two-qubit operand)+1, dropping trailing inactive qubits",
+        "matched_full_register_supported": false
+      },
+      "native_score": [
+        8.8,
+        0.9463490278828605,
+        1.0,
+        2.2,
+        0,
+        0,
+        0
+      ]
+    }
+  },
+  "compiled_fixture": {
+    "record": "runs/phase_00/compiled_fixture_01/trace.json",
+    "forced_evictions": 2,
+    "counts": {
+      "Num Gate Cycles": 3,
+      "Num Movement Ops": 6,
+      "Num Moves": 6,
+      "Total Move Distance": 26.48528137423857,
+      "Num CZ Gates (from log)": 4
+    },
+    "score": {
+      "Fidelity (DasAtom Model)": 0.9787689724998074,
+      "Fidelity (Realistic)": 0.9555466867267505,
+      "Movement Fidelity": 0.9996479586097545,
+      "Num Movement Ops": 6,
+      "Num Transferred Qubits": 24,
+      "Num Moves": 6,
+      "Total Move Distance": 26.48528137423857,
+      "Num Gate Cycles": 3,
+      "Total_T (us)": 528.7550570440701,
+      "Idle Time (us)": 2114.22022817628
+    }
+  },
+  "history": {
+    "records": "runs/phase_00/history_01/summary.json",
+    "rft_commits": 27,
+    "current_main_matches_pin": true,
+    "tags": [],
+    "embedded_helper_upstream_exact_match_found": false
+  },
+  "snapshot_audit_status": "complete_with_documented_register_and_validation_limits",
+  "phase_status": "needs_revision",
+  "phase_complete": false,
+  "paper_revision_unresolved": true,
+  "new_research_heuristics": false,
+  "limitations": [
+    "paper revision/options/raw-result provenance unavailable",
+    "DasAtom trailing inactive-qubit omission",
+    "no continuous physical validity claim",
+    "dependency lock rebuild in a second clean environment not tested"
+  ]
+}

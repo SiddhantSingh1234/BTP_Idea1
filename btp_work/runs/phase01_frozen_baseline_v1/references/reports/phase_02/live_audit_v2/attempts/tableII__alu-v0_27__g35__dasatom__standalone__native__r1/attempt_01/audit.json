@@ -1,0 +1,33 @@
+{
+  "job_id": "tableII__alu-v0_27__g35__dasatom__standalone__native__r1",
+  "attempt": 1,
+  "algorithm": "dasatom",
+  "repetition": 1,
+  "source_status": "unsupported",
+  "source_diagnostic_status": "unsupported_declared_register",
+  "record_path": "runs\\current_baseline\\study_v1\\attempts\\tableII__alu-v0_27__g35__dasatom__standalone__native__r1\\attempt_01\\attempt_record.json",
+  "record_sha256": "ada3b72c5516d635876aa0c07c18e260a3ecc36f72e9bb4e9ee12ea39a4944c2",
+  "audited_utc": "2026-10-28T06:07:17.329051+00:00",
+  "adapter_error": false,
+  "legacy_all_match": true,
+  "saved_final_mapping_matches": true,
+  "evidence_status": "unsupported",
+  "paper_batch_policy_status": "unsupported",
+  "missing_artifacts": [],
+  "frozen_contract_matches": true,
+  "coverage": "trace_audited",
+  "paper_batch_violation_codes": [],
+  "source_boundary_errors": [
+    "Not all declared qubits are represented"
+  ],
+  "evidence_violation_codes": [],
+  "unsupported": [
+    "gate_trap_prerequisites",
+    "original_declared_register",
+    "physical_minimum_separation",
+    "timing_and_resources",
+    "trap_ownership"
+  ],
+  "original_register_complete": false,
+  "eligible_as_physically_validated_baseline": false
+}

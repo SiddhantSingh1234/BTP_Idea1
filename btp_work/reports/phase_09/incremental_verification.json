@@ -1,0 +1,27 @@
+{
+  "status": "incremental_work_complete",
+  "original_phase07_09_status": "in_progress",
+  "checks": {
+    "five_old_datasets_unchanged": true,
+    "frozen_scientific_sources_unchanged": true,
+    "five_extension_tests_pass": true,
+    "five_analysis_tests_pass": true,
+    "all448_new_final_rows_audited": true,
+    "twenty_new_primary_outputs_pass": true,
+    "primary_semantic_and_physical_replays_pass": true,
+    "fresh29_package_workflow_pass": true,
+    "clean_environment_numerical_rebuild_identical": true,
+    "report_and_slide_layout_pass": true,
+    "editable_deck_and_report_present": true,
+    "all_four_idea2_briefs_present": true,
+    "claims_and_remaining_scope_explicit": true,
+    "artifact_index_hashes_match": true,
+    "current_document_links_resolve": true
+  },
+  "passed": 15,
+  "total": 15,
+  "link_issues": [],
+  "numeric_csvs_reproduced": 12,
+  "current_delivery": "final/research_delivery_20261031_v2",
+  "script_sha256": "913d76d6e45ec07e70f953b4c3f635382fccd53cd4a231fd23d25220fd439556"
+}

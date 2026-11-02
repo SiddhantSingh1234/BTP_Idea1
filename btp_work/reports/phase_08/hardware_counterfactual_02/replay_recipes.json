@@ -1,0 +1,3842 @@
+[
+  {
+    "id": "hardware__4mod5-v1_22__s41__acceleration_double",
+    "fixed_source_schedule_path": "runs\\idea1_extension_v1\\campaign\\raw\\4mod5-v1_22__s41__r0\\attempt_01\\worker\\L1A1\\baseline\\schedule.json",
+    "fixed_source_schedule_file_sha256": "3e85a9f8ef8061120e789779c73220ea7acd5031f886048d394787ca505b7d96",
+    "resolved_request_path": "runs\\remaining_experiments_6h_v2\\measurements\\hardware__4mod5-v1_22__s41__acceleration_double\\attempt_01\\worker\\resolved_request.json",
+    "resolved_request_sha256": "782f241ca2e56a473b886175c0d53500563fee001c7e35fb68719cc0aee9d92b",
+    "counterfactual_schedule_sha256": "7fce8c0072d92056734f3b39679edeef43be427623011a1a1d5783f876b897cf",
+    "counterfactual_source_trace_sha256": "e7587fb9fa047c07ec8289d7de970875c2fa1fd9a565ec85fdf4facd158cb1a5",
+    "budget": {
+      "terms": {
+        "E_native_gate": 0.05513796005898714,
+        "E_transfer": 0.0040020013343341375,
+        "E_heating_gate": 0.0001423824829623629,
+        "E_movement_loss": 0.0,
+        "E_cooling_gate": 0.0,
+        "E_decoherence": 0.004187345481680864
+      },
+      "terms_infinite": {
+        "E_native_gate": false,
+        "E_transfer": false,
+        "E_heating_gate": false,
+        "E_movement_loss": false,
+        "E_cooling_gate": false,
+        "E_decoherence": false
+      },
+      "total_E": 0.0634696893579645,
+      "total_E_infinite": false,
+      "fidelity_proxy": 0.9385025654848625,
+      "fidelity_underflow": false
+    },
+    "method": "default source decisions; requested geometry metadata if changed; requested profile; make_schedule(retime); evaluate"
+  },
+  {
+    "id": "hardware__4mod5-v1_22__s41__acceleration_half",
+    "fixed_source_schedule_path": "runs\\idea1_extension_v1\\campaign\\raw\\4mod5-v1_22__s41__r0\\attempt_01\\worker\\L1A1\\baseline\\schedule.json",
+    "fixed_source_schedule_file_sha256": "3e85a9f8ef8061120e789779c73220ea7acd5031f886048d394787ca505b7d96",
+    "resolved_request_path": "runs\\remaining_experiments_6h_v2\\measurements\\hardware__4mod5-v1_22__s41__acceleration_half\\attempt_01\\worker\\resolved_request.json",
+    "resolved_request_sha256": "50bc2afe7d4e60f03a697cbf9beef0a856568f6ee7a157f8151f7521ab5d2410",
+    "counterfactual_schedule_sha256": "1e58c6317a3fada1060b62482deef961e4bfcd7754bae8d6285504f1c6aba462",
+    "counterfactual_source_trace_sha256": "e7587fb9fa047c07ec8289d7de970875c2fa1fd9a565ec85fdf4facd158cb1a5",
+    "budget": {
+      "terms": {
+        "E_native_gate": 0.05513796005898714,
+        "E_transfer": 0.0040020013343341375,
+        "E_heating_gate": 8.898830944322675e-06,
+        "E_movement_loss": 0.0,
+        "E_cooling_gate": 0.0,
+        "E_decoherence": 0.007500024296695066
+      },
+      "terms_infinite": {
+        "E_native_gate": false,
+        "E_transfer": false,
+        "E_heating_gate": false,
+        "E_movement_loss": false,
+        "E_cooling_gate": false,
+        "E_decoherence": false
+      },
+      "total_E": 0.06664888452096067,
+      "total_E_infinite": false,
+      "fidelity_proxy": 0.9355236205010413,
+      "fidelity_underflow": false
+    },
+    "method": "default source decisions; requested geometry metadata if changed; requested profile; make_schedule(retime); evaluate"
+  },
+  {
+    "id": "hardware__4mod5-v1_22__s41__coherence_long",
+    "fixed_source_schedule_path": "runs\\idea1_extension_v1\\campaign\\raw\\4mod5-v1_22__s41__r0\\attempt_01\\worker\\L1A1\\baseline\\schedule.json",
+    "fixed_source_schedule_file_sha256": "3e85a9f8ef8061120e789779c73220ea7acd5031f886048d394787ca505b7d96",
+    "resolved_request_path": "runs\\remaining_experiments_6h_v2\\measurements\\hardware__4mod5-v1_22__s41__coherence_long\\attempt_01\\worker\\resolved_request.json",
+    "resolved_request_sha256": "61a21ea6bb9138d778cc6c83bc0eca2d6a6045da555aa68b4aa3fb135da20517",
+    "counterfactual_schedule_sha256": "6d4ca162b70a0cd4a0f9f0c3b5f126d5a622cb2bab2ba4bc211c9d91112dff71",
+    "counterfactual_source_trace_sha256": "e7587fb9fa047c07ec8289d7de970875c2fa1fd9a565ec85fdf4facd158cb1a5",
+    "budget": {
+      "terms": {
+        "E_native_gate": 0.05513796005898714,
+        "E_transfer": 0.0040020013343341375,
+        "E_heating_gate": 3.5595383169363447e-05,
+        "E_movement_loss": 0.0,
+        "E_cooling_gate": 0.0,
+        "E_decoherence": 0.0005559501974645783
+      },
+      "terms_infinite": {
+        "E_native_gate": false,
+        "E_transfer": false,
+        "E_heating_gate": false,
+        "E_movement_loss": false,
+        "E_cooling_gate": false,
+        "E_decoherence": false
+      },
+      "total_E": 0.05973150697395522,
+      "total_E_infinite": false,
+      "fidelity_proxy": 0.9420174247419293,
+      "fidelity_underflow": false
+    },
+    "method": "default source decisions; requested geometry metadata if changed; requested profile; make_schedule(retime); evaluate"
+  },
+  {
+    "id": "hardware__4mod5-v1_22__s41__coherence_short",
+    "fixed_source_schedule_path": "runs\\idea1_extension_v1\\campaign\\raw\\4mod5-v1_22__s41__r0\\attempt_01\\worker\\L1A1\\baseline\\schedule.json",
+    "fixed_source_schedule_file_sha256": "3e85a9f8ef8061120e789779c73220ea7acd5031f886048d394787ca505b7d96",
+    "resolved_request_path": "runs\\remaining_experiments_6h_v2\\measurements\\hardware__4mod5-v1_22__s41__coherence_short\\attempt_01\\worker\\resolved_request.json",
+    "resolved_request_sha256": "06a0cc3fb256130c73eb1abf44809382f647901171c82fcdb5e7db2ac07c5291",
+    "counterfactual_schedule_sha256": "e4ebabed0e2a7dcee571ec92d65246bb7550d5269f78ec917541286b201401b2",
+    "counterfactual_source_trace_sha256": "e7587fb9fa047c07ec8289d7de970875c2fa1fd9a565ec85fdf4facd158cb1a5",
+    "budget": {
+      "terms": {
+        "E_native_gate": 0.05513796005898714,
+        "E_transfer": 0.0040020013343341375,
+        "E_heating_gate": 3.5595383169363447e-05,
+        "E_movement_loss": 0.0,
+        "E_cooling_gate": 0.0,
+        "E_decoherence": 0.05559501974645783
+      },
+      "terms_infinite": {
+        "E_native_gate": false,
+        "E_transfer": false,
+        "E_heating_gate": false,
+        "E_movement_loss": false,
+        "E_cooling_gate": false,
+        "E_decoherence": false
+      },
+      "total_E": 0.11477057652294848,
+      "total_E_infinite": false,
+      "fidelity_proxy": 0.8915706676872738,
+      "fidelity_underflow": false
+    },
+    "method": "default source decisions; requested geometry metadata if changed; requested profile; make_schedule(retime); evaluate"
+  },
+  {
+    "id": "hardware__4mod5-v1_22__s41__heating_double",
+    "fixed_source_schedule_path": "runs\\idea1_extension_v1\\campaign\\raw\\4mod5-v1_22__s41__r0\\attempt_01\\worker\\L1A1\\baseline\\schedule.json",
+    "fixed_source_schedule_file_sha256": "3e85a9f8ef8061120e789779c73220ea7acd5031f886048d394787ca505b7d96",
+    "resolved_request_path": "runs\\remaining_experiments_6h_v2\\measurements\\hardware__4mod5-v1_22__s41__heating_double\\attempt_01\\worker\\resolved_request.json",
+    "resolved_request_sha256": "c7b3622843dce04c82c3fef8cfdaead37ec2d134149c4720038f8c6764e539c8",
+    "counterfactual_schedule_sha256": "54f46d4a01aa22367df56e554dca2393e0dd0f7372d525b084faf49a712fde51",
+    "counterfactual_source_trace_sha256": "e7587fb9fa047c07ec8289d7de970875c2fa1fd9a565ec85fdf4facd158cb1a5",
+    "budget": {
+      "terms": {
+        "E_native_gate": 0.05513796005898714,
+        "E_transfer": 0.0040020013343341375,
+        "E_heating_gate": 7.119092471850106e-05,
+        "E_movement_loss": 0.0,
+        "E_cooling_gate": 0.0,
+        "E_decoherence": 0.005559501974645782
+      },
+      "terms_infinite": {
+        "E_native_gate": false,
+        "E_transfer": false,
+        "E_heating_gate": false,
+        "E_movement_loss": false,
+        "E_cooling_gate": false,
+        "E_decoherence": false
+      },
+      "total_E": 0.06477065429268557,
+      "total_E_infinite": false,
+      "fidelity_proxy": 0.9372824004240954,
+      "fidelity_underflow": false
+    },
+    "method": "default source decisions; requested geometry metadata if changed; requested profile; make_schedule(retime); evaluate"
+  },
+  {
+    "id": "hardware__4mod5-v1_22__s41__heating_half",
+    "fixed_source_schedule_path": "runs\\idea1_extension_v1\\campaign\\raw\\4mod5-v1_22__s41__r0\\attempt_01\\worker\\L1A1\\baseline\\schedule.json",
+    "fixed_source_schedule_file_sha256": "3e85a9f8ef8061120e789779c73220ea7acd5031f886048d394787ca505b7d96",
+    "resolved_request_path": "runs\\remaining_experiments_6h_v2\\measurements\\hardware__4mod5-v1_22__s41__heating_half\\attempt_01\\worker\\resolved_request.json",
+    "resolved_request_sha256": "fbf53271175f9ad79f003ef503e96d23b0182ca361237bf4ad4f888c7682b06e",
+    "counterfactual_schedule_sha256": "a525ea9356eb5c3e54b709304c8bb07a066e13f221f7b6714a6db88d3a56c5c5",
+    "counterfactual_source_trace_sha256": "e7587fb9fa047c07ec8289d7de970875c2fa1fd9a565ec85fdf4facd158cb1a5",
+    "budget": {
+      "terms": {
+        "E_native_gate": 0.05513796005898714,
+        "E_transfer": 0.0040020013343341375,
+        "E_heating_gate": 1.779767178730783e-05,
+        "E_movement_loss": 0.0,
+        "E_cooling_gate": 0.0,
+        "E_decoherence": 0.005559501974645782
+      },
+      "terms_infinite": {
+        "E_native_gate": false,
+        "E_transfer": false,
+        "E_heating_gate": false,
+        "E_movement_loss": false,
+        "E_cooling_gate": false,
+        "E_decoherence": false
+      },
+      "total_E": 0.06471726103975436,
+      "total_E_infinite": false,
+      "fidelity_proxy": 0.9373324463164139,
+      "fidelity_underflow": false
+    },
+    "method": "default source decisions; requested geometry metadata if changed; requested profile; make_schedule(retime); evaluate"
+  },
+  {
+    "id": "hardware__4mod5-v1_22__s41__parking_area_grid20",
+    "fixed_source_schedule_path": "runs\\idea1_extension_v1\\campaign\\raw\\4mod5-v1_22__s41__r0\\attempt_01\\worker\\L1A1\\baseline\\schedule.json",
+    "fixed_source_schedule_file_sha256": "3e85a9f8ef8061120e789779c73220ea7acd5031f886048d394787ca505b7d96",
+    "resolved_request_path": "runs\\remaining_experiments_6h_v2\\measurements\\hardware__4mod5-v1_22__s41__parking_area_grid20\\attempt_01\\worker\\resolved_request.json",
+    "resolved_request_sha256": "26a4128abb76499a1b90b8337610b23fa837293d1cf5e0568b96c5004bb99a16",
+    "counterfactual_schedule_sha256": "741d2e1135d4951af6d82138d223d72fc98b4ed4292c9b2fa058669e7380060c",
+    "counterfactual_source_trace_sha256": "d5991c1fd1e9f7a09a649b88e2db7f53cac0c88bd760089092310acae3633e0f",
+    "budget": {
+      "terms": {
+        "E_native_gate": 0.05513796005898714,
+        "E_transfer": 0.0040020013343341375,
+        "E_heating_gate": 3.5595383169363447e-05,
+        "E_movement_loss": 0.0,
+        "E_cooling_gate": 0.0,
+        "E_decoherence": 0.005559501974645782
+      },
+      "terms_infinite": {
+        "E_native_gate": false,
+        "E_transfer": false,
+        "E_heating_gate": false,
+        "E_movement_loss": false,
+        "E_cooling_gate": false,
+        "E_decoherence": false
+      },
+      "total_E": 0.06473505875113643,
+      "total_E_infinite": false,
+      "fidelity_proxy": 0.9373157640925184,
+      "fidelity_underflow": false
+    },
+    "method": "default source decisions; requested geometry metadata if changed; requested profile; make_schedule(retime); evaluate"
+  },
+  {
+    "id": "hardware__4mod5-v1_22__s41__parking_area_grid35",
+    "fixed_source_schedule_path": "runs\\idea1_extension_v1\\campaign\\raw\\4mod5-v1_22__s41__r0\\attempt_01\\worker\\L1A1\\baseline\\schedule.json",
+    "fixed_source_schedule_file_sha256": "3e85a9f8ef8061120e789779c73220ea7acd5031f886048d394787ca505b7d96",
+    "resolved_request_path": "runs\\remaining_experiments_6h_v2\\measurements\\hardware__4mod5-v1_22__s41__parking_area_grid35\\attempt_01\\worker\\resolved_request.json",
+    "resolved_request_sha256": "d06612ae44c583a7f622d90ce53522d3862af008a619b9d0f805c4b6f94751e5",
+    "counterfactual_schedule_sha256": "f091686f8c99a658e485585acf72358441cfcab78474415687cefa530f7754b9",
+    "counterfactual_source_trace_sha256": "03957647eff04caf414411e123215052825249df3a19149df9b763e5fee5ecdb",
+    "budget": {
+      "terms": {
+        "E_native_gate": 0.05513796005898714,
+        "E_transfer": 0.0040020013343341375,
+        "E_heating_gate": 3.5595383169363447e-05,
+        "E_movement_loss": 0.0,
+        "E_cooling_gate": 0.0,
+        "E_decoherence": 0.005559501974645782
+      },
+      "terms_infinite": {
+        "E_native_gate": false,
+        "E_transfer": false,
+        "E_heating_gate": false,
+        "E_movement_loss": false,
+        "E_cooling_gate": false,
+        "E_decoherence": false
+      },
+      "total_E": 0.06473505875113643,
+      "total_E_infinite": false,
+      "fidelity_proxy": 0.9373157640925184,
+      "fidelity_underflow": false
+    },
+    "method": "default source decisions; requested geometry metadata if changed; requested profile; make_schedule(retime); evaluate"
+  },
+  {
+    "id": "hardware__4mod5-v1_22__s41__transfer_higher",
+    "fixed_source_schedule_path": "runs\\idea1_extension_v1\\campaign\\raw\\4mod5-v1_22__s41__r0\\attempt_01\\worker\\L1A1\\baseline\\schedule.json",
+    "fixed_source_schedule_file_sha256": "3e85a9f8ef8061120e789779c73220ea7acd5031f886048d394787ca505b7d96",
+    "resolved_request_path": "runs\\remaining_experiments_6h_v2\\measurements\\hardware__4mod5-v1_22__s41__transfer_higher\\attempt_01\\worker\\resolved_request.json",
+    "resolved_request_sha256": "604b851a1557d9c7f7c9b4a0d27246da6c8fd72a3da4f6660eede9249132be9b",
+    "counterfactual_schedule_sha256": "771e39248fb6773c331cc53406cf02eda4b2b81b6a0afb0f1f6cad1cd84db52a",
+    "counterfactual_source_trace_sha256": "e7587fb9fa047c07ec8289d7de970875c2fa1fd9a565ec85fdf4facd158cb1a5",
+    "budget": {
+      "terms": {
+        "E_native_gate": 0.05513796005898714,
+        "E_transfer": 0.0004000200013333893,
+        "E_heating_gate": 3.5595383169363447e-05,
+        "E_movement_loss": 0.0,
+        "E_cooling_gate": 0.0,
+        "E_decoherence": 0.005559501974645782
+      },
+      "terms_infinite": {
+        "E_native_gate": false,
+        "E_transfer": false,
+        "E_heating_gate": false,
+        "E_movement_loss": false,
+        "E_cooling_gate": false,
+        "E_decoherence": false
+      },
+      "total_E": 0.06113307741813567,
+      "total_E_infinite": false,
+      "fidelity_proxy": 0.94069804577877,
+      "fidelity_underflow": false
+    },
+    "method": "default source decisions; requested geometry metadata if changed; requested profile; make_schedule(retime); evaluate"
+  },
+  {
+    "id": "hardware__4mod5-v1_22__s41__transfer_lower",
+    "fixed_source_schedule_path": "runs\\idea1_extension_v1\\campaign\\raw\\4mod5-v1_22__s41__r0\\attempt_01\\worker\\L1A1\\baseline\\schedule.json",
+    "fixed_source_schedule_file_sha256": "3e85a9f8ef8061120e789779c73220ea7acd5031f886048d394787ca505b7d96",
+    "resolved_request_path": "runs\\remaining_experiments_6h_v2\\measurements\\hardware__4mod5-v1_22__s41__transfer_lower\\attempt_01\\worker\\resolved_request.json",
+    "resolved_request_sha256": "20bc9d642bdd4ffc5ab5b3ca096ab509d11aa92940afc46aad3dc7d6e3354847",
+    "counterfactual_schedule_sha256": "b93989f132348eebf9a355bcc1c462907d41139dc6dda90f63642f4a9f48ad81",
+    "counterfactual_source_trace_sha256": "e7587fb9fa047c07ec8289d7de970875c2fa1fd9a565ec85fdf4facd158cb1a5",
+    "budget": {
+      "terms": {
+        "E_native_gate": 0.05513796005898714,
+        "E_transfer": 0.027292901392502147,
+        "E_heating_gate": 3.5595383169363447e-05,
+        "E_movement_loss": 0.0,
+        "E_cooling_gate": 0.0,
+        "E_decoherence": 0.005559501974645782
+      },
+      "terms_infinite": {
+        "E_native_gate": false,
+        "E_transfer": false,
+        "E_heating_gate": false,
+        "E_movement_loss": false,
+        "E_cooling_gate": false,
+        "E_decoherence": false
+      },
+      "total_E": 0.08802595880930443,
+      "total_E_infinite": false,
+      "fidelity_proxy": 0.9157371049699029,
+      "fidelity_underflow": false
+    },
+    "method": "default source decisions; requested geometry metadata if changed; requested profile; make_schedule(retime); evaluate"
+  },
+  {
+    "id": "hardware__4mod5-v1_22__s42__acceleration_double",
+    "fixed_source_schedule_path": "runs\\idea1_extension_v1\\campaign\\raw\\4mod5-v1_22__s42__r0\\attempt_01\\worker\\L1A1\\baseline\\schedule.json",
+    "fixed_source_schedule_file_sha256": "5e90d4b72ca5c2ef14710a2c27d413e92ea7218a544b8be03ce4c6aca54f9177",
+    "resolved_request_path": "runs\\remaining_experiments_6h_v2\\measurements\\hardware__4mod5-v1_22__s42__acceleration_double\\attempt_01\\worker\\resolved_request.json",
+    "resolved_request_sha256": "6b22db52a156fd7bb6756cb4336d131af4bfef057fb6738ed580d013be5baeec",
+    "counterfactual_schedule_sha256": "790fda5d19a016c9f2a262017d2e212c0d695843251e3c283301228d982c626e",
+    "counterfactual_source_trace_sha256": "9e28fb09b6441763ba41443df2fc7b79f5851184a8fae276cf6cd6c46b029230",
+    "budget": {
+      "terms": {
+        "E_native_gate": 0.05513796005898714,
+        "E_transfer": 0.0040020013343341375,
+        "E_heating_gate": 0.0001423824829623629,
+        "E_movement_loss": 0.0,
+        "E_cooling_gate": 0.0,
+        "E_decoherence": 0.004187345481680864
+      },
+      "terms_infinite": {
+        "E_native_gate": false,
+        "E_transfer": false,
+        "E_heating_gate": false,
+        "E_movement_loss": false,
+        "E_cooling_gate": false,
+        "E_decoherence": false
+      },
+      "total_E": 0.0634696893579645,
+      "total_E_infinite": false,
+      "fidelity_proxy": 0.9385025654848625,
+      "fidelity_underflow": false
+    },
+    "method": "default source decisions; requested geometry metadata if changed; requested profile; make_schedule(retime); evaluate"
+  },
+  {
+    "id": "hardware__4mod5-v1_22__s42__acceleration_half",
+    "fixed_source_schedule_path": "runs\\idea1_extension_v1\\campaign\\raw\\4mod5-v1_22__s42__r0\\attempt_01\\worker\\L1A1\\baseline\\schedule.json",
+    "fixed_source_schedule_file_sha256": "5e90d4b72ca5c2ef14710a2c27d413e92ea7218a544b8be03ce4c6aca54f9177",
+    "resolved_request_path": "runs\\remaining_experiments_6h_v2\\measurements\\hardware__4mod5-v1_22__s42__acceleration_half\\attempt_01\\worker\\resolved_request.json",
+    "resolved_request_sha256": "e6c4a03d861a576693823255de8bf2059b4a9a44ccefe03566f01ccc8e3d5459",
+    "counterfactual_schedule_sha256": "74c163bd4fbcf8a663d2cbff039e70ad1f5445ed5bb4dc0cf0a8194b73ac32fd",
+    "counterfactual_source_trace_sha256": "9e28fb09b6441763ba41443df2fc7b79f5851184a8fae276cf6cd6c46b029230",
+    "budget": {
+      "terms": {
+        "E_native_gate": 0.05513796005898714,
+        "E_transfer": 0.0040020013343341375,
+        "E_heating_gate": 8.898830944322675e-06,
+        "E_movement_loss": 0.0,
+        "E_cooling_gate": 0.0,
+        "E_decoherence": 0.007500024296695066
+      },
+      "terms_infinite": {
+        "E_native_gate": false,
+        "E_transfer": false,
+        "E_heating_gate": false,
+        "E_movement_loss": false,
+        "E_cooling_gate": false,
+        "E_decoherence": false
+      },
+      "total_E": 0.06664888452096067,
+      "total_E_infinite": false,
+      "fidelity_proxy": 0.9355236205010413,
+      "fidelity_underflow": false
+    },
+    "method": "default source decisions; requested geometry metadata if changed; requested profile; make_schedule(retime); evaluate"
+  },
+  {
+    "id": "hardware__4mod5-v1_22__s42__coherence_long",
+    "fixed_source_schedule_path": "runs\\idea1_extension_v1\\campaign\\raw\\4mod5-v1_22__s42__r0\\attempt_01\\worker\\L1A1\\baseline\\schedule.json",
+    "fixed_source_schedule_file_sha256": "5e90d4b72ca5c2ef14710a2c27d413e92ea7218a544b8be03ce4c6aca54f9177",
+    "resolved_request_path": "runs\\remaining_experiments_6h_v2\\measurements\\hardware__4mod5-v1_22__s42__coherence_long\\attempt_01\\worker\\resolved_request.json",
+    "resolved_request_sha256": "640418a2dcf353e9a466d25253eee4ec831e3a50c2789de6da7bf0e7b368bd51",
+    "counterfactual_schedule_sha256": "c544e3743d4fb90cdfdb8e287ba79f44aed6fd3b20782f9da53db61bfaa03da2",
+    "counterfactual_source_trace_sha256": "9e28fb09b6441763ba41443df2fc7b79f5851184a8fae276cf6cd6c46b029230",
+    "budget": {
+      "terms": {
+        "E_native_gate": 0.05513796005898714,
+        "E_transfer": 0.0040020013343341375,
+        "E_heating_gate": 3.5595383169363447e-05,
+        "E_movement_loss": 0.0,
+        "E_cooling_gate": 0.0,
+        "E_decoherence": 0.0005559501974645783
+      },
+      "terms_infinite": {
+        "E_native_gate": false,
+        "E_transfer": false,
+        "E_heating_gate": false,
+        "E_movement_loss": false,
+        "E_cooling_gate": false,
+        "E_decoherence": false
+      },
+      "total_E": 0.05973150697395522,
+      "total_E_infinite": false,
+      "fidelity_proxy": 0.9420174247419293,
+      "fidelity_underflow": false
+    },
+    "method": "default source decisions; requested geometry metadata if changed; requested profile; make_schedule(retime); evaluate"
+  },
+  {
+    "id": "hardware__4mod5-v1_22__s42__coherence_short",
+    "fixed_source_schedule_path": "runs\\idea1_extension_v1\\campaign\\raw\\4mod5-v1_22__s42__r0\\attempt_01\\worker\\L1A1\\baseline\\schedule.json",
+    "fixed_source_schedule_file_sha256": "5e90d4b72ca5c2ef14710a2c27d413e92ea7218a544b8be03ce4c6aca54f9177",
+    "resolved_request_path": "runs\\remaining_experiments_6h_v2\\measurements\\hardware__4mod5-v1_22__s42__coherence_short\\attempt_01\\worker\\resolved_request.json",
+    "resolved_request_sha256": "fde0b2d3bce09f51d1fa1829c5a0466a019ed6c322ef3dec8d4ad9d02b6ecb97",
+    "counterfactual_schedule_sha256": "e654c7eb81e7a31dc34e962b528d2fb2ad09df2d8e77cdb2291d68b8e3ec9709",
+    "counterfactual_source_trace_sha256": "9e28fb09b6441763ba41443df2fc7b79f5851184a8fae276cf6cd6c46b029230",
+    "budget": {
+      "terms": {
+        "E_native_gate": 0.05513796005898714,
+        "E_transfer": 0.0040020013343341375,
+        "E_heating_gate": 3.5595383169363447e-05,
+        "E_movement_loss": 0.0,
+        "E_cooling_gate": 0.0,
+        "E_decoherence": 0.05559501974645783
+      },
+      "terms_infinite": {
+        "E_native_gate": false,
+        "E_transfer": false,
+        "E_heating_gate": false,
+        "E_movement_loss": false,
+        "E_cooling_gate": false,
+        "E_decoherence": false
+      },
+      "total_E": 0.11477057652294848,
+      "total_E_infinite": false,
+      "fidelity_proxy": 0.8915706676872738,
+      "fidelity_underflow": false
+    },
+    "method": "default source decisions; requested geometry metadata if changed; requested profile; make_schedule(retime); evaluate"
+  },
+  {
+    "id": "hardware__4mod5-v1_22__s42__heating_double",
+    "fixed_source_schedule_path": "runs\\idea1_extension_v1\\campaign\\raw\\4mod5-v1_22__s42__r0\\attempt_01\\worker\\L1A1\\baseline\\schedule.json",
+    "fixed_source_schedule_file_sha256": "5e90d4b72ca5c2ef14710a2c27d413e92ea7218a544b8be03ce4c6aca54f9177",
+    "resolved_request_path": "runs\\remaining_experiments_6h_v2\\measurements\\hardware__4mod5-v1_22__s42__heating_double\\attempt_01\\worker\\resolved_request.json",
+    "resolved_request_sha256": "df00123ae81ad93ae0ce1715d9df0d6ba6e5b9961dbd4af2a152bbd941a7d25e",
+    "counterfactual_schedule_sha256": "4633631fbdd840cb2db20eee050cd5663c86ef75eb673e099a090ad5519ec341",
+    "counterfactual_source_trace_sha256": "9e28fb09b6441763ba41443df2fc7b79f5851184a8fae276cf6cd6c46b029230",
+    "budget": {
+      "terms": {
+        "E_native_gate": 0.05513796005898714,
+        "E_transfer": 0.0040020013343341375,
+        "E_heating_gate": 7.119092471850106e-05,
+        "E_movement_loss": 0.0,
+        "E_cooling_gate": 0.0,
+        "E_decoherence": 0.005559501974645782
+      },
+      "terms_infinite": {
+        "E_native_gate": false,
+        "E_transfer": false,
+        "E_heating_gate": false,
+        "E_movement_loss": false,
+        "E_cooling_gate": false,
+        "E_decoherence": false
+      },
+      "total_E": 0.06477065429268557,
+      "total_E_infinite": false,
+      "fidelity_proxy": 0.9372824004240954,
+      "fidelity_underflow": false
+    },
+    "method": "default source decisions; requested geometry metadata if changed; requested profile; make_schedule(retime); evaluate"
+  },
+  {
+    "id": "hardware__4mod5-v1_22__s42__heating_half",
+    "fixed_source_schedule_path": "runs\\idea1_extension_v1\\campaign\\raw\\4mod5-v1_22__s42__r0\\attempt_01\\worker\\L1A1\\baseline\\schedule.json",
+    "fixed_source_schedule_file_sha256": "5e90d4b72ca5c2ef14710a2c27d413e92ea7218a544b8be03ce4c6aca54f9177",
+    "resolved_request_path": "runs\\remaining_experiments_6h_v2\\measurements\\hardware__4mod5-v1_22__s42__heating_half\\attempt_01\\worker\\resolved_request.json",
+    "resolved_request_sha256": "3add57dc53130186d8d76898ef1f22d1b0d1fb48327d58dccb6c11daf3201ec2",
+    "counterfactual_schedule_sha256": "a3111b9362d2037beba8ea8f3150b094b19b180d5186c3d2ffbccbf1510aaf70",
+    "counterfactual_source_trace_sha256": "9e28fb09b6441763ba41443df2fc7b79f5851184a8fae276cf6cd6c46b029230",
+    "budget": {
+      "terms": {
+        "E_native_gate": 0.05513796005898714,
+        "E_transfer": 0.0040020013343341375,
+        "E_heating_gate": 1.779767178730783e-05,
+        "E_movement_loss": 0.0,
+        "E_cooling_gate": 0.0,
+        "E_decoherence": 0.005559501974645782
+      },
+      "terms_infinite": {
+        "E_native_gate": false,
+        "E_transfer": false,
+        "E_heating_gate": false,
+        "E_movement_loss": false,
+        "E_cooling_gate": false,
+        "E_decoherence": false
+      },
+      "total_E": 0.06471726103975436,
+      "total_E_infinite": false,
+      "fidelity_proxy": 0.9373324463164139,
+      "fidelity_underflow": false
+    },
+    "method": "default source decisions; requested geometry metadata if changed; requested profile; make_schedule(retime); evaluate"
+  },
+  {
+    "id": "hardware__4mod5-v1_22__s42__parking_area_grid20",
+    "fixed_source_schedule_path": "runs\\idea1_extension_v1\\campaign\\raw\\4mod5-v1_22__s42__r0\\attempt_01\\worker\\L1A1\\baseline\\schedule.json",
+    "fixed_source_schedule_file_sha256": "5e90d4b72ca5c2ef14710a2c27d413e92ea7218a544b8be03ce4c6aca54f9177",
+    "resolved_request_path": "runs\\remaining_experiments_6h_v2\\measurements\\hardware__4mod5-v1_22__s42__parking_area_grid20\\attempt_01\\worker\\resolved_request.json",
+    "resolved_request_sha256": "146fcf7242a574ef8ad8f35b3a603a712793caa52664197b832e3a8c569d939e",
+    "counterfactual_schedule_sha256": "8ce6cb0dd966b84081489027b1df64ac495d41cb89cf68ca2deb98e38894abd7",
+    "counterfactual_source_trace_sha256": "bf14d66e57f4896d05a68d2b0585782d7d333ff7ac2de81948e579e7ff9984e0",
+    "budget": {
+      "terms": {
+        "E_native_gate": 0.05513796005898714,
+        "E_transfer": 0.0040020013343341375,
+        "E_heating_gate": 3.5595383169363447e-05,
+        "E_movement_loss": 0.0,
+        "E_cooling_gate": 0.0,
+        "E_decoherence": 0.005559501974645782
+      },
+      "terms_infinite": {
+        "E_native_gate": false,
+        "E_transfer": false,
+        "E_heating_gate": false,
+        "E_movement_loss": false,
+        "E_cooling_gate": false,
+        "E_decoherence": false
+      },
+      "total_E": 0.06473505875113643,
+      "total_E_infinite": false,
+      "fidelity_proxy": 0.9373157640925184,
+      "fidelity_underflow": false
+    },
+    "method": "default source decisions; requested geometry metadata if changed; requested profile; make_schedule(retime); evaluate"
+  },
+  {
+    "id": "hardware__4mod5-v1_22__s42__parking_area_grid35",
+    "fixed_source_schedule_path": "runs\\idea1_extension_v1\\campaign\\raw\\4mod5-v1_22__s42__r0\\attempt_01\\worker\\L1A1\\baseline\\schedule.json",
+    "fixed_source_schedule_file_sha256": "5e90d4b72ca5c2ef14710a2c27d413e92ea7218a544b8be03ce4c6aca54f9177",
+    "resolved_request_path": "runs\\remaining_experiments_6h_v2\\measurements\\hardware__4mod5-v1_22__s42__parking_area_grid35\\attempt_01\\worker\\resolved_request.json",
+    "resolved_request_sha256": "0d51735397fadf559310fc65b6acbe700733ca92036607c7dc82810fea08c10f",
+    "counterfactual_schedule_sha256": "7bbe84dc5f45c773d95a73b8ba31faedbca9d0d1639f972b2bc1d42f2b3f0992",
+    "counterfactual_source_trace_sha256": "e5c7373dc46173fdd07ee3375827a8810c7c1d1d980d88d2f1fd20e904b827d7",
+    "budget": {
+      "terms": {
+        "E_native_gate": 0.05513796005898714,
+        "E_transfer": 0.0040020013343341375,
+        "E_heating_gate": 3.5595383169363447e-05,
+        "E_movement_loss": 0.0,
+        "E_cooling_gate": 0.0,
+        "E_decoherence": 0.005559501974645782
+      },
+      "terms_infinite": {
+        "E_native_gate": false,
+        "E_transfer": false,
+        "E_heating_gate": false,
+        "E_movement_loss": false,
+        "E_cooling_gate": false,
+        "E_decoherence": false
+      },
+      "total_E": 0.06473505875113643,
+      "total_E_infinite": false,
+      "fidelity_proxy": 0.9373157640925184,
+      "fidelity_underflow": false
+    },
+    "method": "default source decisions; requested geometry metadata if changed; requested profile; make_schedule(retime); evaluate"
+  },
+  {
+    "id": "hardware__4mod5-v1_22__s42__transfer_higher",
+    "fixed_source_schedule_path": "runs\\idea1_extension_v1\\campaign\\raw\\4mod5-v1_22__s42__r0\\attempt_01\\worker\\L1A1\\baseline\\schedule.json",
+    "fixed_source_schedule_file_sha256": "5e90d4b72ca5c2ef14710a2c27d413e92ea7218a544b8be03ce4c6aca54f9177",
+    "resolved_request_path": "runs\\remaining_experiments_6h_v2\\measurements\\hardware__4mod5-v1_22__s42__transfer_higher\\attempt_01\\worker\\resolved_request.json",
+    "resolved_request_sha256": "9a85d1df7ec0acd4b036ad0f8e9e60168ba1ba8dac99ecc8449417d75c3b3042",
+    "counterfactual_schedule_sha256": "cfcb7e3d5e02cf332dc7abfa8651c5a7b2059ca931f416f4f0cd7d3259ce24d7",
+    "counterfactual_source_trace_sha256": "9e28fb09b6441763ba41443df2fc7b79f5851184a8fae276cf6cd6c46b029230",
+    "budget": {
+      "terms": {
+        "E_native_gate": 0.05513796005898714,
+        "E_transfer": 0.0004000200013333893,
+        "E_heating_gate": 3.5595383169363447e-05,
+        "E_movement_loss": 0.0,
+        "E_cooling_gate": 0.0,
+        "E_decoherence": 0.005559501974645782
+      },
+      "terms_infinite": {
+        "E_native_gate": false,
+        "E_transfer": false,
+        "E_heating_gate": false,
+        "E_movement_loss": false,
+        "E_cooling_gate": false,
+        "E_decoherence": false
+      },
+      "total_E": 0.06113307741813567,
+      "total_E_infinite": false,
+      "fidelity_proxy": 0.94069804577877,
+      "fidelity_underflow": false
+    },
+    "method": "default source decisions; requested geometry metadata if changed; requested profile; make_schedule(retime); evaluate"
+  },
+  {
+    "id": "hardware__4mod5-v1_22__s42__transfer_lower",
+    "fixed_source_schedule_path": "runs\\idea1_extension_v1\\campaign\\raw\\4mod5-v1_22__s42__r0\\attempt_01\\worker\\L1A1\\baseline\\schedule.json",
+    "fixed_source_schedule_file_sha256": "5e90d4b72ca5c2ef14710a2c27d413e92ea7218a544b8be03ce4c6aca54f9177",
+    "resolved_request_path": "runs\\remaining_experiments_6h_v2\\measurements\\hardware__4mod5-v1_22__s42__transfer_lower\\attempt_01\\worker\\resolved_request.json",
+    "resolved_request_sha256": "03a364ca6fb0d8f97170f4619ff896d4f1f58bd0362e4047626d0e0952bd9ffb",
+    "counterfactual_schedule_sha256": "78f19fc807fb95d0a975a8da94afd860555a8eb41a11ec362630071dea709e16",
+    "counterfactual_source_trace_sha256": "9e28fb09b6441763ba41443df2fc7b79f5851184a8fae276cf6cd6c46b029230",
+    "budget": {
+      "terms": {
+        "E_native_gate": 0.05513796005898714,
+        "E_transfer": 0.027292901392502147,
+        "E_heating_gate": 3.5595383169363447e-05,
+        "E_movement_loss": 0.0,
+        "E_cooling_gate": 0.0,
+        "E_decoherence": 0.005559501974645782
+      },
+      "terms_infinite": {
+        "E_native_gate": false,
+        "E_transfer": false,
+        "E_heating_gate": false,
+        "E_movement_loss": false,
+        "E_cooling_gate": false,
+        "E_decoherence": false
+      },
+      "total_E": 0.08802595880930443,
+      "total_E_infinite": false,
+      "fidelity_proxy": 0.9157371049699029,
+      "fidelity_underflow": false
+    },
+    "method": "default source decisions; requested geometry metadata if changed; requested profile; make_schedule(retime); evaluate"
+  },
+  {
+    "id": "hardware__4mod5-v1_22__s43__acceleration_double",
+    "fixed_source_schedule_path": "runs\\idea1_extension_v1\\campaign\\raw\\4mod5-v1_22__s43__r0\\attempt_01\\worker\\L1A1\\baseline\\schedule.json",
+    "fixed_source_schedule_file_sha256": "838c1260d825497741db2aad70aefc924038d1c6c719671b531795218de2521b",
+    "resolved_request_path": "runs\\remaining_experiments_6h_v2\\measurements\\hardware__4mod5-v1_22__s43__acceleration_double\\attempt_01\\worker\\resolved_request.json",
+    "resolved_request_sha256": "d327f3f60fc71cdf2fb28e5d2e2fe9203283e8d4b15a20b7b986cf18551b3ff0",
+    "counterfactual_schedule_sha256": "d17863757966f626cd7f9f4d91f2121b9bcb56f034f2a5163bb1fd67d75d93df",
+    "counterfactual_source_trace_sha256": "310b4be6d7fd26c52255cf9876d2e44ae327a7813515d766bff4cd1ef4d4acf4",
+    "budget": {
+      "terms": {
+        "E_native_gate": 0.05513796005898714,
+        "E_transfer": 0.0040020013343341375,
+        "E_heating_gate": 0.0001423824829623629,
+        "E_movement_loss": 0.0,
+        "E_cooling_gate": 0.0,
+        "E_decoherence": 0.004187345481680864
+      },
+      "terms_infinite": {
+        "E_native_gate": false,
+        "E_transfer": false,
+        "E_heating_gate": false,
+        "E_movement_loss": false,
+        "E_cooling_gate": false,
+        "E_decoherence": false
+      },
+      "total_E": 0.0634696893579645,
+      "total_E_infinite": false,
+      "fidelity_proxy": 0.9385025654848625,
+      "fidelity_underflow": false
+    },
+    "method": "default source decisions; requested geometry metadata if changed; requested profile; make_schedule(retime); evaluate"
+  },
+  {
+    "id": "hardware__4mod5-v1_22__s43__acceleration_half",
+    "fixed_source_schedule_path": "runs\\idea1_extension_v1\\campaign\\raw\\4mod5-v1_22__s43__r0\\attempt_01\\worker\\L1A1\\baseline\\schedule.json",
+    "fixed_source_schedule_file_sha256": "838c1260d825497741db2aad70aefc924038d1c6c719671b531795218de2521b",
+    "resolved_request_path": "runs\\remaining_experiments_6h_v2\\measurements\\hardware__4mod5-v1_22__s43__acceleration_half\\attempt_01\\worker\\resolved_request.json",
+    "resolved_request_sha256": "0b093b3f4e47259b3124ccc6fcecee4e50840cf7d5683d288a79e7b0c55c08ce",
+    "counterfactual_schedule_sha256": "25a77159596eed2ea1753fbfebd55aef04373f6b7361999d52b48ea84ff299d5",
+    "counterfactual_source_trace_sha256": "310b4be6d7fd26c52255cf9876d2e44ae327a7813515d766bff4cd1ef4d4acf4",
+    "budget": {
+      "terms": {
+        "E_native_gate": 0.05513796005898714,
+        "E_transfer": 0.0040020013343341375,
+        "E_heating_gate": 8.898830944322675e-06,
+        "E_movement_loss": 0.0,
+        "E_cooling_gate": 0.0,
+        "E_decoherence": 0.007500024296695066
+      },
+      "terms_infinite": {
+        "E_native_gate": false,
+        "E_transfer": false,
+        "E_heating_gate": false,
+        "E_movement_loss": false,
+        "E_cooling_gate": false,
+        "E_decoherence": false
+      },
+      "total_E": 0.06664888452096067,
+      "total_E_infinite": false,
+      "fidelity_proxy": 0.9355236205010413,
+      "fidelity_underflow": false
+    },
+    "method": "default source decisions; requested geometry metadata if changed; requested profile; make_schedule(retime); evaluate"
+  },
+  {
+    "id": "hardware__4mod5-v1_22__s43__coherence_long",
+    "fixed_source_schedule_path": "runs\\idea1_extension_v1\\campaign\\raw\\4mod5-v1_22__s43__r0\\attempt_01\\worker\\L1A1\\baseline\\schedule.json",
+    "fixed_source_schedule_file_sha256": "838c1260d825497741db2aad70aefc924038d1c6c719671b531795218de2521b",
+    "resolved_request_path": "runs\\remaining_experiments_6h_v2\\measurements\\hardware__4mod5-v1_22__s43__coherence_long\\attempt_01\\worker\\resolved_request.json",
+    "resolved_request_sha256": "fca12421ccf8f2d17d1ff0829fbe301fcce9451e78a121d9ae114338dd73e5cc",
+    "counterfactual_schedule_sha256": "1c357f0f85c52f3f032a33079ab248611ae24643ab503822d2d5f48df22dfb7e",
+    "counterfactual_source_trace_sha256": "310b4be6d7fd26c52255cf9876d2e44ae327a7813515d766bff4cd1ef4d4acf4",
+    "budget": {
+      "terms": {
+        "E_native_gate": 0.05513796005898714,
+        "E_transfer": 0.0040020013343341375,
+        "E_heating_gate": 3.5595383169363447e-05,
+        "E_movement_loss": 0.0,
+        "E_cooling_gate": 0.0,
+        "E_decoherence": 0.0005559501974645783
+      },
+      "terms_infinite": {
+        "E_native_gate": false,
+        "E_transfer": false,
+        "E_heating_gate": false,
+        "E_movement_loss": false,
+        "E_cooling_gate": false,
+        "E_decoherence": false
+      },
+      "total_E": 0.05973150697395522,
+      "total_E_infinite": false,
+      "fidelity_proxy": 0.9420174247419293,
+      "fidelity_underflow": false
+    },
+    "method": "default source decisions; requested geometry metadata if changed; requested profile; make_schedule(retime); evaluate"
+  },
+  {
+    "id": "hardware__4mod5-v1_22__s43__coherence_short",
+    "fixed_source_schedule_path": "runs\\idea1_extension_v1\\campaign\\raw\\4mod5-v1_22__s43__r0\\attempt_01\\worker\\L1A1\\baseline\\schedule.json",
+    "fixed_source_schedule_file_sha256": "838c1260d825497741db2aad70aefc924038d1c6c719671b531795218de2521b",
+    "resolved_request_path": "runs\\remaining_experiments_6h_v2\\measurements\\hardware__4mod5-v1_22__s43__coherence_short\\attempt_01\\worker\\resolved_request.json",
+    "resolved_request_sha256": "86a0590ad821ce65731d7c6e084d2f3c5db55129f2f707343bd2ddc61dee8872",
+    "counterfactual_schedule_sha256": "0e8e3f412cd0b3dff5d2524ab1534ea767d82cd36699075bca4b5ff3ff9ea203",
+    "counterfactual_source_trace_sha256": "310b4be6d7fd26c52255cf9876d2e44ae327a7813515d766bff4cd1ef4d4acf4",
+    "budget": {
+      "terms": {
+        "E_native_gate": 0.05513796005898714,
+        "E_transfer": 0.0040020013343341375,
+        "E_heating_gate": 3.5595383169363447e-05,
+        "E_movement_loss": 0.0,
+        "E_cooling_gate": 0.0,
+        "E_decoherence": 0.05559501974645783
+      },
+      "terms_infinite": {
+        "E_native_gate": false,
+        "E_transfer": false,
+        "E_heating_gate": false,
+        "E_movement_loss": false,
+        "E_cooling_gate": false,
+        "E_decoherence": false
+      },
+      "total_E": 0.11477057652294848,
+      "total_E_infinite": false,
+      "fidelity_proxy": 0.8915706676872738,
+      "fidelity_underflow": false
+    },
+    "method": "default source decisions; requested geometry metadata if changed; requested profile; make_schedule(retime); evaluate"
+  },
+  {
+    "id": "hardware__4mod5-v1_22__s43__heating_double",
+    "fixed_source_schedule_path": "runs\\idea1_extension_v1\\campaign\\raw\\4mod5-v1_22__s43__r0\\attempt_01\\worker\\L1A1\\baseline\\schedule.json",
+    "fixed_source_schedule_file_sha256": "838c1260d825497741db2aad70aefc924038d1c6c719671b531795218de2521b",
+    "resolved_request_path": "runs\\remaining_experiments_6h_v2\\measurements\\hardware__4mod5-v1_22__s43__heating_double\\attempt_01\\worker\\resolved_request.json",
+    "resolved_request_sha256": "c358e0a34d23ab7a8f796eb966d38679d340d364061cd1489bb5cf02d7e82590",
+    "counterfactual_schedule_sha256": "7149ba39debc47fe00c9171365c474f0956e60e1157a569a3cbfc02d39367149",
+    "counterfactual_source_trace_sha256": "310b4be6d7fd26c52255cf9876d2e44ae327a7813515d766bff4cd1ef4d4acf4",
+    "budget": {
+      "terms": {
+        "E_native_gate": 0.05513796005898714,
+        "E_transfer": 0.0040020013343341375,
+        "E_heating_gate": 7.119092471850106e-05,
+        "E_movement_loss": 0.0,
+        "E_cooling_gate": 0.0,
+        "E_decoherence": 0.005559501974645782
+      },
+      "terms_infinite": {
+        "E_native_gate": false,
+        "E_transfer": false,
+        "E_heating_gate": false,
+        "E_movement_loss": false,
+        "E_cooling_gate": false,
+        "E_decoherence": false
+      },
+      "total_E": 0.06477065429268557,
+      "total_E_infinite": false,
+      "fidelity_proxy": 0.9372824004240954,
+      "fidelity_underflow": false
+    },
+    "method": "default source decisions; requested geometry metadata if changed; requested profile; make_schedule(retime); evaluate"
+  },
+  {
+    "id": "hardware__4mod5-v1_22__s43__heating_half",
+    "fixed_source_schedule_path": "runs\\idea1_extension_v1\\campaign\\raw\\4mod5-v1_22__s43__r0\\attempt_01\\worker\\L1A1\\baseline\\schedule.json",
+    "fixed_source_schedule_file_sha256": "838c1260d825497741db2aad70aefc924038d1c6c719671b531795218de2521b",
+    "resolved_request_path": "runs\\remaining_experiments_6h_v2\\measurements\\hardware__4mod5-v1_22__s43__heating_half\\attempt_01\\worker\\resolved_request.json",
+    "resolved_request_sha256": "37358ae995fc5e102fdffe9a82edd18892830d6b377576fbe91707f93407ea64",
+    "counterfactual_schedule_sha256": "9945ccae6867a4385068165f9b71f49d7c2fdeada2f60d30213865f4ba0699ce",
+    "counterfactual_source_trace_sha256": "310b4be6d7fd26c52255cf9876d2e44ae327a7813515d766bff4cd1ef4d4acf4",
+    "budget": {
+      "terms": {
+        "E_native_gate": 0.05513796005898714,
+        "E_transfer": 0.0040020013343341375,
+        "E_heating_gate": 1.779767178730783e-05,
+        "E_movement_loss": 0.0,
+        "E_cooling_gate": 0.0,
+        "E_decoherence": 0.005559501974645782
+      },
+      "terms_infinite": {
+        "E_native_gate": false,
+        "E_transfer": false,
+        "E_heating_gate": false,
+        "E_movement_loss": false,
+        "E_cooling_gate": false,
+        "E_decoherence": false
+      },
+      "total_E": 0.06471726103975436,
+      "total_E_infinite": false,
+      "fidelity_proxy": 0.9373324463164139,
+      "fidelity_underflow": false
+    },
+    "method": "default source decisions; requested geometry metadata if changed; requested profile; make_schedule(retime); evaluate"
+  },
+  {
+    "id": "hardware__4mod5-v1_22__s43__parking_area_grid20",
+    "fixed_source_schedule_path": "runs\\idea1_extension_v1\\campaign\\raw\\4mod5-v1_22__s43__r0\\attempt_01\\worker\\L1A1\\baseline\\schedule.json",
+    "fixed_source_schedule_file_sha256": "838c1260d825497741db2aad70aefc924038d1c6c719671b531795218de2521b",
+    "resolved_request_path": "runs\\remaining_experiments_6h_v2\\measurements\\hardware__4mod5-v1_22__s43__parking_area_grid20\\attempt_01\\worker\\resolved_request.json",
+    "resolved_request_sha256": "c673518a252e863fa387b97a5bae9314b94e1fba8242678f249d4402b6558873",
+    "counterfactual_schedule_sha256": "4e549b3dc36844c490f5eae198eee6f8ac4bdde8f754dcde5db8f05687a2fec1",
+    "counterfactual_source_trace_sha256": "af378b167c52499286a6851a2c4a2ffc0bfee72f92e1db75324205e2817d7e71",
+    "budget": {
+      "terms": {
+        "E_native_gate": 0.05513796005898714,
+        "E_transfer": 0.0040020013343341375,
+        "E_heating_gate": 3.5595383169363447e-05,
+        "E_movement_loss": 0.0,
+        "E_cooling_gate": 0.0,
+        "E_decoherence": 0.005559501974645782
+      },
+      "terms_infinite": {
+        "E_native_gate": false,
+        "E_transfer": false,
+        "E_heating_gate": false,
+        "E_movement_loss": false,
+        "E_cooling_gate": false,
+        "E_decoherence": false
+      },
+      "total_E": 0.06473505875113643,
+      "total_E_infinite": false,
+      "fidelity_proxy": 0.9373157640925184,
+      "fidelity_underflow": false
+    },
+    "method": "default source decisions; requested geometry metadata if changed; requested profile; make_schedule(retime); evaluate"
+  },
+  {
+    "id": "hardware__4mod5-v1_22__s43__parking_area_grid35",
+    "fixed_source_schedule_path": "runs\\idea1_extension_v1\\campaign\\raw\\4mod5-v1_22__s43__r0\\attempt_01\\worker\\L1A1\\baseline\\schedule.json",
+    "fixed_source_schedule_file_sha256": "838c1260d825497741db2aad70aefc924038d1c6c719671b531795218de2521b",
+    "resolved_request_path": "runs\\remaining_experiments_6h_v2\\measurements\\hardware__4mod5-v1_22__s43__parking_area_grid35\\attempt_01\\worker\\resolved_request.json",
+    "resolved_request_sha256": "f0ae366db6b3501aab2ebdd4664ffcde671efe8a9cf8ea11979feb84e0748fbd",
+    "counterfactual_schedule_sha256": "b49d68baac460121c471ce192d980b99984313e201650cc37c75037e2d2f6033",
+    "counterfactual_source_trace_sha256": "64acf23a6c224af426df7ba37f8be2ae1f96e342f06502a7ce802369e3f3c560",
+    "budget": {
+      "terms": {
+        "E_native_gate": 0.05513796005898714,
+        "E_transfer": 0.0040020013343341375,
+        "E_heating_gate": 3.5595383169363447e-05,
+        "E_movement_loss": 0.0,
+        "E_cooling_gate": 0.0,
+        "E_decoherence": 0.005559501974645782
+      },
+      "terms_infinite": {
+        "E_native_gate": false,
+        "E_transfer": false,
+        "E_heating_gate": false,
+        "E_movement_loss": false,
+        "E_cooling_gate": false,
+        "E_decoherence": false
+      },
+      "total_E": 0.06473505875113643,
+      "total_E_infinite": false,
+      "fidelity_proxy": 0.9373157640925184,
+      "fidelity_underflow": false
+    },
+    "method": "default source decisions; requested geometry metadata if changed; requested profile; make_schedule(retime); evaluate"
+  },
+  {
+    "id": "hardware__4mod5-v1_22__s43__transfer_higher",
+    "fixed_source_schedule_path": "runs\\idea1_extension_v1\\campaign\\raw\\4mod5-v1_22__s43__r0\\attempt_01\\worker\\L1A1\\baseline\\schedule.json",
+    "fixed_source_schedule_file_sha256": "838c1260d825497741db2aad70aefc924038d1c6c719671b531795218de2521b",
+    "resolved_request_path": "runs\\remaining_experiments_6h_v2\\measurements\\hardware__4mod5-v1_22__s43__transfer_higher\\attempt_01\\worker\\resolved_request.json",
+    "resolved_request_sha256": "ffe8d7e8408e983fd64edb8ca68f6e15100e3d0ca758336c5734f3afdf3db24c",
+    "counterfactual_schedule_sha256": "fd15d40c535fd09349db5b48f6d690f0f22a30b789df4365c683507b9282668c",
+    "counterfactual_source_trace_sha256": "310b4be6d7fd26c52255cf9876d2e44ae327a7813515d766bff4cd1ef4d4acf4",
+    "budget": {
+      "terms": {
+        "E_native_gate": 0.05513796005898714,
+        "E_transfer": 0.0004000200013333893,
+        "E_heating_gate": 3.5595383169363447e-05,
+        "E_movement_loss": 0.0,
+        "E_cooling_gate": 0.0,
+        "E_decoherence": 0.005559501974645782
+      },
+      "terms_infinite": {
+        "E_native_gate": false,
+        "E_transfer": false,
+        "E_heating_gate": false,
+        "E_movement_loss": false,
+        "E_cooling_gate": false,
+        "E_decoherence": false
+      },
+      "total_E": 0.06113307741813567,
+      "total_E_infinite": false,
+      "fidelity_proxy": 0.94069804577877,
+      "fidelity_underflow": false
+    },
+    "method": "default source decisions; requested geometry metadata if changed; requested profile; make_schedule(retime); evaluate"
+  },
+  {
+    "id": "hardware__4mod5-v1_22__s43__transfer_lower",
+    "fixed_source_schedule_path": "runs\\idea1_extension_v1\\campaign\\raw\\4mod5-v1_22__s43__r0\\attempt_01\\worker\\L1A1\\baseline\\schedule.json",
+    "fixed_source_schedule_file_sha256": "838c1260d825497741db2aad70aefc924038d1c6c719671b531795218de2521b",
+    "resolved_request_path": "runs\\remaining_experiments_6h_v2\\measurements\\hardware__4mod5-v1_22__s43__transfer_lower\\attempt_01\\worker\\resolved_request.json",
+    "resolved_request_sha256": "005bc692d8de60ed58c82eb393c0c2bf413c1f7a48d89a3d02014188ce37a882",
+    "counterfactual_schedule_sha256": "945042b52aa5d864742af33ab88d09173989406b0aad49bd2a0eb97e1098ca9b",
+    "counterfactual_source_trace_sha256": "310b4be6d7fd26c52255cf9876d2e44ae327a7813515d766bff4cd1ef4d4acf4",
+    "budget": {
+      "terms": {
+        "E_native_gate": 0.05513796005898714,
+        "E_transfer": 0.027292901392502147,
+        "E_heating_gate": 3.5595383169363447e-05,
+        "E_movement_loss": 0.0,
+        "E_cooling_gate": 0.0,
+        "E_decoherence": 0.005559501974645782
+      },
+      "terms_infinite": {
+        "E_native_gate": false,
+        "E_transfer": false,
+        "E_heating_gate": false,
+        "E_movement_loss": false,
+        "E_cooling_gate": false,
+        "E_decoherence": false
+      },
+      "total_E": 0.08802595880930443,
+      "total_E_infinite": false,
+      "fidelity_proxy": 0.9157371049699029,
+      "fidelity_underflow": false
+    },
+    "method": "default source decisions; requested geometry metadata if changed; requested profile; make_schedule(retime); evaluate"
+  },
+  {
+    "id": "hardware__qaoa_n8_p2_g702__s41__acceleration_double",
+    "fixed_source_schedule_path": "runs\\idea1_extension_v1\\campaign\\raw\\qaoa_n8_p2_g702__s41__r0\\attempt_01\\worker\\L1A1\\baseline\\schedule.json",
+    "fixed_source_schedule_file_sha256": "64f547b0714f4c2acd920b287d1c5687376b8a701eeac76c5626f19585521230",
+    "resolved_request_path": "runs\\remaining_experiments_6h_v2\\measurements\\hardware__qaoa_n8_p2_g702__s41__acceleration_double\\attempt_01\\worker\\resolved_request.json",
+    "resolved_request_sha256": "0649f0cbdde79282453f32d51fd90767a04d03a25c83d0264719e48c205dccd3",
+    "counterfactual_schedule_sha256": "42053a88324bb92f33c7fcecfd75d6e5d01f9dcc4c7abf8c30e6fcf5ca5ee3f8",
+    "counterfactual_source_trace_sha256": "5988225fc06fc8a4201efa0dafe1a10dc6fc57ff3fa2cc8511d273448baa1370",
+    "budget": {
+      "terms": {
+        "E_native_gate": 0.24060200753012598,
+        "E_transfer": 0.04802401601200967,
+        "E_heating_gate": 0.0019121718718831898,
+        "E_movement_loss": 0.0,
+        "E_cooling_gate": 0.0,
+        "E_decoherence": 0.02658874439492349
+      },
+      "terms_infinite": {
+        "E_native_gate": false,
+        "E_transfer": false,
+        "E_heating_gate": false,
+        "E_movement_loss": false,
+        "E_cooling_gate": false,
+        "E_decoherence": false
+      },
+      "total_E": 0.3171269398089423,
+      "total_E_infinite": false,
+      "fidelity_proxy": 0.7282383068266081,
+      "fidelity_underflow": false
+    },
+    "method": "default source decisions; requested geometry metadata if changed; requested profile; make_schedule(retime); evaluate"
+  },
+  {
+    "id": "hardware__qaoa_n8_p2_g702__s41__acceleration_half",
+    "fixed_source_schedule_path": "runs\\idea1_extension_v1\\campaign\\raw\\qaoa_n8_p2_g702__s41__r0\\attempt_01\\worker\\L1A1\\baseline\\schedule.json",
+    "fixed_source_schedule_file_sha256": "64f547b0714f4c2acd920b287d1c5687376b8a701eeac76c5626f19585521230",
+    "resolved_request_path": "runs\\remaining_experiments_6h_v2\\measurements\\hardware__qaoa_n8_p2_g702__s41__acceleration_half\\attempt_01\\worker\\resolved_request.json",
+    "resolved_request_sha256": "d4c5d33916de473cfd75448098d005682d47311d93b1fdfee1bbef9f937f1e9c",
+    "counterfactual_schedule_sha256": "997531806e1b59d1d642a91179b1e3d3e45e6144cfae0eccb8c384c23d5eb3e4",
+    "counterfactual_source_trace_sha256": "5988225fc06fc8a4201efa0dafe1a10dc6fc57ff3fa2cc8511d273448baa1370",
+    "budget": {
+      "terms": {
+        "E_native_gate": 0.24060200753012598,
+        "E_transfer": 0.04802401601200967,
+        "E_heating_gate": 0.00011950758345195067,
+        "E_movement_loss": 0.0,
+        "E_cooling_gate": 0.0,
+        "E_decoherence": 0.04888522212318034
+      },
+      "terms_infinite": {
+        "E_native_gate": false,
+        "E_transfer": false,
+        "E_heating_gate": false,
+        "E_movement_loss": false,
+        "E_cooling_gate": false,
+        "E_decoherence": false
+      },
+      "total_E": 0.33763075324876796,
+      "total_E_infinite": false,
+      "fidelity_proxy": 0.7134586815669682,
+      "fidelity_underflow": false
+    },
+    "method": "default source decisions; requested geometry metadata if changed; requested profile; make_schedule(retime); evaluate"
+  },
+  {
+    "id": "hardware__qaoa_n8_p2_g702__s41__coherence_long",
+    "fixed_source_schedule_path": "runs\\idea1_extension_v1\\campaign\\raw\\qaoa_n8_p2_g702__s41__r0\\attempt_01\\worker\\L1A1\\baseline\\schedule.json",
+    "fixed_source_schedule_file_sha256": "64f547b0714f4c2acd920b287d1c5687376b8a701eeac76c5626f19585521230",
+    "resolved_request_path": "runs\\remaining_experiments_6h_v2\\measurements\\hardware__qaoa_n8_p2_g702__s41__coherence_long\\attempt_01\\worker\\resolved_request.json",
+    "resolved_request_sha256": "a0ace1f84e6e4dc44fc647ce7d0a3823bbccd0a27b60ef0e8548573191894e50",
+    "counterfactual_schedule_sha256": "baae2f145888ee1ebc5dfbfa8c9888ea81c43917bb7810d9ca50fc2e3661e6bd",
+    "counterfactual_source_trace_sha256": "5988225fc06fc8a4201efa0dafe1a10dc6fc57ff3fa2cc8511d273448baa1370",
+    "budget": {
+      "terms": {
+        "E_native_gate": 0.24060200753012598,
+        "E_transfer": 0.04802401601200967,
+        "E_heating_gate": 0.00047803286055980525,
+        "E_movement_loss": 0.0,
+        "E_cooling_gate": 0.0,
+        "E_decoherence": 0.003582424786311712
+      },
+      "terms_infinite": {
+        "E_native_gate": false,
+        "E_transfer": false,
+        "E_heating_gate": false,
+        "E_movement_loss": false,
+        "E_cooling_gate": false,
+        "E_decoherence": false
+      },
+      "total_E": 0.29268648118900714,
+      "total_E_infinite": false,
+      "fidelity_proxy": 0.746256069340346,
+      "fidelity_underflow": false
+    },
+    "method": "default source decisions; requested geometry metadata if changed; requested profile; make_schedule(retime); evaluate"
+  },
+  {
+    "id": "hardware__qaoa_n8_p2_g702__s41__coherence_short",
+    "fixed_source_schedule_path": "runs\\idea1_extension_v1\\campaign\\raw\\qaoa_n8_p2_g702__s41__r0\\attempt_01\\worker\\L1A1\\baseline\\schedule.json",
+    "fixed_source_schedule_file_sha256": "64f547b0714f4c2acd920b287d1c5687376b8a701eeac76c5626f19585521230",
+    "resolved_request_path": "runs\\remaining_experiments_6h_v2\\measurements\\hardware__qaoa_n8_p2_g702__s41__coherence_short\\attempt_01\\worker\\resolved_request.json",
+    "resolved_request_sha256": "cb7c134f99b849f78f96ef47cd70cce2c759f138ff757fcade540760ea417932",
+    "counterfactual_schedule_sha256": "6d3a27c5a4f0415b1804d2fa973d53938d2b4d359c2dae6fe0b234be81b3a4e3",
+    "counterfactual_source_trace_sha256": "5988225fc06fc8a4201efa0dafe1a10dc6fc57ff3fa2cc8511d273448baa1370",
+    "budget": {
+      "terms": {
+        "E_native_gate": 0.24060200753012598,
+        "E_transfer": 0.04802401601200967,
+        "E_heating_gate": 0.00047803286055980525,
+        "E_movement_loss": 0.0,
+        "E_cooling_gate": 0.0,
+        "E_decoherence": 0.3582424786311712
+      },
+      "terms_infinite": {
+        "E_native_gate": false,
+        "E_transfer": false,
+        "E_heating_gate": false,
+        "E_movement_loss": false,
+        "E_cooling_gate": false,
+        "E_decoherence": false
+      },
+      "total_E": 0.6473465350338666,
+      "total_E_infinite": false,
+      "fidelity_proxy": 0.5234328463968627,
+      "fidelity_underflow": false
+    },
+    "method": "default source decisions; requested geometry metadata if changed; requested profile; make_schedule(retime); evaluate"
+  },
+  {
+    "id": "hardware__qaoa_n8_p2_g702__s41__heating_double",
+    "fixed_source_schedule_path": "runs\\idea1_extension_v1\\campaign\\raw\\qaoa_n8_p2_g702__s41__r0\\attempt_01\\worker\\L1A1\\baseline\\schedule.json",
+    "fixed_source_schedule_file_sha256": "64f547b0714f4c2acd920b287d1c5687376b8a701eeac76c5626f19585521230",
+    "resolved_request_path": "runs\\remaining_experiments_6h_v2\\measurements\\hardware__qaoa_n8_p2_g702__s41__heating_double\\attempt_01\\worker\\resolved_request.json",
+    "resolved_request_sha256": "b531aa5a5cb8be2b76a1b57cdb53011bbeee33b372a8dba16ad247863ed92504",
+    "counterfactual_schedule_sha256": "95d3ddf843728b52fba75ec306808c822585763912e769dae5049c87496604a2",
+    "counterfactual_source_trace_sha256": "5988225fc06fc8a4201efa0dafe1a10dc6fc57ff3fa2cc8511d273448baa1370",
+    "budget": {
+      "terms": {
+        "E_native_gate": 0.24060200753012598,
+        "E_transfer": 0.04802401601200967,
+        "E_heating_gate": 0.0009560724592503199,
+        "E_movement_loss": 0.0,
+        "E_cooling_gate": 0.0,
+        "E_decoherence": 0.03582424786311712
+      },
+      "terms_infinite": {
+        "E_native_gate": false,
+        "E_transfer": false,
+        "E_heating_gate": false,
+        "E_movement_loss": false,
+        "E_cooling_gate": false,
+        "E_decoherence": false
+      },
+      "total_E": 0.32540634386450307,
+      "total_E_infinite": false,
+      "fidelity_proxy": 0.7222338187270789,
+      "fidelity_underflow": false
+    },
+    "method": "default source decisions; requested geometry metadata if changed; requested profile; make_schedule(retime); evaluate"
+  },
+  {
+    "id": "hardware__qaoa_n8_p2_g702__s41__heating_half",
+    "fixed_source_schedule_path": "runs\\idea1_extension_v1\\campaign\\raw\\qaoa_n8_p2_g702__s41__r0\\attempt_01\\worker\\L1A1\\baseline\\schedule.json",
+    "fixed_source_schedule_file_sha256": "64f547b0714f4c2acd920b287d1c5687376b8a701eeac76c5626f19585521230",
+    "resolved_request_path": "runs\\remaining_experiments_6h_v2\\measurements\\hardware__qaoa_n8_p2_g702__s41__heating_half\\attempt_01\\worker\\resolved_request.json",
+    "resolved_request_sha256": "2c74f2d51ca755016c35573baf6678eeb3a98f259d423749677f944429b9fa2f",
+    "counterfactual_schedule_sha256": "2e1930c3fde8d74defd8ae050e67fed8b196b5695cb2ff72ecfa90103dd98476",
+    "counterfactual_source_trace_sha256": "5988225fc06fc8a4201efa0dafe1a10dc6fc57ff3fa2cc8511d273448baa1370",
+    "budget": {
+      "terms": {
+        "E_native_gate": 0.24060200753012598,
+        "E_transfer": 0.04802401601200967,
+        "E_heating_gate": 0.00023901558802699637,
+        "E_movement_loss": 0.0,
+        "E_cooling_gate": 0.0,
+        "E_decoherence": 0.03582424786311712
+      },
+      "terms_infinite": {
+        "E_native_gate": false,
+        "E_transfer": false,
+        "E_heating_gate": false,
+        "E_movement_loss": false,
+        "E_cooling_gate": false,
+        "E_decoherence": false
+      },
+      "total_E": 0.32468928699327976,
+      "total_E_infinite": false,
+      "fidelity_proxy": 0.7227518871694972,
+      "fidelity_underflow": false
+    },
+    "method": "default source decisions; requested geometry metadata if changed; requested profile; make_schedule(retime); evaluate"
+  },
+  {
+    "id": "hardware__qaoa_n8_p2_g702__s41__parking_area_grid20",
+    "fixed_source_schedule_path": "runs\\idea1_extension_v1\\campaign\\raw\\qaoa_n8_p2_g702__s41__r0\\attempt_01\\worker\\L1A1\\baseline\\schedule.json",
+    "fixed_source_schedule_file_sha256": "64f547b0714f4c2acd920b287d1c5687376b8a701eeac76c5626f19585521230",
+    "resolved_request_path": "runs\\remaining_experiments_6h_v2\\measurements\\hardware__qaoa_n8_p2_g702__s41__parking_area_grid20\\attempt_01\\worker\\resolved_request.json",
+    "resolved_request_sha256": "6bd008b3b42dc8d42a482aa77d3be67edb1b6817cc1d3e9af971249dae5012da",
+    "counterfactual_schedule_sha256": "a42b2eba0c2fbcedc7eba2cddbe4ad9a3a51cd58c16cab3e9e3ef6b1a7f5f9b8",
+    "counterfactual_source_trace_sha256": "2409764ad0248a7a555aaaf7c1c7b8a27f581c3795fbf6c12dae9165b30c8af3",
+    "budget": {
+      "terms": {
+        "E_native_gate": 0.24060200753012598,
+        "E_transfer": 0.04802401601200967,
+        "E_heating_gate": 0.00047803286055980525,
+        "E_movement_loss": 0.0,
+        "E_cooling_gate": 0.0,
+        "E_decoherence": 0.03582424786311712
+      },
+      "terms_infinite": {
+        "E_native_gate": false,
+        "E_transfer": false,
+        "E_heating_gate": false,
+        "E_movement_loss": false,
+        "E_cooling_gate": false,
+        "E_decoherence": false
+      },
+      "total_E": 0.3249283042658126,
+      "total_E_infinite": false,
+      "fidelity_proxy": 0.7225791576282022,
+      "fidelity_underflow": false
+    },
+    "method": "default source decisions; requested geometry metadata if changed; requested profile; make_schedule(retime); evaluate"
+  },
+  {
+    "id": "hardware__qaoa_n8_p2_g702__s41__parking_area_grid35",
+    "fixed_source_schedule_path": "runs\\idea1_extension_v1\\campaign\\raw\\qaoa_n8_p2_g702__s41__r0\\attempt_01\\worker\\L1A1\\baseline\\schedule.json",
+    "fixed_source_schedule_file_sha256": "64f547b0714f4c2acd920b287d1c5687376b8a701eeac76c5626f19585521230",
+    "resolved_request_path": "runs\\remaining_experiments_6h_v2\\measurements\\hardware__qaoa_n8_p2_g702__s41__parking_area_grid35\\attempt_01\\worker\\resolved_request.json",
+    "resolved_request_sha256": "c5230a679a614b24588da2cc76ed2bd27141d35f732ae9e6efd03903fa30a39d",
+    "counterfactual_schedule_sha256": "ab98069be8585e061a40655f67dfff9b39b8deef3531894fb8c3869c696932ed",
+    "counterfactual_source_trace_sha256": "4924b9f758d3fb9d726b9109673c735144221c3efec642ff68ec360d2ceea5b6",
+    "budget": {
+      "terms": {
+        "E_native_gate": 0.24060200753012598,
+        "E_transfer": 0.04802401601200967,
+        "E_heating_gate": 0.00047803286055980525,
+        "E_movement_loss": 0.0,
+        "E_cooling_gate": 0.0,
+        "E_decoherence": 0.03582424786311712
+      },
+      "terms_infinite": {
+        "E_native_gate": false,
+        "E_transfer": false,
+        "E_heating_gate": false,
+        "E_movement_loss": false,
+        "E_cooling_gate": false,
+        "E_decoherence": false
+      },
+      "total_E": 0.3249283042658126,
+      "total_E_infinite": false,
+      "fidelity_proxy": 0.7225791576282022,
+      "fidelity_underflow": false
+    },
+    "method": "default source decisions; requested geometry metadata if changed; requested profile; make_schedule(retime); evaluate"
+  },
+  {
+    "id": "hardware__qaoa_n8_p2_g702__s41__transfer_higher",
+    "fixed_source_schedule_path": "runs\\idea1_extension_v1\\campaign\\raw\\qaoa_n8_p2_g702__s41__r0\\attempt_01\\worker\\L1A1\\baseline\\schedule.json",
+    "fixed_source_schedule_file_sha256": "64f547b0714f4c2acd920b287d1c5687376b8a701eeac76c5626f19585521230",
+    "resolved_request_path": "runs\\remaining_experiments_6h_v2\\measurements\\hardware__qaoa_n8_p2_g702__s41__transfer_higher\\attempt_01\\worker\\resolved_request.json",
+    "resolved_request_sha256": "3c7149bfb046a6804dbe5dd385f3679a3822e1b2a36de5debb8f992ac1481e5f",
+    "counterfactual_schedule_sha256": "8b7a4bb47be83ddd5d3718c53f5fd7ccde154f9f7f448cf5c9fb67df610046c8",
+    "counterfactual_source_trace_sha256": "5988225fc06fc8a4201efa0dafe1a10dc6fc57ff3fa2cc8511d273448baa1370",
+    "budget": {
+      "terms": {
+        "E_native_gate": 0.24060200753012598,
+        "E_transfer": 0.004800240016000671,
+        "E_heating_gate": 0.00047803286055980525,
+        "E_movement_loss": 0.0,
+        "E_cooling_gate": 0.0,
+        "E_decoherence": 0.03582424786311712
+      },
+      "terms_infinite": {
+        "E_native_gate": false,
+        "E_transfer": false,
+        "E_heating_gate": false,
+        "E_movement_loss": false,
+        "E_cooling_gate": false,
+        "E_decoherence": false
+      },
+      "total_E": 0.2817045282698036,
+      "total_E_infinite": false,
+      "fidelity_proxy": 0.7544965840123253,
+      "fidelity_underflow": false
+    },
+    "method": "default source decisions; requested geometry metadata if changed; requested profile; make_schedule(retime); evaluate"
+  },
+  {
+    "id": "hardware__qaoa_n8_p2_g702__s41__transfer_lower",
+    "fixed_source_schedule_path": "runs\\idea1_extension_v1\\campaign\\raw\\qaoa_n8_p2_g702__s41__r0\\attempt_01\\worker\\L1A1\\baseline\\schedule.json",
+    "fixed_source_schedule_file_sha256": "64f547b0714f4c2acd920b287d1c5687376b8a701eeac76c5626f19585521230",
+    "resolved_request_path": "runs\\remaining_experiments_6h_v2\\measurements\\hardware__qaoa_n8_p2_g702__s41__transfer_lower\\attempt_01\\worker\\resolved_request.json",
+    "resolved_request_sha256": "d8b70a66861b8ac3dce26fc6da923d9a5369bb77bd05b2294fe3f12617629af9",
+    "counterfactual_schedule_sha256": "b12ab26ec1fc3c8c40bdcaf62abfd4a11530bc59c5390563cf9e66a9090bb4c6",
+    "counterfactual_source_trace_sha256": "5988225fc06fc8a4201efa0dafe1a10dc6fc57ff3fa2cc8511d273448baa1370",
+    "budget": {
+      "terms": {
+        "E_native_gate": 0.24060200753012598,
+        "E_transfer": 0.32751481671002564,
+        "E_heating_gate": 0.00047803286055980525,
+        "E_movement_loss": 0.0,
+        "E_cooling_gate": 0.0,
+        "E_decoherence": 0.03582424786311712
+      },
+      "terms_infinite": {
+        "E_native_gate": false,
+        "E_transfer": false,
+        "E_heating_gate": false,
+        "E_movement_loss": false,
+        "E_cooling_gate": false,
+        "E_decoherence": false
+      },
+      "total_E": 0.6044191049638286,
+      "total_E_infinite": false,
+      "fidelity_proxy": 0.5463917307147831,
+      "fidelity_underflow": false
+    },
+    "method": "default source decisions; requested geometry metadata if changed; requested profile; make_schedule(retime); evaluate"
+  },
+  {
+    "id": "hardware__qaoa_n8_p2_g702__s42__acceleration_double",
+    "fixed_source_schedule_path": "runs\\idea1_extension_v1\\campaign\\raw\\qaoa_n8_p2_g702__s42__r0\\attempt_01\\worker\\L1A1\\baseline\\schedule.json",
+    "fixed_source_schedule_file_sha256": "a36be9107f0b7dea0be58ede314a72077790ed1e099ff6a129a31dc45a24890b",
+    "resolved_request_path": "runs\\remaining_experiments_6h_v2\\measurements\\hardware__qaoa_n8_p2_g702__s42__acceleration_double\\attempt_01\\worker\\resolved_request.json",
+    "resolved_request_sha256": "0e0dc400ab1341f43c0fabd7b842ee4431da57529a25deb220fe5ff1dc2cfac8",
+    "counterfactual_schedule_sha256": "ed53e94f8f6fb4f68b9c14e98f185085d2336ac80474dee3a48d8b2b9291d450",
+    "counterfactual_source_trace_sha256": "c98f6268c8828f64bdb0beca571ce88d7a3900ed8fba77a914b92456196dc7de",
+    "budget": {
+      "terms": {
+        "E_native_gate": 0.24060200753012598,
+        "E_transfer": 0.04802401601200967,
+        "E_heating_gate": 0.0019121718718831898,
+        "E_movement_loss": 0.0,
+        "E_cooling_gate": 0.0,
+        "E_decoherence": 0.02658874439492349
+      },
+      "terms_infinite": {
+        "E_native_gate": false,
+        "E_transfer": false,
+        "E_heating_gate": false,
+        "E_movement_loss": false,
+        "E_cooling_gate": false,
+        "E_decoherence": false
+      },
+      "total_E": 0.3171269398089423,
+      "total_E_infinite": false,
+      "fidelity_proxy": 0.7282383068266081,
+      "fidelity_underflow": false
+    },
+    "method": "default source decisions; requested geometry metadata if changed; requested profile; make_schedule(retime); evaluate"
+  },
+  {
+    "id": "hardware__qaoa_n8_p2_g702__s42__acceleration_half",
+    "fixed_source_schedule_path": "runs\\idea1_extension_v1\\campaign\\raw\\qaoa_n8_p2_g702__s42__r0\\attempt_01\\worker\\L1A1\\baseline\\schedule.json",
+    "fixed_source_schedule_file_sha256": "a36be9107f0b7dea0be58ede314a72077790ed1e099ff6a129a31dc45a24890b",
+    "resolved_request_path": "runs\\remaining_experiments_6h_v2\\measurements\\hardware__qaoa_n8_p2_g702__s42__acceleration_half\\attempt_01\\worker\\resolved_request.json",
+    "resolved_request_sha256": "a2938fb24b99641c5ecb784beb8666a5ef59047e27a756f5a37f3e996e52e09c",
+    "counterfactual_schedule_sha256": "3d08009dd704ab0738384d5d790b613ad25abf9feeb0959c33d5b9d99c969aad",
+    "counterfactual_source_trace_sha256": "c98f6268c8828f64bdb0beca571ce88d7a3900ed8fba77a914b92456196dc7de",
+    "budget": {
+      "terms": {
+        "E_native_gate": 0.24060200753012598,
+        "E_transfer": 0.04802401601200967,
+        "E_heating_gate": 0.00011950758345195067,
+        "E_movement_loss": 0.0,
+        "E_cooling_gate": 0.0,
+        "E_decoherence": 0.04888522212318034
+      },
+      "terms_infinite": {
+        "E_native_gate": false,
+        "E_transfer": false,
+        "E_heating_gate": false,
+        "E_movement_loss": false,
+        "E_cooling_gate": false,
+        "E_decoherence": false
+      },
+      "total_E": 0.33763075324876796,
+      "total_E_infinite": false,
+      "fidelity_proxy": 0.7134586815669682,
+      "fidelity_underflow": false
+    },
+    "method": "default source decisions; requested geometry metadata if changed; requested profile; make_schedule(retime); evaluate"
+  },
+  {
+    "id": "hardware__qaoa_n8_p2_g702__s42__coherence_long",
+    "fixed_source_schedule_path": "runs\\idea1_extension_v1\\campaign\\raw\\qaoa_n8_p2_g702__s42__r0\\attempt_01\\worker\\L1A1\\baseline\\schedule.json",
+    "fixed_source_schedule_file_sha256": "a36be9107f0b7dea0be58ede314a72077790ed1e099ff6a129a31dc45a24890b",
+    "resolved_request_path": "runs\\remaining_experiments_6h_v2\\measurements\\hardware__qaoa_n8_p2_g702__s42__coherence_long\\attempt_01\\worker\\resolved_request.json",
+    "resolved_request_sha256": "4c652cb97b5b8c40ced044ecd9d74e813828ece4307afbb0bcfa116a9835c148",
+    "counterfactual_schedule_sha256": "728266f1f0a628c8a7853eb1105cbd648d1cdff54949512b8e7dc2d136c7a16e",
+    "counterfactual_source_trace_sha256": "c98f6268c8828f64bdb0beca571ce88d7a3900ed8fba77a914b92456196dc7de",
+    "budget": {
+      "terms": {
+        "E_native_gate": 0.24060200753012598,
+        "E_transfer": 0.04802401601200967,
+        "E_heating_gate": 0.00047803286055980525,
+        "E_movement_loss": 0.0,
+        "E_cooling_gate": 0.0,
+        "E_decoherence": 0.003582424786311712
+      },
+      "terms_infinite": {
+        "E_native_gate": false,
+        "E_transfer": false,
+        "E_heating_gate": false,
+        "E_movement_loss": false,
+        "E_cooling_gate": false,
+        "E_decoherence": false
+      },
+      "total_E": 0.29268648118900714,
+      "total_E_infinite": false,
+      "fidelity_proxy": 0.746256069340346,
+      "fidelity_underflow": false
+    },
+    "method": "default source decisions; requested geometry metadata if changed; requested profile; make_schedule(retime); evaluate"
+  },
+  {
+    "id": "hardware__qaoa_n8_p2_g702__s42__coherence_short",
+    "fixed_source_schedule_path": "runs\\idea1_extension_v1\\campaign\\raw\\qaoa_n8_p2_g702__s42__r0\\attempt_01\\worker\\L1A1\\baseline\\schedule.json",
+    "fixed_source_schedule_file_sha256": "a36be9107f0b7dea0be58ede314a72077790ed1e099ff6a129a31dc45a24890b",
+    "resolved_request_path": "runs\\remaining_experiments_6h_v2\\measurements\\hardware__qaoa_n8_p2_g702__s42__coherence_short\\attempt_01\\worker\\resolved_request.json",
+    "resolved_request_sha256": "9e16f7327dff865b78fdd19e4a53ddc85358c4e7b75c67e8169560f70faa6502",
+    "counterfactual_schedule_sha256": "495f65348c4e2abfcfe19d015e6733fa03d57dc403189e14d5ecc84007937445",
+    "counterfactual_source_trace_sha256": "c98f6268c8828f64bdb0beca571ce88d7a3900ed8fba77a914b92456196dc7de",
+    "budget": {
+      "terms": {
+        "E_native_gate": 0.24060200753012598,
+        "E_transfer": 0.04802401601200967,
+        "E_heating_gate": 0.00047803286055980525,
+        "E_movement_loss": 0.0,
+        "E_cooling_gate": 0.0,
+        "E_decoherence": 0.3582424786311712
+      },
+      "terms_infinite": {
+        "E_native_gate": false,
+        "E_transfer": false,
+        "E_heating_gate": false,
+        "E_movement_loss": false,
+        "E_cooling_gate": false,
+        "E_decoherence": false
+      },
+      "total_E": 0.6473465350338666,
+      "total_E_infinite": false,
+      "fidelity_proxy": 0.5234328463968627,
+      "fidelity_underflow": false
+    },
+    "method": "default source decisions; requested geometry metadata if changed; requested profile; make_schedule(retime); evaluate"
+  },
+  {
+    "id": "hardware__qaoa_n8_p2_g702__s42__heating_double",
+    "fixed_source_schedule_path": "runs\\idea1_extension_v1\\campaign\\raw\\qaoa_n8_p2_g702__s42__r0\\attempt_01\\worker\\L1A1\\baseline\\schedule.json",
+    "fixed_source_schedule_file_sha256": "a36be9107f0b7dea0be58ede314a72077790ed1e099ff6a129a31dc45a24890b",
+    "resolved_request_path": "runs\\remaining_experiments_6h_v2\\measurements\\hardware__qaoa_n8_p2_g702__s42__heating_double\\attempt_01\\worker\\resolved_request.json",
+    "resolved_request_sha256": "e428277ed90382e0c5b99a25154fb69e28689567d6689b85397a34c7f84daac2",
+    "counterfactual_schedule_sha256": "80895470232520dce1efc7621947bfecde096b0838a6c73e6bf4f486f67f7848",
+    "counterfactual_source_trace_sha256": "c98f6268c8828f64bdb0beca571ce88d7a3900ed8fba77a914b92456196dc7de",
+    "budget": {
+      "terms": {
+        "E_native_gate": 0.24060200753012598,
+        "E_transfer": 0.04802401601200967,
+        "E_heating_gate": 0.0009560724592503199,
+        "E_movement_loss": 0.0,
+        "E_cooling_gate": 0.0,
+        "E_decoherence": 0.03582424786311712
+      },
+      "terms_infinite": {
+        "E_native_gate": false,
+        "E_transfer": false,
+        "E_heating_gate": false,
+        "E_movement_loss": false,
+        "E_cooling_gate": false,
+        "E_decoherence": false
+      },
+      "total_E": 0.32540634386450307,
+      "total_E_infinite": false,
+      "fidelity_proxy": 0.7222338187270789,
+      "fidelity_underflow": false
+    },
+    "method": "default source decisions; requested geometry metadata if changed; requested profile; make_schedule(retime); evaluate"
+  },
+  {
+    "id": "hardware__qaoa_n8_p2_g702__s42__heating_half",
+    "fixed_source_schedule_path": "runs\\idea1_extension_v1\\campaign\\raw\\qaoa_n8_p2_g702__s42__r0\\attempt_01\\worker\\L1A1\\baseline\\schedule.json",
+    "fixed_source_schedule_file_sha256": "a36be9107f0b7dea0be58ede314a72077790ed1e099ff6a129a31dc45a24890b",
+    "resolved_request_path": "runs\\remaining_experiments_6h_v2\\measurements\\hardware__qaoa_n8_p2_g702__s42__heating_half\\attempt_01\\worker\\resolved_request.json",
+    "resolved_request_sha256": "afa30f32240cafadef578e495236be786cec9533eb267cce98dd2429767ee54c",
+    "counterfactual_schedule_sha256": "b9b703472c67e5afc24c16e721f92aafdf021c71be4c801ed22b3339f478ba0e",
+    "counterfactual_source_trace_sha256": "c98f6268c8828f64bdb0beca571ce88d7a3900ed8fba77a914b92456196dc7de",
+    "budget": {
+      "terms": {
+        "E_native_gate": 0.24060200753012598,
+        "E_transfer": 0.04802401601200967,
+        "E_heating_gate": 0.00023901558802699637,
+        "E_movement_loss": 0.0,
+        "E_cooling_gate": 0.0,
+        "E_decoherence": 0.03582424786311712
+      },
+      "terms_infinite": {
+        "E_native_gate": false,
+        "E_transfer": false,
+        "E_heating_gate": false,
+        "E_movement_loss": false,
+        "E_cooling_gate": false,
+        "E_decoherence": false
+      },
+      "total_E": 0.32468928699327976,
+      "total_E_infinite": false,
+      "fidelity_proxy": 0.7227518871694972,
+      "fidelity_underflow": false
+    },
+    "method": "default source decisions; requested geometry metadata if changed; requested profile; make_schedule(retime); evaluate"
+  },
+  {
+    "id": "hardware__qaoa_n8_p2_g702__s42__parking_area_grid20",
+    "fixed_source_schedule_path": "runs\\idea1_extension_v1\\campaign\\raw\\qaoa_n8_p2_g702__s42__r0\\attempt_01\\worker\\L1A1\\baseline\\schedule.json",
+    "fixed_source_schedule_file_sha256": "a36be9107f0b7dea0be58ede314a72077790ed1e099ff6a129a31dc45a24890b",
+    "resolved_request_path": "runs\\remaining_experiments_6h_v2\\measurements\\hardware__qaoa_n8_p2_g702__s42__parking_area_grid20\\attempt_01\\worker\\resolved_request.json",
+    "resolved_request_sha256": "59df65be9169f4e80f795f98c141d3137aed67f317c03a0189d7f2ca7321b23e",
+    "counterfactual_schedule_sha256": "ae429465d4867975784e784d8e3f5ff7dc5633790f458847ab5a8afa4d84d094",
+    "counterfactual_source_trace_sha256": "bba13097a1000d761a4420c8cf51b58a85962df63fb8548a97bf4a0c682dde74",
+    "budget": {
+      "terms": {
+        "E_native_gate": 0.24060200753012598,
+        "E_transfer": 0.04802401601200967,
+        "E_heating_gate": 0.00047803286055980525,
+        "E_movement_loss": 0.0,
+        "E_cooling_gate": 0.0,
+        "E_decoherence": 0.03582424786311712
+      },
+      "terms_infinite": {
+        "E_native_gate": false,
+        "E_transfer": false,
+        "E_heating_gate": false,
+        "E_movement_loss": false,
+        "E_cooling_gate": false,
+        "E_decoherence": false
+      },
+      "total_E": 0.3249283042658126,
+      "total_E_infinite": false,
+      "fidelity_proxy": 0.7225791576282022,
+      "fidelity_underflow": false
+    },
+    "method": "default source decisions; requested geometry metadata if changed; requested profile; make_schedule(retime); evaluate"
+  },
+  {
+    "id": "hardware__qaoa_n8_p2_g702__s42__parking_area_grid35",
+    "fixed_source_schedule_path": "runs\\idea1_extension_v1\\campaign\\raw\\qaoa_n8_p2_g702__s42__r0\\attempt_01\\worker\\L1A1\\baseline\\schedule.json",
+    "fixed_source_schedule_file_sha256": "a36be9107f0b7dea0be58ede314a72077790ed1e099ff6a129a31dc45a24890b",
+    "resolved_request_path": "runs\\remaining_experiments_6h_v2\\measurements\\hardware__qaoa_n8_p2_g702__s42__parking_area_grid35\\attempt_01\\worker\\resolved_request.json",
+    "resolved_request_sha256": "aacad982bf15d84a35205db19b17fef037fe46532d1f9a6db9d2b2d680f8647b",
+    "counterfactual_schedule_sha256": "63eb854c2a601badfc1b7770dce715982eabc70af12cbc5dc017a9a67c57ce14",
+    "counterfactual_source_trace_sha256": "226ef52631c9db9f68a68390d5eaf6d2ef1413a76bfeeb427687a25b54f976c3",
+    "budget": {
+      "terms": {
+        "E_native_gate": 0.24060200753012598,
+        "E_transfer": 0.04802401601200967,
+        "E_heating_gate": 0.00047803286055980525,
+        "E_movement_loss": 0.0,
+        "E_cooling_gate": 0.0,
+        "E_decoherence": 0.03582424786311712
+      },
+      "terms_infinite": {
+        "E_native_gate": false,
+        "E_transfer": false,
+        "E_heating_gate": false,
+        "E_movement_loss": false,
+        "E_cooling_gate": false,
+        "E_decoherence": false
+      },
+      "total_E": 0.3249283042658126,
+      "total_E_infinite": false,
+      "fidelity_proxy": 0.7225791576282022,
+      "fidelity_underflow": false
+    },
+    "method": "default source decisions; requested geometry metadata if changed; requested profile; make_schedule(retime); evaluate"
+  },
+  {
+    "id": "hardware__qaoa_n8_p2_g702__s42__transfer_higher",
+    "fixed_source_schedule_path": "runs\\idea1_extension_v1\\campaign\\raw\\qaoa_n8_p2_g702__s42__r0\\attempt_01\\worker\\L1A1\\baseline\\schedule.json",
+    "fixed_source_schedule_file_sha256": "a36be9107f0b7dea0be58ede314a72077790ed1e099ff6a129a31dc45a24890b",
+    "resolved_request_path": "runs\\remaining_experiments_6h_v2\\measurements\\hardware__qaoa_n8_p2_g702__s42__transfer_higher\\attempt_01\\worker\\resolved_request.json",
+    "resolved_request_sha256": "7bedc4a7456d5e64ad3af1a0ceabe62289391e4650dc6dfa2bf91f1bcaeb9256",
+    "counterfactual_schedule_sha256": "1cdfe84f8dfee351f32855005b5aee8963f581aa7b011c85e4bf63bcf5260d4f",
+    "counterfactual_source_trace_sha256": "c98f6268c8828f64bdb0beca571ce88d7a3900ed8fba77a914b92456196dc7de",
+    "budget": {
+      "terms": {
+        "E_native_gate": 0.24060200753012598,
+        "E_transfer": 0.004800240016000671,
+        "E_heating_gate": 0.00047803286055980525,
+        "E_movement_loss": 0.0,
+        "E_cooling_gate": 0.0,
+        "E_decoherence": 0.03582424786311712
+      },
+      "terms_infinite": {
+        "E_native_gate": false,
+        "E_transfer": false,
+        "E_heating_gate": false,
+        "E_movement_loss": false,
+        "E_cooling_gate": false,
+        "E_decoherence": false
+      },
+      "total_E": 0.2817045282698036,
+      "total_E_infinite": false,
+      "fidelity_proxy": 0.7544965840123253,
+      "fidelity_underflow": false
+    },
+    "method": "default source decisions; requested geometry metadata if changed; requested profile; make_schedule(retime); evaluate"
+  },
+  {
+    "id": "hardware__qaoa_n8_p2_g702__s42__transfer_lower",
+    "fixed_source_schedule_path": "runs\\idea1_extension_v1\\campaign\\raw\\qaoa_n8_p2_g702__s42__r0\\attempt_01\\worker\\L1A1\\baseline\\schedule.json",
+    "fixed_source_schedule_file_sha256": "a36be9107f0b7dea0be58ede314a72077790ed1e099ff6a129a31dc45a24890b",
+    "resolved_request_path": "runs\\remaining_experiments_6h_v2\\measurements\\hardware__qaoa_n8_p2_g702__s42__transfer_lower\\attempt_01\\worker\\resolved_request.json",
+    "resolved_request_sha256": "05bc355c04c5c1815fde5be45e6a38506b27003496b25e35ee21b4b361011577",
+    "counterfactual_schedule_sha256": "cd8968b9ba926ccc80a8b48b276f57d6face46ebb475f36c737d5169ce61641e",
+    "counterfactual_source_trace_sha256": "c98f6268c8828f64bdb0beca571ce88d7a3900ed8fba77a914b92456196dc7de",
+    "budget": {
+      "terms": {
+        "E_native_gate": 0.24060200753012598,
+        "E_transfer": 0.32751481671002564,
+        "E_heating_gate": 0.00047803286055980525,
+        "E_movement_loss": 0.0,
+        "E_cooling_gate": 0.0,
+        "E_decoherence": 0.03582424786311712
+      },
+      "terms_infinite": {
+        "E_native_gate": false,
+        "E_transfer": false,
+        "E_heating_gate": false,
+        "E_movement_loss": false,
+        "E_cooling_gate": false,
+        "E_decoherence": false
+      },
+      "total_E": 0.6044191049638286,
+      "total_E_infinite": false,
+      "fidelity_proxy": 0.5463917307147831,
+      "fidelity_underflow": false
+    },
+    "method": "default source decisions; requested geometry metadata if changed; requested profile; make_schedule(retime); evaluate"
+  },
+  {
+    "id": "hardware__qaoa_n8_p2_g702__s43__acceleration_double",
+    "fixed_source_schedule_path": "runs\\idea1_extension_v1\\campaign\\raw\\qaoa_n8_p2_g702__s43__r0\\attempt_01\\worker\\L1A1\\baseline\\schedule.json",
+    "fixed_source_schedule_file_sha256": "90ee863ec832af302e6f2e1fed0774dbb9aba36c3f6609fb09bf40c736a4a021",
+    "resolved_request_path": "runs\\remaining_experiments_6h_v2\\measurements\\hardware__qaoa_n8_p2_g702__s43__acceleration_double\\attempt_01\\worker\\resolved_request.json",
+    "resolved_request_sha256": "10969121e2e209ff53b6ad0349cdd58d81cf35b6ce917ac597c7ddf1b1beea71",
+    "counterfactual_schedule_sha256": "bc7e209d8d3ff49dfa1a75c23cbe8d78caee77c29a56084675aaf2df7045dcf4",
+    "counterfactual_source_trace_sha256": "be9632ab6fc9f0ea15aa8b64c10aa3d53538eb5332f8c3643a22291ccb9af8ce",
+    "budget": {
+      "terms": {
+        "E_native_gate": 0.24060200753012598,
+        "E_transfer": 0.04802401601200967,
+        "E_heating_gate": 0.0019121718718831898,
+        "E_movement_loss": 0.0,
+        "E_cooling_gate": 0.0,
+        "E_decoherence": 0.026588744394923487
+      },
+      "terms_infinite": {
+        "E_native_gate": false,
+        "E_transfer": false,
+        "E_heating_gate": false,
+        "E_movement_loss": false,
+        "E_cooling_gate": false,
+        "E_decoherence": false
+      },
+      "total_E": 0.3171269398089423,
+      "total_E_infinite": false,
+      "fidelity_proxy": 0.7282383068266081,
+      "fidelity_underflow": false
+    },
+    "method": "default source decisions; requested geometry metadata if changed; requested profile; make_schedule(retime); evaluate"
+  },
+  {
+    "id": "hardware__qaoa_n8_p2_g702__s43__acceleration_half",
+    "fixed_source_schedule_path": "runs\\idea1_extension_v1\\campaign\\raw\\qaoa_n8_p2_g702__s43__r0\\attempt_01\\worker\\L1A1\\baseline\\schedule.json",
+    "fixed_source_schedule_file_sha256": "90ee863ec832af302e6f2e1fed0774dbb9aba36c3f6609fb09bf40c736a4a021",
+    "resolved_request_path": "runs\\remaining_experiments_6h_v2\\measurements\\hardware__qaoa_n8_p2_g702__s43__acceleration_half\\attempt_01\\worker\\resolved_request.json",
+    "resolved_request_sha256": "bbe7ee76654d948577ecc45eaeb134e535121cfaf84e2969580303a64039a11b",
+    "counterfactual_schedule_sha256": "f97debcfc7f41d1e897be4ddc0e1adc59ce36bfdf6a997db9b13cb32b1b898a6",
+    "counterfactual_source_trace_sha256": "be9632ab6fc9f0ea15aa8b64c10aa3d53538eb5332f8c3643a22291ccb9af8ce",
+    "budget": {
+      "terms": {
+        "E_native_gate": 0.24060200753012598,
+        "E_transfer": 0.04802401601200967,
+        "E_heating_gate": 0.00011950758345195067,
+        "E_movement_loss": 0.0,
+        "E_cooling_gate": 0.0,
+        "E_decoherence": 0.04888522212318034
+      },
+      "terms_infinite": {
+        "E_native_gate": false,
+        "E_transfer": false,
+        "E_heating_gate": false,
+        "E_movement_loss": false,
+        "E_cooling_gate": false,
+        "E_decoherence": false
+      },
+      "total_E": 0.33763075324876796,
+      "total_E_infinite": false,
+      "fidelity_proxy": 0.7134586815669682,
+      "fidelity_underflow": false
+    },
+    "method": "default source decisions; requested geometry metadata if changed; requested profile; make_schedule(retime); evaluate"
+  },
+  {
+    "id": "hardware__qaoa_n8_p2_g702__s43__coherence_long",
+    "fixed_source_schedule_path": "runs\\idea1_extension_v1\\campaign\\raw\\qaoa_n8_p2_g702__s43__r0\\attempt_01\\worker\\L1A1\\baseline\\schedule.json",
+    "fixed_source_schedule_file_sha256": "90ee863ec832af302e6f2e1fed0774dbb9aba36c3f6609fb09bf40c736a4a021",
+    "resolved_request_path": "runs\\remaining_experiments_6h_v2\\measurements\\hardware__qaoa_n8_p2_g702__s43__coherence_long\\attempt_01\\worker\\resolved_request.json",
+    "resolved_request_sha256": "910e9b2bf42a8702c8a71fb7aadc758cdacfcf795aed883f3e704969f80181ad",
+    "counterfactual_schedule_sha256": "7e62d167b6017350ffe5224c4f9043d28afed5635a15922a0a20f0f82c3a2011",
+    "counterfactual_source_trace_sha256": "be9632ab6fc9f0ea15aa8b64c10aa3d53538eb5332f8c3643a22291ccb9af8ce",
+    "budget": {
+      "terms": {
+        "E_native_gate": 0.24060200753012598,
+        "E_transfer": 0.04802401601200967,
+        "E_heating_gate": 0.00047803286055980525,
+        "E_movement_loss": 0.0,
+        "E_cooling_gate": 0.0,
+        "E_decoherence": 0.003582424786311712
+      },
+      "terms_infinite": {
+        "E_native_gate": false,
+        "E_transfer": false,
+        "E_heating_gate": false,
+        "E_movement_loss": false,
+        "E_cooling_gate": false,
+        "E_decoherence": false
+      },
+      "total_E": 0.29268648118900714,
+      "total_E_infinite": false,
+      "fidelity_proxy": 0.746256069340346,
+      "fidelity_underflow": false
+    },
+    "method": "default source decisions; requested geometry metadata if changed; requested profile; make_schedule(retime); evaluate"
+  },
+  {
+    "id": "hardware__qaoa_n8_p2_g702__s43__coherence_short",
+    "fixed_source_schedule_path": "runs\\idea1_extension_v1\\campaign\\raw\\qaoa_n8_p2_g702__s43__r0\\attempt_01\\worker\\L1A1\\baseline\\schedule.json",
+    "fixed_source_schedule_file_sha256": "90ee863ec832af302e6f2e1fed0774dbb9aba36c3f6609fb09bf40c736a4a021",
+    "resolved_request_path": "runs\\remaining_experiments_6h_v2\\measurements\\hardware__qaoa_n8_p2_g702__s43__coherence_short\\attempt_01\\worker\\resolved_request.json",
+    "resolved_request_sha256": "611e05a647218c43bde438ec581ac42b6b3057bb3cdd89dbf878f085d0dcdfbb",
+    "counterfactual_schedule_sha256": "50e31099e25953b0e730f983affb032b325bca62980715646df664c9281937a3",
+    "counterfactual_source_trace_sha256": "be9632ab6fc9f0ea15aa8b64c10aa3d53538eb5332f8c3643a22291ccb9af8ce",
+    "budget": {
+      "terms": {
+        "E_native_gate": 0.24060200753012598,
+        "E_transfer": 0.04802401601200967,
+        "E_heating_gate": 0.00047803286055980525,
+        "E_movement_loss": 0.0,
+        "E_cooling_gate": 0.0,
+        "E_decoherence": 0.3582424786311712
+      },
+      "terms_infinite": {
+        "E_native_gate": false,
+        "E_transfer": false,
+        "E_heating_gate": false,
+        "E_movement_loss": false,
+        "E_cooling_gate": false,
+        "E_decoherence": false
+      },
+      "total_E": 0.6473465350338666,
+      "total_E_infinite": false,
+      "fidelity_proxy": 0.5234328463968627,
+      "fidelity_underflow": false
+    },
+    "method": "default source decisions; requested geometry metadata if changed; requested profile; make_schedule(retime); evaluate"
+  },
+  {
+    "id": "hardware__qaoa_n8_p2_g702__s43__heating_double",
+    "fixed_source_schedule_path": "runs\\idea1_extension_v1\\campaign\\raw\\qaoa_n8_p2_g702__s43__r0\\attempt_01\\worker\\L1A1\\baseline\\schedule.json",
+    "fixed_source_schedule_file_sha256": "90ee863ec832af302e6f2e1fed0774dbb9aba36c3f6609fb09bf40c736a4a021",
+    "resolved_request_path": "runs\\remaining_experiments_6h_v2\\measurements\\hardware__qaoa_n8_p2_g702__s43__heating_double\\attempt_01\\worker\\resolved_request.json",
+    "resolved_request_sha256": "7948968175aaec12af0163771491f233cf95339fcb657d1693c32df3d285990f",
+    "counterfactual_schedule_sha256": "1a4b10fd8072fb53c656beaeefe78157a623e73978107a08f8cdedf683bdac79",
+    "counterfactual_source_trace_sha256": "be9632ab6fc9f0ea15aa8b64c10aa3d53538eb5332f8c3643a22291ccb9af8ce",
+    "budget": {
+      "terms": {
+        "E_native_gate": 0.24060200753012598,
+        "E_transfer": 0.04802401601200967,
+        "E_heating_gate": 0.0009560724592503199,
+        "E_movement_loss": 0.0,
+        "E_cooling_gate": 0.0,
+        "E_decoherence": 0.03582424786311712
+      },
+      "terms_infinite": {
+        "E_native_gate": false,
+        "E_transfer": false,
+        "E_heating_gate": false,
+        "E_movement_loss": false,
+        "E_cooling_gate": false,
+        "E_decoherence": false
+      },
+      "total_E": 0.32540634386450307,
+      "total_E_infinite": false,
+      "fidelity_proxy": 0.7222338187270789,
+      "fidelity_underflow": false
+    },
+    "method": "default source decisions; requested geometry metadata if changed; requested profile; make_schedule(retime); evaluate"
+  },
+  {
+    "id": "hardware__qaoa_n8_p2_g702__s43__heating_half",
+    "fixed_source_schedule_path": "runs\\idea1_extension_v1\\campaign\\raw\\qaoa_n8_p2_g702__s43__r0\\attempt_01\\worker\\L1A1\\baseline\\schedule.json",
+    "fixed_source_schedule_file_sha256": "90ee863ec832af302e6f2e1fed0774dbb9aba36c3f6609fb09bf40c736a4a021",
+    "resolved_request_path": "runs\\remaining_experiments_6h_v2\\measurements\\hardware__qaoa_n8_p2_g702__s43__heating_half\\attempt_01\\worker\\resolved_request.json",
+    "resolved_request_sha256": "d3c753b74d643ef58377a2c42580cd7c144f47a5e625c6ebecb412e007935afe",
+    "counterfactual_schedule_sha256": "a130bb1627addc32e817bd2824ac7d41a441512a2c9eb860c8f4d5c334377125",
+    "counterfactual_source_trace_sha256": "be9632ab6fc9f0ea15aa8b64c10aa3d53538eb5332f8c3643a22291ccb9af8ce",
+    "budget": {
+      "terms": {
+        "E_native_gate": 0.24060200753012598,
+        "E_transfer": 0.04802401601200967,
+        "E_heating_gate": 0.00023901558802699637,
+        "E_movement_loss": 0.0,
+        "E_cooling_gate": 0.0,
+        "E_decoherence": 0.03582424786311712
+      },
+      "terms_infinite": {
+        "E_native_gate": false,
+        "E_transfer": false,
+        "E_heating_gate": false,
+        "E_movement_loss": false,
+        "E_cooling_gate": false,
+        "E_decoherence": false
+      },
+      "total_E": 0.32468928699327976,
+      "total_E_infinite": false,
+      "fidelity_proxy": 0.7227518871694972,
+      "fidelity_underflow": false
+    },
+    "method": "default source decisions; requested geometry metadata if changed; requested profile; make_schedule(retime); evaluate"
+  },
+  {
+    "id": "hardware__qaoa_n8_p2_g702__s43__parking_area_grid20",
+    "fixed_source_schedule_path": "runs\\idea1_extension_v1\\campaign\\raw\\qaoa_n8_p2_g702__s43__r0\\attempt_01\\worker\\L1A1\\baseline\\schedule.json",
+    "fixed_source_schedule_file_sha256": "90ee863ec832af302e6f2e1fed0774dbb9aba36c3f6609fb09bf40c736a4a021",
+    "resolved_request_path": "runs\\remaining_experiments_6h_v2\\measurements\\hardware__qaoa_n8_p2_g702__s43__parking_area_grid20\\attempt_01\\worker\\resolved_request.json",
+    "resolved_request_sha256": "23f2fe4e765b5c46dab50c61d808a55b4ca4c82369c3f33c11ee9f7d76342600",
+    "counterfactual_schedule_sha256": "f2418f1bc25753289830874906e02b6d7ea61ac26f98abb0fc53625635de6c25",
+    "counterfactual_source_trace_sha256": "01e22f1e0d06885af451eb4cf3e972b0f3c213f5cfdbb68dce804219e6a3e348",
+    "budget": {
+      "terms": {
+        "E_native_gate": 0.24060200753012598,
+        "E_transfer": 0.04802401601200967,
+        "E_heating_gate": 0.00047803286055980525,
+        "E_movement_loss": 0.0,
+        "E_cooling_gate": 0.0,
+        "E_decoherence": 0.03582424786311712
+      },
+      "terms_infinite": {
+        "E_native_gate": false,
+        "E_transfer": false,
+        "E_heating_gate": false,
+        "E_movement_loss": false,
+        "E_cooling_gate": false,
+        "E_decoherence": false
+      },
+      "total_E": 0.3249283042658126,
+      "total_E_infinite": false,
+      "fidelity_proxy": 0.7225791576282022,
+      "fidelity_underflow": false
+    },
+    "method": "default source decisions; requested geometry metadata if changed; requested profile; make_schedule(retime); evaluate"
+  },
+  {
+    "id": "hardware__qaoa_n8_p2_g702__s43__parking_area_grid35",
+    "fixed_source_schedule_path": "runs\\idea1_extension_v1\\campaign\\raw\\qaoa_n8_p2_g702__s43__r0\\attempt_01\\worker\\L1A1\\baseline\\schedule.json",
+    "fixed_source_schedule_file_sha256": "90ee863ec832af302e6f2e1fed0774dbb9aba36c3f6609fb09bf40c736a4a021",
+    "resolved_request_path": "runs\\remaining_experiments_6h_v2\\measurements\\hardware__qaoa_n8_p2_g702__s43__parking_area_grid35\\attempt_01\\worker\\resolved_request.json",
+    "resolved_request_sha256": "e33f337870cdebdc4f129c0355ff733c8eebe79b2412369704525464743a63f3",
+    "counterfactual_schedule_sha256": "6ac966819838b117ca0fa53a92f006758c449cb99f1fcd4e6fb9cd4f12a63b83",
+    "counterfactual_source_trace_sha256": "c9d667e7468537b95a088ded4140a162d897a39d6a48056337d4a16ce4688c9d",
+    "budget": {
+      "terms": {
+        "E_native_gate": 0.24060200753012598,
+        "E_transfer": 0.04802401601200967,
+        "E_heating_gate": 0.00047803286055980525,
+        "E_movement_loss": 0.0,
+        "E_cooling_gate": 0.0,
+        "E_decoherence": 0.03582424786311712
+      },
+      "terms_infinite": {
+        "E_native_gate": false,
+        "E_transfer": false,
+        "E_heating_gate": false,
+        "E_movement_loss": false,
+        "E_cooling_gate": false,
+        "E_decoherence": false
+      },
+      "total_E": 0.3249283042658126,
+      "total_E_infinite": false,
+      "fidelity_proxy": 0.7225791576282022,
+      "fidelity_underflow": false
+    },
+    "method": "default source decisions; requested geometry metadata if changed; requested profile; make_schedule(retime); evaluate"
+  },
+  {
+    "id": "hardware__qaoa_n8_p2_g702__s43__transfer_higher",
+    "fixed_source_schedule_path": "runs\\idea1_extension_v1\\campaign\\raw\\qaoa_n8_p2_g702__s43__r0\\attempt_01\\worker\\L1A1\\baseline\\schedule.json",
+    "fixed_source_schedule_file_sha256": "90ee863ec832af302e6f2e1fed0774dbb9aba36c3f6609fb09bf40c736a4a021",
+    "resolved_request_path": "runs\\remaining_experiments_6h_v2\\measurements\\hardware__qaoa_n8_p2_g702__s43__transfer_higher\\attempt_01\\worker\\resolved_request.json",
+    "resolved_request_sha256": "f8ebfddfc8596ed38cce6cca19f59f04ec213db62d86b678e293acbdd76316b8",
+    "counterfactual_schedule_sha256": "c99e6b32611d5b10c43471e8746091e17340ee47925f41c977435f554a20e51d",
+    "counterfactual_source_trace_sha256": "be9632ab6fc9f0ea15aa8b64c10aa3d53538eb5332f8c3643a22291ccb9af8ce",
+    "budget": {
+      "terms": {
+        "E_native_gate": 0.24060200753012598,
+        "E_transfer": 0.004800240016000671,
+        "E_heating_gate": 0.00047803286055980525,
+        "E_movement_loss": 0.0,
+        "E_cooling_gate": 0.0,
+        "E_decoherence": 0.03582424786311712
+      },
+      "terms_infinite": {
+        "E_native_gate": false,
+        "E_transfer": false,
+        "E_heating_gate": false,
+        "E_movement_loss": false,
+        "E_cooling_gate": false,
+        "E_decoherence": false
+      },
+      "total_E": 0.2817045282698036,
+      "total_E_infinite": false,
+      "fidelity_proxy": 0.7544965840123253,
+      "fidelity_underflow": false
+    },
+    "method": "default source decisions; requested geometry metadata if changed; requested profile; make_schedule(retime); evaluate"
+  },
+  {
+    "id": "hardware__qaoa_n8_p2_g702__s43__transfer_lower",
+    "fixed_source_schedule_path": "runs\\idea1_extension_v1\\campaign\\raw\\qaoa_n8_p2_g702__s43__r0\\attempt_01\\worker\\L1A1\\baseline\\schedule.json",
+    "fixed_source_schedule_file_sha256": "90ee863ec832af302e6f2e1fed0774dbb9aba36c3f6609fb09bf40c736a4a021",
+    "resolved_request_path": "runs\\remaining_experiments_6h_v2\\measurements\\hardware__qaoa_n8_p2_g702__s43__transfer_lower\\attempt_01\\worker\\resolved_request.json",
+    "resolved_request_sha256": "4452729e75e40f160c5384aa892e11dddad623e60c90ad40faa35bc157946636",
+    "counterfactual_schedule_sha256": "9477bf56c219bfb2751947bd9deed38914e41b0189f776a1e0f5a494bc46838c",
+    "counterfactual_source_trace_sha256": "be9632ab6fc9f0ea15aa8b64c10aa3d53538eb5332f8c3643a22291ccb9af8ce",
+    "budget": {
+      "terms": {
+        "E_native_gate": 0.24060200753012598,
+        "E_transfer": 0.32751481671002564,
+        "E_heating_gate": 0.00047803286055980525,
+        "E_movement_loss": 0.0,
+        "E_cooling_gate": 0.0,
+        "E_decoherence": 0.03582424786311712
+      },
+      "terms_infinite": {
+        "E_native_gate": false,
+        "E_transfer": false,
+        "E_heating_gate": false,
+        "E_movement_loss": false,
+        "E_cooling_gate": false,
+        "E_decoherence": false
+      },
+      "total_E": 0.6044191049638286,
+      "total_E_infinite": false,
+      "fidelity_proxy": 0.5463917307147831,
+      "fidelity_underflow": false
+    },
+    "method": "default source decisions; requested geometry metadata if changed; requested profile; make_schedule(retime); evaluate"
+  },
+  {
+    "id": "hardware__qft_10__s41__acceleration_double",
+    "fixed_source_schedule_path": "runs\\idea1_extension_v1\\campaign\\raw\\qft_10__s41__r0\\attempt_01\\worker\\L1A1\\baseline\\schedule.json",
+    "fixed_source_schedule_file_sha256": "b7d597e9329a6bb72db1e815f23b5570a5cbb408f9b71907a5e76b18490b693d",
+    "resolved_request_path": "runs\\remaining_experiments_6h_v2\\measurements\\hardware__qft_10__s41__acceleration_double\\attempt_01\\worker\\resolved_request.json",
+    "resolved_request_sha256": "8ecc58c8acf009d1f2fa9450596215bee177dde0f1eb83bdf451a117d9694d19",
+    "counterfactual_schedule_sha256": "fd82654208c04d34571be6b0314c88c09070efe7b38ee0e1ca3cb843df78b133",
+    "counterfactual_source_trace_sha256": "54c71ca1aa9371a7960fa8c780ab1a498768992452c13fab5cf071b1c2911066",
+    "budget": {
+      "terms": {
+        "E_native_gate": 0.5263168914721494,
+        "E_transfer": 0.11405703802852309,
+        "E_heating_gate": 0.00645526119224259,
+        "E_movement_loss": 0.0,
+        "E_cooling_gate": 0.0,
+        "E_decoherence": 0.08865314748754222
+      },
+      "terms_infinite": {
+        "E_native_gate": false,
+        "E_transfer": false,
+        "E_heating_gate": false,
+        "E_movement_loss": false,
+        "E_cooling_gate": false,
+        "E_decoherence": false
+      },
+      "total_E": 0.7354823381804574,
+      "total_E_infinite": false,
+      "fidelity_proxy": 0.47927423095382715,
+      "fidelity_underflow": false
+    },
+    "method": "default source decisions; requested geometry metadata if changed; requested profile; make_schedule(retime); evaluate"
+  },
+  {
+    "id": "hardware__qft_10__s41__acceleration_half",
+    "fixed_source_schedule_path": "runs\\idea1_extension_v1\\campaign\\raw\\qft_10__s41__r0\\attempt_01\\worker\\L1A1\\baseline\\schedule.json",
+    "fixed_source_schedule_file_sha256": "b7d597e9329a6bb72db1e815f23b5570a5cbb408f9b71907a5e76b18490b693d",
+    "resolved_request_path": "runs\\remaining_experiments_6h_v2\\measurements\\hardware__qft_10__s41__acceleration_half\\attempt_01\\worker\\resolved_request.json",
+    "resolved_request_sha256": "11a5caacfb07cefa835a8e1f9eabbb2f3ae2804f72a184d324903279f5492499",
+    "counterfactual_schedule_sha256": "19545e53022966129df502912566b29c3cf656c78a34c99bf52020cacb6e62ae",
+    "counterfactual_source_trace_sha256": "54c71ca1aa9371a7960fa8c780ab1a498768992452c13fab5cf071b1c2911066",
+    "budget": {
+      "terms": {
+        "E_native_gate": 0.5263168914721494,
+        "E_transfer": 0.11405703802852309,
+        "E_heating_gate": 0.0004034386392947077,
+        "E_movement_loss": 0.0,
+        "E_cooling_gate": 0.0,
+        "E_decoherence": 0.16419029497508442
+      },
+      "terms_infinite": {
+        "E_native_gate": false,
+        "E_transfer": false,
+        "E_heating_gate": false,
+        "E_movement_loss": false,
+        "E_cooling_gate": false,
+        "E_decoherence": false
+      },
+      "total_E": 0.8049676631150516,
+      "total_E_infinite": false,
+      "fidelity_proxy": 0.44710238422395604,
+      "fidelity_underflow": false
+    },
+    "method": "default source decisions; requested geometry metadata if changed; requested profile; make_schedule(retime); evaluate"
+  },
+  {
+    "id": "hardware__qft_10__s41__coherence_long",
+    "fixed_source_schedule_path": "runs\\idea1_extension_v1\\campaign\\raw\\qft_10__s41__r0\\attempt_01\\worker\\L1A1\\baseline\\schedule.json",
+    "fixed_source_schedule_file_sha256": "b7d597e9329a6bb72db1e815f23b5570a5cbb408f9b71907a5e76b18490b693d",
+    "resolved_request_path": "runs\\remaining_experiments_6h_v2\\measurements\\hardware__qft_10__s41__coherence_long\\attempt_01\\worker\\resolved_request.json",
+    "resolved_request_sha256": "0e20e952fdfe0587314b3258519d5755dd107ad3f14a04c8e7e763b1ab6638b6",
+    "counterfactual_schedule_sha256": "1bf853cc629232cdcde1fb400616878a7dce6d594fd0a0d737dea7ebeb2f2da7",
+    "counterfactual_source_trace_sha256": "54c71ca1aa9371a7960fa8c780ab1a498768992452c13fab5cf071b1c2911066",
+    "budget": {
+      "terms": {
+        "E_native_gate": 0.5263168914721494,
+        "E_transfer": 0.11405703802852309,
+        "E_heating_gate": 0.0016137667047580297,
+        "E_movement_loss": 0.0,
+        "E_cooling_gate": 0.0,
+        "E_decoherence": 0.011994165843985896
+      },
+      "terms_infinite": {
+        "E_native_gate": false,
+        "E_transfer": false,
+        "E_heating_gate": false,
+        "E_movement_loss": false,
+        "E_cooling_gate": false,
+        "E_decoherence": false
+      },
+      "total_E": 0.6539818620494164,
+      "total_E_infinite": false,
+      "fidelity_proxy": 0.5199711955835813,
+      "fidelity_underflow": false
+    },
+    "method": "default source decisions; requested geometry metadata if changed; requested profile; make_schedule(retime); evaluate"
+  },
+  {
+    "id": "hardware__qft_10__s41__coherence_short",
+    "fixed_source_schedule_path": "runs\\idea1_extension_v1\\campaign\\raw\\qft_10__s41__r0\\attempt_01\\worker\\L1A1\\baseline\\schedule.json",
+    "fixed_source_schedule_file_sha256": "b7d597e9329a6bb72db1e815f23b5570a5cbb408f9b71907a5e76b18490b693d",
+    "resolved_request_path": "runs\\remaining_experiments_6h_v2\\measurements\\hardware__qft_10__s41__coherence_short\\attempt_01\\worker\\resolved_request.json",
+    "resolved_request_sha256": "54f4758f82806cb4da668c8065ca4c0c210964d790722699e1059673474450e7",
+    "counterfactual_schedule_sha256": "5a5e1b11d4659275d1fab83a446363a76e3177cf810701751f59a8c7eb5234a5",
+    "counterfactual_source_trace_sha256": "54c71ca1aa9371a7960fa8c780ab1a498768992452c13fab5cf071b1c2911066",
+    "budget": {
+      "terms": {
+        "E_native_gate": 0.5263168914721494,
+        "E_transfer": 0.11405703802852309,
+        "E_heating_gate": 0.0016137667047580297,
+        "E_movement_loss": 0.0,
+        "E_cooling_gate": 0.0,
+        "E_decoherence": 1.1994165843985898
+      },
+      "terms_infinite": {
+        "E_native_gate": false,
+        "E_transfer": false,
+        "E_heating_gate": false,
+        "E_movement_loss": false,
+        "E_cooling_gate": false,
+        "E_decoherence": false
+      },
+      "total_E": 1.8414042806040203,
+      "total_E_infinite": false,
+      "fidelity_proxy": 0.15859455839688422,
+      "fidelity_underflow": false
+    },
+    "method": "default source decisions; requested geometry metadata if changed; requested profile; make_schedule(retime); evaluate"
+  },
+  {
+    "id": "hardware__qft_10__s41__heating_double",
+    "fixed_source_schedule_path": "runs\\idea1_extension_v1\\campaign\\raw\\qft_10__s41__r0\\attempt_01\\worker\\L1A1\\baseline\\schedule.json",
+    "fixed_source_schedule_file_sha256": "b7d597e9329a6bb72db1e815f23b5570a5cbb408f9b71907a5e76b18490b693d",
+    "resolved_request_path": "runs\\remaining_experiments_6h_v2\\measurements\\hardware__qft_10__s41__heating_double\\attempt_01\\worker\\resolved_request.json",
+    "resolved_request_sha256": "f114cc8e0db305c781235c7bede3ec7e28b8ce27f65deeaa534483fbcea4cd69",
+    "counterfactual_schedule_sha256": "cf3633bbcfcdea1e4389b4e025bd964f467012fd9a2b735e135fa8c318609830",
+    "counterfactual_source_trace_sha256": "54c71ca1aa9371a7960fa8c780ab1a498768992452c13fab5cf071b1c2911066",
+    "budget": {
+      "terms": {
+        "E_native_gate": 0.5263168914721494,
+        "E_transfer": 0.11405703802852309,
+        "E_heating_gate": 0.0032275658039894696,
+        "E_movement_loss": 0.0,
+        "E_cooling_gate": 0.0,
+        "E_decoherence": 0.11994165843985898
+      },
+      "terms_infinite": {
+        "E_native_gate": false,
+        "E_transfer": false,
+        "E_heating_gate": false,
+        "E_movement_loss": false,
+        "E_cooling_gate": false,
+        "E_decoherence": false
+      },
+      "total_E": 0.763543153744521,
+      "total_E_infinite": false,
+      "fidelity_proxy": 0.4660123450216941,
+      "fidelity_underflow": false
+    },
+    "method": "default source decisions; requested geometry metadata if changed; requested profile; make_schedule(retime); evaluate"
+  },
+  {
+    "id": "hardware__qft_10__s41__heating_half",
+    "fixed_source_schedule_path": "runs\\idea1_extension_v1\\campaign\\raw\\qft_10__s41__r0\\attempt_01\\worker\\L1A1\\baseline\\schedule.json",
+    "fixed_source_schedule_file_sha256": "b7d597e9329a6bb72db1e815f23b5570a5cbb408f9b71907a5e76b18490b693d",
+    "resolved_request_path": "runs\\remaining_experiments_6h_v2\\measurements\\hardware__qft_10__s41__heating_half\\attempt_01\\worker\\resolved_request.json",
+    "resolved_request_sha256": "dbe71346778a1ee2a5e0780b0fdc71418150f4f179d6f599be8832de65d39622",
+    "counterfactual_schedule_sha256": "53727ea82842b75ac5b1abac22e083d1d97f7465ebde8108ed29f53c62f5cfa6",
+    "counterfactual_source_trace_sha256": "54c71ca1aa9371a7960fa8c780ab1a498768992452c13fab5cf071b1c2911066",
+    "budget": {
+      "terms": {
+        "E_native_gate": 0.5263168914721494,
+        "E_transfer": 0.11405703802852309,
+        "E_heating_gate": 0.0008068793031693617,
+        "E_movement_loss": 0.0,
+        "E_cooling_gate": 0.0,
+        "E_decoherence": 0.11994165843985898
+      },
+      "terms_infinite": {
+        "E_native_gate": false,
+        "E_transfer": false,
+        "E_heating_gate": false,
+        "E_movement_loss": false,
+        "E_cooling_gate": false,
+        "E_decoherence": false
+      },
+      "total_E": 0.7611224672437009,
+      "total_E_infinite": false,
+      "fidelity_proxy": 0.46714178126852646,
+      "fidelity_underflow": false
+    },
+    "method": "default source decisions; requested geometry metadata if changed; requested profile; make_schedule(retime); evaluate"
+  },
+  {
+    "id": "hardware__qft_10__s41__parking_area_grid20",
+    "fixed_source_schedule_path": "runs\\idea1_extension_v1\\campaign\\raw\\qft_10__s41__r0\\attempt_01\\worker\\L1A1\\baseline\\schedule.json",
+    "fixed_source_schedule_file_sha256": "b7d597e9329a6bb72db1e815f23b5570a5cbb408f9b71907a5e76b18490b693d",
+    "resolved_request_path": "runs\\remaining_experiments_6h_v2\\measurements\\hardware__qft_10__s41__parking_area_grid20\\attempt_01\\worker\\resolved_request.json",
+    "resolved_request_sha256": "c699c79f9a5fabf9357c4706b473906c8df3d8b5afc496a12f7ccc1b6c77ad16",
+    "counterfactual_schedule_sha256": "41933be9964419600816c7143f38d2bc878680171e68342dfa47b83f089e1d9d",
+    "counterfactual_source_trace_sha256": "d9771c0c010d6d39b5fcd61a00075b3ebebc6204782dbac65afd062d0e688fb7",
+    "budget": {
+      "terms": {
+        "E_native_gate": 0.5263168914721494,
+        "E_transfer": 0.11405703802852309,
+        "E_heating_gate": 0.0016137667047580297,
+        "E_movement_loss": 0.0,
+        "E_cooling_gate": 0.0,
+        "E_decoherence": 0.11994165843985898
+      },
+      "terms_infinite": {
+        "E_native_gate": false,
+        "E_transfer": false,
+        "E_heating_gate": false,
+        "E_movement_loss": false,
+        "E_cooling_gate": false,
+        "E_decoherence": false
+      },
+      "total_E": 0.7619293546452895,
+      "total_E_infinite": false,
+      "fidelity_proxy": 0.4667650024799364,
+      "fidelity_underflow": false
+    },
+    "method": "default source decisions; requested geometry metadata if changed; requested profile; make_schedule(retime); evaluate"
+  },
+  {
+    "id": "hardware__qft_10__s41__parking_area_grid35",
+    "fixed_source_schedule_path": "runs\\idea1_extension_v1\\campaign\\raw\\qft_10__s41__r0\\attempt_01\\worker\\L1A1\\baseline\\schedule.json",
+    "fixed_source_schedule_file_sha256": "b7d597e9329a6bb72db1e815f23b5570a5cbb408f9b71907a5e76b18490b693d",
+    "resolved_request_path": "runs\\remaining_experiments_6h_v2\\measurements\\hardware__qft_10__s41__parking_area_grid35\\attempt_01\\worker\\resolved_request.json",
+    "resolved_request_sha256": "3dc8953217ab589b4ad8176fea5dcf43a8e8c9f6e16d1fa9a1ab58c70f0fa600",
+    "counterfactual_schedule_sha256": "347cc569d21db30dc0bdcfc66d672c0245c62dbf07f3fec0965af42641afc735",
+    "counterfactual_source_trace_sha256": "62cda7e672e57768b826ce1a349846e43d51eb2d2acf63e60528e5098887221b",
+    "budget": {
+      "terms": {
+        "E_native_gate": 0.5263168914721494,
+        "E_transfer": 0.11405703802852309,
+        "E_heating_gate": 0.0016137667047580297,
+        "E_movement_loss": 0.0,
+        "E_cooling_gate": 0.0,
+        "E_decoherence": 0.11994165843985898
+      },
+      "terms_infinite": {
+        "E_native_gate": false,
+        "E_transfer": false,
+        "E_heating_gate": false,
+        "E_movement_loss": false,
+        "E_cooling_gate": false,
+        "E_decoherence": false
+      },
+      "total_E": 0.7619293546452895,
+      "total_E_infinite": false,
+      "fidelity_proxy": 0.4667650024799364,
+      "fidelity_underflow": false
+    },
+    "method": "default source decisions; requested geometry metadata if changed; requested profile; make_schedule(retime); evaluate"
+  },
+  {
+    "id": "hardware__qft_10__s41__transfer_higher",
+    "fixed_source_schedule_path": "runs\\idea1_extension_v1\\campaign\\raw\\qft_10__s41__r0\\attempt_01\\worker\\L1A1\\baseline\\schedule.json",
+    "fixed_source_schedule_file_sha256": "b7d597e9329a6bb72db1e815f23b5570a5cbb408f9b71907a5e76b18490b693d",
+    "resolved_request_path": "runs\\remaining_experiments_6h_v2\\measurements\\hardware__qft_10__s41__transfer_higher\\attempt_01\\worker\\resolved_request.json",
+    "resolved_request_sha256": "b9fca7bc913d4d9c816b6865f37279a786c4b439368a106ba4f0cca988879df4",
+    "counterfactual_schedule_sha256": "0caf190cf026d3d46e473351e63efe0a2ea33674ece1cd3932e01a898038fbe5",
+    "counterfactual_source_trace_sha256": "54c71ca1aa9371a7960fa8c780ab1a498768992452c13fab5cf071b1c2911066",
+    "budget": {
+      "terms": {
+        "E_native_gate": 0.5263168914721494,
+        "E_transfer": 0.011400570038001613,
+        "E_heating_gate": 0.0016137667047580297,
+        "E_movement_loss": 0.0,
+        "E_cooling_gate": 0.0,
+        "E_decoherence": 0.11994165843985898
+      },
+      "terms_infinite": {
+        "E_native_gate": false,
+        "E_transfer": false,
+        "E_heating_gate": false,
+        "E_movement_loss": false,
+        "E_cooling_gate": false,
+        "E_decoherence": false
+      },
+      "total_E": 0.659272886654768,
+      "total_E_infinite": false,
+      "fidelity_proxy": 0.5172272806556822,
+      "fidelity_underflow": false
+    },
+    "method": "default source decisions; requested geometry metadata if changed; requested profile; make_schedule(retime); evaluate"
+  },
+  {
+    "id": "hardware__qft_10__s41__transfer_lower",
+    "fixed_source_schedule_path": "runs\\idea1_extension_v1\\campaign\\raw\\qft_10__s41__r0\\attempt_01\\worker\\L1A1\\baseline\\schedule.json",
+    "fixed_source_schedule_file_sha256": "b7d597e9329a6bb72db1e815f23b5570a5cbb408f9b71907a5e76b18490b693d",
+    "resolved_request_path": "runs\\remaining_experiments_6h_v2\\measurements\\hardware__qft_10__s41__transfer_lower\\attempt_01\\worker\\resolved_request.json",
+    "resolved_request_sha256": "6b3a917c27f503dbcd4a18c257e628a65c86a92bab24806ce130a2f43d9d14d4",
+    "counterfactual_schedule_sha256": "6516b92378f7ff1f1b8edc72b8d01e4f752329513e8a3cdfb8f8e020d9ebcd88",
+    "counterfactual_source_trace_sha256": "54c71ca1aa9371a7960fa8c780ab1a498768992452c13fab5cf071b1c2911066",
+    "budget": {
+      "terms": {
+        "E_native_gate": 0.5263168914721494,
+        "E_transfer": 0.77784768968631,
+        "E_heating_gate": 0.0016137667047580297,
+        "E_movement_loss": 0.0,
+        "E_cooling_gate": 0.0,
+        "E_decoherence": 0.11994165843985898
+      },
+      "terms_infinite": {
+        "E_native_gate": false,
+        "E_transfer": false,
+        "E_heating_gate": false,
+        "E_movement_loss": false,
+        "E_cooling_gate": false,
+        "E_decoherence": false
+      },
+      "total_E": 1.4257200063030764,
+      "total_E_infinite": false,
+      "fidelity_proxy": 0.2403353579248148,
+      "fidelity_underflow": false
+    },
+    "method": "default source decisions; requested geometry metadata if changed; requested profile; make_schedule(retime); evaluate"
+  },
+  {
+    "id": "hardware__qft_10__s42__acceleration_double",
+    "fixed_source_schedule_path": "runs\\idea1_extension_v1\\campaign\\raw\\qft_10__s42__r0\\attempt_01\\worker\\L1A1\\baseline\\schedule.json",
+    "fixed_source_schedule_file_sha256": "d9809627f6fd760725c065fc83d8baf322d448e62bc46b940bf9cb3193fe07b4",
+    "resolved_request_path": "runs\\remaining_experiments_6h_v2\\measurements\\hardware__qft_10__s42__acceleration_double\\attempt_01\\worker\\resolved_request.json",
+    "resolved_request_sha256": "6affd74e8104ca4612ef0fba960b012e7e8fd673e5df29b4009f9b381477fb6f",
+    "counterfactual_schedule_sha256": "4c2662232cfea83343372fd8c024b673a48a6f53df89050e6a777e167b6e5ee8",
+    "counterfactual_source_trace_sha256": "b4b47959a1393c35a75143815c000ce614e13cf405318d7119c6b190013c6f17",
+    "budget": {
+      "terms": {
+        "E_native_gate": 0.5263168914721494,
+        "E_transfer": 0.11405703802852309,
+        "E_heating_gate": 0.00645526119224259,
+        "E_movement_loss": 0.0,
+        "E_cooling_gate": 0.0,
+        "E_decoherence": 0.08865314748754222
+      },
+      "terms_infinite": {
+        "E_native_gate": false,
+        "E_transfer": false,
+        "E_heating_gate": false,
+        "E_movement_loss": false,
+        "E_cooling_gate": false,
+        "E_decoherence": false
+      },
+      "total_E": 0.7354823381804574,
+      "total_E_infinite": false,
+      "fidelity_proxy": 0.47927423095382715,
+      "fidelity_underflow": false
+    },
+    "method": "default source decisions; requested geometry metadata if changed; requested profile; make_schedule(retime); evaluate"
+  },
+  {
+    "id": "hardware__qft_10__s42__acceleration_half",
+    "fixed_source_schedule_path": "runs\\idea1_extension_v1\\campaign\\raw\\qft_10__s42__r0\\attempt_01\\worker\\L1A1\\baseline\\schedule.json",
+    "fixed_source_schedule_file_sha256": "d9809627f6fd760725c065fc83d8baf322d448e62bc46b940bf9cb3193fe07b4",
+    "resolved_request_path": "runs\\remaining_experiments_6h_v2\\measurements\\hardware__qft_10__s42__acceleration_half\\attempt_01\\worker\\resolved_request.json",
+    "resolved_request_sha256": "ed1f14bf2ca85d948378983524f3f1c605dc63c19013ef3d31a1b47389ff4626",
+    "counterfactual_schedule_sha256": "fb81656c45b99497f4a5f78c843a466a53ecab306cc134ec66f3fbe468fe446c",
+    "counterfactual_source_trace_sha256": "b4b47959a1393c35a75143815c000ce614e13cf405318d7119c6b190013c6f17",
+    "budget": {
+      "terms": {
+        "E_native_gate": 0.5263168914721494,
+        "E_transfer": 0.11405703802852309,
+        "E_heating_gate": 0.0004034386392947077,
+        "E_movement_loss": 0.0,
+        "E_cooling_gate": 0.0,
+        "E_decoherence": 0.16419029497508442
+      },
+      "terms_infinite": {
+        "E_native_gate": false,
+        "E_transfer": false,
+        "E_heating_gate": false,
+        "E_movement_loss": false,
+        "E_cooling_gate": false,
+        "E_decoherence": false
+      },
+      "total_E": 0.8049676631150516,
+      "total_E_infinite": false,
+      "fidelity_proxy": 0.44710238422395604,
+      "fidelity_underflow": false
+    },
+    "method": "default source decisions; requested geometry metadata if changed; requested profile; make_schedule(retime); evaluate"
+  },
+  {
+    "id": "hardware__qft_10__s42__coherence_long",
+    "fixed_source_schedule_path": "runs\\idea1_extension_v1\\campaign\\raw\\qft_10__s42__r0\\attempt_01\\worker\\L1A1\\baseline\\schedule.json",
+    "fixed_source_schedule_file_sha256": "d9809627f6fd760725c065fc83d8baf322d448e62bc46b940bf9cb3193fe07b4",
+    "resolved_request_path": "runs\\remaining_experiments_6h_v2\\measurements\\hardware__qft_10__s42__coherence_long\\attempt_01\\worker\\resolved_request.json",
+    "resolved_request_sha256": "a9e5792065fc94f2c35bf27f090321b0413d7ad9fedc551090781ecb8e3efc80",
+    "counterfactual_schedule_sha256": "88a8177501aead02be04633487685284da4c5e5abca6701046153c317495b670",
+    "counterfactual_source_trace_sha256": "b4b47959a1393c35a75143815c000ce614e13cf405318d7119c6b190013c6f17",
+    "budget": {
+      "terms": {
+        "E_native_gate": 0.5263168914721494,
+        "E_transfer": 0.11405703802852309,
+        "E_heating_gate": 0.0016137667047580297,
+        "E_movement_loss": 0.0,
+        "E_cooling_gate": 0.0,
+        "E_decoherence": 0.011994165843985896
+      },
+      "terms_infinite": {
+        "E_native_gate": false,
+        "E_transfer": false,
+        "E_heating_gate": false,
+        "E_movement_loss": false,
+        "E_cooling_gate": false,
+        "E_decoherence": false
+      },
+      "total_E": 0.6539818620494164,
+      "total_E_infinite": false,
+      "fidelity_proxy": 0.5199711955835813,
+      "fidelity_underflow": false
+    },
+    "method": "default source decisions; requested geometry metadata if changed; requested profile; make_schedule(retime); evaluate"
+  },
+  {
+    "id": "hardware__qft_10__s42__coherence_short",
+    "fixed_source_schedule_path": "runs\\idea1_extension_v1\\campaign\\raw\\qft_10__s42__r0\\attempt_01\\worker\\L1A1\\baseline\\schedule.json",
+    "fixed_source_schedule_file_sha256": "d9809627f6fd760725c065fc83d8baf322d448e62bc46b940bf9cb3193fe07b4",
+    "resolved_request_path": "runs\\remaining_experiments_6h_v2\\measurements\\hardware__qft_10__s42__coherence_short\\attempt_01\\worker\\resolved_request.json",
+    "resolved_request_sha256": "713e11343e710722f2b09f2477ff1cd2fd5dd620acb7173aff69ddd7c2c06e31",
+    "counterfactual_schedule_sha256": "35d7af9d314a9f8a5c1841f9068159f1fd11fbaa7cfd8634aee5cbb0e3cefcff",
+    "counterfactual_source_trace_sha256": "b4b47959a1393c35a75143815c000ce614e13cf405318d7119c6b190013c6f17",
+    "budget": {
+      "terms": {
+        "E_native_gate": 0.5263168914721494,
+        "E_transfer": 0.11405703802852309,
+        "E_heating_gate": 0.0016137667047580297,
+        "E_movement_loss": 0.0,
+        "E_cooling_gate": 0.0,
+        "E_decoherence": 1.1994165843985898
+      },
+      "terms_infinite": {
+        "E_native_gate": false,
+        "E_transfer": false,
+        "E_heating_gate": false,
+        "E_movement_loss": false,
+        "E_cooling_gate": false,
+        "E_decoherence": false
+      },
+      "total_E": 1.8414042806040203,
+      "total_E_infinite": false,
+      "fidelity_proxy": 0.15859455839688422,
+      "fidelity_underflow": false
+    },
+    "method": "default source decisions; requested geometry metadata if changed; requested profile; make_schedule(retime); evaluate"
+  },
+  {
+    "id": "hardware__qft_10__s42__heating_double",
+    "fixed_source_schedule_path": "runs\\idea1_extension_v1\\campaign\\raw\\qft_10__s42__r0\\attempt_01\\worker\\L1A1\\baseline\\schedule.json",
+    "fixed_source_schedule_file_sha256": "d9809627f6fd760725c065fc83d8baf322d448e62bc46b940bf9cb3193fe07b4",
+    "resolved_request_path": "runs\\remaining_experiments_6h_v2\\measurements\\hardware__qft_10__s42__heating_double\\attempt_01\\worker\\resolved_request.json",
+    "resolved_request_sha256": "e2407ea3d1a274b989682ffaf91bc6bcb06b115dc51fc9b0cbabe66bab7479b5",
+    "counterfactual_schedule_sha256": "80018586553ba376a623685d3e136304e91e4c8aaea23c62fca716eb2c91d8b4",
+    "counterfactual_source_trace_sha256": "b4b47959a1393c35a75143815c000ce614e13cf405318d7119c6b190013c6f17",
+    "budget": {
+      "terms": {
+        "E_native_gate": 0.5263168914721494,
+        "E_transfer": 0.11405703802852309,
+        "E_heating_gate": 0.0032275658039894696,
+        "E_movement_loss": 0.0,
+        "E_cooling_gate": 0.0,
+        "E_decoherence": 0.11994165843985898
+      },
+      "terms_infinite": {
+        "E_native_gate": false,
+        "E_transfer": false,
+        "E_heating_gate": false,
+        "E_movement_loss": false,
+        "E_cooling_gate": false,
+        "E_decoherence": false
+      },
+      "total_E": 0.763543153744521,
+      "total_E_infinite": false,
+      "fidelity_proxy": 0.4660123450216941,
+      "fidelity_underflow": false
+    },
+    "method": "default source decisions; requested geometry metadata if changed; requested profile; make_schedule(retime); evaluate"
+  },
+  {
+    "id": "hardware__qft_10__s42__heating_half",
+    "fixed_source_schedule_path": "runs\\idea1_extension_v1\\campaign\\raw\\qft_10__s42__r0\\attempt_01\\worker\\L1A1\\baseline\\schedule.json",
+    "fixed_source_schedule_file_sha256": "d9809627f6fd760725c065fc83d8baf322d448e62bc46b940bf9cb3193fe07b4",
+    "resolved_request_path": "runs\\remaining_experiments_6h_v2\\measurements\\hardware__qft_10__s42__heating_half\\attempt_01\\worker\\resolved_request.json",
+    "resolved_request_sha256": "bfafeae728ee4a3481be39341e8ef229b753a482763b4884e9b3e07eb870ad20",
+    "counterfactual_schedule_sha256": "0ec58fb5db2ec1411cabebf43d13059070dde128307d8f3918f8831a441d6afb",
+    "counterfactual_source_trace_sha256": "b4b47959a1393c35a75143815c000ce614e13cf405318d7119c6b190013c6f17",
+    "budget": {
+      "terms": {
+        "E_native_gate": 0.5263168914721494,
+        "E_transfer": 0.11405703802852309,
+        "E_heating_gate": 0.0008068793031693617,
+        "E_movement_loss": 0.0,
+        "E_cooling_gate": 0.0,
+        "E_decoherence": 0.11994165843985898
+      },
+      "terms_infinite": {
+        "E_native_gate": false,
+        "E_transfer": false,
+        "E_heating_gate": false,
+        "E_movement_loss": false,
+        "E_cooling_gate": false,
+        "E_decoherence": false
+      },
+      "total_E": 0.7611224672437009,
+      "total_E_infinite": false,
+      "fidelity_proxy": 0.46714178126852646,
+      "fidelity_underflow": false
+    },
+    "method": "default source decisions; requested geometry metadata if changed; requested profile; make_schedule(retime); evaluate"
+  },
+  {
+    "id": "hardware__qft_10__s42__parking_area_grid20",
+    "fixed_source_schedule_path": "runs\\idea1_extension_v1\\campaign\\raw\\qft_10__s42__r0\\attempt_01\\worker\\L1A1\\baseline\\schedule.json",
+    "fixed_source_schedule_file_sha256": "d9809627f6fd760725c065fc83d8baf322d448e62bc46b940bf9cb3193fe07b4",
+    "resolved_request_path": "runs\\remaining_experiments_6h_v2\\measurements\\hardware__qft_10__s42__parking_area_grid20\\attempt_01\\worker\\resolved_request.json",
+    "resolved_request_sha256": "0625095fa6ad7832bb434973282d9fc513babb81ed3f29b1b8d0e7caacbb39a3",
+    "counterfactual_schedule_sha256": "30bf742aa292cc5a4c767fcbcd903836c70d74c3c1f90adaa6fddc5eab5f9995",
+    "counterfactual_source_trace_sha256": "0b5e06aa292cda7b1efb95902cc8b31ac0c2b5e992b3b99cb402ae5edeca30fd",
+    "budget": {
+      "terms": {
+        "E_native_gate": 0.5263168914721494,
+        "E_transfer": 0.11405703802852309,
+        "E_heating_gate": 0.0016137667047580297,
+        "E_movement_loss": 0.0,
+        "E_cooling_gate": 0.0,
+        "E_decoherence": 0.11994165843985898
+      },
+      "terms_infinite": {
+        "E_native_gate": false,
+        "E_transfer": false,
+        "E_heating_gate": false,
+        "E_movement_loss": false,
+        "E_cooling_gate": false,
+        "E_decoherence": false
+      },
+      "total_E": 0.7619293546452895,
+      "total_E_infinite": false,
+      "fidelity_proxy": 0.4667650024799364,
+      "fidelity_underflow": false
+    },
+    "method": "default source decisions; requested geometry metadata if changed; requested profile; make_schedule(retime); evaluate"
+  },
+  {
+    "id": "hardware__qft_10__s42__parking_area_grid35",
+    "fixed_source_schedule_path": "runs\\idea1_extension_v1\\campaign\\raw\\qft_10__s42__r0\\attempt_01\\worker\\L1A1\\baseline\\schedule.json",
+    "fixed_source_schedule_file_sha256": "d9809627f6fd760725c065fc83d8baf322d448e62bc46b940bf9cb3193fe07b4",
+    "resolved_request_path": "runs\\remaining_experiments_6h_v2\\measurements\\hardware__qft_10__s42__parking_area_grid35\\attempt_01\\worker\\resolved_request.json",
+    "resolved_request_sha256": "ad473448c262cf95a1c256a480f7185f89ce2a9621d10523541f5cecea02b132",
+    "counterfactual_schedule_sha256": "5023f05cc48477e527ead69ba6e8961d54b645b7c93456bcc9c49d98301a3ae8",
+    "counterfactual_source_trace_sha256": "2f811bd305452b7e78540458d035409541c184406a04449f2420cc5a973e99dc",
+    "budget": {
+      "terms": {
+        "E_native_gate": 0.5263168914721494,
+        "E_transfer": 0.11405703802852309,
+        "E_heating_gate": 0.0016137667047580297,
+        "E_movement_loss": 0.0,
+        "E_cooling_gate": 0.0,
+        "E_decoherence": 0.11994165843985898
+      },
+      "terms_infinite": {
+        "E_native_gate": false,
+        "E_transfer": false,
+        "E_heating_gate": false,
+        "E_movement_loss": false,
+        "E_cooling_gate": false,
+        "E_decoherence": false
+      },
+      "total_E": 0.7619293546452895,
+      "total_E_infinite": false,
+      "fidelity_proxy": 0.4667650024799364,
+      "fidelity_underflow": false
+    },
+    "method": "default source decisions; requested geometry metadata if changed; requested profile; make_schedule(retime); evaluate"
+  },
+  {
+    "id": "hardware__qft_10__s42__transfer_higher",
+    "fixed_source_schedule_path": "runs\\idea1_extension_v1\\campaign\\raw\\qft_10__s42__r0\\attempt_01\\worker\\L1A1\\baseline\\schedule.json",
+    "fixed_source_schedule_file_sha256": "d9809627f6fd760725c065fc83d8baf322d448e62bc46b940bf9cb3193fe07b4",
+    "resolved_request_path": "runs\\remaining_experiments_6h_v2\\measurements\\hardware__qft_10__s42__transfer_higher\\attempt_01\\worker\\resolved_request.json",
+    "resolved_request_sha256": "4e6ab4826bed24e72a71c2597ac4299f152fc45183a9d80c0054b666d5cef7b6",
+    "counterfactual_schedule_sha256": "13566a9b4c5cbce30d52d4a83959557d14dd607566632536b30b84c073707846",
+    "counterfactual_source_trace_sha256": "b4b47959a1393c35a75143815c000ce614e13cf405318d7119c6b190013c6f17",
+    "budget": {
+      "terms": {
+        "E_native_gate": 0.5263168914721494,
+        "E_transfer": 0.011400570038001613,
+        "E_heating_gate": 0.0016137667047580297,
+        "E_movement_loss": 0.0,
+        "E_cooling_gate": 0.0,
+        "E_decoherence": 0.11994165843985898
+      },
+      "terms_infinite": {
+        "E_native_gate": false,
+        "E_transfer": false,
+        "E_heating_gate": false,
+        "E_movement_loss": false,
+        "E_cooling_gate": false,
+        "E_decoherence": false
+      },
+      "total_E": 0.659272886654768,
+      "total_E_infinite": false,
+      "fidelity_proxy": 0.5172272806556822,
+      "fidelity_underflow": false
+    },
+    "method": "default source decisions; requested geometry metadata if changed; requested profile; make_schedule(retime); evaluate"
+  },
+  {
+    "id": "hardware__qft_10__s42__transfer_lower",
+    "fixed_source_schedule_path": "runs\\idea1_extension_v1\\campaign\\raw\\qft_10__s42__r0\\attempt_01\\worker\\L1A1\\baseline\\schedule.json",
+    "fixed_source_schedule_file_sha256": "d9809627f6fd760725c065fc83d8baf322d448e62bc46b940bf9cb3193fe07b4",
+    "resolved_request_path": "runs\\remaining_experiments_6h_v2\\measurements\\hardware__qft_10__s42__transfer_lower\\attempt_01\\worker\\resolved_request.json",
+    "resolved_request_sha256": "9a9e424ebe9e773741fd27a8e8e1728289c40121ac56441eb96a2feaa6a09138",
+    "counterfactual_schedule_sha256": "faacade5be5aca0530f69ad2b42e5523408b8f12a7ebe736bedff22ccc2d926f",
+    "counterfactual_source_trace_sha256": "b4b47959a1393c35a75143815c000ce614e13cf405318d7119c6b190013c6f17",
+    "budget": {
+      "terms": {
+        "E_native_gate": 0.5263168914721494,
+        "E_transfer": 0.77784768968631,
+        "E_heating_gate": 0.0016137667047580297,
+        "E_movement_loss": 0.0,
+        "E_cooling_gate": 0.0,
+        "E_decoherence": 0.11994165843985898
+      },
+      "terms_infinite": {
+        "E_native_gate": false,
+        "E_transfer": false,
+        "E_heating_gate": false,
+        "E_movement_loss": false,
+        "E_cooling_gate": false,
+        "E_decoherence": false
+      },
+      "total_E": 1.4257200063030764,
+      "total_E_infinite": false,
+      "fidelity_proxy": 0.2403353579248148,
+      "fidelity_underflow": false
+    },
+    "method": "default source decisions; requested geometry metadata if changed; requested profile; make_schedule(retime); evaluate"
+  },
+  {
+    "id": "hardware__qft_10__s43__acceleration_double",
+    "fixed_source_schedule_path": "runs\\idea1_extension_v1\\campaign\\raw\\qft_10__s43__r0\\attempt_01\\worker\\L1A1\\baseline\\schedule.json",
+    "fixed_source_schedule_file_sha256": "cf80ab919420067e8614d92a62c4a5b770b82f7db633fcb5be745c880e0b4302",
+    "resolved_request_path": "runs\\remaining_experiments_6h_v2\\measurements\\hardware__qft_10__s43__acceleration_double\\attempt_01\\worker\\resolved_request.json",
+    "resolved_request_sha256": "684fe29ecbe12353ea8c243489bb1ecc4e35ec8124b2f525bc46720f377b2801",
+    "counterfactual_schedule_sha256": "36c1771246b0d5605841e59944f37804e754fdaa0fa532df6ff9b8aaec3eaca5",
+    "counterfactual_source_trace_sha256": "931272b2e633167d79faa5ddba1dd056b9766d05530f7fb493c2633866ceabb3",
+    "budget": {
+      "terms": {
+        "E_native_gate": 0.5263168914721494,
+        "E_transfer": 0.11405703802852309,
+        "E_heating_gate": 0.00645526119224259,
+        "E_movement_loss": 0.0,
+        "E_cooling_gate": 0.0,
+        "E_decoherence": 0.08865314748754222
+      },
+      "terms_infinite": {
+        "E_native_gate": false,
+        "E_transfer": false,
+        "E_heating_gate": false,
+        "E_movement_loss": false,
+        "E_cooling_gate": false,
+        "E_decoherence": false
+      },
+      "total_E": 0.7354823381804574,
+      "total_E_infinite": false,
+      "fidelity_proxy": 0.47927423095382715,
+      "fidelity_underflow": false
+    },
+    "method": "default source decisions; requested geometry metadata if changed; requested profile; make_schedule(retime); evaluate"
+  },
+  {
+    "id": "hardware__qft_10__s43__acceleration_half",
+    "fixed_source_schedule_path": "runs\\idea1_extension_v1\\campaign\\raw\\qft_10__s43__r0\\attempt_01\\worker\\L1A1\\baseline\\schedule.json",
+    "fixed_source_schedule_file_sha256": "cf80ab919420067e8614d92a62c4a5b770b82f7db633fcb5be745c880e0b4302",
+    "resolved_request_path": "runs\\remaining_experiments_6h_v2\\measurements\\hardware__qft_10__s43__acceleration_half\\attempt_01\\worker\\resolved_request.json",
+    "resolved_request_sha256": "5681a01fc9de263a23d8889dbd35ffb6a4515c66c84a2952a49bd903d60be4b8",
+    "counterfactual_schedule_sha256": "694e3b91a745d95d0ce8ead346d4970349d5637c91db49b8f257cf5a7137ac33",
+    "counterfactual_source_trace_sha256": "931272b2e633167d79faa5ddba1dd056b9766d05530f7fb493c2633866ceabb3",
+    "budget": {
+      "terms": {
+        "E_native_gate": 0.5263168914721494,
+        "E_transfer": 0.11405703802852309,
+        "E_heating_gate": 0.0004034386392947077,
+        "E_movement_loss": 0.0,
+        "E_cooling_gate": 0.0,
+        "E_decoherence": 0.1641902949750844
+      },
+      "terms_infinite": {
+        "E_native_gate": false,
+        "E_transfer": false,
+        "E_heating_gate": false,
+        "E_movement_loss": false,
+        "E_cooling_gate": false,
+        "E_decoherence": false
+      },
+      "total_E": 0.8049676631150516,
+      "total_E_infinite": false,
+      "fidelity_proxy": 0.44710238422395604,
+      "fidelity_underflow": false
+    },
+    "method": "default source decisions; requested geometry metadata if changed; requested profile; make_schedule(retime); evaluate"
+  },
+  {
+    "id": "hardware__qft_10__s43__coherence_long",
+    "fixed_source_schedule_path": "runs\\idea1_extension_v1\\campaign\\raw\\qft_10__s43__r0\\attempt_01\\worker\\L1A1\\baseline\\schedule.json",
+    "fixed_source_schedule_file_sha256": "cf80ab919420067e8614d92a62c4a5b770b82f7db633fcb5be745c880e0b4302",
+    "resolved_request_path": "runs\\remaining_experiments_6h_v2\\measurements\\hardware__qft_10__s43__coherence_long\\attempt_01\\worker\\resolved_request.json",
+    "resolved_request_sha256": "f33e05a992f0305cec941df6ee30bb24abf34c83b5d727764b82d622a35827f3",
+    "counterfactual_schedule_sha256": "b63147c41b52b765b6af2d5e41c5b78876345ccc2f57b40959cf8aba6be060d5",
+    "counterfactual_source_trace_sha256": "931272b2e633167d79faa5ddba1dd056b9766d05530f7fb493c2633866ceabb3",
+    "budget": {
+      "terms": {
+        "E_native_gate": 0.5263168914721494,
+        "E_transfer": 0.11405703802852309,
+        "E_heating_gate": 0.0016137667047580297,
+        "E_movement_loss": 0.0,
+        "E_cooling_gate": 0.0,
+        "E_decoherence": 0.011994165843985896
+      },
+      "terms_infinite": {
+        "E_native_gate": false,
+        "E_transfer": false,
+        "E_heating_gate": false,
+        "E_movement_loss": false,
+        "E_cooling_gate": false,
+        "E_decoherence": false
+      },
+      "total_E": 0.6539818620494164,
+      "total_E_infinite": false,
+      "fidelity_proxy": 0.5199711955835813,
+      "fidelity_underflow": false
+    },
+    "method": "default source decisions; requested geometry metadata if changed; requested profile; make_schedule(retime); evaluate"
+  },
+  {
+    "id": "hardware__qft_10__s43__coherence_short",
+    "fixed_source_schedule_path": "runs\\idea1_extension_v1\\campaign\\raw\\qft_10__s43__r0\\attempt_01\\worker\\L1A1\\baseline\\schedule.json",
+    "fixed_source_schedule_file_sha256": "cf80ab919420067e8614d92a62c4a5b770b82f7db633fcb5be745c880e0b4302",
+    "resolved_request_path": "runs\\remaining_experiments_6h_v2\\measurements\\hardware__qft_10__s43__coherence_short\\attempt_01\\worker\\resolved_request.json",
+    "resolved_request_sha256": "5921f806201d7b337acf56169c30e891f6624ff8526bc54bb63a4086e8cdcb1c",
+    "counterfactual_schedule_sha256": "f41ff7345992ea064c6316b762a4911fd0fec7777352c061a7630b4ae2178969",
+    "counterfactual_source_trace_sha256": "931272b2e633167d79faa5ddba1dd056b9766d05530f7fb493c2633866ceabb3",
+    "budget": {
+      "terms": {
+        "E_native_gate": 0.5263168914721494,
+        "E_transfer": 0.11405703802852309,
+        "E_heating_gate": 0.0016137667047580297,
+        "E_movement_loss": 0.0,
+        "E_cooling_gate": 0.0,
+        "E_decoherence": 1.1994165843985898
+      },
+      "terms_infinite": {
+        "E_native_gate": false,
+        "E_transfer": false,
+        "E_heating_gate": false,
+        "E_movement_loss": false,
+        "E_cooling_gate": false,
+        "E_decoherence": false
+      },
+      "total_E": 1.8414042806040203,
+      "total_E_infinite": false,
+      "fidelity_proxy": 0.15859455839688422,
+      "fidelity_underflow": false
+    },
+    "method": "default source decisions; requested geometry metadata if changed; requested profile; make_schedule(retime); evaluate"
+  },
+  {
+    "id": "hardware__qft_10__s43__heating_double",
+    "fixed_source_schedule_path": "runs\\idea1_extension_v1\\campaign\\raw\\qft_10__s43__r0\\attempt_01\\worker\\L1A1\\baseline\\schedule.json",
+    "fixed_source_schedule_file_sha256": "cf80ab919420067e8614d92a62c4a5b770b82f7db633fcb5be745c880e0b4302",
+    "resolved_request_path": "runs\\remaining_experiments_6h_v2\\measurements\\hardware__qft_10__s43__heating_double\\attempt_01\\worker\\resolved_request.json",
+    "resolved_request_sha256": "8eb44e586f72ae3e0d1acd8ef33416946c3e8b83840f506df6855d5d07f7c130",
+    "counterfactual_schedule_sha256": "d1d8e4858b862da97f22b10bf9551ab02b39c931850371f9cc74db3b06e6777a",
+    "counterfactual_source_trace_sha256": "931272b2e633167d79faa5ddba1dd056b9766d05530f7fb493c2633866ceabb3",
+    "budget": {
+      "terms": {
+        "E_native_gate": 0.5263168914721494,
+        "E_transfer": 0.11405703802852309,
+        "E_heating_gate": 0.0032275658039894696,
+        "E_movement_loss": 0.0,
+        "E_cooling_gate": 0.0,
+        "E_decoherence": 0.11994165843985898
+      },
+      "terms_infinite": {
+        "E_native_gate": false,
+        "E_transfer": false,
+        "E_heating_gate": false,
+        "E_movement_loss": false,
+        "E_cooling_gate": false,
+        "E_decoherence": false
+      },
+      "total_E": 0.763543153744521,
+      "total_E_infinite": false,
+      "fidelity_proxy": 0.4660123450216941,
+      "fidelity_underflow": false
+    },
+    "method": "default source decisions; requested geometry metadata if changed; requested profile; make_schedule(retime); evaluate"
+  },
+  {
+    "id": "hardware__qft_10__s43__heating_half",
+    "fixed_source_schedule_path": "runs\\idea1_extension_v1\\campaign\\raw\\qft_10__s43__r0\\attempt_01\\worker\\L1A1\\baseline\\schedule.json",
+    "fixed_source_schedule_file_sha256": "cf80ab919420067e8614d92a62c4a5b770b82f7db633fcb5be745c880e0b4302",
+    "resolved_request_path": "runs\\remaining_experiments_6h_v2\\measurements\\hardware__qft_10__s43__heating_half\\attempt_01\\worker\\resolved_request.json",
+    "resolved_request_sha256": "43398df16fc6f75ed9502e032428cef74d87ff2499817a0aca0666e1aac3bbe0",
+    "counterfactual_schedule_sha256": "8dff6abe06172ffc6a8c938a2bd3b931ea15e6af6c901e3cf81614b85a25c45e",
+    "counterfactual_source_trace_sha256": "931272b2e633167d79faa5ddba1dd056b9766d05530f7fb493c2633866ceabb3",
+    "budget": {
+      "terms": {
+        "E_native_gate": 0.5263168914721494,
+        "E_transfer": 0.11405703802852309,
+        "E_heating_gate": 0.0008068793031693617,
+        "E_movement_loss": 0.0,
+        "E_cooling_gate": 0.0,
+        "E_decoherence": 0.11994165843985898
+      },
+      "terms_infinite": {
+        "E_native_gate": false,
+        "E_transfer": false,
+        "E_heating_gate": false,
+        "E_movement_loss": false,
+        "E_cooling_gate": false,
+        "E_decoherence": false
+      },
+      "total_E": 0.7611224672437009,
+      "total_E_infinite": false,
+      "fidelity_proxy": 0.46714178126852646,
+      "fidelity_underflow": false
+    },
+    "method": "default source decisions; requested geometry metadata if changed; requested profile; make_schedule(retime); evaluate"
+  },
+  {
+    "id": "hardware__qft_10__s43__parking_area_grid20",
+    "fixed_source_schedule_path": "runs\\idea1_extension_v1\\campaign\\raw\\qft_10__s43__r0\\attempt_01\\worker\\L1A1\\baseline\\schedule.json",
+    "fixed_source_schedule_file_sha256": "cf80ab919420067e8614d92a62c4a5b770b82f7db633fcb5be745c880e0b4302",
+    "resolved_request_path": "runs\\remaining_experiments_6h_v2\\measurements\\hardware__qft_10__s43__parking_area_grid20\\attempt_01\\worker\\resolved_request.json",
+    "resolved_request_sha256": "710af0c8fa66186cbd2427858e90facde5d804157f169008a5fee78d8dcd8f8f",
+    "counterfactual_schedule_sha256": "6e94f5f6522e7de6ea2db0cfcd5d7aed9eb4615269494c43676964ba2d153366",
+    "counterfactual_source_trace_sha256": "86da6efa7e3a2f889f63844860d3b7e5374be4b80083a484baed78d72d355c29",
+    "budget": {
+      "terms": {
+        "E_native_gate": 0.5263168914721494,
+        "E_transfer": 0.11405703802852309,
+        "E_heating_gate": 0.0016137667047580297,
+        "E_movement_loss": 0.0,
+        "E_cooling_gate": 0.0,
+        "E_decoherence": 0.11994165843985898
+      },
+      "terms_infinite": {
+        "E_native_gate": false,
+        "E_transfer": false,
+        "E_heating_gate": false,
+        "E_movement_loss": false,
+        "E_cooling_gate": false,
+        "E_decoherence": false
+      },
+      "total_E": 0.7619293546452895,
+      "total_E_infinite": false,
+      "fidelity_proxy": 0.4667650024799364,
+      "fidelity_underflow": false
+    },
+    "method": "default source decisions; requested geometry metadata if changed; requested profile; make_schedule(retime); evaluate"
+  },
+  {
+    "id": "hardware__qft_10__s43__parking_area_grid35",
+    "fixed_source_schedule_path": "runs\\idea1_extension_v1\\campaign\\raw\\qft_10__s43__r0\\attempt_01\\worker\\L1A1\\baseline\\schedule.json",
+    "fixed_source_schedule_file_sha256": "cf80ab919420067e8614d92a62c4a5b770b82f7db633fcb5be745c880e0b4302",
+    "resolved_request_path": "runs\\remaining_experiments_6h_v2\\measurements\\hardware__qft_10__s43__parking_area_grid35\\attempt_01\\worker\\resolved_request.json",
+    "resolved_request_sha256": "848b252fe9b1fc552d43acde27ddd77a3a09ec53027a005803635f85e03f7bc3",
+    "counterfactual_schedule_sha256": "608785ceb1391138abb9480cb8800ed50fbb6f4d3763c1912cb9f47f691cde95",
+    "counterfactual_source_trace_sha256": "d47344017a46fbc002f9f19f68bfda55f748c6c56b10e9fbbd66679a9b69967f",
+    "budget": {
+      "terms": {
+        "E_native_gate": 0.5263168914721494,
+        "E_transfer": 0.11405703802852309,
+        "E_heating_gate": 0.0016137667047580297,
+        "E_movement_loss": 0.0,
+        "E_cooling_gate": 0.0,
+        "E_decoherence": 0.11994165843985898
+      },
+      "terms_infinite": {
+        "E_native_gate": false,
+        "E_transfer": false,
+        "E_heating_gate": false,
+        "E_movement_loss": false,
+        "E_cooling_gate": false,
+        "E_decoherence": false
+      },
+      "total_E": 0.7619293546452895,
+      "total_E_infinite": false,
+      "fidelity_proxy": 0.4667650024799364,
+      "fidelity_underflow": false
+    },
+    "method": "default source decisions; requested geometry metadata if changed; requested profile; make_schedule(retime); evaluate"
+  },
+  {
+    "id": "hardware__qft_10__s43__transfer_higher",
+    "fixed_source_schedule_path": "runs\\idea1_extension_v1\\campaign\\raw\\qft_10__s43__r0\\attempt_01\\worker\\L1A1\\baseline\\schedule.json",
+    "fixed_source_schedule_file_sha256": "cf80ab919420067e8614d92a62c4a5b770b82f7db633fcb5be745c880e0b4302",
+    "resolved_request_path": "runs\\remaining_experiments_6h_v2\\measurements\\hardware__qft_10__s43__transfer_higher\\attempt_01\\worker\\resolved_request.json",
+    "resolved_request_sha256": "366b24a6d379b7d62c7ef9138f3875d9261c49e128766ded45febfeb15cc807c",
+    "counterfactual_schedule_sha256": "0da0c2860e280f078221b6c1b53b8501f6f42e6776222bad0df3d5816411bd50",
+    "counterfactual_source_trace_sha256": "931272b2e633167d79faa5ddba1dd056b9766d05530f7fb493c2633866ceabb3",
+    "budget": {
+      "terms": {
+        "E_native_gate": 0.5263168914721494,
+        "E_transfer": 0.011400570038001613,
+        "E_heating_gate": 0.0016137667047580297,
+        "E_movement_loss": 0.0,
+        "E_cooling_gate": 0.0,
+        "E_decoherence": 0.11994165843985898
+      },
+      "terms_infinite": {
+        "E_native_gate": false,
+        "E_transfer": false,
+        "E_heating_gate": false,
+        "E_movement_loss": false,
+        "E_cooling_gate": false,
+        "E_decoherence": false
+      },
+      "total_E": 0.659272886654768,
+      "total_E_infinite": false,
+      "fidelity_proxy": 0.5172272806556822,
+      "fidelity_underflow": false
+    },
+    "method": "default source decisions; requested geometry metadata if changed; requested profile; make_schedule(retime); evaluate"
+  },
+  {
+    "id": "hardware__qft_10__s43__transfer_lower",
+    "fixed_source_schedule_path": "runs\\idea1_extension_v1\\campaign\\raw\\qft_10__s43__r0\\attempt_01\\worker\\L1A1\\baseline\\schedule.json",
+    "fixed_source_schedule_file_sha256": "cf80ab919420067e8614d92a62c4a5b770b82f7db633fcb5be745c880e0b4302",
+    "resolved_request_path": "runs\\remaining_experiments_6h_v2\\measurements\\hardware__qft_10__s43__transfer_lower\\attempt_01\\worker\\resolved_request.json",
+    "resolved_request_sha256": "2ae2cf72654f84128f4404bc41edff69133ea02fefe385a1997b2f10266aca94",
+    "counterfactual_schedule_sha256": "f61af8df5a5efedbfb039f9f3ad8309e3883ac0f48db9d6ab0f15bc601923516",
+    "counterfactual_source_trace_sha256": "931272b2e633167d79faa5ddba1dd056b9766d05530f7fb493c2633866ceabb3",
+    "budget": {
+      "terms": {
+        "E_native_gate": 0.5263168914721494,
+        "E_transfer": 0.7778476896863099,
+        "E_heating_gate": 0.0016137667047580297,
+        "E_movement_loss": 0.0,
+        "E_cooling_gate": 0.0,
+        "E_decoherence": 0.11994165843985898
+      },
+      "terms_infinite": {
+        "E_native_gate": false,
+        "E_transfer": false,
+        "E_heating_gate": false,
+        "E_movement_loss": false,
+        "E_cooling_gate": false,
+        "E_decoherence": false
+      },
+      "total_E": 1.4257200063030764,
+      "total_E_infinite": false,
+      "fidelity_proxy": 0.2403353579248148,
+      "fidelity_underflow": false
+    },
+    "method": "default source decisions; requested geometry metadata if changed; requested profile; make_schedule(retime); evaluate"
+  },
+  {
+    "id": "hardware__qv_n8_d4_s702__s41__acceleration_double",
+    "fixed_source_schedule_path": "runs\\idea1_extension_v1\\campaign\\raw\\qv_n8_d4_s702__s41__r0\\attempt_01\\worker\\L1A1\\baseline\\schedule.json",
+    "fixed_source_schedule_file_sha256": "501e36779be54bd948467a97a1948f646e61201ef1a1fcbc37b1d5e98f71ba11",
+    "resolved_request_path": "runs\\remaining_experiments_6h_v2\\measurements\\hardware__qv_n8_d4_s702__s41__acceleration_double\\attempt_01\\worker\\resolved_request.json",
+    "resolved_request_sha256": "8a09b527d74428a0e16253a1841588fe9c591debde49795665a8692d7a75056d",
+    "counterfactual_schedule_sha256": "b15e271d51a922be23691963fe8aa3163503461b1c466dcdb1e398e9dfc63b63",
+    "counterfactual_source_trace_sha256": "b7b3c1e0e003557e31820a153fe5d1b51f6edf02cb59235569305df61de1baed",
+    "budget": {
+      "terms": {
+        "E_native_gate": 0.24060200753012598,
+        "E_transfer": 0.024012008006004816,
+        "E_heating_gate": 0.0007761240437347596,
+        "E_movement_loss": 0.0,
+        "E_cooling_gate": 0.0,
+        "E_decoherence": 0.014030936847082337
+      },
+      "terms_infinite": {
+        "E_native_gate": false,
+        "E_transfer": false,
+        "E_heating_gate": false,
+        "E_movement_loss": false,
+        "E_cooling_gate": false,
+        "E_decoherence": false
+      },
+      "total_E": 0.2794210764269479,
+      "total_E_infinite": false,
+      "fidelity_proxy": 0.7562214091556342,
+      "fidelity_underflow": false
+    },
+    "method": "default source decisions; requested geometry metadata if changed; requested profile; make_schedule(retime); evaluate"
+  },
+  {
+    "id": "hardware__qv_n8_d4_s702__s41__acceleration_half",
+    "fixed_source_schedule_path": "runs\\idea1_extension_v1\\campaign\\raw\\qv_n8_d4_s702__s41__r0\\attempt_01\\worker\\L1A1\\baseline\\schedule.json",
+    "fixed_source_schedule_file_sha256": "501e36779be54bd948467a97a1948f646e61201ef1a1fcbc37b1d5e98f71ba11",
+    "resolved_request_path": "runs\\remaining_experiments_6h_v2\\measurements\\hardware__qv_n8_d4_s702__s41__acceleration_half\\attempt_01\\worker\\resolved_request.json",
+    "resolved_request_sha256": "ac9f6f79b36a0ca731cf4c95e4759a9d10aa047168e041bfb937bf5f6930af95",
+    "counterfactual_schedule_sha256": "2be6f964543c160a6d9d4e8f56bf86e04832eadef41e02980faec16f285a7fb3",
+    "counterfactual_source_trace_sha256": "b7b3c1e0e003557e31820a153fe5d1b51f6edf02cb59235569305df61de1baed",
+    "budget": {
+      "terms": {
+        "E_native_gate": 0.24060200753012598,
+        "E_transfer": 0.024012008006004816,
+        "E_heating_gate": 4.8507044036839254e-05,
+        "E_movement_loss": 0.0,
+        "E_cooling_gate": 0.0,
+        "E_decoherence": 0.02590934036083134
+      },
+      "terms_infinite": {
+        "E_native_gate": false,
+        "E_transfer": false,
+        "E_heating_gate": false,
+        "E_movement_loss": false,
+        "E_cooling_gate": false,
+        "E_decoherence": false
+      },
+      "total_E": 0.29057186294099896,
+      "total_E_infinite": false,
+      "fidelity_proxy": 0.7478357857021264,
+      "fidelity_underflow": false
+    },
+    "method": "default source decisions; requested geometry metadata if changed; requested profile; make_schedule(retime); evaluate"
+  },
+  {
+    "id": "hardware__qv_n8_d4_s702__s41__coherence_long",
+    "fixed_source_schedule_path": "runs\\idea1_extension_v1\\campaign\\raw\\qv_n8_d4_s702__s41__r0\\attempt_01\\worker\\L1A1\\baseline\\schedule.json",
+    "fixed_source_schedule_file_sha256": "501e36779be54bd948467a97a1948f646e61201ef1a1fcbc37b1d5e98f71ba11",
+    "resolved_request_path": "runs\\remaining_experiments_6h_v2\\measurements\\hardware__qv_n8_d4_s702__s41__coherence_long\\attempt_01\\worker\\resolved_request.json",
+    "resolved_request_sha256": "e42e636b989f8a4a7cb14aca50ca36f4fafa564fa751c902bef35cac78f3c0a8",
+    "counterfactual_schedule_sha256": "7b979560b1c214b1825416afa40ce97d73636fc37c3cb4d60a7575792b918a84",
+    "counterfactual_source_trace_sha256": "b7b3c1e0e003557e31820a153fe5d1b51f6edf02cb59235569305df61de1baed",
+    "budget": {
+      "terms": {
+        "E_native_gate": 0.24060200753012598,
+        "E_transfer": 0.024012008006004816,
+        "E_heating_gate": 0.00019402874309372816,
+        "E_movement_loss": 0.0,
+        "E_cooling_gate": 0.0,
+        "E_decoherence": 0.0018951132681817395
+      },
+      "terms_infinite": {
+        "E_native_gate": false,
+        "E_transfer": false,
+        "E_heating_gate": false,
+        "E_movement_loss": false,
+        "E_cooling_gate": false,
+        "E_decoherence": false
+      },
+      "total_E": 0.26670315754740626,
+      "total_E_infinite": false,
+      "fidelity_proxy": 0.7659003894749412,
+      "fidelity_underflow": false
+    },
+    "method": "default source decisions; requested geometry metadata if changed; requested profile; make_schedule(retime); evaluate"
+  },
+  {
+    "id": "hardware__qv_n8_d4_s702__s41__coherence_short",
+    "fixed_source_schedule_path": "runs\\idea1_extension_v1\\campaign\\raw\\qv_n8_d4_s702__s41__r0\\attempt_01\\worker\\L1A1\\baseline\\schedule.json",
+    "fixed_source_schedule_file_sha256": "501e36779be54bd948467a97a1948f646e61201ef1a1fcbc37b1d5e98f71ba11",
+    "resolved_request_path": "runs\\remaining_experiments_6h_v2\\measurements\\hardware__qv_n8_d4_s702__s41__coherence_short\\attempt_01\\worker\\resolved_request.json",
+    "resolved_request_sha256": "1e464b923eaa0918cd39ae48b1efa19ab4a2a995e1c1c1a021ea3a3a19748677",
+    "counterfactual_schedule_sha256": "b6bcb59aa6d44b4b116ae98bcea122553d739030bd1ec41659b5d68d11eb07de",
+    "counterfactual_source_trace_sha256": "b7b3c1e0e003557e31820a153fe5d1b51f6edf02cb59235569305df61de1baed",
+    "budget": {
+      "terms": {
+        "E_native_gate": 0.24060200753012598,
+        "E_transfer": 0.024012008006004816,
+        "E_heating_gate": 0.00019402874309372816,
+        "E_movement_loss": 0.0,
+        "E_cooling_gate": 0.0,
+        "E_decoherence": 0.18951132681817395
+      },
+      "terms_infinite": {
+        "E_native_gate": false,
+        "E_transfer": false,
+        "E_heating_gate": false,
+        "E_movement_loss": false,
+        "E_cooling_gate": false,
+        "E_decoherence": false
+      },
+      "total_E": 0.45431937109739845,
+      "total_E_infinite": false,
+      "fidelity_proxy": 0.6348799385615768,
+      "fidelity_underflow": false
+    },
+    "method": "default source decisions; requested geometry metadata if changed; requested profile; make_schedule(retime); evaluate"
+  },
+  {
+    "id": "hardware__qv_n8_d4_s702__s41__heating_double",
+    "fixed_source_schedule_path": "runs\\idea1_extension_v1\\campaign\\raw\\qv_n8_d4_s702__s41__r0\\attempt_01\\worker\\L1A1\\baseline\\schedule.json",
+    "fixed_source_schedule_file_sha256": "501e36779be54bd948467a97a1948f646e61201ef1a1fcbc37b1d5e98f71ba11",
+    "resolved_request_path": "runs\\remaining_experiments_6h_v2\\measurements\\hardware__qv_n8_d4_s702__s41__heating_double\\attempt_01\\worker\\resolved_request.json",
+    "resolved_request_sha256": "b90f2fb2fb9b9be400d70d0386a08b4c4fde9f2759eda8b762806f7e01c4c7f2",
+    "counterfactual_schedule_sha256": "3ee12fb5aa4b87b044473c316c6b6f4b4b21f7615a4da29990e3cbdff9eb2ada",
+    "counterfactual_source_trace_sha256": "b7b3c1e0e003557e31820a153fe5d1b51f6edf02cb59235569305df61de1baed",
+    "budget": {
+      "terms": {
+        "E_native_gate": 0.24060200753012598,
+        "E_transfer": 0.024012008006004816,
+        "E_heating_gate": 0.00038805899806139426,
+        "E_movement_loss": 0.0,
+        "E_cooling_gate": 0.0,
+        "E_decoherence": 0.018951132681817397
+      },
+      "terms_infinite": {
+        "E_native_gate": false,
+        "E_transfer": false,
+        "E_heating_gate": false,
+        "E_movement_loss": false,
+        "E_cooling_gate": false,
+        "E_decoherence": false
+      },
+      "total_E": 0.2839532072160096,
+      "total_E_infinite": false,
+      "fidelity_proxy": 0.7528018695773256,
+      "fidelity_underflow": false
+    },
+    "method": "default source decisions; requested geometry metadata if changed; requested profile; make_schedule(retime); evaluate"
+  },
+  {
+    "id": "hardware__qv_n8_d4_s702__s41__heating_half",
+    "fixed_source_schedule_path": "runs\\idea1_extension_v1\\campaign\\raw\\qv_n8_d4_s702__s41__r0\\attempt_01\\worker\\L1A1\\baseline\\schedule.json",
+    "fixed_source_schedule_file_sha256": "501e36779be54bd948467a97a1948f646e61201ef1a1fcbc37b1d5e98f71ba11",
+    "resolved_request_path": "runs\\remaining_experiments_6h_v2\\measurements\\hardware__qv_n8_d4_s702__s41__heating_half\\attempt_01\\worker\\resolved_request.json",
+    "resolved_request_sha256": "778a1abd2d48ca0278f20724838efd68fc9fa52955f2c01ad5a143511796b1df",
+    "counterfactual_schedule_sha256": "56bc717281e520fbcbd09450231e82d28c2e4c0592d69757edad89fb1927f476",
+    "counterfactual_source_trace_sha256": "b7b3c1e0e003557e31820a153fe5d1b51f6edf02cb59235569305df61de1baed",
+    "budget": {
+      "terms": {
+        "E_native_gate": 0.24060200753012598,
+        "E_transfer": 0.024012008006004816,
+        "E_heating_gate": 9.701418256443775e-05,
+        "E_movement_loss": 0.0,
+        "E_cooling_gate": 0.0,
+        "E_decoherence": 0.018951132681817397
+      },
+      "terms_infinite": {
+        "E_native_gate": false,
+        "E_transfer": false,
+        "E_heating_gate": false,
+        "E_movement_loss": false,
+        "E_cooling_gate": false,
+        "E_decoherence": false
+      },
+      "total_E": 0.2836621624005126,
+      "total_E_infinite": false,
+      "fidelity_proxy": 0.7530210005454818,
+      "fidelity_underflow": false
+    },
+    "method": "default source decisions; requested geometry metadata if changed; requested profile; make_schedule(retime); evaluate"
+  },
+  {
+    "id": "hardware__qv_n8_d4_s702__s41__parking_area_grid20",
+    "fixed_source_schedule_path": "runs\\idea1_extension_v1\\campaign\\raw\\qv_n8_d4_s702__s41__r0\\attempt_01\\worker\\L1A1\\baseline\\schedule.json",
+    "fixed_source_schedule_file_sha256": "501e36779be54bd948467a97a1948f646e61201ef1a1fcbc37b1d5e98f71ba11",
+    "resolved_request_path": "runs\\remaining_experiments_6h_v2\\measurements\\hardware__qv_n8_d4_s702__s41__parking_area_grid20\\attempt_01\\worker\\resolved_request.json",
+    "resolved_request_sha256": "108c9fbde17963a47b0ea89b9262c6b1915603f779e6535259dc9b763fb3f41d",
+    "counterfactual_schedule_sha256": "b3acd325caaabf5f1acc374d6b4cd4a0864155003903096f31a62dfa9163f9fc",
+    "counterfactual_source_trace_sha256": "71d67b8b3deb5005a77fc4a91f6b0c6fdef3a8b5e30076719ca2e7840cdc9dad",
+    "budget": {
+      "terms": {
+        "E_native_gate": 0.24060200753012598,
+        "E_transfer": 0.024012008006004816,
+        "E_heating_gate": 0.00019402874309372816,
+        "E_movement_loss": 0.0,
+        "E_cooling_gate": 0.0,
+        "E_decoherence": 0.018951132681817397
+      },
+      "terms_infinite": {
+        "E_native_gate": false,
+        "E_transfer": false,
+        "E_heating_gate": false,
+        "E_movement_loss": false,
+        "E_cooling_gate": false,
+        "E_decoherence": false
+      },
+      "total_E": 0.2837591769610419,
+      "total_E_infinite": false,
+      "fidelity_proxy": 0.7529479500875809,
+      "fidelity_underflow": false
+    },
+    "method": "default source decisions; requested geometry metadata if changed; requested profile; make_schedule(retime); evaluate"
+  },
+  {
+    "id": "hardware__qv_n8_d4_s702__s41__parking_area_grid35",
+    "fixed_source_schedule_path": "runs\\idea1_extension_v1\\campaign\\raw\\qv_n8_d4_s702__s41__r0\\attempt_01\\worker\\L1A1\\baseline\\schedule.json",
+    "fixed_source_schedule_file_sha256": "501e36779be54bd948467a97a1948f646e61201ef1a1fcbc37b1d5e98f71ba11",
+    "resolved_request_path": "runs\\remaining_experiments_6h_v2\\measurements\\hardware__qv_n8_d4_s702__s41__parking_area_grid35\\attempt_01\\worker\\resolved_request.json",
+    "resolved_request_sha256": "f0df4eac9187a2e54186b841bca54801574fda843e29ed5125ac6830b37dd190",
+    "counterfactual_schedule_sha256": "6436b1ad613381a6eeb46a4fb115d54028335ce87015e75415c7ca6ce982f991",
+    "counterfactual_source_trace_sha256": "a6ba69968feab55a21e3b945acc0be4cad8fd1208a5f4e5c664dadd15129dbfc",
+    "budget": {
+      "terms": {
+        "E_native_gate": 0.24060200753012598,
+        "E_transfer": 0.024012008006004816,
+        "E_heating_gate": 0.00019402874309372816,
+        "E_movement_loss": 0.0,
+        "E_cooling_gate": 0.0,
+        "E_decoherence": 0.018951132681817397
+      },
+      "terms_infinite": {
+        "E_native_gate": false,
+        "E_transfer": false,
+        "E_heating_gate": false,
+        "E_movement_loss": false,
+        "E_cooling_gate": false,
+        "E_decoherence": false
+      },
+      "total_E": 0.2837591769610419,
+      "total_E_infinite": false,
+      "fidelity_proxy": 0.7529479500875809,
+      "fidelity_underflow": false
+    },
+    "method": "default source decisions; requested geometry metadata if changed; requested profile; make_schedule(retime); evaluate"
+  },
+  {
+    "id": "hardware__qv_n8_d4_s702__s41__transfer_higher",
+    "fixed_source_schedule_path": "runs\\idea1_extension_v1\\campaign\\raw\\qv_n8_d4_s702__s41__r0\\attempt_01\\worker\\L1A1\\baseline\\schedule.json",
+    "fixed_source_schedule_file_sha256": "501e36779be54bd948467a97a1948f646e61201ef1a1fcbc37b1d5e98f71ba11",
+    "resolved_request_path": "runs\\remaining_experiments_6h_v2\\measurements\\hardware__qv_n8_d4_s702__s41__transfer_higher\\attempt_01\\worker\\resolved_request.json",
+    "resolved_request_sha256": "beaf0ed6663b0459bc18061ea69f053130adcaa088006c46dc8b2da11dca5dea",
+    "counterfactual_schedule_sha256": "9d9b5de89a330741efc125debd6028d228129f58f62131ba54cfdc5586d7ae7f",
+    "counterfactual_source_trace_sha256": "b7b3c1e0e003557e31820a153fe5d1b51f6edf02cb59235569305df61de1baed",
+    "budget": {
+      "terms": {
+        "E_native_gate": 0.24060200753012598,
+        "E_transfer": 0.0024001200080003356,
+        "E_heating_gate": 0.00019402874309372816,
+        "E_movement_loss": 0.0,
+        "E_cooling_gate": 0.0,
+        "E_decoherence": 0.018951132681817397
+      },
+      "terms_infinite": {
+        "E_native_gate": false,
+        "E_transfer": false,
+        "E_heating_gate": false,
+        "E_movement_loss": false,
+        "E_cooling_gate": false,
+        "E_decoherence": false
+      },
+      "total_E": 0.26214728896303746,
+      "total_E_infinite": false,
+      "fidelity_proxy": 0.7693976915733391,
+      "fidelity_underflow": false
+    },
+    "method": "default source decisions; requested geometry metadata if changed; requested profile; make_schedule(retime); evaluate"
+  },
+  {
+    "id": "hardware__qv_n8_d4_s702__s41__transfer_lower",
+    "fixed_source_schedule_path": "runs\\idea1_extension_v1\\campaign\\raw\\qv_n8_d4_s702__s41__r0\\attempt_01\\worker\\L1A1\\baseline\\schedule.json",
+    "fixed_source_schedule_file_sha256": "501e36779be54bd948467a97a1948f646e61201ef1a1fcbc37b1d5e98f71ba11",
+    "resolved_request_path": "runs\\remaining_experiments_6h_v2\\measurements\\hardware__qv_n8_d4_s702__s41__transfer_lower\\attempt_01\\worker\\resolved_request.json",
+    "resolved_request_sha256": "8af6f28fd3faeb93a44a8d304c520e23fa4ff8b744217b929ae0ca0c4d9588da",
+    "counterfactual_schedule_sha256": "4a18004a183b3de1ce309ce2b2122d974668c93c1c1c7bdf40960ae9dd0c6f22",
+    "counterfactual_source_trace_sha256": "b7b3c1e0e003557e31820a153fe5d1b51f6edf02cb59235569305df61de1baed",
+    "budget": {
+      "terms": {
+        "E_native_gate": 0.24060200753012598,
+        "E_transfer": 0.1637574083550129,
+        "E_heating_gate": 0.00019402874309372816,
+        "E_movement_loss": 0.0,
+        "E_cooling_gate": 0.0,
+        "E_decoherence": 0.018951132681817397
+      },
+      "terms_infinite": {
+        "E_native_gate": false,
+        "E_transfer": false,
+        "E_heating_gate": false,
+        "E_movement_loss": false,
+        "E_cooling_gate": false,
+        "E_decoherence": false
+      },
+      "total_E": 0.42350457731005,
+      "total_E_infinite": false,
+      "fidelity_proxy": 0.6547481786741562,
+      "fidelity_underflow": false
+    },
+    "method": "default source decisions; requested geometry metadata if changed; requested profile; make_schedule(retime); evaluate"
+  },
+  {
+    "id": "hardware__qv_n8_d4_s702__s42__acceleration_double",
+    "fixed_source_schedule_path": "runs\\idea1_extension_v1\\campaign\\raw\\qv_n8_d4_s702__s42__r0\\attempt_01\\worker\\L1A1\\baseline\\schedule.json",
+    "fixed_source_schedule_file_sha256": "98fc6595fbf7f5f465e174e3d9a3691c96efd6c56ef035cebcd599f75ed92426",
+    "resolved_request_path": "runs\\remaining_experiments_6h_v2\\measurements\\hardware__qv_n8_d4_s702__s42__acceleration_double\\attempt_01\\worker\\resolved_request.json",
+    "resolved_request_sha256": "ae48b2173988b545925e852de2fa8503aabceef628494b311952b68f2de895df",
+    "counterfactual_schedule_sha256": "d18f5c0c9dd07c1ae660da97896c413503a091cbc215035a344c362844b56533",
+    "counterfactual_source_trace_sha256": "2d79aa266865f1bf52fd770a2e980ee7678735d620ae133284ff847a0001f3d1",
+    "budget": {
+      "terms": {
+        "E_native_gate": 0.24060200753012598,
+        "E_transfer": 0.024012008006004816,
+        "E_heating_gate": 0.0007761240437347596,
+        "E_movement_loss": 0.0,
+        "E_cooling_gate": 0.0,
+        "E_decoherence": 0.014030936847082337
+      },
+      "terms_infinite": {
+        "E_native_gate": false,
+        "E_transfer": false,
+        "E_heating_gate": false,
+        "E_movement_loss": false,
+        "E_cooling_gate": false,
+        "E_decoherence": false
+      },
+      "total_E": 0.2794210764269479,
+      "total_E_infinite": false,
+      "fidelity_proxy": 0.7562214091556342,
+      "fidelity_underflow": false
+    },
+    "method": "default source decisions; requested geometry metadata if changed; requested profile; make_schedule(retime); evaluate"
+  },
+  {
+    "id": "hardware__qv_n8_d4_s702__s42__acceleration_half",
+    "fixed_source_schedule_path": "runs\\idea1_extension_v1\\campaign\\raw\\qv_n8_d4_s702__s42__r0\\attempt_01\\worker\\L1A1\\baseline\\schedule.json",
+    "fixed_source_schedule_file_sha256": "98fc6595fbf7f5f465e174e3d9a3691c96efd6c56ef035cebcd599f75ed92426",
+    "resolved_request_path": "runs\\remaining_experiments_6h_v2\\measurements\\hardware__qv_n8_d4_s702__s42__acceleration_half\\attempt_01\\worker\\resolved_request.json",
+    "resolved_request_sha256": "6cb95b8d66f52124f53bdacff8f4b6e2f15e950c981f10c7d262ba270afdad21",
+    "counterfactual_schedule_sha256": "feb4ff36f6b58b9a92879a1169ff37f8741f1b10bf4fdac74e1af84002f16ee5",
+    "counterfactual_source_trace_sha256": "2d79aa266865f1bf52fd770a2e980ee7678735d620ae133284ff847a0001f3d1",
+    "budget": {
+      "terms": {
+        "E_native_gate": 0.24060200753012598,
+        "E_transfer": 0.024012008006004816,
+        "E_heating_gate": 4.8507044036839254e-05,
+        "E_movement_loss": 0.0,
+        "E_cooling_gate": 0.0,
+        "E_decoherence": 0.025909340360831333
+      },
+      "terms_infinite": {
+        "E_native_gate": false,
+        "E_transfer": false,
+        "E_heating_gate": false,
+        "E_movement_loss": false,
+        "E_cooling_gate": false,
+        "E_decoherence": false
+      },
+      "total_E": 0.29057186294099896,
+      "total_E_infinite": false,
+      "fidelity_proxy": 0.7478357857021264,
+      "fidelity_underflow": false
+    },
+    "method": "default source decisions; requested geometry metadata if changed; requested profile; make_schedule(retime); evaluate"
+  },
+  {
+    "id": "hardware__qv_n8_d4_s702__s42__coherence_long",
+    "fixed_source_schedule_path": "runs\\idea1_extension_v1\\campaign\\raw\\qv_n8_d4_s702__s42__r0\\attempt_01\\worker\\L1A1\\baseline\\schedule.json",
+    "fixed_source_schedule_file_sha256": "98fc6595fbf7f5f465e174e3d9a3691c96efd6c56ef035cebcd599f75ed92426",
+    "resolved_request_path": "runs\\remaining_experiments_6h_v2\\measurements\\hardware__qv_n8_d4_s702__s42__coherence_long\\attempt_01\\worker\\resolved_request.json",
+    "resolved_request_sha256": "4bed15f6244f686bf873489c1572d8993505426973310306e84cd350d5b6a56d",
+    "counterfactual_schedule_sha256": "12b0873e538ffd73b54722e58821fcf6987d4694ddb5cae53b479fbe62e8118a",
+    "counterfactual_source_trace_sha256": "2d79aa266865f1bf52fd770a2e980ee7678735d620ae133284ff847a0001f3d1",
+    "budget": {
+      "terms": {
+        "E_native_gate": 0.24060200753012598,
+        "E_transfer": 0.024012008006004816,
+        "E_heating_gate": 0.00019402874309372816,
+        "E_movement_loss": 0.0,
+        "E_cooling_gate": 0.0,
+        "E_decoherence": 0.0018951132681817395
+      },
+      "terms_infinite": {
+        "E_native_gate": false,
+        "E_transfer": false,
+        "E_heating_gate": false,
+        "E_movement_loss": false,
+        "E_cooling_gate": false,
+        "E_decoherence": false
+      },
+      "total_E": 0.26670315754740626,
+      "total_E_infinite": false,
+      "fidelity_proxy": 0.7659003894749412,
+      "fidelity_underflow": false
+    },
+    "method": "default source decisions; requested geometry metadata if changed; requested profile; make_schedule(retime); evaluate"
+  },
+  {
+    "id": "hardware__qv_n8_d4_s702__s42__coherence_short",
+    "fixed_source_schedule_path": "runs\\idea1_extension_v1\\campaign\\raw\\qv_n8_d4_s702__s42__r0\\attempt_01\\worker\\L1A1\\baseline\\schedule.json",
+    "fixed_source_schedule_file_sha256": "98fc6595fbf7f5f465e174e3d9a3691c96efd6c56ef035cebcd599f75ed92426",
+    "resolved_request_path": "runs\\remaining_experiments_6h_v2\\measurements\\hardware__qv_n8_d4_s702__s42__coherence_short\\attempt_01\\worker\\resolved_request.json",
+    "resolved_request_sha256": "9c44af4ec11799da8881bb7c1d803c46ec7ee03ec6a7df6919288f87ac9ee587",
+    "counterfactual_schedule_sha256": "4415b8e205de3d281d75c2f1c9722ca6342e0310d454a18e36986f1c899af034",
+    "counterfactual_source_trace_sha256": "2d79aa266865f1bf52fd770a2e980ee7678735d620ae133284ff847a0001f3d1",
+    "budget": {
+      "terms": {
+        "E_native_gate": 0.24060200753012598,
+        "E_transfer": 0.024012008006004816,
+        "E_heating_gate": 0.00019402874309372816,
+        "E_movement_loss": 0.0,
+        "E_cooling_gate": 0.0,
+        "E_decoherence": 0.18951132681817395
+      },
+      "terms_infinite": {
+        "E_native_gate": false,
+        "E_transfer": false,
+        "E_heating_gate": false,
+        "E_movement_loss": false,
+        "E_cooling_gate": false,
+        "E_decoherence": false
+      },
+      "total_E": 0.45431937109739845,
+      "total_E_infinite": false,
+      "fidelity_proxy": 0.6348799385615768,
+      "fidelity_underflow": false
+    },
+    "method": "default source decisions; requested geometry metadata if changed; requested profile; make_schedule(retime); evaluate"
+  },
+  {
+    "id": "hardware__qv_n8_d4_s702__s42__heating_double",
+    "fixed_source_schedule_path": "runs\\idea1_extension_v1\\campaign\\raw\\qv_n8_d4_s702__s42__r0\\attempt_01\\worker\\L1A1\\baseline\\schedule.json",
+    "fixed_source_schedule_file_sha256": "98fc6595fbf7f5f465e174e3d9a3691c96efd6c56ef035cebcd599f75ed92426",
+    "resolved_request_path": "runs\\remaining_experiments_6h_v2\\measurements\\hardware__qv_n8_d4_s702__s42__heating_double\\attempt_01\\worker\\resolved_request.json",
+    "resolved_request_sha256": "da4b8b02d9ded6b82a92bcafe83bed400cb365063f28726bd36b4617bf844dc5",
+    "counterfactual_schedule_sha256": "d6283bede77506a33827115a906e961e74399a8f15beaf5f0c64c43775bcfdad",
+    "counterfactual_source_trace_sha256": "2d79aa266865f1bf52fd770a2e980ee7678735d620ae133284ff847a0001f3d1",
+    "budget": {
+      "terms": {
+        "E_native_gate": 0.24060200753012598,
+        "E_transfer": 0.024012008006004816,
+        "E_heating_gate": 0.00038805899806139426,
+        "E_movement_loss": 0.0,
+        "E_cooling_gate": 0.0,
+        "E_decoherence": 0.018951132681817397
+      },
+      "terms_infinite": {
+        "E_native_gate": false,
+        "E_transfer": false,
+        "E_heating_gate": false,
+        "E_movement_loss": false,
+        "E_cooling_gate": false,
+        "E_decoherence": false
+      },
+      "total_E": 0.2839532072160096,
+      "total_E_infinite": false,
+      "fidelity_proxy": 0.7528018695773256,
+      "fidelity_underflow": false
+    },
+    "method": "default source decisions; requested geometry metadata if changed; requested profile; make_schedule(retime); evaluate"
+  },
+  {
+    "id": "hardware__qv_n8_d4_s702__s42__heating_half",
+    "fixed_source_schedule_path": "runs\\idea1_extension_v1\\campaign\\raw\\qv_n8_d4_s702__s42__r0\\attempt_01\\worker\\L1A1\\baseline\\schedule.json",
+    "fixed_source_schedule_file_sha256": "98fc6595fbf7f5f465e174e3d9a3691c96efd6c56ef035cebcd599f75ed92426",
+    "resolved_request_path": "runs\\remaining_experiments_6h_v2\\measurements\\hardware__qv_n8_d4_s702__s42__heating_half\\attempt_01\\worker\\resolved_request.json",
+    "resolved_request_sha256": "4883ec7ff8ef7d37964a45094456e791dd17f673903965bb4011898a68aa9c1c",
+    "counterfactual_schedule_sha256": "6eb2384ead0d4da7163ace46767bcfbc4285e483f43f535751ba8985dcfc93b4",
+    "counterfactual_source_trace_sha256": "2d79aa266865f1bf52fd770a2e980ee7678735d620ae133284ff847a0001f3d1",
+    "budget": {
+      "terms": {
+        "E_native_gate": 0.24060200753012598,
+        "E_transfer": 0.024012008006004816,
+        "E_heating_gate": 9.701418256443775e-05,
+        "E_movement_loss": 0.0,
+        "E_cooling_gate": 0.0,
+        "E_decoherence": 0.018951132681817397
+      },
+      "terms_infinite": {
+        "E_native_gate": false,
+        "E_transfer": false,
+        "E_heating_gate": false,
+        "E_movement_loss": false,
+        "E_cooling_gate": false,
+        "E_decoherence": false
+      },
+      "total_E": 0.2836621624005126,
+      "total_E_infinite": false,
+      "fidelity_proxy": 0.7530210005454818,
+      "fidelity_underflow": false
+    },
+    "method": "default source decisions; requested geometry metadata if changed; requested profile; make_schedule(retime); evaluate"
+  },
+  {
+    "id": "hardware__qv_n8_d4_s702__s42__parking_area_grid20",
+    "fixed_source_schedule_path": "runs\\idea1_extension_v1\\campaign\\raw\\qv_n8_d4_s702__s42__r0\\attempt_01\\worker\\L1A1\\baseline\\schedule.json",
+    "fixed_source_schedule_file_sha256": "98fc6595fbf7f5f465e174e3d9a3691c96efd6c56ef035cebcd599f75ed92426",
+    "resolved_request_path": "runs\\remaining_experiments_6h_v2\\measurements\\hardware__qv_n8_d4_s702__s42__parking_area_grid20\\attempt_01\\worker\\resolved_request.json",
+    "resolved_request_sha256": "7df2f46a2a25c611e59f1d986ea8babdc7a53532e3486670b1777cf109f45e0c",
+    "counterfactual_schedule_sha256": "cf31386092afcfcc99b3e57c3d3bfdc2312b5b3e960d4016b83550136e7284aa",
+    "counterfactual_source_trace_sha256": "d3bd99768325d73e143ab291e56bdf6e084384848b1014d546aa9e05035d5f0c",
+    "budget": {
+      "terms": {
+        "E_native_gate": 0.24060200753012598,
+        "E_transfer": 0.024012008006004816,
+        "E_heating_gate": 0.00019402874309372816,
+        "E_movement_loss": 0.0,
+        "E_cooling_gate": 0.0,
+        "E_decoherence": 0.018951132681817397
+      },
+      "terms_infinite": {
+        "E_native_gate": false,
+        "E_transfer": false,
+        "E_heating_gate": false,
+        "E_movement_loss": false,
+        "E_cooling_gate": false,
+        "E_decoherence": false
+      },
+      "total_E": 0.2837591769610419,
+      "total_E_infinite": false,
+      "fidelity_proxy": 0.7529479500875809,
+      "fidelity_underflow": false
+    },
+    "method": "default source decisions; requested geometry metadata if changed; requested profile; make_schedule(retime); evaluate"
+  },
+  {
+    "id": "hardware__qv_n8_d4_s702__s42__parking_area_grid35",
+    "fixed_source_schedule_path": "runs\\idea1_extension_v1\\campaign\\raw\\qv_n8_d4_s702__s42__r0\\attempt_01\\worker\\L1A1\\baseline\\schedule.json",
+    "fixed_source_schedule_file_sha256": "98fc6595fbf7f5f465e174e3d9a3691c96efd6c56ef035cebcd599f75ed92426",
+    "resolved_request_path": "runs\\remaining_experiments_6h_v2\\measurements\\hardware__qv_n8_d4_s702__s42__parking_area_grid35\\attempt_01\\worker\\resolved_request.json",
+    "resolved_request_sha256": "c4e294f2d302d75262c67ec3aaf2069c6ca7f3dd5f97592b745aa28734d1335a",
+    "counterfactual_schedule_sha256": "b6c6663e05536aafcfec247076b97a2104140425ec659d262057122ca0aea87e",
+    "counterfactual_source_trace_sha256": "f08af06d1013cfb3ff045cca5f249495ce962568b13a080b969f8eb357981461",
+    "budget": {
+      "terms": {
+        "E_native_gate": 0.24060200753012598,
+        "E_transfer": 0.024012008006004816,
+        "E_heating_gate": 0.00019402874309372816,
+        "E_movement_loss": 0.0,
+        "E_cooling_gate": 0.0,
+        "E_decoherence": 0.018951132681817397
+      },
+      "terms_infinite": {
+        "E_native_gate": false,
+        "E_transfer": false,
+        "E_heating_gate": false,
+        "E_movement_loss": false,
+        "E_cooling_gate": false,
+        "E_decoherence": false
+      },
+      "total_E": 0.2837591769610419,
+      "total_E_infinite": false,
+      "fidelity_proxy": 0.7529479500875809,
+      "fidelity_underflow": false
+    },
+    "method": "default source decisions; requested geometry metadata if changed; requested profile; make_schedule(retime); evaluate"
+  },
+  {
+    "id": "hardware__qv_n8_d4_s702__s42__transfer_higher",
+    "fixed_source_schedule_path": "runs\\idea1_extension_v1\\campaign\\raw\\qv_n8_d4_s702__s42__r0\\attempt_01\\worker\\L1A1\\baseline\\schedule.json",
+    "fixed_source_schedule_file_sha256": "98fc6595fbf7f5f465e174e3d9a3691c96efd6c56ef035cebcd599f75ed92426",
+    "resolved_request_path": "runs\\remaining_experiments_6h_v2\\measurements\\hardware__qv_n8_d4_s702__s42__transfer_higher\\attempt_01\\worker\\resolved_request.json",
+    "resolved_request_sha256": "bf93dfb23d5716c254e5d681f79e3efa03e794bd01252a7659065e625f061d7b",
+    "counterfactual_schedule_sha256": "30e5e2b82a2aa8ea18c7709741798278b5e841c02e34b0d87f7d29a5fcc7608a",
+    "counterfactual_source_trace_sha256": "2d79aa266865f1bf52fd770a2e980ee7678735d620ae133284ff847a0001f3d1",
+    "budget": {
+      "terms": {
+        "E_native_gate": 0.24060200753012598,
+        "E_transfer": 0.0024001200080003356,
+        "E_heating_gate": 0.00019402874309372816,
+        "E_movement_loss": 0.0,
+        "E_cooling_gate": 0.0,
+        "E_decoherence": 0.018951132681817397
+      },
+      "terms_infinite": {
+        "E_native_gate": false,
+        "E_transfer": false,
+        "E_heating_gate": false,
+        "E_movement_loss": false,
+        "E_cooling_gate": false,
+        "E_decoherence": false
+      },
+      "total_E": 0.26214728896303746,
+      "total_E_infinite": false,
+      "fidelity_proxy": 0.7693976915733391,
+      "fidelity_underflow": false
+    },
+    "method": "default source decisions; requested geometry metadata if changed; requested profile; make_schedule(retime); evaluate"
+  },
+  {
+    "id": "hardware__qv_n8_d4_s702__s42__transfer_lower",
+    "fixed_source_schedule_path": "runs\\idea1_extension_v1\\campaign\\raw\\qv_n8_d4_s702__s42__r0\\attempt_01\\worker\\L1A1\\baseline\\schedule.json",
+    "fixed_source_schedule_file_sha256": "98fc6595fbf7f5f465e174e3d9a3691c96efd6c56ef035cebcd599f75ed92426",
+    "resolved_request_path": "runs\\remaining_experiments_6h_v2\\measurements\\hardware__qv_n8_d4_s702__s42__transfer_lower\\attempt_01\\worker\\resolved_request.json",
+    "resolved_request_sha256": "a46bb21526be00c8c8133cd6c35613756588d0eb1c426e8414ae4f7551f9238e",
+    "counterfactual_schedule_sha256": "d3f03df029e6bbcc7f5ba8bd393e0e1423210e3c93198ae1095a2298cc597558",
+    "counterfactual_source_trace_sha256": "2d79aa266865f1bf52fd770a2e980ee7678735d620ae133284ff847a0001f3d1",
+    "budget": {
+      "terms": {
+        "E_native_gate": 0.24060200753012598,
+        "E_transfer": 0.16375740835501282,
+        "E_heating_gate": 0.00019402874309372816,
+        "E_movement_loss": 0.0,
+        "E_cooling_gate": 0.0,
+        "E_decoherence": 0.018951132681817397
+      },
+      "terms_infinite": {
+        "E_native_gate": false,
+        "E_transfer": false,
+        "E_heating_gate": false,
+        "E_movement_loss": false,
+        "E_cooling_gate": false,
+        "E_decoherence": false
+      },
+      "total_E": 0.4235045773100499,
+      "total_E_infinite": false,
+      "fidelity_proxy": 0.6547481786741562,
+      "fidelity_underflow": false
+    },
+    "method": "default source decisions; requested geometry metadata if changed; requested profile; make_schedule(retime); evaluate"
+  },
+  {
+    "id": "hardware__qv_n8_d4_s702__s43__acceleration_double",
+    "fixed_source_schedule_path": "runs\\idea1_extension_v1\\campaign\\raw\\qv_n8_d4_s702__s43__r0\\attempt_01\\worker\\L1A1\\baseline\\schedule.json",
+    "fixed_source_schedule_file_sha256": "5a664fd25cad1638b2ce5bcd08b0b25ef2308ddbf697a029ca15c238242c5c07",
+    "resolved_request_path": "runs\\remaining_experiments_6h_v2\\measurements\\hardware__qv_n8_d4_s702__s43__acceleration_double\\attempt_01\\worker\\resolved_request.json",
+    "resolved_request_sha256": "e032f3071c9ad594b02bdfd46cc8e00e5980e220e95f567fd7003a4a8a3f6df8",
+    "counterfactual_schedule_sha256": "58dffbdd4d4c68ea89d384a5ea33ca7a8a300afd56980a1b50344d299fc2469d",
+    "counterfactual_source_trace_sha256": "a9cedcfcecf8432b28e256d8498c5778a12321d17a2ccc6c8ec8f8f8cb73bc23",
+    "budget": {
+      "terms": {
+        "E_native_gate": 0.24060200753012598,
+        "E_transfer": 0.024012008006004816,
+        "E_heating_gate": 0.0007761240437347596,
+        "E_movement_loss": 0.0,
+        "E_cooling_gate": 0.0,
+        "E_decoherence": 0.014030936847082337
+      },
+      "terms_infinite": {
+        "E_native_gate": false,
+        "E_transfer": false,
+        "E_heating_gate": false,
+        "E_movement_loss": false,
+        "E_cooling_gate": false,
+        "E_decoherence": false
+      },
+      "total_E": 0.2794210764269479,
+      "total_E_infinite": false,
+      "fidelity_proxy": 0.7562214091556342,
+      "fidelity_underflow": false
+    },
+    "method": "default source decisions; requested geometry metadata if changed; requested profile; make_schedule(retime); evaluate"
+  },
+  {
+    "id": "hardware__qv_n8_d4_s702__s43__acceleration_half",
+    "fixed_source_schedule_path": "runs\\idea1_extension_v1\\campaign\\raw\\qv_n8_d4_s702__s43__r0\\attempt_01\\worker\\L1A1\\baseline\\schedule.json",
+    "fixed_source_schedule_file_sha256": "5a664fd25cad1638b2ce5bcd08b0b25ef2308ddbf697a029ca15c238242c5c07",
+    "resolved_request_path": "runs\\remaining_experiments_6h_v2\\measurements\\hardware__qv_n8_d4_s702__s43__acceleration_half\\attempt_01\\worker\\resolved_request.json",
+    "resolved_request_sha256": "8f9f967562eb840426205b19682e6486244e7bc6c0d617ec862e7a426ffdc295",
+    "counterfactual_schedule_sha256": "ebc1d742dca2b0057adaa204427c647e3a57f3425e6e037dc0896832063277da",
+    "counterfactual_source_trace_sha256": "a9cedcfcecf8432b28e256d8498c5778a12321d17a2ccc6c8ec8f8f8cb73bc23",
+    "budget": {
+      "terms": {
+        "E_native_gate": 0.24060200753012598,
+        "E_transfer": 0.024012008006004816,
+        "E_heating_gate": 4.8507044036839254e-05,
+        "E_movement_loss": 0.0,
+        "E_cooling_gate": 0.0,
+        "E_decoherence": 0.025909340360831333
+      },
+      "terms_infinite": {
+        "E_native_gate": false,
+        "E_transfer": false,
+        "E_heating_gate": false,
+        "E_movement_loss": false,
+        "E_cooling_gate": false,
+        "E_decoherence": false
+      },
+      "total_E": 0.29057186294099896,
+      "total_E_infinite": false,
+      "fidelity_proxy": 0.7478357857021264,
+      "fidelity_underflow": false
+    },
+    "method": "default source decisions; requested geometry metadata if changed; requested profile; make_schedule(retime); evaluate"
+  },
+  {
+    "id": "hardware__qv_n8_d4_s702__s43__coherence_long",
+    "fixed_source_schedule_path": "runs\\idea1_extension_v1\\campaign\\raw\\qv_n8_d4_s702__s43__r0\\attempt_01\\worker\\L1A1\\baseline\\schedule.json",
+    "fixed_source_schedule_file_sha256": "5a664fd25cad1638b2ce5bcd08b0b25ef2308ddbf697a029ca15c238242c5c07",
+    "resolved_request_path": "runs\\remaining_experiments_6h_v2\\measurements\\hardware__qv_n8_d4_s702__s43__coherence_long\\attempt_01\\worker\\resolved_request.json",
+    "resolved_request_sha256": "ff5d03c01bce3068639d1bfbbeaa9245f1e3fca3413b24d5c6eba559b0b2fbdf",
+    "counterfactual_schedule_sha256": "faa1eb7aac32f22b4b56dc38cf9e2b9b0121b4116af0b3fdae6bf1acd759c30a",
+    "counterfactual_source_trace_sha256": "a9cedcfcecf8432b28e256d8498c5778a12321d17a2ccc6c8ec8f8f8cb73bc23",
+    "budget": {
+      "terms": {
+        "E_native_gate": 0.24060200753012598,
+        "E_transfer": 0.024012008006004816,
+        "E_heating_gate": 0.00019402874309372816,
+        "E_movement_loss": 0.0,
+        "E_cooling_gate": 0.0,
+        "E_decoherence": 0.0018951132681817395
+      },
+      "terms_infinite": {
+        "E_native_gate": false,
+        "E_transfer": false,
+        "E_heating_gate": false,
+        "E_movement_loss": false,
+        "E_cooling_gate": false,
+        "E_decoherence": false
+      },
+      "total_E": 0.26670315754740626,
+      "total_E_infinite": false,
+      "fidelity_proxy": 0.7659003894749412,
+      "fidelity_underflow": false
+    },
+    "method": "default source decisions; requested geometry metadata if changed; requested profile; make_schedule(retime); evaluate"
+  },
+  {
+    "id": "hardware__qv_n8_d4_s702__s43__coherence_short",
+    "fixed_source_schedule_path": "runs\\idea1_extension_v1\\campaign\\raw\\qv_n8_d4_s702__s43__r0\\attempt_01\\worker\\L1A1\\baseline\\schedule.json",
+    "fixed_source_schedule_file_sha256": "5a664fd25cad1638b2ce5bcd08b0b25ef2308ddbf697a029ca15c238242c5c07",
+    "resolved_request_path": "runs\\remaining_experiments_6h_v2\\measurements\\hardware__qv_n8_d4_s702__s43__coherence_short\\attempt_01\\worker\\resolved_request.json",
+    "resolved_request_sha256": "036166046cf9a3f4c1a037a795edec21624fc72e234a36e51a96be0beee4a0ed",
+    "counterfactual_schedule_sha256": "d5c9d507cf08ea34158fcad5f112a3ab589d75cae7b81bc725b6e8ca4e96fcbc",
+    "counterfactual_source_trace_sha256": "a9cedcfcecf8432b28e256d8498c5778a12321d17a2ccc6c8ec8f8f8cb73bc23",
+    "budget": {
+      "terms": {
+        "E_native_gate": 0.24060200753012598,
+        "E_transfer": 0.024012008006004816,
+        "E_heating_gate": 0.00019402874309372816,
+        "E_movement_loss": 0.0,
+        "E_cooling_gate": 0.0,
+        "E_decoherence": 0.18951132681817395
+      },
+      "terms_infinite": {
+        "E_native_gate": false,
+        "E_transfer": false,
+        "E_heating_gate": false,
+        "E_movement_loss": false,
+        "E_cooling_gate": false,
+        "E_decoherence": false
+      },
+      "total_E": 0.45431937109739845,
+      "total_E_infinite": false,
+      "fidelity_proxy": 0.6348799385615768,
+      "fidelity_underflow": false
+    },
+    "method": "default source decisions; requested geometry metadata if changed; requested profile; make_schedule(retime); evaluate"
+  },
+  {
+    "id": "hardware__qv_n8_d4_s702__s43__heating_double",
+    "fixed_source_schedule_path": "runs\\idea1_extension_v1\\campaign\\raw\\qv_n8_d4_s702__s43__r0\\attempt_01\\worker\\L1A1\\baseline\\schedule.json",
+    "fixed_source_schedule_file_sha256": "5a664fd25cad1638b2ce5bcd08b0b25ef2308ddbf697a029ca15c238242c5c07",
+    "resolved_request_path": "runs\\remaining_experiments_6h_v2\\measurements\\hardware__qv_n8_d4_s702__s43__heating_double\\attempt_01\\worker\\resolved_request.json",
+    "resolved_request_sha256": "c197dadfa431712f67daa2f8c9076352f1831d808fc8fbd68e80ad75a23c85db",
+    "counterfactual_schedule_sha256": "758e4f06b53924e660f952118c2dc918b0f824a1dc972c4e79a5ee87937f9f4c",
+    "counterfactual_source_trace_sha256": "a9cedcfcecf8432b28e256d8498c5778a12321d17a2ccc6c8ec8f8f8cb73bc23",
+    "budget": {
+      "terms": {
+        "E_native_gate": 0.24060200753012598,
+        "E_transfer": 0.024012008006004816,
+        "E_heating_gate": 0.00038805899806139426,
+        "E_movement_loss": 0.0,
+        "E_cooling_gate": 0.0,
+        "E_decoherence": 0.018951132681817397
+      },
+      "terms_infinite": {
+        "E_native_gate": false,
+        "E_transfer": false,
+        "E_heating_gate": false,
+        "E_movement_loss": false,
+        "E_cooling_gate": false,
+        "E_decoherence": false
+      },
+      "total_E": 0.2839532072160096,
+      "total_E_infinite": false,
+      "fidelity_proxy": 0.7528018695773256,
+      "fidelity_underflow": false
+    },
+    "method": "default source decisions; requested geometry metadata if changed; requested profile; make_schedule(retime); evaluate"
+  },
+  {
+    "id": "hardware__qv_n8_d4_s702__s43__heating_half",
+    "fixed_source_schedule_path": "runs\\idea1_extension_v1\\campaign\\raw\\qv_n8_d4_s702__s43__r0\\attempt_01\\worker\\L1A1\\baseline\\schedule.json",
+    "fixed_source_schedule_file_sha256": "5a664fd25cad1638b2ce5bcd08b0b25ef2308ddbf697a029ca15c238242c5c07",
+    "resolved_request_path": "runs\\remaining_experiments_6h_v2\\measurements\\hardware__qv_n8_d4_s702__s43__heating_half\\attempt_01\\worker\\resolved_request.json",
+    "resolved_request_sha256": "51d27401d2eec7c958911710b6b2097997a5ca2752870e7c3e7357f6bf3c66db",
+    "counterfactual_schedule_sha256": "57828f07744fc40e1be1d1b8c7c8be914972d11414dad983dee28c97bdb2f777",
+    "counterfactual_source_trace_sha256": "a9cedcfcecf8432b28e256d8498c5778a12321d17a2ccc6c8ec8f8f8cb73bc23",
+    "budget": {
+      "terms": {
+        "E_native_gate": 0.24060200753012598,
+        "E_transfer": 0.024012008006004816,
+        "E_heating_gate": 9.701418256443775e-05,
+        "E_movement_loss": 0.0,
+        "E_cooling_gate": 0.0,
+        "E_decoherence": 0.018951132681817397
+      },
+      "terms_infinite": {
+        "E_native_gate": false,
+        "E_transfer": false,
+        "E_heating_gate": false,
+        "E_movement_loss": false,
+        "E_cooling_gate": false,
+        "E_decoherence": false
+      },
+      "total_E": 0.2836621624005126,
+      "total_E_infinite": false,
+      "fidelity_proxy": 0.7530210005454818,
+      "fidelity_underflow": false
+    },
+    "method": "default source decisions; requested geometry metadata if changed; requested profile; make_schedule(retime); evaluate"
+  },
+  {
+    "id": "hardware__qv_n8_d4_s702__s43__parking_area_grid20",
+    "fixed_source_schedule_path": "runs\\idea1_extension_v1\\campaign\\raw\\qv_n8_d4_s702__s43__r0\\attempt_01\\worker\\L1A1\\baseline\\schedule.json",
+    "fixed_source_schedule_file_sha256": "5a664fd25cad1638b2ce5bcd08b0b25ef2308ddbf697a029ca15c238242c5c07",
+    "resolved_request_path": "runs\\remaining_experiments_6h_v2\\measurements\\hardware__qv_n8_d4_s702__s43__parking_area_grid20\\attempt_01\\worker\\resolved_request.json",
+    "resolved_request_sha256": "9a7ab768160cfab989de5baf3f051359b7bcce65816ff06cb9ad3b01672da301",
+    "counterfactual_schedule_sha256": "3ad0ac2978ed3f92984a2eddeaa6f4c3953f343eb2940ddd42f5b95d60aa402c",
+    "counterfactual_source_trace_sha256": "8f166aaa18fbc7607a567e8befcf347c2c6c7070df4d4ac7c62136b05f8f47fb",
+    "budget": {
+      "terms": {
+        "E_native_gate": 0.24060200753012598,
+        "E_transfer": 0.024012008006004816,
+        "E_heating_gate": 0.00019402874309372816,
+        "E_movement_loss": 0.0,
+        "E_cooling_gate": 0.0,
+        "E_decoherence": 0.018951132681817397
+      },
+      "terms_infinite": {
+        "E_native_gate": false,
+        "E_transfer": false,
+        "E_heating_gate": false,
+        "E_movement_loss": false,
+        "E_cooling_gate": false,
+        "E_decoherence": false
+      },
+      "total_E": 0.2837591769610419,
+      "total_E_infinite": false,
+      "fidelity_proxy": 0.7529479500875809,
+      "fidelity_underflow": false
+    },
+    "method": "default source decisions; requested geometry metadata if changed; requested profile; make_schedule(retime); evaluate"
+  },
+  {
+    "id": "hardware__qv_n8_d4_s702__s43__parking_area_grid35",
+    "fixed_source_schedule_path": "runs\\idea1_extension_v1\\campaign\\raw\\qv_n8_d4_s702__s43__r0\\attempt_01\\worker\\L1A1\\baseline\\schedule.json",
+    "fixed_source_schedule_file_sha256": "5a664fd25cad1638b2ce5bcd08b0b25ef2308ddbf697a029ca15c238242c5c07",
+    "resolved_request_path": "runs\\remaining_experiments_6h_v2\\measurements\\hardware__qv_n8_d4_s702__s43__parking_area_grid35\\attempt_01\\worker\\resolved_request.json",
+    "resolved_request_sha256": "5c7556fddf601a22fc370d9945c5558c64c40bc41a99514ad515645dad9eb510",
+    "counterfactual_schedule_sha256": "993271dbf5a314114afb4acc9cf4a1c19fdd8769cc8a8a05ce9853784b7a19f5",
+    "counterfactual_source_trace_sha256": "5fff3ccb6c778491396dd758c1cf604de71bca0de7e04ffba6673c1b44694c91",
+    "budget": {
+      "terms": {
+        "E_native_gate": 0.24060200753012598,
+        "E_transfer": 0.024012008006004816,
+        "E_heating_gate": 0.00019402874309372816,
+        "E_movement_loss": 0.0,
+        "E_cooling_gate": 0.0,
+        "E_decoherence": 0.018951132681817397
+      },
+      "terms_infinite": {
+        "E_native_gate": false,
+        "E_transfer": false,
+        "E_heating_gate": false,
+        "E_movement_loss": false,
+        "E_cooling_gate": false,
+        "E_decoherence": false
+      },
+      "total_E": 0.2837591769610419,
+      "total_E_infinite": false,
+      "fidelity_proxy": 0.7529479500875809,
+      "fidelity_underflow": false
+    },
+    "method": "default source decisions; requested geometry metadata if changed; requested profile; make_schedule(retime); evaluate"
+  },
+  {
+    "id": "hardware__qv_n8_d4_s702__s43__transfer_higher",
+    "fixed_source_schedule_path": "runs\\idea1_extension_v1\\campaign\\raw\\qv_n8_d4_s702__s43__r0\\attempt_01\\worker\\L1A1\\baseline\\schedule.json",
+    "fixed_source_schedule_file_sha256": "5a664fd25cad1638b2ce5bcd08b0b25ef2308ddbf697a029ca15c238242c5c07",
+    "resolved_request_path": "runs\\remaining_experiments_6h_v2\\measurements\\hardware__qv_n8_d4_s702__s43__transfer_higher\\attempt_01\\worker\\resolved_request.json",
+    "resolved_request_sha256": "e86d17e02ddd1fc41da26e4741473f265c048f9f3b54e50f82eb0eb17a35659c",
+    "counterfactual_schedule_sha256": "3cbdf033a39854e89e4b301d03ba3d7a46db77f970ce16044e70b1f07a5377cf",
+    "counterfactual_source_trace_sha256": "a9cedcfcecf8432b28e256d8498c5778a12321d17a2ccc6c8ec8f8f8cb73bc23",
+    "budget": {
+      "terms": {
+        "E_native_gate": 0.24060200753012598,
+        "E_transfer": 0.0024001200080003356,
+        "E_heating_gate": 0.00019402874309372816,
+        "E_movement_loss": 0.0,
+        "E_cooling_gate": 0.0,
+        "E_decoherence": 0.018951132681817397
+      },
+      "terms_infinite": {
+        "E_native_gate": false,
+        "E_transfer": false,
+        "E_heating_gate": false,
+        "E_movement_loss": false,
+        "E_cooling_gate": false,
+        "E_decoherence": false
+      },
+      "total_E": 0.26214728896303746,
+      "total_E_infinite": false,
+      "fidelity_proxy": 0.7693976915733391,
+      "fidelity_underflow": false
+    },
+    "method": "default source decisions; requested geometry metadata if changed; requested profile; make_schedule(retime); evaluate"
+  },
+  {
+    "id": "hardware__qv_n8_d4_s702__s43__transfer_lower",
+    "fixed_source_schedule_path": "runs\\idea1_extension_v1\\campaign\\raw\\qv_n8_d4_s702__s43__r0\\attempt_01\\worker\\L1A1\\baseline\\schedule.json",
+    "fixed_source_schedule_file_sha256": "5a664fd25cad1638b2ce5bcd08b0b25ef2308ddbf697a029ca15c238242c5c07",
+    "resolved_request_path": "runs\\remaining_experiments_6h_v2\\measurements\\hardware__qv_n8_d4_s702__s43__transfer_lower\\attempt_01\\worker\\resolved_request.json",
+    "resolved_request_sha256": "bab50af84062d386e64a6c44453daff3146e2430c4469d20e8d616de280f5ff3",
+    "counterfactual_schedule_sha256": "88aa99addb5a7202e39b88693185f8a319cf4fccdf2439b89f2fcd1e8ce1493f",
+    "counterfactual_source_trace_sha256": "a9cedcfcecf8432b28e256d8498c5778a12321d17a2ccc6c8ec8f8f8cb73bc23",
+    "budget": {
+      "terms": {
+        "E_native_gate": 0.24060200753012598,
+        "E_transfer": 0.16375740835501287,
+        "E_heating_gate": 0.00019402874309372816,
+        "E_movement_loss": 0.0,
+        "E_cooling_gate": 0.0,
+        "E_decoherence": 0.018951132681817397
+      },
+      "terms_infinite": {
+        "E_native_gate": false,
+        "E_transfer": false,
+        "E_heating_gate": false,
+        "E_movement_loss": false,
+        "E_cooling_gate": false,
+        "E_decoherence": false
+      },
+      "total_E": 0.42350457731005,
+      "total_E_infinite": false,
+      "fidelity_proxy": 0.6547481786741562,
+      "fidelity_underflow": false
+    },
+    "method": "default source decisions; requested geometry metadata if changed; requested profile; make_schedule(retime); evaluate"
+  }
+]

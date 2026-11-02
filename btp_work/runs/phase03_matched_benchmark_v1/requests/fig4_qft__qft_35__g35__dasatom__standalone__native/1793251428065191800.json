@@ -1,0 +1,68 @@
+{
+  "track": "phase3",
+  "job": {
+    "target_id": "fig4_qft__qft_35__g35__dasatom__standalone__native",
+    "algorithm": "dasatom",
+    "variant": "standalone",
+    "family": "fig4_qft",
+    "case": "qft_35",
+    "grid": 35,
+    "register_policy": "native",
+    "seed": 42,
+    "routing_seed": null,
+    "raw_path": "benchmarks/current_baseline_v1/raw/fig4_qft/qft_35.qasm",
+    "raw_sha256": "25591204cea5ab86e250c3d090213eb2ade71f7a0404cad7a3866e104d531032",
+    "expected_normalized_sha256": "3cb1efb147bb71a2e943dbeefadee1ad4a923b7da51f59e7d0e609393364bdda",
+    "paper_reference": "RFT manuscript p6 Fig4",
+    "paper_metrics": [
+      "compile_seconds",
+      "runtime_us",
+      "movement_batches",
+      "legacy_fidelity"
+    ],
+    "action": "one_targeted_retry_required_no_complete_trace",
+    "selected_reference": null,
+    "all_existing_attempts": [
+      {
+        "record": "runs\\current_baseline\\study_v1\\attempts\\fig4_qft__qft_35__g35__dasatom__standalone__native__r1\\attempt_01\\attempt_record.json",
+        "sha256": "2d66543233e089049a363ec76b88fa0ffe1de4749655719c1f788b55573f8826",
+        "status": "timeout",
+        "repetition": 1
+      }
+    ],
+    "retry_timeout_seconds": 1800,
+    "fresh_corrected_compile_timing_required_if_route_changes": true,
+    "frozen_input": "frozen/benchmarks/current_baseline_v1/normalized/fig4_qft/qft_35_native.qasm",
+    "frozen_native_records": [
+      "references/runs/current_baseline/study_v1/attempts/fig4_qft__qft_35__g35__dasatom__standalone__native__r1/attempt_01/attempt_record.json"
+    ],
+    "timeout_seconds": 1800
+  },
+  "source": {
+    "kind": "dasatom_trace",
+    "worker": "C:\\Users\\hp\\Documents\\BTP\\btp_work\\runs\\phase03_matched_benchmark_v1\\source_observations\\fig4_qft__qft_35__g35__dasatom__standalone__native\\attempt_01\\worker",
+    "source_record": "C:\\Users\\hp\\Documents\\BTP\\btp_work\\runs\\phase01_frozen_baseline_v1\\measurements\\fig4_qft__qft_35__g35__dasatom__standalone__native\\attempt_01\\attempt_record.json",
+    "source_record_sha256": "423ec13cfe4c8d36ac31bd299d93fdab6784f72085d544fd488366d19c15bf98",
+    "source_artifact_sha256": {
+      "worker/trace/metadata.json": "fc8d78b17a5c99129deddedf448178c6e374286a9ce76eec0bf104b4071de467",
+      "worker/trace/events.jsonl": "8202bf9d1f5d7655ab7add3a3fa659a8611adb5e9aaa1a76f9e27824a25fcaf9",
+      "worker/result.json": "cd062008e84c11bcccecb68fa347c56dca5a9000300d2d817866fc98dba28206",
+      "worker/metrics.json": "88f4dfd2ce9b3e16627934a80372b7c6cf0f9f1d6bea572dce74e2263aab16b2",
+      "worker/validation.json": "a58a71b1d4b039595ea0fec6bb5854743567b839446af979460e440ab5b2e356"
+    }
+  },
+  "original_compile_seconds": 309.6871228000091,
+  "original_timing_scope": "fresh grid/partition/embedding/gate grouping/corrected routing; excludes imports, input parsing, validation and scoring",
+  "geometry": {
+    "rows": 35,
+    "columns": 35,
+    "r_int": 2,
+    "r_blk": 4,
+    "spacing_um": 3.0
+  },
+  "variants": [
+    "original_phase3"
+  ],
+  "native": null,
+  "raw_input": "C:\\Users\\hp\\Documents\\BTP\\btp_work\\runs\\phase03_matched_benchmark_v1\\frozen\\benchmarks\\current_baseline_v1\\raw\\fig4_qft\\qft_35.qasm"
+}

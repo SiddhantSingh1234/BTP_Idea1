@@ -1,0 +1,58 @@
+[INITIAL PLACEMENT]
+  PLACE qubit 0 at position (2, 1)
+  PLACE qubit 1 at position (1, 2)
+  PLACE qubit 2 at position (1, 1)
+  PLACE qubit 3 at position (1, 0)
+  PLACE qubit 4 at position (0, 1)
+[EXECUTE partition 0 group 0]
+  CZ q[4], q[3] (at locations (0, 1), (1, 0))
+[EXECUTE partition 0 group 1]
+  CZ q[4], q[3] (at locations (0, 1), (1, 0))
+[EXECUTE partition 0 group 2]
+  CZ q[4], q[2] (at locations (0, 1), (1, 1))
+[EXECUTE partition 0 group 3]
+  CZ q[4], q[2] (at locations (0, 1), (1, 1))
+[EXECUTE partition 0 group 4]
+  CZ q[3], q[2] (at locations (1, 0), (1, 1))
+[EXECUTE partition 0 group 5]
+  CZ q[4], q[1] (at locations (0, 1), (1, 2))
+[EXECUTE partition 0 group 6]
+  CZ q[3], q[2] (at locations (1, 0), (1, 1))
+[EXECUTE partition 0 group 7]
+  CZ q[4], q[1] (at locations (0, 1), (1, 2))
+[EXECUTE partition 0 group 8]
+  CZ q[3], q[1] (at locations (1, 0), (1, 2))
+[EXECUTE partition 0 group 9]
+  CZ q[4], q[0] (at locations (0, 1), (2, 1))
+[EXECUTE partition 0 group 10]
+  CZ q[3], q[1] (at locations (1, 0), (1, 2))
+[EXECUTE partition 0 group 11]
+  CZ q[4], q[0] (at locations (0, 1), (2, 1))
+[EXECUTE partition 0 group 12]
+  CZ q[2], q[1] (at locations (1, 1), (1, 2))
+[EXECUTE partition 0 group 13]
+  CZ q[3], q[0] (at locations (1, 0), (2, 1))
+[EXECUTE partition 0 group 14]
+  CZ q[2], q[1] (at locations (1, 1), (1, 2))
+[EXECUTE partition 0 group 15]
+  CZ q[3], q[0] (at locations (1, 0), (2, 1))
+[EXECUTE partition 0 group 16]
+  CZ q[2], q[0] (at locations (1, 1), (2, 1))
+[EXECUTE partition 0 group 17]
+  CZ q[2], q[0] (at locations (1, 1), (2, 1))
+[EXECUTE partition 0 group 18]
+  CZ q[1], q[0] (at locations (1, 2), (2, 1))
+[EXECUTE partition 0 group 19]
+  CZ q[1], q[0] (at locations (1, 2), (2, 1))
+[EXECUTE partition 0 group 20]
+  CZ q[1], q[3] (at locations (1, 2), (1, 0))
+[EXECUTE partition 0 group 21]
+  CZ q[0], q[4] (at locations (2, 1), (0, 1))
+[EXECUTE partition 0 group 22]
+  CZ q[3], q[1] (at locations (1, 0), (1, 2))
+[EXECUTE partition 0 group 23]
+  CZ q[4], q[0] (at locations (0, 1), (2, 1))
+[EXECUTE partition 0 group 24]
+  CZ q[1], q[3] (at locations (1, 2), (1, 0))
+[EXECUTE partition 0 group 25]
+  CZ q[0], q[4] (at locations (2, 1), (0, 1))

@@ -1,0 +1,78 @@
+--- Processing Time 1 (Batch 1) ---
+[INITIAL PLACEMENT]
+  PLACE idle qubit 1 at position (4, 6)
+  PLACE idle qubit 2 at position (5, 5)
+  PLACE idle qubit 3 at position (5, 7)
+  PLACE idle qubit 4 at position (6, 6)
+  PLACE idle qubit 5 at position (4, 5)
+  PLACE idle qubit 6 at position (4, 7)
+  PLACE idle qubit 7 at position (6, 7)
+  PLACE idle qubit 8 at position (3, 6)
+  PLACE idle qubit 9 at position (5, 4)
+  PLACE idle qubit 10 at position (5, 8)
+  PLACE idle qubit 11 at position (7, 6)
+  PLACE idle qubit 12 at position (3, 5)
+  PLACE idle qubit 13 at position (3, 7)
+  PLACE idle qubit 14 at position (4, 4)
+  PLACE active qubit 0 at position (6, 5)
+  PLACE active qubit 15 at position (5, 6)
+[EXECUTE Time 1 Batch 1]
+  CZ q[0], q[15] (at locations (6, 5), (5, 6))
+--- Processing Time 2 (Batch 1) ---
+  No shuttling required.
+[EXECUTE Time 2 Batch 1]
+  CZ q[1], q[15] (at locations (4, 6), (5, 6))
+--- Processing Time 3 (Batch 1) ---
+  No shuttling required.
+[EXECUTE Time 3 Batch 1]
+  CZ q[2], q[15] (at locations (5, 5), (5, 6))
+--- Processing Time 4 (Batch 1) ---
+  No shuttling required.
+[EXECUTE Time 4 Batch 1]
+  CZ q[3], q[15] (at locations (5, 7), (5, 6))
+--- Processing Time 5 (Batch 1) ---
+  No shuttling required.
+[EXECUTE Time 5 Batch 1]
+  CZ q[4], q[15] (at locations (6, 6), (5, 6))
+--- Processing Time 6 (Batch 1) ---
+  No shuttling required.
+[EXECUTE Time 6 Batch 1]
+  CZ q[5], q[15] (at locations (4, 5), (5, 6))
+--- Processing Time 7 (Batch 1) ---
+  No shuttling required.
+[EXECUTE Time 7 Batch 1]
+  CZ q[6], q[15] (at locations (4, 7), (5, 6))
+--- Processing Time 8 (Batch 1) ---
+  No shuttling required.
+[EXECUTE Time 8 Batch 1]
+  CZ q[7], q[15] (at locations (6, 7), (5, 6))
+--- Processing Time 9 (Batch 1) ---
+  No shuttling required.
+[EXECUTE Time 9 Batch 1]
+  CZ q[8], q[15] (at locations (3, 6), (5, 6))
+--- Processing Time 10 (Batch 1) ---
+  No shuttling required.
+[EXECUTE Time 10 Batch 1]
+  CZ q[9], q[15] (at locations (5, 4), (5, 6))
+--- Processing Time 11 (Batch 1) ---
+  No shuttling required.
+[EXECUTE Time 11 Batch 1]
+  CZ q[10], q[15] (at locations (5, 8), (5, 6))
+--- Processing Time 12 (Batch 1) ---
+  No shuttling required.
+[EXECUTE Time 12 Batch 1]
+  CZ q[11], q[15] (at locations (7, 6), (5, 6))
+--- Processing Time 13 (Batch 1) ---
+[SHUTTLING] Batch 1
+  SHUTTLE qubit 15 from (5, 6) to (3, 4)
+[EXECUTE Time 13 Batch 1]
+  CZ q[12], q[15] (at locations (3, 5), (3, 4))
+--- Processing Time 14 (Batch 1) ---
+[SHUTTLING] Batch 1
+  SHUTTLE qubit 13 from (3, 7) to (2, 5)
+[EXECUTE Time 14 Batch 1]
+  CZ q[13], q[15] (at locations (2, 5), (3, 4))
+--- Processing Time 15 (Batch 1) ---
+  No shuttling required.
+[EXECUTE Time 15 Batch 1]
+  CZ q[14], q[15] (at locations (4, 4), (3, 4))

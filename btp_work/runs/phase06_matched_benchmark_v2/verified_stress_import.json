@@ -1,0 +1,24 @@
+{
+  "imported_targets": [
+    "tableII__square_root_7__g11__rft__7_dynamic_slot_01q_move__native",
+    "fig4_qft__qft_60__g11__rft__7_dynamic_slot_01q_move__native"
+  ],
+  "rows": 16,
+  "original_v1_measurements_imported": false,
+  "summary": {
+    "updated_utc": "2026-10-29T19:37:40.840203+00:00",
+    "track": "phase6",
+    "targets": 66,
+    "target_status_counts": {
+      "pending": 64,
+      "ok": 2
+    },
+    "rows": 528,
+    "accepted_rows": 16,
+    "matrix_complete": false,
+    "baseline_modified": false,
+    "native_physical_validity_claimed": false,
+    "best_k_selected": false,
+    "model_profile": "extended_no_cooling.v1"
+  }
+}

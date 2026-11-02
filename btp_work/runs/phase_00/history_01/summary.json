@@ -1,0 +1,272 @@
+{
+  "records": [
+    {
+      "url": "https://api.github.com/repos/ipash185/NAQC_Compiler/commits?sha=3d1f09233c2acd357fd9fbfad1b5300a921d301a&per_page=100",
+      "file": "rft_commits.json",
+      "next_page_link": null,
+      "status": "ok",
+      "sha256": "a7b22a1ae0e05dcd242cd2d188f84c9b2318a914d8caa6925abc6a22b53cd465"
+    },
+    {
+      "url": "https://api.github.com/repos/ipash185/NAQC_Compiler/branches?per_page=100",
+      "file": "rft_branches.json",
+      "next_page_link": null,
+      "status": "ok",
+      "sha256": "f0a031acd51cb7442d28f8439bc91628d1bbd674d481dd92e9ae297cb3a44012"
+    },
+    {
+      "url": "https://api.github.com/repos/ipash185/NAQC_Compiler/tags?per_page=100",
+      "file": "rft_tags.json",
+      "next_page_link": null,
+      "status": "ok",
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    {
+      "url": "https://api.github.com/repos/ipash185/NAQC_Compiler/commits?per_page=1",
+      "file": "rft_current_head.json",
+      "next_page_link": "<https://api.github.com/repositories/1118793820/commits?per_page=1&page=2>; rel=\"next\", <https://api.github.com/repositories/1118793820/commits?per_page=1&page=27>; rel=\"last\"",
+      "status": "ok",
+      "sha256": "5af95d893f9be477f3bab7bc27fdcc619fbe8d18d88faf6fbe92a900ee45a9b4"
+    },
+    {
+      "url": "https://api.github.com/repos/Huangyunqi/DasAtom/commits?path=DasAtom_fun.py&per_page=100",
+      "file": "dasatom_helper_history.json",
+      "next_page_link": null,
+      "status": "ok",
+      "sha256": "9f03e09a23f741597d7df7bce170f99a9784930c7de3d284cc545052fa2e2389"
+    },
+    {
+      "url": "https://api.github.com/repos/Huangyunqi/DasAtom/git/trees/e5a7b1cd868b2a63fe688bc72ee82dfd449e3bdc",
+      "file": "dasatom_root_00.json",
+      "next_page_link": null,
+      "status": "ok",
+      "sha256": "0242f6b0a0a4c9fdc80a4c8d3a5b13750a45f0f1f3e5b8ea33883c2456646592"
+    },
+    {
+      "url": "https://api.github.com/repos/Huangyunqi/DasAtom/git/trees/5edf40072f07539705cf337d87235cdb9204787f",
+      "file": "dasatom_root_01.json",
+      "next_page_link": null,
+      "status": "ok",
+      "sha256": "5c9acae7b5de9b09c9a467695d4d398d463f837d90f6243f23479da37318445c"
+    },
+    {
+      "url": "https://api.github.com/repos/Huangyunqi/DasAtom/git/trees/e54869bbdc491e672333bce821a441101afe444a",
+      "file": "dasatom_root_02.json",
+      "next_page_link": null,
+      "status": "ok",
+      "sha256": "7b2df25da79c62f13ba2405fdac8a7f19ce17ad9305c4a796bdf2a44159c4150"
+    },
+    {
+      "url": "https://api.github.com/repos/Huangyunqi/DasAtom/git/trees/29839350574d05d0fbdd27ffb9d31d52df2270c1",
+      "file": "dasatom_root_03.json",
+      "next_page_link": null,
+      "status": "ok",
+      "sha256": "297ff52cf46f7bd22b32a14ac549ba196138ef0910b66be4a8ceb076e8289de0"
+    },
+    {
+      "url": "https://api.github.com/repos/Huangyunqi/DasAtom/git/trees/6b5796e1740be8bfae0d0880a54bb692f05ab599",
+      "file": "dasatom_root_04.json",
+      "next_page_link": null,
+      "status": "ok",
+      "sha256": "c873a4cb48793d6d3dded9c12c01c5bd74a79240c4d6897948997246fec0ba7a"
+    },
+    {
+      "url": "https://api.github.com/repos/Huangyunqi/DasAtom/git/trees/d806096bbaa0d043eb0d93adab8ab38dfeac3cce",
+      "file": "dasatom_root_05.json",
+      "next_page_link": null,
+      "status": "ok",
+      "sha256": "a144b65fc5d3972d8a62578c446cc7a5a2452beb1c410b8814609fed7b76bfd1"
+    },
+    {
+      "url": "https://api.github.com/repos/Huangyunqi/DasAtom/git/trees/4ae5261d53fb195f05ccdf7491382a126ee01526",
+      "file": "dasatom_root_06.json",
+      "next_page_link": null,
+      "status": "ok",
+      "sha256": "002ae08310a1a5e5ae8161246ec82e36d5332a07e9bca82e42ab382a4f57acfa"
+    }
+  ],
+  "rft_commit_count_returned": 27,
+  "rft_commits": [
+    {
+      "sha": "3d1f09233c2acd357fd9fbfad1b5300a921d301a",
+      "date": "2026-08-09T12:52:25Z",
+      "message": "Merge remote-tracking branch 'origin/main'"
+    },
+    {
+      "sha": "01dc8d59e6173acb71fe8242c170d3248deccc78",
+      "date": "2026-07-11T17:20:28Z",
+      "message": "Add missing dependencies: networkx and openpyxl to requirements.txt"
+    },
+    {
+      "sha": "12a7f7fb1694c4dd565225ca4b06c1bb56e234ed",
+      "date": "2026-05-15T19:18:05Z",
+      "message": "Build RFT and scheduling directly from the DAG; vectorize layout sampler\n\nTwo related refactors that together make 10k-qubit circuits tractable.\n\n1. Remove the Pandas time-series DataFrame; consume the DAG directly.\n\n   analyze_qasm_file used to materialize an n*(n-1)/2-row DataFrame\n   (50M rows of Python-string cells -- ~15-20 GB at 10k qubits) only\n   to be queried for the small subset of pairs that actually fire.\n   It now iterates dag.layers() once and returns a list of\n   (timestamp_name, sorted [(q_min, q_max)]) entries straight from\n   the DAG. No Pandas anywhere.\n\n   - build_right_filled_table now bisects per-pair gate times built\n     from that list. O(|E|*T) instead of O(n^2*T) -- ~3000x fewer\n     iterations and no DataFrame .at lookups at 10k.\n   - find_busiest_timestamp removed; its first return value (the\n     timestamp name) was unused at every caller. Replaced with\n     find_busiest_pairs returning just the edge list.\n   - get_c_pairs_for_timestamp removed; pairs come straight from the\n     per-timestep list.\n   - generate_hardware_instructions iterates the list directly.\n   - Verified byte-identical metrics on 1k qubits: edges are sorted\n     lexicographically inside analyze_qasm_file to preserve the\n     downstream pair ordering the legacy DataFrame index had.\n\n2. Vectorize the blockade check in sample_max_parallel.\n\n   The pre-allocated NumPy occupied-positions array plus broadcasted\n   squared-distance compare replaces the Python\n   `any(euclid_dist(...) for p in [p1,p2] for op in occupied_pos)`\n   inner loop -- the latter was 73% of total runtime at 2k qubits\n   (30M euclid_dist calls). Squared distances skip the math.sqrt\n   call too.\n\n   Drop m from 100 to 20 at the three call sites in benchmark_runner.\n   With the vectorized check, 20 samples still finds a good layout\n   in milliseconds.\n\nEnd-to-end timings on a 3-regular graph from Enola's graphs.json\n(rand3reg N 0, --dynamic-grid or --grid-size 120 for 10k):\n\n  size   before refactors    after both\n  1k     12.49 s             0.70 s        17.8x\n  2k     never completed     2.56 s\n  5k     never completed     12.48 s\n  10k    never completed     220.13 s      (vs Enola's 30 min claim)\n\nMovement metrics at 10k are non-trivial (12,582 ops, 57,442 moves);\nthe broken zero-movement output we saw with a saturated 100x100 grid\nwas a pre-existing shuttling-planner bug, not from these refactors."
+    },
+    {
+      "sha": "9739ce576d0272b74ab3131b07af16ab44aa97ed",
+      "date": "2026-05-15T11:40:13Z",
+      "message": "Vectorize Hungarian cost-matrix construction with NumPy broadcasting\n\nReplace the Python double for-loop at compiler_core.py:571-592 (mover x\ncandidate-slot iteration, calling euclid_dist 2-4 times per cell) with\nfour NumPy pairwise-distance matrices computed via broadcasting, then\nnp.minimum to pick the cheaper orientation. The RFT-bias branch is\nvectorized similarly by building per-mover anchor and weight arrays\nonce and broadcasting them against the slot positions.\n\nVerified on a 1000-qubit / 1500-CZ random 3-regular graph (Enola's\ngraphs.json[1000][0]):\n- Every output metric (fidelity, movement ops, transferred qubits,\n  moves, total distance, gate cycles, Total_T, idle time) is\n  byte-for-byte identical before vs after, confirming the algorithm\n  is unchanged.\n- Compile time drops 12.49s -> 8.44s (1.48x faster, ~4s saved).\n\nThe remaining ~8.4s is in other euclid_dist callsites (layout\nsampling in sample_max_parallel, neighbour checks in get_neighbors,\nthe Pandas-based time-series table in get_c_pairs_for_timestamp);\nthose are out of scope for this change."
+    },
+    {
+      "sha": "8c4a64cc2087f57d9483ab25818237893b5e40cd",
+      "date": "2026-05-14T20:55:53Z",
+      "message": "Sync README and plot-script defaults with actual output paths\n\nEnd-to-end testing on qft_small revealed benchmark_runner writes to\nresults/{dataset}_ladder_rint{r_int}/ (with the rint suffix), but the\nREADME and the --csv-dir defaults of final_plot.py / ladder_plot.py\nstill referenced the older results/{dataset}_ladder/ path.\n\n- Update README path references in 6 places (Running benchmarks, Files\n  and outputs, Input/Output directories, Examples, DasAtom Excel\n  placement, default-flag docs).\n- Document the four CLI flags added since the previous README revision:\n  --r-ints, --variants, --r-blk, --grid-size, --dynamic-grid. Drop the\n  obsolete \"hard-coded defaults inside main_experiment()\" wording for\n  parameters now exposed as flags.\n- Change final_plot.py and ladder_plot.py --csv-dir default from\n  results/qft_ladder to results/qft_ladder_rint2 so the plotting\n  scripts work out of the box on the output benchmark_runner actually\n  produces."
+    },
+    {
+      "sha": "8492492dbdc48b799ae1e1a98009c9fe5ed3579b",
+      "date": "2026-05-14T20:48:23Z",
+      "message": "Remove the 4 unused top-level scripts\n\nEnd-to-end testing on the qft_small dataset showed these scripts are\neither broken or fully superseded:\n\n- visualize_movement.py: standalone visualizer that hardcodes R=C=15 and\n  does not parse the [LAYOUT_SLOTS:] annotations the current\n  benchmark_runner emits. src/generate_visualizations.py has its own\n  more capable QubitMovementVisualizer (line 187) and does not import\n  from this file.\n- run_visualization_demo.py: subprocess-runs \"benchmark_runner.py\" at\n  the top level, but the file lives at src/benchmark_runner.py; also\n  expects hardware_instructions.txt in cwd, which the current pipeline\n  no longer produces. Doubly broken.\n- tabler.py: algorithm demo that hardcodes a 5-qubit inline QASM, no\n  CLI, ~140 commented-out lines. Not imported anywhere.\n- latex_table.py: hardcoded paper CSV filenames and circuit list, no\n  CLI. src/qft_comparison_table.py / src/qtetris_comparison_table.py\n  cover the public-friendly comparison-table use case.\n\nNone of the 4 are referenced by README or imported by any kept script."
+    },
+    {
+      "sha": "3e6ad553777e18b248702b51270b0d6888da08e6",
+      "date": "2026-05-14T20:27:53Z",
+      "message": "Strip non-ASCII characters from Python scripts\n\nWindows console defaults to cp1252, which crashes on Unicode chars in\nprint() output or argparse --help (docstrings). Replaced:\n- Math glyphs: x->x, sqrt->sqrt, mu->u (e.g. 11x11, 1.2x_sqrtN, us)\n- Status emojis in prints: [OK], [WARN], [ERROR], [DONE]\n- Decorative emojis (HTML, banners): removed\n\nAfter this change, all kept Python scripts run on Windows without\nneeding PYTHONIOENCODING=utf-8. Verified by running benchmark_runner,\nfinal_plot, ladder_plot, qft_grid_comparison_plot_final, and the two\ncomparison-table scripts with the default cp1252 console.\n\nDasAtom-main/ (vendored upstream) and README.md prose are unchanged."
+    },
+    {
+      "sha": "efa42f197fcf0b1497d786af6ccbffd131c2bb2d",
+      "date": "2026-05-14T20:08:09Z",
+      "message": "Handle missing input CSVs gracefully in comparison-table scripts\n\nBoth qft_comparison_table.py and qtetris_comparison_table.py crashed\nwith FileNotFoundError / KeyError when expected input CSVs were absent.\n- qtetris: load_enola_data now returns None on missing file (matching\n  load_dasatom_data); fall back to other sources for the master circuit\n  list and short-circuit with a \"No input data found\" message if all\n  sources are empty; guard the per-row Enola lookup.\n- Both: reindex columns only when the result frame is non-empty so an\n  empty-input run exits 0 instead of KeyError."
+    },
+    {
+      "sha": "73f2d92dfb0e671aaa9c19a2db3c046aea5582d5",
+      "date": "2026-05-14T20:02:39Z",
+      "message": "Prepare repo for public release\n\n- Replace hardcoded D:\\Quantum\\Qiskit paths in qft_comparison_table,\n  qtetris_comparison_table, and qft_grid_comparison_plot_final with\n  --results-dir / --plots-dir / --variants / --output CLI flags\n  (defaults: results, plots). Mirrors the flag style of final_plot.py\n  and ladder_plot.py.\n- Add root MIT LICENSE; note the vendored DasAtom keeps its own license.\n- Add requirements.txt and allow it through the broad *.txt gitignore.\n- README: fix .venv/ladder_plot.py typo (extra space) to src/, update\n  the QFT scaling and comparison-table sections to document the new\n  CLI flags, and switch setup instructions to pip install -r\n  requirements.txt."
+    },
+    {
+      "sha": "fc30566d7d7b78f3570907794279df36826c1316",
+      "date": "2026-05-14T19:36:05Z",
+      "message": "Clean up temp: remove one-off experiments and superseded scripts\n\nDrops 19 untracked-by-README scripts (3 top-level, 16 in src/) that are\neither hardcoded to specific circuits/grids, superseded by *_final versions,\none-shot maintenance scripts, or paper-specific comparison plots not part\nof the public pipeline. Remaining: benchmark_runner, compiler_core,\nfinal_plot, ladder_plot, qft_grid_comparison_plot_final, the *_table\ngenerators, generate_visualizations, dasatom_instruction_converter,\nvisualize_movement, run_visualization_demo, latex_table, tabler,\ngenerate_summary_table."
+    },
+    {
+      "sha": "6ed7aa062150ccd9b3b1d7df3a871c524a27b18c",
+      "date": "2026-04-09T12:16:42Z",
+      "message": "Refactor README and scripts for improved clarity and functionality; update plotting and comparison logic for DasAtom variants"
+    },
+    {
+      "sha": "569b871f712258ae9bdf2d95ff61a5413b5d6d12",
+      "date": "2026-04-04T20:20:03Z",
+      "message": "Add qasm files in dasatom"
+    },
+    {
+      "sha": "83049aa01cf7cab3aa543245299e844a3a8b38a4",
+      "date": "2026-03-30T10:55:22Z",
+      "message": "Add visualization and analysis scripts for quantum circuit performance\n\n- Implemented `rint_comparison_plot.py` to generate comparative plots for various metrics across different interaction radii.\n- Created `scan_log.py` to check logs for invalid gate distances based on specified interaction radius.\n- Developed `visualize_qft100_methodB.py` and `visualize_qft100_methodB_serialized.py` for visualizing qubit movements in QFT circuits.\n- Added `visualize_qft80_methodB.py` and `visualize_sqrt7_methodB.py` for visualizing additional quantum circuits.\n- Introduced `tabler.py` to analyze QASM files and generate proximity and time-series tables for qubit interactions.\n- Created `visualize_movement.py` for comprehensive visualization of qubit movements, including static plots, heatmaps, and animated GIFs."
+    },
+    {
+      "sha": "673ee198e86f7657b2dc96b485455db949cd6712",
+      "date": "2026-01-10T13:52:56Z",
+      "message": "minor comment modification"
+    },
+    {
+      "sha": "ee5716594815a8564f3e0d4d404199c2cf214234",
+      "date": "2025-12-18T18:42:04Z",
+      "message": "Merge branch 'main' of https://github.com/ipash185/NAQC_Compiler"
+    },
+    {
+      "sha": "e52b2b659ff9728a28d6032c0efaec766c6e3260",
+      "date": "2025-12-18T18:40:51Z",
+      "message": "Add Readme and Clean repository"
+    },
+    {
+      "sha": "79bb4f83f30c514c1374bda7bc3a72d21150fcbc",
+      "date": "2025-12-18T18:35:54Z",
+      "message": "Add Readme and Clean repository"
+    },
+    {
+      "sha": "5b34be44bb8c707bf71f3091cca453dfb620ba9c",
+      "date": "2025-12-18T08:27:18Z",
+      "message": "Modify the eviction policy of qubits still using RFT.\nAdd RFT's contribution in cost matrix for Hungarian Algorithm.\nMake the features toggleable.\nImprove plots."
+    },
+    {
+      "sha": "be85f658a4c993614add41fd6a92ab9a10694f0f",
+      "date": "2025-12-12T17:40:01Z",
+      "message": "Add 1 qubit movement feature for dynamic layout creation"
+    },
+    {
+      "sha": "e32a74cd0544ed0773f833cadabf15fa2694da05",
+      "date": "2025-12-12T17:37:58Z",
+      "message": "Replace initial slot selection using cost aware lookahead with that using centre of mass approach.\nCreate layout dynamically for each timestep.\nReplace idle parking to closest available spot with lookahead strategy using right filled table"
+    },
+    {
+      "sha": "e801415bb07d34eedb17a4df5b805d429e14dfa1",
+      "date": "2025-10-27T07:32:12Z",
+      "message": "upgrade: add cost-aware multi-layer lookahead and orientation-aware mapping\n\n- Replaced overlap-based lookahead with cost-aware, weighted lookahead across 3 future layers.\n- Added inverse-cost scoring to prioritize low-movement future slot assignments.\n- Enhanced Hungarian assignment to consider both slot orientations (min-cost pairing).\n- Made slot selection deterministic (removed random sampling for stability).\n- Simplified idle qubit parking with nearest-spot heuristic.\n- Default unplaced qubits now use grid center (R/2, C/2) for neutral cost estimation."
+    },
+    {
+      "sha": "c3947e8249cd01a30052b51d817656f8be836f7d",
+      "date": "2025-10-27T06:54:21Z",
+      "message": "Improvement 3: Look-Ahead slot bias"
+    },
+    {
+      "sha": "d9b3ed5809f53c7e13eaf85be918bc09b2a93415",
+      "date": "2025-10-27T06:43:59Z",
+      "message": "Improvement 2: Greedy parking of evicted idle qubits"
+    },
+    {
+      "sha": "4b8bb9f35c670a1cbb02fd103b4766fab19c78c8",
+      "date": "2025-10-27T06:40:07Z",
+      "message": "Improvement 1: Optimized mapping of active qubits (gates) to slots"
+    },
+    {
+      "sha": "c6bad3d8b01e1147acfc36b40b95effa1fbfca7b",
+      "date": "2025-10-27T06:35:26Z",
+      "message": "add final_plot.py for data visualization and analysis of QFT and Tetris results"
+    },
+    {
+      "sha": "2770ac1c60a1b56ded00a7ff6dd39f90d51f385e",
+      "date": "2025-10-24T12:29:33Z",
+      "message": "add load/unload fidelity loss in shuttling"
+    },
+    {
+      "sha": "7456a2486715291921bffa3899f677193e572715",
+      "date": "2025-10-23T15:48:18Z",
+      "message": "init"
+    }
+  ],
+  "embedded_helper_history_search": [
+    {
+      "commit": "f90775df9a92c346296140475350e7626da9f893",
+      "date": "2025-01-20T03:32:55Z",
+      "helper_blob": "9a681c686d18c1cbaade7c5ae2a91962a62e3427",
+      "matches_embedded_helper": false
+    },
+    {
+      "commit": "3ba9838cbfa20ed7dd6b055c7f6b2d31dc228f4c",
+      "date": "2025-01-19T13:17:16Z",
+      "helper_blob": "7ac4439ab3d03259559de625b148da9ad2e1c8a7",
+      "matches_embedded_helper": false
+    },
+    {
+      "commit": "12894fd767d3eb29c3c5b3bba7630e6e84a168f1",
+      "date": "2024-12-07T12:08:37Z",
+      "helper_blob": "4885dfc58e963a3fae6e2bada1d8e59080b95f5e",
+      "matches_embedded_helper": false
+    },
+    {
+      "commit": "e1aad8cbb85b3eecc416d153d01e751a9a2808b3",
+      "date": "2024-09-09T06:26:52Z",
+      "helper_blob": "e4cd3a5533b4876eab246926d82ee37d497767d5",
+      "matches_embedded_helper": false
+    },
+    {
+      "commit": "615fdfb66b774e08c116494e2aaaaf5e63b24fa3",
+      "date": "2024-09-07T02:17:11Z",
+      "helper_blob": "8546a67ef23cd3a3dfcf45b48b4ca7487733cf4d",
+      "matches_embedded_helper": false
+    },
+    {
+      "commit": "7aaced90f25b4e2a5b74d6666c785f97c8efc56e",
+      "date": "2024-09-07T01:54:30Z",
+      "helper_blob": "ed9888ed891d0dcc46314841bb267e63bd61a53b",
+      "matches_embedded_helper": false
+    },
+    {
+      "commit": "a0257a7097f16f1f14a634f3823fc312fa9a3a60",
+      "date": "2024-09-05T03:24:22Z",
+      "helper_blob": "a0853a88885451158a1abfbfe77ff916c9ce524c",
+      "matches_embedded_helper": false
+    }
+  ],
+  "limits": "At most 100 RFT commits and 20 DasAtom helper-changing root trees; not a complete Git checkout",
+  "paper_revision_resolved": false
+}

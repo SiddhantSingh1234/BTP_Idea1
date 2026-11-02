@@ -1,0 +1,9 @@
+# D010: completion of the authorized bounded Idea1 research
+
+Recorded 2026-10-31T18:46:30.748552+00:00. This documents the user's existing instructions and frozen study, not a claim that this document was written before the data. The user authorized remaining experiments that fit five-to-six hours, reuse of finished work, and Markdown analysis while report/presentation formatting is supplied later.
+
+The original529-cell manifest fixed the reduced seed/size/profile matrix before execution. Its caps and raw attempts remain unchanged. The cap-only30-cell follow-up selected every initial QFT timeout, without selecting quality winners, using the remaining original time budget. Total experiment-controller time is 4.633 hours≤6. Failures/censors are valid terminal outcomes under the technical contract, not proof that each compiler finishes successfully.
+
+All original promised axes now have experimental evidence, prior immutable evidence, or the explicitly accepted pinned-source/analytical architecture boundary. No central comparison is left awaiting a run or analysis. Calibrated hardware, exact paper identity, an incomparable additional compiler adapter and unlimited parameter/instance expansion are not fabricated. Formal report/presentation formatting is deferred by the user's explicit instruction. Phase09 is complete as a Markdown research/reproducibility package; Phase10 closes only its existing transition brief.
+
+Evidence and exact requirement mapping: [completion review](../../final/idea1_research_release_v1/COMPLETION_REVIEW.md), [scope ledger](../../final/idea1_research_release_v1/scope_coverage.csv), [research](../../final/idea1_research_release_v1/RESEARCH_ANALYSIS.md), and [machine-readable gate](../../final/idea1_research_release_v1/completion_gate.json). No original failed record or prior planning snapshot is erased.

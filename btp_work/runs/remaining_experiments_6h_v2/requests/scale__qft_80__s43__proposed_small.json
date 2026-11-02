@@ -1,0 +1,12 @@
+{
+  "id": "scale__qft_80__s43__proposed_small",
+  "suite": "scale",
+  "kind": "compile",
+  "case_id": "qft_80",
+  "case_path": "runs\\remaining_experiments_6h_v2\\inputs\\qft_80\\case.json",
+  "seed": 43,
+  "variant": "proposed_small",
+  "grid": 11,
+  "timeout": 150,
+  "repair": "small"
+}

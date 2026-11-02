@@ -1,0 +1,336 @@
+{
+  "schema_version": "movement_error_result.phase03.v1",
+  "phase": "03",
+  "operation": "retime",
+  "schedule_sha256": "1be708b4666f9e46118aa2f3c82b84e85e91c5faa4c6be835f38c4337c777d71",
+  "source_trace_sha256": "667f2538bbda0c856576fb009b6068c631bf07a353919c9a0e1fce72a3864578",
+  "profile_sha256": "8075f6282e1ac0c06be0223aa809e792e4174f31a59ff080427cf015bd14c083",
+  "profile_id": "extended_no_cooling.v1",
+  "computation_scope": "normalized_CZ_skeleton",
+  "historical_source_score": {
+    "gate_stages": 17,
+    "movement_blocks": 11,
+    "scored_qubits": 5,
+    "scored_CZ": 26,
+    "sum_batch_max_distance_um": 124.83883618360355,
+    "four_per_block_transfer_alias": 44,
+    "runtime_proxy_us": 1110.3797021520063,
+    "idle_proxy_us": 5546.698510760031,
+    "negative_log_fidelity": 0.13402388641932478,
+    "negative_log_fidelity_infinite": false,
+    "fidelity_proxy": 0.8745691740278152,
+    "fidelity_underflow": false,
+    "accounting_only": true,
+    "not_actual_atom_transfer_count": true
+  },
+  "validation": {
+    "status": "ok",
+    "violations": [],
+    "fully_validated_within_model": true,
+    "source_validation": {
+      "status": "ok",
+      "structural_valid": true,
+      "violations": [],
+      "coverage": {
+        "checked": [
+          "CZ_gate_identity_and_dependencies",
+          "analytic_continuous_shared_progress",
+          "aod_order_equality_and_retained_carriers",
+          "endpoint_grid_bounds",
+          "final_mapping",
+          "gate_geometry",
+          "logical_carrier_mapping"
+        ],
+        "unsupported": [],
+        "not_applicable": [
+          "unintended_global_pulses"
+        ]
+      },
+      "fully_validated_within_model": true,
+      "source_physical_evidence_complete": false,
+      "unresolved_coincident_sites": [],
+      "model_assumptions": [
+        "SLM-to-AOD-to-SLM for nonzero movers; one concurrent load and unload stage per batch",
+        "Shared normalized linear progress; times derived from declared profile, not observed",
+        "NEW Phase04 testing geometry: separate SLM/AOD planes with one-spacing clearance, ordinary trap-transfer primitives",
+        "Shared single-AOD progress; all policies use identical geometry; no measured native plane separation is claimed"
+      ],
+      "semantics": {
+        "level": "exhaustive_CZ_basis_phases_with_final_permutation",
+        "full_original_circuit_checked": false,
+        "physical_output_slot_to_logical_qubit": [
+          2,
+          0,
+          4,
+          1,
+          3
+        ],
+        "basis_states": 32,
+        "equivalent": true
+      },
+      "final_positions": {
+        "a0": [
+          2,
+          8
+        ],
+        "a1": [
+          8,
+          9
+        ],
+        "a2": [
+          1,
+          10
+        ],
+        "a3": [
+          9,
+          9
+        ],
+        "a4": [
+          4,
+          8
+        ]
+      },
+      "final_logical_mapping": {
+        "a0": 0,
+        "a1": 1,
+        "a2": 2,
+        "a3": 3,
+        "a4": 4
+      },
+      "observed_gate_count": 26
+    },
+    "geometry_projection_validation": {
+      "status": "ok",
+      "structural_valid": true,
+      "violations": [],
+      "coverage": {
+        "checked": [
+          "CZ_gate_identity_and_dependencies",
+          "analytic_continuous_shared_progress",
+          "aod_order_equality_and_retained_carriers",
+          "endpoint_grid_bounds",
+          "final_mapping",
+          "gate_geometry",
+          "logical_carrier_mapping"
+        ],
+        "unsupported": [],
+        "not_applicable": [
+          "unintended_global_pulses"
+        ]
+      },
+      "fully_validated_within_model": true,
+      "source_physical_evidence_complete": false,
+      "unresolved_coincident_sites": [],
+      "model_assumptions": [
+        "SLM-to-AOD-to-SLM for nonzero movers; one concurrent load and unload stage per batch",
+        "Shared normalized linear progress; times derived from declared profile, not observed",
+        "NEW Phase04 testing geometry: separate SLM/AOD planes with one-spacing clearance, ordinary trap-transfer primitives",
+        "Shared single-AOD progress; all policies use identical geometry; no measured native plane separation is claimed"
+      ],
+      "semantics": {
+        "level": "exhaustive_CZ_basis_phases_with_final_permutation",
+        "full_original_circuit_checked": false,
+        "physical_output_slot_to_logical_qubit": [
+          2,
+          0,
+          4,
+          1,
+          3
+        ],
+        "basis_states": 32,
+        "equivalent": true
+      },
+      "final_positions": {
+        "a0": [
+          2,
+          8
+        ],
+        "a1": [
+          8,
+          9
+        ],
+        "a2": [
+          1,
+          10
+        ],
+        "a3": [
+          9,
+          9
+        ],
+        "a4": [
+          4,
+          8
+        ]
+      },
+      "final_logical_mapping": {
+        "a0": 0,
+        "a1": 1,
+        "a2": 2,
+        "a3": 3,
+        "a4": 4
+      },
+      "observed_gate_count": 26
+    },
+    "coverage": {
+      "checked": [
+        "trajectory_bounds",
+        "completion_before_start",
+        "physical_carrier_handoff",
+        "finite_cold_banks",
+        "cooling_suboperations",
+        "resources",
+        "shared_progress_geometry_projection"
+      ],
+      "unsupported": [],
+      "primitive_assumptions": [
+        "Registered cold-bank geometry and trap handovers are a declared hypothetical primitive, not measured optical-control evidence"
+      ]
+    },
+    "original_native_status_invalid": false,
+    "corrected_control": false,
+    "cooling_episodes": 0,
+    "cooled_atom_events": 0,
+    "final_physical_carriers": {
+      "0": "a0",
+      "1": "a1",
+      "2": "a2",
+      "3": "a3",
+      "4": "a4"
+    },
+    "final_n_by_qubit": {
+      "0": 0.016272138962284955,
+      "1": 0.010848092641523303,
+      "2": 0.0108480926415233,
+      "3": 0.01627213896228495,
+      "4": 0.005424046320761649
+    }
+  },
+  "status": "ok",
+  "valid_for_comparison": true,
+  "assumptions": [
+    "Phase 03 model; source decisions remain fixed; no compiler optimization",
+    "Cooling, if present, uses the explicitly hypothetical registered-bank primitive",
+    "Analytical mixed-source RFT adaptation; not one calibrated physical device",
+    "No cooling on basic one-AOD RFT resources; threshold exceedance continues risk",
+    "Excess n reference starts at cold preparation; effective capacity approximates initial thermal state",
+    "All logical qubits exposed throughout elapsed execution, including motion/gates; no duplicate movement-decoherence factor",
+    "Normalized CZ skeleton only; original omitted one-qubit computation gates remain outside timing/scoring scope"
+  ],
+  "budget": {
+    "terms": {
+      "E_native_gate": 0.13032608741215143,
+      "E_transfer": 0.02201100733883775,
+      "E_heating_gate": 0.0001809437851031937,
+      "E_movement_loss": 0.0,
+      "E_cooling_gate": 0.0,
+      "E_decoherence": 0.01061030395391663
+    },
+    "terms_infinite": {
+      "E_native_gate": false,
+      "E_transfer": false,
+      "E_heating_gate": false,
+      "E_movement_loss": false,
+      "E_cooling_gate": false,
+      "E_decoherence": false
+    },
+    "total_E": 0.16312834249000902,
+    "total_E_infinite": false,
+    "fidelity_proxy": 0.8494821567628259,
+    "fidelity_underflow": false
+  },
+  "per_qubit_exposure": {
+    "0": {
+      "T2_us": 1500000.0,
+      "weighted_exposure_us": 3183.0911861749887,
+      "mode_durations_us": {
+        "stationary": 2473.4652750583164,
+        "move": 587.425911116674,
+        "transfer": 120.0,
+        "gate": 2.1999999999999997,
+        "cooling": 0.0
+      },
+      "E_decoherence": 0.002122060790783326
+    },
+    "1": {
+      "T2_us": 1500000.0,
+      "weighted_exposure_us": 3183.0911861749887,
+      "mode_durations_us": {
+        "stationary": 2450.9011152136227,
+        "move": 649.9900709613679,
+        "transfer": 80.0,
+        "gate": 2.1999999999999997,
+        "cooling": 0.0
+      },
+      "E_decoherence": 0.002122060790783326
+    },
+    "2": {
+      "T2_us": 1500000.0,
+      "weighted_exposure_us": 3183.0911861749887,
+      "mode_durations_us": {
+        "stationary": 2683.60462482405,
+        "move": 417.88656135094016,
+        "transfer": 80.0,
+        "gate": 1.5999999999999999,
+        "cooling": 0.0
+      },
+      "E_decoherence": 0.002122060790783326
+    },
+    "3": {
+      "T2_us": 1500000.0,
+      "weighted_exposure_us": 3183.0911861749887,
+      "mode_durations_us": {
+        "stationary": 2177.1246349219095,
+        "move": 883.766551253081,
+        "transfer": 120.0,
+        "gate": 2.1999999999999997,
+        "cooling": 0.0
+      },
+      "E_decoherence": 0.002122060790783326
+    },
+    "4": {
+      "T2_us": 1500000.0,
+      "weighted_exposure_us": 3183.0911861749887,
+      "mode_durations_us": {
+        "stationary": 2940.269094682064,
+        "move": 200.62209149292661,
+        "transfer": 40.0,
+        "gate": 2.1999999999999997,
+        "cooling": 0.0
+      },
+      "E_decoherence": 0.002122060790783326
+    }
+  },
+  "counts": {
+    "native_CZ": 26,
+    "transfer_atom_events": 22,
+    "transfer_stages": 22,
+    "movement_batches": 11,
+    "moved_atom_events": 11
+  },
+  "makespan_us": 3183.0911861749887,
+  "final_n_by_physical_atom": {
+    "a0": 0.016272138962284955,
+    "a1": 0.010848092641523303,
+    "a2": 0.0108480926415233,
+    "a3": 0.01627213896228495,
+    "a4": 0.005424046320761649
+  },
+  "final_physical_carriers": {
+    "0": "a0",
+    "1": "a1",
+    "2": "a2",
+    "3": "a3",
+    "4": "a4"
+  },
+  "warnings": [],
+  "cooling_diagnostics": {
+    "extra_transfer_E": 0.0,
+    "extra_heating_E": 0.0,
+    "already_in_main_terms": true,
+    "not_an_additional_error_term": true
+  },
+  "surrogate_heating": false,
+  "resource_track": "basic_no_cooling",
+  "initial_spare_atom_population": 0,
+  "event_audit_omitted_for_storage": true
+}

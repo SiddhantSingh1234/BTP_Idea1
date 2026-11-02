@@ -1,0 +1,43 @@
+{
+  "artifact_checks_ok": true,
+  "issues": [],
+  "mandatory_gates": [
+    {
+      "criterion": "A fresh shell can run one RFT and one DasAtom smoke case using documented commands.",
+      "verdict": "pass_tested_smokes"
+    },
+    {
+      "criterion": "The agent explains Algorithm 1 and shows a traceable source-to-code map.",
+      "verdict": "pass_source_and_compiled_trace"
+    },
+    {
+      "criterion": "The manuscript/snapshot/corrected control distinction is explicit; no uncertain variant is called exact paper reproduction.",
+      "verdict": "pass"
+    },
+    {
+      "criterion": "Every scientific clarification C1\u2013C8 has an owner and a recorded resolution plan.",
+      "verdict": "pass"
+    },
+    {
+      "criterion": "Input normalization and output accounting are specified sufficiently for Phase 01.",
+      "verdict": "pass_documented_native_register_limit"
+    },
+    {
+      "criterion": "Deterministic repeatability is tested twice, or all stochastic sources are identified for controlled repetition.",
+      "verdict": "pass_tested_smoke_repeatability"
+    },
+    {
+      "criterion": "Exact manuscript implementation/version evidence",
+      "verdict": "unresolved_historical_limitation_outside_user_selected_snapshot_gate"
+    }
+  ],
+  "phase_status": "complete",
+  "phase_complete": true,
+  "completion_scope": "user_selected_latest_public_snapshot",
+  "isolated_checks_per_run": 27,
+  "isolated_repeat_byte_equal": true,
+  "full_compiler_smoke_passed": true,
+  "paper_revision_resolved": false,
+  "snapshot_mandatory_criteria_passed": true,
+  "scope": "Evidence/source consistency and gate accounting; smoke replay does not prove continuous physical validity"
+}

@@ -1,0 +1,346 @@
+{
+  "format": "audited_trace_manifest.v1",
+  "metadata": {
+    "schema_version": "neutral_atom_trace.v1",
+    "circuit": {
+      "format": "cz_circuit.v1",
+      "num_qubits": 5,
+      "gates": [
+        {
+          "gate_id": "g000000",
+          "gate_type": "cz",
+          "qubits": [
+            2,
+            1
+          ],
+          "dependencies": [],
+          "logical_layer": 1
+        },
+        {
+          "gate_id": "g000001",
+          "gate_type": "cz",
+          "qubits": [
+            3,
+            4
+          ],
+          "dependencies": [],
+          "logical_layer": 1
+        },
+        {
+          "gate_id": "g000002",
+          "gate_type": "cz",
+          "qubits": [
+            1,
+            3
+          ],
+          "dependencies": [
+            "g000000",
+            "g000001"
+          ],
+          "logical_layer": 2
+        },
+        {
+          "gate_id": "g000003",
+          "gate_type": "cz",
+          "qubits": [
+            2,
+            1
+          ],
+          "dependencies": [
+            "g000000",
+            "g000002"
+          ],
+          "logical_layer": 3
+        },
+        {
+          "gate_id": "g000004",
+          "gate_type": "cz",
+          "qubits": [
+            3,
+            2
+          ],
+          "dependencies": [
+            "g000002",
+            "g000003"
+          ],
+          "logical_layer": 4
+        },
+        {
+          "gate_id": "g000005",
+          "gate_type": "cz",
+          "qubits": [
+            3,
+            1
+          ],
+          "dependencies": [
+            "g000003",
+            "g000004"
+          ],
+          "logical_layer": 5
+        },
+        {
+          "gate_id": "g000006",
+          "gate_type": "cz",
+          "qubits": [
+            2,
+            1
+          ],
+          "dependencies": [
+            "g000004",
+            "g000005"
+          ],
+          "logical_layer": 6
+        },
+        {
+          "gate_id": "g000007",
+          "gate_type": "cz",
+          "qubits": [
+            3,
+            2
+          ],
+          "dependencies": [
+            "g000005",
+            "g000006"
+          ],
+          "logical_layer": 7
+        },
+        {
+          "gate_id": "g000008",
+          "gate_type": "cz",
+          "qubits": [
+            2,
+            0
+          ],
+          "dependencies": [
+            "g000007"
+          ],
+          "logical_layer": 8
+        },
+        {
+          "gate_id": "g000009",
+          "gate_type": "cz",
+          "qubits": [
+            1,
+            3
+          ],
+          "dependencies": [
+            "g000006",
+            "g000007"
+          ],
+          "logical_layer": 8
+        },
+        {
+          "gate_id": "g000010",
+          "gate_type": "cz",
+          "qubits": [
+            0,
+            4
+          ],
+          "dependencies": [
+            "g000001",
+            "g000008"
+          ],
+          "logical_layer": 9
+        },
+        {
+          "gate_id": "g000011",
+          "gate_type": "cz",
+          "qubits": [
+            2,
+            0
+          ],
+          "dependencies": [
+            "g000008",
+            "g000010"
+          ],
+          "logical_layer": 10
+        },
+        {
+          "gate_id": "g000012",
+          "gate_type": "cz",
+          "qubits": [
+            4,
+            2
+          ],
+          "dependencies": [
+            "g000010",
+            "g000011"
+          ],
+          "logical_layer": 11
+        },
+        {
+          "gate_id": "g000013",
+          "gate_type": "cz",
+          "qubits": [
+            4,
+            0
+          ],
+          "dependencies": [
+            "g000011",
+            "g000012"
+          ],
+          "logical_layer": 12
+        },
+        {
+          "gate_id": "g000014",
+          "gate_type": "cz",
+          "qubits": [
+            2,
+            0
+          ],
+          "dependencies": [
+            "g000012",
+            "g000013"
+          ],
+          "logical_layer": 13
+        },
+        {
+          "gate_id": "g000015",
+          "gate_type": "cz",
+          "qubits": [
+            4,
+            2
+          ],
+          "dependencies": [
+            "g000013",
+            "g000014"
+          ],
+          "logical_layer": 14
+        },
+        {
+          "gate_id": "g000016",
+          "gate_type": "cz",
+          "qubits": [
+            0,
+            4
+          ],
+          "dependencies": [
+            "g000014",
+            "g000015"
+          ],
+          "logical_layer": 15
+        }
+      ]
+    },
+    "circuit_sha256": "b9e60f4275e5599a7c192b98b28a90961ad65ed124d5c2634e69f951729d7047",
+    "hardware": {
+      "profile_id": "legacy_geometry_evidence.v1",
+      "rows": 11,
+      "columns": 11,
+      "coordinate_unit": "grid_index",
+      "spacing_um": 3.0,
+      "interaction_radius_um": 6.0,
+      "restriction_radius_um": 12.0,
+      "min_atom_separation_um": null,
+      "slm_aod_shared_plane": null,
+      "addressing": "individual",
+      "aod_count": 1,
+      "cooling_supported": false,
+      "cz_duration_us": 0.2,
+      "transfer_stage_duration_us": 20.0,
+      "move_speed_um_per_us": 0.55,
+      "gates_require_trap": "SLM",
+      "allow_move_gate_overlap": false,
+      "coordinate_tolerance": 1e-09,
+      "legacy_T2_us": 1500000.0,
+      "legacy_f_cz": 0.995,
+      "legacy_f_transfer": 1.0,
+      "assumptions": [
+        "Physical minimum separation and cross-plane geometry not established by native logs"
+      ],
+      "source": "Pinned RFT/DasAtom legacy constants; no new heating/cooling/acceleration model"
+    },
+    "hardware_sha256": "958e8b8f998ebe08235bbdda51a285491af31dc74d8af4cc1950931621c7e163",
+    "origin": {
+      "kind": "dasatom",
+      "upstream_status": "unsupported_declared_register",
+      "adapter_sha256": "52176634b99af2403661c549b99db6cc21bad4df9e697d3d11529fa6692c17a1",
+      "compiler_config": {
+        "options": null,
+        "seed": 42,
+        "hash_seed": "0",
+        "threads": 1,
+        "geometry": {
+          "rows": 11,
+          "columns": 11,
+          "r_int": 2,
+          "r_blk": 4
+        },
+        "register_policy": {
+          "input_declared_N": 16,
+          "native_N": 5,
+          "behavior": "upstream infers max(two-qubit operand)+1, dropping trailing inactive qubits",
+          "matched_full_register_supported": false
+        },
+        "routing_seed": null
+      },
+      "source_files": [
+        {
+          "path": "C:\\Users\\hp\\Documents\\BTP\\btp_work\\runs\\current_baseline\\study_v1\\attempts\\tableII__alu-v0_27__g11__dasatom__standalone__native__r1\\attempt_01\\worker\\result.json",
+          "sha256": "719b888f6d0c6a7bb3a74a5a4a46fecf0ccbe32852fc1a5061ee9135e8899338"
+        },
+        {
+          "path": "C:\\Users\\hp\\Documents\\BTP\\btp_work\\runs\\current_baseline\\study_v1\\attempts\\tableII__alu-v0_27__g11__dasatom__standalone__native__r1\\attempt_01\\worker\\normalized.qasm",
+          "sha256": "bf5e3218f7812d49b0b90769e572588d0e0c7141f7228f71270047e879b98947"
+        },
+        {
+          "path": "C:\\Users\\hp\\Documents\\BTP\\btp_work\\runs\\current_baseline\\study_v1\\attempts\\tableII__alu-v0_27__g11__dasatom__standalone__native__r1\\attempt_01\\worker\\native_dasatom.json",
+          "sha256": "5db055f3a1d3c3f75976470b598bbccfde0e24fc837340074b6a5dddfc9d72dc"
+        }
+      ],
+      "rft_revision": "3d1f09233c2acd357fd9fbfad1b5300a921d301a",
+      "dasatom_revision": "73a6bdf0fd200b2733745211eaf2e0c1e17f496a",
+      "input_declared_qubits": 16,
+      "normalized_declared_qubits": 16,
+      "effective_qubits": 5,
+      "original_register_complete": false,
+      "register_scope": "source_native_CZ_only",
+      "module_providers": {
+        "compiler_core": "vendor\\NAQC_Compiler-3d1f09233c2acd357fd9fbfad1b5300a921d301a\\src\\compiler_core.py",
+        "benchmark_runner": "vendor\\NAQC_Compiler-3d1f09233c2acd357fd9fbfad1b5300a921d301a\\src\\benchmark_runner.py",
+        "dasatom_instruction_converter": "vendor\\NAQC_Compiler-3d1f09233c2acd357fd9fbfad1b5300a921d301a\\src\\dasatom_instruction_converter.py",
+        "DasAtom_fun": "vendor\\DasAtom-73a6bdf0fd200b2733745211eaf2e0c1e17f496a\\DasAtom_fun.py",
+        "Enola.route": "vendor\\DasAtom-73a6bdf0fd200b2733745211eaf2e0c1e17f496a\\Enola\\route.py"
+      }
+    },
+    "timing_policy": "evidence",
+    "diagnostics": [],
+    "atom_identity_policy": "One stable atom carrier per source logical qubit; no SWAP/cooling state transfer in native CZ-only scope",
+    "physical_evidence_complete": false,
+    "assumptions": [
+      "Native logs do not expose trap transfers, physical timing or trajectories"
+    ],
+    "source_counts": {
+      "gate_stages": 17,
+      "nonempty_movement_blocks": 0
+    },
+    "expected_final_positions": {
+      "a0": [
+        1,
+        0
+      ],
+      "a1": [
+        0,
+        1
+      ],
+      "a2": [
+        0,
+        0
+      ],
+      "a3": [
+        0,
+        2
+      ],
+      "a4": [
+        1,
+        1
+      ]
+    },
+    "legacy_scored_qubits": 5,
+    "legacy_scored_CZ": 17
+  },
+  "canonical_events_sha256": "59ad1a4e6dad6bdf70bf7b81a4bf4b0ab082b1e89876b40078321d22f465ba3c",
+  "event_count": 18,
+  "regeneration": "adapt_run(worker, algorithm, timing=evidence)",
+  "physical_trace_stored": false
+}

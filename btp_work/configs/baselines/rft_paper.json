@@ -1,0 +1,38 @@
+{
+  "schema": "phase00.baseline-spec.v1",
+  "execution_ready": false,
+  "new_research_heuristics_enabled": false,
+  "environment_lock": null,
+  "id": "rft_paper",
+  "revision": null,
+  "options": null,
+  "status": "paper_revision_unresolved",
+  "manuscript_python": "3.13.2",
+  "available_interpreter": "3.13.2 research venv; 3.12.10 retained extraction runtime",
+  "evidenced_constants": {
+    "T2_us": 1500000.0,
+    "f_cz": 0.995,
+    "f_trans": 1.0,
+    "restriction_to_interaction_ratio": 2
+  },
+  "figure4_grids": [
+    11,
+    20,
+    35
+  ],
+  "tableII_grids": [
+    11,
+    35
+  ],
+  "exact_sampled_QFT_sizes": null,
+  "candidate_existing_variant": "8_optimized_eviction aligns more closely with Eq.6 but is not identified as paper implementation",
+  "missing_evidence": [
+    "author-supported commit/tag",
+    "fully resolved options",
+    "exact normalized inputs",
+    "original layout and seeds",
+    "package lock",
+    "raw figure/table records and timing provenance"
+  ],
+  "history_audit": "runs/phase_00/history_01/summary.json"
+}

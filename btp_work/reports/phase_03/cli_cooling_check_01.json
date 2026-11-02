@@ -1,0 +1,136 @@
+{
+  "status": "ok",
+  "violations": [],
+  "fully_validated_within_model": true,
+  "source_validation": {
+    "status": "ok",
+    "structural_valid": true,
+    "violations": [],
+    "coverage": {
+      "checked": [
+        "CZ_gate_identity_and_dependencies",
+        "analytic_continuous_shared_progress",
+        "aod_order_equality_and_retained_carriers",
+        "endpoint_grid_bounds",
+        "final_mapping",
+        "gate_geometry",
+        "logical_carrier_mapping"
+      ],
+      "unsupported": [],
+      "not_applicable": [
+        "unintended_global_pulses"
+      ]
+    },
+    "fully_validated_within_model": true,
+    "source_physical_evidence_complete": false,
+    "unresolved_coincident_sites": [],
+    "model_assumptions": [
+      "SLM-to-AOD-to-SLM for nonzero movers; one concurrent load and unload stage per batch",
+      "Shared normalized linear progress; times derived from declared profile, not observed"
+    ],
+    "semantics": {
+      "level": "exhaustive_CZ_basis_phases_with_final_permutation",
+      "full_original_circuit_checked": false,
+      "physical_output_slot_to_logical_qubit": [
+        0,
+        1
+      ],
+      "basis_states": 4,
+      "equivalent": true
+    },
+    "final_positions": {
+      "a0": [
+        5,
+        0
+      ],
+      "a1": [
+        5,
+        2
+      ]
+    },
+    "final_logical_mapping": {
+      "a0": 0,
+      "a1": 1
+    },
+    "observed_gate_count": 5
+  },
+  "geometry_projection_validation": {
+    "status": "ok",
+    "structural_valid": true,
+    "violations": [],
+    "coverage": {
+      "checked": [
+        "CZ_gate_identity_and_dependencies",
+        "analytic_continuous_shared_progress",
+        "aod_order_equality_and_retained_carriers",
+        "endpoint_grid_bounds",
+        "final_mapping",
+        "gate_geometry",
+        "logical_carrier_mapping"
+      ],
+      "unsupported": [],
+      "not_applicable": [
+        "unintended_global_pulses"
+      ]
+    },
+    "fully_validated_within_model": true,
+    "source_physical_evidence_complete": false,
+    "unresolved_coincident_sites": [],
+    "model_assumptions": [
+      "SLM-to-AOD-to-SLM for nonzero movers; one concurrent load and unload stage per batch",
+      "Shared normalized linear progress; times derived from declared profile, not observed"
+    ],
+    "semantics": {
+      "level": "exhaustive_CZ_basis_phases_with_final_permutation",
+      "full_original_circuit_checked": false,
+      "physical_output_slot_to_logical_qubit": [
+        0,
+        1
+      ],
+      "basis_states": 4,
+      "equivalent": true
+    },
+    "final_positions": {
+      "a0": [
+        5,
+        0
+      ],
+      "a1": [
+        5,
+        2
+      ]
+    },
+    "final_logical_mapping": {
+      "a0": 0,
+      "a1": 1
+    },
+    "observed_gate_count": 5
+  },
+  "coverage": {
+    "checked": [
+      "trajectory_bounds",
+      "completion_before_start",
+      "physical_carrier_handoff",
+      "finite_cold_banks",
+      "cooling_suboperations",
+      "resources",
+      "shared_progress_geometry_projection"
+    ],
+    "unsupported": [],
+    "primitive_assumptions": [
+      "Registered cold-bank geometry and trap handovers are a declared hypothetical primitive, not measured optical-control evidence"
+    ]
+  },
+  "original_native_status_invalid": false,
+  "corrected_control": false,
+  "cooling_episodes": 3,
+  "cooled_atom_events": 6,
+  "final_physical_carriers": {
+    "0": "cold_bank_2:r5:c0",
+    "1": "cold_bank_2:r5:c2"
+  },
+  "final_n_by_qubit": {
+    "0": 0.0,
+    "1": 0.0
+  }
+}

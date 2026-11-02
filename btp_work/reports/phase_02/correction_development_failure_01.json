@@ -1,0 +1,9 @@
+{
+  "kind": "observed_development_failure_record",
+  "date": "2026-10-28",
+  "command": "btp_work/.venv/Scripts/python.exe -B -X utf8 btp_work/tools/create_phase02_corrected_control.py --run btp_work/runs/current_baseline/study_v1/attempts/fig4_qft__qft_10__g11__dasatom__standalone__native__r1/attempt_01/worker --out btp_work/runs/phase_02/dasatom_corrected_vacancy_qft10_01",
+  "observed_exception": "UnsupportedVacancyRoute: No finite vacancy progress",
+  "output_directory_created_by_failed_attempt": false,
+  "explanation": "The initial greedy vacancy control could repeatedly park an atom without completing a blocked path. It was replaced before release by evacuation to a common staging map and reversal of the target evacuation. This is a transcription of the observed failure, not a saved full process-stderr artifact or performance measurement.",
+  "original_native_output_changed": false
+}

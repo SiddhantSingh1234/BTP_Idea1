@@ -1,0 +1,10 @@
+﻿{
+    "collection_scope":  "Post-run host snapshot; not a per-attempt resource measurement",
+    "ram_bytes":  16535990272,
+    "collected_utc":  "2026-10-29T05:44:29.0221420Z",
+    "cpu":  "Intel(R) Core(TM) Ultra 5 225H",
+    "cores":  14,
+    "paper_cpu":  "Intel Core i5 8th generation",
+    "logical_processors":  14,
+    "paper_ram_gb":  8
+}

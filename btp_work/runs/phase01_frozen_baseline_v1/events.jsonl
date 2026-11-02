@@ -1,0 +1,179 @@
+{"utc": "2026-10-28T16:03:04.316518+00:00", "event": "controller_started", "pid": 6964, "idle_sleep_prevented": true}
+{"utc": "2026-10-28T16:03:04.390725+00:00", "event": "target_started", "target_id": "fig4_qft__qft_5__g11__dasatom__standalone__native"}
+{"utc": "2026-10-28T16:03:06.300736+00:00", "event": "target_finished", "target_id": "fig4_qft__qft_5__g11__dasatom__standalone__native", "status": "ok"}
+{"utc": "2026-10-28T17:41:28.894179+00:00", "event": "controller_started", "pid": 18896, "idle_sleep_prevented": true}
+{"utc": "2026-10-28T17:41:28.975803+00:00", "event": "target_started", "target_id": "fig4_qft__qft_10__g11__dasatom__standalone__native"}
+{"utc": "2026-10-28T17:41:31.326025+00:00", "event": "target_finished", "target_id": "fig4_qft__qft_10__g11__dasatom__standalone__native", "status": "ok"}
+{"utc": "2026-10-28T17:41:31.397694+00:00", "event": "target_started", "target_id": "fig4_qft__qft_15__g11__dasatom__standalone__native"}
+{"utc": "2026-10-28T17:41:35.834412+00:00", "event": "target_finished", "target_id": "fig4_qft__qft_15__g11__dasatom__standalone__native", "status": "ok"}
+{"utc": "2026-10-28T17:41:35.918772+00:00", "event": "target_started", "target_id": "fig4_qft__qft_20__g11__dasatom__standalone__native"}
+{"utc": "2026-10-28T17:41:44.366560+00:00", "event": "target_finished", "target_id": "fig4_qft__qft_20__g11__dasatom__standalone__native", "status": "ok"}
+{"utc": "2026-10-28T17:41:44.439225+00:00", "event": "target_started", "target_id": "fig4_qft__qft_25__g11__dasatom__standalone__native"}
+{"utc": "2026-10-28T17:41:55.213567+00:00", "event": "target_finished", "target_id": "fig4_qft__qft_25__g11__dasatom__standalone__native", "status": "ok"}
+{"utc": "2026-10-28T17:41:55.287094+00:00", "event": "target_started", "target_id": "fig4_qft__qft_30__g11__dasatom__standalone__native"}
+{"utc": "2026-10-28T17:42:06.010473+00:00", "event": "target_finished", "target_id": "fig4_qft__qft_30__g11__dasatom__standalone__native", "status": "ok"}
+{"utc": "2026-10-28T17:42:06.084150+00:00", "event": "target_started", "target_id": "fig4_qft__qft_35__g11__dasatom__standalone__native"}
+{"utc": "2026-10-28T17:42:19.333835+00:00", "event": "target_finished", "target_id": "fig4_qft__qft_35__g11__dasatom__standalone__native", "status": "ok"}
+{"utc": "2026-10-28T17:42:19.412702+00:00", "event": "target_started", "target_id": "fig4_qft__qft_40__g11__dasatom__standalone__native"}
+{"utc": "2026-10-28T17:42:33.083527+00:00", "event": "target_finished", "target_id": "fig4_qft__qft_40__g11__dasatom__standalone__native", "status": "ok"}
+{"utc": "2026-10-28T17:42:33.162269+00:00", "event": "target_started", "target_id": "fig4_qft__qft_45__g11__dasatom__standalone__native"}
+{"utc": "2026-10-28T17:42:49.349875+00:00", "event": "target_finished", "target_id": "fig4_qft__qft_45__g11__dasatom__standalone__native", "status": "ok"}
+{"utc": "2026-10-28T17:42:49.454126+00:00", "event": "target_started", "target_id": "fig4_qft__qft_50__g11__dasatom__standalone__native"}
+{"utc": "2026-10-28T17:43:06.718916+00:00", "event": "target_finished", "target_id": "fig4_qft__qft_50__g11__dasatom__standalone__native", "status": "ok"}
+{"utc": "2026-10-28T17:43:06.798034+00:00", "event": "target_started", "target_id": "fig4_qft__qft_55__g11__dasatom__standalone__native"}
+{"utc": "2026-10-28T17:43:26.128564+00:00", "event": "target_finished", "target_id": "fig4_qft__qft_55__g11__dasatom__standalone__native", "status": "ok"}
+{"utc": "2026-10-28T17:43:26.218095+00:00", "event": "target_started", "target_id": "fig4_qft__qft_60__g11__dasatom__standalone__native"}
+{"utc": "2026-10-28T17:43:45.995685+00:00", "event": "target_finished", "target_id": "fig4_qft__qft_60__g11__dasatom__standalone__native", "status": "ok"}
+{"utc": "2026-10-28T17:43:46.072590+00:00", "event": "target_started", "target_id": "tableII__4mod5-v1_22__g11__dasatom__standalone__native"}
+{"utc": "2026-10-28T17:43:48.225937+00:00", "event": "target_finished", "target_id": "tableII__4mod5-v1_22__g11__dasatom__standalone__native", "status": "ok"}
+{"utc": "2026-10-28T17:43:48.310191+00:00", "event": "target_started", "target_id": "tableII__adr4_197__g11__dasatom__standalone__native"}
+{"utc": "2026-10-28T17:43:52.555643+00:00", "event": "target_finished", "target_id": "tableII__adr4_197__g11__dasatom__standalone__native", "status": "ok"}
+{"utc": "2026-10-28T17:43:52.648153+00:00", "event": "target_started", "target_id": "tableII__alu-v0_27__g11__dasatom__standalone__native"}
+{"utc": "2026-10-28T17:43:54.801929+00:00", "event": "target_finished", "target_id": "tableII__alu-v0_27__g11__dasatom__standalone__native", "status": "ok"}
+{"utc": "2026-10-28T17:43:54.897084+00:00", "event": "target_started", "target_id": "tableII__bv_n16__g11__dasatom__standalone__native"}
+{"utc": "2026-10-28T17:43:57.052464+00:00", "event": "target_finished", "target_id": "tableII__bv_n16__g11__dasatom__standalone__native", "status": "ok"}
+{"utc": "2026-10-28T17:43:57.128589+00:00", "event": "target_started", "target_id": "tableII__cm152a_212__g11__dasatom__standalone__native"}
+{"utc": "2026-10-28T17:43:59.470634+00:00", "event": "target_finished", "target_id": "tableII__cm152a_212__g11__dasatom__standalone__native", "status": "ok"}
+{"utc": "2026-10-28T17:43:59.550743+00:00", "event": "target_started", "target_id": "tableII__dc1_220__g11__dasatom__standalone__native"}
+{"utc": "2026-10-28T17:44:02.520884+00:00", "event": "target_finished", "target_id": "tableII__dc1_220__g11__dasatom__standalone__native", "status": "ok"}
+{"utc": "2026-10-28T17:44:02.618117+00:00", "event": "target_started", "target_id": "tableII__ising_model_16__g11__dasatom__standalone__native"}
+{"utc": "2026-10-28T17:44:02.665849+00:00", "event": "target_finished", "target_id": "tableII__ising_model_16__g11__dasatom__standalone__native", "status": "error"}
+{"utc": "2026-10-28T17:44:02.754103+00:00", "event": "target_started", "target_id": "tableII__misex1_241__g11__dasatom__standalone__native"}
+{"utc": "2026-10-28T17:44:17.053845+00:00", "event": "target_finished", "target_id": "tableII__misex1_241__g11__dasatom__standalone__native", "status": "ok"}
+{"utc": "2026-10-28T17:44:17.148363+00:00", "event": "target_started", "target_id": "tableII__qft_16__g11__dasatom__standalone__native"}
+{"utc": "2026-10-28T17:44:23.471518+00:00", "event": "target_finished", "target_id": "tableII__qft_16__g11__dasatom__standalone__native", "status": "ok"}
+{"utc": "2026-10-28T17:44:23.571028+00:00", "event": "target_started", "target_id": "tableII__qv_n16_d5__g11__dasatom__standalone__native"}
+{"utc": "2026-10-28T17:45:09.093213+00:00", "event": "target_finished", "target_id": "tableII__qv_n16_d5__g11__dasatom__standalone__native", "status": "ok"}
+{"utc": "2026-10-28T17:45:09.186290+00:00", "event": "target_started", "target_id": "tableII__rd53_251__g11__dasatom__standalone__native"}
+{"utc": "2026-10-28T17:45:09.243532+00:00", "event": "target_finished", "target_id": "tableII__rd53_251__g11__dasatom__standalone__native", "status": "error"}
+{"utc": "2026-10-28T17:45:09.333156+00:00", "event": "target_started", "target_id": "tableII__rd73_252__g11__dasatom__standalone__native"}
+{"utc": "2026-10-28T17:45:13.776029+00:00", "event": "target_finished", "target_id": "tableII__rd73_252__g11__dasatom__standalone__native", "status": "ok"}
+{"utc": "2026-10-28T17:45:13.880344+00:00", "event": "target_started", "target_id": "tableII__square_root_7__g11__dasatom__standalone__native"}
+{"utc": "2026-10-28T17:47:02.183633+00:00", "event": "target_finished", "target_id": "tableII__square_root_7__g11__dasatom__standalone__native", "status": "ok"}
+{"utc": "2026-10-28T17:47:02.263030+00:00", "event": "target_started", "target_id": "tableII__sym6_145__g11__dasatom__standalone__native"}
+{"utc": "2026-10-28T17:47:05.024865+00:00", "event": "target_finished", "target_id": "tableII__sym6_145__g11__dasatom__standalone__native", "status": "ok"}
+{"utc": "2026-10-28T17:47:05.102489+00:00", "event": "target_started", "target_id": "tableII__z4_268__g11__dasatom__standalone__native"}
+{"utc": "2026-10-28T17:47:08.494546+00:00", "event": "target_finished", "target_id": "tableII__z4_268__g11__dasatom__standalone__native", "status": "ok"}
+{"utc": "2026-10-28T17:47:08.572818+00:00", "event": "target_started", "target_id": "fig4_qft__qft_5__g20__dasatom__standalone__native"}
+{"utc": "2026-10-28T17:47:10.709945+00:00", "event": "target_finished", "target_id": "fig4_qft__qft_5__g20__dasatom__standalone__native", "status": "ok"}
+{"utc": "2026-10-28T17:47:10.801677+00:00", "event": "target_started", "target_id": "fig4_qft__qft_10__g20__dasatom__standalone__native"}
+{"utc": "2026-10-28T17:47:14.616031+00:00", "event": "target_finished", "target_id": "fig4_qft__qft_10__g20__dasatom__standalone__native", "status": "ok"}
+{"utc": "2026-10-28T17:47:14.701718+00:00", "event": "target_started", "target_id": "fig4_qft__qft_15__g20__dasatom__standalone__native"}
+{"utc": "2026-10-28T17:47:27.964020+00:00", "event": "target_finished", "target_id": "fig4_qft__qft_15__g20__dasatom__standalone__native", "status": "ok"}
+{"utc": "2026-10-28T17:47:28.064144+00:00", "event": "target_started", "target_id": "fig4_qft__qft_20__g20__dasatom__standalone__native"}
+{"utc": "2026-10-28T17:47:59.993388+00:00", "event": "target_finished", "target_id": "fig4_qft__qft_20__g20__dasatom__standalone__native", "status": "ok"}
+{"utc": "2026-10-28T17:48:00.086410+00:00", "event": "target_started", "target_id": "fig4_qft__qft_25__g20__dasatom__standalone__native"}
+{"utc": "2026-10-28T17:48:44.051806+00:00", "event": "target_finished", "target_id": "fig4_qft__qft_25__g20__dasatom__standalone__native", "status": "ok"}
+{"utc": "2026-10-28T17:48:44.155138+00:00", "event": "target_started", "target_id": "fig4_qft__qft_30__g20__dasatom__standalone__native"}
+{"utc": "2026-10-28T17:49:39.383727+00:00", "event": "target_finished", "target_id": "fig4_qft__qft_30__g20__dasatom__standalone__native", "status": "ok"}
+{"utc": "2026-10-28T17:49:39.487515+00:00", "event": "target_started", "target_id": "fig4_qft__qft_35__g20__dasatom__standalone__native"}
+{"utc": "2026-10-28T17:50:56.274064+00:00", "event": "target_finished", "target_id": "fig4_qft__qft_35__g20__dasatom__standalone__native", "status": "ok"}
+{"utc": "2026-10-28T17:50:56.379477+00:00", "event": "target_started", "target_id": "fig4_qft__qft_40__g20__dasatom__standalone__native"}
+{"utc": "2026-10-28T17:52:12.629693+00:00", "event": "target_finished", "target_id": "fig4_qft__qft_40__g20__dasatom__standalone__native", "status": "ok"}
+{"utc": "2026-10-28T17:52:12.717625+00:00", "event": "target_started", "target_id": "fig4_qft__qft_45__g20__dasatom__standalone__native"}
+{"utc": "2026-10-28T17:53:53.618863+00:00", "event": "target_finished", "target_id": "fig4_qft__qft_45__g20__dasatom__standalone__native", "status": "ok"}
+{"utc": "2026-10-28T17:53:53.703320+00:00", "event": "target_started", "target_id": "fig4_qft__qft_50__g20__dasatom__standalone__native"}
+{"utc": "2026-10-28T17:56:30.651787+00:00", "event": "target_finished", "target_id": "fig4_qft__qft_50__g20__dasatom__standalone__native", "status": "ok"}
+{"utc": "2026-10-28T17:56:31.014857+00:00", "event": "target_started", "target_id": "fig4_qft__qft_55__g20__dasatom__standalone__native"}
+{"utc": "2026-10-28T17:56:31.084135+00:00", "event": "target_finished", "target_id": "fig4_qft__qft_55__g20__dasatom__standalone__native", "status": "error"}
+{"utc": "2026-10-28T17:56:31.367541+00:00", "event": "target_started", "target_id": "fig4_qft__qft_60__g20__dasatom__standalone__native"}
+{"utc": "2026-10-28T17:56:31.444653+00:00", "event": "target_finished", "target_id": "fig4_qft__qft_60__g20__dasatom__standalone__native", "status": "error"}
+{"utc": "2026-10-28T17:56:31.720018+00:00", "event": "target_started", "target_id": "fig4_qft__qft_5__g35__dasatom__standalone__native"}
+{"utc": "2026-10-28T17:56:31.780301+00:00", "event": "target_finished", "target_id": "fig4_qft__qft_5__g35__dasatom__standalone__native", "status": "error"}
+{"utc": "2026-10-28T17:56:32.087757+00:00", "event": "target_started", "target_id": "fig4_qft__qft_10__g35__dasatom__standalone__native"}
+{"utc": "2026-10-28T17:56:32.149064+00:00", "event": "target_finished", "target_id": "fig4_qft__qft_10__g35__dasatom__standalone__native", "status": "error"}
+{"utc": "2026-10-28T17:56:32.437202+00:00", "event": "target_started", "target_id": "fig4_qft__qft_15__g35__dasatom__standalone__native"}
+{"utc": "2026-10-28T17:58:39.485995+00:00", "event": "target_finished", "target_id": "fig4_qft__qft_15__g35__dasatom__standalone__native", "status": "ok"}
+{"utc": "2026-10-28T17:58:39.589867+00:00", "event": "target_started", "target_id": "fig4_qft__qft_20__g35__dasatom__standalone__native"}
+{"utc": "2026-10-28T18:04:10.781868+00:00", "event": "target_finished", "target_id": "fig4_qft__qft_20__g35__dasatom__standalone__native", "status": "interrupted_by_unmonitored_gap"}
+{"utc": "2026-10-28T18:09:41.886237+00:00", "event": "controller_started", "pid": 428, "idle_sleep_prevented": true}
+{"utc": "2026-10-28T18:09:42.049715+00:00", "event": "target_started", "target_id": "fig4_qft__qft_20__g35__dasatom__standalone__native"}
+{"utc": "2026-10-28T18:12:11.312949+00:00", "event": "target_finished", "target_id": "fig4_qft__qft_20__g35__dasatom__standalone__native", "status": "ok"}
+{"utc": "2026-10-28T18:12:11.400063+00:00", "event": "target_started", "target_id": "fig4_qft__qft_25__g35__dasatom__standalone__native"}
+{"utc": "2026-10-28T18:15:31.430755+00:00", "event": "target_finished", "target_id": "fig4_qft__qft_25__g35__dasatom__standalone__native", "status": "ok"}
+{"utc": "2026-10-28T18:15:31.531542+00:00", "event": "target_started", "target_id": "fig4_qft__qft_30__g35__dasatom__standalone__native"}
+{"utc": "2026-10-28T18:19:47.448700+00:00", "event": "target_finished", "target_id": "fig4_qft__qft_30__g35__dasatom__standalone__native", "status": "ok"}
+{"utc": "2026-10-28T18:19:47.537669+00:00", "event": "target_started", "target_id": "tableII__4mod5-v1_22__g35__dasatom__standalone__native"}
+{"utc": "2026-10-28T18:19:49.885970+00:00", "event": "target_finished", "target_id": "tableII__4mod5-v1_22__g35__dasatom__standalone__native", "status": "ok"}
+{"utc": "2026-10-28T18:19:49.972487+00:00", "event": "target_started", "target_id": "tableII__adr4_197__g35__dasatom__standalone__native"}
+{"utc": "2026-10-28T18:20:28.513038+00:00", "event": "target_finished", "target_id": "tableII__adr4_197__g35__dasatom__standalone__native", "status": "ok"}
+{"utc": "2026-10-28T18:20:28.620493+00:00", "event": "target_started", "target_id": "tableII__alu-v0_27__g35__dasatom__standalone__native"}
+{"utc": "2026-10-28T18:20:30.978327+00:00", "event": "target_finished", "target_id": "tableII__alu-v0_27__g35__dasatom__standalone__native", "status": "ok"}
+{"utc": "2026-10-28T18:20:31.068086+00:00", "event": "target_started", "target_id": "tableII__bv_n16__g35__dasatom__standalone__native"}
+{"utc": "2026-10-28T18:20:34.461325+00:00", "event": "target_finished", "target_id": "tableII__bv_n16__g35__dasatom__standalone__native", "status": "ok"}
+{"utc": "2026-10-28T18:20:34.562029+00:00", "event": "target_started", "target_id": "tableII__cm152a_212__g35__dasatom__standalone__native"}
+{"utc": "2026-10-28T18:20:40.048742+00:00", "event": "target_finished", "target_id": "tableII__cm152a_212__g35__dasatom__standalone__native", "status": "ok"}
+{"utc": "2026-10-28T18:20:40.163282+00:00", "event": "target_started", "target_id": "tableII__dc1_220__g35__dasatom__standalone__native"}
+{"utc": "2026-10-28T18:20:51.941300+00:00", "event": "target_finished", "target_id": "tableII__dc1_220__g35__dasatom__standalone__native", "status": "ok"}
+{"utc": "2026-10-28T18:20:52.026754+00:00", "event": "target_started", "target_id": "tableII__ising_model_16__g35__dasatom__standalone__native"}
+{"utc": "2026-10-28T18:20:54.376297+00:00", "event": "target_finished", "target_id": "tableII__ising_model_16__g35__dasatom__standalone__native", "status": "ok"}
+{"utc": "2026-10-28T18:20:54.494463+00:00", "event": "target_started", "target_id": "tableII__qft_16__g35__dasatom__standalone__native"}
+{"utc": "2026-10-28T18:22:35.614975+00:00", "event": "target_finished", "target_id": "tableII__qft_16__g35__dasatom__standalone__native", "status": "ok"}
+{"utc": "2026-10-28T18:22:35.730319+00:00", "event": "target_started", "target_id": "tableII__rd53_251__g35__dasatom__standalone__native"}
+{"utc": "2026-10-28T18:22:40.797542+00:00", "event": "target_finished", "target_id": "tableII__rd53_251__g35__dasatom__standalone__native", "status": "ok"}
+{"utc": "2026-10-28T18:22:40.890515+00:00", "event": "target_started", "target_id": "tableII__rd73_252__g35__dasatom__standalone__native"}
+{"utc": "2026-10-28T18:23:17.204084+00:00", "event": "target_finished", "target_id": "tableII__rd73_252__g35__dasatom__standalone__native", "status": "ok"}
+{"utc": "2026-10-28T18:23:17.296701+00:00", "event": "target_started", "target_id": "tableII__sym6_145__g35__dasatom__standalone__native"}
+{"utc": "2026-10-28T18:23:27.782088+00:00", "event": "target_finished", "target_id": "tableII__sym6_145__g35__dasatom__standalone__native", "status": "ok"}
+{"utc": "2026-10-28T18:23:27.870341+00:00", "event": "target_started", "target_id": "tableII__z4_268__g35__dasatom__standalone__native"}
+{"utc": "2026-10-28T18:23:55.073179+00:00", "event": "target_finished", "target_id": "tableII__z4_268__g35__dasatom__standalone__native", "status": "ok"}
+{"utc": "2026-10-28T18:23:55.161518+00:00", "event": "target_started", "target_id": "fig4_qft__qft_35__g35__dasatom__standalone__native"}
+{"utc": "2026-10-28T18:29:06.889019+00:00", "event": "target_finished", "target_id": "fig4_qft__qft_35__g35__dasatom__standalone__native", "status": "ok"}
+{"utc": "2026-10-28T18:29:06.989475+00:00", "event": "target_started", "target_id": "fig4_qft__qft_40__g35__dasatom__standalone__native"}
+{"utc": "2026-10-28T18:29:07.018458+00:00", "event": "target_finished", "target_id": "fig4_qft__qft_40__g35__dasatom__standalone__native", "status": "error"}
+{"utc": "2026-10-28T18:29:07.112596+00:00", "event": "target_started", "target_id": "fig4_qft__qft_45__g35__dasatom__standalone__native"}
+{"utc": "2026-10-28T18:29:07.142891+00:00", "event": "target_finished", "target_id": "fig4_qft__qft_45__g35__dasatom__standalone__native", "status": "error"}
+{"utc": "2026-10-28T18:29:07.245219+00:00", "event": "target_started", "target_id": "fig4_qft__qft_50__g35__dasatom__standalone__native"}
+{"utc": "2026-10-28T18:29:07.276280+00:00", "event": "target_finished", "target_id": "fig4_qft__qft_50__g35__dasatom__standalone__native", "status": "error"}
+{"utc": "2026-10-28T18:29:07.370951+00:00", "event": "target_started", "target_id": "fig4_qft__qft_55__g35__dasatom__standalone__native"}
+{"utc": "2026-10-28T18:38:01.544891+00:00", "event": "target_finished", "target_id": "fig4_qft__qft_55__g35__dasatom__standalone__native", "status": "ok"}
+{"utc": "2026-10-28T18:38:01.663305+00:00", "event": "target_started", "target_id": "fig4_qft__qft_60__g35__dasatom__standalone__native"}
+{"utc": "2026-10-28T18:38:01.708060+00:00", "event": "target_finished", "target_id": "fig4_qft__qft_60__g35__dasatom__standalone__native", "status": "error"}
+{"utc": "2026-10-28T18:38:01.815591+00:00", "event": "target_started", "target_id": "tableII__misex1_241__g35__dasatom__standalone__native"}
+{"utc": "2026-10-28T18:43:04.139485+00:00", "event": "target_finished", "target_id": "tableII__misex1_241__g35__dasatom__standalone__native", "status": "ok"}
+{"utc": "2026-10-28T18:43:04.289102+00:00", "event": "target_started", "target_id": "tableII__qv_n16_d5__g35__dasatom__standalone__native"}
+{"utc": "2026-10-28T18:43:04.322433+00:00", "event": "target_finished", "target_id": "tableII__qv_n16_d5__g35__dasatom__standalone__native", "status": "error"}
+{"utc": "2026-10-28T18:43:04.426466+00:00", "event": "target_started", "target_id": "tableII__square_root_7__g35__dasatom__standalone__native"}
+{"utc": "2026-10-28T19:19:59.676032+00:00", "event": "target_finished", "target_id": "tableII__square_root_7__g35__dasatom__standalone__native", "status": "ok"}
+{"utc": "2026-10-28T19:20:03.511392+00:00", "event": "controller_started", "pid": 5864, "idle_sleep_prevented": true}
+{"utc": "2026-10-28T19:20:03.838916+00:00", "event": "retrying_controller_launch_failure", "target_id": "tableII__ising_model_16__g11__dasatom__standalone__native", "preserved_records": ["measurements\\tableII__ising_model_16__g11__dasatom__standalone__native\\attempt_01\\attempt_record.json"]}
+{"utc": "2026-10-28T19:20:03.841342+00:00", "event": "target_started", "target_id": "tableII__ising_model_16__g11__dasatom__standalone__native"}
+{"utc": "2026-10-28T19:20:06.017737+00:00", "event": "target_finished", "target_id": "tableII__ising_model_16__g11__dasatom__standalone__native", "status": "ok"}
+{"utc": "2026-10-28T19:20:06.403997+00:00", "event": "retrying_controller_launch_failure", "target_id": "tableII__rd53_251__g11__dasatom__standalone__native", "preserved_records": ["measurements\\tableII__rd53_251__g11__dasatom__standalone__native\\attempt_01\\attempt_record.json"]}
+{"utc": "2026-10-28T19:20:06.413594+00:00", "event": "target_started", "target_id": "tableII__rd53_251__g11__dasatom__standalone__native"}
+{"utc": "2026-10-28T19:20:08.769653+00:00", "event": "target_finished", "target_id": "tableII__rd53_251__g11__dasatom__standalone__native", "status": "ok"}
+{"utc": "2026-10-28T19:20:09.139009+00:00", "event": "retrying_controller_launch_failure", "target_id": "fig4_qft__qft_55__g20__dasatom__standalone__native", "preserved_records": ["measurements\\fig4_qft__qft_55__g20__dasatom__standalone__native\\attempt_01\\attempt_record.json"]}
+{"utc": "2026-10-28T19:20:09.147959+00:00", "event": "target_started", "target_id": "fig4_qft__qft_55__g20__dasatom__standalone__native"}
+{"utc": "2026-10-28T19:21:44.321988+00:00", "event": "target_finished", "target_id": "fig4_qft__qft_55__g20__dasatom__standalone__native", "status": "ok"}
+{"utc": "2026-10-28T19:21:44.722607+00:00", "event": "retrying_controller_launch_failure", "target_id": "fig4_qft__qft_60__g20__dasatom__standalone__native", "preserved_records": ["measurements\\fig4_qft__qft_60__g20__dasatom__standalone__native\\attempt_01\\attempt_record.json"]}
+{"utc": "2026-10-28T19:21:44.726340+00:00", "event": "target_started", "target_id": "fig4_qft__qft_60__g20__dasatom__standalone__native"}
+{"utc": "2026-10-28T19:23:26.657222+00:00", "event": "target_finished", "target_id": "fig4_qft__qft_60__g20__dasatom__standalone__native", "status": "ok"}
+{"utc": "2026-10-28T19:23:27.017777+00:00", "event": "retrying_controller_launch_failure", "target_id": "fig4_qft__qft_5__g35__dasatom__standalone__native", "preserved_records": ["measurements\\fig4_qft__qft_5__g35__dasatom__standalone__native\\attempt_01\\attempt_record.json"]}
+{"utc": "2026-10-28T19:23:27.028170+00:00", "event": "target_started", "target_id": "fig4_qft__qft_5__g35__dasatom__standalone__native"}
+{"utc": "2026-10-28T19:23:29.389266+00:00", "event": "target_finished", "target_id": "fig4_qft__qft_5__g35__dasatom__standalone__native", "status": "ok"}
+{"utc": "2026-10-28T19:23:29.743383+00:00", "event": "retrying_controller_launch_failure", "target_id": "fig4_qft__qft_10__g35__dasatom__standalone__native", "preserved_records": ["measurements\\fig4_qft__qft_10__g35__dasatom__standalone__native\\attempt_01\\attempt_record.json"]}
+{"utc": "2026-10-28T19:23:29.755476+00:00", "event": "target_started", "target_id": "fig4_qft__qft_10__g35__dasatom__standalone__native"}
+{"utc": "2026-10-28T19:23:39.653678+00:00", "event": "target_finished", "target_id": "fig4_qft__qft_10__g35__dasatom__standalone__native", "status": "ok"}
+{"utc": "2026-10-28T19:23:39.991450+00:00", "event": "retrying_controller_launch_failure", "target_id": "fig4_qft__qft_40__g35__dasatom__standalone__native", "preserved_records": ["measurements\\fig4_qft__qft_40__g35__dasatom__standalone__native\\attempt_01\\attempt_record.json"]}
+{"utc": "2026-10-28T19:23:40.001883+00:00", "event": "target_started", "target_id": "fig4_qft__qft_40__g35__dasatom__standalone__native"}
+{"utc": "2026-10-28T19:29:30.409690+00:00", "event": "target_finished", "target_id": "fig4_qft__qft_40__g35__dasatom__standalone__native", "status": "ok"}
+{"utc": "2026-10-28T19:29:30.789209+00:00", "event": "retrying_controller_launch_failure", "target_id": "fig4_qft__qft_45__g35__dasatom__standalone__native", "preserved_records": ["measurements\\fig4_qft__qft_45__g35__dasatom__standalone__native\\attempt_01\\attempt_record.json"]}
+{"utc": "2026-10-28T19:29:30.801357+00:00", "event": "target_started", "target_id": "fig4_qft__qft_45__g35__dasatom__standalone__native"}
+{"utc": "2026-10-28T19:36:17.796992+00:00", "event": "target_finished", "target_id": "fig4_qft__qft_45__g35__dasatom__standalone__native", "status": "ok"}
+{"utc": "2026-10-28T19:36:18.131842+00:00", "event": "retrying_controller_launch_failure", "target_id": "fig4_qft__qft_50__g35__dasatom__standalone__native", "preserved_records": ["measurements\\fig4_qft__qft_50__g35__dasatom__standalone__native\\attempt_01\\attempt_record.json"]}
+{"utc": "2026-10-28T19:36:18.135802+00:00", "event": "target_started", "target_id": "fig4_qft__qft_50__g35__dasatom__standalone__native"}
+{"utc": "2026-10-28T19:53:54.846191+00:00", "event": "target_finished", "target_id": "fig4_qft__qft_50__g35__dasatom__standalone__native", "status": "interrupted_by_unmonitored_gap"}
+{"utc": "2026-10-28T21:55:14.292334+00:00", "event": "controller_started", "pid": 4564, "idle_sleep_prevented": true}
+{"utc": "2026-10-28T21:55:15.025312+00:00", "event": "retrying_controller_launch_failure", "target_id": "fig4_qft__qft_50__g35__dasatom__standalone__native", "preserved_records": ["measurements\\fig4_qft__qft_50__g35__dasatom__standalone__native\\attempt_01\\attempt_record.json"]}
+{"utc": "2026-10-28T21:55:15.029020+00:00", "event": "target_started", "target_id": "fig4_qft__qft_50__g35__dasatom__standalone__native"}
+{"utc": "2026-10-28T22:11:29.636259+00:00", "event": "target_finished", "target_id": "fig4_qft__qft_50__g35__dasatom__standalone__native", "status": "ok"}
+{"utc": "2026-10-28T22:11:30.344997+00:00", "event": "retrying_controller_launch_failure", "target_id": "fig4_qft__qft_60__g35__dasatom__standalone__native", "preserved_records": ["measurements\\fig4_qft__qft_60__g35__dasatom__standalone__native\\attempt_01\\attempt_record.json"]}
+{"utc": "2026-10-28T22:11:30.353788+00:00", "event": "target_started", "target_id": "fig4_qft__qft_60__g35__dasatom__standalone__native"}
+{"utc": "2026-10-28T22:35:37.934246+00:00", "event": "target_finished", "target_id": "fig4_qft__qft_60__g35__dasatom__standalone__native", "status": "interrupted_by_unmonitored_gap"}
+{"utc": "2026-10-29T04:35:11.482693+00:00", "event": "controller_started", "pid": 6152, "idle_sleep_prevented": true}
+{"utc": "2026-10-29T04:35:12.315498+00:00", "event": "retrying_controller_launch_failure", "target_id": "fig4_qft__qft_60__g35__dasatom__standalone__native", "preserved_records": ["measurements\\fig4_qft__qft_60__g35__dasatom__standalone__native\\attempt_01\\attempt_record.json"]}
+{"utc": "2026-10-29T04:35:12.327812+00:00", "event": "target_started", "target_id": "fig4_qft__qft_60__g35__dasatom__standalone__native"}
+{"utc": "2026-10-29T04:55:41.950425+00:00", "event": "target_finished", "target_id": "fig4_qft__qft_60__g35__dasatom__standalone__native", "status": "ok"}
+{"utc": "2026-10-29T04:55:42.249935+00:00", "event": "retrying_controller_launch_failure", "target_id": "tableII__qv_n16_d5__g35__dasatom__standalone__native", "preserved_records": ["measurements\\tableII__qv_n16_d5__g35__dasatom__standalone__native\\attempt_01\\attempt_record.json"]}
+{"utc": "2026-10-29T04:55:42.252380+00:00", "event": "target_started", "target_id": "tableII__qv_n16_d5__g35__dasatom__standalone__native"}
+{"utc": "2026-10-29T05:19:34.620153+00:00", "event": "target_finished", "target_id": "tableII__qv_n16_d5__g35__dasatom__standalone__native", "status": "ok"}

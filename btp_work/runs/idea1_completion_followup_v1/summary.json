@@ -1,0 +1,12 @@
+{
+  "updated_utc": "2026-10-31T18:20:38.489713+00:00",
+  "planned_cells": 30,
+  "status_counts": {
+    "ok": 23,
+    "timeout": 7
+  },
+  "all_cells_terminal": true,
+  "new_accepted_schedules": 23,
+  "research_analysis_performed": false,
+  "reports_or_slides_built": false
+}

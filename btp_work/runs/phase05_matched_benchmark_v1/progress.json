@@ -1,0 +1,25 @@
+{
+  "state": "measurements_complete",
+  "controller_pid": 4972,
+  "started_utc": "2026-10-29T13:10:25.416137+00:00",
+  "execution_revision": "frozen",
+  "current_target": null,
+  "updated_utc": "2026-10-29T14:23:15.616479+00:00",
+  "stage": "validation_and_scoring",
+  "current_variant": "composite_no_future",
+  "worker_pid": 8924,
+  "wall_seconds": 65.2527812999906,
+  "peak_working_set_bytes": 219119616,
+  "track": "phase5",
+  "targets": 66,
+  "target_status_counts": {
+    "ok": 66
+  },
+  "rows": 792,
+  "accepted_rows": 792,
+  "matrix_complete": true,
+  "baseline_modified": false,
+  "native_physical_validity_claimed": false,
+  "best_k_selected": false,
+  "model_profile": "extended_no_cooling.v1"
+}

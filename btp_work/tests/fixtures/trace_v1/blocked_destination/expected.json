@@ -1,0 +1,7 @@
+{
+  "status": "invalid",
+  "required_violation_codes": [
+    "duplicate_occupancy",
+    "continuous_collision"
+  ]
+}

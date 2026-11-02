@@ -1,0 +1,61 @@
+{
+  "job": {
+    "id": "fig4_qft__qft_20__g35__dasatom__standalone__native__r3",
+    "priority": 0,
+    "algorithm": "dasatom",
+    "variant": "standalone",
+    "family": "fig4_qft",
+    "case": "qft_20",
+    "grid": 35,
+    "register_policy": "native",
+    "repetition": 3,
+    "seed": 42,
+    "routing_seed": null,
+    "raw_path": "benchmarks/current_baseline_v1/raw/fig4_qft/qft_20.qasm",
+    "raw_sha256": "2c7c88ec42849d440298617fff2ff01d3481fb3f5734647c94aa5ca2babcf244",
+    "expected_normalized_sha256": "8d9edbad250516acc909b60791ef60398a30718cbcbf82935f1f78f5a753b51e"
+  },
+  "attempt": 1,
+  "command": [
+    "C:\\Users\\hp\\Documents\\BTP\\btp_work\\.venv\\Scripts\\python.exe",
+    "-X",
+    "utf8",
+    "C:\\Users\\hp\\Documents\\BTP\\btp_work\\tools\\phase00_smoke.py",
+    "--algorithm",
+    "dasatom",
+    "--case",
+    "file",
+    "--input",
+    "C:\\Users\\hp\\Documents\\BTP\\btp_work\\benchmarks\\current_baseline_v1\\raw\\fig4_qft\\qft_20.qasm",
+    "--grid",
+    "35",
+    "--register-policy",
+    "native",
+    "--seed",
+    "42",
+    "--out",
+    "runs/current_baseline/study_v1/attempts/fig4_qft__qft_20__g35__dasatom__standalone__native__r3/attempt_01/worker"
+  ],
+  "started_utc": "2026-10-28T06:57:37.432252+00:00",
+  "timeout_seconds": 300,
+  "memory_limit_bytes": 4294967296,
+  "worker_sha256": "5e745542ebbbb7ffcf1d8a60632c684d40533f20015defd941cccd107cf05742",
+  "ended_utc": "2026-10-28T07:02:37.499724+00:00",
+  "status": "timeout",
+  "diagnostic_status": null,
+  "process_exit_code": 1,
+  "process_wall_seconds": 300.06346889999986,
+  "peak_working_set_bytes": 166109184,
+  "monitored_process_ids": [
+    5456,
+    18004,
+    21968
+  ],
+  "memory_measurement": "maximum observed sum of individual process-family peak working sets; includes venv redirector and real interpreter",
+  "result_path": null,
+  "stage_at_end": {
+    "stage": "dasatom_partition",
+    "wall_time": 1793170669.1437926
+  },
+  "worker_result": {}
+}

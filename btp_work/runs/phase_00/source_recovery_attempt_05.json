@@ -1,0 +1,27 @@
+{
+  "fetch_requested": true,
+  "results": [
+    {
+      "repository": "ipash185/NAQC_Compiler",
+      "revision": "3d1f09233c2acd357fd9fbfad1b5300a921d301a",
+      "url": "https://codeload.github.com/ipash185/NAQC_Compiler/tar.gz/3d1f09233c2acd357fd9fbfad1b5300a921d301a",
+      "target": "vendor/NAQC_Compiler-3d1f09233c2acd357fd9fbfad1b5300a921d301a",
+      "status": "verified_complete_archive",
+      "blobs": 512,
+      "archive_sha256": "27871ac9c4853b1c8b44e979d1c8b9b9a0b8e643f0d639483b4150cae7e74cde",
+      "agents_files": [],
+      "git_history_available": false
+    },
+    {
+      "repository": "Huangyunqi/DasAtom",
+      "revision": "73a6bdf0fd200b2733745211eaf2e0c1e17f496a",
+      "url": "https://codeload.github.com/Huangyunqi/DasAtom/tar.gz/73a6bdf0fd200b2733745211eaf2e0c1e17f496a",
+      "target": "vendor/DasAtom-73a6bdf0fd200b2733745211eaf2e0c1e17f496a",
+      "status": "verified_complete_archive",
+      "blobs": 499,
+      "archive_sha256": "bbdb00ee82e57b5598f1d0a6235b61d20f1e936b7d863c557fdf5045cf489e64",
+      "agents_files": [],
+      "git_history_available": false
+    }
+  ]
+}

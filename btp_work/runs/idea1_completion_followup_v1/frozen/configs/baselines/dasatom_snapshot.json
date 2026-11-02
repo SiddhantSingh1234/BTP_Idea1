@@ -1,0 +1,60 @@
+{
+  "schema": "phase00.baseline-spec.v1",
+  "execution_ready": true,
+  "new_research_heuristics_enabled": false,
+  "environment_lock": "configs/environment/requirements-py313-win64.lock",
+  "id": "dasatom_standalone_snapshot",
+  "revision": "73a6bdf0fd200b2733745211eaf2e0c1e17f496a",
+  "repository": "https://github.com/Huangyunqi/DasAtom",
+  "source_state": "complete pinned archive working tree; all Git blobs verified",
+  "options": {
+    "routing_strategy": "maximalis",
+    "global_seed": 42,
+    "router_MIS_seed": 0,
+    "geometry": [
+      11,
+      11,
+      2,
+      4
+    ],
+    "cache": false,
+    "native_N_policy": "max(two-qubit operand)+1"
+  },
+  "import_provider": "standalone upstream, distinct from RFT embedded DasAtom",
+  "geometry_for_matched_smoke": {
+    "grid": [
+      11,
+      11
+    ],
+    "r_int_grid": 2,
+    "r_restr_grid": 4
+  },
+  "actual_grid_and_extensions": {
+    "qft5": [
+      11,
+      []
+    ],
+    "tableII": [
+      11,
+      []
+    ]
+  },
+  "normalization_verified": true,
+  "legacy_profile": {
+    "T2_us": 1500000.0,
+    "f_cz": 0.995,
+    "f_trans": 1.0,
+    "diagnostic_f_trans": 0.999,
+    "t_cz_us": 0.2,
+    "t_trans_us": 20,
+    "speed_um_per_us": 0.55,
+    "spacing_um": 3.0,
+    "transfers_per_nonempty_movement_batch": 4,
+    "source": "snapshot converter FidelityParams and _compute_fidelity_from_counts; not all constants established by RFT manuscript"
+  },
+  "note": "Matched geometry is a requested control. Standalone behavior and API compatibility remain untested.",
+  "smoke_evidence": "runs/phase_00/runtime_summary.json",
+  "limitations": [
+    "Table II 4mod5 declares 16 qubits, native DasAtom keeps 5; unmatched full-register schedule unsupported"
+  ]
+}

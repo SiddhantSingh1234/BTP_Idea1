@@ -1,0 +1,9 @@
+﻿{
+    "status":  "error",
+    "uv_version":  "0.9.5",
+    "requested_python":  "3.13.2",
+    "venv":  "C:\\Users\\hp\\Documents\\BTP\\btp_work\\.venv",
+    "compiler_smoke_passed":  false,
+    "lock_status":  "not_validated_by_compiler_smokes",
+    "error":  "Unable to connect to the remote server"
+}

@@ -1,0 +1,47 @@
+{
+  "passed": true,
+  "created_utc": "2026-10-29T19:37:31.612296+00:00",
+  "study": "C:\\Users\\hp\\Documents\\BTP\\btp_work\\runs\\phase06_matched_benchmark_v2",
+  "expected_targets": 66,
+  "expected_rows": 528,
+  "study_manifest_sha256": "d88f8757de3f5c22649cd2b7f842419434c2b3d7f09a867a7eb45658104af918",
+  "execution_revision_manifest_sha256": "a9236f6f260dbc595f63cf6e085e883d211569c5ffefcff7f8a99150ece67991",
+  "unchanged_memory_limit_bytes": 4294967296,
+  "scientific_tests_passed": 23,
+  "equivalent_result_rows": 24,
+  "equivalent_candidate_audits": 74,
+  "original_oom_partial_rows_also_match": 5,
+  "stress_targets": [
+    {
+      "target": "tableII__square_root_7__g11__rft__7_dynamic_slot_01q_move__native",
+      "status": "ok",
+      "peak_working_set_bytes": 1071587328,
+      "original_oom_peak_bytes": 4315090944,
+      "wall_seconds": 690.375804100011,
+      "record": "reports\\phase_06\\memory_stress_tests_02\\raw\\tableII__square_root_7__g11__rft__7_dynamic_slot_01q_move__native\\attempt_01\\attempt_record.json"
+    },
+    {
+      "target": "fig4_qft__qft_60__g11__rft__7_dynamic_slot_01q_move__native",
+      "status": "ok",
+      "peak_working_set_bytes": 1194369024,
+      "original_oom_peak_bytes": 4346003456,
+      "wall_seconds": 1278.9667676999816,
+      "record": "reports\\phase_06\\memory_stress_tests_02\\raw\\fig4_qft__qft_60__g11__rft__7_dynamic_slot_01q_move__native\\attempt_01\\attempt_record.json"
+    }
+  ],
+  "evidence_sha256": {
+    "reports\\phase_06\\memory_scientific_tests_03\\result.json": "9ed6393cee00788247202b8f89663d8ad472b8cd60624ffa6bed11a06a0f4d21",
+    "reports\\phase_06\\memory_integration_tests_02\\result.json": "280ebf66c13636a3201c94200fef1fb6c6e467c48817ba17fd53e1fc9a07e821",
+    "reports\\phase_06\\memory_stress_tests_02\\equivalence.json": "0a7dd0455e799a6dd95b15048b09befa06a850909327d169b37a8b23cfe9569f",
+    "reports\\phase_06\\memory_stress_tests_02\\result.json": "dd0f095decdb89409848449b6efbaed994faf9c882e7e4f6bda7f4671ba538f4"
+  },
+  "original_v1_manifest_sha256": "bbbfeb78ebc7db72ae95ab90c72708da3c457c5569c707ccb9d623d3cef3e2e0",
+  "original_v1_results_sha256": "c93a64e2a543d74ec0469b0ed22d568552a45322cf80ea35a812e24456eef7ad",
+  "frozen_execution_files": {
+    "tools/model_comparison.py": "fb6df570a418a8bd24dc11f7c0d19c8455290bfd16950665c117b19144797b5f",
+    "tools/model_comparison_worker.py": "09ad867633504ee9cf8535c5e8352207892bb3f3befa7d87a10e779d82130da6",
+    "tools/phase06_comparison_worker.py": "b31e769ae629483ebc52da6547252a7896456605ed534dc8ea83c09810b09bf8",
+    "tools/phase06_memory.py": "3df6b6483b04ca752cdc4394345bd280afcca7e76e4489f2b1c5e0d251054ed4"
+  },
+  "scope": "Full rerun ready; all final campaign results still require completion and analysis"
+}

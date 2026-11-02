@@ -1,0 +1,17 @@
+{
+  "status": "reused_quality",
+  "result": {
+    "status": "reused_quality",
+    "accepted_schedule": true,
+    "extended_E": 0.19852280784275517,
+    "makespan_us": 1499.2865010578264,
+    "normalized_sha256": "78e18eb91dd9948f4c4c256de99efc91d30d456006d6e3ef4bfa05ade04d2ee0",
+    "schedule_sha256": "d2e0927c1f3cc9078b8bd0b7688b5180d8ec7b698cf69b1dc407af55f73c5a87",
+    "final_bundle": "runs\\idea1_extension_v1\\campaign\\raw\\qv_n6_d4_s701__s42__r0\\attempt_01\\worker\\L1A1\\baseline",
+    "compile_validate_repair_seconds": null,
+    "timing_scope": "immutable validated old quality only; old timer not relabelled a fresh sample"
+  },
+  "source_csv": "runs/idea1_extension_v1/campaign/results.csv",
+  "source_raw_result": "runs\\idea1_extension_v1\\campaign\\raw\\qv_n6_d4_s701__s42__r0\\attempt_01\\worker\\L1A1R0\\result.json",
+  "record_path": "runs\\remaining_experiments_6h_v2\\measurements\\reference__qv_n6_d4_s701__s42\\attempt_01\\attempt_record.json"
+}

@@ -1,0 +1,5 @@
+term,aligned_same_decision_matrices,matrix_unchanged,matrix_uniform_shift,nonuniform_change,identical_final_instructions,compared_case_seeds
+conflict,27,9,18,9,9,24
+future,183,24,30,153,24,24
+heating,183,24,33,150,24,24
+transfer,183,24,135,48,24,24

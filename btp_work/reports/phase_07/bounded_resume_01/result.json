@@ -1,0 +1,78 @@
+{
+  "passed": true,
+  "partial_suite_then_all_resumes": true,
+  "terminal_attempt_records_unchanged": true,
+  "completed_cells_not_repeated": true,
+  "forced_timeout_preserved": true,
+  "finite_resource_failure_preserved": true,
+  "no_report_or_analysis_called": true,
+  "final_status_counts": {
+    "reused_quality": 1,
+    "ok": 7,
+    "unsupported": 1,
+    "timeout": 1
+  },
+  "commands": [
+    {
+      "command": [
+        "powershell",
+        "-NoProfile",
+        "-ExecutionPolicy",
+        "Bypass",
+        "-File",
+        "C:\\Users\\hp\\Documents\\BTP\\btp_work\\tools\\Start-RemainingExperiments.ps1",
+        "-Study",
+        "C:\\Users\\hp\\Documents\\BTP\\btp_work\\runs\\remaining_experiments_resume_01",
+        "-Suite",
+        "Weighting",
+        "-Smoke",
+        "-MaxHours",
+        "0.1"
+      ],
+      "exit_code": 0,
+      "stdout": "{\"state\": \"prepared_not_started\", \"planned_cells\": 10, \"worker_cap_sum_seconds\": 180.3, \"max_hours\": 0.1}\nMeasurement controller started. PID: 23908.\nProgress: C:\\Users\\hp\\Documents\\BTP\\btp_work\\runs\\remaining_experiments_resume_01\\progress.json\nMeasurements: C:\\Users\\hp\\Documents\\BTP\\btp_work\\runs\\remaining_experiments_resume_01\\results.csv\nNo research analysis, report or presentation will run automatically.\nYou may close this terminal. Keep the computer powered on; do not manually sleep or shut it down.\n",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "powershell",
+        "-NoProfile",
+        "-ExecutionPolicy",
+        "Bypass",
+        "-File",
+        "C:\\Users\\hp\\Documents\\BTP\\btp_work\\tools\\Start-RemainingExperiments.ps1",
+        "-Study",
+        "C:\\Users\\hp\\Documents\\BTP\\btp_work\\runs\\remaining_experiments_resume_01",
+        "-Suite",
+        "All",
+        "-Smoke",
+        "-MaxHours",
+        "0.1"
+      ],
+      "exit_code": 0,
+      "stdout": "{\"state\": \"prepared_not_started\", \"planned_cells\": 10, \"worker_cap_sum_seconds\": 180.3, \"max_hours\": 0.1}\nMeasurement controller started. PID: 5620.\nProgress: C:\\Users\\hp\\Documents\\BTP\\btp_work\\runs\\remaining_experiments_resume_01\\progress.json\nMeasurements: C:\\Users\\hp\\Documents\\BTP\\btp_work\\runs\\remaining_experiments_resume_01\\results.csv\nNo research analysis, report or presentation will run automatically.\nYou may close this terminal. Keep the computer powered on; do not manually sleep or shut it down.\n",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "powershell",
+        "-NoProfile",
+        "-ExecutionPolicy",
+        "Bypass",
+        "-File",
+        "C:\\Users\\hp\\Documents\\BTP\\btp_work\\tools\\Start-RemainingExperiments.ps1",
+        "-Study",
+        "C:\\Users\\hp\\Documents\\BTP\\btp_work\\runs\\remaining_experiments_resume_01",
+        "-Suite",
+        "All",
+        "-Smoke",
+        "-MaxHours",
+        "0.1"
+      ],
+      "exit_code": 0,
+      "stdout": "{\"state\": \"prepared_not_started\", \"planned_cells\": 10, \"worker_cap_sum_seconds\": 180.3, \"max_hours\": 0.1}\nMeasurement controller started. PID: 6856.\nProgress: C:\\Users\\hp\\Documents\\BTP\\btp_work\\runs\\remaining_experiments_resume_01\\progress.json\nMeasurements: C:\\Users\\hp\\Documents\\BTP\\btp_work\\runs\\remaining_experiments_resume_01\\results.csv\nNo research analysis, report or presentation will run automatically.\nYou may close this terminal. Keep the computer powered on; do not manually sleep or shut it down.\n",
+      "stderr": ""
+    }
+  ],
+  "test_sha256": "9f4f7a5765112eec93e1da1cf0bdc99ab6ed928f9a5a0dff4ac1cb034f1ad25d"
+}

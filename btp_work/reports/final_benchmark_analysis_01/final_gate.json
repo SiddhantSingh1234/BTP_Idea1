@@ -1,0 +1,40 @@
+{
+  "created_utc": "2026-10-29T06:14:07.904125+00:00",
+  "passed": true,
+  "checks": {
+    "all_frozen_manifests_and_environment_verified": true,
+    "phase1_independent_replay_132": true,
+    "phase3_independent_reconstruction_132": true,
+    "datasets_match_audit": true,
+    "all_committed_audit_records_match": true,
+    "all_generated_artifacts_match": true,
+    "five_valid_plot_exports": true,
+    "all_target_rows_exported": true,
+    "paper_ratios_recomputed": true,
+    "model_changes_recomputed": true,
+    "model_summary_medians_match": true,
+    "matched_phase4_ratios_recomputed": true,
+    "all_horizon_outcomes_accounted": true,
+    "phase4_commit_records_match": true,
+    "paper_180_printed_and_288_vector_values_verified": true,
+    "timing_drift_66_existing_controls": true,
+    "limitations_explicit": true,
+    "paper_and_physical_reproduction_not_claimed": true,
+    "acceptance_metadata_regressions_pass": true
+  },
+  "scope": "D001/D005/D006 pinned-source baseline and completed model/benchmark analysis",
+  "phase1_dataset_and_analysis_complete": true,
+  "phase3_dataset_and_analysis_complete": true,
+  "phase4_artifact_inline_validation_and_analysis_complete": true,
+  "phase4_additional_full_physics_replay_performed": false,
+  "exact_paper_reproduction_claimed": false,
+  "calibrated_physical_fidelity_claimed": false,
+  "limitations": [
+    "Unknown manuscript revision/options/input identities",
+    "Different historical host and timer scopes",
+    "Three RFT timing samples and one new sample per target/variant",
+    "Normalized CZ and declared analytical geometry scope"
+  ],
+  "artifact_manifest_sha256": "b81d2e0259383f5e813522ea93887f3a89ca185b1bcfba193111766d4b1eedd4",
+  "auditor_source_sha256": "060bd475c1143e727f8a40b6cf5ff9fd64aa804922efecc9961e634ba71d2f47"
+}

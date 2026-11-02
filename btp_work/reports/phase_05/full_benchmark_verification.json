@@ -1,0 +1,29 @@
+{
+  "checked_utc": "2026-10-29T05:11:43.396985+00:00",
+  "study": "C:\\Users\\hp\\Documents\\BTP\\btp_work\\runs\\phase05_matched_benchmark_v1",
+  "state": "prepared",
+  "targets": 66,
+  "circuits": 27,
+  "planned_rows": 792,
+  "variants": [
+    "phase04_reference",
+    "sum_distance",
+    "bottleneck_distance",
+    "bottleneck_time",
+    "composite_sum",
+    "composite_bottleneck",
+    "sum_distance_expanded",
+    "composite_bottleneck_expanded",
+    "composite_no_conflict",
+    "composite_no_future"
+  ],
+  "original_baseline_verified": true,
+  "frozen_study_verified": true,
+  "repaired_launcher_verified": true,
+  "tests": {
+    "tests": 7,
+    "successful": true,
+    "failures": 0,
+    "errors": 0
+  }
+}

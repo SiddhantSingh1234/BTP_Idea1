@@ -1,0 +1,51 @@
+{
+  "target_id": "scale__qft_95__s43__proposed_small",
+  "command": [
+    "C:\\Users\\hp\\Documents\\BTP\\btp_work\\.venv\\Scripts\\python.exe",
+    "-B",
+    "-X",
+    "utf8",
+    "C:\\Users\\hp\\Documents\\BTP\\btp_work\\runs\\remaining_experiments_6h_v2\\frozen\\tools\\bounded_experiment_worker.py",
+    "--input",
+    "C:\\Users\\hp\\Documents\\BTP\\btp_work\\runs\\remaining_experiments_6h_v2\\requests\\scale__qft_95__s43__proposed_small.json",
+    "--grid",
+    "11",
+    "--seed",
+    "43",
+    "--out",
+    "C:\\Users\\hp\\Documents\\BTP\\btp_work\\runs\\remaining_experiments_6h_v2\\measurements\\scale__qft_95__s43__proposed_small\\attempt_01\\worker"
+  ],
+  "worker_sha256": "eef102d4fa88d37f2f4df0fd6efbdb8010a3f179331b74ba4599660525cdde88",
+  "router_sha256": "6b26c4db8213ac36ee43a860f4b46ad566cc7126c105a875631584f766e7e458",
+  "input_sha256": "63180af3546aef091a897cf5e56be34ee937f9c84b093f80441872d49ccf8bc4",
+  "timeout_seconds": 150,
+  "memory_limit_bytes": 4294967296,
+  "attempt": 1,
+  "launcher_protocol": "windows-suspended-job-v1",
+  "launcher_sha256": "8eaf0a44bfb38fc240316c2103ab55c0658133ad46f7c90f55106a1830a61723",
+  "status": "timeout",
+  "process_exit_code": 1,
+  "process_wall_seconds": 150.63208800001303,
+  "peak_working_set_bytes": 1219665920,
+  "memory_definition": "observed sum of family peak working sets; not allocation-proof hard cap",
+  "monitored_process_ids": [
+    5988,
+    29680
+  ],
+  "result": null,
+  "worker_artifact_sha256": {
+    "worker/resolved_request.json": "89a922d71afb38f99e567861f641479ada09f4b8587f2451ba2393458b0fc225",
+    "worker/stage.json": "6994164fff7a83e1502563c7f05150ee997fac71533939406fdc8a50c9fd5311",
+    "worker/baseline/bundle.json": "76baa9d3bfdfe7cbdde034404c41018ecd1ab3ec7417c5ddb102ea853041feca",
+    "worker/baseline/compilation.json": "d0bf0a0f86a70e7231851e6d5894102c0011fb3bfca29c8ea4ebf85ed3b6478f",
+    "worker/baseline/evaluation.json": "830bed7715db6d0b4e4cd75c1bd2952a07b4ce11b22028a5598b1ca21a540f9e",
+    "worker/baseline/instructions.txt": "0d845ea15ec917a3c2c78815d1676d08ddd43fdff99a8aaca8525dc1df89cdcd",
+    "worker/baseline/metrics.json": "fd448925d4ad2af974cd6c6e7b3855c464a1c63a8338d060fd524dbf1b0c90f4",
+    "worker/baseline/schedule.json": "f78f3edb5e06dbfe289ca4328409f11944e0d51f1dadac3e8fab1f82ec18481e",
+    "worker/baseline/validation.json": "2b1a39db0db421f9f11667c12ca282c65c631290f2cd0d6307a52cab0282ed64",
+    "worker/baseline/trace/events.jsonl": "f9f0d225b540e0a9d7cf63e94204716bb4bbda08c15fcbb660f4edf63f9bb13f",
+    "worker/baseline/trace/metadata.json": "bf900724a18c6b2c645c20f5bc3f83e9a5e260ba4fdd7ae25e2e47c0458a9b5d"
+  },
+  "monitor_error": null,
+  "record_path": "runs\\remaining_experiments_6h_v2\\measurements\\scale__qft_95__s43__proposed_small\\attempt_01\\attempt_record.json"
+}

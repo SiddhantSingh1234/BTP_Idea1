@@ -1,0 +1,57 @@
+{
+  "schema": "repair_pilot_protocol.phase06.v1",
+  "frozen_before_evaluation": true,
+  "development_cases": {
+    "qft5_ladder7": "450331b41ebb102223e72c421e3c53f29c38a6d8c8d6026da1531eddd22f1caa",
+    "random_matching_n8_seed300": "f9416405837a92bfc9ed34aefeff6ae4cdb83fb3ba7de6b4254273444015875b",
+    "random_matching_n8_seed301": "3d437cb61c83246bc74f6195b4d391374e811599dd5f0fe753241e5a504fe637",
+    "random_matching_n8_seed302": "eeb74f78003fb32392385e14287fefe174545c50fda4a673065ceff668dd4bad",
+    "random_matching_n8_seed303": "9c5959b2863dc0b5e2e41c543477ac9ff04a8d32178864993ade9c0191a6d4fb"
+  },
+  "evaluation_cases": {
+    "tableII_ladder7": "d619ff652814a502c566965e2283495409c5f0953112009a642fcbc8c8e130f9",
+    "forced_eviction_ladder6": "a0d24a2a911ddbcf78495b3e7f4c08078e77ebd444de6c1fb65cca76b52fffa6",
+    "serialized_ladder7": "1b3a59b9baeee2ec878600a646257a830437f19a5cea43c8e3460a880e1b4a86",
+    "qft10_ladder7": "c0c3d7a08ea48e954e322e6b6225ac57d64a4f6b379c94fb57d0de58f5326f5c",
+    "qft15_ladder7": "689ff851109c067074ea07dbe8ab7289d04e72c9248b42d88006e4d0e338a70b",
+    "random_matching_n8_seed400": "5011998bb2cf260033ebb4287dfb2c0963d92067717efe8535e49f66e7867be3",
+    "random_matching_n8_seed401": "ac87068083f72e6ac4eb11689ca204d6cc8d277859f1e2e94154dc3d1cfe05bd",
+    "random_matching_n8_seed402": "f87d385c71ac45274742a40905e1e183c0619eb409f0769b81e15e3635d4f3c7",
+    "random_matching_n8_seed403": "1ad49d3616f6fa3730c868a37779a49eaa4e9ee3e743e740756b9d834b71c3a7",
+    "two_qubit_no_routed_transition": "cd2d9eb2dd0a49b6ea94afec8c22c84ed477833f51f3e58d80202d82a7bae424"
+  },
+  "configuration_sha256": {
+    "configs/variants/repair.disabled.json": "7c9844e1d75555d038cb790d8484286159573ad26c9e3b9f9d84c818ce1c90da",
+    "configs/variants/repair.small.json": "a96c8a1fdcc672d136adc1bd34725c4ddd0ea538cb6518aec3b1c5d75df1f915",
+    "configs/variants/repair.standard.json": "d963e727252356fe34bcc393f170bae079d41c93a168e16a40afadb5d33f496c",
+    "configs/variants/repair.zero.json": "b290af1eda3fe45a13f55246a4bda522c28f3ea2e0074aa1b05439070bbd9483",
+    "configs/variants/assignment.sum_distance.json": "43896eb54578a79ed3fb5b086ebdea64da8571fdbdef8baf21a17b761e408a3e",
+    "configs/variants/assignment.composite_bottleneck_expanded.json": "180d386508962981ad75f169abdac6e1984975c99bd0cdf0bb7c9c459386df6a",
+    "configs/variants/lookahead.next_events_h4.json": "54891fcfcfd198a392853e2418635d5f26fa3a58c05082b33c18bfd803b932a7",
+    "configs/hardware/extended_no_cooling.json": "98f7bbf82fdc33628b807e9ef3f0633ca037dc10b13eab9d9c2d20166467f477"
+  },
+  "routing_seeds": {
+    "development": [
+      42
+    ],
+    "evaluation": [
+      42,
+      43
+    ]
+  },
+  "assignments": [
+    "sum_distance",
+    "composite_bottleneck_expanded"
+  ],
+  "repair_budgets": [
+    "disabled",
+    "zero",
+    "small",
+    "standard"
+  ],
+  "limits": {
+    "worker_wall_seconds": 240,
+    "process_family_bytes": 4294967296
+  },
+  "selection": "Fixed finite operation limits, unchanged Phase05 settings; no outcome-based tuning; regression cases and unseen generator seeds labelled separately."
+}

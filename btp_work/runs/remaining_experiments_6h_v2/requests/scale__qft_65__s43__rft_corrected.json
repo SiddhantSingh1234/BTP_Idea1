@@ -1,0 +1,13 @@
+{
+  "id": "scale__qft_65__s43__rft_corrected",
+  "suite": "scale",
+  "kind": "compile",
+  "case_id": "qft_65",
+  "case_path": "runs\\remaining_experiments_6h_v2\\inputs\\qft_65\\case.json",
+  "seed": 43,
+  "variant": "rft_corrected",
+  "grid": 11,
+  "timeout": 75,
+  "lookahead": "legacy_exact",
+  "assignment": "sum_distance_expanded"
+}

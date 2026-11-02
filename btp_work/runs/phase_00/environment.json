@@ -1,0 +1,86 @@
+{
+  "python": "3.12.10 (tags/v3.12.10:0cc8128, Apr  8 2025, 12:21:36) [MSC v.1943 64 bit (AMD64)]",
+  "executable": "C:\\Users\\hp\\Documents\\BTP\\btp_work\\.research-tools\\python\\python.exe",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "processor": "Intel64 Family 6 Model 197 Stepping 2, GenuineIntel",
+  "logical_cpus": 14,
+  "packages": {
+    "qiskit": {
+      "import_available": false,
+      "distribution_version": null
+    },
+    "numpy": {
+      "import_available": false,
+      "distribution_version": null
+    },
+    "scipy": {
+      "import_available": false,
+      "distribution_version": null
+    },
+    "networkx": {
+      "import_available": false,
+      "distribution_version": null
+    },
+    "rustworkx": {
+      "import_available": false,
+      "distribution_version": null
+    },
+    "pandas": {
+      "import_available": false,
+      "distribution_version": null
+    },
+    "matplotlib": {
+      "import_available": false,
+      "distribution_version": null
+    },
+    "plotly": {
+      "import_available": false,
+      "distribution_version": null
+    },
+    "openpyxl": {
+      "import_available": false,
+      "distribution_version": null
+    },
+    "pip": {
+      "import_available": false,
+      "distribution_version": null
+    },
+    "venv": {
+      "import_available": false,
+      "distribution_version": null
+    },
+    "pypdf": {
+      "import_available": true,
+      "distribution_version": "6.21.2"
+    },
+    "fontTools": {
+      "import_available": true,
+      "distribution_version": "4.67.0"
+    }
+  },
+  "thread_environment": {
+    "OMP_NUM_THREADS": "1",
+    "OPENBLAS_NUM_THREADS": "1",
+    "MKL_NUM_THREADS": "1",
+    "NUMEXPR_NUM_THREADS": "1",
+    "VECLIB_MAXIMUM_THREADS": "1",
+    "PYTHONHASHSEED": "0"
+  },
+  "ram_total_bytes": 16535990272,
+  "ram_available_bytes": 5639294976,
+  "cpu_model": "Intel(R) Core(TM) Ultra 5 225H",
+  "disk": {
+    "total": 256599126016,
+    "used": 95398506496,
+    "free": 161200619520
+  },
+  "rft_excerpt_import": {
+    "status": "error",
+    "type": "ModuleNotFoundError",
+    "message": "No module named 'networkx'"
+  },
+  "dasatom_smoke": {
+    "status": "blocked_dependency",
+    "reason": "No DasAtom source files or compiler packages present"
+  }
+}

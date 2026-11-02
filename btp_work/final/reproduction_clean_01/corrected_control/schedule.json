@@ -1,0 +1,5610 @@
+{
+  "schema_version": "neutral_atom_schedule.phase03.v1",
+  "phase": "03",
+  "operation": "retime",
+  "source_trace": {
+    "metadata": {
+      "schema_version": "neutral_atom_trace.v1",
+      "circuit": {
+        "format": "cz_circuit.v1",
+        "num_qubits": 5,
+        "gates": [
+          {
+            "gate_id": "g000000",
+            "gate_type": "cz",
+            "qubits": [
+              4,
+              3
+            ],
+            "dependencies": [],
+            "logical_layer": 1
+          },
+          {
+            "gate_id": "g000001",
+            "gate_type": "cz",
+            "qubits": [
+              4,
+              3
+            ],
+            "dependencies": [
+              "g000000"
+            ],
+            "logical_layer": 2
+          },
+          {
+            "gate_id": "g000002",
+            "gate_type": "cz",
+            "qubits": [
+              4,
+              2
+            ],
+            "dependencies": [
+              "g000001"
+            ],
+            "logical_layer": 3
+          },
+          {
+            "gate_id": "g000003",
+            "gate_type": "cz",
+            "qubits": [
+              4,
+              2
+            ],
+            "dependencies": [
+              "g000002"
+            ],
+            "logical_layer": 4
+          },
+          {
+            "gate_id": "g000004",
+            "gate_type": "cz",
+            "qubits": [
+              3,
+              2
+            ],
+            "dependencies": [
+              "g000001",
+              "g000003"
+            ],
+            "logical_layer": 5
+          },
+          {
+            "gate_id": "g000005",
+            "gate_type": "cz",
+            "qubits": [
+              3,
+              2
+            ],
+            "dependencies": [
+              "g000004"
+            ],
+            "logical_layer": 6
+          },
+          {
+            "gate_id": "g000006",
+            "gate_type": "cz",
+            "qubits": [
+              4,
+              1
+            ],
+            "dependencies": [
+              "g000003"
+            ],
+            "logical_layer": 5
+          },
+          {
+            "gate_id": "g000007",
+            "gate_type": "cz",
+            "qubits": [
+              4,
+              1
+            ],
+            "dependencies": [
+              "g000006"
+            ],
+            "logical_layer": 6
+          },
+          {
+            "gate_id": "g000008",
+            "gate_type": "cz",
+            "qubits": [
+              3,
+              1
+            ],
+            "dependencies": [
+              "g000005",
+              "g000007"
+            ],
+            "logical_layer": 7
+          },
+          {
+            "gate_id": "g000009",
+            "gate_type": "cz",
+            "qubits": [
+              3,
+              1
+            ],
+            "dependencies": [
+              "g000008"
+            ],
+            "logical_layer": 8
+          },
+          {
+            "gate_id": "g000010",
+            "gate_type": "cz",
+            "qubits": [
+              2,
+              1
+            ],
+            "dependencies": [
+              "g000005",
+              "g000009"
+            ],
+            "logical_layer": 9
+          },
+          {
+            "gate_id": "g000011",
+            "gate_type": "cz",
+            "qubits": [
+              2,
+              1
+            ],
+            "dependencies": [
+              "g000010"
+            ],
+            "logical_layer": 10
+          },
+          {
+            "gate_id": "g000012",
+            "gate_type": "cz",
+            "qubits": [
+              4,
+              0
+            ],
+            "dependencies": [
+              "g000007"
+            ],
+            "logical_layer": 7
+          },
+          {
+            "gate_id": "g000013",
+            "gate_type": "cz",
+            "qubits": [
+              4,
+              0
+            ],
+            "dependencies": [
+              "g000012"
+            ],
+            "logical_layer": 8
+          },
+          {
+            "gate_id": "g000014",
+            "gate_type": "cz",
+            "qubits": [
+              3,
+              0
+            ],
+            "dependencies": [
+              "g000009",
+              "g000013"
+            ],
+            "logical_layer": 9
+          },
+          {
+            "gate_id": "g000015",
+            "gate_type": "cz",
+            "qubits": [
+              3,
+              0
+            ],
+            "dependencies": [
+              "g000014"
+            ],
+            "logical_layer": 10
+          },
+          {
+            "gate_id": "g000016",
+            "gate_type": "cz",
+            "qubits": [
+              2,
+              0
+            ],
+            "dependencies": [
+              "g000011",
+              "g000015"
+            ],
+            "logical_layer": 11
+          },
+          {
+            "gate_id": "g000017",
+            "gate_type": "cz",
+            "qubits": [
+              2,
+              0
+            ],
+            "dependencies": [
+              "g000016"
+            ],
+            "logical_layer": 12
+          },
+          {
+            "gate_id": "g000018",
+            "gate_type": "cz",
+            "qubits": [
+              1,
+              0
+            ],
+            "dependencies": [
+              "g000011",
+              "g000017"
+            ],
+            "logical_layer": 13
+          },
+          {
+            "gate_id": "g000019",
+            "gate_type": "cz",
+            "qubits": [
+              1,
+              0
+            ],
+            "dependencies": [
+              "g000018"
+            ],
+            "logical_layer": 14
+          },
+          {
+            "gate_id": "g000020",
+            "gate_type": "cz",
+            "qubits": [
+              1,
+              3
+            ],
+            "dependencies": [
+              "g000015",
+              "g000019"
+            ],
+            "logical_layer": 15
+          },
+          {
+            "gate_id": "g000021",
+            "gate_type": "cz",
+            "qubits": [
+              3,
+              1
+            ],
+            "dependencies": [
+              "g000020"
+            ],
+            "logical_layer": 16
+          },
+          {
+            "gate_id": "g000022",
+            "gate_type": "cz",
+            "qubits": [
+              1,
+              3
+            ],
+            "dependencies": [
+              "g000021"
+            ],
+            "logical_layer": 17
+          },
+          {
+            "gate_id": "g000023",
+            "gate_type": "cz",
+            "qubits": [
+              0,
+              4
+            ],
+            "dependencies": [
+              "g000013",
+              "g000019"
+            ],
+            "logical_layer": 15
+          },
+          {
+            "gate_id": "g000024",
+            "gate_type": "cz",
+            "qubits": [
+              4,
+              0
+            ],
+            "dependencies": [
+              "g000023"
+            ],
+            "logical_layer": 16
+          },
+          {
+            "gate_id": "g000025",
+            "gate_type": "cz",
+            "qubits": [
+              0,
+              4
+            ],
+            "dependencies": [
+              "g000024"
+            ],
+            "logical_layer": 17
+          }
+        ]
+      },
+      "circuit_sha256": "450331b41ebb102223e72c421e3c53f29c38a6d8c8d6026da1531eddd22f1caa",
+      "hardware": {
+        "profile_id": "phase04_declared_two_plane_testing.v1",
+        "rows": 11,
+        "columns": 11,
+        "coordinate_unit": "grid_index",
+        "spacing_um": 3.0,
+        "interaction_radius_um": 6.0,
+        "restriction_radius_um": 12.0,
+        "min_atom_separation_um": 3.0,
+        "slm_aod_shared_plane": false,
+        "addressing": "individual",
+        "aod_count": 1,
+        "cooling_supported": false,
+        "cz_duration_us": 0.2,
+        "transfer_stage_duration_us": 20.0,
+        "move_speed_um_per_us": 0.55,
+        "gates_require_trap": "SLM",
+        "allow_move_gate_overlap": false,
+        "coordinate_tolerance": 1e-09,
+        "legacy_T2_us": 1500000.0,
+        "legacy_f_cz": 0.995,
+        "legacy_f_transfer": 1.0,
+        "assumptions": [
+          "NEW Phase04 testing geometry: separate SLM/AOD planes with one-spacing clearance, ordinary trap-transfer primitives",
+          "Shared single-AOD progress; all policies use identical geometry; no measured native plane separation is claimed"
+        ],
+        "source": "Pinned RFT/DasAtom legacy constants; no new heating/cooling/acceleration model",
+        "slm_aod_plane_offset_um": 3.0
+      },
+      "hardware_sha256": "ebd85a350c5b8a72e52f408ffe59456b9d4bb9ce0b424f73405548567119b9aa",
+      "origin": {
+        "kind": "rft_phase04_controlled",
+        "physical_source": "new controlled compile under declared geometry, not a native device observation",
+        "core_sha256": "24651482cf223c1a84d0aeecb1493ee2024e25c2da9bebd37d035023e3ff71bb",
+        "lookahead_options": {
+          "schema_version": "lookahead_options.phase04.v1",
+          "variant_id": "legacy_exact",
+          "lookahead_policy": "legacy_exact",
+          "h": 1,
+          "gamma": 0.9,
+          "weight_mode": "uniform",
+          "current_distance_weight": 0,
+          "anchor_policy": "committed_active_else_current",
+          "assignment_future_bias": false
+        },
+        "baseline_options": {
+          "variant_name": "7_dynamic_slot_01q_move",
+          "enable_keep_adjacent": true,
+          "enable_one_qubit_move": true,
+          "candidate_slots_mode": "com_subset",
+          "pad_cost_matrix_to_square": false,
+          "assignment_mode": "hungarian",
+          "idle_parking_mode": "rft_greedy",
+          "evicted_park_closest_to_partner": false,
+          "enable_rft_hungarian_bias": false,
+          "rft_hungarian_bias_weight": 0.3,
+          "rft_hungarian_bias_max_time_dist": 3,
+          "random_seed": 42
+        },
+        "routing_seed": 42,
+        "original_register_complete": true
+      },
+      "timing_policy": "two_transfer_stages",
+      "diagnostics": [],
+      "atom_identity_policy": "One stable atom carrier per source logical qubit; no SWAP/cooling state transfer in native CZ-only scope",
+      "physical_evidence_complete": false,
+      "assumptions": [
+        "SLM-to-AOD-to-SLM for nonzero movers; one concurrent load and unload stage per batch",
+        "Shared normalized linear progress; times derived from declared profile, not observed",
+        "NEW Phase04 testing geometry: separate SLM/AOD planes with one-spacing clearance, ordinary trap-transfer primitives",
+        "Shared single-AOD progress; all policies use identical geometry; no measured native plane separation is claimed"
+      ],
+      "source_counts": {
+        "gate_stages": 17,
+        "nonempty_movement_blocks": 11
+      }
+    },
+    "events": [
+      {
+        "event_id": "e000000",
+        "kind": "initialize",
+        "logical_layer": 1,
+        "placement_batch": "layer1_batch1",
+        "routing_batch": null,
+        "start_us": 0.0,
+        "duration_us": 0.0,
+        "resources": [],
+        "atom_ids": [
+          "a0",
+          "a1",
+          "a2",
+          "a3",
+          "a4"
+        ],
+        "logical_qubit_ids": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "provenance": {
+          "positions": "observed_or_explicit_fixture",
+          "trap": "assumed",
+          "timing": "initial_loading_excluded"
+        },
+        "source_group_index": 0,
+        "to_sites": [
+          [
+            5,
+            5
+          ],
+          [
+            6,
+            6
+          ],
+          [
+            4,
+            6
+          ],
+          [
+            6,
+            5
+          ],
+          [
+            5,
+            6
+          ]
+        ],
+        "trap_to": "SLM"
+      },
+      {
+        "event_id": "e000001",
+        "kind": "gate",
+        "logical_layer": 1,
+        "placement_batch": "layer1_batch1",
+        "routing_batch": null,
+        "start_us": 0.0,
+        "duration_us": 0.2,
+        "resources": [],
+        "atom_ids": [
+          "a3",
+          "a4"
+        ],
+        "logical_qubit_ids": [
+          3,
+          4
+        ],
+        "provenance": {
+          "gate": "observed",
+          "gate_identity": "FIFO_occurrence_for_same_CZ_pair",
+          "timing": "derived"
+        },
+        "source_group_index": 1,
+        "gate_batch": "gate_stage000001",
+        "gate_id": "g000000",
+        "gate_type": "cz",
+        "dependencies": [],
+        "sites": [
+          [
+            6,
+            5
+          ],
+          [
+            5,
+            6
+          ]
+        ]
+      },
+      {
+        "event_id": "e000002",
+        "kind": "gate",
+        "logical_layer": 2,
+        "placement_batch": "layer2_batch1",
+        "routing_batch": null,
+        "start_us": 0.2,
+        "duration_us": 0.2,
+        "resources": [],
+        "atom_ids": [
+          "a3",
+          "a4"
+        ],
+        "logical_qubit_ids": [
+          3,
+          4
+        ],
+        "provenance": {
+          "gate": "observed",
+          "gate_identity": "FIFO_occurrence_for_same_CZ_pair",
+          "timing": "derived"
+        },
+        "source_group_index": 2,
+        "gate_batch": "gate_stage000002",
+        "gate_id": "g000001",
+        "gate_type": "cz",
+        "dependencies": [
+          "g000000"
+        ],
+        "sites": [
+          [
+            6,
+            5
+          ],
+          [
+            5,
+            6
+          ]
+        ]
+      },
+      {
+        "event_id": "e000003",
+        "kind": "gate",
+        "logical_layer": 3,
+        "placement_batch": "layer3_batch1",
+        "routing_batch": null,
+        "start_us": 0.4,
+        "duration_us": 0.2,
+        "resources": [],
+        "atom_ids": [
+          "a2",
+          "a4"
+        ],
+        "logical_qubit_ids": [
+          2,
+          4
+        ],
+        "provenance": {
+          "gate": "observed",
+          "gate_identity": "FIFO_occurrence_for_same_CZ_pair",
+          "timing": "derived"
+        },
+        "source_group_index": 3,
+        "gate_batch": "gate_stage000003",
+        "gate_id": "g000002",
+        "gate_type": "cz",
+        "dependencies": [
+          "g000001"
+        ],
+        "sites": [
+          [
+            4,
+            6
+          ],
+          [
+            5,
+            6
+          ]
+        ]
+      },
+      {
+        "event_id": "e000004",
+        "kind": "gate",
+        "logical_layer": 4,
+        "placement_batch": "layer4_batch1",
+        "routing_batch": null,
+        "start_us": 0.6000000000000001,
+        "duration_us": 0.2,
+        "resources": [],
+        "atom_ids": [
+          "a2",
+          "a4"
+        ],
+        "logical_qubit_ids": [
+          2,
+          4
+        ],
+        "provenance": {
+          "gate": "observed",
+          "gate_identity": "FIFO_occurrence_for_same_CZ_pair",
+          "timing": "derived"
+        },
+        "source_group_index": 4,
+        "gate_batch": "gate_stage000004",
+        "gate_id": "g000003",
+        "gate_type": "cz",
+        "dependencies": [
+          "g000002"
+        ],
+        "sites": [
+          [
+            4,
+            6
+          ],
+          [
+            5,
+            6
+          ]
+        ]
+      },
+      {
+        "event_id": "e000005",
+        "kind": "transfer",
+        "logical_layer": 5,
+        "placement_batch": "layer5_batch1",
+        "routing_batch": "move000001",
+        "start_us": 0.8,
+        "duration_us": 20.0,
+        "resources": [
+          "AOD0"
+        ],
+        "atom_ids": [
+          "a2"
+        ],
+        "logical_qubit_ids": [
+          2
+        ],
+        "provenance": {
+          "transfer": "inferred_by_two_transfer_stage_policy",
+          "timing": "derived"
+        },
+        "source_group_index": 5,
+        "trap_from": "SLM",
+        "trap_to": "AOD0"
+      },
+      {
+        "event_id": "e000006",
+        "kind": "move",
+        "logical_layer": 5,
+        "placement_batch": "layer5_batch1",
+        "routing_batch": "move000001",
+        "start_us": 20.8,
+        "duration_us": 24.39346884545225,
+        "resources": [
+          "AOD0"
+        ],
+        "atom_ids": [
+          "a2"
+        ],
+        "logical_qubit_ids": [
+          2
+        ],
+        "provenance": {
+          "positions": "observed_or_explicit_fixture",
+          "trajectory": "assumed",
+          "timing": "derived"
+        },
+        "source_group_index": 5,
+        "from_sites": [
+          [
+            4,
+            6
+          ]
+        ],
+        "to_sites": [
+          [
+            2,
+            10
+          ]
+        ],
+        "trajectory": {
+          "kind": "shared_linear_progress",
+          "provenance": "assumed"
+        },
+        "causes": [
+          "unknown_upstream_move"
+        ],
+        "source_legacy_block": true
+      },
+      {
+        "event_id": "e000007",
+        "kind": "transfer",
+        "logical_layer": 5,
+        "placement_batch": "layer5_batch1",
+        "routing_batch": "move000001",
+        "start_us": 45.19346884545225,
+        "duration_us": 20.0,
+        "resources": [
+          "AOD0"
+        ],
+        "atom_ids": [
+          "a2"
+        ],
+        "logical_qubit_ids": [
+          2
+        ],
+        "provenance": {
+          "transfer": "inferred_by_two_transfer_stage_policy",
+          "timing": "derived"
+        },
+        "source_group_index": 5,
+        "trap_from": "AOD0",
+        "trap_to": "SLM"
+      },
+      {
+        "event_id": "e000008",
+        "kind": "transfer",
+        "logical_layer": 5,
+        "placement_batch": "layer5_batch1",
+        "routing_batch": "move000002",
+        "start_us": 65.19346884545226,
+        "duration_us": 20.0,
+        "resources": [
+          "AOD0"
+        ],
+        "atom_ids": [
+          "a3"
+        ],
+        "logical_qubit_ids": [
+          3
+        ],
+        "provenance": {
+          "transfer": "inferred_by_two_transfer_stage_policy",
+          "timing": "derived"
+        },
+        "source_group_index": 6,
+        "trap_from": "SLM",
+        "trap_to": "AOD0"
+      },
+      {
+        "event_id": "e000009",
+        "kind": "move",
+        "logical_layer": 5,
+        "placement_batch": "layer5_batch1",
+        "routing_batch": "move000002",
+        "start_us": 85.19346884545226,
+        "duration_us": 29.37362622073365,
+        "resources": [
+          "AOD0"
+        ],
+        "atom_ids": [
+          "a3"
+        ],
+        "logical_qubit_ids": [
+          3
+        ],
+        "provenance": {
+          "positions": "observed_or_explicit_fixture",
+          "trajectory": "assumed",
+          "timing": "derived"
+        },
+        "source_group_index": 6,
+        "from_sites": [
+          [
+            6,
+            5
+          ]
+        ],
+        "to_sites": [
+          [
+            4,
+            10
+          ]
+        ],
+        "trajectory": {
+          "kind": "shared_linear_progress",
+          "provenance": "assumed"
+        },
+        "causes": [
+          "unknown_upstream_move"
+        ],
+        "source_legacy_block": true
+      },
+      {
+        "event_id": "e000010",
+        "kind": "transfer",
+        "logical_layer": 5,
+        "placement_batch": "layer5_batch1",
+        "routing_batch": "move000002",
+        "start_us": 114.56709506618591,
+        "duration_us": 20.0,
+        "resources": [
+          "AOD0"
+        ],
+        "atom_ids": [
+          "a3"
+        ],
+        "logical_qubit_ids": [
+          3
+        ],
+        "provenance": {
+          "transfer": "inferred_by_two_transfer_stage_policy",
+          "timing": "derived"
+        },
+        "source_group_index": 6,
+        "trap_from": "AOD0",
+        "trap_to": "SLM"
+      },
+      {
+        "event_id": "e000011",
+        "kind": "gate",
+        "logical_layer": 5,
+        "placement_batch": "layer5_batch1",
+        "routing_batch": null,
+        "start_us": 134.5670950661859,
+        "duration_us": 0.2,
+        "resources": [],
+        "atom_ids": [
+          "a1",
+          "a4"
+        ],
+        "logical_qubit_ids": [
+          1,
+          4
+        ],
+        "provenance": {
+          "gate": "observed",
+          "gate_identity": "FIFO_occurrence_for_same_CZ_pair",
+          "timing": "derived"
+        },
+        "source_group_index": 7,
+        "gate_batch": "gate_stage000007",
+        "gate_id": "g000006",
+        "gate_type": "cz",
+        "dependencies": [
+          "g000003"
+        ],
+        "sites": [
+          [
+            6,
+            6
+          ],
+          [
+            5,
+            6
+          ]
+        ]
+      },
+      {
+        "event_id": "e000012",
+        "kind": "gate",
+        "logical_layer": 5,
+        "placement_batch": "layer5_batch1",
+        "routing_batch": null,
+        "start_us": 134.5670950661859,
+        "duration_us": 0.2,
+        "resources": [],
+        "atom_ids": [
+          "a2",
+          "a3"
+        ],
+        "logical_qubit_ids": [
+          2,
+          3
+        ],
+        "provenance": {
+          "gate": "observed",
+          "gate_identity": "FIFO_occurrence_for_same_CZ_pair",
+          "timing": "derived"
+        },
+        "source_group_index": 7,
+        "gate_batch": "gate_stage000007",
+        "gate_id": "g000004",
+        "gate_type": "cz",
+        "dependencies": [
+          "g000001",
+          "g000003"
+        ],
+        "sites": [
+          [
+            2,
+            10
+          ],
+          [
+            4,
+            10
+          ]
+        ]
+      },
+      {
+        "event_id": "e000013",
+        "kind": "gate",
+        "logical_layer": 6,
+        "placement_batch": "layer6_batch1",
+        "routing_batch": null,
+        "start_us": 134.7670950661859,
+        "duration_us": 0.2,
+        "resources": [],
+        "atom_ids": [
+          "a1",
+          "a4"
+        ],
+        "logical_qubit_ids": [
+          1,
+          4
+        ],
+        "provenance": {
+          "gate": "observed",
+          "gate_identity": "FIFO_occurrence_for_same_CZ_pair",
+          "timing": "derived"
+        },
+        "source_group_index": 8,
+        "gate_batch": "gate_stage000008",
+        "gate_id": "g000007",
+        "gate_type": "cz",
+        "dependencies": [
+          "g000006"
+        ],
+        "sites": [
+          [
+            6,
+            6
+          ],
+          [
+            5,
+            6
+          ]
+        ]
+      },
+      {
+        "event_id": "e000014",
+        "kind": "gate",
+        "logical_layer": 6,
+        "placement_batch": "layer6_batch1",
+        "routing_batch": null,
+        "start_us": 134.7670950661859,
+        "duration_us": 0.2,
+        "resources": [],
+        "atom_ids": [
+          "a2",
+          "a3"
+        ],
+        "logical_qubit_ids": [
+          2,
+          3
+        ],
+        "provenance": {
+          "gate": "observed",
+          "gate_identity": "FIFO_occurrence_for_same_CZ_pair",
+          "timing": "derived"
+        },
+        "source_group_index": 8,
+        "gate_batch": "gate_stage000008",
+        "gate_id": "g000005",
+        "gate_type": "cz",
+        "dependencies": [
+          "g000004"
+        ],
+        "sites": [
+          [
+            2,
+            10
+          ],
+          [
+            4,
+            10
+          ]
+        ]
+      },
+      {
+        "event_id": "e000015",
+        "kind": "transfer",
+        "logical_layer": 7,
+        "placement_batch": "layer7_batch1",
+        "routing_batch": "move000003",
+        "start_us": 134.9670950661859,
+        "duration_us": 20.0,
+        "resources": [
+          "AOD0"
+        ],
+        "atom_ids": [
+          "a2"
+        ],
+        "logical_qubit_ids": [
+          2
+        ],
+        "provenance": {
+          "transfer": "inferred_by_two_transfer_stage_policy",
+          "timing": "derived"
+        },
+        "source_group_index": 9,
+        "trap_from": "SLM",
+        "trap_to": "AOD0"
+      },
+      {
+        "event_id": "e000016",
+        "kind": "move",
+        "logical_layer": 7,
+        "placement_batch": "layer7_batch1",
+        "routing_batch": "move000003",
+        "start_us": 154.9670950661859,
+        "duration_us": 5.454545454545454,
+        "resources": [
+          "AOD0"
+        ],
+        "atom_ids": [
+          "a2"
+        ],
+        "logical_qubit_ids": [
+          2
+        ],
+        "provenance": {
+          "positions": "observed_or_explicit_fixture",
+          "trajectory": "assumed",
+          "timing": "derived"
+        },
+        "source_group_index": 9,
+        "from_sites": [
+          [
+            2,
+            10
+          ]
+        ],
+        "to_sites": [
+          [
+            1,
+            10
+          ]
+        ],
+        "trajectory": {
+          "kind": "shared_linear_progress",
+          "provenance": "assumed"
+        },
+        "causes": [
+          "unknown_upstream_move"
+        ],
+        "source_legacy_block": true
+      },
+      {
+        "event_id": "e000017",
+        "kind": "transfer",
+        "logical_layer": 7,
+        "placement_batch": "layer7_batch1",
+        "routing_batch": "move000003",
+        "start_us": 160.42164052073136,
+        "duration_us": 20.0,
+        "resources": [
+          "AOD0"
+        ],
+        "atom_ids": [
+          "a2"
+        ],
+        "logical_qubit_ids": [
+          2
+        ],
+        "provenance": {
+          "transfer": "inferred_by_two_transfer_stage_policy",
+          "timing": "derived"
+        },
+        "source_group_index": 9,
+        "trap_from": "AOD0",
+        "trap_to": "SLM"
+      },
+      {
+        "event_id": "e000018",
+        "kind": "transfer",
+        "logical_layer": 7,
+        "placement_batch": "layer7_batch1",
+        "routing_batch": "move000004",
+        "start_us": 180.42164052073136,
+        "duration_us": 20.0,
+        "resources": [
+          "AOD0"
+        ],
+        "atom_ids": [
+          "a1"
+        ],
+        "logical_qubit_ids": [
+          1
+        ],
+        "provenance": {
+          "transfer": "inferred_by_two_transfer_stage_policy",
+          "timing": "derived"
+        },
+        "source_group_index": 10,
+        "trap_from": "SLM",
+        "trap_to": "AOD0"
+      },
+      {
+        "event_id": "e000019",
+        "kind": "move",
+        "logical_layer": 7,
+        "placement_batch": "layer7_batch1",
+        "routing_batch": "move000004",
+        "start_us": 200.42164052073136,
+        "duration_us": 30.855568633594803,
+        "resources": [
+          "AOD0"
+        ],
+        "atom_ids": [
+          "a1"
+        ],
+        "logical_qubit_ids": [
+          1
+        ],
+        "provenance": {
+          "positions": "observed_or_explicit_fixture",
+          "trajectory": "assumed",
+          "timing": "derived"
+        },
+        "source_group_index": 10,
+        "from_sites": [
+          [
+            6,
+            6
+          ]
+        ],
+        "to_sites": [
+          [
+            2,
+            10
+          ]
+        ],
+        "trajectory": {
+          "kind": "shared_linear_progress",
+          "provenance": "assumed"
+        },
+        "causes": [
+          "unknown_upstream_move"
+        ],
+        "source_legacy_block": true
+      },
+      {
+        "event_id": "e000020",
+        "kind": "transfer",
+        "logical_layer": 7,
+        "placement_batch": "layer7_batch1",
+        "routing_batch": "move000004",
+        "start_us": 231.27720915432616,
+        "duration_us": 20.0,
+        "resources": [
+          "AOD0"
+        ],
+        "atom_ids": [
+          "a1"
+        ],
+        "logical_qubit_ids": [
+          1
+        ],
+        "provenance": {
+          "transfer": "inferred_by_two_transfer_stage_policy",
+          "timing": "derived"
+        },
+        "source_group_index": 10,
+        "trap_from": "AOD0",
+        "trap_to": "SLM"
+      },
+      {
+        "event_id": "e000021",
+        "kind": "gate",
+        "logical_layer": 7,
+        "placement_batch": "layer7_batch1",
+        "routing_batch": null,
+        "start_us": 251.27720915432616,
+        "duration_us": 0.2,
+        "resources": [],
+        "atom_ids": [
+          "a0",
+          "a4"
+        ],
+        "logical_qubit_ids": [
+          0,
+          4
+        ],
+        "provenance": {
+          "gate": "observed",
+          "gate_identity": "FIFO_occurrence_for_same_CZ_pair",
+          "timing": "derived"
+        },
+        "source_group_index": 11,
+        "gate_batch": "gate_stage000011",
+        "gate_id": "g000012",
+        "gate_type": "cz",
+        "dependencies": [
+          "g000007"
+        ],
+        "sites": [
+          [
+            5,
+            5
+          ],
+          [
+            5,
+            6
+          ]
+        ]
+      },
+      {
+        "event_id": "e000022",
+        "kind": "gate",
+        "logical_layer": 7,
+        "placement_batch": "layer7_batch1",
+        "routing_batch": null,
+        "start_us": 251.27720915432616,
+        "duration_us": 0.2,
+        "resources": [],
+        "atom_ids": [
+          "a1",
+          "a3"
+        ],
+        "logical_qubit_ids": [
+          1,
+          3
+        ],
+        "provenance": {
+          "gate": "observed",
+          "gate_identity": "FIFO_occurrence_for_same_CZ_pair",
+          "timing": "derived"
+        },
+        "source_group_index": 11,
+        "gate_batch": "gate_stage000011",
+        "gate_id": "g000008",
+        "gate_type": "cz",
+        "dependencies": [
+          "g000005",
+          "g000007"
+        ],
+        "sites": [
+          [
+            2,
+            10
+          ],
+          [
+            4,
+            10
+          ]
+        ]
+      },
+      {
+        "event_id": "e000023",
+        "kind": "gate",
+        "logical_layer": 8,
+        "placement_batch": "layer8_batch1",
+        "routing_batch": null,
+        "start_us": 251.47720915432615,
+        "duration_us": 0.2,
+        "resources": [],
+        "atom_ids": [
+          "a0",
+          "a4"
+        ],
+        "logical_qubit_ids": [
+          0,
+          4
+        ],
+        "provenance": {
+          "gate": "observed",
+          "gate_identity": "FIFO_occurrence_for_same_CZ_pair",
+          "timing": "derived"
+        },
+        "source_group_index": 12,
+        "gate_batch": "gate_stage000012",
+        "gate_id": "g000013",
+        "gate_type": "cz",
+        "dependencies": [
+          "g000012"
+        ],
+        "sites": [
+          [
+            5,
+            5
+          ],
+          [
+            5,
+            6
+          ]
+        ]
+      },
+      {
+        "event_id": "e000024",
+        "kind": "gate",
+        "logical_layer": 8,
+        "placement_batch": "layer8_batch1",
+        "routing_batch": null,
+        "start_us": 251.47720915432615,
+        "duration_us": 0.2,
+        "resources": [],
+        "atom_ids": [
+          "a1",
+          "a3"
+        ],
+        "logical_qubit_ids": [
+          1,
+          3
+        ],
+        "provenance": {
+          "gate": "observed",
+          "gate_identity": "FIFO_occurrence_for_same_CZ_pair",
+          "timing": "derived"
+        },
+        "source_group_index": 12,
+        "gate_batch": "gate_stage000012",
+        "gate_id": "g000009",
+        "gate_type": "cz",
+        "dependencies": [
+          "g000008"
+        ],
+        "sites": [
+          [
+            2,
+            10
+          ],
+          [
+            4,
+            10
+          ]
+        ]
+      },
+      {
+        "event_id": "e000025",
+        "kind": "transfer",
+        "logical_layer": 9,
+        "placement_batch": "layer9_batch1",
+        "routing_batch": "move000005",
+        "start_us": 251.67720915432614,
+        "duration_us": 20.0,
+        "resources": [
+          "AOD0"
+        ],
+        "atom_ids": [
+          "a0"
+        ],
+        "logical_qubit_ids": [
+          0
+        ],
+        "provenance": {
+          "transfer": "inferred_by_two_transfer_stage_policy",
+          "timing": "derived"
+        },
+        "source_group_index": 13,
+        "trap_from": "SLM",
+        "trap_to": "AOD0"
+      },
+      {
+        "event_id": "e000026",
+        "kind": "move",
+        "logical_layer": 9,
+        "placement_batch": "layer9_batch1",
+        "routing_batch": "move000005",
+        "start_us": 271.67720915432614,
+        "duration_us": 5.454545454545454,
+        "resources": [
+          "AOD0"
+        ],
+        "atom_ids": [
+          "a0"
+        ],
+        "logical_qubit_ids": [
+          0
+        ],
+        "provenance": {
+          "positions": "observed_or_explicit_fixture",
+          "trajectory": "assumed",
+          "timing": "derived"
+        },
+        "source_group_index": 13,
+        "from_sites": [
+          [
+            5,
+            5
+          ]
+        ],
+        "to_sites": [
+          [
+            6,
+            5
+          ]
+        ],
+        "trajectory": {
+          "kind": "shared_linear_progress",
+          "provenance": "assumed"
+        },
+        "causes": [
+          "unknown_upstream_move"
+        ],
+        "source_legacy_block": true
+      },
+      {
+        "event_id": "e000027",
+        "kind": "transfer",
+        "logical_layer": 9,
+        "placement_batch": "layer9_batch1",
+        "routing_batch": "move000005",
+        "start_us": 277.1317546088716,
+        "duration_us": 20.0,
+        "resources": [
+          "AOD0"
+        ],
+        "atom_ids": [
+          "a0"
+        ],
+        "logical_qubit_ids": [
+          0
+        ],
+        "provenance": {
+          "transfer": "inferred_by_two_transfer_stage_policy",
+          "timing": "derived"
+        },
+        "source_group_index": 13,
+        "trap_from": "AOD0",
+        "trap_to": "SLM"
+      },
+      {
+        "event_id": "e000028",
+        "kind": "transfer",
+        "logical_layer": 9,
+        "placement_batch": "layer9_batch1",
+        "routing_batch": "move000006",
+        "start_us": 297.1317546088716,
+        "duration_us": 20.0,
+        "resources": [
+          "AOD0"
+        ],
+        "atom_ids": [
+          "a4"
+        ],
+        "logical_qubit_ids": [
+          4
+        ],
+        "provenance": {
+          "transfer": "inferred_by_two_transfer_stage_policy",
+          "timing": "derived"
+        },
+        "source_group_index": 14,
+        "trap_from": "SLM",
+        "trap_to": "AOD0"
+      },
+      {
+        "event_id": "e000029",
+        "kind": "move",
+        "logical_layer": 9,
+        "placement_batch": "layer9_batch1",
+        "routing_batch": "move000006",
+        "start_us": 317.1317546088716,
+        "duration_us": 12.196734422726125,
+        "resources": [
+          "AOD0"
+        ],
+        "atom_ids": [
+          "a4"
+        ],
+        "logical_qubit_ids": [
+          4
+        ],
+        "provenance": {
+          "positions": "observed_or_explicit_fixture",
+          "trajectory": "assumed",
+          "timing": "derived"
+        },
+        "source_group_index": 14,
+        "from_sites": [
+          [
+            5,
+            6
+          ]
+        ],
+        "to_sites": [
+          [
+            4,
+            8
+          ]
+        ],
+        "trajectory": {
+          "kind": "shared_linear_progress",
+          "provenance": "assumed"
+        },
+        "causes": [
+          "unknown_upstream_move"
+        ],
+        "source_legacy_block": true
+      },
+      {
+        "event_id": "e000030",
+        "kind": "transfer",
+        "logical_layer": 9,
+        "placement_batch": "layer9_batch1",
+        "routing_batch": "move000006",
+        "start_us": 329.3284890315977,
+        "duration_us": 20.0,
+        "resources": [
+          "AOD0"
+        ],
+        "atom_ids": [
+          "a4"
+        ],
+        "logical_qubit_ids": [
+          4
+        ],
+        "provenance": {
+          "transfer": "inferred_by_two_transfer_stage_policy",
+          "timing": "derived"
+        },
+        "source_group_index": 14,
+        "trap_from": "AOD0",
+        "trap_to": "SLM"
+      },
+      {
+        "event_id": "e000031",
+        "kind": "transfer",
+        "logical_layer": 9,
+        "placement_batch": "layer9_batch1",
+        "routing_batch": "move000007",
+        "start_us": 349.3284890315977,
+        "duration_us": 20.0,
+        "resources": [
+          "AOD0"
+        ],
+        "atom_ids": [
+          "a3"
+        ],
+        "logical_qubit_ids": [
+          3
+        ],
+        "provenance": {
+          "transfer": "inferred_by_two_transfer_stage_policy",
+          "timing": "derived"
+        },
+        "source_group_index": 15,
+        "trap_from": "SLM",
+        "trap_to": "AOD0"
+      },
+      {
+        "event_id": "e000032",
+        "kind": "move",
+        "logical_layer": 9,
+        "placement_batch": "layer9_batch1",
+        "routing_batch": "move000007",
+        "start_us": 369.3284890315977,
+        "duration_us": 22.4896670488236,
+        "resources": [
+          "AOD0"
+        ],
+        "atom_ids": [
+          "a3"
+        ],
+        "logical_qubit_ids": [
+          3
+        ],
+        "provenance": {
+          "positions": "observed_or_explicit_fixture",
+          "trajectory": "assumed",
+          "timing": "derived"
+        },
+        "source_group_index": 15,
+        "from_sites": [
+          [
+            4,
+            10
+          ]
+        ],
+        "to_sites": [
+          [
+            5,
+            6
+          ]
+        ],
+        "trajectory": {
+          "kind": "shared_linear_progress",
+          "provenance": "assumed"
+        },
+        "causes": [
+          "unknown_upstream_move"
+        ],
+        "source_legacy_block": true
+      },
+      {
+        "event_id": "e000033",
+        "kind": "transfer",
+        "logical_layer": 9,
+        "placement_batch": "layer9_batch1",
+        "routing_batch": "move000007",
+        "start_us": 391.8181560804213,
+        "duration_us": 20.0,
+        "resources": [
+          "AOD0"
+        ],
+        "atom_ids": [
+          "a3"
+        ],
+        "logical_qubit_ids": [
+          3
+        ],
+        "provenance": {
+          "transfer": "inferred_by_two_transfer_stage_policy",
+          "timing": "derived"
+        },
+        "source_group_index": 15,
+        "trap_from": "AOD0",
+        "trap_to": "SLM"
+      },
+      {
+        "event_id": "e000034",
+        "kind": "gate",
+        "logical_layer": 9,
+        "placement_batch": "layer9_batch1",
+        "routing_batch": null,
+        "start_us": 411.8181560804213,
+        "duration_us": 0.2,
+        "resources": [],
+        "atom_ids": [
+          "a1",
+          "a2"
+        ],
+        "logical_qubit_ids": [
+          1,
+          2
+        ],
+        "provenance": {
+          "gate": "observed",
+          "gate_identity": "FIFO_occurrence_for_same_CZ_pair",
+          "timing": "derived"
+        },
+        "source_group_index": 16,
+        "gate_batch": "gate_stage000016",
+        "gate_id": "g000010",
+        "gate_type": "cz",
+        "dependencies": [
+          "g000005",
+          "g000009"
+        ],
+        "sites": [
+          [
+            2,
+            10
+          ],
+          [
+            1,
+            10
+          ]
+        ]
+      },
+      {
+        "event_id": "e000035",
+        "kind": "gate",
+        "logical_layer": 9,
+        "placement_batch": "layer9_batch1",
+        "routing_batch": null,
+        "start_us": 411.8181560804213,
+        "duration_us": 0.2,
+        "resources": [],
+        "atom_ids": [
+          "a0",
+          "a3"
+        ],
+        "logical_qubit_ids": [
+          0,
+          3
+        ],
+        "provenance": {
+          "gate": "observed",
+          "gate_identity": "FIFO_occurrence_for_same_CZ_pair",
+          "timing": "derived"
+        },
+        "source_group_index": 16,
+        "gate_batch": "gate_stage000016",
+        "gate_id": "g000014",
+        "gate_type": "cz",
+        "dependencies": [
+          "g000009",
+          "g000013"
+        ],
+        "sites": [
+          [
+            6,
+            5
+          ],
+          [
+            5,
+            6
+          ]
+        ]
+      },
+      {
+        "event_id": "e000036",
+        "kind": "gate",
+        "logical_layer": 10,
+        "placement_batch": "layer10_batch1",
+        "routing_batch": null,
+        "start_us": 412.0181560804213,
+        "duration_us": 0.2,
+        "resources": [],
+        "atom_ids": [
+          "a0",
+          "a3"
+        ],
+        "logical_qubit_ids": [
+          0,
+          3
+        ],
+        "provenance": {
+          "gate": "observed",
+          "gate_identity": "FIFO_occurrence_for_same_CZ_pair",
+          "timing": "derived"
+        },
+        "source_group_index": 17,
+        "gate_batch": "gate_stage000017",
+        "gate_id": "g000015",
+        "gate_type": "cz",
+        "dependencies": [
+          "g000014"
+        ],
+        "sites": [
+          [
+            6,
+            5
+          ],
+          [
+            5,
+            6
+          ]
+        ]
+      },
+      {
+        "event_id": "e000037",
+        "kind": "gate",
+        "logical_layer": 10,
+        "placement_batch": "layer10_batch1",
+        "routing_batch": null,
+        "start_us": 412.0181560804213,
+        "duration_us": 0.2,
+        "resources": [],
+        "atom_ids": [
+          "a1",
+          "a2"
+        ],
+        "logical_qubit_ids": [
+          1,
+          2
+        ],
+        "provenance": {
+          "gate": "observed",
+          "gate_identity": "FIFO_occurrence_for_same_CZ_pair",
+          "timing": "derived"
+        },
+        "source_group_index": 17,
+        "gate_batch": "gate_stage000017",
+        "gate_id": "g000011",
+        "gate_type": "cz",
+        "dependencies": [
+          "g000010"
+        ],
+        "sites": [
+          [
+            2,
+            10
+          ],
+          [
+            1,
+            10
+          ]
+        ]
+      },
+      {
+        "event_id": "e000038",
+        "kind": "transfer",
+        "logical_layer": 11,
+        "placement_batch": "layer11_batch1",
+        "routing_batch": "move000008",
+        "start_us": 412.2181560804213,
+        "duration_us": 20.0,
+        "resources": [
+          "AOD0"
+        ],
+        "atom_ids": [
+          "a0"
+        ],
+        "logical_qubit_ids": [
+          0
+        ],
+        "provenance": {
+          "transfer": "inferred_by_two_transfer_stage_policy",
+          "timing": "derived"
+        },
+        "source_group_index": 18,
+        "trap_from": "SLM",
+        "trap_to": "AOD0"
+      },
+      {
+        "event_id": "e000039",
+        "kind": "move",
+        "logical_layer": 11,
+        "placement_batch": "layer11_batch1",
+        "routing_batch": "move000008",
+        "start_us": 432.2181560804213,
+        "duration_us": 30.855568633594803,
+        "resources": [
+          "AOD0"
+        ],
+        "atom_ids": [
+          "a0"
+        ],
+        "logical_qubit_ids": [
+          0
+        ],
+        "provenance": {
+          "positions": "observed_or_explicit_fixture",
+          "trajectory": "assumed",
+          "timing": "derived"
+        },
+        "source_group_index": 18,
+        "from_sites": [
+          [
+            6,
+            5
+          ]
+        ],
+        "to_sites": [
+          [
+            2,
+            9
+          ]
+        ],
+        "trajectory": {
+          "kind": "shared_linear_progress",
+          "provenance": "assumed"
+        },
+        "causes": [
+          "unknown_upstream_move"
+        ],
+        "source_legacy_block": true
+      },
+      {
+        "event_id": "e000040",
+        "kind": "transfer",
+        "logical_layer": 11,
+        "placement_batch": "layer11_batch1",
+        "routing_batch": "move000008",
+        "start_us": 463.0737247140161,
+        "duration_us": 20.0,
+        "resources": [
+          "AOD0"
+        ],
+        "atom_ids": [
+          "a0"
+        ],
+        "logical_qubit_ids": [
+          0
+        ],
+        "provenance": {
+          "transfer": "inferred_by_two_transfer_stage_policy",
+          "timing": "derived"
+        },
+        "source_group_index": 18,
+        "trap_from": "AOD0",
+        "trap_to": "SLM"
+      },
+      {
+        "event_id": "e000041",
+        "kind": "gate",
+        "logical_layer": 11,
+        "placement_batch": "layer11_batch1",
+        "routing_batch": null,
+        "start_us": 483.0737247140161,
+        "duration_us": 0.2,
+        "resources": [],
+        "atom_ids": [
+          "a0",
+          "a2"
+        ],
+        "logical_qubit_ids": [
+          0,
+          2
+        ],
+        "provenance": {
+          "gate": "observed",
+          "gate_identity": "FIFO_occurrence_for_same_CZ_pair",
+          "timing": "derived"
+        },
+        "source_group_index": 19,
+        "gate_batch": "gate_stage000019",
+        "gate_id": "g000016",
+        "gate_type": "cz",
+        "dependencies": [
+          "g000011",
+          "g000015"
+        ],
+        "sites": [
+          [
+            2,
+            9
+          ],
+          [
+            1,
+            10
+          ]
+        ]
+      },
+      {
+        "event_id": "e000042",
+        "kind": "gate",
+        "logical_layer": 12,
+        "placement_batch": "layer12_batch1",
+        "routing_batch": null,
+        "start_us": 483.2737247140161,
+        "duration_us": 0.2,
+        "resources": [],
+        "atom_ids": [
+          "a0",
+          "a2"
+        ],
+        "logical_qubit_ids": [
+          0,
+          2
+        ],
+        "provenance": {
+          "gate": "observed",
+          "gate_identity": "FIFO_occurrence_for_same_CZ_pair",
+          "timing": "derived"
+        },
+        "source_group_index": 20,
+        "gate_batch": "gate_stage000020",
+        "gate_id": "g000017",
+        "gate_type": "cz",
+        "dependencies": [
+          "g000016"
+        ],
+        "sites": [
+          [
+            2,
+            9
+          ],
+          [
+            1,
+            10
+          ]
+        ]
+      },
+      {
+        "event_id": "e000043",
+        "kind": "gate",
+        "logical_layer": 13,
+        "placement_batch": "layer13_batch1",
+        "routing_batch": null,
+        "start_us": 483.4737247140161,
+        "duration_us": 0.2,
+        "resources": [],
+        "atom_ids": [
+          "a0",
+          "a1"
+        ],
+        "logical_qubit_ids": [
+          0,
+          1
+        ],
+        "provenance": {
+          "gate": "observed",
+          "gate_identity": "FIFO_occurrence_for_same_CZ_pair",
+          "timing": "derived"
+        },
+        "source_group_index": 21,
+        "gate_batch": "gate_stage000021",
+        "gate_id": "g000018",
+        "gate_type": "cz",
+        "dependencies": [
+          "g000011",
+          "g000017"
+        ],
+        "sites": [
+          [
+            2,
+            9
+          ],
+          [
+            2,
+            10
+          ]
+        ]
+      },
+      {
+        "event_id": "e000044",
+        "kind": "gate",
+        "logical_layer": 14,
+        "placement_batch": "layer14_batch1",
+        "routing_batch": null,
+        "start_us": 483.6737247140161,
+        "duration_us": 0.2,
+        "resources": [],
+        "atom_ids": [
+          "a0",
+          "a1"
+        ],
+        "logical_qubit_ids": [
+          0,
+          1
+        ],
+        "provenance": {
+          "gate": "observed",
+          "gate_identity": "FIFO_occurrence_for_same_CZ_pair",
+          "timing": "derived"
+        },
+        "source_group_index": 22,
+        "gate_batch": "gate_stage000022",
+        "gate_id": "g000019",
+        "gate_type": "cz",
+        "dependencies": [
+          "g000018"
+        ],
+        "sites": [
+          [
+            2,
+            9
+          ],
+          [
+            2,
+            10
+          ]
+        ]
+      },
+      {
+        "event_id": "e000045",
+        "kind": "transfer",
+        "logical_layer": 15,
+        "placement_batch": "layer15_batch1",
+        "routing_batch": "move000009",
+        "start_us": 483.8737247140161,
+        "duration_us": 20.0,
+        "resources": [
+          "AOD0"
+        ],
+        "atom_ids": [
+          "a3"
+        ],
+        "logical_qubit_ids": [
+          3
+        ],
+        "provenance": {
+          "transfer": "inferred_by_two_transfer_stage_policy",
+          "timing": "derived"
+        },
+        "source_group_index": 23,
+        "trap_from": "SLM",
+        "trap_to": "AOD0"
+      },
+      {
+        "event_id": "e000046",
+        "kind": "move",
+        "logical_layer": 15,
+        "placement_batch": "layer15_batch1",
+        "routing_batch": "move000009",
+        "start_us": 503.8737247140161,
+        "duration_us": 27.27272727272727,
+        "resources": [
+          "AOD0"
+        ],
+        "atom_ids": [
+          "a3"
+        ],
+        "logical_qubit_ids": [
+          3
+        ],
+        "provenance": {
+          "positions": "observed_or_explicit_fixture",
+          "trajectory": "assumed",
+          "timing": "derived"
+        },
+        "source_group_index": 23,
+        "from_sites": [
+          [
+            5,
+            6
+          ]
+        ],
+        "to_sites": [
+          [
+            9,
+            9
+          ]
+        ],
+        "trajectory": {
+          "kind": "shared_linear_progress",
+          "provenance": "assumed"
+        },
+        "causes": [
+          "unknown_upstream_move"
+        ],
+        "source_legacy_block": true
+      },
+      {
+        "event_id": "e000047",
+        "kind": "transfer",
+        "logical_layer": 15,
+        "placement_batch": "layer15_batch1",
+        "routing_batch": "move000009",
+        "start_us": 531.1464519867434,
+        "duration_us": 20.0,
+        "resources": [
+          "AOD0"
+        ],
+        "atom_ids": [
+          "a3"
+        ],
+        "logical_qubit_ids": [
+          3
+        ],
+        "provenance": {
+          "transfer": "inferred_by_two_transfer_stage_policy",
+          "timing": "derived"
+        },
+        "source_group_index": 23,
+        "trap_from": "AOD0",
+        "trap_to": "SLM"
+      },
+      {
+        "event_id": "e000048",
+        "kind": "transfer",
+        "logical_layer": 15,
+        "placement_batch": "layer15_batch1",
+        "routing_batch": "move000010",
+        "start_us": 551.1464519867434,
+        "duration_us": 20.0,
+        "resources": [
+          "AOD0"
+        ],
+        "atom_ids": [
+          "a1"
+        ],
+        "logical_qubit_ids": [
+          1
+        ],
+        "provenance": {
+          "transfer": "inferred_by_two_transfer_stage_policy",
+          "timing": "derived"
+        },
+        "source_group_index": 24,
+        "trap_from": "SLM",
+        "trap_to": "AOD0"
+      },
+      {
+        "event_id": "e000049",
+        "kind": "move",
+        "logical_layer": 15,
+        "placement_batch": "layer15_batch1",
+        "routing_batch": "move000010",
+        "start_us": 571.1464519867434,
+        "duration_us": 33.17870471071756,
+        "resources": [
+          "AOD0"
+        ],
+        "atom_ids": [
+          "a1"
+        ],
+        "logical_qubit_ids": [
+          1
+        ],
+        "provenance": {
+          "positions": "observed_or_explicit_fixture",
+          "trajectory": "assumed",
+          "timing": "derived"
+        },
+        "source_group_index": 24,
+        "from_sites": [
+          [
+            2,
+            10
+          ]
+        ],
+        "to_sites": [
+          [
+            8,
+            9
+          ]
+        ],
+        "trajectory": {
+          "kind": "shared_linear_progress",
+          "provenance": "assumed"
+        },
+        "causes": [
+          "unknown_upstream_move"
+        ],
+        "source_legacy_block": true
+      },
+      {
+        "event_id": "e000050",
+        "kind": "transfer",
+        "logical_layer": 15,
+        "placement_batch": "layer15_batch1",
+        "routing_batch": "move000010",
+        "start_us": 604.3251566974609,
+        "duration_us": 20.0,
+        "resources": [
+          "AOD0"
+        ],
+        "atom_ids": [
+          "a1"
+        ],
+        "logical_qubit_ids": [
+          1
+        ],
+        "provenance": {
+          "transfer": "inferred_by_two_transfer_stage_policy",
+          "timing": "derived"
+        },
+        "source_group_index": 24,
+        "trap_from": "AOD0",
+        "trap_to": "SLM"
+      },
+      {
+        "event_id": "e000051",
+        "kind": "transfer",
+        "logical_layer": 15,
+        "placement_batch": "layer15_batch1",
+        "routing_batch": "move000011",
+        "start_us": 624.3251566974609,
+        "duration_us": 20.0,
+        "resources": [
+          "AOD0"
+        ],
+        "atom_ids": [
+          "a0"
+        ],
+        "logical_qubit_ids": [
+          0
+        ],
+        "provenance": {
+          "transfer": "inferred_by_two_transfer_stage_policy",
+          "timing": "derived"
+        },
+        "source_group_index": 25,
+        "trap_from": "SLM",
+        "trap_to": "AOD0"
+      },
+      {
+        "event_id": "e000052",
+        "kind": "move",
+        "logical_layer": 15,
+        "placement_batch": "layer15_batch1",
+        "routing_batch": "move000011",
+        "start_us": 644.3251566974609,
+        "duration_us": 5.454545454545454,
+        "resources": [
+          "AOD0"
+        ],
+        "atom_ids": [
+          "a0"
+        ],
+        "logical_qubit_ids": [
+          0
+        ],
+        "provenance": {
+          "positions": "observed_or_explicit_fixture",
+          "trajectory": "assumed",
+          "timing": "derived"
+        },
+        "source_group_index": 25,
+        "from_sites": [
+          [
+            2,
+            9
+          ]
+        ],
+        "to_sites": [
+          [
+            2,
+            8
+          ]
+        ],
+        "trajectory": {
+          "kind": "shared_linear_progress",
+          "provenance": "assumed"
+        },
+        "causes": [
+          "unknown_upstream_move"
+        ],
+        "source_legacy_block": true
+      },
+      {
+        "event_id": "e000053",
+        "kind": "transfer",
+        "logical_layer": 15,
+        "placement_batch": "layer15_batch1",
+        "routing_batch": "move000011",
+        "start_us": 649.7797021520064,
+        "duration_us": 20.0,
+        "resources": [
+          "AOD0"
+        ],
+        "atom_ids": [
+          "a0"
+        ],
+        "logical_qubit_ids": [
+          0
+        ],
+        "provenance": {
+          "transfer": "inferred_by_two_transfer_stage_policy",
+          "timing": "derived"
+        },
+        "source_group_index": 25,
+        "trap_from": "AOD0",
+        "trap_to": "SLM"
+      },
+      {
+        "event_id": "e000054",
+        "kind": "gate",
+        "logical_layer": 15,
+        "placement_batch": "layer15_batch1",
+        "routing_batch": null,
+        "start_us": 669.7797021520064,
+        "duration_us": 0.2,
+        "resources": [],
+        "atom_ids": [
+          "a0",
+          "a4"
+        ],
+        "logical_qubit_ids": [
+          0,
+          4
+        ],
+        "provenance": {
+          "gate": "observed",
+          "gate_identity": "FIFO_occurrence_for_same_CZ_pair",
+          "timing": "derived"
+        },
+        "source_group_index": 26,
+        "gate_batch": "gate_stage000026",
+        "gate_id": "g000023",
+        "gate_type": "cz",
+        "dependencies": [
+          "g000013",
+          "g000019"
+        ],
+        "sites": [
+          [
+            2,
+            8
+          ],
+          [
+            4,
+            8
+          ]
+        ]
+      },
+      {
+        "event_id": "e000055",
+        "kind": "gate",
+        "logical_layer": 15,
+        "placement_batch": "layer15_batch1",
+        "routing_batch": null,
+        "start_us": 669.7797021520064,
+        "duration_us": 0.2,
+        "resources": [],
+        "atom_ids": [
+          "a1",
+          "a3"
+        ],
+        "logical_qubit_ids": [
+          1,
+          3
+        ],
+        "provenance": {
+          "gate": "observed",
+          "gate_identity": "FIFO_occurrence_for_same_CZ_pair",
+          "timing": "derived"
+        },
+        "source_group_index": 26,
+        "gate_batch": "gate_stage000026",
+        "gate_id": "g000020",
+        "gate_type": "cz",
+        "dependencies": [
+          "g000015",
+          "g000019"
+        ],
+        "sites": [
+          [
+            8,
+            9
+          ],
+          [
+            9,
+            9
+          ]
+        ]
+      },
+      {
+        "event_id": "e000056",
+        "kind": "gate",
+        "logical_layer": 16,
+        "placement_batch": "layer16_batch1",
+        "routing_batch": null,
+        "start_us": 669.9797021520064,
+        "duration_us": 0.2,
+        "resources": [],
+        "atom_ids": [
+          "a0",
+          "a4"
+        ],
+        "logical_qubit_ids": [
+          0,
+          4
+        ],
+        "provenance": {
+          "gate": "observed",
+          "gate_identity": "FIFO_occurrence_for_same_CZ_pair",
+          "timing": "derived"
+        },
+        "source_group_index": 27,
+        "gate_batch": "gate_stage000027",
+        "gate_id": "g000024",
+        "gate_type": "cz",
+        "dependencies": [
+          "g000023"
+        ],
+        "sites": [
+          [
+            2,
+            8
+          ],
+          [
+            4,
+            8
+          ]
+        ]
+      },
+      {
+        "event_id": "e000057",
+        "kind": "gate",
+        "logical_layer": 16,
+        "placement_batch": "layer16_batch1",
+        "routing_batch": null,
+        "start_us": 669.9797021520064,
+        "duration_us": 0.2,
+        "resources": [],
+        "atom_ids": [
+          "a1",
+          "a3"
+        ],
+        "logical_qubit_ids": [
+          1,
+          3
+        ],
+        "provenance": {
+          "gate": "observed",
+          "gate_identity": "FIFO_occurrence_for_same_CZ_pair",
+          "timing": "derived"
+        },
+        "source_group_index": 27,
+        "gate_batch": "gate_stage000027",
+        "gate_id": "g000021",
+        "gate_type": "cz",
+        "dependencies": [
+          "g000020"
+        ],
+        "sites": [
+          [
+            8,
+            9
+          ],
+          [
+            9,
+            9
+          ]
+        ]
+      },
+      {
+        "event_id": "e000058",
+        "kind": "gate",
+        "logical_layer": 17,
+        "placement_batch": "layer17_batch1",
+        "routing_batch": null,
+        "start_us": 670.1797021520065,
+        "duration_us": 0.2,
+        "resources": [],
+        "atom_ids": [
+          "a0",
+          "a4"
+        ],
+        "logical_qubit_ids": [
+          0,
+          4
+        ],
+        "provenance": {
+          "gate": "observed",
+          "gate_identity": "FIFO_occurrence_for_same_CZ_pair",
+          "timing": "derived"
+        },
+        "source_group_index": 28,
+        "gate_batch": "gate_stage000028",
+        "gate_id": "g000025",
+        "gate_type": "cz",
+        "dependencies": [
+          "g000024"
+        ],
+        "sites": [
+          [
+            2,
+            8
+          ],
+          [
+            4,
+            8
+          ]
+        ]
+      },
+      {
+        "event_id": "e000059",
+        "kind": "gate",
+        "logical_layer": 17,
+        "placement_batch": "layer17_batch1",
+        "routing_batch": null,
+        "start_us": 670.1797021520065,
+        "duration_us": 0.2,
+        "resources": [],
+        "atom_ids": [
+          "a1",
+          "a3"
+        ],
+        "logical_qubit_ids": [
+          1,
+          3
+        ],
+        "provenance": {
+          "gate": "observed",
+          "gate_identity": "FIFO_occurrence_for_same_CZ_pair",
+          "timing": "derived"
+        },
+        "source_group_index": 28,
+        "gate_batch": "gate_stage000028",
+        "gate_id": "g000022",
+        "gate_type": "cz",
+        "dependencies": [
+          "g000021"
+        ],
+        "sites": [
+          [
+            8,
+            9
+          ],
+          [
+            9,
+            9
+          ]
+        ]
+      }
+    ]
+  },
+  "source_trace_sha256": "667f2538bbda0c856576fb009b6068c631bf07a353919c9a0e1fce72a3864578",
+  "source_decisions_sha256": "aa1a70fad698559182d5f630dc70b742bc325787ddc4669188e2c2a10398c849",
+  "profile": {
+    "schema_version": "movement_error_profile.phase03.v1",
+    "profile_id": "extended_no_cooling.v1",
+    "scorer": "extended",
+    "computation_scope": "normalized_CZ_skeleton",
+    "movement": {
+      "family": "cubic",
+      "acceleration_um_per_us2": 0.001,
+      "speed_um_per_us": 0.55,
+      "velocity_cap_um_per_us": null,
+      "minimum_duration_us": 0.0
+    },
+    "heating": {
+      "law": "atomique_cubic",
+      "cyclic_frequency_khz": 80.0,
+      "x_zpf_um": 0.038,
+      "multiplier": 1.0,
+      "lambda": 0.109375,
+      "initial_n": 0.0,
+      "initial_n_by_qubit": {},
+      "loss_enabled": true,
+      "loss_capacity": 33.0,
+      "asymptotic_omega_T_min": 20.0
+    },
+    "noise": {
+      "f_cz": 0.995,
+      "cz_duration_us": 0.2,
+      "f_transfer": 0.999,
+      "transfer_duration_us": 20.0,
+      "f_h": 0.99992,
+      "h_duration_us": 0.625
+    },
+    "exposure": {
+      "T2_us": 1500000.0,
+      "T2_by_qubit_us": {},
+      "rates": {
+        "stationary": 1.0,
+        "move": 1.0,
+        "transfer": 1.0,
+        "gate": 1.0,
+        "cooling": 1.0
+      }
+    },
+    "cooling": {
+      "enabled": false,
+      "primitive": "none",
+      "threshold_n": 15.0,
+      "cold_n": 0.0,
+      "bank_count": 0,
+      "dock_offset_um": 3.0,
+      "bank_registration_us": 300.0,
+      "bank_preparation_us": 300.0,
+      "bank_storage_plane_pitch_um": 100.0,
+      "population": "entire_loaded_batch",
+      "sink_resource": "hot_sink",
+      "controller_resource": "cooling_controller"
+    },
+    "sources": [
+      {
+        "parameters": [
+          "noise.f_cz",
+          "noise.cz_duration_us",
+          "noise.transfer_duration_us",
+          "movement.speed_um_per_us",
+          "exposure.T2_us"
+        ],
+        "source": "Papers/3_DasAtom_A_Divide-and-Shuttle_Atom_Approach_to_Quantum_Circuit_Transformation.pdf, p7 Eqs3-5/TableI; pinned legacy code",
+        "certainty": "source baseline constants; extended all-time exposure is adaptation",
+        "original_units": "ns,us,s,um/us",
+        "conversion": "200ns=.2us;1.5s=1.5e6us"
+      },
+      {
+        "parameters": [
+          "noise.f_transfer"
+        ],
+        "source": "Papers/2_ZAP_Zoned_Architecture_and_Performant_Compiler_for_Field-Programmable_Atom_Array.pdf,p5 Table1",
+        "certainty": "source .999; combining with legacy20us is hypothetical cross-source analytical profile",
+        "original_units": "probability",
+        "conversion": "identity"
+      },
+      {
+        "parameters": [
+          "heating.cyclic_frequency_khz",
+          "heating.x_zpf_um",
+          "heating.loss_capacity",
+          "cooling.threshold_n",
+          "noise.f_h",
+          "noise.h_duration_us"
+        ],
+        "source": "Papers/4_ISCA59077.2024.00030.pdf,pp6-7 SecIV/TableI",
+        "certainty": "published analytical values, not RFT calibration",
+        "original_units": "kHz,nm,dimensionless,ns",
+        "conversion": "omega=2*pi*f*.001 rad/us;x=38nm=.038um;625ns=.625us"
+      },
+      {
+        "parameters": [
+          "heating.lambda"
+        ],
+        "source": "source_review/phase03_atomique/fpqa-revision-AE/hyperparams.py: lambd=.109375; paper prints .109",
+        "certainty": "author artifact coefficient; architecture adaptation uncalibrated",
+        "original_units": "dimensionless",
+        "conversion": "identity"
+      },
+      {
+        "parameters": [
+          "movement.acceleration_um_per_us2",
+          "movement.family"
+        ],
+        "source": "Atomique Fig12; Bluvstein2022 Methods motional heating; derivation6*15um/(300us)^2",
+        "certainty": "derived reference speed, not measured RFT acceleration",
+        "original_units": "um/us^2",
+        "conversion": ".001um/us^2=1000m/s^2"
+      },
+      {
+        "parameters": [
+          "heating.law"
+        ],
+        "source": "Atomique p6; Bluvstein2022 Methods Eqs1-2, DOI10.1038/s41586-022-04592-6",
+        "certainty": "approximate harmonic, high-omega*T, phase-averaged increment",
+        "original_units": "SI;converted consistently to um/us",
+        "conversion": "dimensionless n"
+      },
+      {
+        "parameters": [
+          "heating.initial_n",
+          "heating.initial_n_by_qubit",
+          "heating.multiplier",
+          "heating.loss_enabled",
+          "heating.asymptotic_omega_T_min",
+          "movement.velocity_cap_um_per_us",
+          "movement.minimum_duration_us",
+          "exposure.rates",
+          "exposure.T2_by_qubit_us",
+          "cooling.bank_registration_us",
+          "cooling.bank_preparation_us",
+          "cooling.bank_storage_plane_pitch_um",
+          "cooling.enabled",
+          "cooling.primitive",
+          "cooling.cold_n",
+          "cooling.bank_count",
+          "cooling.dock_offset_um",
+          "cooling.population",
+          "cooling.sink_resource",
+          "cooling.controller_resource"
+        ],
+        "source": "reports/phase_03/model_specification.md",
+        "certainty": "explicit Phase03 assumptions/sensitivity controls; no device calibration",
+        "original_units": "canonical units",
+        "conversion": "identity"
+      }
+    ],
+    "assumptions": [
+      "Analytical mixed-source RFT adaptation; not one calibrated physical device",
+      "No cooling on basic one-AOD RFT resources; threshold exceedance continues risk",
+      "Excess n reference starts at cold preparation; effective capacity approximates initial thermal state",
+      "All logical qubits exposed throughout elapsed execution, including motion/gates; no duplicate movement-decoherence factor",
+      "Normalized CZ skeleton only; original omitted one-qubit computation gates remain outside timing/scoring scope"
+    ]
+  },
+  "profile_sha256": "8075f6282e1ac0c06be0223aa809e792e4174f31a59ff080427cf015bd14c083",
+  "source_validation": {
+    "status": "ok",
+    "structural_valid": true,
+    "violations": [],
+    "coverage": {
+      "checked": [
+        "CZ_gate_identity_and_dependencies",
+        "analytic_continuous_shared_progress",
+        "aod_order_equality_and_retained_carriers",
+        "endpoint_grid_bounds",
+        "final_mapping",
+        "gate_geometry",
+        "logical_carrier_mapping"
+      ],
+      "unsupported": [],
+      "not_applicable": [
+        "unintended_global_pulses"
+      ]
+    },
+    "fully_validated_within_model": true,
+    "source_physical_evidence_complete": false,
+    "unresolved_coincident_sites": [],
+    "model_assumptions": [
+      "SLM-to-AOD-to-SLM for nonzero movers; one concurrent load and unload stage per batch",
+      "Shared normalized linear progress; times derived from declared profile, not observed",
+      "NEW Phase04 testing geometry: separate SLM/AOD planes with one-spacing clearance, ordinary trap-transfer primitives",
+      "Shared single-AOD progress; all policies use identical geometry; no measured native plane separation is claimed"
+    ],
+    "semantics": {
+      "level": "exhaustive_CZ_basis_phases_with_final_permutation",
+      "full_original_circuit_checked": false,
+      "physical_output_slot_to_logical_qubit": [
+        2,
+        0,
+        4,
+        1,
+        3
+      ],
+      "basis_states": 32,
+      "equivalent": true
+    },
+    "final_positions": {
+      "a0": [
+        2,
+        8
+      ],
+      "a1": [
+        8,
+        9
+      ],
+      "a2": [
+        1,
+        10
+      ],
+      "a3": [
+        9,
+        9
+      ],
+      "a4": [
+        4,
+        8
+      ]
+    },
+    "final_logical_mapping": {
+      "a0": 0,
+      "a1": 1,
+      "a2": 2,
+      "a3": 3,
+      "a4": 4
+    },
+    "observed_gate_count": 26
+  },
+  "events": [
+    {
+      "event_id": "p3_e0000000",
+      "kind": "initialize",
+      "logical_layer": 1,
+      "placement_batch": "layer1_batch1",
+      "routing_batch": null,
+      "start_us": 0.0,
+      "duration_us": 0,
+      "resources": [],
+      "atom_ids": [
+        "a0",
+        "a1",
+        "a2",
+        "a3",
+        "a4"
+      ],
+      "logical_qubit_ids": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "provenance": {
+        "positions": "observed_or_explicit_fixture",
+        "trap": "assumed",
+        "timing": "initial_loading_excluded",
+        "phase03": "derived_schedule_transform"
+      },
+      "source_group_index": 0,
+      "to_sites": [
+        [
+          5,
+          5
+        ],
+        [
+          6,
+          6
+        ],
+        [
+          4,
+          6
+        ],
+        [
+          6,
+          5
+        ],
+        [
+          5,
+          6
+        ]
+      ],
+      "trap_to": "SLM",
+      "parent_event_id": "e000000"
+    },
+    {
+      "event_id": "p3_e0000001",
+      "kind": "gate",
+      "logical_layer": 1,
+      "placement_batch": "layer1_batch1",
+      "routing_batch": null,
+      "start_us": 0.0,
+      "duration_us": 0.2,
+      "resources": [],
+      "atom_ids": [
+        "a3",
+        "a4"
+      ],
+      "logical_qubit_ids": [
+        3,
+        4
+      ],
+      "provenance": {
+        "gate": "observed",
+        "gate_identity": "FIFO_occurrence_for_same_CZ_pair",
+        "timing": "derived",
+        "phase03": "derived_schedule_transform"
+      },
+      "source_group_index": 1,
+      "gate_batch": "gate_stage000001",
+      "gate_id": "g000000",
+      "gate_type": "cz",
+      "dependencies": [],
+      "sites": [
+        [
+          6,
+          5
+        ],
+        [
+          5,
+          6
+        ]
+      ],
+      "parent_event_id": "e000001"
+    },
+    {
+      "event_id": "p3_e0000002",
+      "kind": "gate",
+      "logical_layer": 2,
+      "placement_batch": "layer2_batch1",
+      "routing_batch": null,
+      "start_us": 0.2,
+      "duration_us": 0.2,
+      "resources": [],
+      "atom_ids": [
+        "a3",
+        "a4"
+      ],
+      "logical_qubit_ids": [
+        3,
+        4
+      ],
+      "provenance": {
+        "gate": "observed",
+        "gate_identity": "FIFO_occurrence_for_same_CZ_pair",
+        "timing": "derived",
+        "phase03": "derived_schedule_transform"
+      },
+      "source_group_index": 2,
+      "gate_batch": "gate_stage000002",
+      "gate_id": "g000001",
+      "gate_type": "cz",
+      "dependencies": [
+        "g000000"
+      ],
+      "sites": [
+        [
+          6,
+          5
+        ],
+        [
+          5,
+          6
+        ]
+      ],
+      "parent_event_id": "e000002"
+    },
+    {
+      "event_id": "p3_e0000003",
+      "kind": "gate",
+      "logical_layer": 3,
+      "placement_batch": "layer3_batch1",
+      "routing_batch": null,
+      "start_us": 0.4,
+      "duration_us": 0.2,
+      "resources": [],
+      "atom_ids": [
+        "a2",
+        "a4"
+      ],
+      "logical_qubit_ids": [
+        2,
+        4
+      ],
+      "provenance": {
+        "gate": "observed",
+        "gate_identity": "FIFO_occurrence_for_same_CZ_pair",
+        "timing": "derived",
+        "phase03": "derived_schedule_transform"
+      },
+      "source_group_index": 3,
+      "gate_batch": "gate_stage000003",
+      "gate_id": "g000002",
+      "gate_type": "cz",
+      "dependencies": [
+        "g000001"
+      ],
+      "sites": [
+        [
+          4,
+          6
+        ],
+        [
+          5,
+          6
+        ]
+      ],
+      "parent_event_id": "e000003"
+    },
+    {
+      "event_id": "p3_e0000004",
+      "kind": "gate",
+      "logical_layer": 4,
+      "placement_batch": "layer4_batch1",
+      "routing_batch": null,
+      "start_us": 0.6000000000000001,
+      "duration_us": 0.2,
+      "resources": [],
+      "atom_ids": [
+        "a2",
+        "a4"
+      ],
+      "logical_qubit_ids": [
+        2,
+        4
+      ],
+      "provenance": {
+        "gate": "observed",
+        "gate_identity": "FIFO_occurrence_for_same_CZ_pair",
+        "timing": "derived",
+        "phase03": "derived_schedule_transform"
+      },
+      "source_group_index": 4,
+      "gate_batch": "gate_stage000004",
+      "gate_id": "g000003",
+      "gate_type": "cz",
+      "dependencies": [
+        "g000002"
+      ],
+      "sites": [
+        [
+          4,
+          6
+        ],
+        [
+          5,
+          6
+        ]
+      ],
+      "parent_event_id": "e000004"
+    },
+    {
+      "event_id": "p3_e0000005",
+      "kind": "transfer",
+      "logical_layer": 5,
+      "placement_batch": "layer5_batch1",
+      "routing_batch": "move000001",
+      "start_us": 0.8,
+      "duration_us": 20.0,
+      "resources": [
+        "AOD0"
+      ],
+      "atom_ids": [
+        "a2"
+      ],
+      "logical_qubit_ids": [
+        2
+      ],
+      "provenance": {
+        "transfer": "inferred_by_two_transfer_stage_policy",
+        "timing": "derived",
+        "phase03": "derived_schedule_transform"
+      },
+      "source_group_index": 5,
+      "trap_from": "SLM",
+      "trap_to": "AOD0",
+      "parent_event_id": "e000005"
+    },
+    {
+      "event_id": "p3_e0000006",
+      "kind": "move",
+      "logical_layer": 5,
+      "placement_batch": "layer5_batch1",
+      "routing_batch": "move000001",
+      "start_us": 20.8,
+      "duration_us": 283.72248270095275,
+      "resources": [
+        "AOD0"
+      ],
+      "atom_ids": [
+        "a2"
+      ],
+      "logical_qubit_ids": [
+        2
+      ],
+      "provenance": {
+        "positions": "observed_or_explicit_fixture",
+        "trajectory": "assumed",
+        "timing": "derived",
+        "phase03": "derived_schedule_transform"
+      },
+      "source_group_index": 5,
+      "from_sites": [
+        [
+          4,
+          6
+        ]
+      ],
+      "to_sites": [
+        [
+          2,
+          10
+        ]
+      ],
+      "trajectory": {
+        "kind": "shared_phase03_progress",
+        "family": "cubic",
+        "distance_um": 13.416407864998739,
+        "movement": {
+          "family": "cubic",
+          "acceleration_um_per_us2": 0.001,
+          "speed_um_per_us": 0.55,
+          "velocity_cap_um_per_us": null,
+          "minimum_duration_us": 0.0
+        }
+      },
+      "causes": [
+        "unknown_upstream_move"
+      ],
+      "source_legacy_block": true,
+      "parent_event_id": "e000006"
+    },
+    {
+      "event_id": "p3_e0000007",
+      "kind": "transfer",
+      "logical_layer": 5,
+      "placement_batch": "layer5_batch1",
+      "routing_batch": "move000001",
+      "start_us": 304.52248270095276,
+      "duration_us": 20.0,
+      "resources": [
+        "AOD0"
+      ],
+      "atom_ids": [
+        "a2"
+      ],
+      "logical_qubit_ids": [
+        2
+      ],
+      "provenance": {
+        "transfer": "inferred_by_two_transfer_stage_policy",
+        "timing": "derived",
+        "phase03": "derived_schedule_transform"
+      },
+      "source_group_index": 5,
+      "trap_from": "AOD0",
+      "trap_to": "SLM",
+      "parent_event_id": "e000007"
+    },
+    {
+      "event_id": "p3_e0000008",
+      "kind": "transfer",
+      "logical_layer": 5,
+      "placement_batch": "layer5_batch1",
+      "routing_batch": "move000002",
+      "start_us": 324.52248270095276,
+      "duration_us": 20.0,
+      "resources": [
+        "AOD0"
+      ],
+      "atom_ids": [
+        "a3"
+      ],
+      "logical_qubit_ids": [
+        3
+      ],
+      "provenance": {
+        "transfer": "inferred_by_two_transfer_stage_policy",
+        "timing": "derived",
+        "phase03": "derived_schedule_transform"
+      },
+      "source_group_index": 6,
+      "trap_from": "SLM",
+      "trap_to": "AOD0",
+      "parent_event_id": "e000008"
+    },
+    {
+      "event_id": "p3_e0000009",
+      "kind": "move",
+      "logical_layer": 5,
+      "placement_batch": "layer5_batch1",
+      "routing_batch": "move000002",
+      "start_us": 344.52248270095276,
+      "duration_us": 311.34059569613,
+      "resources": [
+        "AOD0"
+      ],
+      "atom_ids": [
+        "a3"
+      ],
+      "logical_qubit_ids": [
+        3
+      ],
+      "provenance": {
+        "positions": "observed_or_explicit_fixture",
+        "trajectory": "assumed",
+        "timing": "derived",
+        "phase03": "derived_schedule_transform"
+      },
+      "source_group_index": 6,
+      "from_sites": [
+        [
+          6,
+          5
+        ]
+      ],
+      "to_sites": [
+        [
+          4,
+          10
+        ]
+      ],
+      "trajectory": {
+        "kind": "shared_phase03_progress",
+        "family": "cubic",
+        "distance_um": 16.15549442140351,
+        "movement": {
+          "family": "cubic",
+          "acceleration_um_per_us2": 0.001,
+          "speed_um_per_us": 0.55,
+          "velocity_cap_um_per_us": null,
+          "minimum_duration_us": 0.0
+        }
+      },
+      "causes": [
+        "unknown_upstream_move"
+      ],
+      "source_legacy_block": true,
+      "parent_event_id": "e000009"
+    },
+    {
+      "event_id": "p3_e0000010",
+      "kind": "transfer",
+      "logical_layer": 5,
+      "placement_batch": "layer5_batch1",
+      "routing_batch": "move000002",
+      "start_us": 655.8630783970827,
+      "duration_us": 20.0,
+      "resources": [
+        "AOD0"
+      ],
+      "atom_ids": [
+        "a3"
+      ],
+      "logical_qubit_ids": [
+        3
+      ],
+      "provenance": {
+        "transfer": "inferred_by_two_transfer_stage_policy",
+        "timing": "derived",
+        "phase03": "derived_schedule_transform"
+      },
+      "source_group_index": 6,
+      "trap_from": "AOD0",
+      "trap_to": "SLM",
+      "parent_event_id": "e000010"
+    },
+    {
+      "event_id": "p3_e0000011",
+      "kind": "gate",
+      "logical_layer": 5,
+      "placement_batch": "layer5_batch1",
+      "routing_batch": null,
+      "start_us": 675.8630783970827,
+      "duration_us": 0.2,
+      "resources": [],
+      "atom_ids": [
+        "a1",
+        "a4"
+      ],
+      "logical_qubit_ids": [
+        1,
+        4
+      ],
+      "provenance": {
+        "gate": "observed",
+        "gate_identity": "FIFO_occurrence_for_same_CZ_pair",
+        "timing": "derived",
+        "phase03": "derived_schedule_transform"
+      },
+      "source_group_index": 7,
+      "gate_batch": "gate_stage000007",
+      "gate_id": "g000006",
+      "gate_type": "cz",
+      "dependencies": [
+        "g000003"
+      ],
+      "sites": [
+        [
+          6,
+          6
+        ],
+        [
+          5,
+          6
+        ]
+      ],
+      "parent_event_id": "e000011"
+    },
+    {
+      "event_id": "p3_e0000012",
+      "kind": "gate",
+      "logical_layer": 5,
+      "placement_batch": "layer5_batch1",
+      "routing_batch": null,
+      "start_us": 675.8630783970827,
+      "duration_us": 0.2,
+      "resources": [],
+      "atom_ids": [
+        "a2",
+        "a3"
+      ],
+      "logical_qubit_ids": [
+        2,
+        3
+      ],
+      "provenance": {
+        "gate": "observed",
+        "gate_identity": "FIFO_occurrence_for_same_CZ_pair",
+        "timing": "derived",
+        "phase03": "derived_schedule_transform"
+      },
+      "source_group_index": 7,
+      "gate_batch": "gate_stage000007",
+      "gate_id": "g000004",
+      "gate_type": "cz",
+      "dependencies": [
+        "g000001",
+        "g000003"
+      ],
+      "sites": [
+        [
+          2,
+          10
+        ],
+        [
+          4,
+          10
+        ]
+      ],
+      "parent_event_id": "e000012"
+    },
+    {
+      "event_id": "p3_e0000013",
+      "kind": "gate",
+      "logical_layer": 6,
+      "placement_batch": "layer6_batch1",
+      "routing_batch": null,
+      "start_us": 676.0630783970828,
+      "duration_us": 0.2,
+      "resources": [],
+      "atom_ids": [
+        "a1",
+        "a4"
+      ],
+      "logical_qubit_ids": [
+        1,
+        4
+      ],
+      "provenance": {
+        "gate": "observed",
+        "gate_identity": "FIFO_occurrence_for_same_CZ_pair",
+        "timing": "derived",
+        "phase03": "derived_schedule_transform"
+      },
+      "source_group_index": 8,
+      "gate_batch": "gate_stage000008",
+      "gate_id": "g000007",
+      "gate_type": "cz",
+      "dependencies": [
+        "g000006"
+      ],
+      "sites": [
+        [
+          6,
+          6
+        ],
+        [
+          5,
+          6
+        ]
+      ],
+      "parent_event_id": "e000013"
+    },
+    {
+      "event_id": "p3_e0000014",
+      "kind": "gate",
+      "logical_layer": 6,
+      "placement_batch": "layer6_batch1",
+      "routing_batch": null,
+      "start_us": 676.0630783970828,
+      "duration_us": 0.2,
+      "resources": [],
+      "atom_ids": [
+        "a2",
+        "a3"
+      ],
+      "logical_qubit_ids": [
+        2,
+        3
+      ],
+      "provenance": {
+        "gate": "observed",
+        "gate_identity": "FIFO_occurrence_for_same_CZ_pair",
+        "timing": "derived",
+        "phase03": "derived_schedule_transform"
+      },
+      "source_group_index": 8,
+      "gate_batch": "gate_stage000008",
+      "gate_id": "g000005",
+      "gate_type": "cz",
+      "dependencies": [
+        "g000004"
+      ],
+      "sites": [
+        [
+          2,
+          10
+        ],
+        [
+          4,
+          10
+        ]
+      ],
+      "parent_event_id": "e000014"
+    },
+    {
+      "event_id": "p3_e0000015",
+      "kind": "transfer",
+      "logical_layer": 7,
+      "placement_batch": "layer7_batch1",
+      "routing_batch": "move000003",
+      "start_us": 676.2630783970828,
+      "duration_us": 20.0,
+      "resources": [
+        "AOD0"
+      ],
+      "atom_ids": [
+        "a2"
+      ],
+      "logical_qubit_ids": [
+        2
+      ],
+      "provenance": {
+        "transfer": "inferred_by_two_transfer_stage_policy",
+        "timing": "derived",
+        "phase03": "derived_schedule_transform"
+      },
+      "source_group_index": 9,
+      "trap_from": "SLM",
+      "trap_to": "AOD0",
+      "parent_event_id": "e000015"
+    },
+    {
+      "event_id": "p3_e0000016",
+      "kind": "move",
+      "logical_layer": 7,
+      "placement_batch": "layer7_batch1",
+      "routing_batch": "move000003",
+      "start_us": 696.2630783970828,
+      "duration_us": 134.16407864998737,
+      "resources": [
+        "AOD0"
+      ],
+      "atom_ids": [
+        "a2"
+      ],
+      "logical_qubit_ids": [
+        2
+      ],
+      "provenance": {
+        "positions": "observed_or_explicit_fixture",
+        "trajectory": "assumed",
+        "timing": "derived",
+        "phase03": "derived_schedule_transform"
+      },
+      "source_group_index": 9,
+      "from_sites": [
+        [
+          2,
+          10
+        ]
+      ],
+      "to_sites": [
+        [
+          1,
+          10
+        ]
+      ],
+      "trajectory": {
+        "kind": "shared_phase03_progress",
+        "family": "cubic",
+        "distance_um": 3.0,
+        "movement": {
+          "family": "cubic",
+          "acceleration_um_per_us2": 0.001,
+          "speed_um_per_us": 0.55,
+          "velocity_cap_um_per_us": null,
+          "minimum_duration_us": 0.0
+        }
+      },
+      "causes": [
+        "unknown_upstream_move"
+      ],
+      "source_legacy_block": true,
+      "parent_event_id": "e000016"
+    },
+    {
+      "event_id": "p3_e0000017",
+      "kind": "transfer",
+      "logical_layer": 7,
+      "placement_batch": "layer7_batch1",
+      "routing_batch": "move000003",
+      "start_us": 830.4271570470702,
+      "duration_us": 20.0,
+      "resources": [
+        "AOD0"
+      ],
+      "atom_ids": [
+        "a2"
+      ],
+      "logical_qubit_ids": [
+        2
+      ],
+      "provenance": {
+        "transfer": "inferred_by_two_transfer_stage_policy",
+        "timing": "derived",
+        "phase03": "derived_schedule_transform"
+      },
+      "source_group_index": 9,
+      "trap_from": "AOD0",
+      "trap_to": "SLM",
+      "parent_event_id": "e000017"
+    },
+    {
+      "event_id": "p3_e0000018",
+      "kind": "transfer",
+      "logical_layer": 7,
+      "placement_batch": "layer7_batch1",
+      "routing_batch": "move000004",
+      "start_us": 850.4271570470702,
+      "duration_us": 20.0,
+      "resources": [
+        "AOD0"
+      ],
+      "atom_ids": [
+        "a1"
+      ],
+      "logical_qubit_ids": [
+        1
+      ],
+      "provenance": {
+        "transfer": "inferred_by_two_transfer_stage_policy",
+        "timing": "derived",
+        "phase03": "derived_schedule_transform"
+      },
+      "source_group_index": 10,
+      "trap_from": "SLM",
+      "trap_to": "AOD0",
+      "parent_event_id": "e000018"
+    },
+    {
+      "event_id": "p3_e0000019",
+      "kind": "move",
+      "logical_layer": 7,
+      "placement_batch": "layer7_batch1",
+      "routing_batch": "move000004",
+      "start_us": 870.4271570470702,
+      "duration_us": 319.0977538166993,
+      "resources": [
+        "AOD0"
+      ],
+      "atom_ids": [
+        "a1"
+      ],
+      "logical_qubit_ids": [
+        1
+      ],
+      "provenance": {
+        "positions": "observed_or_explicit_fixture",
+        "trajectory": "assumed",
+        "timing": "derived",
+        "phase03": "derived_schedule_transform"
+      },
+      "source_group_index": 10,
+      "from_sites": [
+        [
+          6,
+          6
+        ]
+      ],
+      "to_sites": [
+        [
+          2,
+          10
+        ]
+      ],
+      "trajectory": {
+        "kind": "shared_phase03_progress",
+        "family": "cubic",
+        "distance_um": 16.970562748477143,
+        "movement": {
+          "family": "cubic",
+          "acceleration_um_per_us2": 0.001,
+          "speed_um_per_us": 0.55,
+          "velocity_cap_um_per_us": null,
+          "minimum_duration_us": 0.0
+        }
+      },
+      "causes": [
+        "unknown_upstream_move"
+      ],
+      "source_legacy_block": true,
+      "parent_event_id": "e000019"
+    },
+    {
+      "event_id": "p3_e0000020",
+      "kind": "transfer",
+      "logical_layer": 7,
+      "placement_batch": "layer7_batch1",
+      "routing_batch": "move000004",
+      "start_us": 1189.5249108637695,
+      "duration_us": 20.0,
+      "resources": [
+        "AOD0"
+      ],
+      "atom_ids": [
+        "a1"
+      ],
+      "logical_qubit_ids": [
+        1
+      ],
+      "provenance": {
+        "transfer": "inferred_by_two_transfer_stage_policy",
+        "timing": "derived",
+        "phase03": "derived_schedule_transform"
+      },
+      "source_group_index": 10,
+      "trap_from": "AOD0",
+      "trap_to": "SLM",
+      "parent_event_id": "e000020"
+    },
+    {
+      "event_id": "p3_e0000021",
+      "kind": "gate",
+      "logical_layer": 7,
+      "placement_batch": "layer7_batch1",
+      "routing_batch": null,
+      "start_us": 1209.5249108637695,
+      "duration_us": 0.2,
+      "resources": [],
+      "atom_ids": [
+        "a0",
+        "a4"
+      ],
+      "logical_qubit_ids": [
+        0,
+        4
+      ],
+      "provenance": {
+        "gate": "observed",
+        "gate_identity": "FIFO_occurrence_for_same_CZ_pair",
+        "timing": "derived",
+        "phase03": "derived_schedule_transform"
+      },
+      "source_group_index": 11,
+      "gate_batch": "gate_stage000011",
+      "gate_id": "g000012",
+      "gate_type": "cz",
+      "dependencies": [
+        "g000007"
+      ],
+      "sites": [
+        [
+          5,
+          5
+        ],
+        [
+          5,
+          6
+        ]
+      ],
+      "parent_event_id": "e000021"
+    },
+    {
+      "event_id": "p3_e0000022",
+      "kind": "gate",
+      "logical_layer": 7,
+      "placement_batch": "layer7_batch1",
+      "routing_batch": null,
+      "start_us": 1209.5249108637695,
+      "duration_us": 0.2,
+      "resources": [],
+      "atom_ids": [
+        "a1",
+        "a3"
+      ],
+      "logical_qubit_ids": [
+        1,
+        3
+      ],
+      "provenance": {
+        "gate": "observed",
+        "gate_identity": "FIFO_occurrence_for_same_CZ_pair",
+        "timing": "derived",
+        "phase03": "derived_schedule_transform"
+      },
+      "source_group_index": 11,
+      "gate_batch": "gate_stage000011",
+      "gate_id": "g000008",
+      "gate_type": "cz",
+      "dependencies": [
+        "g000005",
+        "g000007"
+      ],
+      "sites": [
+        [
+          2,
+          10
+        ],
+        [
+          4,
+          10
+        ]
+      ],
+      "parent_event_id": "e000022"
+    },
+    {
+      "event_id": "p3_e0000023",
+      "kind": "gate",
+      "logical_layer": 8,
+      "placement_batch": "layer8_batch1",
+      "routing_batch": null,
+      "start_us": 1209.7249108637695,
+      "duration_us": 0.2,
+      "resources": [],
+      "atom_ids": [
+        "a0",
+        "a4"
+      ],
+      "logical_qubit_ids": [
+        0,
+        4
+      ],
+      "provenance": {
+        "gate": "observed",
+        "gate_identity": "FIFO_occurrence_for_same_CZ_pair",
+        "timing": "derived",
+        "phase03": "derived_schedule_transform"
+      },
+      "source_group_index": 12,
+      "gate_batch": "gate_stage000012",
+      "gate_id": "g000013",
+      "gate_type": "cz",
+      "dependencies": [
+        "g000012"
+      ],
+      "sites": [
+        [
+          5,
+          5
+        ],
+        [
+          5,
+          6
+        ]
+      ],
+      "parent_event_id": "e000023"
+    },
+    {
+      "event_id": "p3_e0000024",
+      "kind": "gate",
+      "logical_layer": 8,
+      "placement_batch": "layer8_batch1",
+      "routing_batch": null,
+      "start_us": 1209.7249108637695,
+      "duration_us": 0.2,
+      "resources": [],
+      "atom_ids": [
+        "a1",
+        "a3"
+      ],
+      "logical_qubit_ids": [
+        1,
+        3
+      ],
+      "provenance": {
+        "gate": "observed",
+        "gate_identity": "FIFO_occurrence_for_same_CZ_pair",
+        "timing": "derived",
+        "phase03": "derived_schedule_transform"
+      },
+      "source_group_index": 12,
+      "gate_batch": "gate_stage000012",
+      "gate_id": "g000009",
+      "gate_type": "cz",
+      "dependencies": [
+        "g000008"
+      ],
+      "sites": [
+        [
+          2,
+          10
+        ],
+        [
+          4,
+          10
+        ]
+      ],
+      "parent_event_id": "e000024"
+    },
+    {
+      "event_id": "p3_e0000025",
+      "kind": "transfer",
+      "logical_layer": 9,
+      "placement_batch": "layer9_batch1",
+      "routing_batch": "move000005",
+      "start_us": 1209.9249108637696,
+      "duration_us": 20.0,
+      "resources": [
+        "AOD0"
+      ],
+      "atom_ids": [
+        "a0"
+      ],
+      "logical_qubit_ids": [
+        0
+      ],
+      "provenance": {
+        "transfer": "inferred_by_two_transfer_stage_policy",
+        "timing": "derived",
+        "phase03": "derived_schedule_transform"
+      },
+      "source_group_index": 13,
+      "trap_from": "SLM",
+      "trap_to": "AOD0",
+      "parent_event_id": "e000025"
+    },
+    {
+      "event_id": "p3_e0000026",
+      "kind": "move",
+      "logical_layer": 9,
+      "placement_batch": "layer9_batch1",
+      "routing_batch": "move000005",
+      "start_us": 1229.9249108637696,
+      "duration_us": 134.16407864998737,
+      "resources": [
+        "AOD0"
+      ],
+      "atom_ids": [
+        "a0"
+      ],
+      "logical_qubit_ids": [
+        0
+      ],
+      "provenance": {
+        "positions": "observed_or_explicit_fixture",
+        "trajectory": "assumed",
+        "timing": "derived",
+        "phase03": "derived_schedule_transform"
+      },
+      "source_group_index": 13,
+      "from_sites": [
+        [
+          5,
+          5
+        ]
+      ],
+      "to_sites": [
+        [
+          6,
+          5
+        ]
+      ],
+      "trajectory": {
+        "kind": "shared_phase03_progress",
+        "family": "cubic",
+        "distance_um": 3.0,
+        "movement": {
+          "family": "cubic",
+          "acceleration_um_per_us2": 0.001,
+          "speed_um_per_us": 0.55,
+          "velocity_cap_um_per_us": null,
+          "minimum_duration_us": 0.0
+        }
+      },
+      "causes": [
+        "unknown_upstream_move"
+      ],
+      "source_legacy_block": true,
+      "parent_event_id": "e000026"
+    },
+    {
+      "event_id": "p3_e0000027",
+      "kind": "transfer",
+      "logical_layer": 9,
+      "placement_batch": "layer9_batch1",
+      "routing_batch": "move000005",
+      "start_us": 1364.088989513757,
+      "duration_us": 20.0,
+      "resources": [
+        "AOD0"
+      ],
+      "atom_ids": [
+        "a0"
+      ],
+      "logical_qubit_ids": [
+        0
+      ],
+      "provenance": {
+        "transfer": "inferred_by_two_transfer_stage_policy",
+        "timing": "derived",
+        "phase03": "derived_schedule_transform"
+      },
+      "source_group_index": 13,
+      "trap_from": "AOD0",
+      "trap_to": "SLM",
+      "parent_event_id": "e000027"
+    },
+    {
+      "event_id": "p3_e0000028",
+      "kind": "transfer",
+      "logical_layer": 9,
+      "placement_batch": "layer9_batch1",
+      "routing_batch": "move000006",
+      "start_us": 1384.088989513757,
+      "duration_us": 20.0,
+      "resources": [
+        "AOD0"
+      ],
+      "atom_ids": [
+        "a4"
+      ],
+      "logical_qubit_ids": [
+        4
+      ],
+      "provenance": {
+        "transfer": "inferred_by_two_transfer_stage_policy",
+        "timing": "derived",
+        "phase03": "derived_schedule_transform"
+      },
+      "source_group_index": 14,
+      "trap_from": "SLM",
+      "trap_to": "AOD0",
+      "parent_event_id": "e000028"
+    },
+    {
+      "event_id": "p3_e0000029",
+      "kind": "move",
+      "logical_layer": 9,
+      "placement_batch": "layer9_batch1",
+      "routing_batch": "move000006",
+      "start_us": 1404.088989513757,
+      "duration_us": 200.62209149292661,
+      "resources": [
+        "AOD0"
+      ],
+      "atom_ids": [
+        "a4"
+      ],
+      "logical_qubit_ids": [
+        4
+      ],
+      "provenance": {
+        "positions": "observed_or_explicit_fixture",
+        "trajectory": "assumed",
+        "timing": "derived",
+        "phase03": "derived_schedule_transform"
+      },
+      "source_group_index": 14,
+      "from_sites": [
+        [
+          5,
+          6
+        ]
+      ],
+      "to_sites": [
+        [
+          4,
+          8
+        ]
+      ],
+      "trajectory": {
+        "kind": "shared_phase03_progress",
+        "family": "cubic",
+        "distance_um": 6.708203932499369,
+        "movement": {
+          "family": "cubic",
+          "acceleration_um_per_us2": 0.001,
+          "speed_um_per_us": 0.55,
+          "velocity_cap_um_per_us": null,
+          "minimum_duration_us": 0.0
+        }
+      },
+      "causes": [
+        "unknown_upstream_move"
+      ],
+      "source_legacy_block": true,
+      "parent_event_id": "e000029"
+    },
+    {
+      "event_id": "p3_e0000030",
+      "kind": "transfer",
+      "logical_layer": 9,
+      "placement_batch": "layer9_batch1",
+      "routing_batch": "move000006",
+      "start_us": 1604.7110810066836,
+      "duration_us": 20.0,
+      "resources": [
+        "AOD0"
+      ],
+      "atom_ids": [
+        "a4"
+      ],
+      "logical_qubit_ids": [
+        4
+      ],
+      "provenance": {
+        "transfer": "inferred_by_two_transfer_stage_policy",
+        "timing": "derived",
+        "phase03": "derived_schedule_transform"
+      },
+      "source_group_index": 14,
+      "trap_from": "AOD0",
+      "trap_to": "SLM",
+      "parent_event_id": "e000030"
+    },
+    {
+      "event_id": "p3_e0000031",
+      "kind": "transfer",
+      "logical_layer": 9,
+      "placement_batch": "layer9_batch1",
+      "routing_batch": "move000007",
+      "start_us": 1624.7110810066836,
+      "duration_us": 20.0,
+      "resources": [
+        "AOD0"
+      ],
+      "atom_ids": [
+        "a3"
+      ],
+      "logical_qubit_ids": [
+        3
+      ],
+      "provenance": {
+        "transfer": "inferred_by_two_transfer_stage_policy",
+        "timing": "derived",
+        "phase03": "derived_schedule_transform"
+      },
+      "source_group_index": 15,
+      "trap_from": "SLM",
+      "trap_to": "AOD0",
+      "parent_event_id": "e000031"
+    },
+    {
+      "event_id": "p3_e0000032",
+      "kind": "move",
+      "logical_layer": 9,
+      "placement_batch": "layer9_batch1",
+      "routing_batch": "move000007",
+      "start_us": 1644.7110810066836,
+      "duration_us": 272.42595555695107,
+      "resources": [
+        "AOD0"
+      ],
+      "atom_ids": [
+        "a3"
+      ],
+      "logical_qubit_ids": [
+        3
+      ],
+      "provenance": {
+        "positions": "observed_or_explicit_fixture",
+        "trajectory": "assumed",
+        "timing": "derived",
+        "phase03": "derived_schedule_transform"
+      },
+      "source_group_index": 15,
+      "from_sites": [
+        [
+          4,
+          10
+        ]
+      ],
+      "to_sites": [
+        [
+          5,
+          6
+        ]
+      ],
+      "trajectory": {
+        "kind": "shared_phase03_progress",
+        "family": "cubic",
+        "distance_um": 12.36931687685298,
+        "movement": {
+          "family": "cubic",
+          "acceleration_um_per_us2": 0.001,
+          "speed_um_per_us": 0.55,
+          "velocity_cap_um_per_us": null,
+          "minimum_duration_us": 0.0
+        }
+      },
+      "causes": [
+        "unknown_upstream_move"
+      ],
+      "source_legacy_block": true,
+      "parent_event_id": "e000032"
+    },
+    {
+      "event_id": "p3_e0000033",
+      "kind": "transfer",
+      "logical_layer": 9,
+      "placement_batch": "layer9_batch1",
+      "routing_batch": "move000007",
+      "start_us": 1917.1370365636346,
+      "duration_us": 20.0,
+      "resources": [
+        "AOD0"
+      ],
+      "atom_ids": [
+        "a3"
+      ],
+      "logical_qubit_ids": [
+        3
+      ],
+      "provenance": {
+        "transfer": "inferred_by_two_transfer_stage_policy",
+        "timing": "derived",
+        "phase03": "derived_schedule_transform"
+      },
+      "source_group_index": 15,
+      "trap_from": "AOD0",
+      "trap_to": "SLM",
+      "parent_event_id": "e000033"
+    },
+    {
+      "event_id": "p3_e0000034",
+      "kind": "gate",
+      "logical_layer": 9,
+      "placement_batch": "layer9_batch1",
+      "routing_batch": null,
+      "start_us": 1937.1370365636346,
+      "duration_us": 0.2,
+      "resources": [],
+      "atom_ids": [
+        "a1",
+        "a2"
+      ],
+      "logical_qubit_ids": [
+        1,
+        2
+      ],
+      "provenance": {
+        "gate": "observed",
+        "gate_identity": "FIFO_occurrence_for_same_CZ_pair",
+        "timing": "derived",
+        "phase03": "derived_schedule_transform"
+      },
+      "source_group_index": 16,
+      "gate_batch": "gate_stage000016",
+      "gate_id": "g000010",
+      "gate_type": "cz",
+      "dependencies": [
+        "g000005",
+        "g000009"
+      ],
+      "sites": [
+        [
+          2,
+          10
+        ],
+        [
+          1,
+          10
+        ]
+      ],
+      "parent_event_id": "e000034"
+    },
+    {
+      "event_id": "p3_e0000035",
+      "kind": "gate",
+      "logical_layer": 9,
+      "placement_batch": "layer9_batch1",
+      "routing_batch": null,
+      "start_us": 1937.1370365636346,
+      "duration_us": 0.2,
+      "resources": [],
+      "atom_ids": [
+        "a0",
+        "a3"
+      ],
+      "logical_qubit_ids": [
+        0,
+        3
+      ],
+      "provenance": {
+        "gate": "observed",
+        "gate_identity": "FIFO_occurrence_for_same_CZ_pair",
+        "timing": "derived",
+        "phase03": "derived_schedule_transform"
+      },
+      "source_group_index": 16,
+      "gate_batch": "gate_stage000016",
+      "gate_id": "g000014",
+      "gate_type": "cz",
+      "dependencies": [
+        "g000009",
+        "g000013"
+      ],
+      "sites": [
+        [
+          6,
+          5
+        ],
+        [
+          5,
+          6
+        ]
+      ],
+      "parent_event_id": "e000035"
+    },
+    {
+      "event_id": "p3_e0000036",
+      "kind": "gate",
+      "logical_layer": 10,
+      "placement_batch": "layer10_batch1",
+      "routing_batch": null,
+      "start_us": 1937.3370365636347,
+      "duration_us": 0.2,
+      "resources": [],
+      "atom_ids": [
+        "a0",
+        "a3"
+      ],
+      "logical_qubit_ids": [
+        0,
+        3
+      ],
+      "provenance": {
+        "gate": "observed",
+        "gate_identity": "FIFO_occurrence_for_same_CZ_pair",
+        "timing": "derived",
+        "phase03": "derived_schedule_transform"
+      },
+      "source_group_index": 17,
+      "gate_batch": "gate_stage000017",
+      "gate_id": "g000015",
+      "gate_type": "cz",
+      "dependencies": [
+        "g000014"
+      ],
+      "sites": [
+        [
+          6,
+          5
+        ],
+        [
+          5,
+          6
+        ]
+      ],
+      "parent_event_id": "e000036"
+    },
+    {
+      "event_id": "p3_e0000037",
+      "kind": "gate",
+      "logical_layer": 10,
+      "placement_batch": "layer10_batch1",
+      "routing_batch": null,
+      "start_us": 1937.3370365636347,
+      "duration_us": 0.2,
+      "resources": [],
+      "atom_ids": [
+        "a1",
+        "a2"
+      ],
+      "logical_qubit_ids": [
+        1,
+        2
+      ],
+      "provenance": {
+        "gate": "observed",
+        "gate_identity": "FIFO_occurrence_for_same_CZ_pair",
+        "timing": "derived",
+        "phase03": "derived_schedule_transform"
+      },
+      "source_group_index": 17,
+      "gate_batch": "gate_stage000017",
+      "gate_id": "g000011",
+      "gate_type": "cz",
+      "dependencies": [
+        "g000010"
+      ],
+      "sites": [
+        [
+          2,
+          10
+        ],
+        [
+          1,
+          10
+        ]
+      ],
+      "parent_event_id": "e000037"
+    },
+    {
+      "event_id": "p3_e0000038",
+      "kind": "transfer",
+      "logical_layer": 11,
+      "placement_batch": "layer11_batch1",
+      "routing_batch": "move000008",
+      "start_us": 1937.5370365636347,
+      "duration_us": 20.0,
+      "resources": [
+        "AOD0"
+      ],
+      "atom_ids": [
+        "a0"
+      ],
+      "logical_qubit_ids": [
+        0
+      ],
+      "provenance": {
+        "transfer": "inferred_by_two_transfer_stage_policy",
+        "timing": "derived",
+        "phase03": "derived_schedule_transform"
+      },
+      "source_group_index": 18,
+      "trap_from": "SLM",
+      "trap_to": "AOD0",
+      "parent_event_id": "e000038"
+    },
+    {
+      "event_id": "p3_e0000039",
+      "kind": "move",
+      "logical_layer": 11,
+      "placement_batch": "layer11_batch1",
+      "routing_batch": "move000008",
+      "start_us": 1957.5370365636347,
+      "duration_us": 319.0977538166993,
+      "resources": [
+        "AOD0"
+      ],
+      "atom_ids": [
+        "a0"
+      ],
+      "logical_qubit_ids": [
+        0
+      ],
+      "provenance": {
+        "positions": "observed_or_explicit_fixture",
+        "trajectory": "assumed",
+        "timing": "derived",
+        "phase03": "derived_schedule_transform"
+      },
+      "source_group_index": 18,
+      "from_sites": [
+        [
+          6,
+          5
+        ]
+      ],
+      "to_sites": [
+        [
+          2,
+          9
+        ]
+      ],
+      "trajectory": {
+        "kind": "shared_phase03_progress",
+        "family": "cubic",
+        "distance_um": 16.970562748477143,
+        "movement": {
+          "family": "cubic",
+          "acceleration_um_per_us2": 0.001,
+          "speed_um_per_us": 0.55,
+          "velocity_cap_um_per_us": null,
+          "minimum_duration_us": 0.0
+        }
+      },
+      "causes": [
+        "unknown_upstream_move"
+      ],
+      "source_legacy_block": true,
+      "parent_event_id": "e000039"
+    },
+    {
+      "event_id": "p3_e0000040",
+      "kind": "transfer",
+      "logical_layer": 11,
+      "placement_batch": "layer11_batch1",
+      "routing_batch": "move000008",
+      "start_us": 2276.634790380334,
+      "duration_us": 20.0,
+      "resources": [
+        "AOD0"
+      ],
+      "atom_ids": [
+        "a0"
+      ],
+      "logical_qubit_ids": [
+        0
+      ],
+      "provenance": {
+        "transfer": "inferred_by_two_transfer_stage_policy",
+        "timing": "derived",
+        "phase03": "derived_schedule_transform"
+      },
+      "source_group_index": 18,
+      "trap_from": "AOD0",
+      "trap_to": "SLM",
+      "parent_event_id": "e000040"
+    },
+    {
+      "event_id": "p3_e0000041",
+      "kind": "gate",
+      "logical_layer": 11,
+      "placement_batch": "layer11_batch1",
+      "routing_batch": null,
+      "start_us": 2296.634790380334,
+      "duration_us": 0.2,
+      "resources": [],
+      "atom_ids": [
+        "a0",
+        "a2"
+      ],
+      "logical_qubit_ids": [
+        0,
+        2
+      ],
+      "provenance": {
+        "gate": "observed",
+        "gate_identity": "FIFO_occurrence_for_same_CZ_pair",
+        "timing": "derived",
+        "phase03": "derived_schedule_transform"
+      },
+      "source_group_index": 19,
+      "gate_batch": "gate_stage000019",
+      "gate_id": "g000016",
+      "gate_type": "cz",
+      "dependencies": [
+        "g000011",
+        "g000015"
+      ],
+      "sites": [
+        [
+          2,
+          9
+        ],
+        [
+          1,
+          10
+        ]
+      ],
+      "parent_event_id": "e000041"
+    },
+    {
+      "event_id": "p3_e0000042",
+      "kind": "gate",
+      "logical_layer": 12,
+      "placement_batch": "layer12_batch1",
+      "routing_batch": null,
+      "start_us": 2296.8347903803337,
+      "duration_us": 0.2,
+      "resources": [],
+      "atom_ids": [
+        "a0",
+        "a2"
+      ],
+      "logical_qubit_ids": [
+        0,
+        2
+      ],
+      "provenance": {
+        "gate": "observed",
+        "gate_identity": "FIFO_occurrence_for_same_CZ_pair",
+        "timing": "derived",
+        "phase03": "derived_schedule_transform"
+      },
+      "source_group_index": 20,
+      "gate_batch": "gate_stage000020",
+      "gate_id": "g000017",
+      "gate_type": "cz",
+      "dependencies": [
+        "g000016"
+      ],
+      "sites": [
+        [
+          2,
+          9
+        ],
+        [
+          1,
+          10
+        ]
+      ],
+      "parent_event_id": "e000042"
+    },
+    {
+      "event_id": "p3_e0000043",
+      "kind": "gate",
+      "logical_layer": 13,
+      "placement_batch": "layer13_batch1",
+      "routing_batch": null,
+      "start_us": 2297.0347903803336,
+      "duration_us": 0.2,
+      "resources": [],
+      "atom_ids": [
+        "a0",
+        "a1"
+      ],
+      "logical_qubit_ids": [
+        0,
+        1
+      ],
+      "provenance": {
+        "gate": "observed",
+        "gate_identity": "FIFO_occurrence_for_same_CZ_pair",
+        "timing": "derived",
+        "phase03": "derived_schedule_transform"
+      },
+      "source_group_index": 21,
+      "gate_batch": "gate_stage000021",
+      "gate_id": "g000018",
+      "gate_type": "cz",
+      "dependencies": [
+        "g000011",
+        "g000017"
+      ],
+      "sites": [
+        [
+          2,
+          9
+        ],
+        [
+          2,
+          10
+        ]
+      ],
+      "parent_event_id": "e000043"
+    },
+    {
+      "event_id": "p3_e0000044",
+      "kind": "gate",
+      "logical_layer": 14,
+      "placement_batch": "layer14_batch1",
+      "routing_batch": null,
+      "start_us": 2297.2347903803334,
+      "duration_us": 0.2,
+      "resources": [],
+      "atom_ids": [
+        "a0",
+        "a1"
+      ],
+      "logical_qubit_ids": [
+        0,
+        1
+      ],
+      "provenance": {
+        "gate": "observed",
+        "gate_identity": "FIFO_occurrence_for_same_CZ_pair",
+        "timing": "derived",
+        "phase03": "derived_schedule_transform"
+      },
+      "source_group_index": 22,
+      "gate_batch": "gate_stage000022",
+      "gate_id": "g000019",
+      "gate_type": "cz",
+      "dependencies": [
+        "g000018"
+      ],
+      "sites": [
+        [
+          2,
+          9
+        ],
+        [
+          2,
+          10
+        ]
+      ],
+      "parent_event_id": "e000044"
+    },
+    {
+      "event_id": "p3_e0000045",
+      "kind": "transfer",
+      "logical_layer": 15,
+      "placement_batch": "layer15_batch1",
+      "routing_batch": "move000009",
+      "start_us": 2297.434790380333,
+      "duration_us": 20.0,
+      "resources": [
+        "AOD0"
+      ],
+      "atom_ids": [
+        "a3"
+      ],
+      "logical_qubit_ids": [
+        3
+      ],
+      "provenance": {
+        "transfer": "inferred_by_two_transfer_stage_policy",
+        "timing": "derived",
+        "phase03": "derived_schedule_transform"
+      },
+      "source_group_index": 23,
+      "trap_from": "SLM",
+      "trap_to": "AOD0",
+      "parent_event_id": "e000045"
+    },
+    {
+      "event_id": "p3_e0000046",
+      "kind": "move",
+      "logical_layer": 15,
+      "placement_batch": "layer15_batch1",
+      "routing_batch": "move000009",
+      "start_us": 2317.434790380333,
+      "duration_us": 300.0,
+      "resources": [
+        "AOD0"
+      ],
+      "atom_ids": [
+        "a3"
+      ],
+      "logical_qubit_ids": [
+        3
+      ],
+      "provenance": {
+        "positions": "observed_or_explicit_fixture",
+        "trajectory": "assumed",
+        "timing": "derived",
+        "phase03": "derived_schedule_transform"
+      },
+      "source_group_index": 23,
+      "from_sites": [
+        [
+          5,
+          6
+        ]
+      ],
+      "to_sites": [
+        [
+          9,
+          9
+        ]
+      ],
+      "trajectory": {
+        "kind": "shared_phase03_progress",
+        "family": "cubic",
+        "distance_um": 15.0,
+        "movement": {
+          "family": "cubic",
+          "acceleration_um_per_us2": 0.001,
+          "speed_um_per_us": 0.55,
+          "velocity_cap_um_per_us": null,
+          "minimum_duration_us": 0.0
+        }
+      },
+      "causes": [
+        "unknown_upstream_move"
+      ],
+      "source_legacy_block": true,
+      "parent_event_id": "e000046"
+    },
+    {
+      "event_id": "p3_e0000047",
+      "kind": "transfer",
+      "logical_layer": 15,
+      "placement_batch": "layer15_batch1",
+      "routing_batch": "move000009",
+      "start_us": 2617.434790380333,
+      "duration_us": 20.0,
+      "resources": [
+        "AOD0"
+      ],
+      "atom_ids": [
+        "a3"
+      ],
+      "logical_qubit_ids": [
+        3
+      ],
+      "provenance": {
+        "transfer": "inferred_by_two_transfer_stage_policy",
+        "timing": "derived",
+        "phase03": "derived_schedule_transform"
+      },
+      "source_group_index": 23,
+      "trap_from": "AOD0",
+      "trap_to": "SLM",
+      "parent_event_id": "e000047"
+    },
+    {
+      "event_id": "p3_e0000048",
+      "kind": "transfer",
+      "logical_layer": 15,
+      "placement_batch": "layer15_batch1",
+      "routing_batch": "move000010",
+      "start_us": 2637.434790380333,
+      "duration_us": 20.0,
+      "resources": [
+        "AOD0"
+      ],
+      "atom_ids": [
+        "a1"
+      ],
+      "logical_qubit_ids": [
+        1
+      ],
+      "provenance": {
+        "transfer": "inferred_by_two_transfer_stage_policy",
+        "timing": "derived",
+        "phase03": "derived_schedule_transform"
+      },
+      "source_group_index": 24,
+      "trap_from": "SLM",
+      "trap_to": "AOD0",
+      "parent_event_id": "e000048"
+    },
+    {
+      "event_id": "p3_e0000049",
+      "kind": "move",
+      "logical_layer": 15,
+      "placement_batch": "layer15_batch1",
+      "routing_batch": "move000010",
+      "start_us": 2657.434790380333,
+      "duration_us": 330.8923171446686,
+      "resources": [
+        "AOD0"
+      ],
+      "atom_ids": [
+        "a1"
+      ],
+      "logical_qubit_ids": [
+        1
+      ],
+      "provenance": {
+        "positions": "observed_or_explicit_fixture",
+        "trajectory": "assumed",
+        "timing": "derived",
+        "phase03": "derived_schedule_transform"
+      },
+      "source_group_index": 24,
+      "from_sites": [
+        [
+          2,
+          10
+        ]
+      ],
+      "to_sites": [
+        [
+          8,
+          9
+        ]
+      ],
+      "trajectory": {
+        "kind": "shared_phase03_progress",
+        "family": "cubic",
+        "distance_um": 18.24828759089466,
+        "movement": {
+          "family": "cubic",
+          "acceleration_um_per_us2": 0.001,
+          "speed_um_per_us": 0.55,
+          "velocity_cap_um_per_us": null,
+          "minimum_duration_us": 0.0
+        }
+      },
+      "causes": [
+        "unknown_upstream_move"
+      ],
+      "source_legacy_block": true,
+      "parent_event_id": "e000049"
+    },
+    {
+      "event_id": "p3_e0000050",
+      "kind": "transfer",
+      "logical_layer": 15,
+      "placement_batch": "layer15_batch1",
+      "routing_batch": "move000010",
+      "start_us": 2988.327107525002,
+      "duration_us": 20.0,
+      "resources": [
+        "AOD0"
+      ],
+      "atom_ids": [
+        "a1"
+      ],
+      "logical_qubit_ids": [
+        1
+      ],
+      "provenance": {
+        "transfer": "inferred_by_two_transfer_stage_policy",
+        "timing": "derived",
+        "phase03": "derived_schedule_transform"
+      },
+      "source_group_index": 24,
+      "trap_from": "AOD0",
+      "trap_to": "SLM",
+      "parent_event_id": "e000050"
+    },
+    {
+      "event_id": "p3_e0000051",
+      "kind": "transfer",
+      "logical_layer": 15,
+      "placement_batch": "layer15_batch1",
+      "routing_batch": "move000011",
+      "start_us": 3008.327107525002,
+      "duration_us": 20.0,
+      "resources": [
+        "AOD0"
+      ],
+      "atom_ids": [
+        "a0"
+      ],
+      "logical_qubit_ids": [
+        0
+      ],
+      "provenance": {
+        "transfer": "inferred_by_two_transfer_stage_policy",
+        "timing": "derived",
+        "phase03": "derived_schedule_transform"
+      },
+      "source_group_index": 25,
+      "trap_from": "SLM",
+      "trap_to": "AOD0",
+      "parent_event_id": "e000051"
+    },
+    {
+      "event_id": "p3_e0000052",
+      "kind": "move",
+      "logical_layer": 15,
+      "placement_batch": "layer15_batch1",
+      "routing_batch": "move000011",
+      "start_us": 3028.327107525002,
+      "duration_us": 134.16407864998737,
+      "resources": [
+        "AOD0"
+      ],
+      "atom_ids": [
+        "a0"
+      ],
+      "logical_qubit_ids": [
+        0
+      ],
+      "provenance": {
+        "positions": "observed_or_explicit_fixture",
+        "trajectory": "assumed",
+        "timing": "derived",
+        "phase03": "derived_schedule_transform"
+      },
+      "source_group_index": 25,
+      "from_sites": [
+        [
+          2,
+          9
+        ]
+      ],
+      "to_sites": [
+        [
+          2,
+          8
+        ]
+      ],
+      "trajectory": {
+        "kind": "shared_phase03_progress",
+        "family": "cubic",
+        "distance_um": 3.0,
+        "movement": {
+          "family": "cubic",
+          "acceleration_um_per_us2": 0.001,
+          "speed_um_per_us": 0.55,
+          "velocity_cap_um_per_us": null,
+          "minimum_duration_us": 0.0
+        }
+      },
+      "causes": [
+        "unknown_upstream_move"
+      ],
+      "source_legacy_block": true,
+      "parent_event_id": "e000052"
+    },
+    {
+      "event_id": "p3_e0000053",
+      "kind": "transfer",
+      "logical_layer": 15,
+      "placement_batch": "layer15_batch1",
+      "routing_batch": "move000011",
+      "start_us": 3162.4911861749893,
+      "duration_us": 20.0,
+      "resources": [
+        "AOD0"
+      ],
+      "atom_ids": [
+        "a0"
+      ],
+      "logical_qubit_ids": [
+        0
+      ],
+      "provenance": {
+        "transfer": "inferred_by_two_transfer_stage_policy",
+        "timing": "derived",
+        "phase03": "derived_schedule_transform"
+      },
+      "source_group_index": 25,
+      "trap_from": "AOD0",
+      "trap_to": "SLM",
+      "parent_event_id": "e000053"
+    },
+    {
+      "event_id": "p3_e0000054",
+      "kind": "gate",
+      "logical_layer": 15,
+      "placement_batch": "layer15_batch1",
+      "routing_batch": null,
+      "start_us": 3182.4911861749893,
+      "duration_us": 0.2,
+      "resources": [],
+      "atom_ids": [
+        "a0",
+        "a4"
+      ],
+      "logical_qubit_ids": [
+        0,
+        4
+      ],
+      "provenance": {
+        "gate": "observed",
+        "gate_identity": "FIFO_occurrence_for_same_CZ_pair",
+        "timing": "derived",
+        "phase03": "derived_schedule_transform"
+      },
+      "source_group_index": 26,
+      "gate_batch": "gate_stage000026",
+      "gate_id": "g000023",
+      "gate_type": "cz",
+      "dependencies": [
+        "g000013",
+        "g000019"
+      ],
+      "sites": [
+        [
+          2,
+          8
+        ],
+        [
+          4,
+          8
+        ]
+      ],
+      "parent_event_id": "e000054"
+    },
+    {
+      "event_id": "p3_e0000055",
+      "kind": "gate",
+      "logical_layer": 15,
+      "placement_batch": "layer15_batch1",
+      "routing_batch": null,
+      "start_us": 3182.4911861749893,
+      "duration_us": 0.2,
+      "resources": [],
+      "atom_ids": [
+        "a1",
+        "a3"
+      ],
+      "logical_qubit_ids": [
+        1,
+        3
+      ],
+      "provenance": {
+        "gate": "observed",
+        "gate_identity": "FIFO_occurrence_for_same_CZ_pair",
+        "timing": "derived",
+        "phase03": "derived_schedule_transform"
+      },
+      "source_group_index": 26,
+      "gate_batch": "gate_stage000026",
+      "gate_id": "g000020",
+      "gate_type": "cz",
+      "dependencies": [
+        "g000015",
+        "g000019"
+      ],
+      "sites": [
+        [
+          8,
+          9
+        ],
+        [
+          9,
+          9
+        ]
+      ],
+      "parent_event_id": "e000055"
+    },
+    {
+      "event_id": "p3_e0000056",
+      "kind": "gate",
+      "logical_layer": 16,
+      "placement_batch": "layer16_batch1",
+      "routing_batch": null,
+      "start_us": 3182.691186174989,
+      "duration_us": 0.2,
+      "resources": [],
+      "atom_ids": [
+        "a0",
+        "a4"
+      ],
+      "logical_qubit_ids": [
+        0,
+        4
+      ],
+      "provenance": {
+        "gate": "observed",
+        "gate_identity": "FIFO_occurrence_for_same_CZ_pair",
+        "timing": "derived",
+        "phase03": "derived_schedule_transform"
+      },
+      "source_group_index": 27,
+      "gate_batch": "gate_stage000027",
+      "gate_id": "g000024",
+      "gate_type": "cz",
+      "dependencies": [
+        "g000023"
+      ],
+      "sites": [
+        [
+          2,
+          8
+        ],
+        [
+          4,
+          8
+        ]
+      ],
+      "parent_event_id": "e000056"
+    },
+    {
+      "event_id": "p3_e0000057",
+      "kind": "gate",
+      "logical_layer": 16,
+      "placement_batch": "layer16_batch1",
+      "routing_batch": null,
+      "start_us": 3182.691186174989,
+      "duration_us": 0.2,
+      "resources": [],
+      "atom_ids": [
+        "a1",
+        "a3"
+      ],
+      "logical_qubit_ids": [
+        1,
+        3
+      ],
+      "provenance": {
+        "gate": "observed",
+        "gate_identity": "FIFO_occurrence_for_same_CZ_pair",
+        "timing": "derived",
+        "phase03": "derived_schedule_transform"
+      },
+      "source_group_index": 27,
+      "gate_batch": "gate_stage000027",
+      "gate_id": "g000021",
+      "gate_type": "cz",
+      "dependencies": [
+        "g000020"
+      ],
+      "sites": [
+        [
+          8,
+          9
+        ],
+        [
+          9,
+          9
+        ]
+      ],
+      "parent_event_id": "e000057"
+    },
+    {
+      "event_id": "p3_e0000058",
+      "kind": "gate",
+      "logical_layer": 17,
+      "placement_batch": "layer17_batch1",
+      "routing_batch": null,
+      "start_us": 3182.891186174989,
+      "duration_us": 0.2,
+      "resources": [],
+      "atom_ids": [
+        "a0",
+        "a4"
+      ],
+      "logical_qubit_ids": [
+        0,
+        4
+      ],
+      "provenance": {
+        "gate": "observed",
+        "gate_identity": "FIFO_occurrence_for_same_CZ_pair",
+        "timing": "derived",
+        "phase03": "derived_schedule_transform"
+      },
+      "source_group_index": 28,
+      "gate_batch": "gate_stage000028",
+      "gate_id": "g000025",
+      "gate_type": "cz",
+      "dependencies": [
+        "g000024"
+      ],
+      "sites": [
+        [
+          2,
+          8
+        ],
+        [
+          4,
+          8
+        ]
+      ],
+      "parent_event_id": "e000058"
+    },
+    {
+      "event_id": "p3_e0000059",
+      "kind": "gate",
+      "logical_layer": 17,
+      "placement_batch": "layer17_batch1",
+      "routing_batch": null,
+      "start_us": 3182.891186174989,
+      "duration_us": 0.2,
+      "resources": [],
+      "atom_ids": [
+        "a1",
+        "a3"
+      ],
+      "logical_qubit_ids": [
+        1,
+        3
+      ],
+      "provenance": {
+        "gate": "observed",
+        "gate_identity": "FIFO_occurrence_for_same_CZ_pair",
+        "timing": "derived",
+        "phase03": "derived_schedule_transform"
+      },
+      "source_group_index": 28,
+      "gate_batch": "gate_stage000028",
+      "gate_id": "g000022",
+      "gate_type": "cz",
+      "dependencies": [
+        "g000021"
+      ],
+      "sites": [
+        [
+          8,
+          9
+        ],
+        [
+          9,
+          9
+        ]
+      ],
+      "parent_event_id": "e000059"
+    }
+  ],
+  "transform_log": [
+    {
+      "event_id": "p3_e0000000",
+      "parent_event_id": "e000000",
+      "kind": "initialize",
+      "start_us": 0.0,
+      "duration_us": 0,
+      "action": "retimed"
+    },
+    {
+      "event_id": "p3_e0000001",
+      "parent_event_id": "e000001",
+      "kind": "gate",
+      "start_us": 0.0,
+      "duration_us": 0.2,
+      "action": "retimed"
+    },
+    {
+      "event_id": "p3_e0000002",
+      "parent_event_id": "e000002",
+      "kind": "gate",
+      "start_us": 0.2,
+      "duration_us": 0.2,
+      "action": "retimed"
+    },
+    {
+      "event_id": "p3_e0000003",
+      "parent_event_id": "e000003",
+      "kind": "gate",
+      "start_us": 0.4,
+      "duration_us": 0.2,
+      "action": "retimed"
+    },
+    {
+      "event_id": "p3_e0000004",
+      "parent_event_id": "e000004",
+      "kind": "gate",
+      "start_us": 0.6000000000000001,
+      "duration_us": 0.2,
+      "action": "retimed"
+    },
+    {
+      "event_id": "p3_e0000005",
+      "parent_event_id": "e000005",
+      "kind": "transfer",
+      "start_us": 0.8,
+      "duration_us": 20.0,
+      "action": "retimed"
+    },
+    {
+      "event_id": "p3_e0000006",
+      "parent_event_id": "e000006",
+      "kind": "move",
+      "start_us": 20.8,
+      "duration_us": 283.72248270095275,
+      "action": "retimed"
+    },
+    {
+      "event_id": "p3_e0000007",
+      "parent_event_id": "e000007",
+      "kind": "transfer",
+      "start_us": 304.52248270095276,
+      "duration_us": 20.0,
+      "action": "retimed"
+    },
+    {
+      "event_id": "p3_e0000008",
+      "parent_event_id": "e000008",
+      "kind": "transfer",
+      "start_us": 324.52248270095276,
+      "duration_us": 20.0,
+      "action": "retimed"
+    },
+    {
+      "event_id": "p3_e0000009",
+      "parent_event_id": "e000009",
+      "kind": "move",
+      "start_us": 344.52248270095276,
+      "duration_us": 311.34059569613,
+      "action": "retimed"
+    },
+    {
+      "event_id": "p3_e0000010",
+      "parent_event_id": "e000010",
+      "kind": "transfer",
+      "start_us": 655.8630783970827,
+      "duration_us": 20.0,
+      "action": "retimed"
+    },
+    {
+      "event_id": "p3_e0000011",
+      "parent_event_id": "e000011",
+      "kind": "gate",
+      "start_us": 675.8630783970827,
+      "duration_us": 0.2,
+      "action": "retimed"
+    },
+    {
+      "event_id": "p3_e0000012",
+      "parent_event_id": "e000012",
+      "kind": "gate",
+      "start_us": 675.8630783970827,
+      "duration_us": 0.2,
+      "action": "retimed"
+    },
+    {
+      "event_id": "p3_e0000013",
+      "parent_event_id": "e000013",
+      "kind": "gate",
+      "start_us": 676.0630783970828,
+      "duration_us": 0.2,
+      "action": "retimed"
+    },
+    {
+      "event_id": "p3_e0000014",
+      "parent_event_id": "e000014",
+      "kind": "gate",
+      "start_us": 676.0630783970828,
+      "duration_us": 0.2,
+      "action": "retimed"
+    },
+    {
+      "event_id": "p3_e0000015",
+      "parent_event_id": "e000015",
+      "kind": "transfer",
+      "start_us": 676.2630783970828,
+      "duration_us": 20.0,
+      "action": "retimed"
+    },
+    {
+      "event_id": "p3_e0000016",
+      "parent_event_id": "e000016",
+      "kind": "move",
+      "start_us": 696.2630783970828,
+      "duration_us": 134.16407864998737,
+      "action": "retimed"
+    },
+    {
+      "event_id": "p3_e0000017",
+      "parent_event_id": "e000017",
+      "kind": "transfer",
+      "start_us": 830.4271570470702,
+      "duration_us": 20.0,
+      "action": "retimed"
+    },
+    {
+      "event_id": "p3_e0000018",
+      "parent_event_id": "e000018",
+      "kind": "transfer",
+      "start_us": 850.4271570470702,
+      "duration_us": 20.0,
+      "action": "retimed"
+    },
+    {
+      "event_id": "p3_e0000019",
+      "parent_event_id": "e000019",
+      "kind": "move",
+      "start_us": 870.4271570470702,
+      "duration_us": 319.0977538166993,
+      "action": "retimed"
+    },
+    {
+      "event_id": "p3_e0000020",
+      "parent_event_id": "e000020",
+      "kind": "transfer",
+      "start_us": 1189.5249108637695,
+      "duration_us": 20.0,
+      "action": "retimed"
+    },
+    {
+      "event_id": "p3_e0000021",
+      "parent_event_id": "e000021",
+      "kind": "gate",
+      "start_us": 1209.5249108637695,
+      "duration_us": 0.2,
+      "action": "retimed"
+    },
+    {
+      "event_id": "p3_e0000022",
+      "parent_event_id": "e000022",
+      "kind": "gate",
+      "start_us": 1209.5249108637695,
+      "duration_us": 0.2,
+      "action": "retimed"
+    },
+    {
+      "event_id": "p3_e0000023",
+      "parent_event_id": "e000023",
+      "kind": "gate",
+      "start_us": 1209.7249108637695,
+      "duration_us": 0.2,
+      "action": "retimed"
+    },
+    {
+      "event_id": "p3_e0000024",
+      "parent_event_id": "e000024",
+      "kind": "gate",
+      "start_us": 1209.7249108637695,
+      "duration_us": 0.2,
+      "action": "retimed"
+    },
+    {
+      "event_id": "p3_e0000025",
+      "parent_event_id": "e000025",
+      "kind": "transfer",
+      "start_us": 1209.9249108637696,
+      "duration_us": 20.0,
+      "action": "retimed"
+    },
+    {
+      "event_id": "p3_e0000026",
+      "parent_event_id": "e000026",
+      "kind": "move",
+      "start_us": 1229.9249108637696,
+      "duration_us": 134.16407864998737,
+      "action": "retimed"
+    },
+    {
+      "event_id": "p3_e0000027",
+      "parent_event_id": "e000027",
+      "kind": "transfer",
+      "start_us": 1364.088989513757,
+      "duration_us": 20.0,
+      "action": "retimed"
+    },
+    {
+      "event_id": "p3_e0000028",
+      "parent_event_id": "e000028",
+      "kind": "transfer",
+      "start_us": 1384.088989513757,
+      "duration_us": 20.0,
+      "action": "retimed"
+    },
+    {
+      "event_id": "p3_e0000029",
+      "parent_event_id": "e000029",
+      "kind": "move",
+      "start_us": 1404.088989513757,
+      "duration_us": 200.62209149292661,
+      "action": "retimed"
+    },
+    {
+      "event_id": "p3_e0000030",
+      "parent_event_id": "e000030",
+      "kind": "transfer",
+      "start_us": 1604.7110810066836,
+      "duration_us": 20.0,
+      "action": "retimed"
+    },
+    {
+      "event_id": "p3_e0000031",
+      "parent_event_id": "e000031",
+      "kind": "transfer",
+      "start_us": 1624.7110810066836,
+      "duration_us": 20.0,
+      "action": "retimed"
+    },
+    {
+      "event_id": "p3_e0000032",
+      "parent_event_id": "e000032",
+      "kind": "move",
+      "start_us": 1644.7110810066836,
+      "duration_us": 272.42595555695107,
+      "action": "retimed"
+    },
+    {
+      "event_id": "p3_e0000033",
+      "parent_event_id": "e000033",
+      "kind": "transfer",
+      "start_us": 1917.1370365636346,
+      "duration_us": 20.0,
+      "action": "retimed"
+    },
+    {
+      "event_id": "p3_e0000034",
+      "parent_event_id": "e000034",
+      "kind": "gate",
+      "start_us": 1937.1370365636346,
+      "duration_us": 0.2,
+      "action": "retimed"
+    },
+    {
+      "event_id": "p3_e0000035",
+      "parent_event_id": "e000035",
+      "kind": "gate",
+      "start_us": 1937.1370365636346,
+      "duration_us": 0.2,
+      "action": "retimed"
+    },
+    {
+      "event_id": "p3_e0000036",
+      "parent_event_id": "e000036",
+      "kind": "gate",
+      "start_us": 1937.3370365636347,
+      "duration_us": 0.2,
+      "action": "retimed"
+    },
+    {
+      "event_id": "p3_e0000037",
+      "parent_event_id": "e000037",
+      "kind": "gate",
+      "start_us": 1937.3370365636347,
+      "duration_us": 0.2,
+      "action": "retimed"
+    },
+    {
+      "event_id": "p3_e0000038",
+      "parent_event_id": "e000038",
+      "kind": "transfer",
+      "start_us": 1937.5370365636347,
+      "duration_us": 20.0,
+      "action": "retimed"
+    },
+    {
+      "event_id": "p3_e0000039",
+      "parent_event_id": "e000039",
+      "kind": "move",
+      "start_us": 1957.5370365636347,
+      "duration_us": 319.0977538166993,
+      "action": "retimed"
+    },
+    {
+      "event_id": "p3_e0000040",
+      "parent_event_id": "e000040",
+      "kind": "transfer",
+      "start_us": 2276.634790380334,
+      "duration_us": 20.0,
+      "action": "retimed"
+    },
+    {
+      "event_id": "p3_e0000041",
+      "parent_event_id": "e000041",
+      "kind": "gate",
+      "start_us": 2296.634790380334,
+      "duration_us": 0.2,
+      "action": "retimed"
+    },
+    {
+      "event_id": "p3_e0000042",
+      "parent_event_id": "e000042",
+      "kind": "gate",
+      "start_us": 2296.8347903803337,
+      "duration_us": 0.2,
+      "action": "retimed"
+    },
+    {
+      "event_id": "p3_e0000043",
+      "parent_event_id": "e000043",
+      "kind": "gate",
+      "start_us": 2297.0347903803336,
+      "duration_us": 0.2,
+      "action": "retimed"
+    },
+    {
+      "event_id": "p3_e0000044",
+      "parent_event_id": "e000044",
+      "kind": "gate",
+      "start_us": 2297.2347903803334,
+      "duration_us": 0.2,
+      "action": "retimed"
+    },
+    {
+      "event_id": "p3_e0000045",
+      "parent_event_id": "e000045",
+      "kind": "transfer",
+      "start_us": 2297.434790380333,
+      "duration_us": 20.0,
+      "action": "retimed"
+    },
+    {
+      "event_id": "p3_e0000046",
+      "parent_event_id": "e000046",
+      "kind": "move",
+      "start_us": 2317.434790380333,
+      "duration_us": 300.0,
+      "action": "retimed"
+    },
+    {
+      "event_id": "p3_e0000047",
+      "parent_event_id": "e000047",
+      "kind": "transfer",
+      "start_us": 2617.434790380333,
+      "duration_us": 20.0,
+      "action": "retimed"
+    },
+    {
+      "event_id": "p3_e0000048",
+      "parent_event_id": "e000048",
+      "kind": "transfer",
+      "start_us": 2637.434790380333,
+      "duration_us": 20.0,
+      "action": "retimed"
+    },
+    {
+      "event_id": "p3_e0000049",
+      "parent_event_id": "e000049",
+      "kind": "move",
+      "start_us": 2657.434790380333,
+      "duration_us": 330.8923171446686,
+      "action": "retimed"
+    },
+    {
+      "event_id": "p3_e0000050",
+      "parent_event_id": "e000050",
+      "kind": "transfer",
+      "start_us": 2988.327107525002,
+      "duration_us": 20.0,
+      "action": "retimed"
+    },
+    {
+      "event_id": "p3_e0000051",
+      "parent_event_id": "e000051",
+      "kind": "transfer",
+      "start_us": 3008.327107525002,
+      "duration_us": 20.0,
+      "action": "retimed"
+    },
+    {
+      "event_id": "p3_e0000052",
+      "parent_event_id": "e000052",
+      "kind": "move",
+      "start_us": 3028.327107525002,
+      "duration_us": 134.16407864998737,
+      "action": "retimed"
+    },
+    {
+      "event_id": "p3_e0000053",
+      "parent_event_id": "e000053",
+      "kind": "transfer",
+      "start_us": 3162.4911861749893,
+      "duration_us": 20.0,
+      "action": "retimed"
+    },
+    {
+      "event_id": "p3_e0000054",
+      "parent_event_id": "e000054",
+      "kind": "gate",
+      "start_us": 3182.4911861749893,
+      "duration_us": 0.2,
+      "action": "retimed"
+    },
+    {
+      "event_id": "p3_e0000055",
+      "parent_event_id": "e000055",
+      "kind": "gate",
+      "start_us": 3182.4911861749893,
+      "duration_us": 0.2,
+      "action": "retimed"
+    },
+    {
+      "event_id": "p3_e0000056",
+      "parent_event_id": "e000056",
+      "kind": "gate",
+      "start_us": 3182.691186174989,
+      "duration_us": 0.2,
+      "action": "retimed"
+    },
+    {
+      "event_id": "p3_e0000057",
+      "parent_event_id": "e000057",
+      "kind": "gate",
+      "start_us": 3182.691186174989,
+      "duration_us": 0.2,
+      "action": "retimed"
+    },
+    {
+      "event_id": "p3_e0000058",
+      "parent_event_id": "e000058",
+      "kind": "gate",
+      "start_us": 3182.891186174989,
+      "duration_us": 0.2,
+      "action": "retimed"
+    },
+    {
+      "event_id": "p3_e0000059",
+      "parent_event_id": "e000059",
+      "kind": "gate",
+      "start_us": 3182.891186174989,
+      "duration_us": 0.2,
+      "action": "retimed"
+    }
+  ],
+  "assumptions": [
+    "Phase 03 model; source decisions remain fixed; no compiler optimization",
+    "Cooling, if present, uses the explicitly hypothetical registered-bank primitive"
+  ],
+  "native_physical_evidence_complete": false
+}

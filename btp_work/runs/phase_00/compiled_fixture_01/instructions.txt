@@ -1,0 +1,31 @@
+--- Processing Time 1 (Batch 1) ---
+[INITIAL PLACEMENT]
+  PLACE active qubit 0 at position (2, 1)
+  PLACE active qubit 1 at position (2, 0)
+  PLACE active qubit 2 at position (0, 1)
+  PLACE active qubit 3 at position (0, 0)
+[EXECUTE Time 1 Batch 1]
+  CZ q[0], q[1] (at locations (2, 1), (2, 0))
+  CZ q[2], q[3] (at locations (0, 1), (0, 0))
+--- Processing Time 2 (Batch 1) ---
+[SHUTTLING] Batch 1
+  SHUTTLE qubit 3 from (0, 0) to (1, 1)
+--- Batch Separator ---
+[SHUTTLING] Batch 2
+  SHUTTLE qubit 2 from (0, 1) to (0, 0)
+--- Batch Separator ---
+[SHUTTLING] Batch 3
+  SHUTTLE qubit 0 from (2, 1) to (0, 1)
+[EXECUTE Time 2 Batch 1]
+  CZ q[0], q[2] (at locations (0, 1), (0, 0))
+--- Processing Time 3 (Batch 1) ---
+[SHUTTLING] Batch 1
+  SHUTTLE qubit 0 from (0, 1) to (1, 0)
+--- Batch Separator ---
+[SHUTTLING] Batch 2
+  SHUTTLE qubit 2 from (0, 0) to (0, 1)
+--- Batch Separator ---
+[SHUTTLING] Batch 3
+  SHUTTLE qubit 1 from (2, 0) to (0, 0)
+[EXECUTE Time 3 Batch 1]
+  CZ q[1], q[2] (at locations (0, 0), (0, 1))

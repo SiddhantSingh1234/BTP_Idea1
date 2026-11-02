@@ -1,0 +1,39 @@
+{
+  "target_id": "fig4_qft__qft_5__g11__dasatom__standalone__native",
+  "command": [
+    "C:\\Users\\hp\\Documents\\BTP\\btp_work\\.venv\\Scripts\\python.exe",
+    "-B",
+    "-X",
+    "utf8",
+    "C:\\Users\\hp\\Documents\\BTP\\btp_work\\reports\\phase_01\\standalone\\tests_02\\slow_worker.py",
+    "--input",
+    "C:\\Users\\hp\\Documents\\BTP\\btp_work\\runs\\standalone_acceptance_v3\\frozen\\benchmarks\\current_baseline_v1\\normalized\\fig4_qft\\qft_5_native.qasm",
+    "--grid",
+    "11",
+    "--seed",
+    "42",
+    "--out",
+    "C:\\Users\\hp\\Documents\\BTP\\btp_work\\reports\\phase_01\\standalone\\tests_02\\crash\\fig4_qft__qft_5__g11__dasatom__standalone__native\\attempt_01\\worker"
+  ],
+  "worker_sha256": "739b20836ec1c04789ae096a69242507640e4e8e6fd76bbb293ba52f40611f7b",
+  "router_sha256": "332a6ad43d994b0712eaef058706ee066b903a0139550a806524091df4307c60",
+  "input_sha256": "0a4dac8d92c9a22a09ab2c0ea6165d4ae98e51b3f309993f43a3ceeb5f60d926",
+  "timeout_seconds": 10,
+  "memory_limit_bytes": 4294967296,
+  "attempt": 1,
+  "status": "error",
+  "process_exit_code": 0,
+  "process_wall_seconds": 0.03632790000119712,
+  "peak_working_set_bytes": 0,
+  "memory_definition": "observed sum of family peak working sets; not allocation-proof hard cap",
+  "monitored_process_ids": [
+    12692
+  ],
+  "result": null,
+  "worker_artifact_sha256": {},
+  "monitor_error": {
+    "type": "PermissionError",
+    "message": "[WinError 5] Access is denied."
+  },
+  "record_path": "reports\\phase_01\\standalone\\tests_02\\crash\\fig4_qft__qft_5__g11__dasatom__standalone__native\\attempt_01\\attempt_record.json"
+}

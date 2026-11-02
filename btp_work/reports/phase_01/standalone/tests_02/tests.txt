@@ -1,0 +1,22 @@
+test_132_targets_and_198_native_RFT_samples_preserved (__main__.Acceptance.test_132_targets_and_198_native_RFT_samples_preserved) ... ok
+test_bounded_timeout_and_stop_are_terminal_not_success (__main__.Acceptance.test_bounded_timeout_and_stop_are_terminal_not_success) ... ok
+test_controller_crash_closes_worker_job (__main__.Acceptance.test_controller_crash_closes_worker_job) ... FAIL
+test_detached_launcher_completed_real_validated_compile (__main__.Acceptance.test_detached_launcher_completed_real_validated_compile) ... ok
+test_duplicate_success_is_reused_without_new_attempt (__main__.Acceptance.test_duplicate_success_is_reused_without_new_attempt) ... ok
+test_environment_and_frozen_code_tampering_are_detected (__main__.Acceptance.test_environment_and_frozen_code_tampering_are_detected) ... ok
+test_monitor_gap_does_not_accept_timing (__main__.Acceptance.test_monitor_gap_does_not_accept_timing) ... ok
+test_os_lock_rejects_second_controller (__main__.Acceptance.test_os_lock_rejects_second_controller) ... ok
+
+======================================================================
+FAIL: test_controller_crash_closes_worker_job (__main__.Acceptance.test_controller_crash_closes_worker_job)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\hp\Documents\BTP\btp_work\tests\standalone_baseline_acceptance.py", line 116, in test_controller_crash_closes_worker_job
+    self.assertTrue(heartbeat.exists())
+    ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+AssertionError: False is not true
+
+----------------------------------------------------------------------
+Ran 8 tests in 9.797s
+
+FAILED (failures=1)

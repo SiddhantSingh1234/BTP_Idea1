@@ -1,0 +1,86 @@
+{
+  "track": "phase3",
+  "job": {
+    "target_id": "fig4_qft__qft_20__g20__dasatom__standalone__native",
+    "algorithm": "dasatom",
+    "variant": "standalone",
+    "family": "fig4_qft",
+    "case": "qft_20",
+    "grid": 20,
+    "register_policy": "native",
+    "seed": 42,
+    "routing_seed": null,
+    "raw_path": "benchmarks/current_baseline_v1/raw/fig4_qft/qft_20.qasm",
+    "raw_sha256": "2c7c88ec42849d440298617fff2ff01d3481fb3f5734647c94aa5ca2babcf244",
+    "expected_normalized_sha256": "8d9edbad250516acc909b60791ef60398a30718cbcbf82935f1f78f5a753b51e",
+    "paper_reference": "RFT manuscript p6 Fig4",
+    "paper_metrics": [
+      "compile_seconds",
+      "runtime_us",
+      "movement_batches",
+      "legacy_fidelity"
+    ],
+    "action": "validate_or_repair_cached_dasatom",
+    "selected_reference": {
+      "record": "runs\\current_baseline\\study_v1\\attempts\\fig4_qft__qft_20__g20__dasatom__standalone__native__r1\\attempt_01\\attempt_record.json",
+      "sha256": "3514f8d86cbf02edebaf8df7058bac5fab4fc4194423e4252df174e41d3d9071",
+      "worker": "runs\\current_baseline\\study_v1\\attempts\\fig4_qft__qft_20__g20__dasatom__standalone__native__r1\\attempt_01\\worker"
+    },
+    "all_existing_attempts": [
+      {
+        "record": "runs\\current_baseline\\study_v1\\attempts\\fig4_qft__qft_20__g20__dasatom__standalone__native__r1\\attempt_01\\attempt_record.json",
+        "sha256": "3514f8d86cbf02edebaf8df7058bac5fab4fc4194423e4252df174e41d3d9071",
+        "status": "invalid",
+        "repetition": 1
+      },
+      {
+        "record": "runs\\current_baseline\\study_v1\\attempts\\fig4_qft__qft_20__g20__dasatom__standalone__native__r2\\attempt_01\\attempt_record.json",
+        "sha256": "66b6df39404b986d271ddc1aaa460fc971267c8de26ae6e251d18a9300faf964",
+        "status": "invalid",
+        "repetition": 2
+      },
+      {
+        "record": "runs\\current_baseline\\study_v1\\attempts\\fig4_qft__qft_20__g20__dasatom__standalone__native__r3\\attempt_01\\attempt_record.json",
+        "sha256": "ca6234de4b6613f7aa8855dc0e6638c0e2b1d6dc77f9181d81f9218088e11cb7",
+        "status": "invalid",
+        "repetition": 3
+      }
+    ],
+    "retry_timeout_seconds": null,
+    "fresh_corrected_compile_timing_required_if_route_changes": true,
+    "frozen_input": "frozen/benchmarks/current_baseline_v1/normalized/fig4_qft/qft_20_native.qasm",
+    "frozen_native_records": [
+      "references/runs/current_baseline/study_v1/attempts/fig4_qft__qft_20__g20__dasatom__standalone__native__r1/attempt_01/attempt_record.json",
+      "references/runs/current_baseline/study_v1/attempts/fig4_qft__qft_20__g20__dasatom__standalone__native__r2/attempt_01/attempt_record.json",
+      "references/runs/current_baseline/study_v1/attempts/fig4_qft__qft_20__g20__dasatom__standalone__native__r3/attempt_01/attempt_record.json"
+    ],
+    "timeout_seconds": 1800
+  },
+  "source": {
+    "kind": "dasatom_trace",
+    "worker": "C:\\Users\\hp\\Documents\\BTP\\btp_work\\runs\\phase03_matched_benchmark_v1\\source_observations\\fig4_qft__qft_20__g20__dasatom__standalone__native\\attempt_01\\worker",
+    "source_record": "C:\\Users\\hp\\Documents\\BTP\\btp_work\\runs\\phase01_frozen_baseline_v1\\measurements\\fig4_qft__qft_20__g20__dasatom__standalone__native\\attempt_01\\attempt_record.json",
+    "source_record_sha256": "155c5e3c7d15f79da37767b960e8b075a9166a39e2a1d5b8c71d009a459b491d",
+    "source_artifact_sha256": {
+      "worker/trace/metadata.json": "29dc46c02f0400483a1fee439c11deefb9233bb9a7d279e57852819057b3ff9e",
+      "worker/trace/events.jsonl": "39cc4f7df4ed69ca72c75ba2533ccf1b8f79c07340a54440d2ab4e7b8ade8187",
+      "worker/result.json": "1787be5f429462cf500b8229bcd8394cdb066b5d64d6f6f3c66e24873843df83",
+      "worker/metrics.json": "1fb3f03da4c8f58969bf0060e248cbad456fe712b5655fde5a55a727dde98ca4",
+      "worker/validation.json": "add1eed19784f054e9cecf07bb58a412a0d7d0c28f131a3dbc6e2c61721d0c4a"
+    }
+  },
+  "original_compile_seconds": 29.669457399999374,
+  "original_timing_scope": "fresh grid/partition/embedding/gate grouping/corrected routing; excludes imports, input parsing, validation and scoring",
+  "geometry": {
+    "rows": 20,
+    "columns": 20,
+    "r_int": 2,
+    "r_blk": 4,
+    "spacing_um": 3.0
+  },
+  "variants": [
+    "original_phase3"
+  ],
+  "native": null,
+  "raw_input": "C:\\Users\\hp\\Documents\\BTP\\btp_work\\runs\\phase03_matched_benchmark_v1\\frozen\\benchmarks\\current_baseline_v1\\raw\\fig4_qft\\qft_20.qasm"
+}

@@ -1,0 +1,11 @@
+{
+  "id": "workloads__qaoa_n12_p2_g912__s41__dasatom_corrected",
+  "suite": "workloads",
+  "kind": "dasatom",
+  "case_id": "qaoa_n12_p2_g912",
+  "case_path": "runs\\remaining_experiments_6h_v2\\inputs\\qaoa_n12_p2_g912\\case.json",
+  "seed": 41,
+  "variant": "dasatom_corrected",
+  "grid": 11,
+  "timeout": 60
+}

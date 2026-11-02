@@ -1,0 +1,36 @@
+{
+  "started_and_verified_utc": "2026-10-29T19:38:41.868119+00:00",
+  "controller_lock_held": true,
+  "progress": {
+    "state": "running",
+    "controller_pid": 17248,
+    "started_utc": "2026-10-29T19:37:48.041095+00:00",
+    "execution_revision": "execution_optimization_v1",
+    "current_target": "fig4_qft__qft_15__g11__rft__7_dynamic_slot_01q_move__native",
+    "updated_utc": "2026-10-29T19:38:41.718862+00:00",
+    "worker_pid": 4148,
+    "wall_seconds": 38.87666470001568,
+    "peak_working_set_bytes": 183369728,
+    "stage": "repair",
+    "current_variant": "composite_bottleneck_expanded__standard"
+  },
+  "summary": {
+    "updated_utc": "2026-10-29T19:38:41.316016+00:00",
+    "track": "phase6",
+    "targets": 66,
+    "target_status_counts": {
+      "ok": 4,
+      "pending": 62
+    },
+    "rows": 528,
+    "accepted_rows": 32,
+    "matrix_complete": false,
+    "baseline_modified": false,
+    "native_physical_validity_claimed": false,
+    "best_k_selected": false,
+    "model_profile": "extended_no_cooling.v1"
+  },
+  "study": "C:\\Users\\hp\\Documents\\BTP\\btp_work\\runs\\phase06_matched_benchmark_v2",
+  "original_v1_preserved": true,
+  "verification_sha256": "75f9334f84ca0d2a5b5b6e383b6e95110b9dc54c52d38afebb0de8f8dc5703fd"
+}

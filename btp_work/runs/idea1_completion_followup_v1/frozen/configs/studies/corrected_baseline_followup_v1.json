@@ -1,0 +1,27 @@
+{
+  "schema": "corrected-baseline.followup.v1",
+  "decision": "reports/decisions/D004_REPAIR_FAILED_BASELINES.md",
+  "status": "queued_requires_implementation",
+  "start_after": "Current native campaign finishes and its terminal attempts/omissions are frozen",
+  "native_study": "runs/current_baseline/study_v1",
+  "native_outputs_mutable": false,
+  "vendor_snapshots_mutable": false,
+  "proposed_heuristics_enabled": false,
+  "known_failure_classes": [
+    "Occupied destination at an intermediate DasAtom batch unload",
+    "Declared inactive qubits omitted from the native DasAtom register"
+  ],
+  "selection": "All invalid cases, related unsupported-register cases, and additional causes from the final audit; deduplicate configurations for diagnosis",
+  "measurement_scope": "Fresh corrected compilation measurements; full affected-algorithm target matrix after fixes, with timing repetitions and previously valid regression cases",
+  "comparison_policy": "Uniform correctness fixes within each corrected baseline; explicit input/register/hardware matches; retain invalid native rows separately",
+  "conservative_staging_control_is_complete_repair_campaign": false,
+  "automatic_repair_execution_implemented": false,
+  "mandatory_validation": [
+    "Gate identity, dependency order and declared register",
+    "Occupancy, bounds, gate geometry and AOD coupling",
+    "Transfers, resource timing and continuous paths within declared coverage",
+    "Tiny full-original-circuit equivalence with explicit restoration/permutation",
+    "Previous successes remain regression-tested",
+    "All unsupported or failed corrections remain reported"
+  ]
+}

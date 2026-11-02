@@ -1,0 +1,8 @@
+{
+  "independent_valid_schedule_replays": 7,
+  "all_passed": true,
+  "reused_control_E_matches_new_uniform": true,
+  "deliberate_timeout_retained": true,
+  "finite_bank_failure_retained": true,
+  "no_analysis_performed": true
+}

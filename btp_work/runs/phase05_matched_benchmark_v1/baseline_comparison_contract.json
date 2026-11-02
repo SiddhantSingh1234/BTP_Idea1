@@ -1,0 +1,22 @@
+{
+  "baseline": "RFT pinned native7 reused; DasAtom pinned with declared discrete correctness repairs",
+  "rft_targets": 66,
+  "dasatom_targets": 66,
+  "inputs": 27,
+  "phase04_comparison": "Run the same 66 RFT input/grid targets on a separately frozen completed Phase04 implementation. DasAtom is the unchanged anchor.",
+  "seed": 42,
+  "hash_seed": 0,
+  "threads": 1,
+  "register": "full declared register",
+  "r_int_grid_units": 2,
+  "r_blk_grid_units": 4,
+  "rft_timer": "original run_benchmark timed region; excludes preprocessing/offline layout/warmup/imports/scoring",
+  "rft_warmup": "one upstream reference warmup, preserve exact original initial layout and options",
+  "dasatom_timer": "fresh corrected pipeline, grid/partition/embedding/gate grouping/repair; no warmup; different from RFT timer",
+  "phase04_timer_requirement": "Match original RFT timed region, include new event index and heuristic construction/calls; do not compare unlike timer scopes",
+  "timing_controls": "Retain all RFT samples/range/CV. Before claiming speedups check host drift with small paired unchanged-RFT controls; no whole-matrix blanket repeats.",
+  "quality_scoring": "Same frozen trace legacy scorer and profile for before/after. Extended model scores must use one separately frozen common profile.",
+  "physical_coverage": "Known discrete constraints checked. Native minimum trajectory clearance/calibrated fidelity remain unsupported.",
+  "paper_revision_evidence": "unresolved",
+  "heuristics_in_baseline": false
+}

@@ -1,0 +1,12 @@
+{
+  "checks": {
+    "missing_receipt_preserves_status": true,
+    "matching_receipt_accepted": true,
+    "results_tamper_rejected": true,
+    "manifest_tamper_rejected": true,
+    "gate_tamper_rejected": true,
+    "record_tamper_rejected": true
+  },
+  "passed": true,
+  "tests": 6
+}

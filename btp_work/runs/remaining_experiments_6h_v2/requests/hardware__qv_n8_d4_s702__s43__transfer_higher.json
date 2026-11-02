@@ -1,0 +1,13 @@
+{
+  "id": "hardware__qv_n8_d4_s702__s43__transfer_higher",
+  "suite": "hardware",
+  "kind": "compile",
+  "case_id": "qv_n8_d4_s702",
+  "case_path": "runs\\remaining_experiments_6h_v2\\inputs\\qv_n8_d4_s702\\case.json",
+  "seed": 43,
+  "variant": "transfer_higher",
+  "timeout": 18,
+  "grid": 11,
+  "reference_id": "reference__qv_n8_d4_s702__s43",
+  "profile": "transfer_higher"
+}

@@ -1,0 +1,25 @@
+{
+  "schema": "phase03-execution-optimization.v1",
+  "created_utc": "2026-10-28T21:59:41.446205+00:00",
+  "parent_manifest_sha256": "53d32398ed48187eab01c0b77f41e5b57f48ce23f82ded8a02a6b6c32fd880d7",
+  "files": {
+    "tools/model_comparison.py": "caf2beb9b74def71012d73dc1a1846ce1cd8a955da94fa08b1d205d153c8171c",
+    "tools/model_comparison_worker.py": "457ee86105288cb4a2e79e6af57cfd62cd41b6212ad59a5f2fcfc50199a4f32c",
+    "tools/run_paper_focus.py": "8eaf0a44bfb38fc240316c2103ab55c0658133ad46f7c90f55106a1830a61723",
+    "tools/baseline_campaign.py": "4800454f6c620cc9460983a217dc2efd77db6a5105d561f490e698c2df13ecc8"
+  },
+  "scientific_code_root": "C:\\Users\\hp\\Documents\\BTP\\btp_work\\runs\\phase03_matched_benchmark_v1\\frozen",
+  "changes": [
+    "Complete-trace-hash reuse of identical validation and legacy metrics within one score",
+    "Previously tested suspended-root Windows launcher"
+  ],
+  "unchanged": [
+    "All original frozen comparison files",
+    "Phase01 baseline and traces",
+    "Physics profile and equations",
+    "Independent transformed-schedule validation",
+    "Input matrix, seeds, geometry, timeout and memory limits",
+    "Serial execution and wait for Phase01 timing measurements"
+  ],
+  "phase3_compiler_execution": false
+}

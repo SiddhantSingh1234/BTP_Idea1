@@ -1,0 +1,92 @@
+{
+  "cells": [
+    {
+      "case": "qaoa_n6_p2_g701",
+      "seed": 41
+    },
+    {
+      "case": "qaoa_n6_p2_g701",
+      "seed": 42
+    },
+    {
+      "case": "qaoa_n6_p2_g701",
+      "seed": 43
+    },
+    {
+      "case": "qaoa_n6_p2_g701",
+      "seed": 44
+    },
+    {
+      "case": "qaoa_n6_p2_g701",
+      "seed": 45
+    },
+    {
+      "case": "qv_n6_d4_s701",
+      "seed": 41
+    },
+    {
+      "case": "qv_n6_d4_s701",
+      "seed": 42
+    },
+    {
+      "case": "qv_n6_d4_s701",
+      "seed": 43
+    },
+    {
+      "case": "qv_n6_d4_s701",
+      "seed": 44
+    },
+    {
+      "case": "qv_n6_d4_s701",
+      "seed": 45
+    },
+    {
+      "case": "qaoa_n8_p2_g702",
+      "seed": 41
+    },
+    {
+      "case": "qaoa_n8_p2_g702",
+      "seed": 42
+    },
+    {
+      "case": "qaoa_n8_p2_g702",
+      "seed": 43
+    },
+    {
+      "case": "qaoa_n8_p2_g702",
+      "seed": 44
+    },
+    {
+      "case": "qaoa_n8_p2_g702",
+      "seed": 45
+    },
+    {
+      "case": "qv_n8_d4_s702",
+      "seed": 41
+    },
+    {
+      "case": "qv_n8_d4_s702",
+      "seed": 42
+    },
+    {
+      "case": "qv_n8_d4_s702",
+      "seed": 43
+    },
+    {
+      "case": "qv_n8_d4_s702",
+      "seed": 44
+    },
+    {
+      "case": "qv_n8_d4_s702",
+      "seed": 45
+    }
+  ],
+  "worker_sha256": "3a9bf1bb2fb70b5d585d4f998f38b7666e5cc0034042691ad27e91117183be00",
+  "router_sha256": "332a6ad43d994b0712eaef058706ee066b903a0139550a806524091df4307c60",
+  "scorer_sha256": "09ad867633504ee9cf8535c5e8352207892bb3f3befa7d87a10e779d82130da6",
+  "worker_wall_seconds": 120,
+  "campaign_wall_seconds": 1500,
+  "memory_bytes": 4294967296,
+  "geometry": "identical declared two-plane hardware/profile as factorial",
+  "timing": "DasAtom compile excludes validation/scoring; do not directly compare to factorial end-to-end speed"
+}

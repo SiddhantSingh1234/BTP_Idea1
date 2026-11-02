@@ -1,0 +1,12 @@
+# Related-work and novelty check, 31 October 2026
+
+This update qualifies the final report; it does not silently change the frozen experiment.
+
+- [Routing-Aware Placement for Zoned Neutral Atom-based Quantum Computing, 2025](https://arxiv.org/abs/2505.22715v1) couples placement to compatible movement groups through search. Routing-aware placement is established prior work. This project's individually addressed RFT integration, fixed predictors and complete-replay repair should be described specifically, without claiming invention of the general idea.
+- [ARGON, 2026](https://arxiv.org/abs/2607.21216v1) describes offline legal-layout libraries, learned temporal layout evaluation and heuristic routing. Future-aware layout/routing is therefore not unique to this project. The learned planner and its reported architecture/benchmarks have not been reproduced here.
+- [Application-Specific Layout and Hub-Assisted Shuttling, 2026](https://arxiv.org/abs/2605.29964v1) discusses empty transit traps and separates routing-dominated from routing-free workloads. That distinction motivates reporting conditional benefits and null cases; its hardware and reported gains are not this project's results.
+- The pinned RFT source already contains future-biased assignment switches and multi-partner occurrence information. The implemented extension is an explicit next-h-event index with repeated-partner semantics, an orientation-corrected assignment formulation and conservative repair whose full-model effect is independently checked. No claim that the original compiler had no future information is defensible.
+
+Method sources: [Qiskit1.3 quantum-volume generator](https://eu-de.quantum.cloud.ibm.com/docs/api/qiskit/1.3/qiskit.circuit.library.quantum_volume) defines the Haar-random two-qubit model used in the new study. The [rustworkx VF2 API](https://www.rustworkx.org/dev/apiref/rustworkx.vf2_mapping.html) documents search controls, but the Idea2 brief additionally inspects the installed 0.15.1 signature; a newer web API is not assumed to be the pinned runtime.
+
+These are primary-source abstract/method checks, not an exhaustive systematic literature review. Exact source versions and retrieval date are stated. Local supplied manuscripts retain their own provenance. No cross-architecture fidelity or speedup number is imported as a local result, and no universal novelty, optimality or superiority claim is made.

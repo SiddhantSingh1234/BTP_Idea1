@@ -1,0 +1,28 @@
+{
+  "accepted_phase05_gate": "reports/phase_05/gate_02.json",
+  "phase05_algorithm_configs_tests_unchanged": true,
+  "preexisting_external_changes": [
+    {
+      "path": "tools/model_comparison.py",
+      "phase05_starting_sha256": "5e0116722e433fea12c23de2fe32593169b380596627761d96c860eedefcd74a",
+      "phase06_starting_sha256": "27367091b36d38ca7669dfd04a6e187d30a7b6a5638ca32b332ad001a70cbe64",
+      "phase06_modified": false,
+      "observed_change": "pre-existing benchmark execution update"
+    },
+    {
+      "path": "tools/model_comparison_worker.py",
+      "phase05_starting_sha256": "3b514b4f05a593dd20dc34779ab286611f90a379c05304562a0617a378d9363d",
+      "phase06_starting_sha256": "fbcb4022546880a43349b5ba7efc01cbf6fd623b1d6d6c71f0d5d34caa28f613",
+      "phase06_modified": false,
+      "observed_change": "pre-existing benchmark execution update"
+    },
+    {
+      "path": "tools/Start-ModelComparison.ps1",
+      "phase05_starting_sha256": "4fca4feb026f12348a4ee6f5d033a13027300d18ef940b6cb70594d818a7a2ba",
+      "phase06_starting_sha256": "8ffc0e30cde0713745cac226bc78a78f4e532c2d0250b4397fd9df1e919e06b3",
+      "phase06_modified": false,
+      "observed_change": "pre-existing benchmark execution update"
+    }
+  ],
+  "historical_gates_rewritten": false
+}

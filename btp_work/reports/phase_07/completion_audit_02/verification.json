@@ -1,0 +1,24 @@
+{
+  "status": "ok",
+  "study": "runs\\remaining_experiments_6h_v2",
+  "results_sha256": "1eff55f7739639b832fe504cf3b2ea9f479a76a045208aef76abd29b485d60fc",
+  "manifest_sha256": "847df50d2f72fa5c8502690c640917bb2f4f63337c3a543924be1773331718bb",
+  "planned_cells": 529,
+  "status_counts": {
+    "reused_quality": 24,
+    "ok": 470,
+    "unsupported": 5,
+    "timeout": 30
+  },
+  "all_cells_terminal": true,
+  "distinct_final_schedules_independently_replayed": 471,
+  "accepted_rows": 494,
+  "frozen_files_verified": 99,
+  "inputs_verified": 75,
+  "worker_artifacts_verified": 6370,
+  "worker_artifact_bytes_streamed": 14747035258,
+  "repair_trials_record_assertions": 96,
+  "strict_commits_record_assertions": 11,
+  "coverage_limit": "Common checker and evaluator replay of every final schedule; no recompile of every rejected repair proposal; no device-calibrated fidelity",
+  "elapsed_seconds": 648.2981167999678
+}

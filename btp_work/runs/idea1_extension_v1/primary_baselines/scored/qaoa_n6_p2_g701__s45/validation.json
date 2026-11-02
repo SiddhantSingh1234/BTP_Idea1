@@ -1,0 +1,76 @@
+{
+  "status": "ok",
+  "structural_valid": true,
+  "violations": [],
+  "coverage": {
+    "checked": [
+      "CZ_gate_identity_and_dependencies",
+      "endpoint_grid_bounds",
+      "final_mapping",
+      "gate_geometry",
+      "logical_carrier_mapping"
+    ],
+    "unsupported": [],
+    "not_applicable": [
+      "unintended_global_pulses"
+    ]
+  },
+  "fully_validated_within_model": true,
+  "source_physical_evidence_complete": false,
+  "unresolved_coincident_sites": [],
+  "model_assumptions": [
+    "SLM-to-AOD-to-SLM for nonzero movers; one concurrent load and unload stage per batch",
+    "Shared normalized linear progress; times derived from declared profile, not observed",
+    "NEW Phase04 testing geometry: separate SLM/AOD planes with one-spacing clearance, ordinary trap-transfer primitives",
+    "Shared single-AOD progress; all policies use identical geometry; no measured native plane separation is claimed"
+  ],
+  "semantics": {
+    "level": "exhaustive_CZ_basis_phases_with_final_permutation",
+    "full_original_circuit_checked": false,
+    "physical_output_slot_to_logical_qubit": [
+      0,
+      2,
+      3,
+      5,
+      4,
+      1
+    ],
+    "basis_states": 64,
+    "equivalent": true
+  },
+  "final_positions": {
+    "a0": [
+      0,
+      0
+    ],
+    "a1": [
+      1,
+      2
+    ],
+    "a2": [
+      0,
+      1
+    ],
+    "a3": [
+      0,
+      2
+    ],
+    "a4": [
+      1,
+      1
+    ],
+    "a5": [
+      1,
+      0
+    ]
+  },
+  "final_logical_mapping": {
+    "a0": 0,
+    "a1": 1,
+    "a2": 2,
+    "a3": 3,
+    "a4": 4,
+    "a5": 5
+  },
+  "observed_gate_count": 36
+}

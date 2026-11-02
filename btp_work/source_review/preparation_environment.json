@@ -1,0 +1,8 @@
+{
+  "purpose": "Document extraction and planning verification only",
+  "python": "3.12.10",
+  "pypdf": "6.21.2",
+  "fonttools": "4.67.0",
+  "portable_runtime_location": ".research-tools/python",
+  "compiler_environment_installed": true
+}

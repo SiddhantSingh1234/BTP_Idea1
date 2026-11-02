@@ -1,0 +1,44 @@
+{
+  "status": "ok",
+  "observations": [
+    {
+      "qubits": 65,
+      "CZ": 4256,
+      "prefix_boundaries": 1141,
+      "completed_id_occurrences": 2401179,
+      "pending_id_occurrences": 2454917,
+      "total_gate_id_occurrences_in_prefix_states": 4856096,
+      "P_times_CZ": 4856096,
+      "compilation_json_bytes": 258488926,
+      "file_sha256": "a54a33fe9273b27512162d8793fbf2bf84e94ec6e98506bd9fb43e2d180a25ee",
+      "path": "runs\\remaining_experiments_6h_v2\\measurements\\scale__qft_65__s42__proposed_small\\attempt_01\\worker\\baseline\\compilation.json"
+    },
+    {
+      "qubits": 80,
+      "CZ": 6440,
+      "prefix_boundaries": 1640,
+      "completed_id_occurrences": 5325867,
+      "pending_id_occurrences": 5235733,
+      "total_gate_id_occurrences_in_prefix_states": 10561600,
+      "P_times_CZ": 10561600,
+      "compilation_json_bytes": 480135860,
+      "file_sha256": "3f4169d5a42aff34aa5d5212e54c4451c430246244cd59141ef19d750b9af062",
+      "path": "runs\\remaining_experiments_6h_v2\\measurements\\scale__qft_80__s42__proposed_small\\attempt_01\\worker\\baseline\\compilation.json"
+    },
+    {
+      "qubits": 100,
+      "CZ": 10050,
+      "prefix_boundaries": 2451,
+      "completed_id_occurrences": 12666678,
+      "pending_id_occurrences": 11965872,
+      "total_gate_id_occurrences_in_prefix_states": 24632550,
+      "P_times_CZ": 24632550,
+      "compilation_json_bytes": 993066271,
+      "file_sha256": "4a3a1d253cfdc3fa963667f03ee8a3abb013cc58c83b0386a243ee8ac4fdd2a6",
+      "path": "runs\\remaining_experiments_6h_v2\\measurements\\scale__qft_100__s42__proposed_small\\attempt_01\\worker\\baseline\\compilation.json"
+    }
+  ],
+  "script_sha256": "bff5e16e6af01a60ec56dcb8575de0c174a60aa42ef379fa31d3b18af193085b",
+  "elapsed_seconds": 19.618399600032717,
+  "conclusion": "This exact snapshot representation repeats P*CZ gate IDs; sparse event-index O(N+CZ) does not imply whole compiler linear memory. Not a lower bound for a redesigned compiler."
+}

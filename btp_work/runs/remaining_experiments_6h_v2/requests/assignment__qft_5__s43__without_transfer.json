@@ -1,0 +1,13 @@
+{
+  "id": "assignment__qft_5__s43__without_transfer",
+  "suite": "assignment",
+  "kind": "compile",
+  "case_id": "qft_5",
+  "case_path": "runs\\remaining_experiments_6h_v2\\inputs\\qft_5\\case.json",
+  "seed": 43,
+  "variant": "without_transfer",
+  "timeout": 18,
+  "grid": 11,
+  "reference_id": "reference__qft_5__s43",
+  "remove_term": "transfer"
+}

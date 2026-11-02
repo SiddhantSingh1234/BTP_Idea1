@@ -1,0 +1,54 @@
+{
+  "target_id": "hardware__cooling_b2_t15",
+  "command": [
+    "C:\\Users\\hp\\Documents\\BTP\\btp_work\\.venv\\Scripts\\python.exe",
+    "-B",
+    "-X",
+    "utf8",
+    "C:\\Users\\hp\\Documents\\BTP\\btp_work\\runs\\remaining_experiments_6h_v2\\frozen\\tools\\bounded_experiment_worker.py",
+    "--input",
+    "C:\\Users\\hp\\Documents\\BTP\\btp_work\\runs\\remaining_experiments_6h_v2\\requests\\hardware__cooling_b2_t15.json",
+    "--grid",
+    "8",
+    "--seed",
+    "42",
+    "--out",
+    "C:\\Users\\hp\\Documents\\BTP\\btp_work\\runs\\remaining_experiments_6h_v2\\measurements\\hardware__cooling_b2_t15\\attempt_01\\worker"
+  ],
+  "worker_sha256": "eef102d4fa88d37f2f4df0fd6efbdb8010a3f179331b74ba4599660525cdde88",
+  "router_sha256": "6b26c4db8213ac36ee43a860f4b46ad566cc7126c105a875631584f766e7e458",
+  "input_sha256": "00f955b2b2e5afc9fdc6f667dda4b8cf1606fd89ee2916175a8aa22198477021",
+  "timeout_seconds": 18,
+  "memory_limit_bytes": 4294967296,
+  "attempt": 1,
+  "launcher_protocol": "windows-suspended-job-v1",
+  "launcher_sha256": "8eaf0a44bfb38fc240316c2103ab55c0658133ad46f7c90f55106a1830a61723",
+  "status": "unsupported",
+  "process_exit_code": 2,
+  "process_wall_seconds": 0.25134519999846816,
+  "peak_working_set_bytes": 606580736,
+  "memory_definition": "observed sum of family peak working sets; not allocation-proof hard cap",
+  "monitored_process_ids": [
+    6728,
+    7928,
+    9208,
+    21876,
+    30424,
+    30888,
+    34620,
+    34776,
+    35740
+  ],
+  "result": {
+    "status": "unsupported",
+    "accepted_schedule": false,
+    "error": "Finite prepared cold banks exhausted; no implicit refill",
+    "scope": "finite resource/cooling transform of a fixed synthetic route, not a compiler gain"
+  },
+  "worker_artifact_sha256": {
+    "worker/resolved_profile.json": "5a4814453ac606995bdcc4356702ac5c1187c7f97549cbfdb9d7c45dc7ec063a",
+    "worker/result.json": "0a9a68ed1d6811e9e225c7000bb300221bccd89cf6582bf43d6c35ce2897c6e3"
+  },
+  "monitor_error": null,
+  "record_path": "runs\\remaining_experiments_6h_v2\\measurements\\hardware__cooling_b2_t15\\attempt_01\\attempt_record.json"
+}

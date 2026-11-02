@@ -1,0 +1,323 @@
+{
+  "job": {
+    "id": "tableII__rd53_251__g35__dasatom__standalone__native__r2",
+    "priority": 0,
+    "algorithm": "dasatom",
+    "variant": "standalone",
+    "family": "tableII",
+    "case": "rd53_251",
+    "grid": 35,
+    "register_policy": "native",
+    "repetition": 2,
+    "seed": 42,
+    "routing_seed": null,
+    "raw_path": "benchmarks/current_baseline_v1/raw/tableII/rd53_251.qasm",
+    "raw_sha256": "b248142a52f8dcf4857c0fafcc59bcf5b15beaeb769f6dfbb05481f6ad7e2b9a",
+    "expected_normalized_sha256": "880fc29a1baf26f71c87f7ad249e6367ec676a6818704cebf91c6bbcb2392b49"
+  },
+  "attempt": 1,
+  "command": [
+    "C:\\Users\\hp\\Documents\\BTP\\btp_work\\.venv\\Scripts\\python.exe",
+    "-X",
+    "utf8",
+    "C:\\Users\\hp\\Documents\\BTP\\btp_work\\tools\\phase00_smoke.py",
+    "--algorithm",
+    "dasatom",
+    "--case",
+    "file",
+    "--input",
+    "C:\\Users\\hp\\Documents\\BTP\\btp_work\\benchmarks\\current_baseline_v1\\raw\\tableII\\rd53_251.qasm",
+    "--grid",
+    "35",
+    "--register-policy",
+    "native",
+    "--seed",
+    "42",
+    "--out",
+    "runs/current_baseline/study_v1/attempts/tableII__rd53_251__g35__dasatom__standalone__native__r2/attempt_01/worker"
+  ],
+  "started_utc": "2026-10-28T05:43:54.472315+00:00",
+  "timeout_seconds": 300,
+  "memory_limit_bytes": 4294967296,
+  "worker_sha256": "5e745542ebbbb7ffcf1d8a60632c684d40533f20015defd941cccd107cf05742",
+  "ended_utc": "2026-10-28T05:44:01.416672+00:00",
+  "status": "invalid",
+  "diagnostic_status": "invalid",
+  "process_exit_code": 1,
+  "process_wall_seconds": 6.941546100002597,
+  "peak_working_set_bytes": 161296384,
+  "monitored_process_ids": [
+    2108,
+    8284
+  ],
+  "memory_measurement": "maximum observed sum of individual process-family peak working sets; includes venv redirector and real interpreter",
+  "result_path": "runs/current_baseline/study_v1/attempts/tableII__rd53_251__g35__dasatom__standalone__native__r2/attempt_01/worker/result.json",
+  "stage_at_end": {
+    "stage": "boundary_replay",
+    "wall_time": 1793166241.0579062
+  },
+  "worker_result": {
+    "algorithm": "dasatom",
+    "case": "file",
+    "status": "invalid",
+    "paper_reproduction": false,
+    "rft_revision": "3d1f09233c2acd357fd9fbfad1b5300a921d301a",
+    "dasatom_revision": "73a6bdf0fd200b2733745211eaf2e0c1e17f496a",
+    "python": "3.13.2 (main, Mar 17 2025, 21:04:07) [MSC v.1943 64 bit (AMD64)]",
+    "seed": 42,
+    "routing_seed": null,
+    "hash_seed": "0",
+    "threads": 1,
+    "geometry": {
+      "rows": 35,
+      "columns": 35,
+      "r_int": 2,
+      "r_blk": 4
+    },
+    "normalization_policy": "native",
+    "command": [
+      "C:\\Users\\hp\\Documents\\BTP\\btp_work\\.venv\\Scripts\\python.exe",
+      "C:\\Users\\hp\\Documents\\BTP\\btp_work\\tools\\phase00_smoke.py",
+      "--algorithm",
+      "dasatom",
+      "--case",
+      "file",
+      "--input",
+      "C:\\Users\\hp\\Documents\\BTP\\btp_work\\benchmarks\\current_baseline_v1\\raw\\tableII\\rd53_251.qasm",
+      "--grid",
+      "35",
+      "--register-policy",
+      "native",
+      "--seed",
+      "42",
+      "--out",
+      "runs/current_baseline/study_v1/attempts/tableII__rd53_251__g35__dasatom__standalone__native__r2/attempt_01/worker"
+    ],
+    "output_directory": "runs\\current_baseline\\study_v1\\attempts\\tableII__rd53_251__g35__dasatom__standalone__native__r2\\attempt_01\\worker",
+    "input_path": "benchmarks/current_baseline_v1/raw/tableII/rd53_251.qasm",
+    "input_sha256": "b248142a52f8dcf4857c0fafcc59bcf5b15beaeb769f6dfbb05481f6ad7e2b9a",
+    "normalized_sha256": "880fc29a1baf26f71c87f7ad249e6367ec676a6818704cebf91c6bbcb2392b49",
+    "preprocessing_seconds": 0.03481810000084806,
+    "input_declared_qubits": 16,
+    "active_prefix_qubits": 8,
+    "num_qubits": 16,
+    "num_cz": 564,
+    "logical_layers": 492,
+    "global_random_state_before": "a52169fac48aa2d80acadd41f776ce38656ab70adc3b32c80c1fb1f0ee56b71f",
+    "native_metrics": {
+      "adapter_pipeline_seconds": 3.0791867000007187,
+      "timing_scope": "standalone loading normalized CZ input, DAG, grid, partition, embedding, routing, grouping; excludes imports/normalization/scoring/logging",
+      "native_score_tuple_fields": [
+        "idle_us",
+        "legacy_fidelity",
+        "movement_fidelity",
+        "runtime_us",
+        "transfer_alias",
+        "atom_moves",
+        "batch_max_distance_um"
+      ],
+      "native_score": [
+        11596.85713712652,
+        0.05872998724838601,
+        0.9990998006613232,
+        1463.707142140815,
+        60,
+        19,
+        82.99892817744815
+      ],
+      "native_num_qubits": 8,
+      "partitions": 4,
+      "actual_grid": 35,
+      "helper_file": "vendor\\DasAtom-73a6bdf0fd200b2733745211eaf2e0c1e17f496a\\DasAtom_fun.py",
+      "router_file": "vendor\\DasAtom-73a6bdf0fd200b2733745211eaf2e0c1e17f496a\\Enola\\route.py"
+    },
+    "global_random_state_after": "a52169fac48aa2d80acadd41f776ce38656ab70adc3b32c80c1fb1f0ee56b71f",
+    "trace_sha256": "a7f4f8dd2558efe1f6cd997aab97954e32c8885b971f2eb640d0eb125962b197",
+    "boundary_replay": {
+      "valid_within_coverage": false,
+      "errors": [
+        "Duplicate occupancy at movement batch endpoint",
+        "Duplicate occupancy at movement batch endpoint",
+        "Duplicate occupancy at movement batch endpoint",
+        "Duplicate occupancy at movement batch endpoint",
+        "Duplicate occupancy at movement batch endpoint",
+        "Duplicate occupancy at movement batch endpoint",
+        "Duplicate occupancy at movement batch endpoint",
+        "Duplicate occupancy at movement batch endpoint",
+        "Duplicate occupancy at movement batch endpoint",
+        "Not all declared qubits are represented"
+      ],
+      "CZ_count": 564,
+      "gate_cycles": 564,
+      "movement_batches": 15,
+      "final_positions": {
+        "0": [
+          1,
+          1
+        ],
+        "1": [
+          2,
+          0
+        ],
+        "2": [
+          1,
+          0
+        ],
+        "3": [
+          0,
+          0
+        ],
+        "4": [
+          0,
+          3
+        ],
+        "5": [
+          0,
+          4
+        ],
+        "6": [
+          0,
+          2
+        ],
+        "7": [
+          0,
+          1
+        ]
+      },
+      "coverage": [
+        "gate multiset",
+        "per-qubit dependency order",
+        "initial/batch-end occupancy",
+        "gate geometry"
+      ],
+      "unsupported": [
+        "continuous collision clearance",
+        "trap ownership/transfers",
+        "timed resources",
+        "full original unitary"
+      ]
+    },
+    "legacy_counts": {
+      "Num Gate Cycles": 564,
+      "Num Movement Ops": 15,
+      "Num Moves": 19,
+      "Total Move Distance": 82.99892817744815,
+      "Num CZ Gates (from log)": 564
+    },
+    "shared_legacy_score": {
+      "Fidelity (DasAtom Model)": 0.05827330010799134,
+      "Fidelity (Realistic)": 0.054878079831108706,
+      "Movement Fidelity": 0.9990998006613232,
+      "Num Movement Ops": 15,
+      "Num Transferred Qubits": 60,
+      "Num Moves": 19,
+      "Total Move Distance": 82.99892817744815,
+      "Num Gate Cycles": 564,
+      "Total_T (us)": 1463.7071421408148,
+      "Idle Time (us)": 23306.514274253037
+    },
+    "native_register_replay": {
+      "valid_within_coverage": false,
+      "errors": [
+        "Duplicate occupancy at movement batch endpoint",
+        "Duplicate occupancy at movement batch endpoint",
+        "Duplicate occupancy at movement batch endpoint",
+        "Duplicate occupancy at movement batch endpoint",
+        "Duplicate occupancy at movement batch endpoint",
+        "Duplicate occupancy at movement batch endpoint",
+        "Duplicate occupancy at movement batch endpoint",
+        "Duplicate occupancy at movement batch endpoint",
+        "Duplicate occupancy at movement batch endpoint"
+      ],
+      "CZ_count": 564,
+      "gate_cycles": 564,
+      "movement_batches": 15,
+      "final_positions": {
+        "0": [
+          1,
+          1
+        ],
+        "1": [
+          2,
+          0
+        ],
+        "2": [
+          1,
+          0
+        ],
+        "3": [
+          0,
+          0
+        ],
+        "4": [
+          0,
+          3
+        ],
+        "5": [
+          0,
+          4
+        ],
+        "6": [
+          0,
+          2
+        ],
+        "7": [
+          0,
+          1
+        ]
+      },
+      "coverage": [
+        "gate multiset",
+        "per-qubit dependency order",
+        "initial/batch-end occupancy",
+        "gate geometry"
+      ],
+      "unsupported": [
+        "continuous collision clearance",
+        "trap ownership/transfers",
+        "timed resources",
+        "full original unitary"
+      ]
+    },
+    "native_N_shared_score": {
+      "Fidelity (DasAtom Model)": 0.05872998724838601,
+      "Fidelity (Realistic)": 0.05530815867170937,
+      "Movement Fidelity": 0.9990998006613232,
+      "Num Movement Ops": 15,
+      "Num Transferred Qubits": 60,
+      "Num Moves": 19,
+      "Total Move Distance": 82.99892817744815,
+      "Num Gate Cycles": 564,
+      "Total_T (us)": 1463.7071421408148,
+      "Idle Time (us)": 11596.857137126519
+    },
+    "register_policy": {
+      "input_declared_N": 16,
+      "native_N": 8,
+      "behavior": "upstream infers max(two-qubit operand)+1, dropping trailing inactive qubits",
+      "matched_full_register_supported": false
+    },
+    "module_providers": {
+      "compiler_core": "vendor\\NAQC_Compiler-3d1f09233c2acd357fd9fbfad1b5300a921d301a\\src\\compiler_core.py",
+      "benchmark_runner": "vendor\\NAQC_Compiler-3d1f09233c2acd357fd9fbfad1b5300a921d301a\\src\\benchmark_runner.py",
+      "dasatom_instruction_converter": "vendor\\NAQC_Compiler-3d1f09233c2acd357fd9fbfad1b5300a921d301a\\src\\dasatom_instruction_converter.py",
+      "DasAtom_fun": "vendor\\DasAtom-73a6bdf0fd200b2733745211eaf2e0c1e17f496a\\DasAtom_fun.py",
+      "Enola.route": "vendor\\DasAtom-73a6bdf0fd200b2733745211eaf2e0c1e17f496a\\Enola\\route.py"
+    },
+    "packages": {
+      "qiskit": "1.3.1",
+      "numpy": "2.2.2",
+      "scipy": "1.15.1",
+      "networkx": "3.4.2",
+      "rustworkx": "0.15.1",
+      "pandas": "3.1.0"
+    },
+    "planner_input_sha256": "39f685335cab0f04f54a3f48d6d46b839b41d9b84d3e7721753e8ac35239f98a",
+    "legacy_error_terms": {
+      "E_native_CZ": 2.8270735884789775,
+      "E_legacy_idle": 0.015537676182835358,
+      "E_ideal_transfer": 0.0,
+      "underflow": false
+    }
+  }
+}

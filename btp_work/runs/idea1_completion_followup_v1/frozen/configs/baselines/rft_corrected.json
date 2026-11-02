@@ -1,0 +1,16 @@
+{
+  "schema": "phase00.baseline-spec.v1",
+  "execution_ready": false,
+  "new_research_heuristics_enabled": false,
+  "environment_lock": null,
+  "id": "rft_corrected",
+  "revision": null,
+  "status": "not_implemented",
+  "parent_revision": "3d1f09233c2acd357fd9fbfad1b5300a921d301a",
+  "patches_applied": [],
+  "proposed_correctness_repairs": [
+    "materialize saved orientation minimizing full per-slot matrix cost",
+    "reject incomplete/capacity-error schedules instead of scoring error logs as successful output"
+  ],
+  "heuristics": "none authorized in Phase00"
+}

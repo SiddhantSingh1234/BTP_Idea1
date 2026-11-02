@@ -1,0 +1,17 @@
+{
+  "status": "prepared_and_tested_not_started",
+  "planned_cells": 529,
+  "reused_controls": 24,
+  "worker_cap_sum_seconds": 18090,
+  "controller_budget_seconds": 21600.0,
+  "all_frozen_sources_and_inputs_match": true,
+  "source_files": 99,
+  "input_files": 75,
+  "acceptance_groups": 7,
+  "detached_resume_and_idempotence_pass": true,
+  "independent_smoke_replays": 7,
+  "automatic_analysis": false,
+  "report_or_slides": false,
+  "manifest_sha256": "847df50d2f72fa5c8502690c640917bb2f4f63337c3a543924be1773331718bb",
+  "launcher_sha256": "35fe7fed877b722c57a472d1855a53df498c50c67682a9ad0ad1009a04a176c7"
+}

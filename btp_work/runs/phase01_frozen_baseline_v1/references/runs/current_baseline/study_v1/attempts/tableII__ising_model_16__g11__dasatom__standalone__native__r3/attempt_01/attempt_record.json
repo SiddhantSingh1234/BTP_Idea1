@@ -1,0 +1,366 @@
+{
+  "job": {
+    "id": "tableII__ising_model_16__g11__dasatom__standalone__native__r3",
+    "priority": 0,
+    "algorithm": "dasatom",
+    "variant": "standalone",
+    "family": "tableII",
+    "case": "ising_model_16",
+    "grid": 11,
+    "register_policy": "native",
+    "repetition": 3,
+    "seed": 42,
+    "routing_seed": null,
+    "raw_path": "benchmarks/current_baseline_v1/raw/tableII/ising_model_16.qasm",
+    "raw_sha256": "5df63755841609837e60a0be916a1e7d14df881de3445072970e88aeaeb7c4a4",
+    "expected_normalized_sha256": "ffb0e87cd8b524849491b845a86c64eaf65e349cf9d65465aac85feeb0cd45ad"
+  },
+  "attempt": 1,
+  "command": [
+    "C:\\Users\\hp\\Documents\\BTP\\btp_work\\.venv\\Scripts\\python.exe",
+    "-X",
+    "utf8",
+    "C:\\Users\\hp\\Documents\\BTP\\btp_work\\tools\\phase00_smoke.py",
+    "--algorithm",
+    "dasatom",
+    "--case",
+    "file",
+    "--input",
+    "C:\\Users\\hp\\Documents\\BTP\\btp_work\\benchmarks\\current_baseline_v1\\raw\\tableII\\ising_model_16.qasm",
+    "--grid",
+    "11",
+    "--register-policy",
+    "native",
+    "--seed",
+    "42",
+    "--out",
+    "runs/current_baseline/study_v1/attempts/tableII__ising_model_16__g11__dasatom__standalone__native__r3/attempt_01/worker"
+  ],
+  "started_utc": "2026-10-28T06:06:10.081855+00:00",
+  "timeout_seconds": 300,
+  "memory_limit_bytes": 4294967296,
+  "worker_sha256": "5e745542ebbbb7ffcf1d8a60632c684d40533f20015defd941cccd107cf05742",
+  "ended_utc": "2026-10-28T06:06:21.397279+00:00",
+  "status": "ok",
+  "diagnostic_status": "ok",
+  "process_exit_code": 0,
+  "process_wall_seconds": 11.309777399997984,
+  "peak_working_set_bytes": 157024256,
+  "monitored_process_ids": [
+    23908,
+    26544
+  ],
+  "memory_measurement": "maximum observed sum of individual process-family peak working sets; includes venv redirector and real interpreter",
+  "result_path": "runs/current_baseline/study_v1/attempts/tableII__ising_model_16__g11__dasatom__standalone__native__r3/attempt_01/worker/result.json",
+  "stage_at_end": {
+    "stage": "boundary_replay",
+    "wall_time": 1793167580.3149478
+  },
+  "worker_result": {
+    "algorithm": "dasatom",
+    "case": "file",
+    "status": "ok",
+    "paper_reproduction": false,
+    "rft_revision": "3d1f09233c2acd357fd9fbfad1b5300a921d301a",
+    "dasatom_revision": "73a6bdf0fd200b2733745211eaf2e0c1e17f496a",
+    "python": "3.13.2 (main, Mar 17 2025, 21:04:07) [MSC v.1943 64 bit (AMD64)]",
+    "seed": 42,
+    "routing_seed": null,
+    "hash_seed": "0",
+    "threads": 1,
+    "geometry": {
+      "rows": 11,
+      "columns": 11,
+      "r_int": 2,
+      "r_blk": 4
+    },
+    "normalization_policy": "native",
+    "command": [
+      "C:\\Users\\hp\\Documents\\BTP\\btp_work\\.venv\\Scripts\\python.exe",
+      "C:\\Users\\hp\\Documents\\BTP\\btp_work\\tools\\phase00_smoke.py",
+      "--algorithm",
+      "dasatom",
+      "--case",
+      "file",
+      "--input",
+      "C:\\Users\\hp\\Documents\\BTP\\btp_work\\benchmarks\\current_baseline_v1\\raw\\tableII\\ising_model_16.qasm",
+      "--grid",
+      "11",
+      "--register-policy",
+      "native",
+      "--seed",
+      "42",
+      "--out",
+      "runs/current_baseline/study_v1/attempts/tableII__ising_model_16__g11__dasatom__standalone__native__r3/attempt_01/worker"
+    ],
+    "output_directory": "runs\\current_baseline\\study_v1\\attempts\\tableII__ising_model_16__g11__dasatom__standalone__native__r3\\attempt_01\\worker",
+    "input_path": "benchmarks/current_baseline_v1/raw/tableII/ising_model_16.qasm",
+    "input_sha256": "5df63755841609837e60a0be916a1e7d14df881de3445072970e88aeaeb7c4a4",
+    "normalized_sha256": "ffb0e87cd8b524849491b845a86c64eaf65e349cf9d65465aac85feeb0cd45ad",
+    "preprocessing_seconds": 0.08796740000252612,
+    "input_declared_qubits": 16,
+    "active_prefix_qubits": 16,
+    "num_qubits": 16,
+    "num_cz": 150,
+    "logical_layers": 20,
+    "global_random_state_before": "a52169fac48aa2d80acadd41f776ce38656ab70adc3b32c80c1fb1f0ee56b71f",
+    "native_metrics": {
+      "adapter_pipeline_seconds": 0.09978589999809628,
+      "timing_scope": "standalone loading normalized CZ input, DAG, grid, partition, embedding, routing, grouping; excludes imports/normalization/scoring/logging",
+      "native_score_tuple_fields": [
+        "idle_us",
+        "legacy_fidelity",
+        "movement_fidelity",
+        "runtime_us",
+        "transfer_alias",
+        "atom_moves",
+        "batch_max_distance_um"
+      ],
+      "native_score": [
+        290.0,
+        0.4713875936766302,
+        1.0,
+        20.0,
+        0,
+        0,
+        0
+      ],
+      "native_num_qubits": 16,
+      "partitions": 1,
+      "actual_grid": 11,
+      "helper_file": "vendor\\DasAtom-73a6bdf0fd200b2733745211eaf2e0c1e17f496a\\DasAtom_fun.py",
+      "router_file": "vendor\\DasAtom-73a6bdf0fd200b2733745211eaf2e0c1e17f496a\\Enola\\route.py"
+    },
+    "global_random_state_after": "a52169fac48aa2d80acadd41f776ce38656ab70adc3b32c80c1fb1f0ee56b71f",
+    "trace_sha256": "f5f893f7bda2c57c40b80bd0c6d364f40f5fc89cdccca51d7eee3410ad1de470",
+    "boundary_replay": {
+      "valid_within_coverage": true,
+      "errors": [],
+      "CZ_count": 150,
+      "gate_cycles": 100,
+      "movement_batches": 0,
+      "final_positions": {
+        "0": [
+          0,
+          0
+        ],
+        "1": [
+          0,
+          1
+        ],
+        "2": [
+          0,
+          2
+        ],
+        "3": [
+          0,
+          3
+        ],
+        "4": [
+          0,
+          4
+        ],
+        "5": [
+          0,
+          5
+        ],
+        "6": [
+          0,
+          6
+        ],
+        "7": [
+          0,
+          7
+        ],
+        "8": [
+          0,
+          8
+        ],
+        "9": [
+          0,
+          9
+        ],
+        "10": [
+          0,
+          10
+        ],
+        "11": [
+          1,
+          9
+        ],
+        "12": [
+          1,
+          7
+        ],
+        "13": [
+          1,
+          5
+        ],
+        "14": [
+          1,
+          3
+        ],
+        "15": [
+          1,
+          1
+        ]
+      },
+      "coverage": [
+        "gate multiset",
+        "per-qubit dependency order",
+        "initial/batch-end occupancy",
+        "gate geometry"
+      ],
+      "unsupported": [
+        "continuous collision clearance",
+        "trap ownership/transfers",
+        "timed resources",
+        "full original unitary"
+      ]
+    },
+    "legacy_counts": {
+      "Num Gate Cycles": 100,
+      "Num Movement Ops": 0,
+      "Num Moves": 0,
+      "Total Move Distance": 0.0,
+      "Num CZ Gates (from log)": 150
+    },
+    "shared_legacy_score": {
+      "Fidelity (DasAtom Model)": 0.4713875936766302,
+      "Fidelity (Realistic)": 0.4713875936766302,
+      "Movement Fidelity": 1.0,
+      "Num Movement Ops": 0,
+      "Num Transferred Qubits": 0,
+      "Num Moves": 0,
+      "Total Move Distance": 0.0,
+      "Num Gate Cycles": 100,
+      "Total_T (us)": 20.0,
+      "Idle Time (us)": 290.0
+    },
+    "native_register_replay": {
+      "valid_within_coverage": true,
+      "errors": [],
+      "CZ_count": 150,
+      "gate_cycles": 100,
+      "movement_batches": 0,
+      "final_positions": {
+        "0": [
+          0,
+          0
+        ],
+        "1": [
+          0,
+          1
+        ],
+        "2": [
+          0,
+          2
+        ],
+        "3": [
+          0,
+          3
+        ],
+        "4": [
+          0,
+          4
+        ],
+        "5": [
+          0,
+          5
+        ],
+        "6": [
+          0,
+          6
+        ],
+        "7": [
+          0,
+          7
+        ],
+        "8": [
+          0,
+          8
+        ],
+        "9": [
+          0,
+          9
+        ],
+        "10": [
+          0,
+          10
+        ],
+        "11": [
+          1,
+          9
+        ],
+        "12": [
+          1,
+          7
+        ],
+        "13": [
+          1,
+          5
+        ],
+        "14": [
+          1,
+          3
+        ],
+        "15": [
+          1,
+          1
+        ]
+      },
+      "coverage": [
+        "gate multiset",
+        "per-qubit dependency order",
+        "initial/batch-end occupancy",
+        "gate geometry"
+      ],
+      "unsupported": [
+        "continuous collision clearance",
+        "trap ownership/transfers",
+        "timed resources",
+        "full original unitary"
+      ]
+    },
+    "native_N_shared_score": {
+      "Fidelity (DasAtom Model)": 0.4713875936766302,
+      "Fidelity (Realistic)": 0.4713875936766302,
+      "Movement Fidelity": 1.0,
+      "Num Movement Ops": 0,
+      "Num Transferred Qubits": 0,
+      "Num Moves": 0,
+      "Total Move Distance": 0.0,
+      "Num Gate Cycles": 100,
+      "Total_T (us)": 20.0,
+      "Idle Time (us)": 290.0
+    },
+    "register_policy": {
+      "input_declared_N": 16,
+      "native_N": 16,
+      "behavior": "upstream infers max(two-qubit operand)+1, dropping trailing inactive qubits",
+      "matched_full_register_supported": true
+    },
+    "module_providers": {
+      "compiler_core": "vendor\\NAQC_Compiler-3d1f09233c2acd357fd9fbfad1b5300a921d301a\\src\\compiler_core.py",
+      "benchmark_runner": "vendor\\NAQC_Compiler-3d1f09233c2acd357fd9fbfad1b5300a921d301a\\src\\benchmark_runner.py",
+      "dasatom_instruction_converter": "vendor\\NAQC_Compiler-3d1f09233c2acd357fd9fbfad1b5300a921d301a\\src\\dasatom_instruction_converter.py",
+      "DasAtom_fun": "vendor\\DasAtom-73a6bdf0fd200b2733745211eaf2e0c1e17f496a\\DasAtom_fun.py",
+      "Enola.route": "vendor\\DasAtom-73a6bdf0fd200b2733745211eaf2e0c1e17f496a\\Enola\\route.py"
+    },
+    "packages": {
+      "qiskit": "1.3.1",
+      "numpy": "2.2.2",
+      "scipy": "1.15.1",
+      "networkx": "3.4.2",
+      "rustworkx": "0.15.1",
+      "pandas": "3.1.0"
+    },
+    "planner_input_sha256": "ffb0e87cd8b524849491b845a86c64eaf65e349cf9d65465aac85feeb0cd45ad",
+    "legacy_error_terms": {
+      "E_native_CZ": 0.7518812735316429,
+      "E_legacy_idle": 0.00019333333333333333,
+      "E_ideal_transfer": 0.0,
+      "underflow": false
+    }
+  }
+}

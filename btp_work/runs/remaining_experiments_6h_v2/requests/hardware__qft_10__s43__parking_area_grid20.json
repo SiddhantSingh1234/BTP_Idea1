@@ -1,0 +1,12 @@
+{
+  "id": "hardware__qft_10__s43__parking_area_grid20",
+  "suite": "hardware",
+  "kind": "compile",
+  "case_id": "qft_10",
+  "case_path": "runs\\remaining_experiments_6h_v2\\inputs\\qft_10\\case.json",
+  "seed": 43,
+  "variant": "parking_area_grid20",
+  "timeout": 18,
+  "grid": 20,
+  "reference_id": "reference__qft_10__s43"
+}

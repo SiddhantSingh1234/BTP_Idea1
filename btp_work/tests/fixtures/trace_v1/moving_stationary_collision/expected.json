@@ -1,0 +1,6 @@
+{
+  "status": "invalid",
+  "required_violation_codes": [
+    "continuous_collision"
+  ]
+}

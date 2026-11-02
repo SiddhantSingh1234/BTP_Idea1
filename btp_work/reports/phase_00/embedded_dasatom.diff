@@ -1,0 +1,94 @@
+--- standalone/DasAtom_fun.py
++++ embedded/DasAtom_fun.py
+@@ -76,7 +76,10 @@
+     num_of_gate = 0
+     last_index = 0
+     partition_gates = []
++    print(f"        [+] Partitioning: Processing {len(gate_layer_list)} layers...")
+     for i in range(len(gate_layer_list)):
++        if i % 10 == 0 or i == len(gate_layer_list) - 1:
++            print(f"            Layer {i+1}/{len(gate_layer_list)} (Current partitions: {len(partition_gates)})", end='\r', flush=True)
+         #print(i)
+         #print(last_index)
+         merge_gates = sum(gate_layer_list[last_index:i+1], [])
+@@ -104,6 +107,7 @@
+             if i == len(gate_layer_list) - 1:
+                 merge_gates = sum(gate_layer_list[last_index: i+1], [])
+                 partition_gates.append(merge_gates)
++    print() # Newline after loop
+ 
+     return partition_gates
+ 
+@@ -163,7 +167,10 @@
+ def complete_mapping(i, embeddings, indices, coupling_graph):
+     cur_map = embeddings[i]
+     unoccupied = [value for value in coupling_graph.nodes() if value not in cur_map]
+-    for index in indices:
++    total_to_complete = len(indices)
++    for idx_count, index in enumerate(indices):
++        if idx_count % 5 == 0 or idx_count == total_to_complete - 1:
++             print(f"            Qubit {idx_count+1}/{total_to_complete}...", end='\r', flush=True)
+         flag = False
+         if i != 0:  #If pre_map is not empty
+             if embeddings[i-1][index] in unoccupied:
+@@ -393,7 +400,9 @@
+     if initial_mapping:
+         embeddings.append(initial_mapping)
+         begin_index = 1
++    print(f"        [+] Searching: {len(partition_gates)} partitions...")
+     for i in range(begin_index, len(partition_gates)):
++        print(f"            Partition {i+1}/{len(partition_gates)}...", end='\r', flush=True)
+         tmp_graph = nx.Graph()
+         tmp_graph.add_edges_from(partition_gates[i])
+         if not rx_is_subgraph_iso(coupling_graph, tmp_graph):
+@@ -402,11 +411,15 @@
+         next_embedding = get_rx_one_mapping(tmp_graph, coupling_graph)
+         next_embedding = map2list(next_embedding,num_q)
+         embeddings.append(next_embedding)
+-
++    print()
++
++    print(f"        [+] Completing missing qubits in mappings...")
+     for i in range(begin_index, len(embeddings)):
+         indices = [index for index, value in enumerate(embeddings[i]) if value == -1]
+         if indices:
++            print(f"            Mapping {i+1}/{len(embeddings)}...")
+             embeddings[i] = complete_mapping(i, embeddings, indices, coupling_graph)
++            print() # Newline after each complete_mapping
+ 
+     return embeddings, extend_position
+ 
+
+--- standalone/Enola/route.py
++++ embedded/Enola/route.py
+@@ -165,10 +165,14 @@
+         """
+         Process all embeddings to resolve movements and update the program.
+         """
++        print(f"        [+] Routing: Processing {len(self.embeddings)-1} embedding transitions...")
+         for current_pos in range(len(self.embeddings) - 1):
++            if current_pos % 5 == 0 or current_pos == len(self.embeddings) - 2:
++                print(f"            Transition {current_pos+1}/{len(self.embeddings)-1}...", end='\r', flush=True)
+             movements = self.resolve_movements(current_pos)
+             assert len(movements) > 0, "there should be some movements between embeddings"
+             self.movement_list.append(movements)
++        print()
+ 
+     def solve_violations(self, movements, violations, sorted_keys):
+         """
+@@ -250,10 +254,14 @@
+         list[tuple[int, int]]: list of violations.
+         """
+         violations = []
+-        for i in range(len(sorted_movements)):
++        total_mov = len(sorted_movements)
++        for i in range(total_mov):
++            if total_mov > 50 and i % 10 == 0:
++                 print(f"                Check violations: {i}/{total_mov}...", end='\r', flush=True)
+             for j in range(i + 1, len(sorted_movements)):
+                 if not compatible_2D(remained_mov_map[sorted_movements[i]], remained_mov_map[sorted_movements[j]]):
+                     violations.append((sorted_movements[i], sorted_movements[j]))
++        if total_mov > 50: print()
+         return violations
+ 
+     def run(self) -> None:

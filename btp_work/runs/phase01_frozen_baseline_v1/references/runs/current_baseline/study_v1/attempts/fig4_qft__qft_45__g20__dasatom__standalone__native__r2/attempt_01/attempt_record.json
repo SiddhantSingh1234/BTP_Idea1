@@ -1,0 +1,952 @@
+{
+  "job": {
+    "id": "fig4_qft__qft_45__g20__dasatom__standalone__native__r2",
+    "priority": 0,
+    "algorithm": "dasatom",
+    "variant": "standalone",
+    "family": "fig4_qft",
+    "case": "qft_45",
+    "grid": 20,
+    "register_policy": "native",
+    "repetition": 2,
+    "seed": 42,
+    "routing_seed": null,
+    "raw_path": "benchmarks/current_baseline_v1/raw/fig4_qft/qft_45.qasm",
+    "raw_sha256": "86b3bbcd8dc3688cea8b5e17424d74088460090bdd77d42a31ff76ca009f73e6",
+    "expected_normalized_sha256": "f62b99d9d3b8271ffaf431a6d6eec0471ff8eae14c0465479b7a5c1a6edd45b8"
+  },
+  "attempt": 1,
+  "command": [
+    "C:\\Users\\hp\\Documents\\BTP\\btp_work\\.venv\\Scripts\\python.exe",
+    "-X",
+    "utf8",
+    "C:\\Users\\hp\\Documents\\BTP\\btp_work\\tools\\phase00_smoke.py",
+    "--algorithm",
+    "dasatom",
+    "--case",
+    "file",
+    "--input",
+    "C:\\Users\\hp\\Documents\\BTP\\btp_work\\benchmarks\\current_baseline_v1\\raw\\fig4_qft\\qft_45.qasm",
+    "--grid",
+    "20",
+    "--register-policy",
+    "native",
+    "--seed",
+    "42",
+    "--out",
+    "runs/current_baseline/study_v1/attempts/fig4_qft__qft_45__g20__dasatom__standalone__native__r2/attempt_01/worker"
+  ],
+  "started_utc": "2026-10-27T23:56:25.430480+00:00",
+  "timeout_seconds": 300,
+  "memory_limit_bytes": 4294967296,
+  "worker_sha256": "5e745542ebbbb7ffcf1d8a60632c684d40533f20015defd941cccd107cf05742",
+  "ended_utc": "2026-10-27T23:57:46.635267+00:00",
+  "status": "invalid",
+  "diagnostic_status": "invalid",
+  "process_exit_code": 1,
+  "process_wall_seconds": 81.20313319999696,
+  "peak_working_set_bytes": 175616000,
+  "monitored_process_ids": [
+    14852,
+    20232
+  ],
+  "memory_measurement": "maximum observed sum of individual process-family peak working sets; includes venv redirector and real interpreter",
+  "result_path": "runs/current_baseline/study_v1/attempts/fig4_qft__qft_45__g20__dasatom__standalone__native__r2/attempt_01/worker/result.json",
+  "stage_at_end": {
+    "stage": "boundary_replay",
+    "wall_time": 1793145466.194544
+  },
+  "worker_result": {
+    "algorithm": "dasatom",
+    "case": "file",
+    "status": "invalid",
+    "paper_reproduction": false,
+    "rft_revision": "3d1f09233c2acd357fd9fbfad1b5300a921d301a",
+    "dasatom_revision": "73a6bdf0fd200b2733745211eaf2e0c1e17f496a",
+    "python": "3.13.2 (main, Mar 17 2025, 21:04:07) [MSC v.1943 64 bit (AMD64)]",
+    "seed": 42,
+    "routing_seed": null,
+    "hash_seed": "0",
+    "threads": 1,
+    "geometry": {
+      "rows": 20,
+      "columns": 20,
+      "r_int": 2,
+      "r_blk": 4
+    },
+    "normalization_policy": "native",
+    "command": [
+      "C:\\Users\\hp\\Documents\\BTP\\btp_work\\.venv\\Scripts\\python.exe",
+      "C:\\Users\\hp\\Documents\\BTP\\btp_work\\tools\\phase00_smoke.py",
+      "--algorithm",
+      "dasatom",
+      "--case",
+      "file",
+      "--input",
+      "C:\\Users\\hp\\Documents\\BTP\\btp_work\\benchmarks\\current_baseline_v1\\raw\\fig4_qft\\qft_45.qasm",
+      "--grid",
+      "20",
+      "--register-policy",
+      "native",
+      "--seed",
+      "42",
+      "--out",
+      "runs/current_baseline/study_v1/attempts/fig4_qft__qft_45__g20__dasatom__standalone__native__r2/attempt_01/worker"
+    ],
+    "output_directory": "runs\\current_baseline\\study_v1\\attempts\\fig4_qft__qft_45__g20__dasatom__standalone__native__r2\\attempt_01\\worker",
+    "input_path": "benchmarks/current_baseline_v1/raw/fig4_qft/qft_45.qasm",
+    "input_sha256": "86b3bbcd8dc3688cea8b5e17424d74088460090bdd77d42a31ff76ca009f73e6",
+    "normalized_sha256": "f62b99d9d3b8271ffaf431a6d6eec0471ff8eae14c0465479b7a5c1a6edd45b8",
+    "preprocessing_seconds": 0.10537679999833927,
+    "input_declared_qubits": 45,
+    "active_prefix_qubits": 45,
+    "num_qubits": 45,
+    "num_cz": 2046,
+    "logical_layers": 177,
+    "global_random_state_before": "a52169fac48aa2d80acadd41f776ce38656ab70adc3b32c80c1fb1f0ee56b71f",
+    "native_metrics": {
+      "adapter_pipeline_seconds": 77.39778250000381,
+      "timing_scope": "standalone loading normalized CZ input, DAG, grid, partition, embedding, routing, grouping; excludes imports/normalization/scoring/logging",
+      "native_score_tuple_fields": [
+        "idle_us",
+        "legacy_fidelity",
+        "movement_fidelity",
+        "runtime_us",
+        "transfer_alias",
+        "atom_moves",
+        "batch_max_distance_um"
+      ],
+      "native_score": [
+        1304786.3356370134,
+        1.4731564400624263e-05,
+        0.9809835742007817,
+        29004.345236378074,
+        980,
+        460,
+        5059.639880007945
+      ],
+      "native_num_qubits": 45,
+      "partitions": 17,
+      "actual_grid": 20,
+      "helper_file": "vendor\\DasAtom-73a6bdf0fd200b2733745211eaf2e0c1e17f496a\\DasAtom_fun.py",
+      "router_file": "vendor\\DasAtom-73a6bdf0fd200b2733745211eaf2e0c1e17f496a\\Enola\\route.py"
+    },
+    "global_random_state_after": "a52169fac48aa2d80acadd41f776ce38656ab70adc3b32c80c1fb1f0ee56b71f",
+    "trace_sha256": "37782396f72655e99c5b8569d96868f88f3ad83e28c68c9f8e8a589cf6116959",
+    "boundary_replay": {
+      "valid_within_coverage": false,
+      "errors": [
+        "Duplicate occupancy at movement batch endpoint",
+        "Duplicate occupancy at movement batch endpoint",
+        "Duplicate occupancy at movement batch endpoint",
+        "Duplicate occupancy at movement batch endpoint",
+        "Duplicate occupancy at movement batch endpoint",
+        "Duplicate occupancy at movement batch endpoint",
+        "Duplicate occupancy at movement batch endpoint",
+        "Duplicate occupancy at movement batch endpoint",
+        "Duplicate occupancy at movement batch endpoint",
+        "Duplicate occupancy at movement batch endpoint",
+        "Duplicate occupancy at movement batch endpoint",
+        "Duplicate occupancy at movement batch endpoint",
+        "Duplicate occupancy at movement batch endpoint",
+        "Duplicate occupancy at movement batch endpoint",
+        "Duplicate occupancy at movement batch endpoint",
+        "Duplicate occupancy at movement batch endpoint",
+        "Duplicate occupancy at movement batch endpoint",
+        "Duplicate occupancy at movement batch endpoint",
+        "Duplicate occupancy at movement batch endpoint",
+        "Duplicate occupancy at movement batch endpoint",
+        "Duplicate occupancy at movement batch endpoint",
+        "Duplicate occupancy at movement batch endpoint",
+        "Duplicate occupancy at movement batch endpoint",
+        "Duplicate occupancy at movement batch endpoint",
+        "Duplicate occupancy at movement batch endpoint",
+        "Duplicate occupancy at movement batch endpoint",
+        "Duplicate occupancy at movement batch endpoint",
+        "Duplicate occupancy at movement batch endpoint",
+        "Duplicate occupancy at movement batch endpoint",
+        "Duplicate occupancy at movement batch endpoint",
+        "Duplicate occupancy at movement batch endpoint",
+        "Duplicate occupancy at movement batch endpoint",
+        "Duplicate occupancy at movement batch endpoint",
+        "Duplicate occupancy at movement batch endpoint",
+        "Duplicate occupancy at movement batch endpoint",
+        "Duplicate occupancy at movement batch endpoint",
+        "Duplicate occupancy at movement batch endpoint",
+        "Duplicate occupancy at movement batch endpoint",
+        "Duplicate occupancy at movement batch endpoint",
+        "Duplicate occupancy at movement batch endpoint",
+        "Duplicate occupancy at movement batch endpoint",
+        "Duplicate occupancy at movement batch endpoint",
+        "Duplicate occupancy at movement batch endpoint",
+        "Duplicate occupancy at movement batch endpoint",
+        "Duplicate occupancy at movement batch endpoint",
+        "Duplicate occupancy at movement batch endpoint",
+        "Duplicate occupancy at movement batch endpoint",
+        "Duplicate occupancy at movement batch endpoint",
+        "Duplicate occupancy at movement batch endpoint",
+        "Duplicate occupancy at movement batch endpoint",
+        "Duplicate occupancy at movement batch endpoint",
+        "Duplicate occupancy at movement batch endpoint",
+        "Duplicate occupancy at movement batch endpoint",
+        "Duplicate occupancy at movement batch endpoint",
+        "Duplicate occupancy at movement batch endpoint",
+        "Duplicate occupancy at movement batch endpoint",
+        "Duplicate occupancy at movement batch endpoint",
+        "Duplicate occupancy at movement batch endpoint",
+        "Duplicate occupancy at movement batch endpoint",
+        "Duplicate occupancy at movement batch endpoint",
+        "Duplicate occupancy at movement batch endpoint",
+        "Duplicate occupancy at movement batch endpoint",
+        "Duplicate occupancy at movement batch endpoint",
+        "Duplicate occupancy at movement batch endpoint",
+        "Duplicate occupancy at movement batch endpoint",
+        "Duplicate occupancy at movement batch endpoint",
+        "Duplicate occupancy at movement batch endpoint",
+        "Duplicate occupancy at movement batch endpoint",
+        "Duplicate occupancy at movement batch endpoint",
+        "Duplicate occupancy at movement batch endpoint",
+        "Duplicate occupancy at movement batch endpoint",
+        "Duplicate occupancy at movement batch endpoint",
+        "Duplicate occupancy at movement batch endpoint",
+        "Duplicate occupancy at movement batch endpoint",
+        "Duplicate occupancy at movement batch endpoint",
+        "Duplicate occupancy at movement batch endpoint",
+        "Duplicate occupancy at movement batch endpoint",
+        "Duplicate occupancy at movement batch endpoint",
+        "Duplicate occupancy at movement batch endpoint",
+        "Duplicate occupancy at movement batch endpoint",
+        "Duplicate occupancy at movement batch endpoint",
+        "Duplicate occupancy at movement batch endpoint",
+        "Duplicate occupancy at movement batch endpoint",
+        "Duplicate occupancy at movement batch endpoint",
+        "Duplicate occupancy at movement batch endpoint",
+        "Duplicate occupancy at movement batch endpoint",
+        "Duplicate occupancy at movement batch endpoint",
+        "Duplicate occupancy at movement batch endpoint",
+        "Duplicate occupancy at movement batch endpoint",
+        "Duplicate occupancy at movement batch endpoint",
+        "Duplicate occupancy at movement batch endpoint",
+        "Duplicate occupancy at movement batch endpoint",
+        "Duplicate occupancy at movement batch endpoint",
+        "Duplicate occupancy at movement batch endpoint",
+        "Duplicate occupancy at movement batch endpoint",
+        "Duplicate occupancy at movement batch endpoint",
+        "Duplicate occupancy at movement batch endpoint",
+        "Duplicate occupancy at movement batch endpoint",
+        "Duplicate occupancy at movement batch endpoint",
+        "Duplicate occupancy at movement batch endpoint",
+        "Duplicate occupancy at movement batch endpoint",
+        "Duplicate occupancy at movement batch endpoint",
+        "Duplicate occupancy at movement batch endpoint",
+        "Duplicate occupancy at movement batch endpoint",
+        "Duplicate occupancy at movement batch endpoint",
+        "Duplicate occupancy at movement batch endpoint",
+        "Duplicate occupancy at movement batch endpoint",
+        "Duplicate occupancy at movement batch endpoint",
+        "Duplicate occupancy at movement batch endpoint",
+        "Duplicate occupancy at movement batch endpoint",
+        "Duplicate occupancy at movement batch endpoint",
+        "Duplicate occupancy at movement batch endpoint",
+        "Duplicate occupancy at movement batch endpoint",
+        "Duplicate occupancy at movement batch endpoint",
+        "Duplicate occupancy at movement batch endpoint",
+        "Duplicate occupancy at movement batch endpoint",
+        "Duplicate occupancy at movement batch endpoint",
+        "Duplicate occupancy at movement batch endpoint",
+        "Duplicate occupancy at movement batch endpoint",
+        "Duplicate occupancy at movement batch endpoint",
+        "Duplicate occupancy at movement batch endpoint",
+        "Duplicate occupancy at movement batch endpoint",
+        "Duplicate occupancy at movement batch endpoint",
+        "Duplicate occupancy at movement batch endpoint",
+        "Duplicate occupancy at movement batch endpoint",
+        "Duplicate occupancy at movement batch endpoint",
+        "Duplicate occupancy at movement batch endpoint",
+        "Duplicate occupancy at movement batch endpoint",
+        "Duplicate occupancy at movement batch endpoint",
+        "Duplicate occupancy at movement batch endpoint",
+        "Duplicate occupancy at movement batch endpoint",
+        "Duplicate occupancy at movement batch endpoint",
+        "Duplicate occupancy at movement batch endpoint",
+        "Duplicate occupancy at movement batch endpoint",
+        "Duplicate occupancy at movement batch endpoint",
+        "Duplicate occupancy at movement batch endpoint",
+        "Duplicate occupancy at movement batch endpoint",
+        "Duplicate occupancy at movement batch endpoint",
+        "Duplicate occupancy at movement batch endpoint",
+        "Duplicate occupancy at movement batch endpoint",
+        "Duplicate occupancy at movement batch endpoint",
+        "Duplicate occupancy at movement batch endpoint",
+        "Duplicate occupancy at movement batch endpoint",
+        "Duplicate occupancy at movement batch endpoint",
+        "Duplicate occupancy at movement batch endpoint",
+        "Duplicate occupancy at movement batch endpoint",
+        "Duplicate occupancy at movement batch endpoint",
+        "Duplicate occupancy at movement batch endpoint",
+        "Duplicate occupancy at movement batch endpoint",
+        "Duplicate occupancy at movement batch endpoint",
+        "Duplicate occupancy at movement batch endpoint",
+        "Duplicate occupancy at movement batch endpoint",
+        "Duplicate occupancy at movement batch endpoint",
+        "Duplicate occupancy at movement batch endpoint",
+        "Duplicate occupancy at movement batch endpoint",
+        "Duplicate occupancy at movement batch endpoint",
+        "Duplicate occupancy at movement batch endpoint",
+        "Duplicate occupancy at movement batch endpoint",
+        "Duplicate occupancy at movement batch endpoint",
+        "Duplicate occupancy at movement batch endpoint",
+        "Duplicate occupancy at movement batch endpoint",
+        "Duplicate occupancy at movement batch endpoint",
+        "Duplicate occupancy at movement batch endpoint",
+        "Duplicate occupancy at movement batch endpoint",
+        "Duplicate occupancy at movement batch endpoint",
+        "Duplicate occupancy at movement batch endpoint",
+        "Duplicate occupancy at movement batch endpoint",
+        "Duplicate occupancy at movement batch endpoint",
+        "Duplicate occupancy at movement batch endpoint",
+        "Duplicate occupancy at movement batch endpoint",
+        "Duplicate occupancy at movement batch endpoint",
+        "Duplicate occupancy at movement batch endpoint",
+        "Duplicate occupancy at movement batch endpoint",
+        "Duplicate occupancy at movement batch endpoint",
+        "Duplicate occupancy at movement batch endpoint",
+        "Duplicate occupancy at movement batch endpoint"
+      ],
+      "CZ_count": 2046,
+      "gate_cycles": 1025,
+      "movement_batches": 245,
+      "final_positions": {
+        "0": [
+          1,
+          1
+        ],
+        "1": [
+          0,
+          2
+        ],
+        "2": [
+          0,
+          1
+        ],
+        "3": [
+          1,
+          2
+        ],
+        "4": [
+          0,
+          0
+        ],
+        "5": [
+          1,
+          3
+        ],
+        "6": [
+          1,
+          0
+        ],
+        "7": [
+          0,
+          7
+        ],
+        "8": [
+          0,
+          5
+        ],
+        "9": [
+          1,
+          5
+        ],
+        "10": [
+          1,
+          6
+        ],
+        "11": [
+          1,
+          7
+        ],
+        "12": [
+          0,
+          10
+        ],
+        "13": [
+          0,
+          9
+        ],
+        "14": [
+          4,
+          3
+        ],
+        "15": [
+          3,
+          5
+        ],
+        "16": [
+          1,
+          8
+        ],
+        "17": [
+          1,
+          9
+        ],
+        "18": [
+          2,
+          5
+        ],
+        "19": [
+          1,
+          10
+        ],
+        "20": [
+          0,
+          11
+        ],
+        "21": [
+          0,
+          12
+        ],
+        "22": [
+          4,
+          6
+        ],
+        "23": [
+          0,
+          13
+        ],
+        "24": [
+          1,
+          11
+        ],
+        "25": [
+          2,
+          9
+        ],
+        "26": [
+          2,
+          6
+        ],
+        "27": [
+          2,
+          8
+        ],
+        "28": [
+          2,
+          3
+        ],
+        "29": [
+          2,
+          7
+        ],
+        "30": [
+          4,
+          1
+        ],
+        "31": [
+          1,
+          12
+        ],
+        "32": [
+          2,
+          11
+        ],
+        "33": [
+          2,
+          4
+        ],
+        "34": [
+          3,
+          6
+        ],
+        "35": [
+          3,
+          3
+        ],
+        "36": [
+          0,
+          6
+        ],
+        "37": [
+          0,
+          8
+        ],
+        "38": [
+          2,
+          1
+        ],
+        "39": [
+          0,
+          4
+        ],
+        "40": [
+          2,
+          0
+        ],
+        "41": [
+          1,
+          4
+        ],
+        "42": [
+          0,
+          3
+        ],
+        "43": [
+          2,
+          2
+        ],
+        "44": [
+          3,
+          1
+        ]
+      },
+      "coverage": [
+        "gate multiset",
+        "per-qubit dependency order",
+        "initial/batch-end occupancy",
+        "gate geometry"
+      ],
+      "unsupported": [
+        "continuous collision clearance",
+        "trap ownership/transfers",
+        "timed resources",
+        "full original unitary"
+      ]
+    },
+    "legacy_counts": {
+      "Num Gate Cycles": 1025,
+      "Num Movement Ops": 245,
+      "Num Moves": 460,
+      "Total Move Distance": 5059.639880007944,
+      "Num CZ Gates (from log)": 2046
+    },
+    "shared_legacy_score": {
+      "Fidelity (DasAtom Model)": 1.4731564400624261e-05,
+      "Fidelity (Realistic)": 5.526209309437903e-06,
+      "Movement Fidelity": 0.9809835742007817,
+      "Num Movement Ops": 245,
+      "Num Transferred Qubits": 980,
+      "Num Moves": 460,
+      "Total Move Distance": 5059.639880007944,
+      "Num Gate Cycles": 1025,
+      "Total_T (us)": 29004.34523637808,
+      "Idle Time (us)": 1304786.3356370137
+    },
+    "native_register_replay": {
+      "valid_within_coverage": false,
+      "errors": [
+        "Duplicate occupancy at movement batch endpoint",
+        "Duplicate occupancy at movement batch endpoint",
+        "Duplicate occupancy at movement batch endpoint",
+        "Duplicate occupancy at movement batch endpoint",
+        "Duplicate occupancy at movement batch endpoint",
+        "Duplicate occupancy at movement batch endpoint",
+        "Duplicate occupancy at movement batch endpoint",
+        "Duplicate occupancy at movement batch endpoint",
+        "Duplicate occupancy at movement batch endpoint",
+        "Duplicate occupancy at movement batch endpoint",
+        "Duplicate occupancy at movement batch endpoint",
+        "Duplicate occupancy at movement batch endpoint",
+        "Duplicate occupancy at movement batch endpoint",
+        "Duplicate occupancy at movement batch endpoint",
+        "Duplicate occupancy at movement batch endpoint",
+        "Duplicate occupancy at movement batch endpoint",
+        "Duplicate occupancy at movement batch endpoint",
+        "Duplicate occupancy at movement batch endpoint",
+        "Duplicate occupancy at movement batch endpoint",
+        "Duplicate occupancy at movement batch endpoint",
+        "Duplicate occupancy at movement batch endpoint",
+        "Duplicate occupancy at movement batch endpoint",
+        "Duplicate occupancy at movement batch endpoint",
+        "Duplicate occupancy at movement batch endpoint",
+        "Duplicate occupancy at movement batch endpoint",
+        "Duplicate occupancy at movement batch endpoint",
+        "Duplicate occupancy at movement batch endpoint",
+        "Duplicate occupancy at movement batch endpoint",
+        "Duplicate occupancy at movement batch endpoint",
+        "Duplicate occupancy at movement batch endpoint",
+        "Duplicate occupancy at movement batch endpoint",
+        "Duplicate occupancy at movement batch endpoint",
+        "Duplicate occupancy at movement batch endpoint",
+        "Duplicate occupancy at movement batch endpoint",
+        "Duplicate occupancy at movement batch endpoint",
+        "Duplicate occupancy at movement batch endpoint",
+        "Duplicate occupancy at movement batch endpoint",
+        "Duplicate occupancy at movement batch endpoint",
+        "Duplicate occupancy at movement batch endpoint",
+        "Duplicate occupancy at movement batch endpoint",
+        "Duplicate occupancy at movement batch endpoint",
+        "Duplicate occupancy at movement batch endpoint",
+        "Duplicate occupancy at movement batch endpoint",
+        "Duplicate occupancy at movement batch endpoint",
+        "Duplicate occupancy at movement batch endpoint",
+        "Duplicate occupancy at movement batch endpoint",
+        "Duplicate occupancy at movement batch endpoint",
+        "Duplicate occupancy at movement batch endpoint",
+        "Duplicate occupancy at movement batch endpoint",
+        "Duplicate occupancy at movement batch endpoint",
+        "Duplicate occupancy at movement batch endpoint",
+        "Duplicate occupancy at movement batch endpoint",
+        "Duplicate occupancy at movement batch endpoint",
+        "Duplicate occupancy at movement batch endpoint",
+        "Duplicate occupancy at movement batch endpoint",
+        "Duplicate occupancy at movement batch endpoint",
+        "Duplicate occupancy at movement batch endpoint",
+        "Duplicate occupancy at movement batch endpoint",
+        "Duplicate occupancy at movement batch endpoint",
+        "Duplicate occupancy at movement batch endpoint",
+        "Duplicate occupancy at movement batch endpoint",
+        "Duplicate occupancy at movement batch endpoint",
+        "Duplicate occupancy at movement batch endpoint",
+        "Duplicate occupancy at movement batch endpoint",
+        "Duplicate occupancy at movement batch endpoint",
+        "Duplicate occupancy at movement batch endpoint",
+        "Duplicate occupancy at movement batch endpoint",
+        "Duplicate occupancy at movement batch endpoint",
+        "Duplicate occupancy at movement batch endpoint",
+        "Duplicate occupancy at movement batch endpoint",
+        "Duplicate occupancy at movement batch endpoint",
+        "Duplicate occupancy at movement batch endpoint",
+        "Duplicate occupancy at movement batch endpoint",
+        "Duplicate occupancy at movement batch endpoint",
+        "Duplicate occupancy at movement batch endpoint",
+        "Duplicate occupancy at movement batch endpoint",
+        "Duplicate occupancy at movement batch endpoint",
+        "Duplicate occupancy at movement batch endpoint",
+        "Duplicate occupancy at movement batch endpoint",
+        "Duplicate occupancy at movement batch endpoint",
+        "Duplicate occupancy at movement batch endpoint",
+        "Duplicate occupancy at movement batch endpoint",
+        "Duplicate occupancy at movement batch endpoint",
+        "Duplicate occupancy at movement batch endpoint",
+        "Duplicate occupancy at movement batch endpoint",
+        "Duplicate occupancy at movement batch endpoint",
+        "Duplicate occupancy at movement batch endpoint",
+        "Duplicate occupancy at movement batch endpoint",
+        "Duplicate occupancy at movement batch endpoint",
+        "Duplicate occupancy at movement batch endpoint",
+        "Duplicate occupancy at movement batch endpoint",
+        "Duplicate occupancy at movement batch endpoint",
+        "Duplicate occupancy at movement batch endpoint",
+        "Duplicate occupancy at movement batch endpoint",
+        "Duplicate occupancy at movement batch endpoint",
+        "Duplicate occupancy at movement batch endpoint",
+        "Duplicate occupancy at movement batch endpoint",
+        "Duplicate occupancy at movement batch endpoint",
+        "Duplicate occupancy at movement batch endpoint",
+        "Duplicate occupancy at movement batch endpoint",
+        "Duplicate occupancy at movement batch endpoint",
+        "Duplicate occupancy at movement batch endpoint",
+        "Duplicate occupancy at movement batch endpoint",
+        "Duplicate occupancy at movement batch endpoint",
+        "Duplicate occupancy at movement batch endpoint",
+        "Duplicate occupancy at movement batch endpoint",
+        "Duplicate occupancy at movement batch endpoint",
+        "Duplicate occupancy at movement batch endpoint",
+        "Duplicate occupancy at movement batch endpoint",
+        "Duplicate occupancy at movement batch endpoint",
+        "Duplicate occupancy at movement batch endpoint",
+        "Duplicate occupancy at movement batch endpoint",
+        "Duplicate occupancy at movement batch endpoint",
+        "Duplicate occupancy at movement batch endpoint",
+        "Duplicate occupancy at movement batch endpoint",
+        "Duplicate occupancy at movement batch endpoint",
+        "Duplicate occupancy at movement batch endpoint",
+        "Duplicate occupancy at movement batch endpoint",
+        "Duplicate occupancy at movement batch endpoint",
+        "Duplicate occupancy at movement batch endpoint",
+        "Duplicate occupancy at movement batch endpoint",
+        "Duplicate occupancy at movement batch endpoint",
+        "Duplicate occupancy at movement batch endpoint",
+        "Duplicate occupancy at movement batch endpoint",
+        "Duplicate occupancy at movement batch endpoint",
+        "Duplicate occupancy at movement batch endpoint",
+        "Duplicate occupancy at movement batch endpoint",
+        "Duplicate occupancy at movement batch endpoint",
+        "Duplicate occupancy at movement batch endpoint",
+        "Duplicate occupancy at movement batch endpoint",
+        "Duplicate occupancy at movement batch endpoint",
+        "Duplicate occupancy at movement batch endpoint",
+        "Duplicate occupancy at movement batch endpoint",
+        "Duplicate occupancy at movement batch endpoint",
+        "Duplicate occupancy at movement batch endpoint",
+        "Duplicate occupancy at movement batch endpoint",
+        "Duplicate occupancy at movement batch endpoint",
+        "Duplicate occupancy at movement batch endpoint",
+        "Duplicate occupancy at movement batch endpoint",
+        "Duplicate occupancy at movement batch endpoint",
+        "Duplicate occupancy at movement batch endpoint",
+        "Duplicate occupancy at movement batch endpoint",
+        "Duplicate occupancy at movement batch endpoint",
+        "Duplicate occupancy at movement batch endpoint",
+        "Duplicate occupancy at movement batch endpoint",
+        "Duplicate occupancy at movement batch endpoint",
+        "Duplicate occupancy at movement batch endpoint",
+        "Duplicate occupancy at movement batch endpoint",
+        "Duplicate occupancy at movement batch endpoint",
+        "Duplicate occupancy at movement batch endpoint",
+        "Duplicate occupancy at movement batch endpoint",
+        "Duplicate occupancy at movement batch endpoint",
+        "Duplicate occupancy at movement batch endpoint",
+        "Duplicate occupancy at movement batch endpoint",
+        "Duplicate occupancy at movement batch endpoint",
+        "Duplicate occupancy at movement batch endpoint",
+        "Duplicate occupancy at movement batch endpoint",
+        "Duplicate occupancy at movement batch endpoint",
+        "Duplicate occupancy at movement batch endpoint",
+        "Duplicate occupancy at movement batch endpoint",
+        "Duplicate occupancy at movement batch endpoint",
+        "Duplicate occupancy at movement batch endpoint",
+        "Duplicate occupancy at movement batch endpoint",
+        "Duplicate occupancy at movement batch endpoint",
+        "Duplicate occupancy at movement batch endpoint",
+        "Duplicate occupancy at movement batch endpoint",
+        "Duplicate occupancy at movement batch endpoint",
+        "Duplicate occupancy at movement batch endpoint",
+        "Duplicate occupancy at movement batch endpoint",
+        "Duplicate occupancy at movement batch endpoint",
+        "Duplicate occupancy at movement batch endpoint",
+        "Duplicate occupancy at movement batch endpoint",
+        "Duplicate occupancy at movement batch endpoint",
+        "Duplicate occupancy at movement batch endpoint",
+        "Duplicate occupancy at movement batch endpoint",
+        "Duplicate occupancy at movement batch endpoint"
+      ],
+      "CZ_count": 2046,
+      "gate_cycles": 1025,
+      "movement_batches": 245,
+      "final_positions": {
+        "0": [
+          1,
+          1
+        ],
+        "1": [
+          0,
+          2
+        ],
+        "2": [
+          0,
+          1
+        ],
+        "3": [
+          1,
+          2
+        ],
+        "4": [
+          0,
+          0
+        ],
+        "5": [
+          1,
+          3
+        ],
+        "6": [
+          1,
+          0
+        ],
+        "7": [
+          0,
+          7
+        ],
+        "8": [
+          0,
+          5
+        ],
+        "9": [
+          1,
+          5
+        ],
+        "10": [
+          1,
+          6
+        ],
+        "11": [
+          1,
+          7
+        ],
+        "12": [
+          0,
+          10
+        ],
+        "13": [
+          0,
+          9
+        ],
+        "14": [
+          4,
+          3
+        ],
+        "15": [
+          3,
+          5
+        ],
+        "16": [
+          1,
+          8
+        ],
+        "17": [
+          1,
+          9
+        ],
+        "18": [
+          2,
+          5
+        ],
+        "19": [
+          1,
+          10
+        ],
+        "20": [
+          0,
+          11
+        ],
+        "21": [
+          0,
+          12
+        ],
+        "22": [
+          4,
+          6
+        ],
+        "23": [
+          0,
+          13
+        ],
+        "24": [
+          1,
+          11
+        ],
+        "25": [
+          2,
+          9
+        ],
+        "26": [
+          2,
+          6
+        ],
+        "27": [
+          2,
+          8
+        ],
+        "28": [
+          2,
+          3
+        ],
+        "29": [
+          2,
+          7
+        ],
+        "30": [
+          4,
+          1
+        ],
+        "31": [
+          1,
+          12
+        ],
+        "32": [
+          2,
+          11
+        ],
+        "33": [
+          2,
+          4
+        ],
+        "34": [
+          3,
+          6
+        ],
+        "35": [
+          3,
+          3
+        ],
+        "36": [
+          0,
+          6
+        ],
+        "37": [
+          0,
+          8
+        ],
+        "38": [
+          2,
+          1
+        ],
+        "39": [
+          0,
+          4
+        ],
+        "40": [
+          2,
+          0
+        ],
+        "41": [
+          1,
+          4
+        ],
+        "42": [
+          0,
+          3
+        ],
+        "43": [
+          2,
+          2
+        ],
+        "44": [
+          3,
+          1
+        ]
+      },
+      "coverage": [
+        "gate multiset",
+        "per-qubit dependency order",
+        "initial/batch-end occupancy",
+        "gate geometry"
+      ],
+      "unsupported": [
+        "continuous collision clearance",
+        "trap ownership/transfers",
+        "timed resources",
+        "full original unitary"
+      ]
+    },
+    "native_N_shared_score": {
+      "Fidelity (DasAtom Model)": 1.4731564400624261e-05,
+      "Fidelity (Realistic)": 5.526209309437903e-06,
+      "Movement Fidelity": 0.9809835742007817,
+      "Num Movement Ops": 245,
+      "Num Transferred Qubits": 980,
+      "Num Moves": 460,
+      "Total Move Distance": 5059.639880007944,
+      "Num Gate Cycles": 1025,
+      "Total_T (us)": 29004.34523637808,
+      "Idle Time (us)": 1304786.3356370137
+    },
+    "register_policy": {
+      "input_declared_N": 45,
+      "native_N": 45,
+      "behavior": "upstream infers max(two-qubit operand)+1, dropping trailing inactive qubits",
+      "matched_full_register_supported": true
+    },
+    "module_providers": {
+      "compiler_core": "vendor\\NAQC_Compiler-3d1f09233c2acd357fd9fbfad1b5300a921d301a\\src\\compiler_core.py",
+      "benchmark_runner": "vendor\\NAQC_Compiler-3d1f09233c2acd357fd9fbfad1b5300a921d301a\\src\\benchmark_runner.py",
+      "dasatom_instruction_converter": "vendor\\NAQC_Compiler-3d1f09233c2acd357fd9fbfad1b5300a921d301a\\src\\dasatom_instruction_converter.py",
+      "DasAtom_fun": "vendor\\DasAtom-73a6bdf0fd200b2733745211eaf2e0c1e17f496a\\DasAtom_fun.py",
+      "Enola.route": "vendor\\DasAtom-73a6bdf0fd200b2733745211eaf2e0c1e17f496a\\Enola\\route.py"
+    },
+    "packages": {
+      "qiskit": "1.3.1",
+      "numpy": "2.2.2",
+      "scipy": "1.15.1",
+      "networkx": "3.4.2",
+      "rustworkx": "0.15.1",
+      "pandas": "3.1.0"
+    },
+    "planner_input_sha256": "f62b99d9d3b8271ffaf431a6d6eec0471ff8eae14c0465479b7a5c1a6edd45b8",
+    "legacy_error_terms": {
+      "E_native_CZ": 10.25566057097161,
+      "E_legacy_idle": 0.8698575570913425,
+      "E_ideal_transfer": 0.0,
+      "underflow": false
+    }
+  }
+}

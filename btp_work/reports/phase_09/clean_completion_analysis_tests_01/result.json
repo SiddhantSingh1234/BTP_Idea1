@@ -1,0 +1,11 @@
+{
+  "status": "ok",
+  "groups_passed": 5,
+  "checks": [
+    "Repeated routing observations do not inflate generator weights; aggregate weighting reversal retained",
+    "QAOA depth variants retain graph identity",
+    "QV depths and historical seed schema retain generator identity",
+    "Five mismatch guards and signed paired-effect hand oracle",
+    "Empty successful subset remains empty; no invented zero-quality comparison"
+  ]
+}

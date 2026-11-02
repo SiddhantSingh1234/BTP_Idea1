@@ -1,0 +1,41 @@
+{
+  "target_id": "fig4_qft__qft_60__g35__dasatom__standalone__native",
+  "command": [
+    "C:\\Users\\hp\\Documents\\BTP\\btp_work\\.venv\\Scripts\\python.exe",
+    "-B",
+    "-X",
+    "utf8",
+    "C:\\Users\\hp\\Documents\\BTP\\btp_work\\runs\\phase01_frozen_baseline_v1\\frozen\\tools\\corrected_dasatom_worker.py",
+    "--input",
+    "C:\\Users\\hp\\Documents\\BTP\\btp_work\\runs\\phase01_frozen_baseline_v1\\frozen\\benchmarks\\current_baseline_v1\\normalized\\fig4_qft\\qft_60_native.qasm",
+    "--grid",
+    "35",
+    "--seed",
+    "42",
+    "--out",
+    "C:\\Users\\hp\\Documents\\BTP\\btp_work\\runs\\phase01_frozen_baseline_v1\\measurements\\fig4_qft__qft_60__g35__dasatom__standalone__native\\attempt_02\\worker"
+  ],
+  "worker_sha256": "3a9bf1bb2fb70b5d585d4f998f38b7666e5cc0034042691ad27e91117183be00",
+  "router_sha256": "332a6ad43d994b0712eaef058706ee066b903a0139550a806524091df4307c60",
+  "input_sha256": "779418ca7ecc0dc0d6892960f35450d423a11945961eac69002334539fc4434b",
+  "timeout_seconds": 1800,
+  "memory_limit_bytes": 4294967296,
+  "attempt": 2,
+  "launcher_protocol": "windows-suspended-job-v1",
+  "launcher_sha256": "8eaf0a44bfb38fc240316c2103ab55c0658133ad46f7c90f55106a1830a61723",
+  "status": "interrupted_by_unmonitored_gap",
+  "process_exit_code": 1,
+  "process_wall_seconds": 1447.5569467000023,
+  "peak_working_set_bytes": 140779520,
+  "memory_definition": "observed sum of family peak working sets; not allocation-proof hard cap",
+  "monitored_process_ids": [
+    21740,
+    29176
+  ],
+  "result": null,
+  "worker_artifact_sha256": {
+    "worker/stage.json": "8dd9e5ffab0231357bccffe03869f647d866ad67f80e02f67de37eb8db2b2253"
+  },
+  "monitor_error": null,
+  "record_path": "runs\\phase01_frozen_baseline_v1\\measurements\\fig4_qft__qft_60__g35__dasatom__standalone__native\\attempt_02\\attempt_record.json"
+}

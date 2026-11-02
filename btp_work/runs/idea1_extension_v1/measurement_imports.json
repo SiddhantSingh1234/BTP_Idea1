@@ -1,0 +1,14 @@
+[
+  {
+    "source": "runs/idea1_extension_v1/cost_pilot/raw/qft_5__s42__r0/attempt_01/attempt_record.json",
+    "sha256": "4b2225cde286a04aade18f8adbb31e3f46ca2cc86bba9231309d4ddcebbc9362",
+    "target_id": "qft_5__s42__r0",
+    "reason": "identical predeclared worker/input/budget; no duplicate compilation"
+  },
+  {
+    "source": "runs/idea1_extension_v1/cost_pilot/raw/qaoa_n6_p2_g701__s42__r0/attempt_01/attempt_record.json",
+    "sha256": "4914154834c49592582614ccd28d8da27e91e4676149f70d1404eee411e97650",
+    "target_id": "qaoa_n6_p2_g701__s42__r0",
+    "reason": "identical predeclared worker/input/budget; no duplicate compilation"
+  }
+]

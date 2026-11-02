@@ -1,0 +1,22 @@
+# Created by venv; see https://docs.python.org/3/library/venv.html
+# pycache__ directories
+__pycache__/
+Include/
+Lib/
+Scripts/
+share/
+*.qasm
+*.csv
+*.json
+*.cfg
+*.naps
+*.png
+*.html
+*.xlsx
+*.pdf
+*.txt
+*.gif
+*.tex
+
+# Allow specific files that would otherwise be excluded by the broad patterns above
+!requirements.txt

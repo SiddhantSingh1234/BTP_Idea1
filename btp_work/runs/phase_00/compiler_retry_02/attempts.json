@@ -1,0 +1,47 @@
+[
+  {
+    "name": "rft_pinned_start",
+    "command": [
+      "C:\\Users\\hp\\Documents\\BTP\\btp_work\\.research-tools\\python\\python.exe",
+      "-X",
+      "utf8",
+      "C:\\Users\\hp\\Documents\\BTP\\btp_work\\vendor\\NAQC_Compiler-3d1f09233c2acd357fd9fbfad1b5300a921d301a\\src\\benchmark_runner.py",
+      "--help"
+    ],
+    "script_present": false,
+    "exit_code": 2,
+    "scope": "Full pinned checkout absent; cannot start",
+    "stderr": "C:\\Users\\hp\\Documents\\BTP\\btp_work\\.research-tools\\python\\python.exe: can't open file 'C:\\\\Users\\\\hp\\\\Documents\\\\BTP\\\\btp_work\\\\vendor\\\\NAQC_Compiler-3d1f09233c2acd357fd9fbfad1b5300a921d301a\\\\src\\\\benchmark_runner.py': [Errno 2] No such file or directory\n",
+    "compiler_smoke_passed": false
+  },
+  {
+    "name": "dasatom_pinned_start",
+    "command": [
+      "C:\\Users\\hp\\Documents\\BTP\\btp_work\\.research-tools\\python\\python.exe",
+      "-X",
+      "utf8",
+      "C:\\Users\\hp\\Documents\\BTP\\btp_work\\vendor\\DasAtom-73a6bdf0fd200b2733745211eaf2e0c1e17f496a\\DasAtom.py",
+      "--help"
+    ],
+    "script_present": false,
+    "exit_code": 2,
+    "scope": "Full pinned checkout absent; cannot start",
+    "stderr": "C:\\Users\\hp\\Documents\\BTP\\btp_work\\.research-tools\\python\\python.exe: can't open file 'C:\\\\Users\\\\hp\\\\Documents\\\\BTP\\\\btp_work\\\\vendor\\\\DasAtom-73a6bdf0fd200b2733745211eaf2e0c1e17f496a\\\\DasAtom.py': [Errno 2] No such file or directory\n",
+    "compiler_smoke_passed": false
+  },
+  {
+    "name": "rft_retained_runner_diagnostic",
+    "command": [
+      "C:\\Users\\hp\\Documents\\BTP\\btp_work\\.research-tools\\python\\python.exe",
+      "-X",
+      "utf8",
+      "C:\\Users\\hp\\Documents\\BTP\\btp_work\\source_review\\upstream_excerpt\\NAQC_Compiler\\src\\benchmark_runner.py",
+      "--help"
+    ],
+    "script_present": true,
+    "exit_code": 1,
+    "scope": "Startup diagnostic only, not a compiler smoke or full checkout",
+    "stderr": "Traceback (most recent call last):\n  File \"C:\\Users\\hp\\Documents\\BTP\\btp_work\\source_review\\upstream_excerpt\\NAQC_Compiler\\src\\benchmark_runner.py\", line 6, in <module>\n    import pandas as pd\nModuleNotFoundError: No module named 'pandas'\n",
+    "compiler_smoke_passed": false
+  }
+]

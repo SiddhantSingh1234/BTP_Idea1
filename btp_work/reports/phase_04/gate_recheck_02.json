@@ -1,0 +1,62 @@
+{
+  "phase": "04",
+  "status": "complete",
+  "accepted_scope": "parking-only next-event implementation and small analytical pilot",
+  "checks": {
+    "accepted_phase03_dependency": true,
+    "seventeen_lookahead_groups_pass": true,
+    "tested_current_code_configs_unchanged": true,
+    "sixteen_model_regression_groups_pass": true,
+    "shared_model_regression_artifacts_unchanged": true,
+    "original_scientific_sources_worker_plan_unchanged": true,
+    "external_operational_guard_audited": true,
+    "five_frozen_variants": true,
+    "current_replay_artifacts_frozen": true,
+    "cached_production_code_unchanged_except_counterexample": true,
+    "all_compiled_case_dictionaries_unchanged": true,
+    "forty_schedules_accepted_and_replayed": true,
+    "cached_raw_integrity": true,
+    "no_timing_relabelled_as_new_compile": true,
+    "compiled_and_replayed_schedule_hashes_match": true,
+    "source_instructions_intact": true,
+    "no_future_placement_or_consumed_gate_in_audit": true,
+    "exact_legacy_instruction_files_equal": true,
+    "eight_exact_legacy_controls": true,
+    "generalized_h1_differences_reported": true,
+    "historical_fixture_normalized_text_hash": true,
+    "vacant_target_nonmonotonic_example": true,
+    "full_original_qft5_semantics": true,
+    "both_cli_smokes_pass": true,
+    "honest_negative_pilot_result": true,
+    "report_exports_match_canonical": true,
+    "original_papers_unchanged": true,
+    "required_deliverables_present": true,
+    "project_document_links": true
+  },
+  "documents_checked": 38,
+  "local_links_checked": 273,
+  "document_link_issues": [],
+  "tested_k": [
+    1,
+    2,
+    4,
+    8
+  ],
+  "gamma": 0.9,
+  "best_k_selected": false,
+  "improvement_over_legacy_demonstrated": false,
+  "phase01_controlled_or_restarted": false,
+  "phase01_tracker_row_observed": [
+    "| 01 | in_progress | Codex /root | 00, D001, D005, D006 | Standalone frozen runner ready, stopped for user launch; 66 RFT reused, one corrected timing saved/65 remain; nine missing traces and final dataset/analysis acceptance pending |"
+  ],
+  "phase01_completion_claimed": false,
+  "quality_attempts": 40,
+  "source_timing_samples": 80,
+  "replay_fresh_compile_attempts": 0,
+  "current_counterexamples": 2,
+  "command": [
+    ".\\btp_work\\tools\\check_phase04.py",
+    "--out",
+    ".\\btp_work\\reports\\phase_04\\gate_recheck_02.json"
+  ]
+}

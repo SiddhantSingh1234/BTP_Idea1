@@ -1,0 +1,79 @@
+{
+  "track": "phase3",
+  "job": {
+    "target_id": "fig4_qft__qft_30__g35__dasatom__standalone__native",
+    "algorithm": "dasatom",
+    "variant": "standalone",
+    "family": "fig4_qft",
+    "case": "qft_30",
+    "grid": 35,
+    "register_policy": "native",
+    "seed": 42,
+    "routing_seed": null,
+    "raw_path": "benchmarks/current_baseline_v1/raw/fig4_qft/qft_30.qasm",
+    "raw_sha256": "fe1df415bc12abc4dfd451544e26b72fee8f5eff6a98c95dadf1aea8dba4b0fb",
+    "expected_normalized_sha256": "a3f4ba5998adfe342af1878bd8548d7d931be85aa5eb9bc1e6c6d44c1451e246",
+    "paper_reference": "RFT manuscript p6 Fig4",
+    "paper_metrics": [
+      "compile_seconds",
+      "runtime_us",
+      "movement_batches",
+      "legacy_fidelity"
+    ],
+    "action": "validate_or_repair_cached_dasatom",
+    "selected_reference": {
+      "record": "runs\\current_baseline\\study_v1\\attempts\\fig4_qft__qft_30__g35__dasatom__standalone__native__r1\\attempt_01\\attempt_record.json",
+      "sha256": "feaeb7f6ac09620873979669d4e037532e3ff1f9ddd26ce8e169a598b9ac13dd",
+      "worker": "runs\\current_baseline\\study_v1\\attempts\\fig4_qft__qft_30__g35__dasatom__standalone__native__r1\\attempt_01\\worker"
+    },
+    "all_existing_attempts": [
+      {
+        "record": "runs\\current_baseline\\study_v1\\attempts\\fig4_qft__qft_30__g35__dasatom__standalone__native__r1\\attempt_01\\attempt_record.json",
+        "sha256": "feaeb7f6ac09620873979669d4e037532e3ff1f9ddd26ce8e169a598b9ac13dd",
+        "status": "invalid",
+        "repetition": 1
+      },
+      {
+        "record": "runs\\current_baseline\\study_v1\\attempts\\fig4_qft__qft_30__g35__dasatom__standalone__native__r2\\attempt_01\\attempt_record.json",
+        "sha256": "718a772b5809f4a9256cb80f4c596884dd99f11903b4c643f4feb023e8fdea1f",
+        "status": "timeout",
+        "repetition": 2
+      }
+    ],
+    "retry_timeout_seconds": null,
+    "fresh_corrected_compile_timing_required_if_route_changes": true,
+    "frozen_input": "frozen/benchmarks/current_baseline_v1/normalized/fig4_qft/qft_30_native.qasm",
+    "frozen_native_records": [
+      "references/runs/current_baseline/study_v1/attempts/fig4_qft__qft_30__g35__dasatom__standalone__native__r1/attempt_01/attempt_record.json",
+      "references/runs/current_baseline/study_v1/attempts/fig4_qft__qft_30__g35__dasatom__standalone__native__r2/attempt_01/attempt_record.json"
+    ],
+    "timeout_seconds": 1800
+  },
+  "source": {
+    "kind": "dasatom_trace",
+    "worker": "C:\\Users\\hp\\Documents\\BTP\\btp_work\\runs\\phase03_matched_benchmark_v1\\source_observations\\fig4_qft__qft_30__g35__dasatom__standalone__native\\attempt_01\\worker",
+    "source_record": "C:\\Users\\hp\\Documents\\BTP\\btp_work\\runs\\phase01_frozen_baseline_v1\\measurements\\fig4_qft__qft_30__g35__dasatom__standalone__native\\attempt_01\\attempt_record.json",
+    "source_record_sha256": "992ad8d920b3d44d6bd84b928dd58419c5dd3870a0485c661277e2ccd92b2581",
+    "source_artifact_sha256": {
+      "worker/trace/metadata.json": "e8838b0960e0ef0f5fa6edb3c9027d4cf50a06746e5c754cbaa86117445f2c13",
+      "worker/trace/events.jsonl": "3b37f1a7f3c6440f7d3e51689328441a405d629a9ebc413dcb0a8c516450cb76",
+      "worker/result.json": "8092494688f99b5d3f281253abc689b0c43847818b29c442b1a268b2bc14bca0",
+      "worker/metrics.json": "6a9e4c6e52984ef9404694343ba0d1e7d4949b42895be4c06bd37c560ece7dce",
+      "worker/validation.json": "e3077c707cd10b671746769d2048c341508d0973ce28d17021af174b88b4c55e"
+    }
+  },
+  "original_compile_seconds": 253.82969709999452,
+  "original_timing_scope": "fresh grid/partition/embedding/gate grouping/corrected routing; excludes imports, input parsing, validation and scoring",
+  "geometry": {
+    "rows": 35,
+    "columns": 35,
+    "r_int": 2,
+    "r_blk": 4,
+    "spacing_um": 3.0
+  },
+  "variants": [
+    "original_phase3"
+  ],
+  "native": null,
+  "raw_input": "C:\\Users\\hp\\Documents\\BTP\\btp_work\\runs\\phase03_matched_benchmark_v1\\frozen\\benchmarks\\current_baseline_v1\\raw\\fig4_qft\\qft_30.qasm"
+}

@@ -1,0 +1,11 @@
+{
+  "tests": 8,
+  "successful": false,
+  "failures": 1,
+  "errors": 0,
+  "command": [
+    "btp_work/tests/standalone_baseline_acceptance.py",
+    "--out",
+    "btp_work/reports/phase_01/standalone/tests_01"
+  ]
+}

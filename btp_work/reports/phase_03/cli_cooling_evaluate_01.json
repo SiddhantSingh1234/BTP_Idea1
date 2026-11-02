@@ -1,0 +1,1698 @@
+{
+  "schema_version": "movement_error_result.phase03.v1",
+  "phase": "03",
+  "operation": "retime_and_cool",
+  "schedule_sha256": "3ce7b37b68daabea14de182cbac937dea39883f2221f6f9cf87d53e040e1ed08",
+  "source_trace_sha256": "a3709e9aca83ad6311a66ad577f0139145ede83db584e0792771a764ea40c7a6",
+  "profile_sha256": "2128de9d98c30bd06881b22dd0b6eafe758fcafe3e3c3e635a7ecbb080faf034",
+  "profile_id": "extended_registered_cooling.v1",
+  "computation_scope": "normalized_CZ_skeleton",
+  "historical_source_score": {
+    "gate_stages": 5,
+    "movement_blocks": 5,
+    "scored_qubits": 2,
+    "scored_CZ": 5,
+    "sum_batch_max_distance_um": 75.0,
+    "four_per_block_transfer_alias": 20,
+    "runtime_proxy_us": 537.3636363636364,
+    "idle_proxy_us": 1073.7272727272727,
+    "negative_log_fidelity": 0.025778527299539614,
+    "negative_log_fidelity_infinite": false,
+    "fidelity_proxy": 0.974550902129607,
+    "fidelity_underflow": false,
+    "accounting_only": true,
+    "not_actual_atom_transfer_count": true
+  },
+  "validation": {
+    "status": "ok",
+    "violations": [],
+    "fully_validated_within_model": true,
+    "source_validation": {
+      "status": "ok",
+      "structural_valid": true,
+      "violations": [],
+      "coverage": {
+        "checked": [
+          "CZ_gate_identity_and_dependencies",
+          "analytic_continuous_shared_progress",
+          "aod_order_equality_and_retained_carriers",
+          "endpoint_grid_bounds",
+          "final_mapping",
+          "gate_geometry",
+          "logical_carrier_mapping"
+        ],
+        "unsupported": [],
+        "not_applicable": [
+          "unintended_global_pulses"
+        ]
+      },
+      "fully_validated_within_model": true,
+      "source_physical_evidence_complete": false,
+      "unresolved_coincident_sites": [],
+      "model_assumptions": [
+        "SLM-to-AOD-to-SLM for nonzero movers; one concurrent load and unload stage per batch",
+        "Shared normalized linear progress; times derived from declared profile, not observed"
+      ],
+      "semantics": {
+        "level": "exhaustive_CZ_basis_phases_with_final_permutation",
+        "full_original_circuit_checked": false,
+        "physical_output_slot_to_logical_qubit": [
+          0,
+          1
+        ],
+        "basis_states": 4,
+        "equivalent": true
+      },
+      "final_positions": {
+        "a0": [
+          5,
+          0
+        ],
+        "a1": [
+          5,
+          2
+        ]
+      },
+      "final_logical_mapping": {
+        "a0": 0,
+        "a1": 1
+      },
+      "observed_gate_count": 5
+    },
+    "geometry_projection_validation": {
+      "status": "ok",
+      "structural_valid": true,
+      "violations": [],
+      "coverage": {
+        "checked": [
+          "CZ_gate_identity_and_dependencies",
+          "analytic_continuous_shared_progress",
+          "aod_order_equality_and_retained_carriers",
+          "endpoint_grid_bounds",
+          "final_mapping",
+          "gate_geometry",
+          "logical_carrier_mapping"
+        ],
+        "unsupported": [],
+        "not_applicable": [
+          "unintended_global_pulses"
+        ]
+      },
+      "fully_validated_within_model": true,
+      "source_physical_evidence_complete": false,
+      "unresolved_coincident_sites": [],
+      "model_assumptions": [
+        "SLM-to-AOD-to-SLM for nonzero movers; one concurrent load and unload stage per batch",
+        "Shared normalized linear progress; times derived from declared profile, not observed"
+      ],
+      "semantics": {
+        "level": "exhaustive_CZ_basis_phases_with_final_permutation",
+        "full_original_circuit_checked": false,
+        "physical_output_slot_to_logical_qubit": [
+          0,
+          1
+        ],
+        "basis_states": 4,
+        "equivalent": true
+      },
+      "final_positions": {
+        "a0": [
+          5,
+          0
+        ],
+        "a1": [
+          5,
+          2
+        ]
+      },
+      "final_logical_mapping": {
+        "a0": 0,
+        "a1": 1
+      },
+      "observed_gate_count": 5
+    },
+    "coverage": {
+      "checked": [
+        "trajectory_bounds",
+        "completion_before_start",
+        "physical_carrier_handoff",
+        "finite_cold_banks",
+        "cooling_suboperations",
+        "resources",
+        "shared_progress_geometry_projection"
+      ],
+      "unsupported": [],
+      "primitive_assumptions": [
+        "Registered cold-bank geometry and trap handovers are a declared hypothetical primitive, not measured optical-control evidence"
+      ]
+    },
+    "original_native_status_invalid": false,
+    "corrected_control": false,
+    "cooling_episodes": 3,
+    "cooled_atom_events": 6,
+    "final_physical_carriers": {
+      "0": "cold_bank_2:r5:c0",
+      "1": "cold_bank_2:r5:c2"
+    },
+    "final_n_by_qubit": {
+      "0": 0.0,
+      "1": 0.0
+    }
+  },
+  "status": "ok",
+  "valid_for_comparison": true,
+  "assumptions": [
+    "Phase 03 model; source decisions remain fixed; no compiler optimization",
+    "Cooling, if present, uses the explicitly hypothetical registered-bank primitive",
+    "Analytical mixed-source RFT adaptation; not one calibrated physical device",
+    "No cooling on basic one-AOD RFT resources; threshold exceedance continues risk",
+    "Excess n reference starts at cold preparation; effective capacity approximates initial thermal state",
+    "All logical qubits exposed throughout elapsed execution, including motion/gates; no duplicate movement-decoherence factor",
+    "Normalized CZ skeleton only; original omitted one-qubit computation gates remain outside timing/scoring scope",
+    "Hypothetical extra hardware: four finite prepared cold banks (one atom per grid site per bank),3um docking offset,exclusive controller,hot sink; no refill; serial2CZ+4H per cooled atom and two parallel transfer substages",
+    "Banks begin in disjoint storage planes100um apart; each consumed bank costs300us registration plus300us isolated cold-state preparation before gates; durations are explicit hypothetical hardware requirements, not measured RFT capabilities"
+  ],
+  "budget": {
+    "terms": {
+      "E_native_gate": 0.025062709117721432,
+      "E_transfer": 0.0320160106746731,
+      "E_heating_gate": 0.18581489659244702,
+      "E_movement_loss": 0.5545197663838151,
+      "E_cooling_gate": 0.06207057868662694,
+      "E_decoherence": 0.003134042712474619
+    },
+    "terms_infinite": {
+      "E_native_gate": false,
+      "E_transfer": false,
+      "E_heating_gate": false,
+      "E_movement_loss": false,
+      "E_cooling_gate": false,
+      "E_decoherence": false
+    },
+    "total_E": 0.8626180041677581,
+    "total_E_infinite": false,
+    "fidelity_proxy": 0.4220556911229121,
+    "fidelity_underflow": false
+  },
+  "per_qubit_exposure": {
+    "0": {
+      "T2_us": 1500000.0,
+      "weighted_exposure_us": 2350.5320343559642,
+      "mode_durations_us": {
+        "stationary": -6.822320486321587e-14,
+        "move": 212.13203435596427,
+        "transfer": 200.0,
+        "gate": 1.0,
+        "cooling": 1937.3999999999996
+      },
+      "E_decoherence": 0.0015670213562373094
+    },
+    "1": {
+      "T2_us": 1500000.0,
+      "weighted_exposure_us": 2350.5320343559642,
+      "mode_durations_us": {
+        "stationary": -6.822320486321587e-14,
+        "move": 212.13203435596427,
+        "transfer": 200.0,
+        "gate": 1.0,
+        "cooling": 1937.3999999999996
+      },
+      "E_decoherence": 0.0015670213562373094
+    }
+  },
+  "counts": {
+    "transfer_atom_events": 32,
+    "transfer_stages": 16,
+    "movement_batches": 5,
+    "moved_atom_events": 10,
+    "cooling_episodes": 3,
+    "cooled_atom_events": 6,
+    "cooling_CZ": 12,
+    "cooling_H": 24,
+    "cooling_transfer_atom_events": 12,
+    "cooling_transfer_stages": 6,
+    "native_CZ": 5
+  },
+  "makespan_us": 2350.5320343559642,
+  "final_n_by_physical_atom": {
+    "a0": 16.560115801904118,
+    "a1": 16.560115801904118,
+    "cold_bank_0:r5:c0": 27.120231603808236,
+    "cold_bank_0:r5:c2": 27.120231603808236,
+    "cold_bank_1:r5:c0": 27.120231603808236,
+    "cold_bank_1:r5:c2": 27.120231603808236,
+    "cold_bank_2:r5:c0": 0.0,
+    "cold_bank_2:r5:c2": 0.0
+  },
+  "final_physical_carriers": {
+    "0": "cold_bank_2:r5:c0",
+    "1": "cold_bank_2:r5:c2"
+  },
+  "warnings": [
+    {
+      "code": "threshold_exceeded",
+      "event_id": "p3_e0000002",
+      "atom_id": "a0",
+      "n": 16.560115801904118,
+      "behavior": "cooling only if explicitly scheduled; otherwise continue heating/loss"
+    },
+    {
+      "code": "threshold_exceeded",
+      "event_id": "p3_e0000002",
+      "atom_id": "a1",
+      "n": 16.560115801904118,
+      "behavior": "cooling only if explicitly scheduled; otherwise continue heating/loss"
+    },
+    {
+      "code": "threshold_exceeded",
+      "event_id": "p3_e0000011",
+      "atom_id": "cold_bank_0:r5:c0",
+      "n": 27.120231603808236,
+      "behavior": "cooling only if explicitly scheduled; otherwise continue heating/loss"
+    },
+    {
+      "code": "threshold_exceeded",
+      "event_id": "p3_e0000011",
+      "atom_id": "cold_bank_0:r5:c2",
+      "n": 27.120231603808236,
+      "behavior": "cooling only if explicitly scheduled; otherwise continue heating/loss"
+    },
+    {
+      "code": "threshold_exceeded",
+      "event_id": "p3_e0000020",
+      "atom_id": "cold_bank_1:r5:c0",
+      "n": 27.120231603808236,
+      "behavior": "cooling only if explicitly scheduled; otherwise continue heating/loss"
+    },
+    {
+      "code": "threshold_exceeded",
+      "event_id": "p3_e0000020",
+      "atom_id": "cold_bank_1:r5:c2",
+      "n": 27.120231603808236,
+      "behavior": "cooling only if explicitly scheduled; otherwise continue heating/loss"
+    }
+  ],
+  "cooling_diagnostics": {
+    "extra_transfer_E": 0.012006004003002411,
+    "extra_heating_E": 0.15592997408889375,
+    "already_in_main_terms": true,
+    "not_an_additional_error_term": true
+  },
+  "surrogate_heating": false,
+  "resource_track": "hypothetical_registered_cold_banks",
+  "initial_spare_atom_population": 256,
+  "event_audit": [
+    {
+      "event_id": "p3_e0000001",
+      "time_us": 0.0,
+      "boundary": "start",
+      "kind": "transfer",
+      "n_before": {
+        "a0": 3,
+        "a1": 3
+      },
+      "n_after": {
+        "a0": 3,
+        "a1": 3
+      },
+      "incremental_terms": {
+        "E_native_gate": 0.0,
+        "E_transfer": 0.0020010006671670687,
+        "E_heating_gate": 0.0,
+        "E_movement_loss": 0.0,
+        "E_cooling_gate": 0.0,
+        "E_decoherence": 0.0
+      },
+      "incremental_terms_infinite": {
+        "E_native_gate": false,
+        "E_transfer": false,
+        "E_heating_gate": false,
+        "E_movement_loss": false,
+        "E_cooling_gate": false,
+        "E_decoherence": false
+      }
+    },
+    {
+      "event_id": "p3_e0000001",
+      "time_us": 20.0,
+      "boundary": "complete",
+      "kind": "transfer",
+      "n_before": {
+        "a0": 3,
+        "a1": 3
+      },
+      "n_after": {
+        "a0": 3,
+        "a1": 3
+      },
+      "incremental_terms": {
+        "E_native_gate": 0.0,
+        "E_transfer": 0.0,
+        "E_heating_gate": 0.0,
+        "E_movement_loss": 0.0,
+        "E_cooling_gate": 0.0,
+        "E_decoherence": 0.0
+      },
+      "incremental_terms_infinite": {
+        "E_native_gate": false,
+        "E_transfer": false,
+        "E_heating_gate": false,
+        "E_movement_loss": false,
+        "E_cooling_gate": false,
+        "E_decoherence": false
+      }
+    },
+    {
+      "event_id": "p3_e0000002",
+      "time_us": 20.0,
+      "boundary": "start",
+      "kind": "move",
+      "n_before": {
+        "a0": 3,
+        "a1": 3
+      },
+      "n_after": {
+        "a0": 3,
+        "a1": 3
+      },
+      "incremental_terms": {
+        "E_native_gate": 0.0,
+        "E_transfer": 0.0,
+        "E_heating_gate": 0.0,
+        "E_movement_loss": 0.0,
+        "E_cooling_gate": 0.0,
+        "E_decoherence": 0.0
+      },
+      "incremental_terms_infinite": {
+        "E_native_gate": false,
+        "E_transfer": false,
+        "E_heating_gate": false,
+        "E_movement_loss": false,
+        "E_cooling_gate": false,
+        "E_decoherence": false
+      }
+    },
+    {
+      "event_id": "p3_e0000002",
+      "time_us": 62.42640687119285,
+      "boundary": "complete",
+      "kind": "move",
+      "n_before": {
+        "a0": 3,
+        "a1": 3
+      },
+      "n_after": {
+        "a0": 16.560115801904118,
+        "a1": 16.560115801904118
+      },
+      "incremental_terms": {
+        "E_native_gate": 0.0,
+        "E_transfer": 0.0,
+        "E_heating_gate": 0.0,
+        "E_movement_loss": 5.348223191166862e-05,
+        "E_cooling_gate": 0.0,
+        "E_decoherence": 0.0
+      },
+      "incremental_terms_infinite": {
+        "E_native_gate": false,
+        "E_transfer": false,
+        "E_heating_gate": false,
+        "E_movement_loss": false,
+        "E_cooling_gate": false,
+        "E_decoherence": false
+      }
+    },
+    {
+      "event_id": "p3_e0000003",
+      "time_us": 62.42640687119285,
+      "boundary": "start",
+      "kind": "cooling",
+      "n_before": {
+        "a0": 16.560115801904118,
+        "a1": 16.560115801904118
+      },
+      "n_after": {
+        "a0": 16.560115801904118,
+        "a1": 16.560115801904118,
+        "cold_bank_0:r5:c0": 0.0,
+        "cold_bank_0:r5:c2": 0.0
+      },
+      "incremental_terms": {
+        "E_native_gate": 0.0,
+        "E_transfer": 0.0040020013343341375,
+        "E_heating_gate": 0.03639028407468068,
+        "E_movement_loss": 0.0,
+        "E_cooling_gate": 0.020690192895542314,
+        "E_decoherence": 0.0
+      },
+      "incremental_terms_infinite": {
+        "E_native_gate": false,
+        "E_transfer": false,
+        "E_heating_gate": false,
+        "E_movement_loss": false,
+        "E_cooling_gate": false,
+        "E_decoherence": false
+      }
+    },
+    {
+      "event_id": "p3_e0000003",
+      "time_us": 708.226406871193,
+      "boundary": "complete",
+      "kind": "cooling",
+      "n_before": {
+        "a0": 16.560115801904118,
+        "a1": 16.560115801904118
+      },
+      "n_after": {
+        "a0": 16.560115801904118,
+        "a1": 16.560115801904118,
+        "cold_bank_0:r5:c0": 0.0,
+        "cold_bank_0:r5:c2": 0.0
+      },
+      "incremental_terms": {
+        "E_native_gate": 0.0,
+        "E_transfer": 0.0,
+        "E_heating_gate": 0.0,
+        "E_movement_loss": 0.0,
+        "E_cooling_gate": 0.0,
+        "E_decoherence": 0.0
+      },
+      "incremental_terms_infinite": {
+        "E_native_gate": false,
+        "E_transfer": false,
+        "E_heating_gate": false,
+        "E_movement_loss": false,
+        "E_cooling_gate": false,
+        "E_decoherence": false
+      }
+    },
+    {
+      "event_id": "p3_e0000004",
+      "time_us": 708.226406871193,
+      "boundary": "start",
+      "kind": "transfer",
+      "n_before": {
+        "cold_bank_0:r5:c0": 0.0,
+        "cold_bank_0:r5:c2": 0.0
+      },
+      "n_after": {
+        "cold_bank_0:r5:c0": 0.0,
+        "cold_bank_0:r5:c2": 0.0
+      },
+      "incremental_terms": {
+        "E_native_gate": 0.0,
+        "E_transfer": 0.0020010006671670687,
+        "E_heating_gate": 0.0,
+        "E_movement_loss": 0.0,
+        "E_cooling_gate": 0.0,
+        "E_decoherence": 0.0
+      },
+      "incremental_terms_infinite": {
+        "E_native_gate": false,
+        "E_transfer": false,
+        "E_heating_gate": false,
+        "E_movement_loss": false,
+        "E_cooling_gate": false,
+        "E_decoherence": false
+      }
+    },
+    {
+      "event_id": "p3_e0000004",
+      "time_us": 728.226406871193,
+      "boundary": "complete",
+      "kind": "transfer",
+      "n_before": {
+        "cold_bank_0:r5:c0": 0.0,
+        "cold_bank_0:r5:c2": 0.0
+      },
+      "n_after": {
+        "cold_bank_0:r5:c0": 0.0,
+        "cold_bank_0:r5:c2": 0.0
+      },
+      "incremental_terms": {
+        "E_native_gate": 0.0,
+        "E_transfer": 0.0,
+        "E_heating_gate": 0.0,
+        "E_movement_loss": 0.0,
+        "E_cooling_gate": 0.0,
+        "E_decoherence": 0.0
+      },
+      "incremental_terms_infinite": {
+        "E_native_gate": false,
+        "E_transfer": false,
+        "E_heating_gate": false,
+        "E_movement_loss": false,
+        "E_cooling_gate": false,
+        "E_decoherence": false
+      }
+    },
+    {
+      "event_id": "p3_e0000005",
+      "time_us": 728.226406871193,
+      "boundary": "start",
+      "kind": "gate",
+      "n_before": {
+        "cold_bank_0:r5:c0": 0.0,
+        "cold_bank_0:r5:c2": 0.0
+      },
+      "n_after": {
+        "cold_bank_0:r5:c0": 0.0,
+        "cold_bank_0:r5:c2": 0.0
+      },
+      "incremental_terms": {
+        "E_native_gate": 0.005012541823544286,
+        "E_transfer": 0.0,
+        "E_heating_gate": 0.0,
+        "E_movement_loss": 0.0,
+        "E_cooling_gate": 0.0,
+        "E_decoherence": 0.0
+      },
+      "incremental_terms_infinite": {
+        "E_native_gate": false,
+        "E_transfer": false,
+        "E_heating_gate": false,
+        "E_movement_loss": false,
+        "E_cooling_gate": false,
+        "E_decoherence": false
+      }
+    },
+    {
+      "event_id": "p3_e0000005",
+      "time_us": 728.4264068711931,
+      "boundary": "complete",
+      "kind": "gate",
+      "n_before": {
+        "cold_bank_0:r5:c0": 0.0,
+        "cold_bank_0:r5:c2": 0.0
+      },
+      "n_after": {
+        "cold_bank_0:r5:c0": 0.0,
+        "cold_bank_0:r5:c2": 0.0
+      },
+      "incremental_terms": {
+        "E_native_gate": 0.0,
+        "E_transfer": 0.0,
+        "E_heating_gate": 0.0,
+        "E_movement_loss": 0.0,
+        "E_cooling_gate": 0.0,
+        "E_decoherence": 0.0
+      },
+      "incremental_terms_infinite": {
+        "E_native_gate": false,
+        "E_transfer": false,
+        "E_heating_gate": false,
+        "E_movement_loss": false,
+        "E_cooling_gate": false,
+        "E_decoherence": false
+      }
+    },
+    {
+      "event_id": "p3_e0000006",
+      "time_us": 728.4264068711931,
+      "boundary": "start",
+      "kind": "transfer",
+      "n_before": {
+        "cold_bank_0:r5:c0": 0.0,
+        "cold_bank_0:r5:c2": 0.0
+      },
+      "n_after": {
+        "cold_bank_0:r5:c0": 0.0,
+        "cold_bank_0:r5:c2": 0.0
+      },
+      "incremental_terms": {
+        "E_native_gate": 0.0,
+        "E_transfer": 0.0020010006671670687,
+        "E_heating_gate": 0.0,
+        "E_movement_loss": 0.0,
+        "E_cooling_gate": 0.0,
+        "E_decoherence": 0.0
+      },
+      "incremental_terms_infinite": {
+        "E_native_gate": false,
+        "E_transfer": false,
+        "E_heating_gate": false,
+        "E_movement_loss": false,
+        "E_cooling_gate": false,
+        "E_decoherence": false
+      }
+    },
+    {
+      "event_id": "p3_e0000006",
+      "time_us": 748.4264068711931,
+      "boundary": "complete",
+      "kind": "transfer",
+      "n_before": {
+        "cold_bank_0:r5:c0": 0.0,
+        "cold_bank_0:r5:c2": 0.0
+      },
+      "n_after": {
+        "cold_bank_0:r5:c0": 0.0,
+        "cold_bank_0:r5:c2": 0.0
+      },
+      "incremental_terms": {
+        "E_native_gate": 0.0,
+        "E_transfer": 0.0,
+        "E_heating_gate": 0.0,
+        "E_movement_loss": 0.0,
+        "E_cooling_gate": 0.0,
+        "E_decoherence": 0.0
+      },
+      "incremental_terms_infinite": {
+        "E_native_gate": false,
+        "E_transfer": false,
+        "E_heating_gate": false,
+        "E_movement_loss": false,
+        "E_cooling_gate": false,
+        "E_decoherence": false
+      }
+    },
+    {
+      "event_id": "p3_e0000007",
+      "time_us": 748.4264068711931,
+      "boundary": "start",
+      "kind": "move",
+      "n_before": {
+        "cold_bank_0:r5:c0": 0.0,
+        "cold_bank_0:r5:c2": 0.0
+      },
+      "n_after": {
+        "cold_bank_0:r5:c0": 0.0,
+        "cold_bank_0:r5:c2": 0.0
+      },
+      "incremental_terms": {
+        "E_native_gate": 0.0,
+        "E_transfer": 0.0,
+        "E_heating_gate": 0.0,
+        "E_movement_loss": 0.0,
+        "E_cooling_gate": 0.0,
+        "E_decoherence": 0.0
+      },
+      "incremental_terms_infinite": {
+        "E_native_gate": false,
+        "E_transfer": false,
+        "E_heating_gate": false,
+        "E_movement_loss": false,
+        "E_cooling_gate": false,
+        "E_decoherence": false
+      }
+    },
+    {
+      "event_id": "p3_e0000007",
+      "time_us": 790.8528137423859,
+      "boundary": "complete",
+      "kind": "move",
+      "n_before": {
+        "cold_bank_0:r5:c0": 0.0,
+        "cold_bank_0:r5:c2": 0.0
+      },
+      "n_after": {
+        "cold_bank_0:r5:c0": 13.560115801904118,
+        "cold_bank_0:r5:c2": 13.560115801904118
+      },
+      "incremental_terms": {
+        "E_native_gate": 0.0,
+        "E_transfer": 0.0,
+        "E_heating_gate": 0.0,
+        "E_movement_loss": 1.2980199113794163e-07,
+        "E_cooling_gate": 0.0,
+        "E_decoherence": 0.0
+      },
+      "incremental_terms_infinite": {
+        "E_native_gate": false,
+        "E_transfer": false,
+        "E_heating_gate": false,
+        "E_movement_loss": false,
+        "E_cooling_gate": false,
+        "E_decoherence": false
+      }
+    },
+    {
+      "event_id": "p3_e0000008",
+      "time_us": 790.8528137423859,
+      "boundary": "start",
+      "kind": "transfer",
+      "n_before": {
+        "cold_bank_0:r5:c0": 13.560115801904118,
+        "cold_bank_0:r5:c2": 13.560115801904118
+      },
+      "n_after": {
+        "cold_bank_0:r5:c0": 13.560115801904118,
+        "cold_bank_0:r5:c2": 13.560115801904118
+      },
+      "incremental_terms": {
+        "E_native_gate": 0.0,
+        "E_transfer": 0.0020010006671670687,
+        "E_heating_gate": 0.0,
+        "E_movement_loss": 0.0,
+        "E_cooling_gate": 0.0,
+        "E_decoherence": 0.0
+      },
+      "incremental_terms_infinite": {
+        "E_native_gate": false,
+        "E_transfer": false,
+        "E_heating_gate": false,
+        "E_movement_loss": false,
+        "E_cooling_gate": false,
+        "E_decoherence": false
+      }
+    },
+    {
+      "event_id": "p3_e0000008",
+      "time_us": 810.8528137423859,
+      "boundary": "complete",
+      "kind": "transfer",
+      "n_before": {
+        "cold_bank_0:r5:c0": 13.560115801904118,
+        "cold_bank_0:r5:c2": 13.560115801904118
+      },
+      "n_after": {
+        "cold_bank_0:r5:c0": 13.560115801904118,
+        "cold_bank_0:r5:c2": 13.560115801904118
+      },
+      "incremental_terms": {
+        "E_native_gate": 0.0,
+        "E_transfer": 0.0,
+        "E_heating_gate": 0.0,
+        "E_movement_loss": 0.0,
+        "E_cooling_gate": 0.0,
+        "E_decoherence": 0.0
+      },
+      "incremental_terms_infinite": {
+        "E_native_gate": false,
+        "E_transfer": false,
+        "E_heating_gate": false,
+        "E_movement_loss": false,
+        "E_cooling_gate": false,
+        "E_decoherence": false
+      }
+    },
+    {
+      "event_id": "p3_e0000009",
+      "time_us": 810.8528137423859,
+      "boundary": "start",
+      "kind": "gate",
+      "n_before": {
+        "cold_bank_0:r5:c0": 13.560115801904118,
+        "cold_bank_0:r5:c2": 13.560115801904118
+      },
+      "n_after": {
+        "cold_bank_0:r5:c0": 13.560115801904118,
+        "cold_bank_0:r5:c2": 13.560115801904118
+      },
+      "incremental_terms": {
+        "E_native_gate": 0.005012541823544286,
+        "E_transfer": 0.0,
+        "E_heating_gate": 0.014942461251776633,
+        "E_movement_loss": 0.0,
+        "E_cooling_gate": 0.0,
+        "E_decoherence": 0.0
+      },
+      "incremental_terms_infinite": {
+        "E_native_gate": false,
+        "E_transfer": false,
+        "E_heating_gate": false,
+        "E_movement_loss": false,
+        "E_cooling_gate": false,
+        "E_decoherence": false
+      }
+    },
+    {
+      "event_id": "p3_e0000009",
+      "time_us": 811.052813742386,
+      "boundary": "complete",
+      "kind": "gate",
+      "n_before": {
+        "cold_bank_0:r5:c0": 13.560115801904118,
+        "cold_bank_0:r5:c2": 13.560115801904118
+      },
+      "n_after": {
+        "cold_bank_0:r5:c0": 13.560115801904118,
+        "cold_bank_0:r5:c2": 13.560115801904118
+      },
+      "incremental_terms": {
+        "E_native_gate": 0.0,
+        "E_transfer": 0.0,
+        "E_heating_gate": 0.0,
+        "E_movement_loss": 0.0,
+        "E_cooling_gate": 0.0,
+        "E_decoherence": 0.0
+      },
+      "incremental_terms_infinite": {
+        "E_native_gate": false,
+        "E_transfer": false,
+        "E_heating_gate": false,
+        "E_movement_loss": false,
+        "E_cooling_gate": false,
+        "E_decoherence": false
+      }
+    },
+    {
+      "event_id": "p3_e0000010",
+      "time_us": 811.052813742386,
+      "boundary": "start",
+      "kind": "transfer",
+      "n_before": {
+        "cold_bank_0:r5:c0": 13.560115801904118,
+        "cold_bank_0:r5:c2": 13.560115801904118
+      },
+      "n_after": {
+        "cold_bank_0:r5:c0": 13.560115801904118,
+        "cold_bank_0:r5:c2": 13.560115801904118
+      },
+      "incremental_terms": {
+        "E_native_gate": 0.0,
+        "E_transfer": 0.0020010006671670687,
+        "E_heating_gate": 0.0,
+        "E_movement_loss": 0.0,
+        "E_cooling_gate": 0.0,
+        "E_decoherence": 0.0
+      },
+      "incremental_terms_infinite": {
+        "E_native_gate": false,
+        "E_transfer": false,
+        "E_heating_gate": false,
+        "E_movement_loss": false,
+        "E_cooling_gate": false,
+        "E_decoherence": false
+      }
+    },
+    {
+      "event_id": "p3_e0000010",
+      "time_us": 831.052813742386,
+      "boundary": "complete",
+      "kind": "transfer",
+      "n_before": {
+        "cold_bank_0:r5:c0": 13.560115801904118,
+        "cold_bank_0:r5:c2": 13.560115801904118
+      },
+      "n_after": {
+        "cold_bank_0:r5:c0": 13.560115801904118,
+        "cold_bank_0:r5:c2": 13.560115801904118
+      },
+      "incremental_terms": {
+        "E_native_gate": 0.0,
+        "E_transfer": 0.0,
+        "E_heating_gate": 0.0,
+        "E_movement_loss": 0.0,
+        "E_cooling_gate": 0.0,
+        "E_decoherence": 0.0
+      },
+      "incremental_terms_infinite": {
+        "E_native_gate": false,
+        "E_transfer": false,
+        "E_heating_gate": false,
+        "E_movement_loss": false,
+        "E_cooling_gate": false,
+        "E_decoherence": false
+      }
+    },
+    {
+      "event_id": "p3_e0000011",
+      "time_us": 831.052813742386,
+      "boundary": "start",
+      "kind": "move",
+      "n_before": {
+        "cold_bank_0:r5:c0": 13.560115801904118,
+        "cold_bank_0:r5:c2": 13.560115801904118
+      },
+      "n_after": {
+        "cold_bank_0:r5:c0": 13.560115801904118,
+        "cold_bank_0:r5:c2": 13.560115801904118
+      },
+      "incremental_terms": {
+        "E_native_gate": 0.0,
+        "E_transfer": 0.0,
+        "E_heating_gate": 0.0,
+        "E_movement_loss": 0.0,
+        "E_cooling_gate": 0.0,
+        "E_decoherence": 0.0
+      },
+      "incremental_terms_infinite": {
+        "E_native_gate": false,
+        "E_transfer": false,
+        "E_heating_gate": false,
+        "E_movement_loss": false,
+        "E_cooling_gate": false,
+        "E_decoherence": false
+      }
+    },
+    {
+      "event_id": "p3_e0000011",
+      "time_us": 873.4792206135788,
+      "boundary": "complete",
+      "kind": "move",
+      "n_before": {
+        "cold_bank_0:r5:c0": 13.560115801904118,
+        "cold_bank_0:r5:c2": 13.560115801904118
+      },
+      "n_after": {
+        "cold_bank_0:r5:c0": 27.120231603808236,
+        "cold_bank_0:r5:c2": 27.120231603808236
+      },
+      "incremental_terms": {
+        "E_native_gate": 0.0,
+        "E_transfer": 0.0,
+        "E_heating_gate": 0.0,
+        "E_movement_loss": 0.2772330122739605,
+        "E_cooling_gate": 0.0,
+        "E_decoherence": 0.0
+      },
+      "incremental_terms_infinite": {
+        "E_native_gate": false,
+        "E_transfer": false,
+        "E_heating_gate": false,
+        "E_movement_loss": false,
+        "E_cooling_gate": false,
+        "E_decoherence": false
+      }
+    },
+    {
+      "event_id": "p3_e0000012",
+      "time_us": 873.4792206135788,
+      "boundary": "start",
+      "kind": "cooling",
+      "n_before": {
+        "cold_bank_0:r5:c0": 27.120231603808236,
+        "cold_bank_0:r5:c2": 27.120231603808236
+      },
+      "n_after": {
+        "cold_bank_0:r5:c0": 27.120231603808236,
+        "cold_bank_0:r5:c2": 27.120231603808236,
+        "cold_bank_1:r5:c0": 0.0,
+        "cold_bank_1:r5:c2": 0.0
+      },
+      "incremental_terms": {
+        "E_native_gate": 0.0,
+        "E_transfer": 0.0040020013343341375,
+        "E_heating_gate": 0.05976984500710653,
+        "E_movement_loss": 0.0,
+        "E_cooling_gate": 0.020690192895542314,
+        "E_decoherence": 0.0
+      },
+      "incremental_terms_infinite": {
+        "E_native_gate": false,
+        "E_transfer": false,
+        "E_heating_gate": false,
+        "E_movement_loss": false,
+        "E_cooling_gate": false,
+        "E_decoherence": false
+      }
+    },
+    {
+      "event_id": "p3_e0000012",
+      "time_us": 1519.2792206135791,
+      "boundary": "complete",
+      "kind": "cooling",
+      "n_before": {
+        "cold_bank_0:r5:c0": 27.120231603808236,
+        "cold_bank_0:r5:c2": 27.120231603808236
+      },
+      "n_after": {
+        "cold_bank_0:r5:c0": 27.120231603808236,
+        "cold_bank_0:r5:c2": 27.120231603808236,
+        "cold_bank_1:r5:c0": 0.0,
+        "cold_bank_1:r5:c2": 0.0
+      },
+      "incremental_terms": {
+        "E_native_gate": 0.0,
+        "E_transfer": 0.0,
+        "E_heating_gate": 0.0,
+        "E_movement_loss": 0.0,
+        "E_cooling_gate": 0.0,
+        "E_decoherence": 0.0
+      },
+      "incremental_terms_infinite": {
+        "E_native_gate": false,
+        "E_transfer": false,
+        "E_heating_gate": false,
+        "E_movement_loss": false,
+        "E_cooling_gate": false,
+        "E_decoherence": false
+      }
+    },
+    {
+      "event_id": "p3_e0000013",
+      "time_us": 1519.2792206135791,
+      "boundary": "start",
+      "kind": "transfer",
+      "n_before": {
+        "cold_bank_1:r5:c0": 0.0,
+        "cold_bank_1:r5:c2": 0.0
+      },
+      "n_after": {
+        "cold_bank_1:r5:c0": 0.0,
+        "cold_bank_1:r5:c2": 0.0
+      },
+      "incremental_terms": {
+        "E_native_gate": 0.0,
+        "E_transfer": 0.0020010006671670687,
+        "E_heating_gate": 0.0,
+        "E_movement_loss": 0.0,
+        "E_cooling_gate": 0.0,
+        "E_decoherence": 0.0
+      },
+      "incremental_terms_infinite": {
+        "E_native_gate": false,
+        "E_transfer": false,
+        "E_heating_gate": false,
+        "E_movement_loss": false,
+        "E_cooling_gate": false,
+        "E_decoherence": false
+      }
+    },
+    {
+      "event_id": "p3_e0000013",
+      "time_us": 1539.2792206135791,
+      "boundary": "complete",
+      "kind": "transfer",
+      "n_before": {
+        "cold_bank_1:r5:c0": 0.0,
+        "cold_bank_1:r5:c2": 0.0
+      },
+      "n_after": {
+        "cold_bank_1:r5:c0": 0.0,
+        "cold_bank_1:r5:c2": 0.0
+      },
+      "incremental_terms": {
+        "E_native_gate": 0.0,
+        "E_transfer": 0.0,
+        "E_heating_gate": 0.0,
+        "E_movement_loss": 0.0,
+        "E_cooling_gate": 0.0,
+        "E_decoherence": 0.0
+      },
+      "incremental_terms_infinite": {
+        "E_native_gate": false,
+        "E_transfer": false,
+        "E_heating_gate": false,
+        "E_movement_loss": false,
+        "E_cooling_gate": false,
+        "E_decoherence": false
+      }
+    },
+    {
+      "event_id": "p3_e0000014",
+      "time_us": 1539.2792206135791,
+      "boundary": "start",
+      "kind": "gate",
+      "n_before": {
+        "cold_bank_1:r5:c0": 0.0,
+        "cold_bank_1:r5:c2": 0.0
+      },
+      "n_after": {
+        "cold_bank_1:r5:c0": 0.0,
+        "cold_bank_1:r5:c2": 0.0
+      },
+      "incremental_terms": {
+        "E_native_gate": 0.005012541823544286,
+        "E_transfer": 0.0,
+        "E_heating_gate": 0.0,
+        "E_movement_loss": 0.0,
+        "E_cooling_gate": 0.0,
+        "E_decoherence": 0.0
+      },
+      "incremental_terms_infinite": {
+        "E_native_gate": false,
+        "E_transfer": false,
+        "E_heating_gate": false,
+        "E_movement_loss": false,
+        "E_cooling_gate": false,
+        "E_decoherence": false
+      }
+    },
+    {
+      "event_id": "p3_e0000014",
+      "time_us": 1539.4792206135792,
+      "boundary": "complete",
+      "kind": "gate",
+      "n_before": {
+        "cold_bank_1:r5:c0": 0.0,
+        "cold_bank_1:r5:c2": 0.0
+      },
+      "n_after": {
+        "cold_bank_1:r5:c0": 0.0,
+        "cold_bank_1:r5:c2": 0.0
+      },
+      "incremental_terms": {
+        "E_native_gate": 0.0,
+        "E_transfer": 0.0,
+        "E_heating_gate": 0.0,
+        "E_movement_loss": 0.0,
+        "E_cooling_gate": 0.0,
+        "E_decoherence": 0.0
+      },
+      "incremental_terms_infinite": {
+        "E_native_gate": false,
+        "E_transfer": false,
+        "E_heating_gate": false,
+        "E_movement_loss": false,
+        "E_cooling_gate": false,
+        "E_decoherence": false
+      }
+    },
+    {
+      "event_id": "p3_e0000015",
+      "time_us": 1539.4792206135792,
+      "boundary": "start",
+      "kind": "transfer",
+      "n_before": {
+        "cold_bank_1:r5:c0": 0.0,
+        "cold_bank_1:r5:c2": 0.0
+      },
+      "n_after": {
+        "cold_bank_1:r5:c0": 0.0,
+        "cold_bank_1:r5:c2": 0.0
+      },
+      "incremental_terms": {
+        "E_native_gate": 0.0,
+        "E_transfer": 0.0020010006671670687,
+        "E_heating_gate": 0.0,
+        "E_movement_loss": 0.0,
+        "E_cooling_gate": 0.0,
+        "E_decoherence": 0.0
+      },
+      "incremental_terms_infinite": {
+        "E_native_gate": false,
+        "E_transfer": false,
+        "E_heating_gate": false,
+        "E_movement_loss": false,
+        "E_cooling_gate": false,
+        "E_decoherence": false
+      }
+    },
+    {
+      "event_id": "p3_e0000015",
+      "time_us": 1559.4792206135792,
+      "boundary": "complete",
+      "kind": "transfer",
+      "n_before": {
+        "cold_bank_1:r5:c0": 0.0,
+        "cold_bank_1:r5:c2": 0.0
+      },
+      "n_after": {
+        "cold_bank_1:r5:c0": 0.0,
+        "cold_bank_1:r5:c2": 0.0
+      },
+      "incremental_terms": {
+        "E_native_gate": 0.0,
+        "E_transfer": 0.0,
+        "E_heating_gate": 0.0,
+        "E_movement_loss": 0.0,
+        "E_cooling_gate": 0.0,
+        "E_decoherence": 0.0
+      },
+      "incremental_terms_infinite": {
+        "E_native_gate": false,
+        "E_transfer": false,
+        "E_heating_gate": false,
+        "E_movement_loss": false,
+        "E_cooling_gate": false,
+        "E_decoherence": false
+      }
+    },
+    {
+      "event_id": "p3_e0000016",
+      "time_us": 1559.4792206135792,
+      "boundary": "start",
+      "kind": "move",
+      "n_before": {
+        "cold_bank_1:r5:c0": 0.0,
+        "cold_bank_1:r5:c2": 0.0
+      },
+      "n_after": {
+        "cold_bank_1:r5:c0": 0.0,
+        "cold_bank_1:r5:c2": 0.0
+      },
+      "incremental_terms": {
+        "E_native_gate": 0.0,
+        "E_transfer": 0.0,
+        "E_heating_gate": 0.0,
+        "E_movement_loss": 0.0,
+        "E_cooling_gate": 0.0,
+        "E_decoherence": 0.0
+      },
+      "incremental_terms_infinite": {
+        "E_native_gate": false,
+        "E_transfer": false,
+        "E_heating_gate": false,
+        "E_movement_loss": false,
+        "E_cooling_gate": false,
+        "E_decoherence": false
+      }
+    },
+    {
+      "event_id": "p3_e0000016",
+      "time_us": 1601.9056274847721,
+      "boundary": "complete",
+      "kind": "move",
+      "n_before": {
+        "cold_bank_1:r5:c0": 0.0,
+        "cold_bank_1:r5:c2": 0.0
+      },
+      "n_after": {
+        "cold_bank_1:r5:c0": 13.560115801904118,
+        "cold_bank_1:r5:c2": 13.560115801904118
+      },
+      "incremental_terms": {
+        "E_native_gate": 0.0,
+        "E_transfer": 0.0,
+        "E_heating_gate": 0.0,
+        "E_movement_loss": 1.2980199113794163e-07,
+        "E_cooling_gate": 0.0,
+        "E_decoherence": 0.0
+      },
+      "incremental_terms_infinite": {
+        "E_native_gate": false,
+        "E_transfer": false,
+        "E_heating_gate": false,
+        "E_movement_loss": false,
+        "E_cooling_gate": false,
+        "E_decoherence": false
+      }
+    },
+    {
+      "event_id": "p3_e0000017",
+      "time_us": 1601.9056274847721,
+      "boundary": "start",
+      "kind": "transfer",
+      "n_before": {
+        "cold_bank_1:r5:c0": 13.560115801904118,
+        "cold_bank_1:r5:c2": 13.560115801904118
+      },
+      "n_after": {
+        "cold_bank_1:r5:c0": 13.560115801904118,
+        "cold_bank_1:r5:c2": 13.560115801904118
+      },
+      "incremental_terms": {
+        "E_native_gate": 0.0,
+        "E_transfer": 0.0020010006671670687,
+        "E_heating_gate": 0.0,
+        "E_movement_loss": 0.0,
+        "E_cooling_gate": 0.0,
+        "E_decoherence": 0.0
+      },
+      "incremental_terms_infinite": {
+        "E_native_gate": false,
+        "E_transfer": false,
+        "E_heating_gate": false,
+        "E_movement_loss": false,
+        "E_cooling_gate": false,
+        "E_decoherence": false
+      }
+    },
+    {
+      "event_id": "p3_e0000017",
+      "time_us": 1621.9056274847721,
+      "boundary": "complete",
+      "kind": "transfer",
+      "n_before": {
+        "cold_bank_1:r5:c0": 13.560115801904118,
+        "cold_bank_1:r5:c2": 13.560115801904118
+      },
+      "n_after": {
+        "cold_bank_1:r5:c0": 13.560115801904118,
+        "cold_bank_1:r5:c2": 13.560115801904118
+      },
+      "incremental_terms": {
+        "E_native_gate": 0.0,
+        "E_transfer": 0.0,
+        "E_heating_gate": 0.0,
+        "E_movement_loss": 0.0,
+        "E_cooling_gate": 0.0,
+        "E_decoherence": 0.0
+      },
+      "incremental_terms_infinite": {
+        "E_native_gate": false,
+        "E_transfer": false,
+        "E_heating_gate": false,
+        "E_movement_loss": false,
+        "E_cooling_gate": false,
+        "E_decoherence": false
+      }
+    },
+    {
+      "event_id": "p3_e0000018",
+      "time_us": 1621.9056274847721,
+      "boundary": "start",
+      "kind": "gate",
+      "n_before": {
+        "cold_bank_1:r5:c0": 13.560115801904118,
+        "cold_bank_1:r5:c2": 13.560115801904118
+      },
+      "n_after": {
+        "cold_bank_1:r5:c0": 13.560115801904118,
+        "cold_bank_1:r5:c2": 13.560115801904118
+      },
+      "incremental_terms": {
+        "E_native_gate": 0.005012541823544286,
+        "E_transfer": 0.0,
+        "E_heating_gate": 0.014942461251776633,
+        "E_movement_loss": 0.0,
+        "E_cooling_gate": 0.0,
+        "E_decoherence": 0.0
+      },
+      "incremental_terms_infinite": {
+        "E_native_gate": false,
+        "E_transfer": false,
+        "E_heating_gate": false,
+        "E_movement_loss": false,
+        "E_cooling_gate": false,
+        "E_decoherence": false
+      }
+    },
+    {
+      "event_id": "p3_e0000018",
+      "time_us": 1622.1056274847722,
+      "boundary": "complete",
+      "kind": "gate",
+      "n_before": {
+        "cold_bank_1:r5:c0": 13.560115801904118,
+        "cold_bank_1:r5:c2": 13.560115801904118
+      },
+      "n_after": {
+        "cold_bank_1:r5:c0": 13.560115801904118,
+        "cold_bank_1:r5:c2": 13.560115801904118
+      },
+      "incremental_terms": {
+        "E_native_gate": 0.0,
+        "E_transfer": 0.0,
+        "E_heating_gate": 0.0,
+        "E_movement_loss": 0.0,
+        "E_cooling_gate": 0.0,
+        "E_decoherence": 0.0
+      },
+      "incremental_terms_infinite": {
+        "E_native_gate": false,
+        "E_transfer": false,
+        "E_heating_gate": false,
+        "E_movement_loss": false,
+        "E_cooling_gate": false,
+        "E_decoherence": false
+      }
+    },
+    {
+      "event_id": "p3_e0000019",
+      "time_us": 1622.1056274847722,
+      "boundary": "start",
+      "kind": "transfer",
+      "n_before": {
+        "cold_bank_1:r5:c0": 13.560115801904118,
+        "cold_bank_1:r5:c2": 13.560115801904118
+      },
+      "n_after": {
+        "cold_bank_1:r5:c0": 13.560115801904118,
+        "cold_bank_1:r5:c2": 13.560115801904118
+      },
+      "incremental_terms": {
+        "E_native_gate": 0.0,
+        "E_transfer": 0.0020010006671670687,
+        "E_heating_gate": 0.0,
+        "E_movement_loss": 0.0,
+        "E_cooling_gate": 0.0,
+        "E_decoherence": 0.0
+      },
+      "incremental_terms_infinite": {
+        "E_native_gate": false,
+        "E_transfer": false,
+        "E_heating_gate": false,
+        "E_movement_loss": false,
+        "E_cooling_gate": false,
+        "E_decoherence": false
+      }
+    },
+    {
+      "event_id": "p3_e0000019",
+      "time_us": 1642.1056274847722,
+      "boundary": "complete",
+      "kind": "transfer",
+      "n_before": {
+        "cold_bank_1:r5:c0": 13.560115801904118,
+        "cold_bank_1:r5:c2": 13.560115801904118
+      },
+      "n_after": {
+        "cold_bank_1:r5:c0": 13.560115801904118,
+        "cold_bank_1:r5:c2": 13.560115801904118
+      },
+      "incremental_terms": {
+        "E_native_gate": 0.0,
+        "E_transfer": 0.0,
+        "E_heating_gate": 0.0,
+        "E_movement_loss": 0.0,
+        "E_cooling_gate": 0.0,
+        "E_decoherence": 0.0
+      },
+      "incremental_terms_infinite": {
+        "E_native_gate": false,
+        "E_transfer": false,
+        "E_heating_gate": false,
+        "E_movement_loss": false,
+        "E_cooling_gate": false,
+        "E_decoherence": false
+      }
+    },
+    {
+      "event_id": "p3_e0000020",
+      "time_us": 1642.1056274847722,
+      "boundary": "start",
+      "kind": "move",
+      "n_before": {
+        "cold_bank_1:r5:c0": 13.560115801904118,
+        "cold_bank_1:r5:c2": 13.560115801904118
+      },
+      "n_after": {
+        "cold_bank_1:r5:c0": 13.560115801904118,
+        "cold_bank_1:r5:c2": 13.560115801904118
+      },
+      "incremental_terms": {
+        "E_native_gate": 0.0,
+        "E_transfer": 0.0,
+        "E_heating_gate": 0.0,
+        "E_movement_loss": 0.0,
+        "E_cooling_gate": 0.0,
+        "E_decoherence": 0.0
+      },
+      "incremental_terms_infinite": {
+        "E_native_gate": false,
+        "E_transfer": false,
+        "E_heating_gate": false,
+        "E_movement_loss": false,
+        "E_cooling_gate": false,
+        "E_decoherence": false
+      }
+    },
+    {
+      "event_id": "p3_e0000020",
+      "time_us": 1684.5320343559652,
+      "boundary": "complete",
+      "kind": "move",
+      "n_before": {
+        "cold_bank_1:r5:c0": 13.560115801904118,
+        "cold_bank_1:r5:c2": 13.560115801904118
+      },
+      "n_after": {
+        "cold_bank_1:r5:c0": 27.120231603808236,
+        "cold_bank_1:r5:c2": 27.120231603808236
+      },
+      "incremental_terms": {
+        "E_native_gate": 0.0,
+        "E_transfer": 0.0,
+        "E_heating_gate": 0.0,
+        "E_movement_loss": 0.2772330122739605,
+        "E_cooling_gate": 0.0,
+        "E_decoherence": 0.0
+      },
+      "incremental_terms_infinite": {
+        "E_native_gate": false,
+        "E_transfer": false,
+        "E_heating_gate": false,
+        "E_movement_loss": false,
+        "E_cooling_gate": false,
+        "E_decoherence": false
+      }
+    },
+    {
+      "event_id": "p3_e0000021",
+      "time_us": 1684.5320343559652,
+      "boundary": "start",
+      "kind": "cooling",
+      "n_before": {
+        "cold_bank_1:r5:c0": 27.120231603808236,
+        "cold_bank_1:r5:c2": 27.120231603808236
+      },
+      "n_after": {
+        "cold_bank_1:r5:c0": 27.120231603808236,
+        "cold_bank_1:r5:c2": 27.120231603808236,
+        "cold_bank_2:r5:c0": 0.0,
+        "cold_bank_2:r5:c2": 0.0
+      },
+      "incremental_terms": {
+        "E_native_gate": 0.0,
+        "E_transfer": 0.0040020013343341375,
+        "E_heating_gate": 0.05976984500710653,
+        "E_movement_loss": 0.0,
+        "E_cooling_gate": 0.020690192895542314,
+        "E_decoherence": 0.0
+      },
+      "incremental_terms_infinite": {
+        "E_native_gate": false,
+        "E_transfer": false,
+        "E_heating_gate": false,
+        "E_movement_loss": false,
+        "E_cooling_gate": false,
+        "E_decoherence": false
+      }
+    },
+    {
+      "event_id": "p3_e0000021",
+      "time_us": 2330.3320343559644,
+      "boundary": "complete",
+      "kind": "cooling",
+      "n_before": {
+        "cold_bank_1:r5:c0": 27.120231603808236,
+        "cold_bank_1:r5:c2": 27.120231603808236
+      },
+      "n_after": {
+        "cold_bank_1:r5:c0": 27.120231603808236,
+        "cold_bank_1:r5:c2": 27.120231603808236,
+        "cold_bank_2:r5:c0": 0.0,
+        "cold_bank_2:r5:c2": 0.0
+      },
+      "incremental_terms": {
+        "E_native_gate": 0.0,
+        "E_transfer": 0.0,
+        "E_heating_gate": 0.0,
+        "E_movement_loss": 0.0,
+        "E_cooling_gate": 0.0,
+        "E_decoherence": 0.0
+      },
+      "incremental_terms_infinite": {
+        "E_native_gate": false,
+        "E_transfer": false,
+        "E_heating_gate": false,
+        "E_movement_loss": false,
+        "E_cooling_gate": false,
+        "E_decoherence": false
+      }
+    },
+    {
+      "event_id": "p3_e0000022",
+      "time_us": 2330.3320343559644,
+      "boundary": "start",
+      "kind": "transfer",
+      "n_before": {
+        "cold_bank_2:r5:c0": 0.0,
+        "cold_bank_2:r5:c2": 0.0
+      },
+      "n_after": {
+        "cold_bank_2:r5:c0": 0.0,
+        "cold_bank_2:r5:c2": 0.0
+      },
+      "incremental_terms": {
+        "E_native_gate": 0.0,
+        "E_transfer": 0.0020010006671670687,
+        "E_heating_gate": 0.0,
+        "E_movement_loss": 0.0,
+        "E_cooling_gate": 0.0,
+        "E_decoherence": 0.0
+      },
+      "incremental_terms_infinite": {
+        "E_native_gate": false,
+        "E_transfer": false,
+        "E_heating_gate": false,
+        "E_movement_loss": false,
+        "E_cooling_gate": false,
+        "E_decoherence": false
+      }
+    },
+    {
+      "event_id": "p3_e0000022",
+      "time_us": 2350.3320343559644,
+      "boundary": "complete",
+      "kind": "transfer",
+      "n_before": {
+        "cold_bank_2:r5:c0": 0.0,
+        "cold_bank_2:r5:c2": 0.0
+      },
+      "n_after": {
+        "cold_bank_2:r5:c0": 0.0,
+        "cold_bank_2:r5:c2": 0.0
+      },
+      "incremental_terms": {
+        "E_native_gate": 0.0,
+        "E_transfer": 0.0,
+        "E_heating_gate": 0.0,
+        "E_movement_loss": 0.0,
+        "E_cooling_gate": 0.0,
+        "E_decoherence": 0.0
+      },
+      "incremental_terms_infinite": {
+        "E_native_gate": false,
+        "E_transfer": false,
+        "E_heating_gate": false,
+        "E_movement_loss": false,
+        "E_cooling_gate": false,
+        "E_decoherence": false
+      }
+    },
+    {
+      "event_id": "p3_e0000023",
+      "time_us": 2350.3320343559644,
+      "boundary": "start",
+      "kind": "gate",
+      "n_before": {
+        "cold_bank_2:r5:c0": 0.0,
+        "cold_bank_2:r5:c2": 0.0
+      },
+      "n_after": {
+        "cold_bank_2:r5:c0": 0.0,
+        "cold_bank_2:r5:c2": 0.0
+      },
+      "incremental_terms": {
+        "E_native_gate": 0.005012541823544286,
+        "E_transfer": 0.0,
+        "E_heating_gate": 0.0,
+        "E_movement_loss": 0.0,
+        "E_cooling_gate": 0.0,
+        "E_decoherence": 0.0
+      },
+      "incremental_terms_infinite": {
+        "E_native_gate": false,
+        "E_transfer": false,
+        "E_heating_gate": false,
+        "E_movement_loss": false,
+        "E_cooling_gate": false,
+        "E_decoherence": false
+      }
+    },
+    {
+      "event_id": "p3_e0000023",
+      "time_us": 2350.5320343559642,
+      "boundary": "complete",
+      "kind": "gate",
+      "n_before": {
+        "cold_bank_2:r5:c0": 0.0,
+        "cold_bank_2:r5:c2": 0.0
+      },
+      "n_after": {
+        "cold_bank_2:r5:c0": 0.0,
+        "cold_bank_2:r5:c2": 0.0
+      },
+      "incremental_terms": {
+        "E_native_gate": 0.0,
+        "E_transfer": 0.0,
+        "E_heating_gate": 0.0,
+        "E_movement_loss": 0.0,
+        "E_cooling_gate": 0.0,
+        "E_decoherence": 0.0
+      },
+      "incremental_terms_infinite": {
+        "E_native_gate": false,
+        "E_transfer": false,
+        "E_heating_gate": false,
+        "E_movement_loss": false,
+        "E_cooling_gate": false,
+        "E_decoherence": false
+      }
+    }
+  ]
+}

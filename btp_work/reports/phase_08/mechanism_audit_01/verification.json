@@ -1,0 +1,82 @@
+{
+  "status": "ok",
+  "results_sha256": "1eff55f7739639b832fe504cf3b2ea9f479a76a045208aef76abd29b485d60fc",
+  "script_sha256": "153adeec34a090f2aee6a7c681016ed79bfbe0623e4ea48052efa85a1f4e233f",
+  "reference_case_seeds": 24,
+  "selected_component_summary": [
+    {
+      "term": "distance",
+      "selected_edges": 243,
+      "positive_selected_edges": 192,
+      "max_selected_component": 3.813680451817798,
+      "mean_selected_component": 1.3148901002131503
+    },
+    {
+      "term": "conflict",
+      "selected_edges": 243,
+      "positive_selected_edges": 108,
+      "max_selected_component": 6.0,
+      "mean_selected_component": 0.7283950617283951
+    },
+    {
+      "term": "future",
+      "selected_edges": 243,
+      "positive_selected_edges": 192,
+      "max_selected_component": 1.434482475213969,
+      "mean_selected_component": 0.4720693972385566
+    },
+    {
+      "term": "heating",
+      "selected_edges": 243,
+      "positive_selected_edges": 192,
+      "max_selected_component": 0.000593318668094994,
+      "mean_selected_component": 0.00031771957268523647
+    },
+    {
+      "term": "transfer",
+      "selected_edges": 243,
+      "positive_selected_edges": 192,
+      "max_selected_component": 1.0,
+      "mean_selected_component": 0.7037037037037037
+    }
+  ],
+  "matrix_summary": [
+    {
+      "term": "conflict",
+      "aligned_same_decision_matrices": 27,
+      "matrix_unchanged": 9,
+      "matrix_uniform_shift": 18,
+      "nonuniform_change": 9,
+      "identical_final_instructions": 9,
+      "compared_case_seeds": 24
+    },
+    {
+      "term": "future",
+      "aligned_same_decision_matrices": 183,
+      "matrix_unchanged": 24,
+      "matrix_uniform_shift": 30,
+      "nonuniform_change": 153,
+      "identical_final_instructions": 24,
+      "compared_case_seeds": 24
+    },
+    {
+      "term": "heating",
+      "aligned_same_decision_matrices": 183,
+      "matrix_unchanged": 24,
+      "matrix_uniform_shift": 33,
+      "nonuniform_change": 150,
+      "identical_final_instructions": 24,
+      "compared_case_seeds": 24
+    },
+    {
+      "term": "transfer",
+      "aligned_same_decision_matrices": 183,
+      "matrix_unchanged": 24,
+      "matrix_uniform_shift": 135,
+      "nonuniform_change": 48,
+      "identical_final_instructions": 24,
+      "compared_case_seeds": 24
+    }
+  ],
+  "scope": "No compiler reruns; records on observed trajectories; null output does not prove a term is irrelevant outside this corpus"
+}

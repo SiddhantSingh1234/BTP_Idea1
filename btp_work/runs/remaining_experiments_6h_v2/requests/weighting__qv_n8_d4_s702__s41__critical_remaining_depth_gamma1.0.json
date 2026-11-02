@@ -1,0 +1,14 @@
+{
+  "id": "weighting__qv_n8_d4_s702__s41__critical_remaining_depth_gamma1.0",
+  "suite": "weighting",
+  "kind": "compile",
+  "case_id": "qv_n8_d4_s702",
+  "case_path": "runs\\remaining_experiments_6h_v2\\inputs\\qv_n8_d4_s702\\case.json",
+  "seed": 41,
+  "variant": "critical_remaining_depth_gamma1.0",
+  "timeout": 18,
+  "grid": 11,
+  "reference_id": "reference__qv_n8_d4_s702__s41",
+  "weight_mode": "critical_remaining_depth",
+  "gamma": 1.0
+}

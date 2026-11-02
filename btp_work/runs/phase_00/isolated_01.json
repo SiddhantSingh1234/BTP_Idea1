@@ -1,0 +1,547 @@
+{
+  "scope": "Isolated exact upstream AST routines and hand-specified instruction fixture only; NO full compiler run",
+  "source_revision": "3d1f09233c2acd357fd9fbfad1b5300a921d301a",
+  "checks": [
+    {
+      "name": "rft_stores_multiple_partners_at_current_layer",
+      "passed": true,
+      "actual": [
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          1
+        ]
+      ],
+      "expected": [
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          1
+        ]
+      ],
+      "detail": null
+    },
+    {
+      "name": "rft_earliest_repeat_hides_later_same_partner",
+      "passed": true,
+      "actual": 1,
+      "expected": 1,
+      "detail": null
+    },
+    {
+      "name": "rft_no_future_partner",
+      "passed": true,
+      "actual": [],
+      "expected": [],
+      "detail": null
+    },
+    {
+      "name": "legacy_parking_sum_distance",
+      "passed": true,
+      "actual": [
+        1,
+        0
+      ],
+      "expected": [
+        1,
+        0
+      ],
+      "detail": null
+    },
+    {
+      "name": "alternative_eviction_pure_partner",
+      "passed": true,
+      "actual": [
+        4,
+        1
+      ],
+      "expected": [
+        4,
+        1
+      ],
+      "detail": null
+    },
+    {
+      "name": "eviction_cutoff_ignores_partner_at_delta3",
+      "passed": true,
+      "actual": [
+        1,
+        0
+      ],
+      "expected": [
+        1,
+        0
+      ],
+      "detail": null
+    },
+    {
+      "name": "missing_anchor_ignores_known_partner",
+      "passed": true,
+      "actual": [
+        1,
+        0
+      ],
+      "expected": [
+        1,
+        0
+      ],
+      "detail": null
+    },
+    {
+      "name": "no_future_fallback_uses_supplied_centroid",
+      "passed": true,
+      "actual": [
+        4,
+        1
+      ],
+      "expected": [
+        4,
+        1
+      ],
+      "detail": null
+    },
+    {
+      "name": "orientation_materialization_increases_matrix_entry",
+      "passed": true,
+      "actual": {
+        "0": [
+          0,
+          2
+        ],
+        "1": [
+          1,
+          2
+        ]
+      },
+      "expected": {
+        "0": [
+          0,
+          2
+        ],
+        "1": [
+          1,
+          2
+        ]
+      },
+      "detail": null
+    },
+    {
+      "name": "batch_population_1_transfer_alias",
+      "passed": true,
+      "actual": 4,
+      "expected": 4,
+      "detail": null
+    },
+    {
+      "name": "batch_population_3_transfer_alias",
+      "passed": true,
+      "actual": 4,
+      "expected": 4,
+      "detail": null
+    },
+    {
+      "name": "increasing_atom_population_does_not_change_legacy_transfer_cost",
+      "passed": true,
+      "actual": 0.9907997616345292,
+      "expected": 0.9907997616345292,
+      "detail": null
+    },
+    {
+      "name": "inactive_empty_schedule_has_no_initialization",
+      "passed": true,
+      "actual": [],
+      "expected": [],
+      "detail": null
+    },
+    {
+      "name": "inactive_layer_is_skip_only",
+      "passed": true,
+      "actual": true,
+      "expected": true,
+      "detail": null
+    },
+    {
+      "name": "zero_slot_initialization_references_unbound_centroid",
+      "passed": true,
+      "actual": true,
+      "expected": true,
+      "detail": "cannot access local variable 'center_of_mass' where it is not associated with a value"
+    },
+    {
+      "name": "full_grid_swap_returns_error_log_not_exception",
+      "passed": true,
+      "actual": [
+        "  ERROR: No free temporary spot to break movement cycle!"
+      ],
+      "expected": [
+        "  ERROR: No free temporary spot to break movement cycle!"
+      ],
+      "detail": null
+    },
+    {
+      "name": "canonical_mapping_and_busiest_pairs_unused",
+      "passed": true,
+      "actual": [],
+      "expected": [],
+      "detail": null
+    },
+    {
+      "name": "no_GridCapacityError_raise_in_planner",
+      "passed": true,
+      "actual": false,
+      "expected": false,
+      "detail": null
+    },
+    {
+      "name": "router_mis_omits_explicit_seed",
+      "passed": true,
+      "actual": true,
+      "expected": true,
+      "detail": null
+    },
+    {
+      "name": "ladder_variant_count",
+      "passed": true,
+      "actual": 8,
+      "expected": 8,
+      "detail": null
+    },
+    {
+      "name": "snapshot_default_is_ladder7",
+      "passed": true,
+      "actual": {
+        "variant_name": "7_dynamic_slot_01q_move",
+        "enable_keep_adjacent": true,
+        "enable_one_qubit_move": true,
+        "candidate_slots_mode": "com_subset",
+        "pad_cost_matrix_to_square": false,
+        "assignment_mode": "hungarian",
+        "idle_parking_mode": "rft_greedy",
+        "evicted_park_closest_to_partner": false,
+        "enable_rft_hungarian_bias": false,
+        "rft_hungarian_bias_weight": 0.3,
+        "rft_hungarian_bias_max_time_dist": 3,
+        "random_seed": 42
+      },
+      "expected": {
+        "variant_name": "7_dynamic_slot_01q_move",
+        "enable_keep_adjacent": true,
+        "enable_one_qubit_move": true,
+        "candidate_slots_mode": "com_subset",
+        "pad_cost_matrix_to_square": false,
+        "assignment_mode": "hungarian",
+        "idle_parking_mode": "rft_greedy",
+        "evicted_park_closest_to_partner": false,
+        "enable_rft_hungarian_bias": false,
+        "rft_hungarian_bias_weight": 0.3,
+        "rft_hungarian_bias_max_time_dist": 3,
+        "random_seed": 42
+      },
+      "detail": null
+    },
+    {
+      "name": "hand_trace_gate_count",
+      "passed": true,
+      "actual": 4,
+      "expected": 4,
+      "detail": null
+    },
+    {
+      "name": "hand_trace_move_batches",
+      "passed": true,
+      "actual": 2,
+      "expected": 2,
+      "detail": null
+    },
+    {
+      "name": "hand_trace_gate_cycles",
+      "passed": true,
+      "actual": 3,
+      "expected": 3,
+      "detail": null
+    }
+  ],
+  "all_passed": true,
+  "orientation_counterexample": {
+    "positions": {
+      "0": [
+        0,
+        0
+      ],
+      "1": [
+        0,
+        1
+      ]
+    },
+    "slot": [
+      [
+        0,
+        2
+      ],
+      [
+        1,
+        2
+      ]
+    ],
+    "matrix_cost": 3.23606797749979,
+    "materialized_cost": 3.414213562373095,
+    "materialization_ast_lines": [
+      634,
+      644
+    ]
+  },
+  "rft_repeat_case": {
+    "T1": {
+      "0": [
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          1
+        ]
+      ],
+      "1": [
+        [
+          0,
+          0
+        ]
+      ],
+      "2": [
+        [
+          0,
+          1
+        ]
+      ],
+      "3": []
+    },
+    "T2": {
+      "0": [
+        [
+          1,
+          1
+        ],
+        [
+          2,
+          0
+        ]
+      ],
+      "1": [
+        [
+          0,
+          1
+        ]
+      ],
+      "2": [
+        [
+          0,
+          0
+        ]
+      ],
+      "3": []
+    },
+    "T3": {
+      "0": [
+        [
+          1,
+          0
+        ]
+      ],
+      "1": [
+        [
+          0,
+          0
+        ]
+      ],
+      "2": [],
+      "3": []
+    }
+  },
+  "population_metric_cases": [
+    {
+      "population": 1,
+      "parsed": {
+        "Num Gate Cycles": 1,
+        "Num Movement Ops": 1,
+        "Num Moves": 1,
+        "Total Move Distance": 3.0,
+        "Num CZ Gates (from log)": 1
+      },
+      "legacy_score": {
+        "Fidelity (DasAtom Model)": 0.9947728885294125,
+        "Fidelity (Realistic)": 0.9907997616345292,
+        "Movement Fidelity": 0.9999430319257727,
+        "Num Movement Ops": 1,
+        "Num Transferred Qubits": 4,
+        "Num Moves": 1,
+        "Total Move Distance": 3.0,
+        "Num Gate Cycles": 1,
+        "Total_T (us)": 85.65454545454546,
+        "Idle Time (us)": 342.41818181818184
+      }
+    },
+    {
+      "population": 3,
+      "parsed": {
+        "Num Gate Cycles": 1,
+        "Num Movement Ops": 1,
+        "Num Moves": 3,
+        "Total Move Distance": 3.0,
+        "Num CZ Gates (from log)": 1
+      },
+      "legacy_score": {
+        "Fidelity (DasAtom Model)": 0.9947728885294125,
+        "Fidelity (Realistic)": 0.9907997616345292,
+        "Movement Fidelity": 0.9999430319257727,
+        "Num Movement Ops": 1,
+        "Num Transferred Qubits": 4,
+        "Num Moves": 3,
+        "Total Move Distance": 3.0,
+        "Num Gate Cycles": 1,
+        "Total_T (us)": 85.65454545454546,
+        "Idle Time (us)": 342.41818181818184
+      }
+    }
+  ],
+  "ladder_options": {
+    "1_all_random": {
+      "variant_name": "all_random",
+      "enable_keep_adjacent": false,
+      "enable_one_qubit_move": false,
+      "candidate_slots_mode": "all_compatible",
+      "pad_cost_matrix_to_square": false,
+      "assignment_mode": "random",
+      "idle_parking_mode": "random",
+      "evicted_park_closest_to_partner": false,
+      "enable_rft_hungarian_bias": false,
+      "rft_hungarian_bias_weight": 0.3,
+      "rft_hungarian_bias_max_time_dist": 3,
+      "random_seed": 42
+    },
+    "2_greedy_nearest_idle_parking": {
+      "variant_name": "2_greedy_nearest_idle_parking",
+      "enable_keep_adjacent": false,
+      "enable_one_qubit_move": false,
+      "candidate_slots_mode": "all_compatible",
+      "pad_cost_matrix_to_square": false,
+      "assignment_mode": "random",
+      "idle_parking_mode": "greedy_nearest",
+      "evicted_park_closest_to_partner": false,
+      "enable_rft_hungarian_bias": false,
+      "rft_hungarian_bias_weight": 0.3,
+      "rft_hungarian_bias_max_time_dist": 3,
+      "random_seed": 42
+    },
+    "3_hungarian": {
+      "variant_name": "3_hungarian",
+      "enable_keep_adjacent": false,
+      "enable_one_qubit_move": false,
+      "candidate_slots_mode": "all_compatible",
+      "pad_cost_matrix_to_square": false,
+      "assignment_mode": "hungarian",
+      "idle_parking_mode": "greedy_nearest",
+      "evicted_park_closest_to_partner": false,
+      "enable_rft_hungarian_bias": false,
+      "rft_hungarian_bias_weight": 0.3,
+      "rft_hungarian_bias_max_time_dist": 3,
+      "random_seed": 42
+    },
+    "4_CoM_subset": {
+      "variant_name": "4_CoM_subset",
+      "enable_keep_adjacent": false,
+      "enable_one_qubit_move": false,
+      "candidate_slots_mode": "com_subset",
+      "pad_cost_matrix_to_square": false,
+      "assignment_mode": "hungarian",
+      "idle_parking_mode": "greedy_nearest",
+      "evicted_park_closest_to_partner": false,
+      "enable_rft_hungarian_bias": false,
+      "rft_hungarian_bias_weight": 0.3,
+      "rft_hungarian_bias_max_time_dist": 3,
+      "random_seed": 42
+    },
+    "5_rft_idle_parking": {
+      "variant_name": "5_rft_idle_parking",
+      "enable_keep_adjacent": false,
+      "enable_one_qubit_move": false,
+      "candidate_slots_mode": "com_subset",
+      "pad_cost_matrix_to_square": false,
+      "assignment_mode": "hungarian",
+      "idle_parking_mode": "rft_greedy",
+      "evicted_park_closest_to_partner": false,
+      "enable_rft_hungarian_bias": false,
+      "rft_hungarian_bias_weight": 0.3,
+      "rft_hungarian_bias_max_time_dist": 3,
+      "random_seed": 42
+    },
+    "6_dynamic_slot_0q_move": {
+      "variant_name": "6_dynamic_slot_0q_move",
+      "enable_keep_adjacent": true,
+      "enable_one_qubit_move": false,
+      "candidate_slots_mode": "com_subset",
+      "pad_cost_matrix_to_square": false,
+      "assignment_mode": "hungarian",
+      "idle_parking_mode": "rft_greedy",
+      "evicted_park_closest_to_partner": false,
+      "enable_rft_hungarian_bias": false,
+      "rft_hungarian_bias_weight": 0.3,
+      "rft_hungarian_bias_max_time_dist": 3,
+      "random_seed": 42
+    },
+    "7_dynamic_slot_01q_move": {
+      "variant_name": "7_dynamic_slot_01q_move",
+      "enable_keep_adjacent": true,
+      "enable_one_qubit_move": true,
+      "candidate_slots_mode": "com_subset",
+      "pad_cost_matrix_to_square": false,
+      "assignment_mode": "hungarian",
+      "idle_parking_mode": "rft_greedy",
+      "evicted_park_closest_to_partner": false,
+      "enable_rft_hungarian_bias": false,
+      "rft_hungarian_bias_weight": 0.3,
+      "rft_hungarian_bias_max_time_dist": 3,
+      "random_seed": 42
+    },
+    "8_optimized_eviction": {
+      "variant_name": "8_optimized_eviction",
+      "enable_keep_adjacent": true,
+      "enable_one_qubit_move": true,
+      "candidate_slots_mode": "com_subset",
+      "pad_cost_matrix_to_square": false,
+      "assignment_mode": "hungarian",
+      "idle_parking_mode": "rft_greedy",
+      "evicted_park_closest_to_partner": true,
+      "enable_rft_hungarian_bias": false,
+      "rft_hungarian_bias_weight": 0.3,
+      "rft_hungarian_bias_max_time_dist": 3,
+      "random_seed": 42
+    }
+  },
+  "hand_worked_trace_counts": {
+    "Num Gate Cycles": 3,
+    "Num Movement Ops": 2,
+    "Num Moves": 2,
+    "Total Move Distance": 9.70820393249937,
+    "Num CZ Gates (from log)": 4
+  },
+  "hand_worked_trace_legacy_score": {
+    "Fidelity (DasAtom Model)": 0.9796842327609727,
+    "Fidelity (Realistic)": 0.9718741352636082,
+    "Movement Fidelity": 0.9998815728264666,
+    "Num Movement Ops": 2,
+    "Num Transferred Qubits": 8,
+    "Num Moves": 2,
+    "Total Move Distance": 9.70820393249937,
+    "Num Gate Cycles": 3,
+    "Total_T (us)": 178.25127987727157,
+    "Idle Time (us)": 712.2051195090863
+  },
+  "full_compiler_determinism_tested": false
+}

@@ -1,0 +1,70 @@
+{
+  "target_id": "hardware__cooling_b8_t25",
+  "command": [
+    "C:\\Users\\hp\\Documents\\BTP\\btp_work\\.venv\\Scripts\\python.exe",
+    "-B",
+    "-X",
+    "utf8",
+    "C:\\Users\\hp\\Documents\\BTP\\btp_work\\runs\\remaining_experiments_6h_v2\\frozen\\tools\\bounded_experiment_worker.py",
+    "--input",
+    "C:\\Users\\hp\\Documents\\BTP\\btp_work\\runs\\remaining_experiments_6h_v2\\requests\\hardware__cooling_b8_t25.json",
+    "--grid",
+    "8",
+    "--seed",
+    "42",
+    "--out",
+    "C:\\Users\\hp\\Documents\\BTP\\btp_work\\runs\\remaining_experiments_6h_v2\\measurements\\hardware__cooling_b8_t25\\attempt_01\\worker"
+  ],
+  "worker_sha256": "eef102d4fa88d37f2f4df0fd6efbdb8010a3f179331b74ba4599660525cdde88",
+  "router_sha256": "6b26c4db8213ac36ee43a860f4b46ad566cc7126c105a875631584f766e7e458",
+  "input_sha256": "7450c29ed39dd9cd23e924f728a4c97339ede4c4e5ceeb533a6ec2a835b406a3",
+  "timeout_seconds": 18,
+  "memory_limit_bytes": 4294967296,
+  "attempt": 1,
+  "launcher_protocol": "windows-suspended-job-v1",
+  "launcher_sha256": "8eaf0a44bfb38fc240316c2103ab55c0658133ad46f7c90f55106a1830a61723",
+  "status": "ok",
+  "process_exit_code": 0,
+  "process_wall_seconds": 0.25205050001386553,
+  "peak_working_set_bytes": 6631424,
+  "memory_definition": "observed sum of family peak working sets; not allocation-proof hard cap",
+  "monitored_process_ids": [
+    22512,
+    25836
+  ],
+  "result": {
+    "status": "ok",
+    "accepted_schedule": true,
+    "extended_E": 1.2614185750217488,
+    "makespan_us": 1704.7320343559647,
+    "profile_sha256": "09ad509ab9dfb6022e311308e910a061d0278801f2240279672562a5cc3e8f5f",
+    "counts": {
+      "transfer_atom_events": 28,
+      "transfer_stages": 14,
+      "movement_batches": 5,
+      "moved_atom_events": 10,
+      "native_CZ": 5,
+      "cooling_episodes": 2,
+      "cooled_atom_events": 4,
+      "cooling_CZ": 8,
+      "cooling_H": 16,
+      "cooling_transfer_atom_events": 8,
+      "cooling_transfer_stages": 4
+    },
+    "scope": "fixed synthetic route, extra hypothetical cooling banks/resources; no planner optimization claim",
+    "E_native_gate": 0.025062709117721432,
+    "E_transfer": 0.028014009340338958,
+    "E_heating_gate": 0.17437012978793814,
+    "E_movement_loss": 0.9903183649388576,
+    "E_cooling_gate": 0.04138038579108463,
+    "E_decoherence": 0.002272976045807953
+  },
+  "worker_artifact_sha256": {
+    "worker/evaluation.json": "c38aa437bf4365c3fcc81b84991de5b59c8a97a58c312c41c8b00266cabc8a39",
+    "worker/resolved_profile.json": "8a661c517248e195e6374c1079552bb9f4ad68d0745b1149d7d6ec371ea85ec2",
+    "worker/result.json": "9caab5ca4b11c4a634b46aad8def9bf23473ceae6836e81ebee351a6dee1798e",
+    "worker/schedule.json": "381fed0d847ad8e4fb2ae243ff39d91827727188687dbc61a1c589d1400823d2"
+  },
+  "monitor_error": null,
+  "record_path": "runs\\remaining_experiments_6h_v2\\measurements\\hardware__cooling_b8_t25\\attempt_01\\attempt_record.json"
+}

@@ -1,0 +1,1 @@
+{"status": "unsupported", "accepted_schedule": false}

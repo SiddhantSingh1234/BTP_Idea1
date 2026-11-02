@@ -1,0 +1,1288 @@
+{
+  "case_id": "qaoa_n10_p2_g910",
+  "family": "qaoa",
+  "circuit": {
+    "format": "cz_circuit.v1",
+    "num_qubits": 10,
+    "gates": [
+      {
+        "gate_id": "g000000",
+        "gate_type": "cz",
+        "qubits": [
+          0,
+          1
+        ],
+        "dependencies": [],
+        "logical_layer": 1
+      },
+      {
+        "gate_id": "g000001",
+        "gate_type": "cz",
+        "qubits": [
+          0,
+          1
+        ],
+        "dependencies": [
+          "g000000"
+        ],
+        "logical_layer": 2
+      },
+      {
+        "gate_id": "g000002",
+        "gate_type": "cz",
+        "qubits": [
+          0,
+          2
+        ],
+        "dependencies": [
+          "g000001"
+        ],
+        "logical_layer": 3
+      },
+      {
+        "gate_id": "g000003",
+        "gate_type": "cz",
+        "qubits": [
+          0,
+          2
+        ],
+        "dependencies": [
+          "g000002"
+        ],
+        "logical_layer": 4
+      },
+      {
+        "gate_id": "g000004",
+        "gate_type": "cz",
+        "qubits": [
+          1,
+          2
+        ],
+        "dependencies": [
+          "g000001",
+          "g000003"
+        ],
+        "logical_layer": 5
+      },
+      {
+        "gate_id": "g000005",
+        "gate_type": "cz",
+        "qubits": [
+          1,
+          2
+        ],
+        "dependencies": [
+          "g000004"
+        ],
+        "logical_layer": 6
+      },
+      {
+        "gate_id": "g000006",
+        "gate_type": "cz",
+        "qubits": [
+          2,
+          5
+        ],
+        "dependencies": [
+          "g000005"
+        ],
+        "logical_layer": 7
+      },
+      {
+        "gate_id": "g000007",
+        "gate_type": "cz",
+        "qubits": [
+          2,
+          5
+        ],
+        "dependencies": [
+          "g000006"
+        ],
+        "logical_layer": 8
+      },
+      {
+        "gate_id": "g000008",
+        "gate_type": "cz",
+        "qubits": [
+          4,
+          5
+        ],
+        "dependencies": [
+          "g000007"
+        ],
+        "logical_layer": 9
+      },
+      {
+        "gate_id": "g000009",
+        "gate_type": "cz",
+        "qubits": [
+          4,
+          5
+        ],
+        "dependencies": [
+          "g000008"
+        ],
+        "logical_layer": 10
+      },
+      {
+        "gate_id": "g000010",
+        "gate_type": "cz",
+        "qubits": [
+          3,
+          6
+        ],
+        "dependencies": [],
+        "logical_layer": 1
+      },
+      {
+        "gate_id": "g000011",
+        "gate_type": "cz",
+        "qubits": [
+          3,
+          6
+        ],
+        "dependencies": [
+          "g000010"
+        ],
+        "logical_layer": 2
+      },
+      {
+        "gate_id": "g000012",
+        "gate_type": "cz",
+        "qubits": [
+          3,
+          7
+        ],
+        "dependencies": [
+          "g000011"
+        ],
+        "logical_layer": 3
+      },
+      {
+        "gate_id": "g000013",
+        "gate_type": "cz",
+        "qubits": [
+          3,
+          7
+        ],
+        "dependencies": [
+          "g000012"
+        ],
+        "logical_layer": 4
+      },
+      {
+        "gate_id": "g000014",
+        "gate_type": "cz",
+        "qubits": [
+          4,
+          7
+        ],
+        "dependencies": [
+          "g000009",
+          "g000013"
+        ],
+        "logical_layer": 11
+      },
+      {
+        "gate_id": "g000015",
+        "gate_type": "cz",
+        "qubits": [
+          4,
+          7
+        ],
+        "dependencies": [
+          "g000014"
+        ],
+        "logical_layer": 12
+      },
+      {
+        "gate_id": "g000016",
+        "gate_type": "cz",
+        "qubits": [
+          6,
+          7
+        ],
+        "dependencies": [
+          "g000011",
+          "g000015"
+        ],
+        "logical_layer": 13
+      },
+      {
+        "gate_id": "g000017",
+        "gate_type": "cz",
+        "qubits": [
+          6,
+          7
+        ],
+        "dependencies": [
+          "g000016"
+        ],
+        "logical_layer": 14
+      },
+      {
+        "gate_id": "g000018",
+        "gate_type": "cz",
+        "qubits": [
+          1,
+          8
+        ],
+        "dependencies": [
+          "g000005"
+        ],
+        "logical_layer": 7
+      },
+      {
+        "gate_id": "g000019",
+        "gate_type": "cz",
+        "qubits": [
+          1,
+          8
+        ],
+        "dependencies": [
+          "g000018"
+        ],
+        "logical_layer": 8
+      },
+      {
+        "gate_id": "g000020",
+        "gate_type": "cz",
+        "qubits": [
+          3,
+          8
+        ],
+        "dependencies": [
+          "g000013",
+          "g000019"
+        ],
+        "logical_layer": 9
+      },
+      {
+        "gate_id": "g000021",
+        "gate_type": "cz",
+        "qubits": [
+          3,
+          8
+        ],
+        "dependencies": [
+          "g000020"
+        ],
+        "logical_layer": 10
+      },
+      {
+        "gate_id": "g000022",
+        "gate_type": "cz",
+        "qubits": [
+          6,
+          8
+        ],
+        "dependencies": [
+          "g000017",
+          "g000021"
+        ],
+        "logical_layer": 15
+      },
+      {
+        "gate_id": "g000023",
+        "gate_type": "cz",
+        "qubits": [
+          6,
+          8
+        ],
+        "dependencies": [
+          "g000022"
+        ],
+        "logical_layer": 16
+      },
+      {
+        "gate_id": "g000024",
+        "gate_type": "cz",
+        "qubits": [
+          3,
+          6
+        ],
+        "dependencies": [
+          "g000021",
+          "g000023"
+        ],
+        "logical_layer": 17
+      },
+      {
+        "gate_id": "g000025",
+        "gate_type": "cz",
+        "qubits": [
+          3,
+          6
+        ],
+        "dependencies": [
+          "g000024"
+        ],
+        "logical_layer": 18
+      },
+      {
+        "gate_id": "g000026",
+        "gate_type": "cz",
+        "qubits": [
+          3,
+          7
+        ],
+        "dependencies": [
+          "g000017",
+          "g000025"
+        ],
+        "logical_layer": 19
+      },
+      {
+        "gate_id": "g000027",
+        "gate_type": "cz",
+        "qubits": [
+          3,
+          7
+        ],
+        "dependencies": [
+          "g000026"
+        ],
+        "logical_layer": 20
+      },
+      {
+        "gate_id": "g000028",
+        "gate_type": "cz",
+        "qubits": [
+          0,
+          9
+        ],
+        "dependencies": [
+          "g000003"
+        ],
+        "logical_layer": 5
+      },
+      {
+        "gate_id": "g000029",
+        "gate_type": "cz",
+        "qubits": [
+          0,
+          9
+        ],
+        "dependencies": [
+          "g000028"
+        ],
+        "logical_layer": 6
+      },
+      {
+        "gate_id": "g000030",
+        "gate_type": "cz",
+        "qubits": [
+          0,
+          1
+        ],
+        "dependencies": [
+          "g000019",
+          "g000029"
+        ],
+        "logical_layer": 9
+      },
+      {
+        "gate_id": "g000031",
+        "gate_type": "cz",
+        "qubits": [
+          0,
+          1
+        ],
+        "dependencies": [
+          "g000030"
+        ],
+        "logical_layer": 10
+      },
+      {
+        "gate_id": "g000032",
+        "gate_type": "cz",
+        "qubits": [
+          0,
+          2
+        ],
+        "dependencies": [
+          "g000007",
+          "g000031"
+        ],
+        "logical_layer": 11
+      },
+      {
+        "gate_id": "g000033",
+        "gate_type": "cz",
+        "qubits": [
+          0,
+          2
+        ],
+        "dependencies": [
+          "g000032"
+        ],
+        "logical_layer": 12
+      },
+      {
+        "gate_id": "g000034",
+        "gate_type": "cz",
+        "qubits": [
+          1,
+          2
+        ],
+        "dependencies": [
+          "g000031",
+          "g000033"
+        ],
+        "logical_layer": 13
+      },
+      {
+        "gate_id": "g000035",
+        "gate_type": "cz",
+        "qubits": [
+          1,
+          2
+        ],
+        "dependencies": [
+          "g000034"
+        ],
+        "logical_layer": 14
+      },
+      {
+        "gate_id": "g000036",
+        "gate_type": "cz",
+        "qubits": [
+          1,
+          8
+        ],
+        "dependencies": [
+          "g000023",
+          "g000035"
+        ],
+        "logical_layer": 17
+      },
+      {
+        "gate_id": "g000037",
+        "gate_type": "cz",
+        "qubits": [
+          1,
+          8
+        ],
+        "dependencies": [
+          "g000036"
+        ],
+        "logical_layer": 18
+      },
+      {
+        "gate_id": "g000038",
+        "gate_type": "cz",
+        "qubits": [
+          3,
+          8
+        ],
+        "dependencies": [
+          "g000027",
+          "g000037"
+        ],
+        "logical_layer": 21
+      },
+      {
+        "gate_id": "g000039",
+        "gate_type": "cz",
+        "qubits": [
+          3,
+          8
+        ],
+        "dependencies": [
+          "g000038"
+        ],
+        "logical_layer": 22
+      },
+      {
+        "gate_id": "g000040",
+        "gate_type": "cz",
+        "qubits": [
+          4,
+          9
+        ],
+        "dependencies": [
+          "g000015",
+          "g000029"
+        ],
+        "logical_layer": 13
+      },
+      {
+        "gate_id": "g000041",
+        "gate_type": "cz",
+        "qubits": [
+          4,
+          9
+        ],
+        "dependencies": [
+          "g000040"
+        ],
+        "logical_layer": 14
+      },
+      {
+        "gate_id": "g000042",
+        "gate_type": "cz",
+        "qubits": [
+          5,
+          9
+        ],
+        "dependencies": [
+          "g000009",
+          "g000041"
+        ],
+        "logical_layer": 15
+      },
+      {
+        "gate_id": "g000043",
+        "gate_type": "cz",
+        "qubits": [
+          5,
+          9
+        ],
+        "dependencies": [
+          "g000042"
+        ],
+        "logical_layer": 16
+      },
+      {
+        "gate_id": "g000044",
+        "gate_type": "cz",
+        "qubits": [
+          2,
+          5
+        ],
+        "dependencies": [
+          "g000035",
+          "g000043"
+        ],
+        "logical_layer": 17
+      },
+      {
+        "gate_id": "g000045",
+        "gate_type": "cz",
+        "qubits": [
+          2,
+          5
+        ],
+        "dependencies": [
+          "g000044"
+        ],
+        "logical_layer": 18
+      },
+      {
+        "gate_id": "g000046",
+        "gate_type": "cz",
+        "qubits": [
+          4,
+          5
+        ],
+        "dependencies": [
+          "g000041",
+          "g000045"
+        ],
+        "logical_layer": 19
+      },
+      {
+        "gate_id": "g000047",
+        "gate_type": "cz",
+        "qubits": [
+          4,
+          5
+        ],
+        "dependencies": [
+          "g000046"
+        ],
+        "logical_layer": 20
+      },
+      {
+        "gate_id": "g000048",
+        "gate_type": "cz",
+        "qubits": [
+          4,
+          7
+        ],
+        "dependencies": [
+          "g000027",
+          "g000047"
+        ],
+        "logical_layer": 21
+      },
+      {
+        "gate_id": "g000049",
+        "gate_type": "cz",
+        "qubits": [
+          4,
+          7
+        ],
+        "dependencies": [
+          "g000048"
+        ],
+        "logical_layer": 22
+      },
+      {
+        "gate_id": "g000050",
+        "gate_type": "cz",
+        "qubits": [
+          6,
+          7
+        ],
+        "dependencies": [
+          "g000025",
+          "g000049"
+        ],
+        "logical_layer": 23
+      },
+      {
+        "gate_id": "g000051",
+        "gate_type": "cz",
+        "qubits": [
+          6,
+          7
+        ],
+        "dependencies": [
+          "g000050"
+        ],
+        "logical_layer": 24
+      },
+      {
+        "gate_id": "g000052",
+        "gate_type": "cz",
+        "qubits": [
+          6,
+          8
+        ],
+        "dependencies": [
+          "g000039",
+          "g000051"
+        ],
+        "logical_layer": 25
+      },
+      {
+        "gate_id": "g000053",
+        "gate_type": "cz",
+        "qubits": [
+          6,
+          8
+        ],
+        "dependencies": [
+          "g000052"
+        ],
+        "logical_layer": 26
+      },
+      {
+        "gate_id": "g000054",
+        "gate_type": "cz",
+        "qubits": [
+          0,
+          9
+        ],
+        "dependencies": [
+          "g000033",
+          "g000043"
+        ],
+        "logical_layer": 17
+      },
+      {
+        "gate_id": "g000055",
+        "gate_type": "cz",
+        "qubits": [
+          0,
+          9
+        ],
+        "dependencies": [
+          "g000054"
+        ],
+        "logical_layer": 18
+      },
+      {
+        "gate_id": "g000056",
+        "gate_type": "cz",
+        "qubits": [
+          4,
+          9
+        ],
+        "dependencies": [
+          "g000049",
+          "g000055"
+        ],
+        "logical_layer": 23
+      },
+      {
+        "gate_id": "g000057",
+        "gate_type": "cz",
+        "qubits": [
+          4,
+          9
+        ],
+        "dependencies": [
+          "g000056"
+        ],
+        "logical_layer": 24
+      },
+      {
+        "gate_id": "g000058",
+        "gate_type": "cz",
+        "qubits": [
+          5,
+          9
+        ],
+        "dependencies": [
+          "g000047",
+          "g000057"
+        ],
+        "logical_layer": 25
+      },
+      {
+        "gate_id": "g000059",
+        "gate_type": "cz",
+        "qubits": [
+          5,
+          9
+        ],
+        "dependencies": [
+          "g000058"
+        ],
+        "logical_layer": 26
+      }
+    ]
+  },
+  "schedule": [
+    [
+      "Time 1",
+      [
+        [
+          0,
+          1
+        ],
+        [
+          3,
+          6
+        ]
+      ]
+    ],
+    [
+      "Time 2",
+      [
+        [
+          0,
+          1
+        ],
+        [
+          3,
+          6
+        ]
+      ]
+    ],
+    [
+      "Time 3",
+      [
+        [
+          0,
+          2
+        ],
+        [
+          3,
+          7
+        ]
+      ]
+    ],
+    [
+      "Time 4",
+      [
+        [
+          0,
+          2
+        ],
+        [
+          3,
+          7
+        ]
+      ]
+    ],
+    [
+      "Time 5",
+      [
+        [
+          1,
+          2
+        ],
+        [
+          0,
+          9
+        ]
+      ]
+    ],
+    [
+      "Time 6",
+      [
+        [
+          1,
+          2
+        ],
+        [
+          0,
+          9
+        ]
+      ]
+    ],
+    [
+      "Time 7",
+      [
+        [
+          2,
+          5
+        ],
+        [
+          1,
+          8
+        ]
+      ]
+    ],
+    [
+      "Time 8",
+      [
+        [
+          2,
+          5
+        ],
+        [
+          1,
+          8
+        ]
+      ]
+    ],
+    [
+      "Time 9",
+      [
+        [
+          4,
+          5
+        ],
+        [
+          3,
+          8
+        ],
+        [
+          0,
+          1
+        ]
+      ]
+    ],
+    [
+      "Time 10",
+      [
+        [
+          4,
+          5
+        ],
+        [
+          3,
+          8
+        ],
+        [
+          0,
+          1
+        ]
+      ]
+    ],
+    [
+      "Time 11",
+      [
+        [
+          4,
+          7
+        ],
+        [
+          0,
+          2
+        ]
+      ]
+    ],
+    [
+      "Time 12",
+      [
+        [
+          4,
+          7
+        ],
+        [
+          0,
+          2
+        ]
+      ]
+    ],
+    [
+      "Time 13",
+      [
+        [
+          6,
+          7
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          4,
+          9
+        ]
+      ]
+    ],
+    [
+      "Time 14",
+      [
+        [
+          6,
+          7
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          4,
+          9
+        ]
+      ]
+    ],
+    [
+      "Time 15",
+      [
+        [
+          6,
+          8
+        ],
+        [
+          5,
+          9
+        ]
+      ]
+    ],
+    [
+      "Time 16",
+      [
+        [
+          6,
+          8
+        ],
+        [
+          5,
+          9
+        ]
+      ]
+    ],
+    [
+      "Time 17",
+      [
+        [
+          3,
+          6
+        ],
+        [
+          1,
+          8
+        ],
+        [
+          2,
+          5
+        ],
+        [
+          0,
+          9
+        ]
+      ]
+    ],
+    [
+      "Time 18",
+      [
+        [
+          3,
+          6
+        ],
+        [
+          1,
+          8
+        ],
+        [
+          2,
+          5
+        ],
+        [
+          0,
+          9
+        ]
+      ]
+    ],
+    [
+      "Time 19",
+      [
+        [
+          3,
+          7
+        ],
+        [
+          4,
+          5
+        ]
+      ]
+    ],
+    [
+      "Time 20",
+      [
+        [
+          3,
+          7
+        ],
+        [
+          4,
+          5
+        ]
+      ]
+    ],
+    [
+      "Time 21",
+      [
+        [
+          3,
+          8
+        ],
+        [
+          4,
+          7
+        ]
+      ]
+    ],
+    [
+      "Time 22",
+      [
+        [
+          3,
+          8
+        ],
+        [
+          4,
+          7
+        ]
+      ]
+    ],
+    [
+      "Time 23",
+      [
+        [
+          6,
+          7
+        ],
+        [
+          4,
+          9
+        ]
+      ]
+    ],
+    [
+      "Time 24",
+      [
+        [
+          6,
+          7
+        ],
+        [
+          4,
+          9
+        ]
+      ]
+    ],
+    [
+      "Time 25",
+      [
+        [
+          6,
+          8
+        ],
+        [
+          5,
+          9
+        ]
+      ]
+    ],
+    [
+      "Time 26",
+      [
+        [
+          6,
+          8
+        ],
+        [
+          5,
+          9
+        ]
+      ]
+    ]
+  ],
+  "layout": [
+    [
+      [
+        6,
+        5
+      ],
+      [
+        5,
+        6
+      ]
+    ],
+    [
+      [
+        9,
+        0
+      ],
+      [
+        9,
+        2
+      ]
+    ],
+    [
+      [
+        9,
+        9
+      ],
+      [
+        8,
+        9
+      ]
+    ],
+    [
+      [
+        0,
+        4
+      ],
+      [
+        0,
+        5
+      ]
+    ],
+    [
+      [
+        4,
+        10
+      ],
+      [
+        2,
+        10
+      ]
+    ],
+    [
+      [
+        4,
+        1
+      ],
+      [
+        5,
+        0
+      ]
+    ]
+  ],
+  "geometry": {
+    "rows": 11,
+    "columns": 11,
+    "r_int": 2,
+    "r_blk": 4,
+    "spacing_um": 3.0
+  },
+  "baseline_options": {
+    "variant_name": "7_dynamic_slot_01q_move",
+    "enable_keep_adjacent": true,
+    "enable_one_qubit_move": true,
+    "candidate_slots_mode": "com_subset",
+    "pad_cost_matrix_to_square": false,
+    "assignment_mode": "hungarian",
+    "idle_parking_mode": "rft_greedy",
+    "evicted_park_closest_to_partner": false,
+    "enable_rft_hungarian_bias": false,
+    "rft_hungarian_bias_weight": 0.3,
+    "rft_hungarian_bias_max_time_dist": 3,
+    "random_seed": 42
+  },
+  "generator": {
+    "type": "genuine QAOA cost/mixer circuit",
+    "graph_seed": 910,
+    "degree": 3,
+    "edges": [
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        0,
+        9
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        1,
+        8
+      ],
+      [
+        2,
+        5
+      ],
+      [
+        3,
+        6
+      ],
+      [
+        3,
+        7
+      ],
+      [
+        3,
+        8
+      ],
+      [
+        4,
+        5
+      ],
+      [
+        4,
+        7
+      ],
+      [
+        4,
+        9
+      ],
+      [
+        5,
+        9
+      ],
+      [
+        6,
+        7
+      ],
+      [
+        6,
+        8
+      ]
+    ],
+    "p": 2,
+    "angles_gamma_beta": [
+      [
+        0.17,
+        0.23
+      ],
+      [
+        0.26,
+        0.30000000000000004
+      ]
+    ]
+  },
+  "original_path": "runs\\remaining_experiments_6h_v2\\inputs\\qaoa_n10_p2_g910\\original.qasm",
+  "normalized_path": "runs\\remaining_experiments_6h_v2\\inputs\\qaoa_n10_p2_g910\\normalized.qasm",
+  "original_sha256": "914f426403f2ed50ef59b1f789ae9ba03b270137bdc0ef3d55be59f289ff41e5",
+  "normalized_sha256": "58ce60d5539d37d39225f52f8ac4d77b3bf80b8de745052de5f76e897b014d60",
+  "circuit_sha256": "3feafb5ff980bceb64a9d6a766524bd7f1501ba1427329f689a7dcd00026ed2c",
+  "normalization_seconds": 0.026228200003970414,
+  "normalization": "pinned Qiskit1.3.1 opt0 CZ/H/S/T/RX/RY/RZ seed42; physical scope CZ only; original QASM preserved"
+}

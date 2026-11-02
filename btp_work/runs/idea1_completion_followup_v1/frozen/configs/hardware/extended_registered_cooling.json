@@ -1,0 +1,161 @@
+{
+  "schema_version": "movement_error_profile.phase03.v1",
+  "profile_id": "extended_registered_cooling.v1",
+  "scorer": "extended",
+  "computation_scope": "normalized_CZ_skeleton",
+  "movement": {
+    "family": "cubic",
+    "acceleration_um_per_us2": 0.001,
+    "speed_um_per_us": 0.55,
+    "velocity_cap_um_per_us": null,
+    "minimum_duration_us": 0.0
+  },
+  "heating": {
+    "law": "atomique_cubic",
+    "cyclic_frequency_khz": 80.0,
+    "x_zpf_um": 0.038,
+    "multiplier": 1.0,
+    "lambda": 0.109375,
+    "initial_n": 0.0,
+    "initial_n_by_qubit": {},
+    "loss_enabled": true,
+    "loss_capacity": 33.0,
+    "asymptotic_omega_T_min": 20.0
+  },
+  "noise": {
+    "f_cz": 0.995,
+    "cz_duration_us": 0.2,
+    "f_transfer": 0.999,
+    "transfer_duration_us": 20.0,
+    "f_h": 0.99992,
+    "h_duration_us": 0.625
+  },
+  "exposure": {
+    "T2_us": 1500000.0,
+    "T2_by_qubit_us": {},
+    "rates": {
+      "stationary": 1.0,
+      "move": 1.0,
+      "transfer": 1.0,
+      "gate": 1.0,
+      "cooling": 1.0
+    }
+  },
+  "cooling": {
+    "enabled": true,
+    "primitive": "registered_bank_two_cnot",
+    "threshold_n": 15.0,
+    "cold_n": 0.0,
+    "bank_count": 4,
+    "dock_offset_um": 3.0,
+    "bank_registration_us": 300.0,
+    "bank_preparation_us": 300.0,
+    "bank_storage_plane_pitch_um": 100.0,
+    "population": "entire_loaded_batch",
+    "sink_resource": "hot_sink",
+    "controller_resource": "cooling_controller"
+  },
+  "sources": [
+    {
+      "parameters": [
+        "noise.f_cz",
+        "noise.cz_duration_us",
+        "noise.transfer_duration_us",
+        "movement.speed_um_per_us",
+        "exposure.T2_us"
+      ],
+      "source": "Papers/3_DasAtom_A_Divide-and-Shuttle_Atom_Approach_to_Quantum_Circuit_Transformation.pdf, p7 Eqs3-5/TableI; pinned legacy code",
+      "certainty": "source baseline constants; extended all-time exposure is adaptation",
+      "original_units": "ns,us,s,um/us",
+      "conversion": "200ns=.2us;1.5s=1.5e6us"
+    },
+    {
+      "parameters": [
+        "noise.f_transfer"
+      ],
+      "source": "Papers/2_ZAP_Zoned_Architecture_and_Performant_Compiler_for_Field-Programmable_Atom_Array.pdf,p5 Table1",
+      "certainty": "source .999; combining with legacy20us is hypothetical cross-source analytical profile",
+      "original_units": "probability",
+      "conversion": "identity"
+    },
+    {
+      "parameters": [
+        "heating.cyclic_frequency_khz",
+        "heating.x_zpf_um",
+        "heating.loss_capacity",
+        "cooling.threshold_n",
+        "noise.f_h",
+        "noise.h_duration_us"
+      ],
+      "source": "Papers/4_ISCA59077.2024.00030.pdf,pp6-7 SecIV/TableI",
+      "certainty": "published analytical values, not RFT calibration",
+      "original_units": "kHz,nm,dimensionless,ns",
+      "conversion": "omega=2*pi*f*.001 rad/us;x=38nm=.038um;625ns=.625us"
+    },
+    {
+      "parameters": [
+        "heating.lambda"
+      ],
+      "source": "source_review/phase03_atomique/fpqa-revision-AE/hyperparams.py: lambd=.109375; paper prints .109",
+      "certainty": "author artifact coefficient; architecture adaptation uncalibrated",
+      "original_units": "dimensionless",
+      "conversion": "identity"
+    },
+    {
+      "parameters": [
+        "movement.acceleration_um_per_us2",
+        "movement.family"
+      ],
+      "source": "Atomique Fig12; Bluvstein2022 Methods motional heating; derivation6*15um/(300us)^2",
+      "certainty": "derived reference speed, not measured RFT acceleration",
+      "original_units": "um/us^2",
+      "conversion": ".001um/us^2=1000m/s^2"
+    },
+    {
+      "parameters": [
+        "heating.law"
+      ],
+      "source": "Atomique p6; Bluvstein2022 Methods Eqs1-2, DOI10.1038/s41586-022-04592-6",
+      "certainty": "approximate harmonic, high-omega*T, phase-averaged increment",
+      "original_units": "SI;converted consistently to um/us",
+      "conversion": "dimensionless n"
+    },
+    {
+      "parameters": [
+        "heating.initial_n",
+        "heating.initial_n_by_qubit",
+        "heating.multiplier",
+        "heating.loss_enabled",
+        "heating.asymptotic_omega_T_min",
+        "movement.velocity_cap_um_per_us",
+        "movement.minimum_duration_us",
+        "exposure.rates",
+        "exposure.T2_by_qubit_us",
+        "cooling.bank_registration_us",
+        "cooling.bank_preparation_us",
+        "cooling.bank_storage_plane_pitch_um",
+        "cooling.enabled",
+        "cooling.primitive",
+        "cooling.cold_n",
+        "cooling.bank_count",
+        "cooling.dock_offset_um",
+        "cooling.population",
+        "cooling.sink_resource",
+        "cooling.controller_resource"
+      ],
+      "source": "reports/phase_03/model_specification.md",
+      "certainty": "explicit Phase03 assumptions/sensitivity controls; no device calibration",
+      "original_units": "canonical units",
+      "conversion": "identity"
+    }
+  ],
+  "assumptions": [
+    "Analytical mixed-source RFT adaptation; not one calibrated physical device",
+    "No cooling on basic one-AOD RFT resources; threshold exceedance continues risk",
+    "Excess n reference starts at cold preparation; effective capacity approximates initial thermal state",
+    "All logical qubits exposed throughout elapsed execution, including motion/gates; no duplicate movement-decoherence factor",
+    "Normalized CZ skeleton only; original omitted one-qubit computation gates remain outside timing/scoring scope",
+    "Hypothetical extra hardware: four finite prepared cold banks (one atom per grid site per bank),3um docking offset,exclusive controller,hot sink; no refill; serial2CZ+4H per cooled atom and two parallel transfer substages",
+    "Banks begin in disjoint storage planes100um apart; each consumed bank costs300us registration plus300us isolated cold-state preparation before gates; durations are explicit hypothetical hardware requirements, not measured RFT capabilities"
+  ]
+}

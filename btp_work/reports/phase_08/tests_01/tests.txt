@@ -1,0 +1,10 @@
+test_factorial_effects_against_independent_saturated_linear_system (__main__.Acceptance.test_factorial_effects_against_independent_saturated_linear_system) ... ok
+test_grids_are_clusters_not_independent_circuits (__main__.Acceptance.test_grids_are_clusters_not_independent_circuits) ... ok
+test_new_primary_scores_are_paired_and_not_mixed_timers (__main__.Acceptance.test_new_primary_scores_are_paired_and_not_mixed_timers) ... ok
+test_old_studies_and_numeric_rebuild_are_unchanged (__main__.Acceptance.test_old_studies_and_numeric_rebuild_are_unchanged) ... ok
+test_sensitivity_and_fresh_environment_evidence (__main__.Acceptance.test_sensitivity_and_fresh_environment_evidence) ... ok
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.037s
+
+OK

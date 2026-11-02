@@ -1,0 +1,15 @@
+# D006: event-based lookahead with an exact legacy parking control
+
+Owner: Codex /root, 28 October 2026. User explicitly authorized researched Phase 04 implementation. Dependency: accepted Phase 03 analytical model, D004_PHASE03_MODEL_AND_DEPENDENCY. Phase 01 remains a separate reduced, user-controlled campaign under D005; this work neither resumes its old controller nor alters its new plan.
+
+The new implementation lives under implementation/lookahead. The pinned core is read by SHA256 and loaded into an isolated module with four checked hooks: layer entry, committed-batch snapshot, batch completion and legacy-table construction control. Only the parking callback changes for generalized policies. The original compiler file, layout sampler, synthesis, local heuristics, candidate sets, Hungarian assignment/orientation and router remain unchanged. Assignment future bias stays disabled. Full instructions and RNG states prove exact legacy compatibility.
+
+legacy_exact calls the original picker with unchanged arguments, preserving candidate order, current-distance term, cutoffs, anchors, fallback and even source current-layer behavior. next_events_h1/2/4/8 are distinct heuristic variants. They count gate occurrences rather than unique partners, consume completed gates across physical sub-batches and use current positions overlaid by committed active targets. No future chosen placement is read. Both initial idle placement and later eviction parking use this callback; this scope is explicit and can affect a case with no evictions.
+
+The proposal's positive discount preserves a single-anchor pure-distance minimizer, but that does not establish equality to the source implementation or its full schedules. The pilot therefore compares h>1 against both exact legacy and generalized h1. Equal weights and gamma=.9 are frozen without tuning. Critical-path weights and assignment extensions are not enabled.
+
+A declared two-trap-plane testing profile with one-spacing minimum clearance is identical across all pilot variants. This supplies explicit geometry for model validation, not measured native-device evidence. All accepted schedules are checked by the common independent validator, then retimed/evaluated through Phase 03. Original missing native geometry is not retroactively cleared.
+
+The pilot has no strict E improvement over legacy on its four tiny cases. It is an implementation/correctness pre-evaluation, not the final performance study. Changes to h1 and nonmonotonic h behavior are retained. Full improvements must be measured on matched accepted Phase 01 inputs, common validity/correction/profile/scoring and comparable timing regions.
+
+A concurrent Phase 01 stop guard changed baseline_campaign.py during development. Its archived pre-guard hash matches the starting snapshot and D005 authorizes that operational change. [Receipt](../phase_04/concurrent_controller_change.json). Phase 04 did not modify/revert it. The native worker, source plan and scientific implementation remain frozen. The user subsequently reported rerunning the reduced campaign; Phase 04 uses frozen inputs and separate short serial workers.

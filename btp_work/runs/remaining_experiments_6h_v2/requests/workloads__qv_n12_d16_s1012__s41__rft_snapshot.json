@@ -1,0 +1,13 @@
+{
+  "id": "workloads__qv_n12_d16_s1012__s41__rft_snapshot",
+  "suite": "workloads",
+  "kind": "compile",
+  "case_id": "qv_n12_d16_s1012",
+  "case_path": "runs\\remaining_experiments_6h_v2\\inputs\\qv_n12_d16_s1012\\case.json",
+  "seed": 41,
+  "variant": "rft_snapshot",
+  "grid": 11,
+  "timeout": 45,
+  "lookahead": "legacy_exact",
+  "assignment": "phase04_reference"
+}

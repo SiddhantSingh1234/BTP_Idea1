@@ -1,0 +1,60 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "neutral_atom_schedule.phase03.v1",
+  "title": "NEW Phase03 schedule envelope; source trace-v1 remains unchanged",
+  "type": "object",
+  "required": [
+    "schema_version",
+    "phase",
+    "operation",
+    "source_trace",
+    "source_trace_sha256",
+    "source_decisions_sha256",
+    "profile",
+    "profile_sha256",
+    "events",
+    "transform_log"
+  ],
+  "properties": {
+    "schema_version": {
+      "const": "neutral_atom_schedule.phase03.v1"
+    },
+    "phase": {
+      "const": "03"
+    },
+    "operation": {
+      "enum": [
+        "rescore",
+        "retime",
+        "retime_and_cool"
+      ]
+    },
+    "source_trace": {
+      "type": "object"
+    },
+    "source_trace_sha256": {
+      "type": "string",
+      "pattern": "^[0-9a-f]{64}$"
+    },
+    "source_decisions_sha256": {
+      "type": "string",
+      "pattern": "^[0-9a-f]{64}$"
+    },
+    "profile": {
+      "type": "object"
+    },
+    "profile_sha256": {
+      "type": "string",
+      "pattern": "^[0-9a-f]{64}$"
+    },
+    "events": {
+      "type": "array",
+      "items": {
+        "type": "object"
+      }
+    },
+    "transform_log": {
+      "type": "array"
+    }
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "status": "ready_for_user_launch",
+  "created_utc": "2026-10-28T18:26:53.812493+00:00",
+  "tests": {
+    "tests": 8,
+    "failures": 0,
+    "errors": 0,
+    "successful": true
+  },
+  "studies": [
+    {
+      "track": "phase3",
+      "study": "runs\\phase03_matched_benchmark_v1",
+      "targets": 132,
+      "manifest_sha256": "53d32398ed48187eab01c0b77f41e5b57f48ce23f82ded8a02a6b6c32fd880d7",
+      "state": "prepared_not_launched"
+    },
+    {
+      "track": "phase4",
+      "study": "runs\\phase04_matched_benchmark_v1",
+      "targets": 66,
+      "manifest_sha256": "3597ef451c55c497996846df154592db735af907320bff16fcdce1de76ab8909",
+      "state": "prepared_not_launched"
+    }
+  ],
+  "current_and_smoke_and_frozen_code_equal": true,
+  "artifact_sha256": {
+    "tools/model_comparison.py": "5e0116722e433fea12c23de2fe32593169b380596627761d96c860eedefcd74a",
+    "tools/model_comparison_worker.py": "3b514b4f05a593dd20dc34779ab286611f90a379c05304562a0617a378d9363d",
+    "tools/Start-ModelComparison.ps1": "4fca4feb026f12348a4ee6f5d033a13027300d18ef940b6cb70594d818a7a2ba",
+    "tests/model_comparison_acceptance.py": "501501ed1331dda0063c4d7d58821a88f3c8cf99a11f854d612d1c650ee28da7",
+    "reports/phase_04/benchmark_run_guide.md": "80a18b408d5408d4add990dd6ab80d5579a349334a1de76bde036b57094336d6"
+  },
+  "user_phase01_controller_observed_active": true,
+  "user_phase01_stopped_or_modified": false,
+  "new_full_benchmark_launched": false,
+  "limitations": [
+    "Analytical geometry/model; normalized CZ skeleton; cooling disabled",
+    "Full matrix and report analysis still pending; no selected best horizon"
+  ]
+}

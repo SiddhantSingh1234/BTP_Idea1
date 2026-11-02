@@ -1,0 +1,12 @@
+{
+  "id": "hardware__4mod5-v1_22__s41__parking_area_grid35",
+  "suite": "hardware",
+  "kind": "compile",
+  "case_id": "4mod5-v1_22",
+  "case_path": "runs\\remaining_experiments_6h_v2\\inputs\\4mod5-v1_22\\case.json",
+  "seed": 41,
+  "variant": "parking_area_grid35",
+  "timeout": 18,
+  "grid": 35,
+  "reference_id": "reference__4mod5-v1_22__s41"
+}

@@ -1,0 +1,24 @@
+{
+  "state": "selected_measurements_finished",
+  "controller_pid": 32568,
+  "suite": "all",
+  "started_utc": "2026-10-31T17:24:33.524618+00:00",
+  "analysis_will_run_automatically": false,
+  "current_cell": null,
+  "updated_utc": "2026-10-31T18:20:38.501698+00:00",
+  "spent_seconds": 11041.200025600032,
+  "remaining_seconds": 4921.155053799972,
+  "worker_pid": 5080,
+  "wall_seconds": 95.62032290000934,
+  "peak_working_set_bytes": 1028804608,
+  "last_status": "ok",
+  "planned_cells": 30,
+  "status_counts": {
+    "ok": 23,
+    "timeout": 7
+  },
+  "all_cells_terminal": true,
+  "new_accepted_schedules": 23,
+  "research_analysis_performed": false,
+  "reports_or_slides_built": false
+}

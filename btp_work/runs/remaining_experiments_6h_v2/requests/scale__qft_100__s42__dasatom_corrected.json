@@ -1,0 +1,11 @@
+{
+  "id": "scale__qft_100__s42__dasatom_corrected",
+  "suite": "scale",
+  "kind": "dasatom",
+  "case_id": "qft_100",
+  "case_path": "runs\\remaining_experiments_6h_v2\\inputs\\qft_100\\case.json",
+  "seed": 42,
+  "variant": "dasatom_corrected",
+  "grid": 11,
+  "timeout": 90
+}

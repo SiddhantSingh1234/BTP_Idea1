@@ -1,0 +1,13 @@
+{
+  "id": "assignment__qaoa_n8_p2_g702__s43__without_conflict",
+  "suite": "assignment",
+  "kind": "compile",
+  "case_id": "qaoa_n8_p2_g702",
+  "case_path": "runs\\remaining_experiments_6h_v2\\inputs\\qaoa_n8_p2_g702\\case.json",
+  "seed": 43,
+  "variant": "without_conflict",
+  "timeout": 18,
+  "grid": 11,
+  "reference_id": "reference__qaoa_n8_p2_g702__s43",
+  "remove_term": "conflict"
+}

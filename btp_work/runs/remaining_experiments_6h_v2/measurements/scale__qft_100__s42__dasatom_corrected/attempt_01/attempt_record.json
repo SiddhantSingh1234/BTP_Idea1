@@ -1,0 +1,48 @@
+{
+  "target_id": "scale__qft_100__s42__dasatom_corrected",
+  "command": [
+    "C:\\Users\\hp\\Documents\\BTP\\btp_work\\.venv\\Scripts\\python.exe",
+    "-B",
+    "-X",
+    "utf8",
+    "C:\\Users\\hp\\Documents\\BTP\\btp_work\\runs\\remaining_experiments_6h_v2\\frozen\\tools\\bounded_experiment_worker.py",
+    "--input",
+    "C:\\Users\\hp\\Documents\\BTP\\btp_work\\runs\\remaining_experiments_6h_v2\\requests\\scale__qft_100__s42__dasatom_corrected.json",
+    "--grid",
+    "11",
+    "--seed",
+    "42",
+    "--out",
+    "C:\\Users\\hp\\Documents\\BTP\\btp_work\\runs\\remaining_experiments_6h_v2\\measurements\\scale__qft_100__s42__dasatom_corrected\\attempt_01\\worker"
+  ],
+  "worker_sha256": "eef102d4fa88d37f2f4df0fd6efbdb8010a3f179331b74ba4599660525cdde88",
+  "router_sha256": "6b26c4db8213ac36ee43a860f4b46ad566cc7126c105a875631584f766e7e458",
+  "input_sha256": "6061371afbac7cb22009325c01c52085381b89c87746682a2bf3a1b04c9b2805",
+  "timeout_seconds": 90,
+  "memory_limit_bytes": 4294967296,
+  "attempt": 1,
+  "launcher_protocol": "windows-suspended-job-v1",
+  "launcher_sha256": "8eaf0a44bfb38fc240316c2103ab55c0658133ad46f7c90f55106a1830a61723",
+  "status": "timeout",
+  "process_exit_code": 1,
+  "process_wall_seconds": 90.16533099999651,
+  "peak_working_set_bytes": 296349696,
+  "memory_definition": "observed sum of family peak working sets; not allocation-proof hard cap",
+  "monitored_process_ids": [
+    7092,
+    34748
+  ],
+  "result": null,
+  "worker_artifact_sha256": {
+    "worker/native/metrics.json": "88d9e502e41270f184c529f7ea14de4048fcc77e7d13ba260fbb876280ffa737",
+    "worker/native/native_corrected.json": "e9f57ec2740923e76830963b0dab35e6575938901cb5ecb7e677e5ee79980c43",
+    "worker/native/result.json": "22d445eb6be778cf1776ced1c0a1188a73c8b644bc37fbe000b3d44bd6415efe",
+    "worker/native/stage.json": "d6ec5cb950384c8cb1676ca765b465a19a491705a2f6e2b5ff112544609997cd",
+    "worker/native/stdout.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "worker/native/validation.json": "27ab1f631534374e8f6d0b482497b0109fe99a8b19b7bea0940b0d7230070465",
+    "worker/native/trace/events.jsonl": "92c905cb21149624614849be0d8f8a76aacaa2f2b3e7815cc7ffa1cd7f92db1e",
+    "worker/native/trace/metadata.json": "480556c36e0c6ae19c0776eedb73ba97fddcafb4395d8afd5852cb2d80ae81cc"
+  },
+  "monitor_error": null,
+  "record_path": "runs\\remaining_experiments_6h_v2\\measurements\\scale__qft_100__s42__dasatom_corrected\\attempt_01\\attempt_record.json"
+}

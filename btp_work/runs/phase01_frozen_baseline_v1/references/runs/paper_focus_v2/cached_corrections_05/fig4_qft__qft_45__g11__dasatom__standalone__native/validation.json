@@ -1,0 +1,309 @@
+{
+  "status": "unsupported",
+  "structural_valid": true,
+  "violations": [],
+  "coverage": {
+    "checked": [
+      "CZ_gate_identity_and_dependencies",
+      "aod_order_equality_and_retained_carriers",
+      "endpoint_grid_bounds",
+      "final_mapping",
+      "gate_geometry",
+      "logical_carrier_mapping"
+    ],
+    "unsupported": [
+      "physical_minimum_separation"
+    ],
+    "not_applicable": [
+      "unintended_global_pulses"
+    ]
+  },
+  "fully_validated_within_model": false,
+  "source_physical_evidence_complete": false,
+  "unresolved_coincident_sites": [],
+  "model_assumptions": [
+    "SLM-to-AOD-to-SLM for nonzero movers; one concurrent load and unload stage per batch",
+    "Shared normalized linear progress; times derived from declared profile, not observed"
+  ],
+  "semantics": {
+    "level": "structural_CZ_only",
+    "full_original_circuit_checked": false,
+    "physical_output_slot_to_logical_qubit": [
+      3,
+      2,
+      1,
+      42,
+      43,
+      7,
+      37,
+      6,
+      38,
+      15,
+      17,
+      5,
+      0,
+      4,
+      40,
+      12,
+      11,
+      13,
+      14,
+      28,
+      16,
+      27,
+      41,
+      39,
+      44,
+      10,
+      23,
+      20,
+      31,
+      24,
+      25,
+      29,
+      30,
+      8,
+      9,
+      21,
+      34,
+      32,
+      33,
+      35,
+      36,
+      19,
+      26,
+      18,
+      22
+    ]
+  },
+  "final_positions": {
+    "a0": [
+      1,
+      1
+    ],
+    "a1": [
+      0,
+      2
+    ],
+    "a2": [
+      0,
+      1
+    ],
+    "a3": [
+      0,
+      0
+    ],
+    "a4": [
+      1,
+      2
+    ],
+    "a5": [
+      1,
+      0
+    ],
+    "a6": [
+      0,
+      7
+    ],
+    "a7": [
+      0,
+      5
+    ],
+    "a8": [
+      3,
+      0
+    ],
+    "a9": [
+      3,
+      1
+    ],
+    "a10": [
+      2,
+      3
+    ],
+    "a11": [
+      1,
+      5
+    ],
+    "a12": [
+      1,
+      4
+    ],
+    "a13": [
+      1,
+      6
+    ],
+    "a14": [
+      1,
+      7
+    ],
+    "a15": [
+      0,
+      9
+    ],
+    "a16": [
+      1,
+      9
+    ],
+    "a17": [
+      0,
+      10
+    ],
+    "a18": [
+      5,
+      4
+    ],
+    "a19": [
+      4,
+      6
+    ],
+    "a20": [
+      2,
+      5
+    ],
+    "a21": [
+      3,
+      2
+    ],
+    "a22": [
+      10,
+      0
+    ],
+    "a23": [
+      2,
+      4
+    ],
+    "a24": [
+      2,
+      7
+    ],
+    "a25": [
+      2,
+      8
+    ],
+    "a26": [
+      5,
+      2
+    ],
+    "a27": [
+      1,
+      10
+    ],
+    "a28": [
+      1,
+      8
+    ],
+    "a29": [
+      2,
+      9
+    ],
+    "a30": [
+      2,
+      10
+    ],
+    "a31": [
+      2,
+      6
+    ],
+    "a32": [
+      3,
+      4
+    ],
+    "a33": [
+      3,
+      6
+    ],
+    "a34": [
+      3,
+      3
+    ],
+    "a35": [
+      4,
+      0
+    ],
+    "a36": [
+      4,
+      1
+    ],
+    "a37": [
+      0,
+      6
+    ],
+    "a38": [
+      0,
+      8
+    ],
+    "a39": [
+      2,
+      1
+    ],
+    "a40": [
+      1,
+      3
+    ],
+    "a41": [
+      2,
+      0
+    ],
+    "a42": [
+      0,
+      3
+    ],
+    "a43": [
+      0,
+      4
+    ],
+    "a44": [
+      2,
+      2
+    ]
+  },
+  "final_logical_mapping": {
+    "a0": 0,
+    "a1": 1,
+    "a2": 2,
+    "a3": 3,
+    "a4": 4,
+    "a5": 5,
+    "a6": 6,
+    "a7": 7,
+    "a8": 8,
+    "a9": 9,
+    "a10": 10,
+    "a11": 11,
+    "a12": 12,
+    "a13": 13,
+    "a14": 14,
+    "a15": 15,
+    "a16": 16,
+    "a17": 17,
+    "a18": 18,
+    "a19": 19,
+    "a20": 20,
+    "a21": 21,
+    "a22": 22,
+    "a23": 23,
+    "a24": 24,
+    "a25": 25,
+    "a26": 26,
+    "a27": 27,
+    "a28": 28,
+    "a29": 29,
+    "a30": 30,
+    "a31": 31,
+    "a32": 32,
+    "a33": 33,
+    "a34": 34,
+    "a35": 35,
+    "a36": 36,
+    "a37": 37,
+    "a38": 38,
+    "a39": 39,
+    "a40": 40,
+    "a41": 41,
+    "a42": 42,
+    "a43": 43,
+    "a44": 44
+  },
+  "observed_gate_count": 2046
+}

@@ -1,0 +1,21 @@
+# Phase 04 source research and citations
+
+NEW Phase 04 work by Codex /root, 28 October 2026. The papers in Papers and the proposal are primary inputs. Intern_Report was excluded. No vendor code or research source was edited.
+
+| Source | Material checked and consequence |
+| --- | --- |
+| Priyanshu and Aditya, RFT manuscript | [Local PDF](../../../Papers/Priyanshu_Aditya_ISVLSI2026_AK_O.pdf), Sections III-C/E, pp. 3-4, RFT recurrence and Eq. 6. [Rendered p. 3](../../runs/phase_04/research/Priyanshu_page_3.png), [p. 4](../../runs/phase_04/research/Priyanshu_page_4.png). Pure future-distance eviction and symbolic future positions do not supply a realizable future-placement oracle. |
+| BTP proposal | [Local PDF](../../../Proposal/BTP_Research_Proposal.pdf), Idea 1 Step 2, p. 2. Defines the next-h weighted parking objective. Its h1 equivalence statement requires the qualification in C1. |
+| Pinned RFT implementation | [compiler_core.py](../../vendor/NAQC_Compiler-3d1f09233c2acd357fd9fbfad1b5300a921d301a/src/compiler_core.py), functions build_right_filled_table, _pick_idle_position, generate_hardware_instructions. SHA25624651482cf223c1a84d0aeecb1493ee2024e25c2da9bebd37d035023e3ff71bb. This implementation, rather than an assumed paper variant, defines legacy_exact. |
+| Tan, Lin and Cong, Enola | [Local PDF](../../../Papers/5_3658617.3697778.pdf), Section 4, Eq. 2, p. 4; [render](../../runs/phase_04/research/5_page_4.png). Weighted Euclidean placement is a heuristic because routed time depends on concurrency. Enola's stage weights and annealing are prior work; they are not imported as a new RFT algorithm. |
+| Huang et al., ZAP | [Local PDF](../../../Papers/2_ZAP_Zoned_Architecture_and_Performant_Compiler_for_Field-Programmable_Atom_Array.pdf), stage-wise placement, pp. 7-8, Eqs. 12-17; [p. 7 render](../../runs/phase_04/research/2_page_7.png), [p. 8](../../runs/phase_04/research/2_page_8.png). Next reuse informs idle management, with committed-vector conflict estimates. Its global-pulse/zoned architecture is not assumed for RFT. |
+| Li, Ding and Xie, SABRE, ASPLOS 2019 | Additional primary reference: [arXiv1809.02573v2](https://arxiv.org/html/1809.02573v2), Section IV-D. Bounded successor costs are established prior work and distant mappings are uncertain. This motivates a modest horizon; the superconducting SWAP mechanism and its numeric settings are not imported. |
+| Shared source audit/contracts | [C1](../../source_review/SOURCE_REVIEW.md), [technical contract](../../plan/TECHNICAL_CONTRACTS.md), [Phase 03 handoff](../../handoffs/phase_03.md). These require explicit legacy equivalence, honest model scope and shared evaluation. |
+
+The code stores the next occurrence per pair, so its table can already list multiple distinct partners. The picker chooses only the nearest-in-time entry, optionally sums current distance, and applies finite cutoffs. It also sees a current-layer entry after an earlier serialized batch has executed it. The new feature is an occurrence-based query with explicit consumed/active semantics, not the claim that the old data structure knew only one partner.
+
+The chosen anchors are a frozen current/committed-active snapshot. Input gate identities and dependencies are known, but future chosen placements are not. Generalized h1 agrees with pure-distance minimization only under a common available anchor/candidate/tie convention. It intentionally need not reproduce the source's current-distance/cutoff/fallback behavior.
+
+No dense all-pairs-by-layer feature is introduced. Sparse event-list queries are compared with an independent scan on all 1,000 three-layer four-qubit matching schedules, covering 121,600 queries. Repeated partners, empty layers, pending current-layer gates, active gates and consumed earlier sub-batches are included. Existing source behavior is separately reproduced exactly.
+
+The fixed gamma=.9/equal weights are untuned implementation choices, not source-calibrated optima. Initial idle parking and eviction parking both use the new score. The shared evaluator, rather than the distance surrogate, decides the reported E. Larger h is allowed to worsen E. General lookahead alone is not a novelty claim; the prior audit also identified future-biased logic in the existing source.

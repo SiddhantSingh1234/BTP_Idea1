@@ -1,0 +1,7 @@
+{
+  "status": "installed_smoke_tested",
+  "manuscript_interpreter": "3.13.2",
+  "research_interpreter": "3.13.2",
+  "environment": "configs/environment/environment.json",
+  "tested_dependency_lock": "configs/environment/requirements-py313-win64.lock"
+}

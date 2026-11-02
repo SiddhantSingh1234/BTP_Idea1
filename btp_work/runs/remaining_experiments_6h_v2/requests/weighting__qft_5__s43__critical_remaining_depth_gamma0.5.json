@@ -1,0 +1,14 @@
+{
+  "id": "weighting__qft_5__s43__critical_remaining_depth_gamma0.5",
+  "suite": "weighting",
+  "kind": "compile",
+  "case_id": "qft_5",
+  "case_path": "runs\\remaining_experiments_6h_v2\\inputs\\qft_5\\case.json",
+  "seed": 43,
+  "variant": "critical_remaining_depth_gamma0.5",
+  "timeout": 18,
+  "grid": 11,
+  "reference_id": "reference__qft_5__s43",
+  "weight_mode": "critical_remaining_depth",
+  "gamma": 0.5
+}

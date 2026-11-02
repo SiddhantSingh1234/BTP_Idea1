@@ -1,0 +1,13 @@
+{
+  "id": "assignment__qaoa_n6_p2_g701__s42__without_transfer",
+  "suite": "assignment",
+  "kind": "compile",
+  "case_id": "qaoa_n6_p2_g701",
+  "case_path": "runs\\remaining_experiments_6h_v2\\inputs\\qaoa_n6_p2_g701\\case.json",
+  "seed": 42,
+  "variant": "without_transfer",
+  "timeout": 18,
+  "grid": 11,
+  "reference_id": "reference__qaoa_n6_p2_g701__s42",
+  "remove_term": "transfer"
+}

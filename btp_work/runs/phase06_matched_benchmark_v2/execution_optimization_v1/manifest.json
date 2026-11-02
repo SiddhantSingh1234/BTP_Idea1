@@ -1,0 +1,29 @@
+{
+  "schema": "phase06-execution-memory-revision.v1",
+  "created_utc": "2026-10-29T19:03:02.784126+00:00",
+  "parent_manifest_sha256": "d88f8757de3f5c22649cd2b7f842419434c2b3d7f09a867a7eb45658104af918",
+  "revision_id": "phase06_memory.context_release.v1",
+  "files": {
+    "tools/model_comparison.py": "fb6df570a418a8bd24dc11f7c0d19c8455290bfd16950665c117b19144797b5f",
+    "tools/model_comparison_worker.py": "09ad867633504ee9cf8535c5e8352207892bb3f3befa7d87a10e779d82130da6",
+    "tools/phase06_comparison_worker.py": "b31e769ae629483ebc52da6547252a7896456605ed534dc8ea83c09810b09bf8",
+    "tools/phase06_memory.py": "3df6b6483b04ca752cdc4394345bd280afcca7e76e4489f2b1c5e0d251054ed4"
+  },
+  "scientific_sources_unchanged": true,
+  "memory_limit_bytes": 4294967296,
+  "changes": [
+    "lossless immutable snapshot sharing",
+    "streaming JSON/hash",
+    "optional already-discarded event audit suppressed",
+    "finished replay contexts detached",
+    "prior budget bundle references released"
+  ],
+  "unchanged": [
+    "candidate budgets/order",
+    "full replay/validation",
+    "strict full-E acceptance",
+    "profile/geometry",
+    "original Phase05 routing RNG state",
+    "complete saved prefix evidence"
+  ]
+}

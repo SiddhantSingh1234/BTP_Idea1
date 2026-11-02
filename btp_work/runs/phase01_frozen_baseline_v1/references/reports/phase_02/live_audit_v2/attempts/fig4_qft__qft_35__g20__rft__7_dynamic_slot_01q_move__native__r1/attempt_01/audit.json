@@ -1,0 +1,32 @@
+{
+  "job_id": "fig4_qft__qft_35__g20__rft__7_dynamic_slot_01q_move__native__r1",
+  "attempt": 1,
+  "algorithm": "rft",
+  "repetition": 1,
+  "source_status": "ok",
+  "source_diagnostic_status": "ok",
+  "record_path": "runs\\current_baseline\\study_v1\\attempts\\fig4_qft__qft_35__g20__rft__7_dynamic_slot_01q_move__native__r1\\attempt_01\\attempt_record.json",
+  "record_sha256": "1a3f1af37e5df8c8bda0ff24db80cd954741d9a201bf2c73571fb367ff7e115c",
+  "audited_utc": "2026-10-28T06:06:03.435275+00:00",
+  "adapter_error": false,
+  "legacy_all_match": true,
+  "saved_final_mapping_matches": true,
+  "evidence_status": "unsupported",
+  "paper_batch_policy_status": "unsupported",
+  "missing_artifacts": [],
+  "frozen_contract_matches": true,
+  "coverage": "trace_audited",
+  "paper_batch_violation_codes": [],
+  "source_boundary_errors": [],
+  "evidence_violation_codes": [],
+  "unsupported": [
+    "continuous_trajectory",
+    "gate_trap_prerequisites",
+    "physical_minimum_separation",
+    "timing_and_resources",
+    "transfer_prerequisites",
+    "trap_ownership"
+  ],
+  "original_register_complete": true,
+  "eligible_as_physically_validated_baseline": false
+}

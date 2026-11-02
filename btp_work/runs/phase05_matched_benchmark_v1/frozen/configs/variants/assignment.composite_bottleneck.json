@@ -1,0 +1,23 @@
+{
+  "schema_version": "assignment_options.phase05.v1",
+  "mode": "oriented",
+  "metric": "composite",
+  "objective": "bottleneck_sum",
+  "candidate_policy": "com",
+  "expansion_factor": 2,
+  "weights": {
+    "distance": 1,
+    "conflict": 1,
+    "transfer": 1,
+    "heating": 1,
+    "future": 0.25
+  },
+  "normalizers": {
+    "distance_um": 15,
+    "conflict": 1,
+    "transfer_events": 4,
+    "error_E": 0.01
+  },
+  "include_displacements": false,
+  "variant_id": "composite_bottleneck"
+}
